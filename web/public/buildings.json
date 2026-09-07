@@ -1,0 +1,2391 @@
+{
+  "version": "map-v8-gate",
+  "coordinateSystem": "Three.js Y-up, north = -Z",
+  "buildings": [
+    {
+      "id": "1",
+      "name": "留学生公寓",
+      "position": [
+        -419.20000000000005,
+        34.25,
+        -639.2
+      ],
+      "source": "map",
+      "category": "building",
+      "mapPixel": [
+        676.0,
+        201.0
+      ]
+    },
+    {
+      "id": "2",
+      "name": "配电房（北区）",
+      "position": [
+        -505.6,
+        8.25,
+        -487.20000000000005
+      ],
+      "source": "map",
+      "category": "building",
+      "mapPixel": [
+        568.0,
+        391.0
+      ]
+    },
+    {
+      "id": "3",
+      "name": "北区体育馆",
+      "position": [
+        -460.8,
+        11.5,
+        -509.6
+      ],
+      "source": "map",
+      "category": "building",
+      "mapPixel": [
+        624.0,
+        363.0
+      ]
+    },
+    {
+      "id": "5",
+      "name": "北区食堂",
+      "position": [
+        -351.20000000000005,
+        11.5,
+        -514.4
+      ],
+      "source": "map",
+      "category": "building",
+      "mapPixel": [
+        761.0,
+        357.0
+      ]
+    },
+    {
+      "id": "6N",
+      "name": "北区浴室",
+      "position": [
+        -313.6,
+        11.5,
+        -452.0
+      ],
+      "source": "map",
+      "category": "building",
+      "mapPixel": [
+        808.0,
+        435.0
+      ]
+    },
+    {
+      "id": "7",
+      "name": "仓库",
+      "position": [
+        -364.8,
+        11.5,
+        -272.0
+      ],
+      "source": "map",
+      "category": "building",
+      "mapPixel": [
+        744.0,
+        660.0
+      ]
+    },
+    {
+      "id": "8",
+      "name": "化学西楼",
+      "position": [
+        -354.40000000000003,
+        18.0,
+        -220.0
+      ],
+      "source": "map",
+      "category": "building",
+      "mapPixel": [
+        757.0,
+        725.0
+      ]
+    },
+    {
+      "id": "9",
+      "name": "现代物理所",
+      "position": [
+        -298.40000000000003,
+        18.0,
+        -255.20000000000002
+      ],
+      "source": "map",
+      "category": "building",
+      "mapPixel": [
+        827.0,
+        681.0
+      ]
+    },
+    {
+      "id": "10",
+      "name": "环境科学与工程系",
+      "position": [
+        -236.0,
+        18.0,
+        -255.20000000000002
+      ],
+      "source": "map",
+      "category": "building",
+      "mapPixel": [
+        905.0,
+        681.0
+      ]
+    },
+    {
+      "id": "11",
+      "name": "材料一楼",
+      "position": [
+        -270.40000000000003,
+        14.75,
+        -222.4
+      ],
+      "source": "map",
+      "category": "building",
+      "mapPixel": [
+        862.0,
+        722.0
+      ]
+    },
+    {
+      "id": "12",
+      "name": "材料二楼",
+      "position": [
+        -231.20000000000002,
+        14.75,
+        -227.20000000000002
+      ],
+      "source": "map",
+      "category": "building",
+      "mapPixel": [
+        911.0,
+        716.0
+      ]
+    },
+    {
+      "id": "13",
+      "name": "沐英楼",
+      "position": [
+        -202.4,
+        14.75,
+        -227.20000000000002
+      ],
+      "source": "map",
+      "category": "building",
+      "mapPixel": [
+        947.0,
+        716.0
+      ]
+    },
+    {
+      "id": "14",
+      "name": "逸夫科技楼",
+      "position": [
+        -208.0,
+        37.5,
+        -198.4
+      ],
+      "source": "map",
+      "category": "building",
+      "mapPixel": [
+        940.0,
+        752.0
+      ]
+    },
+    {
+      "id": "15",
+      "name": "遗传楼",
+      "position": [
+        -164.0,
+        18.0,
+        -286.40000000000003
+      ],
+      "source": "map",
+      "category": "building",
+      "mapPixel": [
+        995.0,
+        642.0
+      ]
+    },
+    {
+      "id": "16",
+      "name": "逸夫楼",
+      "position": [
+        -120.0,
+        24.5,
+        -255.20000000000002
+      ],
+      "source": "map",
+      "category": "building",
+      "mapPixel": [
+        1050.0,
+        681.0
+      ]
+    },
+    {
+      "id": "17",
+      "name": "第四教学楼",
+      "position": [
+        -154.4,
+        14.75,
+        -204.0
+      ],
+      "source": "map",
+      "category": "building",
+      "mapPixel": [
+        1007.0,
+        745.0
+      ]
+    },
+    {
+      "id": "18",
+      "name": "跃进楼",
+      "position": [
+        -56.800000000000004,
+        18.0,
+        -287.2
+      ],
+      "source": "map",
+      "category": "building",
+      "mapPixel": [
+        1129.0,
+        641.0
+      ]
+    },
+    {
+      "id": "19",
+      "name": "科学楼",
+      "position": [
+        -39.2,
+        18.0,
+        -265.6
+      ],
+      "source": "map",
+      "category": "building",
+      "mapPixel": [
+        1151.0,
+        668.0
+      ]
+    },
+    {
+      "id": "20",
+      "name": "恒隆物理楼",
+      "position": [
+        -40.0,
+        21.25,
+        -202.4
+      ],
+      "source": "map",
+      "category": "building",
+      "mapPixel": [
+        1150.0,
+        747.0
+      ]
+    },
+    {
+      "id": "21",
+      "name": "袁成英计算机楼",
+      "position": [
+        23.200000000000003,
+        18.0,
+        -286.40000000000003
+      ],
+      "source": "map",
+      "category": "building",
+      "mapPixel": [
+        1229.0,
+        642.0
+      ]
+    },
+    {
+      "id": "22",
+      "name": "计算中心",
+      "position": [
+        32.0,
+        18.0,
+        -243.20000000000002
+      ],
+      "source": "map",
+      "category": "building",
+      "mapPixel": [
+        1240.0,
+        696.0
+      ]
+    },
+    {
+      "id": "23",
+      "name": "生物二楼",
+      "position": [
+        33.6,
+        18.0,
+        -203.20000000000002
+      ],
+      "source": "map",
+      "category": "building",
+      "mapPixel": [
+        1242.0,
+        746.0
+      ]
+    },
+    {
+      "id": "24",
+      "name": "微电子学研究所",
+      "position": [
+        73.60000000000001,
+        18.0,
+        -283.2
+      ],
+      "source": "map",
+      "category": "building",
+      "mapPixel": [
+        1292.0,
+        646.0
+      ]
+    },
+    {
+      "id": "25",
+      "name": "先进材料实验室",
+      "position": [
+        128.0,
+        18.0,
+        -277.6
+      ],
+      "source": "map",
+      "category": "building",
+      "mapPixel": [
+        1360.0,
+        653.0
+      ]
+    },
+    {
+      "id": "5E",
+      "name": "东侧食堂",
+      "position": [
+        230.4,
+        11.5,
+        -280.0
+      ],
+      "source": "map",
+      "category": "building",
+      "mapPixel": [
+        1488.0,
+        650.0
+      ]
+    },
+    {
+      "id": "6M",
+      "name": "浴室（主校区）",
+      "position": [
+        136.0,
+        8.25,
+        -295.2
+      ],
+      "source": "map",
+      "category": "building",
+      "mapPixel": [
+        1370.0,
+        631.0
+      ]
+    },
+    {
+      "id": "27",
+      "name": "光华楼",
+      "position": [
+        131.20000000000002,
+        81.6,
+        -224.8
+      ],
+      "source": "map",
+      "category": "building",
+      "mapPixel": [
+        1364.0,
+        719.0
+      ]
+    },
+    {
+      "id": "29",
+      "name": "相辉堂",
+      "position": [
+        -308.8,
+        12.34,
+        -176.8
+      ],
+      "source": "map",
+      "category": "building",
+      "mapPixel": [
+        814.0,
+        779.0
+      ]
+    },
+    {
+      "id": "30",
+      "name": "景莱堂（300号）",
+      "position": [
+        -334.40000000000003,
+        12.596,
+        -148.8
+      ],
+      "source": "map",
+      "category": "building",
+      "mapPixel": [
+        782.0,
+        814.0
+      ]
+    },
+    {
+      "id": "31",
+      "name": "简公堂（200号）",
+      "position": [
+        -328.8,
+        12.852,
+        -116.0
+      ],
+      "source": "map",
+      "category": "building",
+      "mapPixel": [
+        789.0,
+        855.0
+      ]
+    },
+    {
+      "id": "32",
+      "name": "相伯堂",
+      "position": [
+        -321.6,
+        12.852,
+        -81.60000000000001
+      ],
+      "source": "map",
+      "category": "building",
+      "mapPixel": [
+        798.0,
+        898.0
+      ]
+    },
+    {
+      "id": "33",
+      "name": "校歌楼（900号）",
+      "position": [
+        -359.20000000000005,
+        11.828,
+        -156.8
+      ],
+      "source": "map",
+      "category": "building",
+      "mapPixel": [
+        751.0,
+        804.0
+      ]
+    },
+    {
+      "id": "34",
+      "name": "文物与博物馆系（800号）",
+      "position": [
+        -348.0,
+        12.084,
+        -110.4
+      ],
+      "source": "map",
+      "category": "building",
+      "mapPixel": [
+        765.0,
+        862.0
+      ]
+    },
+    {
+      "id": "35",
+      "name": "750号",
+      "position": [
+        -347.20000000000005,
+        12.34,
+        -88.0
+      ],
+      "source": "map",
+      "category": "building",
+      "mapPixel": [
+        766.0,
+        890.0
+      ]
+    },
+    {
+      "id": "36",
+      "name": "射击场",
+      "position": [
+        -369.6,
+        8.25,
+        -123.2
+      ],
+      "source": "map",
+      "category": "building",
+      "mapPixel": [
+        738.0,
+        846.0
+      ]
+    },
+    {
+      "id": "37",
+      "name": "运动场馆",
+      "position": [
+        -362.40000000000003,
+        13.364,
+        -75.2
+      ],
+      "source": "map",
+      "category": "building",
+      "mapPixel": [
+        747.0,
+        906.0
+      ]
+    },
+    {
+      "id": "38",
+      "name": "校医院",
+      "position": [
+        -311.20000000000005,
+        14.75,
+        -56.0
+      ],
+      "source": "map",
+      "category": "building",
+      "mapPixel": [
+        811.0,
+        930.0
+      ]
+    },
+    {
+      "id": "39",
+      "name": "校史馆（荣柱堂）",
+      "position": [
+        -289.6,
+        12.596,
+        -61.6
+      ],
+      "source": "map",
+      "category": "building",
+      "mapPixel": [
+        838.0,
+        923.0
+      ]
+    },
+    {
+      "id": "40",
+      "name": "力学实验室",
+      "position": [
+        -277.6,
+        14.75,
+        -36.0
+      ],
+      "source": "map",
+      "category": "building",
+      "mapPixel": [
+        853.0,
+        955.0
+      ]
+    },
+    {
+      "id": "42",
+      "name": "寒冰馆（500号）",
+      "position": [
+        -258.40000000000003,
+        12.34,
+        -176.8
+      ],
+      "source": "map",
+      "category": "building",
+      "mapPixel": [
+        877.0,
+        779.0
+      ]
+    },
+    {
+      "id": "43",
+      "name": "子彬院",
+      "position": [
+        -255.20000000000002,
+        11.5,
+        -144.8
+      ],
+      "source": "map",
+      "category": "building",
+      "mapPixel": [
+        881.0,
+        819.0
+      ]
+    },
+    {
+      "id": "44",
+      "name": "电光源研究所",
+      "position": [
+        -207.20000000000002,
+        14.75,
+        -146.4
+      ],
+      "source": "map",
+      "category": "building",
+      "mapPixel": [
+        941.0,
+        817.0
+      ]
+    },
+    {
+      "id": "45",
+      "name": "兴业光学楼",
+      "position": [
+        -167.20000000000002,
+        14.75,
+        -154.4
+      ],
+      "source": "map",
+      "category": "building",
+      "mapPixel": [
+        991.0,
+        807.0
+      ]
+    },
+    {
+      "id": "46",
+      "name": "第一教学楼",
+      "position": [
+        -167.20000000000002,
+        14.75,
+        -116.0
+      ],
+      "source": "map",
+      "category": "building",
+      "mapPixel": [
+        991.0,
+        855.0
+      ]
+    },
+    {
+      "id": "47",
+      "name": "外事处",
+      "position": [
+        -241.60000000000002,
+        14.75,
+        -72.8
+      ],
+      "source": "map",
+      "category": "building",
+      "mapPixel": [
+        898.0,
+        909.0
+      ]
+    },
+    {
+      "id": "48",
+      "name": "日研中心",
+      "position": [
+        -225.60000000000002,
+        16.102,
+        -53.6
+      ],
+      "source": "map",
+      "category": "building",
+      "mapPixel": [
+        918.0,
+        933.0
+      ]
+    },
+    {
+      "id": "49",
+      "name": "燕园建筑",
+      "position": [
+        -216.8,
+        12.34,
+        -32.0
+      ],
+      "source": "map",
+      "category": "building",
+      "mapPixel": [
+        929.0,
+        960.0
+      ]
+    },
+    {
+      "id": "50",
+      "name": "档案馆",
+      "position": [
+        -196.8,
+        14.75,
+        -73.60000000000001
+      ],
+      "source": "map",
+      "category": "building",
+      "mapPixel": [
+        954.0,
+        908.0
+      ]
+    },
+    {
+      "id": "51",
+      "name": "综合办公楼",
+      "position": [
+        -165.60000000000002,
+        21.25,
+        -65.60000000000001
+      ],
+      "source": "map",
+      "category": "building",
+      "mapPixel": [
+        993.0,
+        918.0
+      ]
+    },
+    {
+      "id": "52",
+      "name": "保卫处",
+      "position": [
+        -141.6,
+        11.5,
+        -44.800000000000004
+      ],
+      "source": "map",
+      "category": "building",
+      "mapPixel": [
+        1023.0,
+        944.0
+      ]
+    },
+    {
+      "id": "53",
+      "name": "留学生办公室",
+      "position": [
+        -139.20000000000002,
+        12.596,
+        -26.400000000000002
+      ],
+      "source": "map",
+      "category": "building",
+      "mapPixel": [
+        1026.0,
+        967.0
+      ]
+    },
+    {
+      "id": "55",
+      "name": "化学楼",
+      "position": [
+        -97.60000000000001,
+        21.25,
+        -160.8
+      ],
+      "source": "map",
+      "category": "building",
+      "mapPixel": [
+        1078.0,
+        799.0
+      ]
+    },
+    {
+      "id": "56",
+      "name": "理科图书馆",
+      "position": [
+        -96.80000000000001,
+        21.25,
+        -80.80000000000001
+      ],
+      "source": "map",
+      "category": "building",
+      "mapPixel": [
+        1079.0,
+        899.0
+      ]
+    },
+    {
+      "id": "59",
+      "name": "生命科学楼",
+      "position": [
+        20.0,
+        21.25,
+        -159.20000000000002
+      ],
+      "source": "map",
+      "category": "building",
+      "mapPixel": [
+        1225.0,
+        801.0
+      ]
+    },
+    {
+      "id": "60",
+      "name": "第三教学楼",
+      "position": [
+        21.6,
+        18.0,
+        -108.80000000000001
+      ],
+      "source": "map",
+      "category": "building",
+      "mapPixel": [
+        1227.0,
+        864.0
+      ]
+    },
+    {
+      "id": "61",
+      "name": "第二教学楼",
+      "position": [
+        20.0,
+        18.0,
+        -68.8
+      ],
+      "source": "map",
+      "category": "building",
+      "mapPixel": [
+        1225.0,
+        914.0
+      ]
+    },
+    {
+      "id": "63",
+      "name": "邮局",
+      "position": [
+        -96.80000000000001,
+        8.25,
+        -16.0
+      ],
+      "source": "map",
+      "category": "building",
+      "mapPixel": [
+        1079.0,
+        980.0
+      ]
+    },
+    {
+      "id": "64",
+      "name": "复旦礼品店（卿云轩）",
+      "position": [
+        -68.0,
+        8.25,
+        -15.200000000000001
+      ],
+      "source": "map",
+      "category": "building",
+      "mapPixel": [
+        1115.0,
+        981.0
+      ]
+    },
+    {
+      "id": "66",
+      "name": "中国农业银行",
+      "position": [
+        -14.4,
+        8.25,
+        -12.8
+      ],
+      "source": "map",
+      "category": "building",
+      "mapPixel": [
+        1182.0,
+        984.0
+      ]
+    },
+    {
+      "id": "70",
+      "name": "宿舍四号楼",
+      "position": [
+        94.4,
+        18.0,
+        -103.2
+      ],
+      "source": "map",
+      "category": "building",
+      "mapPixel": [
+        1318.0,
+        871.0
+      ]
+    },
+    {
+      "id": "71",
+      "name": "宿舍六号楼",
+      "position": [
+        158.4,
+        18.0,
+        -102.4
+      ],
+      "source": "map",
+      "category": "building",
+      "mapPixel": [
+        1398.0,
+        872.0
+      ]
+    },
+    {
+      "id": "72",
+      "name": "宿舍三号楼",
+      "position": [
+        94.4,
+        18.0,
+        -72.0
+      ],
+      "source": "map",
+      "category": "building",
+      "mapPixel": [
+        1318.0,
+        910.0
+      ]
+    },
+    {
+      "id": "73",
+      "name": "宿舍二号楼",
+      "position": [
+        157.60000000000002,
+        18.0,
+        -72.0
+      ],
+      "source": "map",
+      "category": "building",
+      "mapPixel": [
+        1397.0,
+        910.0
+      ]
+    },
+    {
+      "id": "74",
+      "name": "学生生活动中心",
+      "position": [
+        69.60000000000001,
+        14.75,
+        -42.400000000000006
+      ],
+      "source": "map",
+      "category": "building",
+      "mapPixel": [
+        1287.0,
+        947.0
+      ]
+    },
+    {
+      "id": "75",
+      "name": "叶耀珍楼",
+      "position": [
+        72.8,
+        14.75,
+        -17.6
+      ],
+      "source": "map",
+      "category": "building",
+      "mapPixel": [
+        1291.0,
+        978.0
+      ]
+    },
+    {
+      "id": "77",
+      "name": "十一号楼（经济学院）",
+      "position": [
+        229.60000000000002,
+        21.25,
+        -176.8
+      ],
+      "source": "map",
+      "category": "building",
+      "mapPixel": [
+        1487.0,
+        779.0
+      ]
+    },
+    {
+      "id": "78",
+      "name": "十号楼（复旦学院）",
+      "position": [
+        264.0,
+        21.25,
+        -156.0
+      ],
+      "source": "map",
+      "category": "building",
+      "mapPixel": [
+        1530.0,
+        805.0
+      ]
+    },
+    {
+      "id": "79",
+      "name": "八号楼（研究生院）",
+      "position": [
+        228.0,
+        21.25,
+        -136.8
+      ],
+      "source": "map",
+      "category": "building",
+      "mapPixel": [
+        1485.0,
+        829.0
+      ]
+    },
+    {
+      "id": "80B",
+      "name": "篮球场附属楼",
+      "position": [
+        238.4,
+        11.5,
+        -99.2
+      ],
+      "source": "map",
+      "category": "building",
+      "mapPixel": [
+        1498.0,
+        876.0
+      ]
+    },
+    {
+      "id": "81",
+      "name": "0号楼（学生服务站）",
+      "position": [
+        227.20000000000002,
+        18.0,
+        -71.2
+      ],
+      "source": "map",
+      "category": "building",
+      "mapPixel": [
+        1484.0,
+        911.0
+      ]
+    },
+    {
+      "id": "82",
+      "name": "一号楼",
+      "position": [
+        227.20000000000002,
+        18.0,
+        -44.0
+      ],
+      "source": "map",
+      "category": "building",
+      "mapPixel": [
+        1484.0,
+        945.0
+      ]
+    },
+    {
+      "id": "83",
+      "name": "宿舍五号楼",
+      "position": [
+        272.8,
+        18.0,
+        -39.2
+      ],
+      "source": "map",
+      "category": "building",
+      "mapPixel": [
+        1541.0,
+        951.0
+      ]
+    },
+    {
+      "id": "84",
+      "name": "卿云楼",
+      "position": [
+        268.0,
+        14.75,
+        -18.400000000000002
+      ],
+      "source": "map",
+      "category": "building",
+      "mapPixel": [
+        1535.0,
+        977.0
+      ]
+    },
+    {
+      "id": "85",
+      "name": "正大管理发展中心",
+      "position": [
+        400.0,
+        21.25,
+        -286.40000000000003
+      ],
+      "source": "map",
+      "category": "building",
+      "mapPixel": [
+        1700.0,
+        642.0
+      ]
+    },
+    {
+      "id": "85W",
+      "name": "正大中心西侧楼",
+      "position": [
+        312.8,
+        18.0,
+        -282.40000000000003
+      ],
+      "source": "map",
+      "category": "building",
+      "mapPixel": [
+        1591.0,
+        647.0
+      ]
+    },
+    {
+      "id": "86",
+      "name": "国定路教师公寓",
+      "position": [
+        468.8,
+        24.5,
+        -282.40000000000003
+      ],
+      "source": "map",
+      "category": "building",
+      "mapPixel": [
+        1786.0,
+        647.0
+      ]
+    },
+    {
+      "id": "87A",
+      "name": "燕园宾馆 14号楼",
+      "position": [
+        307.20000000000005,
+        14.566,
+        -235.20000000000002
+      ],
+      "source": "map",
+      "category": "building",
+      "mapPixel": [
+        1584.0,
+        706.0
+      ]
+    },
+    {
+      "id": "87B",
+      "name": "燕园宾馆 16号楼",
+      "position": [
+        341.6,
+        14.566,
+        -240.0
+      ],
+      "source": "map",
+      "category": "building",
+      "mapPixel": [
+        1627.0,
+        700.0
+      ]
+    },
+    {
+      "id": "87C",
+      "name": "燕园宾馆 13号楼",
+      "position": [
+        308.8,
+        14.566,
+        -209.60000000000002
+      ],
+      "source": "map",
+      "category": "building",
+      "mapPixel": [
+        1586.0,
+        738.0
+      ]
+    },
+    {
+      "id": "87D",
+      "name": "燕园宾馆 15号楼",
+      "position": [
+        340.0,
+        14.566,
+        -213.60000000000002
+      ],
+      "source": "map",
+      "category": "building",
+      "mapPixel": [
+        1625.0,
+        733.0
+      ]
+    },
+    {
+      "id": "87E",
+      "name": "燕园宾馆 17号楼",
+      "position": [
+        324.0,
+        15.846,
+        -184.0
+      ],
+      "source": "map",
+      "category": "building",
+      "mapPixel": [
+        1605.0,
+        770.0
+      ]
+    },
+    {
+      "id": "87F",
+      "name": "燕园宾馆 18号楼",
+      "position": [
+        377.6,
+        15.846,
+        -188.8
+      ],
+      "source": "map",
+      "category": "building",
+      "mapPixel": [
+        1672.0,
+        764.0
+      ]
+    },
+    {
+      "id": "87G",
+      "name": "燕园宾馆 19号楼",
+      "position": [
+        424.0,
+        15.846,
+        -190.4
+      ],
+      "source": "map",
+      "category": "building",
+      "mapPixel": [
+        1730.0,
+        762.0
+      ]
+    },
+    {
+      "id": "88",
+      "name": "东区学生公寓",
+      "position": [
+        382.40000000000003,
+        21.25,
+        -225.60000000000002
+      ],
+      "source": "map",
+      "category": "building",
+      "mapPixel": [
+        1678.0,
+        718.0
+      ]
+    },
+    {
+      "id": "89",
+      "name": "艺术中心",
+      "position": [
+        417.6,
+        14.75,
+        -217.60000000000002
+      ],
+      "source": "map",
+      "category": "building",
+      "mapPixel": [
+        1722.0,
+        728.0
+      ]
+    },
+    {
+      "id": "6E",
+      "name": "浴室（东区）",
+      "position": [
+        413.6,
+        11.5,
+        -240.8
+      ],
+      "source": "map",
+      "category": "building",
+      "mapPixel": [
+        1717.0,
+        699.0
+      ]
+    },
+    {
+      "id": "90",
+      "name": "锅炉房",
+      "position": [
+        336.8,
+        11.5,
+        -133.6
+      ],
+      "source": "map",
+      "category": "building",
+      "mapPixel": [
+        1621.0,
+        833.0
+      ]
+    },
+    {
+      "id": "91",
+      "name": "演播厅",
+      "position": [
+        368.0,
+        14.75,
+        -134.4
+      ],
+      "source": "map",
+      "category": "building",
+      "mapPixel": [
+        1660.0,
+        832.0
+      ]
+    },
+    {
+      "id": "92",
+      "name": "新闻学院北楼",
+      "position": [
+        410.40000000000003,
+        21.25,
+        -96.80000000000001
+      ],
+      "source": "map",
+      "category": "building",
+      "mapPixel": [
+        1713.0,
+        879.0
+      ]
+    },
+    {
+      "id": "93",
+      "name": "新闻学院教学楼",
+      "position": [
+        466.40000000000003,
+        18.0,
+        -102.4
+      ],
+      "source": "map",
+      "category": "building",
+      "mapPixel": [
+        1783.0,
+        872.0
+      ]
+    },
+    {
+      "id": "94",
+      "name": "综合楼",
+      "position": [
+        394.40000000000003,
+        21.25,
+        -76.80000000000001
+      ],
+      "source": "map",
+      "category": "building",
+      "mapPixel": [
+        1693.0,
+        904.0
+      ]
+    },
+    {
+      "id": "95",
+      "name": "居海图书馆",
+      "position": [
+        424.0,
+        18.0,
+        -76.80000000000001
+      ],
+      "source": "map",
+      "category": "building",
+      "mapPixel": [
+        1730.0,
+        904.0
+      ]
+    },
+    {
+      "id": "96",
+      "name": "新闻学院办公楼",
+      "position": [
+        337.6,
+        21.25,
+        -56.800000000000004
+      ],
+      "source": "map",
+      "category": "building",
+      "mapPixel": [
+        1622.0,
+        929.0
+      ]
+    },
+    {
+      "id": "2E",
+      "name": "配电房（东区）",
+      "position": [
+        448.0,
+        8.25,
+        -35.2
+      ],
+      "source": "map",
+      "category": "building",
+      "mapPixel": [
+        1760.0,
+        956.0
+      ]
+    },
+    {
+      "id": "N01",
+      "name": "北区宿舍 · 图示楼栋 01",
+      "position": [
+        -451.20000000000005,
+        21.25,
+        -616.8000000000001
+      ],
+      "source": "map-footprint-unreadable-number",
+      "category": "building",
+      "mapPixel": [
+        636,
+        229
+      ]
+    },
+    {
+      "id": "N02",
+      "name": "北区宿舍 · 图示楼栋 02",
+      "position": [
+        -416.8,
+        21.25,
+        -616.8000000000001
+      ],
+      "source": "map-footprint-unreadable-number",
+      "category": "building",
+      "mapPixel": [
+        679,
+        229
+      ]
+    },
+    {
+      "id": "N03",
+      "name": "北区宿舍 · 图示楼栋 03",
+      "position": [
+        -382.40000000000003,
+        21.25,
+        -616.8000000000001
+      ],
+      "source": "map-footprint-unreadable-number",
+      "category": "building",
+      "mapPixel": [
+        722,
+        229
+      ]
+    },
+    {
+      "id": "N04",
+      "name": "北区宿舍 · 图示楼栋 04",
+      "position": [
+        -479.20000000000005,
+        21.25,
+        -593.6
+      ],
+      "source": "map-footprint-unreadable-number",
+      "category": "building",
+      "mapPixel": [
+        601,
+        258
+      ]
+    },
+    {
+      "id": "N05",
+      "name": "北区宿舍 · 图示楼栋 05",
+      "position": [
+        -444.8,
+        21.25,
+        -593.6
+      ],
+      "source": "map-footprint-unreadable-number",
+      "category": "building",
+      "mapPixel": [
+        644,
+        258
+      ]
+    },
+    {
+      "id": "N06",
+      "name": "北区宿舍 · 图示楼栋 06",
+      "position": [
+        -410.40000000000003,
+        21.25,
+        -593.6
+      ],
+      "source": "map-footprint-unreadable-number",
+      "category": "building",
+      "mapPixel": [
+        687,
+        258
+      ]
+    },
+    {
+      "id": "N07",
+      "name": "北区宿舍 · 图示楼栋 07",
+      "position": [
+        -376.0,
+        21.25,
+        -593.6
+      ],
+      "source": "map-footprint-unreadable-number",
+      "category": "building",
+      "mapPixel": [
+        730,
+        258
+      ]
+    },
+    {
+      "id": "N08",
+      "name": "北区宿舍 · 图示楼栋 08",
+      "position": [
+        -341.6,
+        21.25,
+        -593.6
+      ],
+      "source": "map-footprint-unreadable-number",
+      "category": "building",
+      "mapPixel": [
+        773,
+        258
+      ]
+    },
+    {
+      "id": "N09",
+      "name": "北区宿舍 · 图示楼栋 09",
+      "position": [
+        -491.20000000000005,
+        21.25,
+        -571.2
+      ],
+      "source": "map-footprint-unreadable-number",
+      "category": "building",
+      "mapPixel": [
+        586,
+        286
+      ]
+    },
+    {
+      "id": "N10",
+      "name": "北区宿舍 · 图示楼栋 10",
+      "position": [
+        -456.8,
+        21.25,
+        -571.2
+      ],
+      "source": "map-footprint-unreadable-number",
+      "category": "building",
+      "mapPixel": [
+        629,
+        286
+      ]
+    },
+    {
+      "id": "N11",
+      "name": "北区宿舍 · 图示楼栋 11",
+      "position": [
+        -422.40000000000003,
+        21.25,
+        -571.2
+      ],
+      "source": "map-footprint-unreadable-number",
+      "category": "building",
+      "mapPixel": [
+        672,
+        286
+      ]
+    },
+    {
+      "id": "N12",
+      "name": "北区宿舍 · 图示楼栋 12",
+      "position": [
+        -388.0,
+        21.25,
+        -571.2
+      ],
+      "source": "map-footprint-unreadable-number",
+      "category": "building",
+      "mapPixel": [
+        715,
+        286
+      ]
+    },
+    {
+      "id": "N13",
+      "name": "北区宿舍 · 图示楼栋 13",
+      "position": [
+        -353.6,
+        21.25,
+        -571.2
+      ],
+      "source": "map-footprint-unreadable-number",
+      "category": "building",
+      "mapPixel": [
+        758,
+        286
+      ]
+    },
+    {
+      "id": "N14",
+      "name": "北区宿舍 · 图示楼栋 14",
+      "position": [
+        -319.20000000000005,
+        21.25,
+        -571.2
+      ],
+      "source": "map-footprint-unreadable-number",
+      "category": "building",
+      "mapPixel": [
+        801,
+        286
+      ]
+    },
+    {
+      "id": "N15",
+      "name": "北区宿舍 · 图示楼栋 15",
+      "position": [
+        -500.0,
+        21.25,
+        -548.8000000000001
+      ],
+      "source": "map-footprint-unreadable-number",
+      "category": "building",
+      "mapPixel": [
+        575,
+        314
+      ]
+    },
+    {
+      "id": "N16",
+      "name": "北区宿舍 · 图示楼栋 16",
+      "position": [
+        -465.6,
+        21.25,
+        -548.8000000000001
+      ],
+      "source": "map-footprint-unreadable-number",
+      "category": "building",
+      "mapPixel": [
+        618,
+        314
+      ]
+    },
+    {
+      "id": "N17",
+      "name": "北区宿舍 · 图示楼栋 17",
+      "position": [
+        -504.0,
+        21.25,
+        -528.0
+      ],
+      "source": "map-footprint-unreadable-number",
+      "category": "building",
+      "mapPixel": [
+        570,
+        340
+      ]
+    },
+    {
+      "id": "N18",
+      "name": "北区宿舍 · 图示楼栋 18",
+      "position": [
+        -281.6,
+        21.25,
+        -554.4
+      ],
+      "source": "map-footprint-unreadable-number",
+      "category": "building",
+      "mapPixel": [
+        848,
+        307
+      ]
+    },
+    {
+      "id": "N19",
+      "name": "北区宿舍 · 图示楼栋 19",
+      "position": [
+        -259.2,
+        21.25,
+        -532.0
+      ],
+      "source": "map-footprint-unreadable-number",
+      "category": "building",
+      "mapPixel": [
+        876,
+        335
+      ]
+    },
+    {
+      "id": "N20",
+      "name": "北区宿舍 · 图示楼栋 20",
+      "position": [
+        -287.2,
+        21.25,
+        -532.0
+      ],
+      "source": "map-footprint-unreadable-number",
+      "category": "building",
+      "mapPixel": [
+        841,
+        335
+      ]
+    },
+    {
+      "id": "N21",
+      "name": "北区宿舍 · 图示楼栋 21",
+      "position": [
+        -272.8,
+        21.25,
+        -512.0
+      ],
+      "source": "map-footprint-unreadable-number",
+      "category": "building",
+      "mapPixel": [
+        859,
+        360
+      ]
+    },
+    {
+      "id": "N22",
+      "name": "北区宿舍 · 图示楼栋 22",
+      "position": [
+        -244.8,
+        21.25,
+        -512.0
+      ],
+      "source": "map-footprint-unreadable-number",
+      "category": "building",
+      "mapPixel": [
+        894,
+        360
+      ]
+    },
+    {
+      "id": "N23",
+      "name": "北区宿舍 · 图示楼栋 23",
+      "position": [
+        -283.2,
+        21.25,
+        -490.40000000000003
+      ],
+      "source": "map-footprint-unreadable-number",
+      "category": "building",
+      "mapPixel": [
+        846,
+        387
+      ]
+    },
+    {
+      "id": "N24",
+      "name": "北区宿舍 · 图示楼栋 24",
+      "position": [
+        -257.6,
+        21.25,
+        -490.40000000000003
+      ],
+      "source": "map-footprint-unreadable-number",
+      "category": "building",
+      "mapPixel": [
+        878,
+        387
+      ]
+    },
+    {
+      "id": "N25",
+      "name": "北区宿舍 · 图示楼栋 25",
+      "position": [
+        -288.8,
+        21.25,
+        -470.40000000000003
+      ],
+      "source": "map-footprint-unreadable-number",
+      "category": "building",
+      "mapPixel": [
+        839,
+        412
+      ]
+    },
+    {
+      "id": "N26",
+      "name": "北区宿舍 · 图示楼栋 26",
+      "position": [
+        -419.20000000000005,
+        21.25,
+        -479.20000000000005
+      ],
+      "source": "map-footprint-unreadable-number",
+      "category": "building",
+      "mapPixel": [
+        676,
+        401
+      ]
+    },
+    {
+      "id": "N27",
+      "name": "北区宿舍 · 图示楼栋 27",
+      "position": [
+        -433.6,
+        21.25,
+        -458.40000000000003
+      ],
+      "source": "map-footprint-unreadable-number",
+      "category": "building",
+      "mapPixel": [
+        658,
+        427
+      ]
+    },
+    {
+      "id": "N28",
+      "name": "北区宿舍 · 图示楼栋 28",
+      "position": [
+        -406.40000000000003,
+        21.25,
+        -458.40000000000003
+      ],
+      "source": "map-footprint-unreadable-number",
+      "category": "building",
+      "mapPixel": [
+        692,
+        427
+      ]
+    },
+    {
+      "id": "N29",
+      "name": "北区宿舍 · 图示楼栋 29",
+      "position": [
+        -468.0,
+        21.25,
+        -437.6
+      ],
+      "source": "map-footprint-unreadable-number",
+      "category": "building",
+      "mapPixel": [
+        615,
+        453
+      ]
+    },
+    {
+      "id": "N30",
+      "name": "北区宿舍 · 图示楼栋 30",
+      "position": [
+        -443.20000000000005,
+        21.25,
+        -437.6
+      ],
+      "source": "map-footprint-unreadable-number",
+      "category": "building",
+      "mapPixel": [
+        646,
+        453
+      ]
+    },
+    {
+      "id": "N31",
+      "name": "北区宿舍 · 图示楼栋 31",
+      "position": [
+        -418.40000000000003,
+        21.25,
+        -437.6
+      ],
+      "source": "map-footprint-unreadable-number",
+      "category": "building",
+      "mapPixel": [
+        677,
+        453
+      ]
+    },
+    {
+      "id": "N32",
+      "name": "北区宿舍 · 图示楼栋 32",
+      "position": [
+        -453.6,
+        21.25,
+        -416.8
+      ],
+      "source": "map-footprint-unreadable-number",
+      "category": "building",
+      "mapPixel": [
+        633,
+        479
+      ]
+    },
+    {
+      "id": "N33",
+      "name": "北区宿舍 · 图示楼栋 33",
+      "position": [
+        -429.6,
+        21.25,
+        -416.8
+      ],
+      "source": "map-footprint-unreadable-number",
+      "category": "building",
+      "mapPixel": [
+        663,
+        479
+      ]
+    },
+    {
+      "id": "N34",
+      "name": "北区宿舍 · 图示楼栋 34",
+      "position": [
+        -436.8,
+        21.25,
+        -398.40000000000003
+      ],
+      "source": "map-footprint-unreadable-number",
+      "category": "building",
+      "mapPixel": [
+        654,
+        502
+      ]
+    },
+    {
+      "id": "N35",
+      "name": "北区宿舍 · 图示楼栋 35",
+      "position": [
+        -347.20000000000005,
+        21.25,
+        -450.40000000000003
+      ],
+      "source": "map-footprint-unreadable-number",
+      "category": "building",
+      "mapPixel": [
+        766,
+        437
+      ]
+    },
+    {
+      "id": "N36",
+      "name": "北区宿舍 · 图示楼栋 36",
+      "position": [
+        -354.40000000000003,
+        21.25,
+        -427.20000000000005
+      ],
+      "source": "map-footprint-unreadable-number",
+      "category": "building",
+      "mapPixel": [
+        757,
+        466
+      ]
+    },
+    {
+      "id": "N37",
+      "name": "北区宿舍 · 图示楼栋 37",
+      "position": [
+        -357.6,
+        21.25,
+        -404.8
+      ],
+      "source": "map-footprint-unreadable-number",
+      "category": "building",
+      "mapPixel": [
+        753,
+        494
+      ]
+    },
+    {
+      "id": "N38",
+      "name": "北区宿舍 · 图示楼栋 38",
+      "position": [
+        -369.6,
+        21.25,
+        -380.8
+      ],
+      "source": "map-footprint-unreadable-number",
+      "category": "building",
+      "mapPixel": [
+        738,
+        524
+      ]
+    },
+    {
+      "id": "N39",
+      "name": "北区宿舍 · 图示楼栋 39",
+      "position": [
+        -325.6,
+        21.25,
+        -380.8
+      ],
+      "source": "map-footprint-unreadable-number",
+      "category": "building",
+      "mapPixel": [
+        793,
+        524
+      ]
+    },
+    {
+      "id": "N40",
+      "name": "北区宿舍 · 图示楼栋 40",
+      "position": [
+        -379.20000000000005,
+        21.25,
+        -357.6
+      ],
+      "source": "map-footprint-unreadable-number",
+      "category": "building",
+      "mapPixel": [
+        726,
+        553
+      ]
+    },
+    {
+      "id": "N41",
+      "name": "北区宿舍 · 图示楼栋 41",
+      "position": [
+        -327.20000000000005,
+        21.25,
+        -357.6
+      ],
+      "source": "map-footprint-unreadable-number",
+      "category": "building",
+      "mapPixel": [
+        791,
+        553
+      ]
+    },
+    {
+      "id": "A01",
+      "name": "图示附属建筑 01",
+      "position": [
+        -344.0,
+        11.5,
+        -284.8
+      ],
+      "source": "map-unlabelled",
+      "category": "building",
+      "mapPixel": [
+        770,
+        644
+      ]
+    },
+    {
+      "id": "A02",
+      "name": "图示附属建筑 02",
+      "position": [
+        -239.20000000000002,
+        11.5,
+        -281.6
+      ],
+      "source": "map-unlabelled",
+      "category": "building",
+      "mapPixel": [
+        901,
+        648
+      ]
+    },
+    {
+      "id": "A03",
+      "name": "图示附属建筑 03",
+      "position": [
+        -388.0,
+        11.5,
+        -240.8
+      ],
+      "source": "map-unlabelled",
+      "category": "building",
+      "mapPixel": [
+        715,
+        699
+      ]
+    },
+    {
+      "id": "A04",
+      "name": "图示附属建筑 04",
+      "position": [
+        -343.20000000000005,
+        11.5,
+        -248.0
+      ],
+      "source": "map-unlabelled",
+      "category": "building",
+      "mapPixel": [
+        771,
+        690
+      ]
+    },
+    {
+      "id": "A05",
+      "name": "图示附属建筑 05",
+      "position": [
+        -171.20000000000002,
+        11.5,
+        -90.4
+      ],
+      "source": "map-unlabelled",
+      "category": "building",
+      "mapPixel": [
+        986,
+        887
+      ]
+    },
+    {
+      "id": "A06",
+      "name": "图示附属建筑 06",
+      "position": [
+        63.2,
+        11.5,
+        -265.6
+      ],
+      "source": "map-unlabelled",
+      "category": "building",
+      "mapPixel": [
+        1279,
+        668
+      ]
+    },
+    {
+      "id": "A07",
+      "name": "图示附属建筑 07",
+      "position": [
+        113.60000000000001,
+        11.5,
+        -322.40000000000003
+      ],
+      "source": "map-unlabelled",
+      "category": "building",
+      "mapPixel": [
+        1342,
+        597
+      ]
+    },
+    {
+      "id": "A08",
+      "name": "图示附属建筑 08",
+      "position": [
+        -44.800000000000004,
+        11.5,
+        -322.40000000000003
+      ],
+      "source": "map-unlabelled",
+      "category": "building",
+      "mapPixel": [
+        1144,
+        597
+      ]
+    },
+    {
+      "id": "A09",
+      "name": "图示附属建筑 09",
+      "position": [
+        -212.8,
+        11.5,
+        -322.40000000000003
+      ],
+      "source": "map-unlabelled",
+      "category": "building",
+      "mapPixel": [
+        934,
+        597
+      ]
+    },
+    {
+      "id": "A10",
+      "name": "图示附属建筑 10",
+      "position": [
+        -349.6,
+        11.5,
+        -324.0
+      ],
+      "source": "map-unlabelled",
+      "category": "building",
+      "mapPixel": [
+        763,
+        595
+      ]
+    },
+    {
+      "id": "A11",
+      "name": "图示附属建筑 11",
+      "position": [
+        293.6,
+        11.5,
+        -33.6
+      ],
+      "source": "map-unlabelled",
+      "category": "building",
+      "mapPixel": [
+        1567,
+        958
+      ]
+    },
+    {
+      "id": "A12",
+      "name": "图示附属建筑 12",
+      "position": [
+        368.8,
+        11.5,
+        -276.0
+      ],
+      "source": "map-unlabelled",
+      "category": "building",
+      "mapPixel": [
+        1661,
+        655
+      ]
+    },
+    {
+      "id": "A13",
+      "name": "图示附属建筑 13",
+      "position": [
+        434.40000000000003,
+        11.5,
+        -273.6
+      ],
+      "source": "map-unlabelled",
+      "category": "building",
+      "mapPixel": [
+        1743,
+        658
+      ]
+    },
+    {
+      "id": "A14",
+      "name": "图示附属建筑 14",
+      "position": [
+        358.40000000000003,
+        11.5,
+        -293.6
+      ],
+      "source": "map-unlabelled",
+      "category": "building",
+      "mapPixel": [
+        1648,
+        633
+      ]
+    },
+    {
+      "id": "57",
+      "name": "国旗坪",
+      "position": [
+        126.4,
+        4,
+        -149.6
+      ],
+      "source": "map",
+      "category": "landmark",
+      "mapPixel": [
+        1358,
+        813
+      ]
+    },
+    {
+      "id": "58",
+      "name": "毛主席像",
+      "position": [
+        -40.0,
+        4,
+        -66.4
+      ],
+      "source": "map",
+      "category": "landmark",
+      "mapPixel": [
+        1150,
+        917
+      ]
+    },
+    {
+      "id": "62",
+      "name": "望道园",
+      "position": [
+        -81.60000000000001,
+        4,
+        -36.800000000000004
+      ],
+      "source": "map",
+      "category": "landmark",
+      "mapPixel": [
+        1098,
+        954
+      ]
+    },
+    {
+      "id": "68",
+      "name": "曦园",
+      "position": [
+        24.0,
+        4,
+        -34.4
+      ],
+      "source": "map",
+      "category": "landmark",
+      "mapPixel": [
+        1230,
+        957
+      ]
+    },
+    {
+      "id": "49G",
+      "name": "燕园",
+      "position": [
+        -200.0,
+        4,
+        -28.8
+      ],
+      "source": "map",
+      "category": "landmark",
+      "mapPixel": [
+        950,
+        964
+      ]
+    },
+    {
+      "id": "65",
+      "name": "复旦正门",
+      "position": [
+        -40.0,
+        10,
+        -2.4000000000000004
+      ],
+      "source": "map",
+      "category": "landmark",
+      "mapPixel": [
+        1150,
+        997
+      ]
+    },
+    {
+      "id": "28",
+      "name": "国定路校门",
+      "position": [
+        270.40000000000003,
+        4,
+        -236.8
+      ],
+      "source": "map",
+      "category": "landmark",
+      "mapPixel": [
+        1538,
+        704
+      ]
+    },
+    {
+      "id": "69",
+      "name": "国顺路校门",
+      "position": [
+        54.400000000000006,
+        4,
+        -2.4000000000000004
+      ],
+      "source": "map",
+      "category": "landmark",
+      "mapPixel": [
+        1268,
+        997
+      ]
+    },
+    {
+      "id": "54",
+      "name": "国权路校门",
+      "position": [
+        -164.0,
+        4,
+        -2.4000000000000004
+      ],
+      "source": "map",
+      "category": "landmark",
+      "mapPixel": [
+        995,
+        997
+      ]
+    },
+    {
+      "id": "76",
+      "name": "室外球场",
+      "position": [
+        134.4,
+        4,
+        -32.0
+      ],
+      "source": "map",
+      "category": "landmark",
+      "mapPixel": [
+        1368,
+        960
+      ]
+    }
+  ]
+}

@@ -1,0 +1,13 @@
+.DS_Store
+
+# Local package installs and framework/build caches
+web/node_modules/
+web/.next/
+web/.wrangler/
+web/dist/
+web/tsconfig.tsbuildinfo
+
+# Local runtime output
+output/*.log
+output/*.blend1
+scripts/__pycache__/
