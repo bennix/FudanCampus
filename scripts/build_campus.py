@@ -128,7 +128,16 @@ for r in records:
  def part(suffix,dx,dy,pw,pd,f=floors,hip=False):
   ob=building(r['name']+suffix,x+dx,y+dy,pw,pd,f,hip,white if form in ['hip','tower'] else stone)
   ob['building_id']=id;ob['building_name']=r['name'];ob['map_source']=r['source'];return ob
- if form=='yifu':
+ if id=='51':
+  from office_geometry import build_office
+  build_office(x,y,mat,mesh,current,bpy)
+ elif id=='55':
+  from chemistry_geometry import build_chemistry
+  build_chemistry(x,y,mat,mesh,current,bpy)
+ elif id=='20':
+  from physics_geometry import build_physics
+  build_physics(x,y,mat,mesh,current,bpy)
+ elif form=='yifu':
   import sys
   sys.path.insert(0,ROOT+'/scripts')
   from yifu_geometry import build_yifu
@@ -198,7 +207,7 @@ for py in range(248,560,13):
 for (cname,mname),(v,f) in buffers.items():current=COL[cname];mesh(mname+' details',v,f,bpy.data.materials[mname])
 for id,name,px,py in pois:
  x,y=xy(px,py);labels.append(dict(id=id,name=name,position=[x,10 if id=='65' else 4,-y],source='map',category='landmark',mapPixel=[px,py]))
-json.dump(dict(version='map-v8-gate',coordinateSystem='Three.js Y-up, north = -Z',buildings=labels),open(ROOT+'/web/public/buildings.json','w'),ensure_ascii=False,indent=2)
+json.dump(dict(version='map-v14-office',coordinateSystem='Three.js Y-up, north = -Z',buildings=labels),open(ROOT+'/web/public/buildings.json','w'),ensure_ascii=False,indent=2)
 current=COL['06 Cameras']
 def camera(name,pos,target,lens):
  data=bpy.data.cameras.new(name);ob=bpy.data.objects.new(name,data);current.objects.link(ob);ob.location=pos;ob.rotation_euler=(Vector(target)-ob.location).to_track_quat('-Z','Y').to_euler();data.lens=lens;data.clip_end=5000;return ob
@@ -213,6 +222,12 @@ gx,gy=xy(1364,719)
 guanghua_cam=camera('06 Guanghua photo detail',(gx,gy-104,7),(gx,gy,35),24)
 lx,ly=xy(1079,899)
 library_cam=camera('07 Science library entrance',(lx+3,ly-22,3.5),(lx+3,ly+8.7,5.5),26)
+px,py=xy(1150,747)
+physics_cam=camera('09 Physics photo',(px-8,py-29,7),(px,py,9),18)
+cx,cy=xy(1078,799)
+chemistry_cam=camera('10 Chemistry entrance',(cx+2,cy-23,3),(cx,cy-5,6),22)
+ox,oy=xy(993,918)
+office_cam=camera('11 Office entrance',(ox-4,oy-32,5),(ox,oy-3,8),20)
 gate_cam=camera('08 Fudan gate photo',(gx0-6,gy0-34,3),(gx0,gy0,4),34)
 # Merge detailed facade pieces by material to keep the local viewer responsive.
 for bid in ['14','16']:
@@ -241,7 +256,7 @@ for area in bpy.context.screen.areas:
  if area.type=='VIEW_3D':area.spaces.active.region_3d.view_perspective='CAMERA'
 bpy.ops.wm.save_as_mainfile(filepath=OUT+'/FudanCampus.blend')
 bpy.ops.export_scene.gltf(filepath=ROOT+'/web/public/campus.glb',export_format='GLB',export_cameras=False,export_lights=False,export_extras=True)
-render_views=[('aerial',cam,'campus_aerial.png',1650,1200),('plan',top,'campus_plan.png',1650,1200),('yifu',yifu_cam,'yifu_detail.png',1500,1000),('science',science_cam,'yifu_science_detail.png',1500,1000),('guanghua',guanghua_cam,'guanghua_detail.png',1800,1300),('library',library_cam,'science_library_detail.png',1500,1100),('gate',gate_cam,'fudan_gate_detail.png',1500,1050)]
+render_views=[('office',office_cam,'office_detail.png',1400,1000),('chemistry',chemistry_cam,'chemistry_detail.png',1400,1000),('physics',physics_cam,'physics_detail.png',1500,1000),('aerial',cam,'campus_aerial.png',1650,1200),('plan',top,'campus_plan.png',1650,1200),('yifu',yifu_cam,'yifu_detail.png',1500,1000),('science',science_cam,'yifu_science_detail.png',1500,1000),('guanghua',guanghua_cam,'guanghua_detail.png',1800,1300),('library',library_cam,'science_library_detail.png',1500,1100),('gate',gate_cam,'fudan_gate_detail.png',1500,1050)]
 selected=os.environ.get('RENDER_VIEWS','').split(',')
 for key,view,filename,rx,ry in render_views:
  if selected!=[''] and key not in selected:continue

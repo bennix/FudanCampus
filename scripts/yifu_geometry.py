@@ -38,7 +38,10 @@ def build_yifu(x,y,box,mat,mesh,current,bpy):
    b('侧窗框',dx,dy,z,.15,w,h,metal);b('侧玻璃',dx+.095,dy,z,.055,w-.15,h-.15,glazing)
    b('侧窗梃',dx+.14,dy,z,.06,.055,h,metal)
    b('侧横窗梃',dx+.14,dy,z+h*.13,.06,w,.055,metal)
- for z in [5.2,8.8,12.4,20.0]:
+ b('顶层前挑体量',-.6,-6.45,20.1,13.6,.9,5.2,plaster)
+ for dx in [-6.6,-3.55,-.45,2.65,5.7]:b('顶层悬挑托梁',dx,-6.45,17.35,.22,.95,.5,pale)
+ for dx in [-5.1,-2.0,1.1,4.2]:window(dx,-6.99,20,2.45)
+ for z in [5.2,8.8,12.4]:
   for dx in [-5.1,-2.0,1.1,4.2]:window(dx,-6.09,z,2.45)
  # Recessed continuous ribbon on the upper floor with an overhanging white cap.
  b('上层退台暗窗带',-.6,-6.10,16.2,12.1,.12,1.8,metal)
@@ -55,9 +58,40 @@ def build_yifu(x,y,box,mat,mesh,current,bpy):
  for dx in [-6.5,-3.5,-.5,2.5,5.5]:b('竖向面砖接缝',dx,-6.025,12,.02,.018,21.8,joint)
  # Recessed glazed entry and long thin canopy supported by slender columns.
  for dx in [-4.5,-1.5,1.5]:window(dx,-6.12,1.75,2.7,2.9)
- b('入口雨棚',-5.0,-8.15,3.5,19.0,4.8,.42,pale)
- b('雨棚收边',-5,-10.6,3.39,19.0,.18,.3,joint)
- for dx in [-12.5,-6,2.2]:b('入口柱',dx,-9.35,1.7,.46,.46,3.4,red)
+ # New close photograph: curved tiled fascia, ribbed soffit, round columns.
+ def front(dx):return -9.8-1.5*(1-((dx+5)/9.5)**2)
+ edge=[(-14.5+i*19/64,front(-14.5+i*19/64)) for i in range(65)]
+ canopy=edge+[(4.5,-5.7),(-14.5,-5.7)]
+ extrusion('弧形入口雨棚',canopy,3.45,4.05,pale)
+ extrusion('雨棚深色压顶',canopy,4.05,4.11,metal)
+ for i in range(85):
+  dx=-14.4+i*.22;fy=front(dx)+.12
+  b('雨棚底部格栅',dx,(fy-5.7)/2,3.39,.065,-5.7-fy,.12,joint)
+ for dx in [-11,-7,-3,1]:
+  for dy in [-7,-9]:b('雨棚嵌入灯',dx,dy,3.365,.17,.3,.025,pale)
+ for dx in [-12.5,-6,2.2]:
+  cy=front(dx)+.75
+  ring=[(dx+.32*math.cos(i*math.tau/32),cy+.32*math.sin(i*math.tau/32)) for i in range(32)]
+  extrusion('红砖圆柱',ring,.15,3.45,red)
+  for j in range(1,24):
+   ring2=[(dx+.324*math.cos(i*math.tau/32),cy+.324*math.sin(i*math.tau/32)) for i in range(32)]
+   extrusion('圆柱砖缝',ring2,j*.14,j*.14+.009,joint)
+ # Fine square tile joints use geometry, so they survive GLB export.
+ for left,right,fy,low,high in [(-7.4,6.2,-6.035,.2,17.45),(-7.4,6.2,-6.925,17.5,22.7),(-15,-7,-4.035,.2,19.4)]:
+  for i in range(int((right-left)/.16)+1):
+   b('小方砖竖缝',left+i*.16,fy,(low+high)/2,.006,.008,high-low,joint)
+  for i in range(int((high-low)/.16)+1):
+   b('小方砖横缝',(left+right)/2,fy,low+i*.16,right-left,.008,.006,joint)
+ for i in range(64):
+  p,q=edge[i],edge[i+1]
+  extrusion('雨棚面砖竖缝',[p,(p[0]+.009,p[1]-.006),(p[0]+.009,p[1]+.006)],3.45,4.05,joint)
+  for z in [3.6,3.75,3.9]:
+   extrusion('雨棚面砖横缝',[p,q,(q[0],q[1]-.008),(p[0],p[1]-.008)],z,z+.008,joint)
+ for z in [6,12,18]:extrusion('竖塔浅色腰线',outline,z,z+.12,joint)
+ b('竖塔窄窗',-8.25,-6.88,11,.15,.12,19,glazing)
+ for dx in [-5.1,-2,1.1,4.2]:
+  b('外墙空调',dx,-6.38,4.13,.72,.55,.48,pale)
+  b('空调格栅',dx,-6.67,4.13,.55,.02,.32,joint)
  for i in range(3):b('入口台阶',-4,-9.2-i*.7,.12*(3-i),17,3.2,.18,joint)
  # Low east annex: white floating fascia, red panels with horizontal stone bands.
  arc=[(10+5.8*math.cos(math.pi+i*math.pi/32),-3+7.4*math.sin(math.pi+i*math.pi/32)) for i in range(33)]
@@ -75,7 +109,7 @@ def build_yifu(x,y,box,mat,mesh,current,bpy):
  try:
   font=bpy.data.fonts.load(fontpath)
   text=bpy.data.curves.new('逸夫楼楼名','FONT');text.body='逸 夫 楼';text.font=font;text.size=.65;text.align_x='CENTER';text.extrude=.012
-  ob=bpy.data.objects.new('逸夫楼 · 楼名',text);current.objects.link(ob);ob.location=(x-.6,y-6.15,22.12);ob.rotation_euler=(1.57079632679,0,0);text.materials.append(mat('Yifu signage',(.40,.36,.23)))
+  ob=bpy.data.objects.new('逸夫楼 · 楼名',text);current.objects.link(ob);ob.location=(x-.6,y-7.02,22.12);ob.rotation_euler=(1.57079632679,0,0);text.materials.append(mat('Yifu signage',(.40,.36,.23)))
   bpy.context.view_layer.objects.active=ob;ob.select_set(True);bpy.ops.object.convert(target='MESH');ob.select_set(False)
   ob['building_id']='16';ob['building_name']='逸夫楼'
  except Exception as e:print('Sign font unavailable:',e)
