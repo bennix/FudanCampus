@@ -1,0 +1,4 @@
+interface:
+  display_name: "单体建筑低成本修模"
+  short_description: "按实拍图低成本优化一个建筑的轮廓、体块和大色块"
+  default_prompt: "使用 $fudan-building-optimization，只处理我指定的一个建筑；只读取必要文件和照片，优先修正轮廓、体块比例、屋顶/入口与大色块，不做材质和细节。"
