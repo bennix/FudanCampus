@@ -11,4 +11,15 @@ web/tsconfig.tsbuildinfo
 # Local runtime output
 output/*.log
 output/*.blend1
-scripts/__pycache__/
+/*.log
+
+# Blender and Python temporary files
+*.blend1
+*.blend2
+__pycache__/
+*.py[cod]
+
+# Keep ad-hoc model check renders out of the project root
+/fudan_font_glyphs.png
+/fudan_gate_check.png
+/henglong_20_*.png
