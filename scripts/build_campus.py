@@ -256,7 +256,11 @@ scene['Reference']='User supplied Fudan Campus Map Northern Part plus photograph
 for area in bpy.context.screen.areas:
  if area.type=='VIEW_3D':area.spaces.active.region_3d.view_perspective='CAMERA'
 bpy.ops.wm.save_as_mainfile(filepath=OUT+'/FudanCampus.blend')
-bpy.ops.export_scene.gltf(filepath=ROOT+'/web/public/campus.glb',export_format='GLB',export_cameras=False,export_lights=False,export_extras=True)
+from export_modular import export_modular
+export_modular()
+# Optional legacy combined export; the website uses campus-manifest.json.
+if os.environ.get('EXPORT_LEGACY') == '1':
+ bpy.ops.export_scene.gltf(filepath=ROOT+'/web/public/campus.glb',export_format='GLB',export_cameras=False,export_lights=False,export_extras=True)
 render_views=[('gate-rear',gate_rear_cam,'fudan_gate_rear.png',1500,1050),('office',office_cam,'office_detail.png',1400,1000),('chemistry',chemistry_cam,'chemistry_detail.png',1400,1000),('physics',physics_cam,'physics_detail.png',1500,1000),('aerial',cam,'campus_aerial.png',1650,1200),('plan',top,'campus_plan.png',1650,1200),('yifu',yifu_cam,'yifu_detail.png',1500,1000),('science',science_cam,'yifu_science_detail.png',1500,1000),('guanghua',guanghua_cam,'guanghua_detail.png',1800,1300),('library',library_cam,'science_library_detail.png',1500,1100),('gate',gate_cam,'fudan_gate_detail.png',1500,1050)]
 selected=os.environ.get('RENDER_VIEWS','').split(',')
 for key,view,filename,rx,ry in render_views:

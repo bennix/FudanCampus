@@ -1,0 +1,378 @@
+{
+  "version": 1,
+  "coordinates": "Three.js Y-up; south +Z",
+  "shared": [
+    {
+      "id": "00",
+      "name": "00 Terrain and roads",
+      "url": "models/shared/00.glb",
+      "revision": "3924267758db",
+      "bytes": 186716
+    },
+    {
+      "id": "01",
+      "name": "01 Historic courtyards",
+      "url": "models/shared/01.glb",
+      "revision": "de995099bca1",
+      "bytes": 2271144
+    },
+    {
+      "id": "02",
+      "name": "02 West academic blocks",
+      "url": "models/shared/02.glb",
+      "revision": "7fa75aab7af1",
+      "bytes": 9096152
+    },
+    {
+      "id": "03",
+      "name": "03 North campus",
+      "url": "models/shared/03.glb",
+      "revision": "d537da09f067",
+      "bytes": 8794420
+    },
+    {
+      "id": "04",
+      "name": "04 East campus",
+      "url": "models/shared/04.glb",
+      "revision": "88235469b10d",
+      "bytes": 3978856
+    },
+    {
+      "id": "05",
+      "name": "05 Landscape",
+      "url": "models/shared/05.glb",
+      "revision": "fa3be380e707",
+      "bytes": 4609656
+    }
+  ],
+  "buildings": [
+    {
+      "id": "14",
+      "name": "逸夫科技楼",
+      "url": "models/buildings/14.glb",
+      "revision": "0b6bffa0e4fa",
+      "bytes": 256728,
+      "overview": {
+        "url": "models/overview/14.glb",
+        "revision": "e21fbbdbbaa4",
+        "bytes": 38668
+      },
+      "position": [
+        -208.0,
+        0,
+        -198.4
+      ],
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "orientationBaked": true,
+      "bounds": {
+        "min": [
+          -22.5,
+          0.0,
+          -10.299996948242182
+        ],
+        "max": [
+          24.0,
+          33.400001525878906,
+          11.150000000000006
+        ]
+      },
+      "labelPosition": [
+        -208.0,
+        37.5,
+        -198.4
+      ],
+      "loadDistance": 240
+    },
+    {
+      "id": "16",
+      "name": "逸夫楼",
+      "url": "models/buildings/16.glb",
+      "revision": "31da9550a24f",
+      "bytes": 1963724,
+      "overview": {
+        "url": "models/overview/16.glb",
+        "revision": "8654747407ac",
+        "bytes": 129068
+      },
+      "position": [
+        -120.0,
+        0,
+        -255.20000000000002
+      ],
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "orientationBaked": true,
+      "bounds": {
+        "min": [
+          -15.003005981445312,
+          0.0,
+          -11.000012207031233
+        ],
+        "max": [
+          16.199996948242188,
+          24.200000762939453,
+          12.200000000000017
+        ]
+      },
+      "labelPosition": [
+        -120.0,
+        24.5,
+        -255.20000000000002
+      ],
+      "loadDistance": 240
+    },
+    {
+      "id": "20",
+      "name": "恒隆物理楼",
+      "url": "models/buildings/20.glb",
+      "revision": "0c39e38a472a",
+      "bytes": 556192,
+      "overview": {
+        "url": "models/overview/20.glb",
+        "revision": "82e746cb4271",
+        "bytes": 70992
+      },
+      "position": [
+        -40.0,
+        0,
+        -202.4
+      ],
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "orientationBaked": true,
+      "bounds": {
+        "min": [
+          -46.400001525878906,
+          0.0,
+          -7.249993896484369
+        ],
+        "max": [
+          46.40000009536743,
+          20.299999237060547,
+          14.400000000000006
+        ]
+      },
+      "labelPosition": [
+        -40.0,
+        21.25,
+        -202.4
+      ],
+      "loadDistance": 240
+    },
+    {
+      "id": "27",
+      "name": "光华楼",
+      "url": "models/buildings/27.glb",
+      "revision": "fca1d0c77446",
+      "bytes": 1235336,
+      "overview": {
+        "url": "models/overview/27.glb",
+        "revision": "4a9e26f53650",
+        "bytes": 160380
+      },
+      "position": [
+        131.20000000000002,
+        0,
+        -224.8
+      ],
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "orientationBaked": true,
+      "bounds": {
+        "min": [
+          -62.85000152587892,
+          0.0,
+          -16.0000030517578
+        ],
+        "max": [
+          62.850003051757795,
+          79.55000305175781,
+          29.329998779296886
+        ]
+      },
+      "labelPosition": [
+        131.20000000000002,
+        81.6,
+        -224.8
+      ],
+      "loadDistance": 240
+    },
+    {
+      "id": "51",
+      "name": "综合办公楼",
+      "url": "models/buildings/51.glb",
+      "revision": "e17cd179569f",
+      "bytes": 670052,
+      "overview": {
+        "url": "models/overview/51.glb",
+        "revision": "07b0721416d4",
+        "bytes": 45380
+      },
+      "position": [
+        -165.60000000000002,
+        0,
+        -65.60000000000001
+      ],
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "orientationBaked": true,
+      "bounds": {
+        "min": [
+          -21.000006103515602,
+          0.0,
+          -11.349996948242179
+        ],
+        "max": [
+          20.999993896484398,
+          18.424999237060547,
+          11.699998474121102
+        ]
+      },
+      "labelPosition": [
+        -165.60000000000002,
+        21.25,
+        -65.60000000000001
+      ],
+      "loadDistance": 240
+    },
+    {
+      "id": "55",
+      "name": "化学楼",
+      "url": "models/buildings/55.glb",
+      "revision": "95a895241e1c",
+      "bytes": 1007380,
+      "overview": {
+        "url": "models/overview/55.glb",
+        "revision": "96f27adba8f5",
+        "bytes": 89660
+      },
+      "position": [
+        -97.60000000000001,
+        0,
+        -160.8
+      ],
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "orientationBaked": true,
+      "bounds": {
+        "min": [
+          -32.79999389648437,
+          0.0,
+          -16.399996948242176
+        ],
+        "max": [
+          38.80000076293946,
+          12.600000381469727,
+          16.719998168945324
+        ]
+      },
+      "labelPosition": [
+        -97.60000000000001,
+        21.25,
+        -160.8
+      ],
+      "loadDistance": 240
+    },
+    {
+      "id": "56",
+      "name": "理科图书馆",
+      "url": "models/buildings/56.glb",
+      "revision": "966a98308aa5",
+      "bytes": 27602000,
+      "overview": {
+        "url": "models/overview/56.glb",
+        "revision": "4733f99a4544",
+        "bytes": 3196104
+      },
+      "position": [
+        -96.80000000000001,
+        0,
+        -80.80000000000001
+      ],
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "orientationBaked": true,
+      "bounds": {
+        "min": [
+          -32.0000030517578,
+          0.0,
+          -19.649996948242176
+        ],
+        "max": [
+          31.9999969482422,
+          11.34000015258789,
+          -3.2820846557617074
+        ]
+      },
+      "labelPosition": [
+        -96.80000000000001,
+        21.25,
+        -80.80000000000001
+      ],
+      "loadDistance": 240
+    },
+    {
+      "id": "65",
+      "name": "复旦正门",
+      "url": "models/buildings/65.glb",
+      "revision": "36581b572da4",
+      "bytes": 2467960,
+      "overview": {
+        "url": "models/overview/65.glb",
+        "revision": "61a257a14385",
+        "bytes": 271408
+      },
+      "position": [
+        -40.0,
+        0,
+        -6.4
+      ],
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "orientationBaked": true,
+      "bounds": {
+        "min": [
+          -19.025001525878906,
+          0.0,
+          -2.9900003433227536
+        ],
+        "max": [
+          19.024999618530273,
+          8.369999885559082,
+          4.7999999761581424
+        ]
+      },
+      "labelPosition": [
+        -40.0,
+        10,
+        -2.4000000000000004
+      ],
+      "loadDistance": 240
+    }
+  ]
+}

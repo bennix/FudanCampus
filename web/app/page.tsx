@@ -3,6 +3,9 @@ import { useEffect, useRef, useState } from 'react';
 import * as THREE from 'three';
 import { OrbitControls } from 'three/addons/controls/OrbitControls.js';
 import { GLTFLoader } from 'three/addons/loaders/GLTFLoader.js';
+type Asset={url:string;revision:string};
+type ModularBuilding=Asset&{id:string;name:string;overview:Asset;position:[number,number,number];rotation:[number,number,number];loadDistance:number};
+type CampusManifest={shared:Asset[];buildings:ModularBuilding[]};
 type LabelMode='auto'|'full'|'off';
 type Building={id:string;name:string;position:[number,number,number];source:string;category:string};
 const views:{name:string;p:number[];t:number[];fov?:number}[]=[
@@ -36,8 +39,23 @@ export default function Home(){
  let model:THREE.Group|undefined;let canceled=false;let transition:{p:THREE.Vector3;t:THREE.Vector3}|undefined;let mode:LabelMode='auto';let showTrees=true;
  const labels:{data:Building;point:THREE.Vector3;button:HTMLButtonElement}[]=[];
  const abort=new AbortController();
- Promise.all([new GLTFLoader().loadAsync('/campus.glb?v=map-v17-chemistry-east'),fetch('/buildings.json?v=map-v17-chemistry-east',{signal:abort.signal}).then(r=>{if(!r.ok)throw Error('标签文件不可用');return r.json() as Promise<{buildings:Building[]}>;})]).then(([g,data])=>{
-  if(canceled)return;model=g.scene;model.traverse(o=>{if(o instanceof THREE.Mesh){o.castShadow=!o.name.includes('Continuous');o.receiveShadow=true;}if(/Canopy|Trunk/.test(o.name))o.visible=showTrees;});scene.add(model);renderer.shadowMap.autoUpdate=false;renderer.shadowMap.needsUpdate=true;
+ const loader=new GLTFLoader();
+ const manifestUrl='/campus-manifest.json';
+ const disposeGroup=(group:THREE.Object3D)=>group.traverse(o=>{if(o instanceof THREE.Mesh){o.geometry.dispose();for(const m of Array.isArray(o.material)?o.material:[o.material])m.dispose();}});
+ const prepare=(group:THREE.Group)=>group.traverse(o=>{if(o instanceof THREE.Mesh){o.castShadow=!o.name.includes('Continuous');o.receiveShadow=true;}if(/Canopy|Trunk/.test(o.name))o.visible=showTrees;});
+ const loadAsset=async(asset:Asset)=>{const url=new URL(asset.url,new URL(manifestUrl,location.href));url.searchParams.set('v',asset.revision);const g=await loader.loadAsync(url.href);if(canceled){disposeGroup(g.scene);throw Error('canceled');}prepare(g.scene);return g.scene;};
+ const details:{asset:ModularBuilding;overview:THREE.Group;state:'idle'|'loading'|'ready'|'failed'}[]=[];
+ let inFlight=0,lastDetailCheck=0;
+ const loadDetail=(item:typeof details[number])=>{
+  if(item.state!=='idle'||canceled)return;item.state='loading';inFlight++;
+  loadAsset(item.asset).then(group=>{group.position.fromArray(item.asset.position);group.rotation.fromArray(item.asset.rotation);model!.add(group);model!.remove(item.overview);disposeGroup(item.overview);item.state='ready';renderer.shadowMap.needsUpdate=true;}).catch(e=>{if(!canceled){item.state='failed';console.error(e);setStatus(`${item.asset.name} 细节加载失败，保留总览模型；刷新可重试`);}}).finally(()=>{inFlight--;});
+ };
+ Promise.all([fetch(manifestUrl,{signal:abort.signal}).then(r=>{if(!r.ok)throw Error('模型清单不可用');return r.json() as Promise<CampusManifest>;}),fetch('/buildings.json',{signal:abort.signal}).then(r=>{if(!r.ok)throw Error('标签文件不可用');return r.json() as Promise<{buildings:Building[]}>;})]).then(async([manifest,data])=>{
+  if(canceled)return;model=new THREE.Group();scene.add(model);
+  const tasks=[...manifest.shared.map(asset=>async()=>{model!.add(await loadAsset(asset));}),...manifest.buildings.map(asset=>async()=>{const group=await loadAsset(asset.overview);group.position.fromArray(asset.position);group.rotation.fromArray(asset.rotation);model!.add(group);details.push({asset,overview:group,state:'idle'});})];
+  // Bound concurrent requests and parsing work on the main thread.
+  await Promise.all(Array.from({length:3},async()=>{while(tasks.length&&!canceled){await tasks.shift()!();}}));
+  if(canceled)return;renderer.shadowMap.autoUpdate=false;renderer.shadowMap.needsUpdate=true;
   for(const item of data.buildings){
    const button=document.createElement('button');button.className='building-label';button.dataset.buildingId=item.id;button.dataset.category=item.category;button.title=`${item.id} · ${item.name}`;button.setAttribute('aria-label',`${item.id} ${item.name}，点击靠近`);
    const badge=document.createElement('span');badge.className='label-id';badge.textContent=item.id;
@@ -60,6 +78,7 @@ export default function Home(){
   const now=performance.now();const dt=Math.min((now-lastFrame)/1000,.05);lastFrame=now;
   if(transition){const alpha=1-Math.exp(-8*dt);camera.position.lerp(transition.p,alpha);controls.target.lerp(transition.t,alpha);camera.lookAt(controls.target);if(camera.position.distanceTo(transition.p)<.03&&controls.target.distanceTo(transition.t)<.03){camera.position.copy(transition.p);controls.target.copy(transition.t);transition=undefined;}}
   else controls.update(dt);
+  if(now-lastDetailCheck>250){lastDetailCheck=now;for(const item of details){if(inFlight>=2)break;const position=new THREE.Vector3(...item.asset.position);if(camera.position.distanceTo(position)<item.asset.loadDistance)loadDetail(item);}}
   renderer.render(scene,camera);
   compassRotation.copy(camera.quaternion).invert();
   compassMarks.forEach((mark,i)=>{

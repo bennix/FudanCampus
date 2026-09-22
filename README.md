@@ -58,3 +58,38 @@ npm run dev -- --host 127.0.0.1 --port 5173
 ## 校门实景细化
 
 按用户照片建立红砖墙、白色平檐、砖柱、红色校名、白色花格及打开的黑色铁门；暂放置于地图 65 号正门位置。校名使用字体近似表达，并非原题字描摹。网页可切换「复旦校门」近景和校门实景对照。造型脚本：`scripts/gate_geometry.py`；渲染：`output/fudan_gate_detail.png`。
+
+## 多人协作：分栋模型
+
+网页读取 `web/public/campus-manifest.json`，首屏加载 6 个公共／分区 GLB 和 8 个简化建筑模型，距建筑 240 米内加载完整单体。完整单体加载成功后替换简化模型；失败时保留简化模型。标签沿用原建筑编号。正门朝外仍为正南。
+
+| 编号 | 建筑 | 独立造型脚本 |
+|---|---|---|
+| 14 | 逸夫科技楼 | `scripts/yifu_science_geometry.py` |
+| 16 | 逸夫楼 | `scripts/yifu_geometry.py` |
+| 20 | 恒隆物理楼 | `scripts/physics_geometry.py` |
+| 27 | 光华楼 | `scripts/guanghua_geometry.py` |
+| 51 | 综合办公楼 | `scripts/office_geometry.py` |
+| 55 | 化学楼 | `scripts/chemistry_geometry.py` |
+| 56 | 理科图书馆 | `scripts/library_geometry.py` |
+| 65 | 复旦正门 | `scripts/gate_geometry.py` |
+
+每栋可编辑文件是 `assets/buildings/<编号>.blend`，完整 GLB 是 `web/public/models/buildings/<编号>.glb`，简化模型是 `web/public/models/overview/<编号>.glb`。模型使用本地坐标，朝向已烘焙；清单中的 `position` 将其放回校园，`rotation` 为零，不要再次应用地图角度。公共地形、道路、树木和普通楼栋按区域保存在 `web/public/models/shared/`。
+
+协作者可直接编辑并保存自己的单栋 Blender 文件，然后只导出这一栋，例如：
+
+```sh
+/Applications/Blender.app/Contents/MacOS/Blender -b assets/buildings/16.blend -t 8 --python scripts/export_modular.py -- --building 16
+```
+
+提交该栋 `.blend`、完整／简化 GLB 与清单里该编号的变化即可。清单的内容哈希用于缓存更新；GLB 二进制不做文本合并，同一栋建筑尽量指定一位负责人。标签与实景图片仍在现有网页逻辑中维护。
+
+程序化建模者可以修改对应造型脚本，再运行完整重建：
+
+```sh
+RENDER_VIEWS=none /Applications/Blender.app/Contents/MacOS/Blender -b -t 8 --python scripts/build_campus.py
+```
+
+**完整重建会重新生成八栋 `.blend`、所有模块和清单，覆盖手工编辑的单栋文件。** 合并手工造型前不要运行完整重建；需先决定以脚本还是手工 `.blend` 为该栋的造型来源。`output/FudanCampus.blend` 是完整重建的组合场景；单栋导出不会同步修改它。原 `campus.glb` 保留为历史兼容文件，网页不再请求它；仅设置 `EXPORT_LEGACY=1` 完整重建时才更新。
+
+验证：`python3 scripts/validate_modular.py`、`node web/validate-models.mjs`，以及在 `web/` 下运行 `npx tsc --noEmit` 和 `npm run build:pages`。
