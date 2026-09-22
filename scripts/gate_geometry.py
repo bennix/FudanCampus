@@ -1,5 +1,5 @@
 """Photo study of the red-brick Fudan gate, placed at map landmark 65.
-Dimensions and concealed rear surfaces are inferred from the supplied photograph.
+South/front follows photos 2–3; north/rear follows photo 1 supplied 2026-09-20.
 """
 def build_gate(x,y,mat,mesh,current,bpy):
  import math
@@ -16,6 +16,13 @@ def build_gate(x,y,mat,mesh,current,bpy):
     xx=cx-w/2+.22+k*.42+(j%2)*.21
     if xx<cx+w/2-.03:b(xx,-d/2-.018,.20+j*.20,.012,.026,.185,mortar)
   b(cx,-d/2-.10,.32,w+.10,.20,.64,white)
+  # Rear-facing brickwork, previously missing from the model.
+  for j in range(int(h/.20)):
+   b(cx,d/2+.015,.10+j*.20,w,.025,.012,mortar)
+   for k in range(int(w/.42)):
+    xx=cx-w/2+.22+k*.42+(j%2)*.21
+    if xx<cx+w/2-.03:b(xx,d/2+.018,.20+j*.20,.012,.026,.185,mortar)
+  b(cx,d/2+.10,.32,w+.10,.20,.64,white)
  # Red piers and flanking walls surround an open central carriageway.
  for cx in [-4.9,4.9,-8.0,8.0]:brickwall(cx,.86,3.9,7.8)
  for cx in [-11.0,11.0]:brickwall(cx,5.2,2.9,7.8)
@@ -27,13 +34,13 @@ def build_gate(x,y,mat,mesh,current,bpy):
  b(0,-1.75,.1,27,6.1,.18,concrete)
  # Decorative white openwork screens attached to each red wall.
  for cx in [-11.7,11.7]:
-  for dx in [-.96,.96]:b(cx+dx,-1.56,4.5,.15,.24,3.6,white)
-  for z in [2.7,6.3]:b(cx,-1.56,z,2.07,.24,.15,white)
-  for col in range(4):
-   for row in range(6):
-    xx=cx-.72+col*.48;zz=3.02+row*.54
-    for dx in [-.16,.16]:b(xx+dx,-1.61,zz,.075,.23,.40,white)
-    for dz in [-.20,.20]:b(xx,-1.61,zz+dz,.39,.23,.075,white)
+  for dx in [-.72,.72]:b(cx+dx,-1.56,4.75,.13,.24,5.5,white)
+  for z in [2.0,7.5]:b(cx,-1.56,z,1.57,.24,.13,white)
+  for col in range(3):
+   for row in range(12):
+    xx=cx-.46+col*.46;zz=2.27+row*.45
+    for dx in [-.14,.14]:b(xx+dx,-1.61,zz,.065,.23,.33,white)
+    for dz in [-.165,.165]:b(xx,-1.61,zz+dz,.34,.23,.065,white)
  # Open black swing gates are folded back along the driveway.
  for sign in [-1,1]:
   gx=sign*4.34
@@ -46,11 +53,38 @@ def build_gate(x,y,mat,mesh,current,bpy):
  for cx in [-9.15,9.15]:
   b(cx,-1.51,3.65,.92,.12,.78,gold)
   b(cx,-1.52,2.83,.77,.12,.39,white)
- # Red building title: font-based interpretation, not a traced signature.
- font=bpy.data.fonts.load('/System/Library/Fonts/Supplemental/Songti.ttc')
- for i,ch in enumerate('复旦大学'):
-  curve=bpy.data.curves.new('校门题字','FONT');curve.body=ch;curve.font=font;curve.align_x='CENTER';curve.size=1.24;curve.extrude=.012
-  ob=bpy.data.objects.new('复旦正门 · '+ch,curve);current.objects.link(ob);ob.location=(x-3.3+i*2.20,y-1.79,6.69);ob.rotation_euler=(math.pi/2,0,0);curve.materials.append(red)
-  bpy.context.view_layer.objects.active=ob;ob.select_set(True);bpy.ops.object.convert(target='MESH');ob.select_set(False);ob['landmark_id']='65';ob['landmark_name']='复旦正门'
+ # Rear side passages stay open; no freestanding white-framed glazing.
+ blue=mat('Gate traffic blue',(.035,.14,.36))
+ for sign in [-1,1]:
+  b(sign*8.52,2.04,4.1,.085,.09,7.3,white)
+  b(sign*4.17,2.75,.68,.45,.48,1.36,red)
+  b(sign*2.18,2.76,1.15,3.75,.09,.13,white)
+  for j in range(9):b(sign*(.45+j*.40),2.70,1.15,.22,.02,.085,red)
+  b(sign*4.90,2.015,2.2,.73,.045,.94,blue)
+  # Security cameras on short white brackets.
+  b(sign*5.55,2.22,3.55,.8,.07,.07,white)
+  b(sign*5.32,2.42,3.51,.26,.43,.16,iron)
+  # Low extensions visible beside the front gate.
+  b(sign*16.25,.3,1.8,5.3,2.7,3.6,brick)
+  b(sign*16.25,.3,3.66,5.55,2.9,.18,white)
+  for j in range(4):
+   wx=sign*(14.45+j*1.03)
+   b(wx,-1.09,2.85,.67,.08,.42,white)
+   b(wx,-1.145,2.85,.49,.035,.28,iron)
+ # Supplied font's lowercase t is the entire calligraphic university wordmark.
+ from pathlib import Path
+ font=bpy.data.fonts.load(str(Path(__file__).resolve().parents[1]/'references'/'fudan-1.ttf'))
+ curve=bpy.data.curves.new('复旦字体 t 校名','FONT');curve.body='t';curve.font=font;curve.size=1;curve.extrude=.003;curve.resolution_u=16
+ ob=bpy.data.objects.new('复旦正门 · 复旦大学字标 t Mesh',curve);current.objects.link(ob);curve.materials.append(red)
+ bpy.ops.object.select_all(action='DESELECT');bpy.context.view_layer.objects.active=ob;ob.select_set(True);bpy.ops.object.convert(target='MESH')
+ verts=ob.data.vertices
+ minx=min(v.co.x for v in verts);maxx=max(v.co.x for v in verts);miny=min(v.co.y for v in verts);maxy=max(v.co.y for v in verts)
+ scale=min(8.0/(maxx-minx),1.24/(maxy-miny))
+ for v in verts:
+  v.co.x=(v.co.x-(minx+maxx)/2)*scale
+  v.co.y=(v.co.y-(miny+maxy)/2)*scale
+  v.co.z*=scale
+ ob.location=(x,y-1.79,7.04);ob.rotation_euler=(math.pi/2,0,0);ob.select_set(False)
+ ob['landmark_id']='65';ob['landmark_name']='复旦正门';ob['source_glyph']='t';ob['source_font']='fudan-1.ttf';ob['side']='front'
  for mname,(vs,fs) in buffers.items():
   ob=mesh('复旦正门 · '+mname,vs,fs,bpy.data.materials[mname]);ob['landmark_id']='65';ob['landmark_name']='复旦正门';ob['source']='user photograph; position assumed at map main gate 65'

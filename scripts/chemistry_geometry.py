@@ -1,4 +1,4 @@
-"""55: photographed entrance facade; orientation and unseen wings approximate."""
+"""55: entrance faces east (+X), as confirmed by the user."""
 def build_chemistry(x,y,mat,mesh,current,bpy):
  import math
  brick=mat('Chemistry red brick',(.46,.20,.12));pale=mat('Chemistry pale panels',(.78,.79,.73));tile=mat('Chemistry canopy tile',(.57,.60,.56));dark=mat('Chemistry dark frames',(.12,.14,.13));glass=mat('Chemistry glazing',(.26,.35,.34),.3);joint=mat('Chemistry joints',(.35,.31,.27));gold=mat('Chemistry signage',(.65,.51,.27))
@@ -8,7 +8,7 @@ def build_chemistry(x,y,mat,mesh,current,bpy):
   vs.extend([(x+dx+a*w/2,y+dy+c*d/2,z+e*h/2) for a,c,e in [(-1,-1,-1),(-1,-1,1),(-1,1,-1),(-1,1,1),(1,-1,-1),(1,-1,1),(1,1,-1),(1,1,1)]])
   fs.extend([tuple(n+i for i in f) for f in [(0,4,6,2),(1,3,7,5),(0,1,5,4),(2,6,7,3),(0,2,3,1),(4,5,7,6)]])
  # H-shaped footprint retained, entrance is on the linking bar.
- b(0,0,6.3,65.6,10,12.6,brick)
+ b(0,0,6.3,50,10,12.6,brick)
  for cx in [-25,25]:b(cx,0,6.3,15.6,32.8,12.6,brick)
  for left,right,fy in [(-17.2,17.2,-5),(-32.8,-17.2,-16.4),(17.2,32.8,-16.4)]:
   b((left+right)/2,fy-.08,.4,right-left,.2,.8,pale)
@@ -20,6 +20,18 @@ def build_chemistry(x,y,mat,mesh,current,bpy):
     b(cx,fy-.14,z,2.7,.2,2.65,dark);b(cx,fy-.26,z,2.55,.06,2.5,glass)
     b(cx,fy-.3,z,.065,.04,2.65,dark);b(cx,fy-.3,z+.35,2.7,.04,.065,dark)
    for z in [4.65,8.5]:b(cx,fy-.17,z,2.85,.25,1.2,pale)
+ # Move entrance components to the east exterior wall, keeping the map footprint.
+ original_box=b
+ def b(dx,dy,z,w,d,h,m):
+  original_box(27.8-dy,dx,z,d,w,h,m)
+ for i in range(118):b(0,-5.012,.8+i*.1,32.8,.018,.008,joint)
+ # East-facing windows above and alongside the entrance.
+ for dx in [-11,-6,0,6,11]:
+  for z in [2.6,6.6,10.3]:
+   if z==2.6 and abs(dx)<4:continue
+   b(dx,-5.14,z,2.7,.2,2.65,dark);b(dx,-5.26,z,2.55,.06,2.5,glass)
+   b(dx,-5.3,z,.065,.04,2.65,dark);b(dx,-5.3,z+.35,2.7,.04,.065,dark)
+  for z in [4.65,8.5]:b(dx,-5.17,z,2.85,.25,1.2,pale)
  # Square tiled portico and two substantial square columns.
  b(0,-8,4.6,12,5,.85,tile)
  for cx in [-5,5]:
@@ -37,6 +49,6 @@ def build_chemistry(x,y,mat,mesh,current,bpy):
  try:
   font=bpy.data.fonts.load('/System/Library/Fonts/Supplemental/Songti.ttc')
   curve=bpy.data.curves.new('化学楼门头','FONT');curve.body='化  学  楼';curve.font=font;curve.size=.46;curve.align_x='CENTER';curve.extrude=.01
-  ob=bpy.data.objects.new('化学楼门头',curve);current.objects.link(ob);ob.location=(x,y-5.74,3.45);ob.rotation_euler=(math.pi/2,0,0);curve.materials.append(gold)
+  ob=bpy.data.objects.new('化学楼门头',curve);current.objects.link(ob);ob.location=(x+33.54,y,3.45);ob.rotation_euler=(math.pi/2,0,math.pi/2);curve.materials.append(gold)
   bpy.context.view_layer.objects.active=ob;ob.select_set(True);bpy.ops.object.convert(target='MESH');ob.select_set(False);ob['building_id']='55';ob['building_name']='化学楼'
  except Exception as e:print(e)

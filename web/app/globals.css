@@ -5,4 +5,7 @@
 .reference-tabs{position:sticky;top:-8px;z-index:1;background:#f5f5ed;padding-top:8px}
 .reference>a{display:block;margin-bottom:12px}
 .building-label{left:0;top:0;will-change:transform}
+.campus-compass{position:absolute;right:28px;bottom:66px;width:144px;padding:6px;background:#f6f7eeed;border:1px solid #ffffffb0;border-radius:8px;pointer-events:none;z-index:9999;text-align:center;box-shadow:0 4px 18px #172c3218}
+.campus-compass svg{display:block;width:128px;height:128px;margin:auto;overflow:visible}.campus-compass line{stroke:#607366;stroke-width:1.5}.campus-compass text{font-size:12px;font-weight:600;fill:#29483b;stroke:#f6f7ee;stroke-width:4px;paint-order:stroke}.campus-compass .compass-south line{stroke:#a23b32;stroke-width:2.5}.campus-compass .compass-south text{fill:#a23b32}.campus-compass span{font-size:11px;color:#526653}
+@media(max-width:1050px){.campus-compass{bottom:112px;right:14px;width:118px}.campus-compass svg{width:102px;height:102px}}
 @media(max-width:1050px){.reference{max-height:calc(100dvh - 230px)}}
