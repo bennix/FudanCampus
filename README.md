@@ -4,6 +4,8 @@
 
 ## 本地查看
 
+在线地址：https://bennix.github.io/FudanCampus/ 。GitHub Pages 免费托管，推送到 `main` 后由 GitHub Actions 自动部署。在线版使用 `web` 下的 `npm run build:pages` 生成纯静态网页，复用相同的校园组件、模型与实景图片；本地启动方式保持不变。
+
 在 Finder 中双击项目目录下的 **启动校园.command**，会自动启动后台服务并打开浏览器。已启动时会直接打开页面；默认端口被其他程序占用时会自动换用空闲端口。启动后可关闭终端窗口。
 
 Windows 用户双击项目目录下的 **启动校园.bat**；首次运行会自动安装 `web` 目录中的前端依赖。

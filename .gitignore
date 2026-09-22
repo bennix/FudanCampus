@@ -5,6 +5,7 @@ web/node_modules/
 web/.next/
 web/.wrangler/
 web/dist/
+web/dist-pages/
 web/tsconfig.tsbuildinfo
 
 # Local runtime output
