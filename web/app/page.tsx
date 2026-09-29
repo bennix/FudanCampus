@@ -10,6 +10,7 @@ type LabelMode='auto'|'full'|'off';
 type Building={id:string;name:string;position:[number,number,number];source:string;category:string};
 const views:{name:string;p:number[];t:number[];fov?:number}[]=[
  {name:'全校鸟瞰',p:[-650,950,880],t:[-20,0,-260]},
+ {name:'毛主席像',p:[-34,5,-50],t:[-40,4.5,-66.4],fov:38},
  {name:'光华楼',p:[131.2,7,-120.8],t:[131.2,35,-224.8],fov:55},
  {name:'理科图书馆',p:[-93.8,3.5,-58.8],t:[-93.8,5.5,-89.5],fov:52},
  {name:'恒隆物理楼',p:[-48,7,-173.4],t:[-40,9,-202.4],fov:85},

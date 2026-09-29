@@ -1,5 +1,14 @@
 # 校园场景复原
 
+## 毛主席像（58 号）
+
+依据两张实景照片重做低多边形长大衣、背手站姿、双排纽扣与铭牌底座；未拍到的背面、头顶及绝对尺寸为近似补全。网页新增「毛主席像」近景，模型位于原地图 58 号位置。
+
+- 独立源文件：`assets/landmarks/58.blend`；造型脚本：`scripts/statue_geometry.py`。
+- 网页模型：`web/public/models/shared/58.glb`，保留独立地标编号。
+- 仅重做雕像与网页引用：`blender -b --python scripts/update_statue.py`。
+- 将单体同步进现有完整校园工程：`blender -b output/FudanCampus.blend --python scripts/integrate_statue.py`。仅替换 58 号雕像，不重新生成其他楼栋。
+
 结合用户提供的校园地图和照片，校正主校区、东区及北区宿舍的建筑、道路和绿化；不含沙盘台座、展厅、红色模型标记。
 
 ## 本地查看

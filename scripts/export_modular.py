@@ -70,8 +70,12 @@ def export_modular(only_bid=None):
             'overview':overview, 'position':[x,0,-y], 'rotation':[0,0,0],
             'orientationBaked': True, 'bounds':{'min':[low[0]-x,low[2],y-high[1]],'max':[high[0]-x,high[2],y-low[1]]},
             'labelPosition':labels[bid]['position'], 'loadDistance':240})
+    if not only_bid:
+        statue = [o for o in meshes if identity(o) == '58']
+        if statue:
+            manifest['shared'].append({'id':'58','name':'毛主席像', **save(statue,'models/shared/58.glb')})
     for collection in ([] if only_bid else original.collection.children):
-        objects = [o for o in collection.all_objects if o.type == 'MESH' and identity(o) not in IDS]
+        objects = [o for o in collection.all_objects if o.type == 'MESH' and identity(o) not in IDS + ['58']]
         if objects:
             key = collection.name[:2]
             manifest['shared'].append({'id':key,'name':collection.name, **save(objects,f'models/shared/{key}.glb')})
@@ -97,4 +101,3 @@ if __name__ == '__main__':
         export_modular(bid)
     else:
         export_modular()
-

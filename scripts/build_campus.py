@@ -109,7 +109,10 @@ pois=[('57','国旗坪',1358,813),('58','毛主席像',1150,917),('62','望道�
 for name,x,y in [('曦园',1230,957),('燕园',960,958),('望道园',1098,957)]:
  xx,yy=xy(x,y);cylinder(name+' garden',xx,yy,.18,18,.12,darksoil,48)
 xx,yy=xy(1243,960);cylinder('曦园水池',xx,yy,.3,8,.2,water,48)
-xx,yy=xy(1150,917);box('Statue plinth',xx,yy,1.5,4,4,3,stone);box('Statue abstract body',xx,yy,5,1.5,1.2,4,white);cylinder('Statue head',xx,yy,7.6,.65,1.1,white)
+import sys
+sys.path.insert(0,ROOT+'/scripts')
+from statue_geometry import build_statue
+build_statue(*xy(1150,917))
 import sys
 sys.path.insert(0,ROOT+'/scripts')
 from gate_geometry import build_gate
@@ -206,7 +209,7 @@ for py in range(248,560,13):
  if free(px,py):tree(*xy(px,py),.9)
 for (cname,mname),(v,f) in buffers.items():current=COL[cname];mesh(mname+' details',v,f,bpy.data.materials[mname])
 for id,name,px,py in pois:
- x,y=xy(px,py);labels.append(dict(id=id,name=name,position=[x,10 if id=='65' else 4,-y],source='map',category='landmark',mapPixel=[px,py]))
+ x,y=xy(px,py);labels.append(dict(id=id,name=name,position=[x,10 if id=='65' else 9 if id=='58' else 4,-y],source='map',category='landmark',mapPixel=[px,py]))
 json.dump(dict(version='map-v17-chemistry-east',coordinateSystem='Three.js Y-up, north = -Z',buildings=labels),open(ROOT+'/web/public/buildings.json','w'),ensure_ascii=False,indent=2)
 current=COL['06 Cameras']
 def camera(name,pos,target,lens):

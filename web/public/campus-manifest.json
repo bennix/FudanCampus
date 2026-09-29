@@ -6,8 +6,8 @@
       "id": "00",
       "name": "00 Terrain and roads",
       "url": "models/shared/00.glb",
-      "revision": "3924267758db",
-      "bytes": 186716
+      "revision": "a04df4d240cf",
+      "bytes": 182848
     },
     {
       "id": "01",
@@ -43,6 +43,13 @@
       "url": "models/shared/05.glb",
       "revision": "fa3be380e707",
       "bytes": 4609656
+    },
+    {
+      "id": "58",
+      "name": "毛主席像",
+      "url": "models/shared/58.glb",
+      "bytes": 463584,
+      "revision": "44bd055f433c"
     }
   ],
   "buildings": [
