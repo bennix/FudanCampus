@@ -62,11 +62,11 @@
                                            0
                                        ],
                           "name":  "北区体育馆",
-                          "bytes":  8432,
+                          "bytes":  8728,
                           "overview":  {
-                                           "revision":  "1c4238922020",
+                                           "revision":  "2b00fbaf30cd",
                                            "url":  "models/overview/3.glb",
-                                           "bytes":  2512
+                                           "bytes":  2808
                                        },
                           "bounds":  {
                                          "min":  [
@@ -87,7 +87,7 @@
                                        ],
                           "loadDistance":  240,
                           "orientationBaked":  true,
-                          "revision":  "549e3f72d7f6",
+                          "revision":  "6a489eb74e8a",
                           "labelPosition":  [
                                                 -460.8,
                                                 11.5,
@@ -103,11 +103,11 @@
                                            0
                                        ],
                           "name":  "北区食堂",
-                          "bytes":  8524,
+                          "bytes":  8820,
                           "overview":  {
-                                           "revision":  "a5b2d298cef5",
+                                           "revision":  "fb79b8768050",
                                            "url":  "models/overview/5.glb",
-                                           "bytes":  2324
+                                           "bytes":  2620
                                        },
                           "bounds":  {
                                          "min":  [
@@ -128,7 +128,7 @@
                                        ],
                           "loadDistance":  240,
                           "orientationBaked":  true,
-                          "revision":  "f550a6903e17",
+                          "revision":  "161bbaefadf2",
                           "labelPosition":  [
                                                 -351.20000000000005,
                                                 11.5,
@@ -144,11 +144,11 @@
                                            0
                                        ],
                           "name":  "仓库",
-                          "bytes":  6432,
+                          "bytes":  6728,
                           "overview":  {
-                                           "revision":  "6f165c84d58a",
+                                           "revision":  "1628ba893cd7",
                                            "url":  "models/overview/7.glb",
-                                           "bytes":  2288
+                                           "bytes":  2588
                                        },
                           "bounds":  {
                                          "min":  [
@@ -169,7 +169,7 @@
                                        ],
                           "loadDistance":  240,
                           "orientationBaked":  true,
-                          "revision":  "437fbbfdf9e1",
+                          "revision":  "3f98ed137ad5",
                           "labelPosition":  [
                                                 -364.8,
                                                 11.5,

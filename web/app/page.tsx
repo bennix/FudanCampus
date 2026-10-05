@@ -43,20 +43,23 @@ export default function Home(){
  const loader=new GLTFLoader();
  const manifestUrl='/campus-manifest.json';
  const disposeGroup=(group:THREE.Object3D)=>group.traverse(o=>{if(o instanceof THREE.Mesh){o.geometry.dispose();for(const m of Array.isArray(o.material)?o.material:[o.material])m.dispose();}});
+ const northPreview:Record<string,number>={'3':0x3399ff,'5':0xff5522,'7':0x22cc55};
+ const tintNorthPreview=(group:THREE.Object3D,id:string)=>{const hex=northPreview[id];if(!hex)return;group.traverse(o=>{if(o instanceof THREE.Mesh){for(const m of Array.isArray(o.material)?o.material:[o.material]){if(m instanceof THREE.MeshStandardMaterial){m.color.setHex(hex);m.emissive.setHex(hex);m.emissiveIntensity=.35;m.metalness=0;m.roughness=.55;}}}};};
+ const hideLegacyNorthBlocks=(root:THREE.Object3D)=>{root.traverse(o=>{if(!(o instanceof THREE.Mesh))return;let p:THREE.Object3D|null=o;let in03=false;while(p){if(p.userData.sharedDistrict==='03')in03=true;p=p.parent;}if(in03&&['3','5','7'].includes(String(o.userData.building_id??'')))o.visible=false;});};
  const prepare=(group:THREE.Group)=>group.traverse(o=>{if(o instanceof THREE.Mesh){o.castShadow=!o.name.includes('Continuous');o.receiveShadow=true;}if(/Canopy|Trunk/.test(o.name))o.visible=showTrees;});
- const loadAsset=async(asset:Asset)=>{const url=new URL(asset.url,new URL(manifestUrl,location.href));url.searchParams.set('v',asset.revision);const g=await loader.loadAsync(url.href);if(canceled){disposeGroup(g.scene);throw Error('canceled');}prepare(g.scene);return g.scene;};
+ const loadAsset=async(asset:Asset&{id?:string})=>{const url=new URL(asset.url,new URL(manifestUrl,location.href));url.searchParams.set('v',asset.revision);const g=await loader.loadAsync(url.href);if(canceled){disposeGroup(g.scene);throw Error('canceled');}prepare(g.scene);if(asset.id==='03')g.scene.userData.sharedDistrict='03';return g.scene;};
  const details:{asset:ModularBuilding;overview:THREE.Group;state:'idle'|'loading'|'ready'|'failed'}[]=[];
  let inFlight=0,lastDetailCheck=0;
  const loadDetail=(item:typeof details[number])=>{
   if(item.state!=='idle'||canceled)return;item.state='loading';inFlight++;
-  loadAsset(item.asset).then(group=>{group.position.fromArray(item.asset.position);group.rotation.fromArray(item.asset.rotation);model!.add(group);model!.remove(item.overview);disposeGroup(item.overview);item.state='ready';renderer.shadowMap.needsUpdate=true;}).catch(e=>{if(!canceled){item.state='failed';console.error(e);setStatus(`${item.asset.name} 细节加载失败，保留总览模型；刷新可重试`);}}).finally(()=>{inFlight--;});
+  loadAsset(item.asset).then(group=>{group.position.fromArray(item.asset.position);group.rotation.fromArray(item.asset.rotation);if(northPreview[item.asset.id])tintNorthPreview(group,item.asset.id);model!.add(group);model!.remove(item.overview);disposeGroup(item.overview);item.state='ready';renderer.shadowMap.needsUpdate=true;}).catch(e=>{if(!canceled){item.state='failed';console.error(e);setStatus(`${item.asset.name} 细节加载失败，保留总览模型；刷新可重试`);}}).finally(()=>{inFlight--;});
  };
  Promise.all([fetch(manifestUrl,{signal:abort.signal}).then(r=>{if(!r.ok)throw Error('模型清单不可用');return r.json() as Promise<CampusManifest>;}),fetch('/buildings.json',{signal:abort.signal}).then(r=>{if(!r.ok)throw Error('标签文件不可用');return r.json() as Promise<{buildings:Building[]}>;})]).then(async([manifest,data])=>{
   if(canceled)return;model=new THREE.Group();scene.add(model);
-  const tasks=[...manifest.shared.map(asset=>async()=>{model!.add(await loadAsset(asset));}),...manifest.buildings.map(asset=>async()=>{const group=await loadAsset(asset.overview);group.position.fromArray(asset.position);group.rotation.fromArray(asset.rotation);model!.add(group);details.push({asset,overview:group,state:'idle'});})];
+  const tasks=[...manifest.shared.map(asset=>async()=>{model!.add(await loadAsset(asset));}),...manifest.buildings.map(asset=>async()=>{const group=await loadAsset(asset.overview);group.position.fromArray(asset.position);group.rotation.fromArray(asset.rotation);if(northPreview[asset.id])tintNorthPreview(group,asset.id);model!.add(group);details.push({asset,overview:group,state:'idle'});})];
   // Bound concurrent requests and parsing work on the main thread.
   await Promise.all(Array.from({length:3},async()=>{while(tasks.length&&!canceled){await tasks.shift()!();}}));
-  if(canceled)return;renderer.shadowMap.autoUpdate=false;renderer.shadowMap.needsUpdate=true;
+  if(canceled)return;hideLegacyNorthBlocks(model!);renderer.shadowMap.autoUpdate=false;renderer.shadowMap.needsUpdate=true;
   for(const item of data.buildings){
    const button=document.createElement('button');button.className='building-label';button.dataset.buildingId=item.id;button.dataset.category=item.category;button.title=`${item.id} · ${item.name}`;button.setAttribute('aria-label',`${item.id} ${item.name}，点击靠近`);
    const badge=document.createElement('span');badge.className='label-id';badge.textContent=item.id;

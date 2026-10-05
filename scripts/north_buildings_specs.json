@@ -1,14 +1,14 @@
 {
   "3": {
     "name": "北区体育馆",
-    "source": "map footprint; typical campus gymnasium form; facades inferred",
+    "source": "map footprint; preview colors (blue gym) for local review — replace before final submit",
     "materials": {
-      "panel": [0.62, 0.66, 0.7],
-      "frame": [0.22, 0.24, 0.26],
-      "glass": [0.18, 0.28, 0.32],
-      "roof": [0.35, 0.38, 0.42],
-      "trim": [0.78, 0.8, 0.82],
-      "concrete": [0.55, 0.56, 0.54]
+      "panel": [0.22, 0.52, 0.98],
+      "frame": [0.05, 0.12, 0.35],
+      "glass": [0.35, 0.75, 0.95],
+      "roof": [0.12, 0.22, 0.55],
+      "trim": [1.0, 0.72, 0.08],
+      "concrete": [0.35, 0.38, 0.42]
     },
     "boxes": [
       {"m": "concrete", "dx": 0, "dy": 0, "z": 0.35, "width": 41.2, "depth": 49.6, "height": 0.7},
@@ -46,14 +46,14 @@
   },
   "5": {
     "name": "北区食堂",
-    "source": "map footprint; typical north-campus dining hall; facades inferred",
+    "source": "map footprint; preview colors (orange canteen) for local review — replace before final submit",
     "materials": {
-      "wall": [0.74, 0.72, 0.65],
-      "trim": [0.84, 0.82, 0.74],
-      "glass": [0.2, 0.32, 0.34],
-      "frame": [0.35, 0.38, 0.36],
-      "canopy": [0.52, 0.54, 0.5],
-      "brick": [0.58, 0.32, 0.22]
+      "wall": [0.98, 0.42, 0.12],
+      "trim": [1.0, 0.88, 0.15],
+      "glass": [0.55, 0.85, 0.95],
+      "frame": [0.45, 0.15, 0.05],
+      "canopy": [0.85, 0.25, 0.15],
+      "brick": [0.75, 0.28, 0.12]
     },
     "boxes": [
       {"m": "brick", "dx": 0, "dy": 0, "z": 0.35, "width": 50.4, "depth": 42.4, "height": 0.7},
@@ -91,14 +91,14 @@
   },
   "7": {
     "name": "仓库",
-    "source": "map footprint; industrial storage shed; facades inferred",
+    "source": "map footprint; preview colors (green warehouse) for local review — replace before final submit",
     "materials": {
-      "metal": [0.58, 0.6, 0.62],
-      "frame": [0.28, 0.3, 0.32],
-      "door": [0.42, 0.44, 0.46],
-      "roof": [0.4, 0.42, 0.44],
-      "trim": [0.72, 0.73, 0.7],
-      "glass": [0.25, 0.32, 0.34]
+      "metal": [0.15, 0.78, 0.35],
+      "frame": [0.08, 0.35, 0.18],
+      "door": [0.55, 0.95, 0.45],
+      "roof": [0.45, 0.22, 0.65],
+      "trim": [0.95, 0.95, 0.2],
+      "glass": [0.6, 0.95, 0.7]
     },
     "boxes": [
       {"m": "trim", "dx": 0, "dy": 0, "z": 0.3, "width": 30.4, "depth": 11.2, "height": 0.6},

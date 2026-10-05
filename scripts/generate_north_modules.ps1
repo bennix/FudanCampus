@@ -159,9 +159,11 @@ foreach ($bid in @('3','5','7')) {
         $k = $matKeys[$i]; $c = $spec.materials.$k
         $materials += @{
             name = "North $bid $k"
+            doubleSided = $true
+            emissiveFactor = @([double]$c[0], [double]$c[1], [double]$c[2])
             pbrMetallicRoughness = @{
                 baseColorFactor = @([double]$c[0], [double]$c[1], [double]$c[2], 1.0)
-                metallicFactor = 0.05; roughnessFactor = $(if ($k -eq 'glass') { 0.35 } else { 0.72 })
+                metallicFactor = 0.0; roughnessFactor = $(if ($k -eq 'glass') { 0.35 } else { 0.55 })
             }
         }
     }
