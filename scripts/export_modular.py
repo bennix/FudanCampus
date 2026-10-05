@@ -1,4 +1,4 @@
-"""Export eight editable building scenes and shared district GLBs from the master scene."""
+"""Export modular building scenes and shared district GLBs from the master scene."""
 import bpy
 import json
 import hashlib
@@ -7,7 +7,7 @@ from mathutils import Vector
 
 ROOT = Path(__file__).resolve().parents[1]
 PUBLIC = ROOT / 'web/public'
-IDS = ['14', '16', '20', '27', '51', '55', '56', '65']
+IDS = ['3', '5', '7', '14', '16', '20', '27', '51', '55', '56', '65']
 
 def export_modular(only_bid=None):
     records = {r['id']: r for r in json.loads((ROOT / 'references/buildings.json').read_text())}
@@ -88,7 +88,7 @@ if __name__ == '__main__':
     args = sys.argv[sys.argv.index('--')+1:] if '--' in sys.argv else []
     if args:
         if len(args) != 2 or args[0] != '--building' or args[1] not in IDS:
-            raise ValueError('Expected -- --building ID (14,16,20,27,51,55,56,65)')
+            raise ValueError('Expected -- --building ID (3,5,7,14,16,20,27,51,55,56,65)')
         bid = args[1]
         manifest = json.loads((PUBLIC / 'campus-manifest.json').read_text())
         entry = next(item for item in manifest['buildings'] if item['id'] == bid)

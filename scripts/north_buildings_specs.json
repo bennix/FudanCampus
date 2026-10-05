@@ -1,0 +1,125 @@
+{
+  "3": {
+    "name": "北区体育馆",
+    "source": "map footprint; typical campus gymnasium form; facades inferred",
+    "materials": {
+      "panel": [0.62, 0.66, 0.7],
+      "frame": [0.22, 0.24, 0.26],
+      "glass": [0.18, 0.28, 0.32],
+      "roof": [0.35, 0.38, 0.42],
+      "trim": [0.78, 0.8, 0.82],
+      "concrete": [0.55, 0.56, 0.54]
+    },
+    "boxes": [
+      {"m": "concrete", "dx": 0, "dy": 0, "z": 0.35, "width": 41.2, "depth": 49.6, "height": 0.7},
+      {"m": "panel", "dx": 0, "dy": 0, "z": 6.2, "width": 40, "depth": 48.8, "height": 11.2},
+      {"m": "trim", "dx": 0, "dy": 0, "z": 11.95, "width": 40.4, "depth": 49.2, "height": 0.35},
+      {"m": "roof", "dx": 0, "dy": -6, "z": 12.8, "width": 28, "depth": 36, "height": 2.4},
+      {"m": "roof", "dx": 0, "dy": -6, "z": 14.6, "width": 18, "depth": 22, "height": 1.2},
+      {"m": "panel", "dx": 0, "dy": 24.6, "z": 8.5, "width": 14, "depth": 0.35, "height": 5.5},
+      {"m": "glass", "dx": 0, "dy": 24.78, "z": 8.5, "width": 10, "depth": 0.08, "height": 4.2},
+      {"m": "frame", "dx": -4.5, "dy": 24.72, "z": 8.5, "width": 0.25, "depth": 0.2, "height": 4.5},
+      {"m": "frame", "dx": 4.5, "dy": 24.72, "z": 8.5, "width": 0.25, "depth": 0.2, "height": 4.5},
+      {"m": "trim", "dx": 0, "dy": 22.8, "z": 4.2, "width": 18, "depth": 5.5, "height": 0.55},
+      {"m": "concrete", "dx": -5.5, "dy": 22.2, "z": 2.1, "width": 1.1, "depth": 1.1, "height": 4.2},
+      {"m": "concrete", "dx": 5.5, "dy": 22.2, "z": 2.1, "width": 1.1, "depth": 1.1, "height": 4.2},
+      {"m": "glass", "dx": -19.8, "dy": 24.5, "z": 7.2, "width": 3.2, "depth": 0.12, "height": 2.8},
+      {"m": "glass", "dx": -9.8, "dy": 24.5, "z": 7.2, "width": 3.2, "depth": 0.12, "height": 2.8},
+      {"m": "glass", "dx": 9.8, "dy": 24.5, "z": 7.2, "width": 3.2, "depth": 0.12, "height": 2.8},
+      {"m": "glass", "dx": 19.8, "dy": 24.5, "z": 7.2, "width": 3.2, "depth": 0.12, "height": 2.8},
+      {"m": "glass", "dx": -19.8, "dy": 24.5, "z": 3.4, "width": 3.2, "depth": 0.12, "height": 2.8},
+      {"m": "glass", "dx": -9.8, "dy": 24.5, "z": 3.4, "width": 3.2, "depth": 0.12, "height": 2.8},
+      {"m": "glass", "dx": 9.8, "dy": 24.5, "z": 3.4, "width": 3.2, "depth": 0.12, "height": 2.8},
+      {"m": "glass", "dx": 19.8, "dy": 24.5, "z": 3.4, "width": 3.2, "depth": 0.12, "height": 2.8},
+      {"m": "frame", "dx": -19.8, "dy": 24.42, "z": 5.3, "width": 3.35, "depth": 0.08, "height": 6.2},
+      {"m": "frame", "dx": 19.8, "dy": 24.42, "z": 5.3, "width": 3.35, "depth": 0.08, "height": 6.2},
+      {"m": "glass", "dx": -19.8, "dy": -24.5, "z": 8, "width": 4, "depth": 0.12, "height": 3.5},
+      {"m": "glass", "dx": 0, "dy": -24.5, "z": 8, "width": 4, "depth": 0.12, "height": 3.5},
+      {"m": "glass", "dx": 19.8, "dy": -24.5, "z": 8, "width": 4, "depth": 0.12, "height": 3.5},
+      {"m": "roof", "dx": 0, "dy": 0, "z": 12.15, "width": 40.2, "depth": 48.9, "height": 0.25}
+    ],
+    "overview_boxes": [
+      {"m": "panel", "dx": 0, "dy": 0, "z": 6.2, "width": 40, "depth": 48.8, "height": 11.2},
+      {"m": "roof", "dx": 0, "dy": -6, "z": 12.8, "width": 28, "depth": 36, "height": 2.4},
+      {"m": "roof", "dx": 0, "dy": -6, "z": 14.6, "width": 18, "depth": 22, "height": 1.2}
+    ]
+  },
+  "5": {
+    "name": "北区食堂",
+    "source": "map footprint; typical north-campus dining hall; facades inferred",
+    "materials": {
+      "wall": [0.74, 0.72, 0.65],
+      "trim": [0.84, 0.82, 0.74],
+      "glass": [0.2, 0.32, 0.34],
+      "frame": [0.35, 0.38, 0.36],
+      "canopy": [0.52, 0.54, 0.5],
+      "brick": [0.58, 0.32, 0.22]
+    },
+    "boxes": [
+      {"m": "brick", "dx": 0, "dy": 0, "z": 0.35, "width": 50.4, "depth": 42.4, "height": 0.7},
+      {"m": "wall", "dx": 0, "dy": 0, "z": 3.5, "width": 49.6, "depth": 41.6, "height": 6.5},
+      {"m": "wall", "dx": 0, "dy": 0, "z": 10.2, "width": 49.6, "depth": 41.6, "height": 6.5},
+      {"m": "trim", "dx": 0, "dy": 0, "z": 6.85, "width": 50, "depth": 42, "height": 0.45},
+      {"m": "trim", "dx": 0, "dy": 0, "z": 13.55, "width": 50, "depth": 42, "height": 0.4},
+      {"m": "trim", "dx": 0, "dy": 0, "z": 16.95, "width": 50.2, "depth": 42.2, "height": 0.35},
+      {"m": "canopy", "dx": 0, "dy": 21.2, "z": 4.5, "width": 22, "depth": 6, "height": 0.5},
+      {"m": "frame", "dx": -6, "dy": 23.5, "z": 2.2, "width": 0.55, "depth": 0.55, "height": 4.4},
+      {"m": "frame", "dx": 6, "dy": 23.5, "z": 2.2, "width": 0.55, "depth": 0.55, "height": 4.4},
+      {"m": "glass", "dx": 0, "dy": 21.35, "z": 2.2, "width": 8, "depth": 0.12, "height": 3.8},
+      {"m": "brick", "dx": 0, "dy": 21.15, "z": 0.55, "width": 12, "depth": 1.2, "height": 1.1},
+      {"m": "glass", "dx": -18, "dy": 21.05, "z": 4.2, "width": 5.5, "depth": 0.12, "height": 2.6},
+      {"m": "glass", "dx": -9, "dy": 21.05, "z": 4.2, "width": 5.5, "depth": 0.12, "height": 2.6},
+      {"m": "glass", "dx": 9, "dy": 21.05, "z": 4.2, "width": 5.5, "depth": 0.12, "height": 2.6},
+      {"m": "glass", "dx": 18, "dy": 21.05, "z": 4.2, "width": 5.5, "depth": 0.12, "height": 2.6},
+      {"m": "glass", "dx": -18, "dy": 21.05, "z": 11, "width": 5.5, "depth": 0.12, "height": 2.6},
+      {"m": "glass", "dx": -9, "dy": 21.05, "z": 11, "width": 5.5, "depth": 0.12, "height": 2.6},
+      {"m": "glass", "dx": 9, "dy": 21.05, "z": 11, "width": 5.5, "depth": 0.12, "height": 2.6},
+      {"m": "glass", "dx": 18, "dy": 21.05, "z": 11, "width": 5.5, "depth": 0.12, "height": 2.6},
+      {"m": "frame", "dx": -22, "dy": 21, "z": 7.5, "width": 0.22, "depth": 0.25, "height": 12.5},
+      {"m": "frame", "dx": 22, "dy": 21, "z": 7.5, "width": 0.22, "depth": 0.25, "height": 12.5},
+      {"m": "glass", "dx": -24.95, "dy": 0, "z": 4.5, "width": 0.12, "depth": 3.5, "height": 2.4},
+      {"m": "glass", "dx": -24.95, "dy": 8, "z": 4.5, "width": 0.12, "depth": 3.5, "height": 2.4},
+      {"m": "glass", "dx": -24.95, "dy": -8, "z": 4.5, "width": 0.12, "depth": 3.5, "height": 2.4},
+      {"m": "glass", "dx": -24.95, "dy": 0, "z": 11.2, "width": 0.12, "depth": 3.5, "height": 2.4},
+      {"m": "glass", "dx": -24.95, "dy": 8, "z": 11.2, "width": 0.12, "depth": 3.5, "height": 2.4},
+      {"m": "canopy", "dx": 0, "dy": 0, "z": 17.15, "width": 49.8, "depth": 41.8, "height": 0.25}
+    ],
+    "overview_boxes": [
+      {"m": "wall", "dx": 0, "dy": 0, "z": 8.35, "width": 49.6, "depth": 41.6, "height": 13},
+      {"m": "canopy", "dx": 0, "dy": 21.2, "z": 4.5, "width": 22, "depth": 6, "height": 0.5}
+    ]
+  },
+  "7": {
+    "name": "仓库",
+    "source": "map footprint; industrial storage shed; facades inferred",
+    "materials": {
+      "metal": [0.58, 0.6, 0.62],
+      "frame": [0.28, 0.3, 0.32],
+      "door": [0.42, 0.44, 0.46],
+      "roof": [0.4, 0.42, 0.44],
+      "trim": [0.72, 0.73, 0.7],
+      "glass": [0.25, 0.32, 0.34]
+    },
+    "boxes": [
+      {"m": "trim", "dx": 0, "dy": 0, "z": 0.3, "width": 30.4, "depth": 11.2, "height": 0.6},
+      {"m": "metal", "dx": 0, "dy": 0, "z": 3.4, "width": 29.6, "depth": 10.4, "height": 6.2},
+      {"m": "roof", "dx": 0, "dy": 0, "z": 6.75, "width": 30, "depth": 10.8, "height": 0.35},
+      {"m": "trim", "dx": 0, "dy": 0, "z": 7.05, "width": 30.2, "depth": 11, "height": 0.25},
+      {"m": "door", "dx": -9, "dy": 5.35, "z": 2.2, "width": 4.2, "depth": 0.18, "height": 3.8},
+      {"m": "door", "dx": -3, "dy": 5.35, "z": 2.2, "width": 4.2, "depth": 0.18, "height": 3.8},
+      {"m": "door", "dx": 3, "dy": 5.35, "z": 2.2, "width": 4.2, "depth": 0.18, "height": 3.8},
+      {"m": "door", "dx": 9, "dy": 5.35, "z": 2.2, "width": 4.2, "depth": 0.18, "height": 3.8},
+      {"m": "frame", "dx": -9, "dy": 5.28, "z": 2.2, "width": 4.35, "depth": 0.12, "height": 3.95},
+      {"m": "frame", "dx": 9, "dy": 5.28, "z": 2.2, "width": 4.35, "depth": 0.12, "height": 3.95},
+      {"m": "frame", "dx": -14.8, "dy": 0, "z": 3.4, "width": 0.25, "depth": 10.6, "height": 6.2},
+      {"m": "frame", "dx": 14.8, "dy": 0, "z": 3.4, "width": 0.25, "depth": 10.6, "height": 6.2},
+      {"m": "metal", "dx": 0, "dy": -5.35, "z": 4.5, "width": 28, "depth": 0.2, "height": 2.2},
+      {"m": "glass", "dx": -6, "dy": -5.28, "z": 4.5, "width": 1.8, "depth": 0.08, "height": 1.2},
+      {"m": "glass", "dx": 6, "dy": -5.28, "z": 4.5, "width": 1.8, "depth": 0.08, "height": 1.2}
+    ],
+    "overview_boxes": [
+      {"m": "metal", "dx": 0, "dy": 0, "z": 3.4, "width": 29.6, "depth": 10.4, "height": 6.2},
+      {"m": "roof", "dx": 0, "dy": 0, "z": 6.75, "width": 30, "depth": 10.8, "height": 0.35}
+    ]
+  }
+}

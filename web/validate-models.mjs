@@ -10,4 +10,4 @@ for(const asset of manifest.buildings){
     if(Math.abs(bounds[key].toArray()[axis]-asset.bounds[key][axis])>.002)throw Error(`${asset.id}: local bounds mismatch`);
   }
 }
-console.log('PASS: all eight GLBs load in Three.js with correct local bounds');
+console.log('PASS: all building GLBs load in Three.js with correct local bounds');

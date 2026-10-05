@@ -1,7 +1,9 @@
 import bpy, math, random, os, json
 from mathutils import Vector
 random.seed(21)
-OUT='/Users/zhipingxu/FudanCampus/output'
+from pathlib import Path
+ROOT=str(Path(__file__).resolve().parents[1])
+OUT=str(Path(ROOT)/'output')
 bpy.ops.object.select_all(action='SELECT'); bpy.ops.object.delete(use_global=False)
 for c in list(bpy.data.collections):
  if c.name != 'Collection': bpy.data.collections.remove(c)
@@ -69,7 +71,6 @@ def building(name,x,y,w,d,floors=3,pitched=False,m=None):
  for i in range(3):box('Entry step',x,y-d/2-.5-i*.32,.14*(3-i),3.6,1.2,.2,pathmat,True)
  return ob
 # Map coordinates: supplied image displayed at 1888 x 1334.
-ROOT='/Users/zhipingxu/FudanCampus'
 S=.8
 records=json.load(open(ROOT+'/references/buildings.json'))
 def xy(x,y):return ((x-1200)*S,(1000-y)*S)
@@ -140,6 +141,9 @@ for r in records:
  elif id=='20':
   from physics_geometry import build_physics
   build_physics(x,y,mat,mesh,current,bpy)
+ elif id in ('3','5','7'):
+  from north_buildings_common import build_north_detail
+  build_north_detail(id,x,y,mat,mesh,current,bpy)
  elif form=='yifu':
   import sys
   sys.path.insert(0,ROOT+'/scripts')

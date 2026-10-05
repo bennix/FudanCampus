@@ -68,9 +68,22 @@ npm run dev -- --host 127.0.0.1 --port 5173
 
 按用户照片建立红砖墙、白色平檐、砖柱、红色校名、白色花格及打开的黑色铁门；暂放置于地图 65 号正门位置。校名使用字体近似表达，并非原题字描摹。网页可切换「复旦校门」近景和校门实景对照。造型脚本：`scripts/gate_geometry.py`；渲染：`output/fudan_gate_detail.png`。
 
+## 北区体育馆、北区食堂与仓库（3 / 5 / 7）
+
+三栋位于北区公共分区 `03`，地图 footprint 与标签编号不变。造型数据在 `scripts/north_buildings_specs.json`，Blender 完整重建时由 `scripts/north_buildings_common.py` 生成；无照片处按典型校园体育馆、食堂与仓储库房推断立面。
+
+在无 Blender 时可从仓库根目录生成／更新 GLB 与清单：
+
+```powershell
+powershell -ExecutionPolicy Bypass -File scripts/generate_north_modules.ps1
+powershell -ExecutionPolicy Bypass -File scripts/strip_modular_from_shared.ps1
+```
+
+（macOS / Linux 可用 `python3 scripts/generate_north_modules.py`。）生成后请运行 `scripts/strip_modular_from_shared.ps1`，从 `models/shared/03.glb` 去掉对应简易体块，避免与分栋模型重叠。有 Blender 4.4 时仍建议 `RENDER_VIEWS=none blender -b --python scripts/build_campus.py` 做正式导出并写入 `assets/buildings/<编号>.blend`。
+
 ## 多人协作：分栋模型
 
-网页读取 `web/public/campus-manifest.json`，首屏加载 6 个公共／分区 GLB 和 8 个简化建筑模型，距建筑 240 米内加载完整单体。完整单体加载成功后替换简化模型；失败时保留简化模型。标签沿用原建筑编号。正门朝外仍为正南。
+网页读取 `web/public/campus-manifest.json`，首屏加载 6 个公共／分区 GLB 和 11 个简化建筑模型，距建筑 240 米内加载完整单体。完整单体加载成功后替换简化模型；失败时保留简化模型。标签沿用原建筑编号。正门朝外仍为正南。
 
 | 编号 | 建筑 | 独立造型脚本 |
 |---|---|---|
@@ -82,6 +95,9 @@ npm run dev -- --host 127.0.0.1 --port 5173
 | 55 | 化学楼 | `scripts/chemistry_geometry.py` |
 | 56 | 理科图书馆 | `scripts/library_geometry.py` |
 | 65 | 复旦正门 | `scripts/gate_geometry.py` |
+| 3 | 北区体育馆 | `scripts/north_buildings_common.py`（规格 `north_buildings_specs.json`） |
+| 5 | 北区食堂 | 同上 |
+| 7 | 仓库 | 同上 |
 
 每栋可编辑文件是 `assets/buildings/<编号>.blend`，完整 GLB 是 `web/public/models/buildings/<编号>.glb`，简化模型是 `web/public/models/overview/<编号>.glb`。模型使用本地坐标，朝向已烘焙；清单中的 `position` 将其放回校园，`rotation` 为零，不要再次应用地图角度。公共地形、道路、树木和普通楼栋按区域保存在 `web/public/models/shared/`。
 
@@ -99,6 +115,6 @@ npm run dev -- --host 127.0.0.1 --port 5173
 RENDER_VIEWS=none /Applications/Blender.app/Contents/MacOS/Blender -b -t 8 --python scripts/build_campus.py
 ```
 
-**完整重建会重新生成八栋 `.blend`、所有模块和清单，覆盖手工编辑的单栋文件。** 合并手工造型前不要运行完整重建；需先决定以脚本还是手工 `.blend` 为该栋的造型来源。`output/FudanCampus.blend` 是完整重建的组合场景；单栋导出不会同步修改它。原 `campus.glb` 保留为历史兼容文件，网页不再请求它；仅设置 `EXPORT_LEGACY=1` 完整重建时才更新。
+**完整重建会重新生成各分栋 `.blend`、所有模块和清单，覆盖手工编辑的单栋文件。** 合并手工造型前不要运行完整重建；需先决定以脚本还是手工 `.blend` 为该栋的造型来源。`output/FudanCampus.blend` 是完整重建的组合场景；单栋导出不会同步修改它。原 `campus.glb` 保留为历史兼容文件，网页不再请求它；仅设置 `EXPORT_LEGACY=1` 完整重建时才更新。
 
 验证：`python3 scripts/validate_modular.py`、`node web/validate-models.mjs`，以及在 `web/` 下运行 `npx tsc --noEmit` 和 `npm run build:pages`。
