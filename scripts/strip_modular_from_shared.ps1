@@ -1,3 +1,4 @@
+# DEPRECATED: this script corrupts GLB files. Use: python scripts/strip_modular_from_shared.py
 # Remove modular building meshes from a shared district GLB (e.g. drop 3/5/7 from 03.glb).
 param(
     [string]$SharedId = '03',
