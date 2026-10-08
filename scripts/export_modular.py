@@ -9,9 +9,14 @@ ROOT = Path(__file__).resolve().parents[1]
 PUBLIC = ROOT / 'web/public'
 IDS = ['3', '5', '7', '14', '16', '20', '27', '51', '55', '56', '65']
 
+
+def read_json(path):
+    return json.loads(path.read_text(encoding='utf-8-sig'))
+
+
 def export_modular(only_bid=None):
-    records = {r['id']: r for r in json.loads((ROOT / 'references/buildings.json').read_text())}
-    labels = {r['id']: r for r in json.loads((PUBLIC / 'buildings.json').read_text())['buildings']}
+    records = {r['id']: r for r in read_json(ROOT / 'references/buildings.json')}
+    labels = {r['id']: r for r in read_json(PUBLIC / 'buildings.json')['buildings']}
     original = bpy.context.scene
     manifest = {'version': 1, 'coordinates': 'Three.js Y-up; south +Z', 'shared': [], 'buildings': []}
     meshes = [o for o in original.objects if o.type == 'MESH']
@@ -43,7 +48,7 @@ def export_modular(only_bid=None):
         bpy.data.scenes.remove(scene)
         return {'url': relative, 'revision': hashlib.sha256(path.read_bytes()).hexdigest()[:12], 'bytes': path.stat().st_size}
     if only_bid:
-        manifest = json.loads((PUBLIC / 'campus-manifest.json').read_text())
+        manifest = read_json(PUBLIC / 'campus-manifest.json')
     for bid in ([only_bid] if only_bid else IDS):
         objects = [o for o in meshes if identity(o) == bid]
         if not objects: raise RuntimeError('Missing building ' + bid)
@@ -90,7 +95,7 @@ if __name__ == '__main__':
         if len(args) != 2 or args[0] != '--building' or args[1] not in IDS:
             raise ValueError('Expected -- --building ID (3,5,7,14,16,20,27,51,55,56,65)')
         bid = args[1]
-        manifest = json.loads((PUBLIC / 'campus-manifest.json').read_text())
+        manifest = read_json(PUBLIC / 'campus-manifest.json')
         entry = next(item for item in manifest['buildings'] if item['id'] == bid)
         x,z,minus_y = entry['position']
         for obj in bpy.context.scene.objects:

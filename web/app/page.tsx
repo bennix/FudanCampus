@@ -43,7 +43,7 @@ export default function Home(){
  const loader=new GLTFLoader();
  const manifestUrl='/campus-manifest.json';
  const disposeGroup=(group:THREE.Object3D)=>group.traverse(o=>{if(o instanceof THREE.Mesh){o.geometry.dispose();for(const m of Array.isArray(o.material)?o.material:[o.material])m.dispose();}});
- const northPreview:Record<string,number>={'3':0x3399ff,'5':0xff5522,'7':0x22cc55};
+ const northPreview:Record<string,number>={};
  const tintNorthPreview=(group:THREE.Object3D,id:string)=>{const hex=northPreview[id];if(!hex)return;group.traverse(o=>{if(o instanceof THREE.Mesh){for(const m of Array.isArray(o.material)?o.material:[o.material]){if(m instanceof THREE.MeshStandardMaterial){m.color.setHex(hex);m.emissive.setHex(hex);m.emissiveIntensity=.35;m.metalness=0;m.roughness=.55;}}}};};
  const hideLegacyNorthBlocks=(root:THREE.Object3D)=>{root.traverse(o=>{if(!(o instanceof THREE.Mesh))return;let p:THREE.Object3D|null=o;let in03=false;while(p){if(p.userData.sharedDistrict==='03')in03=true;p=p.parent;}if(in03&&['3','5','7'].includes(String(o.userData.building_id??'')))o.visible=false;});};
  const prepare=(group:THREE.Group)=>group.traverse(o=>{if(o instanceof THREE.Mesh){o.castShadow=!o.name.includes('Continuous');o.receiveShadow=true;}if(/Canopy|Trunk/.test(o.name))o.visible=showTrees;});

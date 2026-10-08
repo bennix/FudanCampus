@@ -43,15 +43,22 @@ def mesh(name, v, f, m):
     return ob
 
 
-from north_buildings_common import build_north_detail
-
 bpy.ops.object.select_all(action='SELECT')
 bpy.ops.object.delete(use_global=False)
+
+from north_canteen_geometry import build_north_canteen
+from north_gym_geometry import build_north_gym
+from north_warehouse_geometry import build_north_warehouse
 
 for bid in ('3', '5', '7'):
     r = records[bid]
     x, y = xy(r['x'], r['y'])
-    build_north_detail(bid, x, y, mat, mesh, bpy.context.scene.collection, bpy)
+    if bid == '3':
+        build_north_gym(x, y, mat, mesh, bpy.context.scene.collection, bpy)
+    elif bid == '5':
+        build_north_canteen(x, y, mat, mesh, bpy.context.scene.collection, bpy)
+    else:
+        build_north_warehouse(x, y, mat, mesh, bpy.context.scene.collection, bpy)
 
 out = ROOT / 'output' / 'preview_north_3_5_7.blend'
 out.parent.mkdir(parents=True, exist_ok=True)

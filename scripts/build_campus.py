@@ -141,9 +141,15 @@ for r in records:
  elif id=='20':
   from physics_geometry import build_physics
   build_physics(x,y,mat,mesh,current,bpy)
- elif id in ('3','5','7'):
-  from north_buildings_common import build_north_detail
-  build_north_detail(id,x,y,mat,mesh,current,bpy)
+ elif id=='5':
+  from north_canteen_geometry import build_north_canteen
+  build_north_canteen(x,y,mat,mesh,current,bpy)
+ elif id=='3':
+  from north_gym_geometry import build_north_gym
+  build_north_gym(x,y,mat,mesh,current,bpy)
+ elif id=='7':
+  from north_warehouse_geometry import build_north_warehouse
+  build_north_warehouse(x,y,mat,mesh,current,bpy)
  elif form=='yifu':
   import sys
   sys.path.insert(0,ROOT+'/scripts')
