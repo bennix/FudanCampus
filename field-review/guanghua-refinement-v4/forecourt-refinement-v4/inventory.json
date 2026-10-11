@@ -1,0 +1,3949 @@
+[
+  {
+    "name": "WPATH__curb-west-garden__pale",
+    "fid": "WPATH",
+    "bounds": [
+      [
+        -79.26325988769531,
+        11.061213493347168,
+        -0.014999999664723873
+      ],
+      [
+        -28.799999237060547,
+        76.98100280761719,
+        0.07900000363588333
+      ]
+    ],
+    "vertices": 480,
+    "faces": 388,
+    "boundary": 0,
+    "nonmanifold": 0,
+    "negative_top": 0,
+    "materials": [
+      "pale"
+    ],
+    "modifiers": [],
+    "parent": "WPATH | \u897f\u82b1\u56ed\u66f2\u5f84"
+  },
+  {
+    "name": "WPATH__west-garden__stone",
+    "fid": "WPATH",
+    "bounds": [
+      [
+        -79.22950744628906,
+        11.181571006774902,
+        0.07800000160932541
+      ],
+      [
+        -28.799999237060547,
+        76.86100769042969,
+        0.09399999678134918
+      ]
+    ],
+    "vertices": 480,
+    "faces": 388,
+    "boundary": 0,
+    "nonmanifold": 0,
+    "negative_top": 74,
+    "materials": [
+      "stone"
+    ],
+    "modifiers": [],
+    "parent": "WPATH | \u897f\u82b1\u56ed\u66f2\u5f84"
+  },
+  {
+    "name": "WPATH__curb-ding-spur__pale",
+    "fid": "WPATH",
+    "bounds": [
+      [
+        -43.226646423339844,
+        24.217336654663086,
+        -0.014999999664723873
+      ],
+      [
+        -29.739112854003906,
+        29.793256759643555,
+        0.0820000022649765
+      ]
+    ],
+    "vertices": 12,
+    "faces": 8,
+    "boundary": 0,
+    "nonmanifold": 0,
+    "negative_top": 0,
+    "materials": [
+      "pale"
+    ],
+    "modifiers": [],
+    "parent": "WPATH | \u897f\u82b1\u56ed\u66f2\u5f84"
+  },
+  {
+    "name": "WPATH__ding-spur__stone",
+    "fid": "WPATH",
+    "bounds": [
+      [
+        -43.19230651855469,
+        24.335922241210938,
+        0.08100000023841858
+      ],
+      [
+        -29.778640747070312,
+        29.673067092895508,
+        0.09700000286102295
+      ]
+    ],
+    "vertices": 12,
+    "faces": 8,
+    "boundary": 0,
+    "nonmanifold": 0,
+    "negative_top": 1,
+    "materials": [
+      "stone"
+    ],
+    "modifiers": [],
+    "parent": "WPATH | \u897f\u82b1\u56ed\u66f2\u5f84"
+  },
+  {
+    "name": "WPATH__curb-west-main-link__pale",
+    "fid": "WPATH",
+    "bounds": [
+      [
+        -38.1814079284668,
+        63.09296417236328,
+        -0.014999999664723873
+      ],
+      [
+        -28.586326599121094,
+        67.82734680175781,
+        0.08799999952316284
+      ]
+    ],
+    "vertices": 12,
+    "faces": 8,
+    "boundary": 0,
+    "nonmanifold": 0,
+    "negative_top": 0,
+    "materials": [
+      "pale"
+    ],
+    "modifiers": [],
+    "parent": "WPATH | \u897f\u82b1\u56ed\u66f2\u5f84"
+  },
+  {
+    "name": "WPATH__west-main-link__stone",
+    "fid": "WPATH",
+    "bounds": [
+      [
+        -38.15689468383789,
+        63.21553421020508,
+        0.08699999749660492
+      ],
+      [
+        -28.642229080200195,
+        67.71553802490234,
+        0.10300000011920929
+      ]
+    ],
+    "vertices": 12,
+    "faces": 8,
+    "boundary": 0,
+    "nonmanifold": 0,
+    "negative_top": 1,
+    "materials": [
+      "stone"
+    ],
+    "modifiers": [],
+    "parent": "WPATH | \u897f\u82b1\u56ed\u66f2\u5f84"
+  },
+  {
+    "name": "EPATH__main-curve__pink-path",
+    "fid": "EPATH",
+    "bounds": [
+      [
+        71.89729309082031,
+        14.683454513549805,
+        0.02500000037252903
+      ],
+      [
+        99.919921875,
+        70.0,
+        0.0949999988079071
+      ]
+    ],
+    "vertices": 496,
+    "faces": 372,
+    "boundary": 0,
+    "nonmanifold": 0,
+    "negative_top": 62,
+    "materials": [
+      "pink-path"
+    ],
+    "modifiers": [],
+    "parent": "EPATH | EPATH"
+  },
+  {
+    "name": "EPATH__lawn-connection__pink-path",
+    "fid": "EPATH",
+    "bounds": [
+      [
+        67.10211944580078,
+        26.480648040771484,
+        0.026000000536441803
+      ],
+      [
+        78.0753402709961,
+        68.63015747070312,
+        0.0949999988079071
+      ]
+    ],
+    "vertices": 296,
+    "faces": 219,
+    "boundary": 12,
+    "nonmanifold": 12,
+    "negative_top": 37,
+    "materials": [
+      "pink-path"
+    ],
+    "modifiers": [],
+    "parent": "EPATH | EPATH"
+  },
+  {
+    "name": "EPATH__north-exit-path__pink-path",
+    "fid": "EPATH",
+    "bounds": [
+      [
+        81.6678695678711,
+        58.895233154296875,
+        -0.029999999329447746
+      ],
+      [
+        88.37818908691406,
+        70.85466003417969,
+        1.3300000429153442
+      ]
+    ],
+    "vertices": 240,
+    "faces": 180,
+    "boundary": 0,
+    "nonmanifold": 0,
+    "negative_top": 1,
+    "materials": [
+      "pink-path"
+    ],
+    "modifiers": [],
+    "parent": "EPATH | EPATH"
+  },
+  {
+    "name": "EPATH__north-exit-path-terrain__turf",
+    "fid": "EPATH",
+    "bounds": [
+      [
+        79.01751708984375,
+        58.73093032836914,
+        -0.03999999910593033
+      ],
+      [
+        91.07721710205078,
+        73.32488250732422,
+        1.315000057220459
+      ]
+    ],
+    "vertices": 480,
+    "faces": 360,
+    "boundary": 0,
+    "nonmanifold": 0,
+    "negative_top": 0,
+    "materials": [
+      "FIN_garden_grass"
+    ],
+    "modifiers": [],
+    "parent": "EPATH | EPATH"
+  },
+  {
+    "name": "EPATH__photo_shape_road",
+    "fid": "EPATH",
+    "bounds": [
+      [
+        67.10211944580078,
+        39.113460540771484,
+        -0.09000000357627869
+      ],
+      [
+        78.25211334228516,
+        48.70132064819336,
+        1.75
+      ]
+    ],
+    "vertices": 10314,
+    "faces": 20624,
+    "boundary": 0,
+    "nonmanifold": 0,
+    "negative_top": 0,
+    "materials": [
+      "pink-path"
+    ],
+    "modifiers": [],
+    "parent": "EPATH | EPATH"
+  },
+  {
+    "name": "EPATH__photo_shape_ground",
+    "fid": "EPATH",
+    "bounds": [
+      [
+        67.10211944580078,
+        35.0,
+        -0.09000000357627869
+      ],
+      [
+        88.80211639404297,
+        59.0,
+        1.725000023841858
+      ]
+    ],
+    "vertices": 89254,
+    "faces": 178512,
+    "boundary": 0,
+    "nonmanifold": 0,
+    "negative_top": 0,
+    "materials": [
+      "FIN_garden_grass"
+    ],
+    "modifiers": [],
+    "parent": "EPATH | EPATH"
+  },
+  {
+    "name": "\u5149\u534e\u697c \u00b7 Guanghua rose grey stone",
+    "fid": "CONTEXT_GUANGHUA",
+    "bounds": [
+      [
+        -73.30000305175781,
+        117.0,
+        0.0
+      ],
+      [
+        113.30000305175781,
+        177.0,
+        111.86249542236328
+      ]
+    ],
+    "vertices": 104,
+    "faces": 78,
+    "boundary": 0,
+    "nonmanifold": 0,
+    "negative_top": 7,
+    "materials": [
+      "Guanghua rose grey stone"
+    ],
+    "modifiers": [],
+    "parent": "CONTEXT_GUANGHUA | existing building reference"
+  },
+  {
+    "name": "\u5149\u534e\u697c \u00b7 Guanghua recessed bronze",
+    "fid": "CONTEXT_GUANGHUA",
+    "bounds": [
+      [
+        -28.0,
+        129.0,
+        1.9499999284744263
+      ],
+      [
+        68.0,
+        167.77499389648438,
+        109.57500457763672
+      ]
+    ],
+    "vertices": 48,
+    "faces": 36,
+    "boundary": 0,
+    "nonmanifold": 0,
+    "negative_top": 6,
+    "materials": [
+      "Guanghua recessed bronze"
+    ],
+    "modifiers": [],
+    "parent": "CONTEXT_GUANGHUA | existing building reference"
+  },
+  {
+    "name": "\u5149\u534e\u697c \u00b7 Guanghua blue glazing 0",
+    "fid": "CONTEXT_GUANGHUA",
+    "bounds": [
+      [
+        -73.47999572753906,
+        128.79000854492188,
+        2.6100001335144043
+      ],
+      [
+        113.47999572753906,
+        170.19749450683594,
+        96.83999633789062
+      ]
+    ],
+    "vertices": 2556,
+    "faces": 1918,
+    "boundary": 16,
+    "nonmanifold": 16,
+    "negative_top": 317,
+    "materials": [
+      "Guanghua blue glazing 0"
+    ],
+    "modifiers": [],
+    "parent": "CONTEXT_GUANGHUA | existing building reference"
+  },
+  {
+    "name": "\u5149\u534e\u697c \u00b7 Guanghua blue glazing 3",
+    "fid": "CONTEXT_GUANGHUA",
+    "bounds": [
+      [
+        -73.47999572753906,
+        128.79000854492188,
+        2.6100001335144043
+      ],
+      [
+        113.47999572753906,
+        170.19749450683594,
+        96.83999633789062
+      ]
+    ],
+    "vertices": 2544,
+    "faces": 1908,
+    "boundary": 0,
+    "nonmanifold": 0,
+    "negative_top": 318,
+    "materials": [
+      "Guanghua blue glazing 3"
+    ],
+    "modifiers": [],
+    "parent": "CONTEXT_GUANGHUA | existing building reference"
+  },
+  {
+    "name": "\u5149\u534e\u697c \u00b7 Guanghua blue glazing 2",
+    "fid": "CONTEXT_GUANGHUA",
+    "bounds": [
+      [
+        -73.47999572753906,
+        128.79000854492188,
+        2.6100001335144043
+      ],
+      [
+        113.47999572753906,
+        170.19749450683594,
+        96.83999633789062
+      ]
+    ],
+    "vertices": 2544,
+    "faces": 1908,
+    "boundary": 0,
+    "nonmanifold": 0,
+    "negative_top": 318,
+    "materials": [
+      "Guanghua blue glazing 2"
+    ],
+    "modifiers": [],
+    "parent": "CONTEXT_GUANGHUA | existing building reference"
+  },
+  {
+    "name": "\u5149\u534e\u697c \u00b7 Guanghua blue glazing 1",
+    "fid": "CONTEXT_GUANGHUA",
+    "bounds": [
+      [
+        -73.47999572753906,
+        128.79000854492188,
+        2.6100001335144043
+      ],
+      [
+        113.47999572753906,
+        170.42999267578125,
+        96.89999389648438
+      ]
+    ],
+    "vertices": 2480,
+    "faces": 1860,
+    "boundary": 0,
+    "nonmanifold": 0,
+    "negative_top": 310,
+    "materials": [
+      "Guanghua blue glazing 1"
+    ],
+    "modifiers": [],
+    "parent": "CONTEXT_GUANGHUA | existing building reference"
+  },
+  {
+    "name": "\u5149\u534e\u697c \u00b7 Guanghua curtain wall mullions",
+    "fid": "CONTEXT_GUANGHUA",
+    "bounds": [
+      [
+        -73.30750274658203,
+        128.60250854492188,
+        2.4749999046325684
+      ],
+      [
+        113.66749572753906,
+        170.33250427246094,
+        119.32500457763672
+      ]
+    ],
+    "vertices": 3128,
+    "faces": 2346,
+    "boundary": 0,
+    "nonmanifold": 0,
+    "negative_top": 391,
+    "materials": [
+      "Guanghua curtain wall mullions"
+    ],
+    "modifiers": [],
+    "parent": "CONTEXT_GUANGHUA | existing building reference"
+  },
+  {
+    "name": "\u5149\u534e\u697c \u00b7 Guanghua light stone edges",
+    "fid": "CONTEXT_GUANGHUA",
+    "bounds": [
+      [
+        -74.27499389648438,
+        109.0050048828125,
+        0.06750000268220901
+      ],
+      [
+        114.27499389648438,
+        176.39999389648438,
+        110.92499542236328
+      ]
+    ],
+    "vertices": 1992,
+    "faces": 1494,
+    "boundary": 0,
+    "nonmanifold": 0,
+    "negative_top": 249,
+    "materials": [
+      "Guanghua light stone edges"
+    ],
+    "modifiers": [],
+    "parent": "CONTEXT_GUANGHUA | existing building reference"
+  },
+  {
+    "name": "\u5149\u534e\u697c \u00b7 Guanghua roof",
+    "fid": "CONTEXT_GUANGHUA",
+    "bounds": [
+      [
+        -73.67500305175781,
+        132.4499969482422,
+        23.264999389648438
+      ],
+      [
+        113.67500305175781,
+        173.5500030517578,
+        23.53499984741211
+      ]
+    ],
+    "vertices": 16,
+    "faces": 12,
+    "boundary": 0,
+    "nonmanifold": 0,
+    "negative_top": 2,
+    "materials": [
+      "Guanghua roof"
+    ],
+    "modifiers": [],
+    "parent": "CONTEXT_GUANGHUA | existing building reference"
+  },
+  {
+    "name": "GROUND__terrain__FIN_garden_grass",
+    "fid": "GROUND",
+    "bounds": [
+      [
+        -90.0,
+        -9.0,
+        -4.015000343322754
+      ],
+      [
+        112.30211639404297,
+        124.0,
+        -0.004999999888241291
+      ]
+    ],
+    "vertices": 238,
+    "faces": 129,
+    "boundary": 0,
+    "nonmanifold": 0,
+    "negative_top": 0,
+    "materials": [
+      "FIN_garden_grass"
+    ],
+    "modifiers": [],
+    "parent": "GROUND | GROUND"
+  },
+  {
+    "name": "EDGE_PATHS__edge-walk__FIN_pavers",
+    "fid": "EDGE_PATHS",
+    "bounds": [
+      [
+        -28.799999237060547,
+        14.0,
+        -0.019999999552965164
+      ],
+      [
+        67.10211944580078,
+        77.85448455810547,
+        0.04500000178813934
+      ]
+    ],
+    "vertices": 16,
+    "faces": 12,
+    "boundary": 0,
+    "nonmanifold": 0,
+    "negative_top": 0,
+    "materials": [
+      "FC_plaza_grid"
+    ],
+    "modifiers": [],
+    "parent": "EDGE_PATHS | EDGE_PATHS"
+  },
+  {
+    "name": "EDGE_PATHS__south-walk__FIN_pavers",
+    "fid": "EDGE_PATHS",
+    "bounds": [
+      [
+        -28.0,
+        11.90000057220459,
+        -0.019999999552965164
+      ],
+      [
+        67.30211639404297,
+        15.699999809265137,
+        0.05000000074505806
+      ]
+    ],
+    "vertices": 8,
+    "faces": 6,
+    "boundary": 0,
+    "nonmanifold": 0,
+    "negative_top": 0,
+    "materials": [
+      "FIN_pavers"
+    ],
+    "modifiers": [],
+    "parent": "EDGE_PATHS | EDGE_PATHS"
+  },
+  {
+    "name": "WPATH__reconnected-terrace-access__FIN_pavers",
+    "fid": "WPATH",
+    "bounds": [
+      [
+        -50.649131774902344,
+        40.1531982421875,
+        -0.019999999552965164
+      ],
+      [
+        -42.695159912109375,
+        44.222007751464844,
+        0.05999999865889549
+      ]
+    ],
+    "vertices": 64,
+    "faces": 34,
+    "boundary": 0,
+    "nonmanifold": 0,
+    "negative_top": 0,
+    "materials": [
+      "FIN_pavers"
+    ],
+    "modifiers": [],
+    "parent": "WPATH | \u897f\u82b1\u56ed\u66f2\u5f84.001"
+  },
+  {
+    "name": "old north opening infill",
+    "fid": "E_ENTRY",
+    "bounds": [
+      [
+        70.677001953125,
+        75.875,
+        -1.840000033378601
+      ],
+      [
+        73.927001953125,
+        80.125,
+        0.0
+      ]
+    ],
+    "vertices": 8,
+    "faces": 6,
+    "boundary": 0,
+    "nonmanifold": 0,
+    "negative_top": 0,
+    "materials": [
+      "FIN_garden_grass"
+    ],
+    "modifiers": [],
+    "parent": null
+  },
+  {
+    "name": "E_ENTRY northern curve within garden",
+    "fid": "E_ENTRY",
+    "bounds": [
+      [
+        67.09622955322266,
+        69.87578582763672,
+        -0.00299999862909317
+      ],
+      [
+        83.84474182128906,
+        77.22645568847656,
+        0.03200000151991844
+      ]
+    ],
+    "vertices": 82,
+    "faces": 40,
+    "boundary": 82,
+    "nonmanifold": 82,
+    "negative_top": 0,
+    "materials": [
+      "pink-path"
+    ],
+    "modifiers": [
+      [
+        "paving thickness",
+        "SOLIDIFY"
+      ]
+    ],
+    "parent": null
+  },
+  {
+    "name": "E_ENTRY 0 pedestal core",
+    "fid": "E_ENTRY",
+    "bounds": [
+      [
+        60.86933135986328,
+        77.9894790649414,
+        0.029999999329447746
+      ],
+      [
+        63.01933288574219,
+        80.13948059082031,
+        0.8299999833106995
+      ]
+    ],
+    "vertices": 8,
+    "faces": 6,
+    "boundary": 0,
+    "nonmanifold": 0,
+    "negative_top": 1,
+    "materials": [
+      "FC_warm_granite"
+    ],
+    "modifiers": [
+      [
+        "stone edge",
+        "BEVEL"
+      ]
+    ],
+    "parent": null
+  },
+  {
+    "name": "E_ENTRY 0 plinth foot",
+    "fid": "E_ENTRY",
+    "bounds": [
+      [
+        60.83433151245117,
+        77.95448303222656,
+        0.029999999329447746
+      ],
+      [
+        63.0543327331543,
+        80.17448425292969,
+        0.1899999976158142
+      ]
+    ],
+    "vertices": 8,
+    "faces": 6,
+    "boundary": 0,
+    "nonmanifold": 0,
+    "negative_top": 1,
+    "materials": [
+      "FC_warm_granite"
+    ],
+    "modifiers": [
+      [
+        "stone edge",
+        "BEVEL"
+      ]
+    ],
+    "parent": null
+  },
+  {
+    "name": "E_ENTRY 0 rounded coping",
+    "fid": "E_ENTRY",
+    "bounds": [
+      [
+        60.79433059692383,
+        77.91448211669922,
+        0.800000011920929
+      ],
+      [
+        63.09433364868164,
+        80.21448516845703,
+        0.9200000166893005
+      ]
+    ],
+    "vertices": 8,
+    "faces": 6,
+    "boundary": 0,
+    "nonmanifold": 0,
+    "negative_top": 1,
+    "materials": [
+      "FC_warm_granite"
+    ],
+    "modifiers": [
+      [
+        "stone edge",
+        "BEVEL"
+      ]
+    ],
+    "parent": null
+  },
+  {
+    "name": "E_ENTRY 0 panel joint",
+    "fid": "E_ENTRY",
+    "bounds": [
+      [
+        61.24833297729492,
+        77.98297882080078,
+        0.125
+      ],
+      [
+        61.26033020019531,
+        77.99198150634766,
+        0.7749999761581421
+      ]
+    ],
+    "vertices": 8,
+    "faces": 6,
+    "boundary": 0,
+    "nonmanifold": 0,
+    "negative_top": 1,
+    "materials": [
+      "FC_plaque"
+    ],
+    "modifiers": [],
+    "parent": null
+  },
+  {
+    "name": "E_ENTRY 0 panel joint.001",
+    "fid": "E_ENTRY",
+    "bounds": [
+      [
+        62.62833023071289,
+        77.98297882080078,
+        0.125
+      ],
+      [
+        62.64033126831055,
+        77.99198150634766,
+        0.7749999761581421
+      ]
+    ],
+    "vertices": 8,
+    "faces": 6,
+    "boundary": 0,
+    "nonmanifold": 0,
+    "negative_top": 1,
+    "materials": [
+      "FC_plaque"
+    ],
+    "modifiers": [],
+    "parent": null
+  },
+  {
+    "name": "E_ENTRY 0 panel joint.002",
+    "fid": "E_ENTRY",
+    "bounds": [
+      [
+        61.24833297729492,
+        80.1369857788086,
+        0.125
+      ],
+      [
+        61.26033020019531,
+        80.14598083496094,
+        0.7749999761581421
+      ]
+    ],
+    "vertices": 8,
+    "faces": 6,
+    "boundary": 0,
+    "nonmanifold": 0,
+    "negative_top": 1,
+    "materials": [
+      "FC_plaque"
+    ],
+    "modifiers": [],
+    "parent": null
+  },
+  {
+    "name": "E_ENTRY 0 panel joint.003",
+    "fid": "E_ENTRY",
+    "bounds": [
+      [
+        62.62833023071289,
+        80.1369857788086,
+        0.125
+      ],
+      [
+        62.64033126831055,
+        80.14598083496094,
+        0.7749999761581421
+      ]
+    ],
+    "vertices": 8,
+    "faces": 6,
+    "boundary": 0,
+    "nonmanifold": 0,
+    "negative_top": 1,
+    "materials": [
+      "FC_plaque"
+    ],
+    "modifiers": [],
+    "parent": null
+  },
+  {
+    "name": "E_ENTRY 0 fluted bowl",
+    "fid": "E_ENTRY",
+    "bounds": [
+      [
+        60.77363204956055,
+        77.89378356933594,
+        0.9200000166893005
+      ],
+      [
+        63.11503219604492,
+        80.23518371582031,
+        1.8799999952316284
+      ]
+    ],
+    "vertices": 1536,
+    "faces": 1442,
+    "boundary": 0,
+    "nonmanifold": 0,
+    "negative_top": 193,
+    "materials": [
+      "FC_fluted_white"
+    ],
+    "modifiers": [],
+    "parent": null
+  },
+  {
+    "name": "E_ENTRY 0 soil",
+    "fid": "E_ENTRY",
+    "bounds": [
+      [
+        60.92433166503906,
+        78.04447937011719,
+        1.75
+      ],
+      [
+        62.964332580566406,
+        80.08448028564453,
+        1.7699999809265137
+      ]
+    ],
+    "vertices": 384,
+    "faces": 290,
+    "boundary": 0,
+    "nonmanifold": 0,
+    "negative_top": 96,
+    "materials": [
+      "FIN_garden_grass"
+    ],
+    "modifiers": [],
+    "parent": null
+  },
+  {
+    "name": "E_ENTRY 0 broad leaves",
+    "fid": "E_ENTRY",
+    "bounds": [
+      [
+        60.89461898803711,
+        78.04217529296875,
+        1.7800250053405762
+      ],
+      [
+        63.036800384521484,
+        80.08810424804688,
+        2.2100813388824463
+      ]
+    ],
+    "vertices": 1750,
+    "faces": 1400,
+    "boundary": 1400,
+    "nonmanifold": 1400,
+    "negative_top": 168,
+    "materials": [
+      "VEG1 olive"
+    ],
+    "modifiers": [],
+    "parent": null
+  },
+  {
+    "name": "E_ENTRY 0 red flowers",
+    "fid": "E_ENTRY",
+    "bounds": [
+      [
+        60.945858001708984,
+        78.14813995361328,
+        1.884605884552002
+      ],
+      [
+        62.93588638305664,
+        79.96337127685547,
+        2.2312636375427246
+      ]
+    ],
+    "vertices": 2340,
+    "faces": 585,
+    "boundary": 2340,
+    "nonmanifold": 2340,
+    "negative_top": 585,
+    "materials": [
+      "FC_red_begonia"
+    ],
+    "modifiers": [],
+    "parent": null
+  },
+  {
+    "name": "E_ENTRY 1 pedestal core",
+    "fid": "E_ENTRY",
+    "bounds": [
+      [
+        67.86933135986328,
+        77.9894790649414,
+        0.029999999329447746
+      ],
+      [
+        70.01933288574219,
+        80.13948059082031,
+        0.8299999833106995
+      ]
+    ],
+    "vertices": 8,
+    "faces": 6,
+    "boundary": 0,
+    "nonmanifold": 0,
+    "negative_top": 1,
+    "materials": [
+      "FC_warm_granite"
+    ],
+    "modifiers": [
+      [
+        "stone edge",
+        "BEVEL"
+      ]
+    ],
+    "parent": null
+  },
+  {
+    "name": "E_ENTRY 1 plinth foot",
+    "fid": "E_ENTRY",
+    "bounds": [
+      [
+        67.83433532714844,
+        77.95448303222656,
+        0.029999999329447746
+      ],
+      [
+        70.05432891845703,
+        80.17448425292969,
+        0.1899999976158142
+      ]
+    ],
+    "vertices": 8,
+    "faces": 6,
+    "boundary": 0,
+    "nonmanifold": 0,
+    "negative_top": 1,
+    "materials": [
+      "FC_warm_granite"
+    ],
+    "modifiers": [
+      [
+        "stone edge",
+        "BEVEL"
+      ]
+    ],
+    "parent": null
+  },
+  {
+    "name": "E_ENTRY 1 rounded coping",
+    "fid": "E_ENTRY",
+    "bounds": [
+      [
+        67.7943344116211,
+        77.91448211669922,
+        0.800000011920929
+      ],
+      [
+        70.09432983398438,
+        80.21448516845703,
+        0.9200000166893005
+      ]
+    ],
+    "vertices": 8,
+    "faces": 6,
+    "boundary": 0,
+    "nonmanifold": 0,
+    "negative_top": 1,
+    "materials": [
+      "FC_warm_granite"
+    ],
+    "modifiers": [
+      [
+        "stone edge",
+        "BEVEL"
+      ]
+    ],
+    "parent": null
+  },
+  {
+    "name": "E_ENTRY 1 panel joint",
+    "fid": "E_ENTRY",
+    "bounds": [
+      [
+        68.24832916259766,
+        77.98297882080078,
+        0.125
+      ],
+      [
+        68.26033020019531,
+        77.99198150634766,
+        0.7749999761581421
+      ]
+    ],
+    "vertices": 8,
+    "faces": 6,
+    "boundary": 0,
+    "nonmanifold": 0,
+    "negative_top": 1,
+    "materials": [
+      "FC_plaque"
+    ],
+    "modifiers": [],
+    "parent": null
+  },
+  {
+    "name": "E_ENTRY 1 panel joint.001",
+    "fid": "E_ENTRY",
+    "bounds": [
+      [
+        69.62833404541016,
+        77.98297882080078,
+        0.125
+      ],
+      [
+        69.64033508300781,
+        77.99198150634766,
+        0.7749999761581421
+      ]
+    ],
+    "vertices": 8,
+    "faces": 6,
+    "boundary": 0,
+    "nonmanifold": 0,
+    "negative_top": 1,
+    "materials": [
+      "FC_plaque"
+    ],
+    "modifiers": [],
+    "parent": null
+  },
+  {
+    "name": "E_ENTRY 1 panel joint.002",
+    "fid": "E_ENTRY",
+    "bounds": [
+      [
+        68.24832916259766,
+        80.1369857788086,
+        0.125
+      ],
+      [
+        68.26033020019531,
+        80.14598083496094,
+        0.7749999761581421
+      ]
+    ],
+    "vertices": 8,
+    "faces": 6,
+    "boundary": 0,
+    "nonmanifold": 0,
+    "negative_top": 1,
+    "materials": [
+      "FC_plaque"
+    ],
+    "modifiers": [],
+    "parent": null
+  },
+  {
+    "name": "E_ENTRY 1 panel joint.003",
+    "fid": "E_ENTRY",
+    "bounds": [
+      [
+        69.62833404541016,
+        80.1369857788086,
+        0.125
+      ],
+      [
+        69.64033508300781,
+        80.14598083496094,
+        0.7749999761581421
+      ]
+    ],
+    "vertices": 8,
+    "faces": 6,
+    "boundary": 0,
+    "nonmanifold": 0,
+    "negative_top": 1,
+    "materials": [
+      "FC_plaque"
+    ],
+    "modifiers": [],
+    "parent": null
+  },
+  {
+    "name": "E_ENTRY 1 fluted bowl",
+    "fid": "E_ENTRY",
+    "bounds": [
+      [
+        67.77362823486328,
+        77.89378356933594,
+        0.9200000166893005
+      ],
+      [
+        70.11502838134766,
+        80.23518371582031,
+        1.8799999952316284
+      ]
+    ],
+    "vertices": 1536,
+    "faces": 1442,
+    "boundary": 0,
+    "nonmanifold": 0,
+    "negative_top": 193,
+    "materials": [
+      "FC_fluted_white"
+    ],
+    "modifiers": [],
+    "parent": null
+  },
+  {
+    "name": "E_ENTRY 1 soil",
+    "fid": "E_ENTRY",
+    "bounds": [
+      [
+        67.92433166503906,
+        78.04447937011719,
+        1.75
+      ],
+      [
+        69.9643325805664,
+        80.08448028564453,
+        1.7699999809265137
+      ]
+    ],
+    "vertices": 384,
+    "faces": 290,
+    "boundary": 0,
+    "nonmanifold": 0,
+    "negative_top": 96,
+    "materials": [
+      "FIN_garden_grass"
+    ],
+    "modifiers": [],
+    "parent": null
+  },
+  {
+    "name": "E_ENTRY 1 broad leaves",
+    "fid": "E_ENTRY",
+    "bounds": [
+      [
+        67.89462280273438,
+        78.04217529296875,
+        1.7800250053405762
+      ],
+      [
+        70.03680419921875,
+        80.08810424804688,
+        2.2100813388824463
+      ]
+    ],
+    "vertices": 1750,
+    "faces": 1400,
+    "boundary": 1400,
+    "nonmanifold": 1400,
+    "negative_top": 168,
+    "materials": [
+      "VEG1 olive"
+    ],
+    "modifiers": [],
+    "parent": null
+  },
+  {
+    "name": "E_ENTRY 1 red flowers",
+    "fid": "E_ENTRY",
+    "bounds": [
+      [
+        67.94586181640625,
+        78.14813995361328,
+        1.884605884552002
+      ],
+      [
+        69.93588256835938,
+        79.96337127685547,
+        2.2312636375427246
+      ]
+    ],
+    "vertices": 2340,
+    "faces": 585,
+    "boundary": 2340,
+    "nonmanifold": 2340,
+    "negative_top": 585,
+    "materials": [
+      "FC_red_begonia"
+    ],
+    "modifiers": [],
+    "parent": null
+  },
+  {
+    "name": "FORECOURT longitudinal drain joint",
+    "fid": "FORECOURT",
+    "bounds": [
+      [
+        -74.0,
+        110.58100128173828,
+        0.029999999329447746
+      ],
+      [
+        74.0,
+        110.61900329589844,
+        0.041999999433755875
+      ]
+    ],
+    "vertices": 8,
+    "faces": 6,
+    "boundary": 0,
+    "nonmanifold": 0,
+    "negative_top": 1,
+    "materials": [
+      "FC_plaque"
+    ],
+    "modifiers": [],
+    "parent": null
+  },
+  {
+    "name": "W_ENTRY 0 pedestal core",
+    "fid": "W_ENTRY",
+    "bounds": [
+      [
+        -31.574996948242188,
+        77.9894790649414,
+        0.029999999329447746
+      ],
+      [
+        -29.42499542236328,
+        80.13948059082031,
+        0.8299999833106995
+      ]
+    ],
+    "vertices": 8,
+    "faces": 6,
+    "boundary": 0,
+    "nonmanifold": 0,
+    "negative_top": 1,
+    "materials": [
+      "FC_warm_granite"
+    ],
+    "modifiers": [
+      [
+        "stone edge",
+        "BEVEL"
+      ]
+    ],
+    "parent": null
+  },
+  {
+    "name": "W_ENTRY 0 plinth foot",
+    "fid": "W_ENTRY",
+    "bounds": [
+      [
+        -31.609996795654297,
+        77.95448303222656,
+        0.029999999329447746
+      ],
+      [
+        -29.389995574951172,
+        80.17448425292969,
+        0.1899999976158142
+      ]
+    ],
+    "vertices": 8,
+    "faces": 6,
+    "boundary": 0,
+    "nonmanifold": 0,
+    "negative_top": 1,
+    "materials": [
+      "FC_warm_granite"
+    ],
+    "modifiers": [
+      [
+        "stone edge",
+        "BEVEL"
+      ]
+    ],
+    "parent": null
+  },
+  {
+    "name": "W_ENTRY 0 rounded coping",
+    "fid": "W_ENTRY",
+    "bounds": [
+      [
+        -31.64999771118164,
+        77.91448211669922,
+        0.800000011920929
+      ],
+      [
+        -29.349994659423828,
+        80.21448516845703,
+        0.9200000166893005
+      ]
+    ],
+    "vertices": 8,
+    "faces": 6,
+    "boundary": 0,
+    "nonmanifold": 0,
+    "negative_top": 1,
+    "materials": [
+      "FC_warm_granite"
+    ],
+    "modifiers": [
+      [
+        "stone edge",
+        "BEVEL"
+      ]
+    ],
+    "parent": null
+  },
+  {
+    "name": "W_ENTRY 0 panel joint",
+    "fid": "W_ENTRY",
+    "bounds": [
+      [
+        -31.195995330810547,
+        77.98297882080078,
+        0.125
+      ],
+      [
+        -31.183998107910156,
+        77.99198150634766,
+        0.7749999761581421
+      ]
+    ],
+    "vertices": 8,
+    "faces": 6,
+    "boundary": 0,
+    "nonmanifold": 0,
+    "negative_top": 1,
+    "materials": [
+      "FC_plaque"
+    ],
+    "modifiers": [],
+    "parent": null
+  },
+  {
+    "name": "W_ENTRY 0 panel joint.001",
+    "fid": "W_ENTRY",
+    "bounds": [
+      [
+        -29.815998077392578,
+        77.98297882080078,
+        0.125
+      ],
+      [
+        -29.803997039794922,
+        77.99198150634766,
+        0.7749999761581421
+      ]
+    ],
+    "vertices": 8,
+    "faces": 6,
+    "boundary": 0,
+    "nonmanifold": 0,
+    "negative_top": 1,
+    "materials": [
+      "FC_plaque"
+    ],
+    "modifiers": [],
+    "parent": null
+  },
+  {
+    "name": "W_ENTRY 0 panel joint.002",
+    "fid": "W_ENTRY",
+    "bounds": [
+      [
+        -31.195995330810547,
+        80.1369857788086,
+        0.125
+      ],
+      [
+        -31.183998107910156,
+        80.14598083496094,
+        0.7749999761581421
+      ]
+    ],
+    "vertices": 8,
+    "faces": 6,
+    "boundary": 0,
+    "nonmanifold": 0,
+    "negative_top": 1,
+    "materials": [
+      "FC_plaque"
+    ],
+    "modifiers": [],
+    "parent": null
+  },
+  {
+    "name": "W_ENTRY 0 panel joint.003",
+    "fid": "W_ENTRY",
+    "bounds": [
+      [
+        -29.815998077392578,
+        80.1369857788086,
+        0.125
+      ],
+      [
+        -29.803997039794922,
+        80.14598083496094,
+        0.7749999761581421
+      ]
+    ],
+    "vertices": 8,
+    "faces": 6,
+    "boundary": 0,
+    "nonmanifold": 0,
+    "negative_top": 1,
+    "materials": [
+      "FC_plaque"
+    ],
+    "modifiers": [],
+    "parent": null
+  },
+  {
+    "name": "W_ENTRY 0 fluted bowl",
+    "fid": "W_ENTRY",
+    "bounds": [
+      [
+        -31.670696258544922,
+        77.89378356933594,
+        0.9200000166893005
+      ],
+      [
+        -29.329296112060547,
+        80.23518371582031,
+        1.8799999952316284
+      ]
+    ],
+    "vertices": 1536,
+    "faces": 1442,
+    "boundary": 0,
+    "nonmanifold": 0,
+    "negative_top": 193,
+    "materials": [
+      "FC_fluted_white"
+    ],
+    "modifiers": [],
+    "parent": null
+  },
+  {
+    "name": "W_ENTRY 0 soil",
+    "fid": "W_ENTRY",
+    "bounds": [
+      [
+        -31.519996643066406,
+        78.04447937011719,
+        1.75
+      ],
+      [
+        -29.479995727539062,
+        80.08448028564453,
+        1.7699999809265137
+      ]
+    ],
+    "vertices": 384,
+    "faces": 290,
+    "boundary": 0,
+    "nonmanifold": 0,
+    "negative_top": 96,
+    "materials": [
+      "FIN_garden_grass"
+    ],
+    "modifiers": [],
+    "parent": null
+  },
+  {
+    "name": "W_ENTRY 0 broad leaves",
+    "fid": "W_ENTRY",
+    "bounds": [
+      [
+        -31.54970932006836,
+        78.04217529296875,
+        1.7800250053405762
+      ],
+      [
+        -29.407527923583984,
+        80.08810424804688,
+        2.2100813388824463
+      ]
+    ],
+    "vertices": 1750,
+    "faces": 1400,
+    "boundary": 1400,
+    "nonmanifold": 1400,
+    "negative_top": 168,
+    "materials": [
+      "VEG1 olive"
+    ],
+    "modifiers": [],
+    "parent": null
+  },
+  {
+    "name": "W_ENTRY 0 red flowers",
+    "fid": "W_ENTRY",
+    "bounds": [
+      [
+        -31.498470306396484,
+        78.14813995361328,
+        1.884605884552002
+      ],
+      [
+        -29.508441925048828,
+        79.96337127685547,
+        2.2312636375427246
+      ]
+    ],
+    "vertices": 2340,
+    "faces": 585,
+    "boundary": 2340,
+    "nonmanifold": 2340,
+    "negative_top": 585,
+    "materials": [
+      "FC_red_begonia"
+    ],
+    "modifiers": [],
+    "parent": null
+  },
+  {
+    "name": "W_ENTRY 1 pedestal core",
+    "fid": "W_ENTRY",
+    "bounds": [
+      [
+        -24.574996948242188,
+        77.9894790649414,
+        0.029999999329447746
+      ],
+      [
+        -22.42499542236328,
+        80.13948059082031,
+        0.8299999833106995
+      ]
+    ],
+    "vertices": 8,
+    "faces": 6,
+    "boundary": 0,
+    "nonmanifold": 0,
+    "negative_top": 1,
+    "materials": [
+      "FC_warm_granite"
+    ],
+    "modifiers": [
+      [
+        "stone edge",
+        "BEVEL"
+      ]
+    ],
+    "parent": null
+  },
+  {
+    "name": "W_ENTRY 1 plinth foot",
+    "fid": "W_ENTRY",
+    "bounds": [
+      [
+        -24.60999298095703,
+        77.95448303222656,
+        0.029999999329447746
+      ],
+      [
+        -22.389999389648438,
+        80.17448425292969,
+        0.1899999976158142
+      ]
+    ],
+    "vertices": 8,
+    "faces": 6,
+    "boundary": 0,
+    "nonmanifold": 0,
+    "negative_top": 1,
+    "materials": [
+      "FC_warm_granite"
+    ],
+    "modifiers": [
+      [
+        "stone edge",
+        "BEVEL"
+      ]
+    ],
+    "parent": null
+  },
+  {
+    "name": "W_ENTRY 1 rounded coping",
+    "fid": "W_ENTRY",
+    "bounds": [
+      [
+        -24.649993896484375,
+        77.91448211669922,
+        0.800000011920929
+      ],
+      [
+        -22.349998474121094,
+        80.21448516845703,
+        0.9200000166893005
+      ]
+    ],
+    "vertices": 8,
+    "faces": 6,
+    "boundary": 0,
+    "nonmanifold": 0,
+    "negative_top": 1,
+    "materials": [
+      "FC_warm_granite"
+    ],
+    "modifiers": [
+      [
+        "stone edge",
+        "BEVEL"
+      ]
+    ],
+    "parent": null
+  },
+  {
+    "name": "W_ENTRY 1 panel joint",
+    "fid": "W_ENTRY",
+    "bounds": [
+      [
+        -24.195999145507812,
+        77.98297882080078,
+        0.125
+      ],
+      [
+        -24.183998107910156,
+        77.99198150634766,
+        0.7749999761581421
+      ]
+    ],
+    "vertices": 8,
+    "faces": 6,
+    "boundary": 0,
+    "nonmanifold": 0,
+    "negative_top": 1,
+    "materials": [
+      "FC_plaque"
+    ],
+    "modifiers": [],
+    "parent": null
+  },
+  {
+    "name": "W_ENTRY 1 panel joint.001",
+    "fid": "W_ENTRY",
+    "bounds": [
+      [
+        -22.815994262695312,
+        77.98297882080078,
+        0.125
+      ],
+      [
+        -22.803993225097656,
+        77.99198150634766,
+        0.7749999761581421
+      ]
+    ],
+    "vertices": 8,
+    "faces": 6,
+    "boundary": 0,
+    "nonmanifold": 0,
+    "negative_top": 1,
+    "materials": [
+      "FC_plaque"
+    ],
+    "modifiers": [],
+    "parent": null
+  },
+  {
+    "name": "W_ENTRY 1 panel joint.002",
+    "fid": "W_ENTRY",
+    "bounds": [
+      [
+        -24.195999145507812,
+        80.1369857788086,
+        0.125
+      ],
+      [
+        -24.183998107910156,
+        80.14598083496094,
+        0.7749999761581421
+      ]
+    ],
+    "vertices": 8,
+    "faces": 6,
+    "boundary": 0,
+    "nonmanifold": 0,
+    "negative_top": 1,
+    "materials": [
+      "FC_plaque"
+    ],
+    "modifiers": [],
+    "parent": null
+  },
+  {
+    "name": "W_ENTRY 1 panel joint.003",
+    "fid": "W_ENTRY",
+    "bounds": [
+      [
+        -22.815994262695312,
+        80.1369857788086,
+        0.125
+      ],
+      [
+        -22.803993225097656,
+        80.14598083496094,
+        0.7749999761581421
+      ]
+    ],
+    "vertices": 8,
+    "faces": 6,
+    "boundary": 0,
+    "nonmanifold": 0,
+    "negative_top": 1,
+    "materials": [
+      "FC_plaque"
+    ],
+    "modifiers": [],
+    "parent": null
+  },
+  {
+    "name": "W_ENTRY 1 fluted bowl",
+    "fid": "W_ENTRY",
+    "bounds": [
+      [
+        -24.670700073242188,
+        77.89378356933594,
+        0.9200000166893005
+      ],
+      [
+        -22.329299926757812,
+        80.23518371582031,
+        1.8799999952316284
+      ]
+    ],
+    "vertices": 1536,
+    "faces": 1442,
+    "boundary": 0,
+    "nonmanifold": 0,
+    "negative_top": 193,
+    "materials": [
+      "FC_fluted_white"
+    ],
+    "modifiers": [],
+    "parent": null
+  },
+  {
+    "name": "W_ENTRY 1 soil",
+    "fid": "W_ENTRY",
+    "bounds": [
+      [
+        -24.519996643066406,
+        78.04447937011719,
+        1.75
+      ],
+      [
+        -22.479995727539062,
+        80.08448028564453,
+        1.7699999809265137
+      ]
+    ],
+    "vertices": 384,
+    "faces": 290,
+    "boundary": 0,
+    "nonmanifold": 0,
+    "negative_top": 96,
+    "materials": [
+      "FIN_garden_grass"
+    ],
+    "modifiers": [],
+    "parent": null
+  },
+  {
+    "name": "W_ENTRY 1 broad leaves",
+    "fid": "W_ENTRY",
+    "bounds": [
+      [
+        -24.549705505371094,
+        78.04217529296875,
+        1.7800250053405762
+      ],
+      [
+        -22.40752410888672,
+        80.08810424804688,
+        2.2100813388824463
+      ]
+    ],
+    "vertices": 1750,
+    "faces": 1400,
+    "boundary": 1400,
+    "nonmanifold": 1400,
+    "negative_top": 168,
+    "materials": [
+      "VEG1 olive"
+    ],
+    "modifiers": [],
+    "parent": null
+  },
+  {
+    "name": "W_ENTRY 1 red flowers",
+    "fid": "W_ENTRY",
+    "bounds": [
+      [
+        -24.49846649169922,
+        78.14813995361328,
+        1.884605884552002
+      ],
+      [
+        -22.508445739746094,
+        79.96337127685547,
+        2.2312636375427246
+      ]
+    ],
+    "vertices": 2340,
+    "faces": 585,
+    "boundary": 2340,
+    "nonmanifold": 2340,
+    "negative_top": 585,
+    "materials": [
+      "FC_red_begonia"
+    ],
+    "modifiers": [],
+    "parent": null
+  },
+  {
+    "name": "FORECOURT photo grid plaza",
+    "fid": "FORECOURT",
+    "bounds": [
+      [
+        -80.0,
+        67.94995880126953,
+        -0.03500000014901161
+      ],
+      [
+        102.30211639404297,
+        113.0,
+        0.03500000014901161
+      ]
+    ],
+    "vertices": 286,
+    "faces": 425,
+    "boundary": 0,
+    "nonmanifold": 0,
+    "negative_top": 0,
+    "materials": [
+      "FC_plaza_grid"
+    ],
+    "modifiers": [],
+    "parent": null
+  },
+  {
+    "name": "W_ENTRY aligned garden curb 000",
+    "fid": "W_ENTRY",
+    "bounds": [
+      [
+        -29.634822845458984,
+        77.73448181152344,
+        0.01600000075995922
+      ],
+      [
+        -28.803998947143555,
+        77.9744873046875,
+        0.15000000596046448
+      ]
+    ],
+    "vertices": 8,
+    "faces": 6,
+    "boundary": 0,
+    "nonmanifold": 0,
+    "negative_top": 1,
+    "materials": [
+      "FC_warm_granite"
+    ],
+    "modifiers": [
+      [
+        "small chamfer",
+        "BEVEL"
+      ]
+    ],
+    "parent": null
+  },
+  {
+    "name": "W_ENTRY aligned garden curb 001",
+    "fid": "W_ENTRY",
+    "bounds": [
+      [
+        -30.47364616394043,
+        77.73448181152344,
+        0.01600000075995922
+      ],
+      [
+        -29.642822265625,
+        77.9744873046875,
+        0.15000000596046448
+      ]
+    ],
+    "vertices": 8,
+    "faces": 6,
+    "boundary": 0,
+    "nonmanifold": 0,
+    "negative_top": 1,
+    "materials": [
+      "FC_warm_granite"
+    ],
+    "modifiers": [
+      [
+        "small chamfer",
+        "BEVEL"
+      ]
+    ],
+    "parent": null
+  },
+  {
+    "name": "W_ENTRY aligned garden curb 002",
+    "fid": "W_ENTRY",
+    "bounds": [
+      [
+        -31.312469482421875,
+        77.73448181152344,
+        0.01600000075995922
+      ],
+      [
+        -30.481645584106445,
+        77.9744873046875,
+        0.15000000596046448
+      ]
+    ],
+    "vertices": 8,
+    "faces": 6,
+    "boundary": 0,
+    "nonmanifold": 0,
+    "negative_top": 1,
+    "materials": [
+      "FC_warm_granite"
+    ],
+    "modifiers": [
+      [
+        "small chamfer",
+        "BEVEL"
+      ]
+    ],
+    "parent": null
+  },
+  {
+    "name": "W_ENTRY aligned garden curb 003",
+    "fid": "W_ENTRY",
+    "bounds": [
+      [
+        -32.15129470825195,
+        77.73448181152344,
+        0.01600000075995922
+      ],
+      [
+        -31.32046890258789,
+        77.9744873046875,
+        0.15000000596046448
+      ]
+    ],
+    "vertices": 8,
+    "faces": 6,
+    "boundary": 0,
+    "nonmanifold": 0,
+    "negative_top": 1,
+    "materials": [
+      "FC_warm_granite"
+    ],
+    "modifiers": [
+      [
+        "small chamfer",
+        "BEVEL"
+      ]
+    ],
+    "parent": null
+  },
+  {
+    "name": "W_ENTRY aligned garden curb 004",
+    "fid": "W_ENTRY",
+    "bounds": [
+      [
+        -32.99243927001953,
+        77.735107421875,
+        0.01600000075995922
+      ],
+      [
+        -32.1552734375,
+        78.00533294677734,
+        0.15000000596046448
+      ]
+    ],
+    "vertices": 8,
+    "faces": 6,
+    "boundary": 0,
+    "nonmanifold": 0,
+    "negative_top": 1,
+    "materials": [
+      "FC_warm_granite"
+    ],
+    "modifiers": [
+      [
+        "small chamfer",
+        "BEVEL"
+      ]
+    ],
+    "parent": null
+  },
+  {
+    "name": "W_ENTRY aligned garden curb 005",
+    "fid": "W_ENTRY",
+    "bounds": [
+      [
+        -33.833778381347656,
+        77.76903533935547,
+        0.01600000075995922
+      ],
+      [
+        -32.984954833984375,
+        78.0940933227539,
+        0.15000000596046448
+      ]
+    ],
+    "vertices": 8,
+    "faces": 6,
+    "boundary": 0,
+    "nonmanifold": 0,
+    "negative_top": 1,
+    "materials": [
+      "FC_warm_granite"
+    ],
+    "modifiers": [
+      [
+        "small chamfer",
+        "BEVEL"
+      ]
+    ],
+    "parent": null
+  },
+  {
+    "name": "W_ENTRY aligned garden curb 006",
+    "fid": "W_ENTRY",
+    "bounds": [
+      [
+        -34.667720794677734,
+        77.859375,
+        0.01600000075995922
+      ],
+      [
+        -33.81889724731445,
+        78.18443298339844,
+        0.15000000596046448
+      ]
+    ],
+    "vertices": 8,
+    "faces": 6,
+    "boundary": 0,
+    "nonmanifold": 0,
+    "negative_top": 1,
+    "materials": [
+      "FC_warm_granite"
+    ],
+    "modifiers": [
+      [
+        "small chamfer",
+        "BEVEL"
+      ]
+    ],
+    "parent": null
+  },
+  {
+    "name": "W_ENTRY aligned garden curb 007",
+    "fid": "W_ENTRY",
+    "bounds": [
+      [
+        -35.50166702270508,
+        77.94971466064453,
+        0.01600000075995922
+      ],
+      [
+        -34.6528434753418,
+        78.2747802734375,
+        0.15000000596046448
+      ]
+    ],
+    "vertices": 8,
+    "faces": 6,
+    "boundary": 0,
+    "nonmanifold": 0,
+    "negative_top": 1,
+    "materials": [
+      "FC_warm_granite"
+    ],
+    "modifiers": [
+      [
+        "small chamfer",
+        "BEVEL"
+      ]
+    ],
+    "parent": null
+  },
+  {
+    "name": "W_ENTRY aligned garden curb 008",
+    "fid": "W_ENTRY",
+    "bounds": [
+      [
+        -36.33561325073242,
+        78.0400619506836,
+        0.01600000075995922
+      ],
+      [
+        -35.48678970336914,
+        78.36511993408203,
+        0.15000000596046448
+      ]
+    ],
+    "vertices": 8,
+    "faces": 6,
+    "boundary": 0,
+    "nonmanifold": 0,
+    "negative_top": 1,
+    "materials": [
+      "FC_warm_granite"
+    ],
+    "modifiers": [
+      [
+        "small chamfer",
+        "BEVEL"
+      ]
+    ],
+    "parent": null
+  },
+  {
+    "name": "W_ENTRY aligned garden curb 009",
+    "fid": "W_ENTRY",
+    "bounds": [
+      [
+        -37.1695556640625,
+        78.13040161132812,
+        0.01600000075995922
+      ],
+      [
+        -36.32073211669922,
+        78.4554672241211,
+        0.15000000596046448
+      ]
+    ],
+    "vertices": 8,
+    "faces": 6,
+    "boundary": 0,
+    "nonmanifold": 0,
+    "negative_top": 1,
+    "materials": [
+      "FC_warm_granite"
+    ],
+    "modifiers": [
+      [
+        "small chamfer",
+        "BEVEL"
+      ]
+    ],
+    "parent": null
+  },
+  {
+    "name": "W_ENTRY aligned garden curb 010",
+    "fid": "W_ENTRY",
+    "bounds": [
+      [
+        -38.003501892089844,
+        78.22074127197266,
+        0.01600000075995922
+      ],
+      [
+        -37.1546745300293,
+        78.54580688476562,
+        0.15000000596046448
+      ]
+    ],
+    "vertices": 8,
+    "faces": 6,
+    "boundary": 0,
+    "nonmanifold": 0,
+    "negative_top": 1,
+    "materials": [
+      "FC_warm_granite"
+    ],
+    "modifiers": [
+      [
+        "small chamfer",
+        "BEVEL"
+      ]
+    ],
+    "parent": null
+  },
+  {
+    "name": "W_ENTRY aligned garden curb 011",
+    "fid": "W_ENTRY",
+    "bounds": [
+      [
+        -38.8316650390625,
+        78.31256103515625,
+        0.01600000075995922
+      ],
+      [
+        -37.983428955078125,
+        78.67449951171875,
+        0.15000000596046448
+      ]
+    ],
+    "vertices": 8,
+    "faces": 6,
+    "boundary": 0,
+    "nonmanifold": 0,
+    "negative_top": 1,
+    "materials": [
+      "FC_warm_granite"
+    ],
+    "modifiers": [
+      [
+        "small chamfer",
+        "BEVEL"
+      ]
+    ],
+    "parent": null
+  },
+  {
+    "name": "W_ENTRY aligned garden curb 012",
+    "fid": "W_ENTRY",
+    "bounds": [
+      [
+        -39.62216567993164,
+        78.45787048339844,
+        0.01600000075995922
+      ],
+      [
+        -38.777767181396484,
+        79.0113296508789,
+        0.15000000596046448
+      ]
+    ],
+    "vertices": 8,
+    "faces": 6,
+    "boundary": 0,
+    "nonmanifold": 0,
+    "negative_top": 1,
+    "materials": [
+      "FC_warm_granite"
+    ],
+    "modifiers": [
+      [
+        "small chamfer",
+        "BEVEL"
+      ]
+    ],
+    "parent": null
+  },
+  {
+    "name": "W_ENTRY aligned garden curb 013",
+    "fid": "W_ENTRY",
+    "bounds": [
+      [
+        -40.38471221923828,
+        78.80736541748047,
+        0.01600000075995922
+      ],
+      [
+        -39.54030990600586,
+        79.36083984375,
+        0.15000000596046448
+      ]
+    ],
+    "vertices": 8,
+    "faces": 6,
+    "boundary": 0,
+    "nonmanifold": 0,
+    "negative_top": 1,
+    "materials": [
+      "FC_warm_granite"
+    ],
+    "modifiers": [
+      [
+        "small chamfer",
+        "BEVEL"
+      ]
+    ],
+    "parent": null
+  },
+  {
+    "name": "W_ENTRY aligned garden curb 014",
+    "fid": "W_ENTRY",
+    "bounds": [
+      [
+        -41.147254943847656,
+        79.1568603515625,
+        0.01600000075995922
+      ],
+      [
+        -40.3028564453125,
+        79.7103271484375,
+        0.15000000596046448
+      ]
+    ],
+    "vertices": 8,
+    "faces": 6,
+    "boundary": 0,
+    "nonmanifold": 0,
+    "negative_top": 1,
+    "materials": [
+      "FC_warm_granite"
+    ],
+    "modifiers": [
+      [
+        "small chamfer",
+        "BEVEL"
+      ]
+    ],
+    "parent": null
+  },
+  {
+    "name": "W_ENTRY aligned garden curb 015",
+    "fid": "W_ENTRY",
+    "bounds": [
+      [
+        -41.90979766845703,
+        79.5063705444336,
+        0.01600000075995922
+      ],
+      [
+        -41.065399169921875,
+        80.05982208251953,
+        0.15000000596046448
+      ]
+    ],
+    "vertices": 8,
+    "faces": 6,
+    "boundary": 0,
+    "nonmanifold": 0,
+    "negative_top": 1,
+    "materials": [
+      "FC_warm_granite"
+    ],
+    "modifiers": [
+      [
+        "small chamfer",
+        "BEVEL"
+      ]
+    ],
+    "parent": null
+  },
+  {
+    "name": "W_ENTRY aligned garden curb 016",
+    "fid": "W_ENTRY",
+    "bounds": [
+      [
+        -42.67234802246094,
+        79.85586547851562,
+        0.01600000075995922
+      ],
+      [
+        -41.82794952392578,
+        80.40933227539062,
+        0.15000000596046448
+      ]
+    ],
+    "vertices": 8,
+    "faces": 6,
+    "boundary": 0,
+    "nonmanifold": 0,
+    "negative_top": 1,
+    "materials": [
+      "FC_warm_granite"
+    ],
+    "modifiers": [
+      [
+        "small chamfer",
+        "BEVEL"
+      ]
+    ],
+    "parent": null
+  },
+  {
+    "name": "W_ENTRY aligned garden curb 017",
+    "fid": "W_ENTRY",
+    "bounds": [
+      [
+        -43.43489074707031,
+        80.20536804199219,
+        0.01600000075995922
+      ],
+      [
+        -42.590492248535156,
+        80.75882720947266,
+        0.15000000596046448
+      ]
+    ],
+    "vertices": 8,
+    "faces": 6,
+    "boundary": 0,
+    "nonmanifold": 0,
+    "negative_top": 1,
+    "materials": [
+      "FC_warm_granite"
+    ],
+    "modifiers": [
+      [
+        "small chamfer",
+        "BEVEL"
+      ]
+    ],
+    "parent": null
+  },
+  {
+    "name": "W_ENTRY aligned garden curb 018",
+    "fid": "W_ENTRY",
+    "bounds": [
+      [
+        -44.19743347167969,
+        80.55487060546875,
+        0.01600000075995922
+      ],
+      [
+        -43.35303497314453,
+        81.10833740234375,
+        0.15000000596046448
+      ]
+    ],
+    "vertices": 8,
+    "faces": 6,
+    "boundary": 0,
+    "nonmanifold": 0,
+    "negative_top": 1,
+    "materials": [
+      "FC_warm_granite"
+    ],
+    "modifiers": [
+      [
+        "small chamfer",
+        "BEVEL"
+      ]
+    ],
+    "parent": null
+  },
+  {
+    "name": "W_ENTRY aligned garden curb 019",
+    "fid": "W_ENTRY",
+    "bounds": [
+      [
+        -44.94267654418945,
+        80.90740966796875,
+        0.01600000075995922
+      ],
+      [
+        -44.109710693359375,
+        81.49466705322266,
+        0.15000000596046448
+      ]
+    ],
+    "vertices": 8,
+    "faces": 6,
+    "boundary": 0,
+    "nonmanifold": 0,
+    "negative_top": 1,
+    "materials": [
+      "FC_warm_granite"
+    ],
+    "modifiers": [
+      [
+        "small chamfer",
+        "BEVEL"
+      ]
+    ],
+    "parent": null
+  },
+  {
+    "name": "W_ENTRY aligned garden curb 020",
+    "fid": "W_ENTRY",
+    "bounds": [
+      [
+        -45.63784408569336,
+        81.30699157714844,
+        0.01600000075995922
+      ],
+      [
+        -44.83446502685547,
+        81.97512817382812,
+        0.15000000596046448
+      ]
+    ],
+    "vertices": 8,
+    "faces": 6,
+    "boundary": 0,
+    "nonmanifold": 0,
+    "negative_top": 1,
+    "materials": [
+      "FC_warm_granite"
+    ],
+    "modifiers": [
+      [
+        "small chamfer",
+        "BEVEL"
+      ]
+    ],
+    "parent": null
+  },
+  {
+    "name": "W_ENTRY aligned garden curb 021",
+    "fid": "W_ENTRY",
+    "bounds": [
+      [
+        -46.31916046142578,
+        81.79631042480469,
+        0.01600000075995922
+      ],
+      [
+        -45.515785217285156,
+        82.46444702148438,
+        0.15000000596046448
+      ]
+    ],
+    "vertices": 8,
+    "faces": 6,
+    "boundary": 0,
+    "nonmanifold": 0,
+    "negative_top": 1,
+    "materials": [
+      "FC_warm_granite"
+    ],
+    "modifiers": [
+      [
+        "small chamfer",
+        "BEVEL"
+      ]
+    ],
+    "parent": null
+  },
+  {
+    "name": "W_ENTRY aligned garden curb 022",
+    "fid": "W_ENTRY",
+    "bounds": [
+      [
+        -47.0004768371582,
+        82.28561401367188,
+        0.01600000075995922
+      ],
+      [
+        -46.197105407714844,
+        82.95376586914062,
+        0.15000000596046448
+      ]
+    ],
+    "vertices": 8,
+    "faces": 6,
+    "boundary": 0,
+    "nonmanifold": 0,
+    "negative_top": 1,
+    "materials": [
+      "FC_warm_granite"
+    ],
+    "modifiers": [
+      [
+        "small chamfer",
+        "BEVEL"
+      ]
+    ],
+    "parent": null
+  },
+  {
+    "name": "W_ENTRY aligned garden curb 023",
+    "fid": "W_ENTRY",
+    "bounds": [
+      [
+        -47.68179702758789,
+        82.77493286132812,
+        0.01600000075995922
+      ],
+      [
+        -46.878421783447266,
+        83.44308471679688,
+        0.15000000596046448
+      ]
+    ],
+    "vertices": 8,
+    "faces": 6,
+    "boundary": 0,
+    "nonmanifold": 0,
+    "negative_top": 1,
+    "materials": [
+      "FC_warm_granite"
+    ],
+    "modifiers": [
+      [
+        "small chamfer",
+        "BEVEL"
+      ]
+    ],
+    "parent": null
+  },
+  {
+    "name": "W_ENTRY aligned garden curb 024",
+    "fid": "W_ENTRY",
+    "bounds": [
+      [
+        -48.36311721801758,
+        83.26425170898438,
+        0.01600000075995922
+      ],
+      [
+        -47.55973434448242,
+        83.93238830566406,
+        0.15000000596046448
+      ]
+    ],
+    "vertices": 8,
+    "faces": 6,
+    "boundary": 0,
+    "nonmanifold": 0,
+    "negative_top": 1,
+    "materials": [
+      "FC_warm_granite"
+    ],
+    "modifiers": [
+      [
+        "small chamfer",
+        "BEVEL"
+      ]
+    ],
+    "parent": null
+  },
+  {
+    "name": "W_ENTRY aligned garden curb 025",
+    "fid": "W_ENTRY",
+    "bounds": [
+      [
+        -49.044437408447266,
+        83.75357055664062,
+        0.01600000075995922
+      ],
+      [
+        -48.24105453491211,
+        84.42170715332031,
+        0.15000000596046448
+      ]
+    ],
+    "vertices": 8,
+    "faces": 6,
+    "boundary": 0,
+    "nonmanifold": 0,
+    "negative_top": 1,
+    "materials": [
+      "FC_warm_granite"
+    ],
+    "modifiers": [
+      [
+        "small chamfer",
+        "BEVEL"
+      ]
+    ],
+    "parent": null
+  },
+  {
+    "name": "W_ENTRY aligned garden curb 026",
+    "fid": "W_ENTRY",
+    "bounds": [
+      [
+        -49.72574234008789,
+        84.24288940429688,
+        0.01600000075995922
+      ],
+      [
+        -48.9223747253418,
+        84.91102600097656,
+        0.15000000596046448
+      ]
+    ],
+    "vertices": 8,
+    "faces": 6,
+    "boundary": 0,
+    "nonmanifold": 0,
+    "negative_top": 1,
+    "materials": [
+      "FC_warm_granite"
+    ],
+    "modifiers": [
+      [
+        "small chamfer",
+        "BEVEL"
+      ]
+    ],
+    "parent": null
+  },
+  {
+    "name": "W_ENTRY aligned garden curb 027",
+    "fid": "W_ENTRY",
+    "bounds": [
+      [
+        -50.40707015991211,
+        84.73220825195312,
+        0.01600000075995922
+      ],
+      [
+        -49.603694915771484,
+        85.40032958984375,
+        0.15000000596046448
+      ]
+    ],
+    "vertices": 8,
+    "faces": 6,
+    "boundary": 0,
+    "nonmanifold": 0,
+    "negative_top": 1,
+    "materials": [
+      "FC_warm_granite"
+    ],
+    "modifiers": [
+      [
+        "small chamfer",
+        "BEVEL"
+      ]
+    ],
+    "parent": null
+  },
+  {
+    "name": "W_ENTRY aligned garden curb 028",
+    "fid": "W_ENTRY",
+    "bounds": [
+      [
+        -51.088382720947266,
+        85.22152709960938,
+        0.01600000075995922
+      ],
+      [
+        -50.285011291503906,
+        85.8896484375,
+        0.15000000596046448
+      ]
+    ],
+    "vertices": 8,
+    "faces": 6,
+    "boundary": 0,
+    "nonmanifold": 0,
+    "negative_top": 1,
+    "materials": [
+      "FC_warm_granite"
+    ],
+    "modifiers": [
+      [
+        "small chamfer",
+        "BEVEL"
+      ]
+    ],
+    "parent": null
+  },
+  {
+    "name": "W_ENTRY aligned garden curb 029",
+    "fid": "W_ENTRY",
+    "bounds": [
+      [
+        -51.76970672607422,
+        85.71084594726562,
+        0.01600000075995922
+      ],
+      [
+        -50.966331481933594,
+        86.37896728515625,
+        0.15000000596046448
+      ]
+    ],
+    "vertices": 8,
+    "faces": 6,
+    "boundary": 0,
+    "nonmanifold": 0,
+    "negative_top": 1,
+    "materials": [
+      "FC_warm_granite"
+    ],
+    "modifiers": [
+      [
+        "small chamfer",
+        "BEVEL"
+      ]
+    ],
+    "parent": null
+  },
+  {
+    "name": "W_ENTRY aligned garden curb 030",
+    "fid": "W_ENTRY",
+    "bounds": [
+      [
+        -52.45102310180664,
+        86.20014190673828,
+        0.01600000075995922
+      ],
+      [
+        -51.64765167236328,
+        86.86829376220703,
+        0.15000000596046448
+      ]
+    ],
+    "vertices": 8,
+    "faces": 6,
+    "boundary": 0,
+    "nonmanifold": 0,
+    "negative_top": 1,
+    "materials": [
+      "FC_warm_granite"
+    ],
+    "modifiers": [
+      [
+        "small chamfer",
+        "BEVEL"
+      ]
+    ],
+    "parent": null
+  },
+  {
+    "name": "W_ENTRY aligned garden curb 031",
+    "fid": "W_ENTRY",
+    "bounds": [
+      [
+        -53.18294906616211,
+        86.66976165771484,
+        0.01600000075995922
+      ],
+      [
+        -52.36393737792969,
+        87.1114501953125,
+        0.15000000596046448
+      ]
+    ],
+    "vertices": 8,
+    "faces": 6,
+    "boundary": 0,
+    "nonmanifold": 0,
+    "negative_top": 1,
+    "materials": [
+      "FC_warm_granite"
+    ],
+    "modifiers": [
+      [
+        "small chamfer",
+        "BEVEL"
+      ]
+    ],
+    "parent": null
+  },
+  {
+    "name": "W_ENTRY aligned garden curb 032",
+    "fid": "W_ENTRY",
+    "bounds": [
+      [
+        -53.99246597290039,
+        86.87999725341797,
+        0.01600000075995922
+      ],
+      [
+        -53.161643981933594,
+        87.12000274658203,
+        0.15000000596046448
+      ]
+    ],
+    "vertices": 8,
+    "faces": 6,
+    "boundary": 0,
+    "nonmanifold": 0,
+    "negative_top": 1,
+    "materials": [
+      "FC_warm_granite"
+    ],
+    "modifiers": [
+      [
+        "small chamfer",
+        "BEVEL"
+      ]
+    ],
+    "parent": null
+  },
+  {
+    "name": "W_ENTRY aligned garden curb 033",
+    "fid": "W_ENTRY",
+    "bounds": [
+      [
+        -54.83129119873047,
+        86.87999725341797,
+        0.01600000075995922
+      ],
+      [
+        -54.000465393066406,
+        87.12000274658203,
+        0.15000000596046448
+      ]
+    ],
+    "vertices": 8,
+    "faces": 6,
+    "boundary": 0,
+    "nonmanifold": 0,
+    "negative_top": 1,
+    "materials": [
+      "FC_warm_granite"
+    ],
+    "modifiers": [
+      [
+        "small chamfer",
+        "BEVEL"
+      ]
+    ],
+    "parent": null
+  },
+  {
+    "name": "W_ENTRY aligned garden curb 034",
+    "fid": "W_ENTRY",
+    "bounds": [
+      [
+        -55.67011642456055,
+        86.87999725341797,
+        0.01600000075995922
+      ],
+      [
+        -54.839290618896484,
+        87.12000274658203,
+        0.15000000596046448
+      ]
+    ],
+    "vertices": 8,
+    "faces": 6,
+    "boundary": 0,
+    "nonmanifold": 0,
+    "negative_top": 1,
+    "materials": [
+      "FC_warm_granite"
+    ],
+    "modifiers": [
+      [
+        "small chamfer",
+        "BEVEL"
+      ]
+    ],
+    "parent": null
+  },
+  {
+    "name": "W_ENTRY aligned garden curb 035",
+    "fid": "W_ENTRY",
+    "bounds": [
+      [
+        -56.508941650390625,
+        86.87999725341797,
+        0.01600000075995922
+      ],
+      [
+        -55.67811584472656,
+        87.12000274658203,
+        0.15000000596046448
+      ]
+    ],
+    "vertices": 8,
+    "faces": 6,
+    "boundary": 0,
+    "nonmanifold": 0,
+    "negative_top": 1,
+    "materials": [
+      "FC_warm_granite"
+    ],
+    "modifiers": [
+      [
+        "small chamfer",
+        "BEVEL"
+      ]
+    ],
+    "parent": null
+  },
+  {
+    "name": "W_ENTRY aligned garden curb 036",
+    "fid": "W_ENTRY",
+    "bounds": [
+      [
+        -57.34776306152344,
+        86.87999725341797,
+        0.01600000075995922
+      ],
+      [
+        -56.516937255859375,
+        87.12000274658203,
+        0.15000000596046448
+      ]
+    ],
+    "vertices": 8,
+    "faces": 6,
+    "boundary": 0,
+    "nonmanifold": 0,
+    "negative_top": 1,
+    "materials": [
+      "FC_warm_granite"
+    ],
+    "modifiers": [
+      [
+        "small chamfer",
+        "BEVEL"
+      ]
+    ],
+    "parent": null
+  },
+  {
+    "name": "W_ENTRY aligned garden curb 037",
+    "fid": "W_ENTRY",
+    "bounds": [
+      [
+        -58.18658447265625,
+        86.87999725341797,
+        0.01600000075995922
+      ],
+      [
+        -57.35576629638672,
+        87.12000274658203,
+        0.15000000596046448
+      ]
+    ],
+    "vertices": 8,
+    "faces": 6,
+    "boundary": 0,
+    "nonmanifold": 0,
+    "negative_top": 1,
+    "materials": [
+      "FC_warm_granite"
+    ],
+    "modifiers": [
+      [
+        "small chamfer",
+        "BEVEL"
+      ]
+    ],
+    "parent": null
+  },
+  {
+    "name": "W_ENTRY aligned garden curb 038",
+    "fid": "W_ENTRY",
+    "bounds": [
+      [
+        -59.02540969848633,
+        86.87999725341797,
+        0.01600000075995922
+      ],
+      [
+        -58.194583892822266,
+        87.12000274658203,
+        0.15000000596046448
+      ]
+    ],
+    "vertices": 8,
+    "faces": 6,
+    "boundary": 0,
+    "nonmanifold": 0,
+    "negative_top": 1,
+    "materials": [
+      "FC_warm_granite"
+    ],
+    "modifiers": [
+      [
+        "small chamfer",
+        "BEVEL"
+      ]
+    ],
+    "parent": null
+  },
+  {
+    "name": "W_ENTRY aligned garden curb 039",
+    "fid": "W_ENTRY",
+    "bounds": [
+      [
+        -59.864234924316406,
+        86.87999725341797,
+        0.01600000075995922
+      ],
+      [
+        -59.033409118652344,
+        87.12000274658203,
+        0.15000000596046448
+      ]
+    ],
+    "vertices": 8,
+    "faces": 6,
+    "boundary": 0,
+    "nonmanifold": 0,
+    "negative_top": 1,
+    "materials": [
+      "FC_warm_granite"
+    ],
+    "modifiers": [
+      [
+        "small chamfer",
+        "BEVEL"
+      ]
+    ],
+    "parent": null
+  },
+  {
+    "name": "W_ENTRY aligned garden curb 040",
+    "fid": "W_ENTRY",
+    "bounds": [
+      [
+        -60.70305633544922,
+        86.87999725341797,
+        0.01600000075995922
+      ],
+      [
+        -59.87223434448242,
+        87.12000274658203,
+        0.15000000596046448
+      ]
+    ],
+    "vertices": 8,
+    "faces": 6,
+    "boundary": 0,
+    "nonmanifold": 0,
+    "negative_top": 1,
+    "materials": [
+      "FC_warm_granite"
+    ],
+    "modifiers": [
+      [
+        "small chamfer",
+        "BEVEL"
+      ]
+    ],
+    "parent": null
+  },
+  {
+    "name": "W_ENTRY aligned garden curb 041",
+    "fid": "W_ENTRY",
+    "bounds": [
+      [
+        -61.54187774658203,
+        86.87999725341797,
+        0.01600000075995922
+      ],
+      [
+        -60.7110595703125,
+        87.12000274658203,
+        0.15000000596046448
+      ]
+    ],
+    "vertices": 8,
+    "faces": 6,
+    "boundary": 0,
+    "nonmanifold": 0,
+    "negative_top": 1,
+    "materials": [
+      "FC_warm_granite"
+    ],
+    "modifiers": [
+      [
+        "small chamfer",
+        "BEVEL"
+      ]
+    ],
+    "parent": null
+  },
+  {
+    "name": "W_ENTRY aligned garden curb 042",
+    "fid": "W_ENTRY",
+    "bounds": [
+      [
+        -62.38070297241211,
+        86.87999725341797,
+        0.01600000075995922
+      ],
+      [
+        -61.54987716674805,
+        87.12000274658203,
+        0.15000000596046448
+      ]
+    ],
+    "vertices": 8,
+    "faces": 6,
+    "boundary": 0,
+    "nonmanifold": 0,
+    "negative_top": 1,
+    "materials": [
+      "FC_warm_granite"
+    ],
+    "modifiers": [
+      [
+        "small chamfer",
+        "BEVEL"
+      ]
+    ],
+    "parent": null
+  },
+  {
+    "name": "W_ENTRY aligned garden curb 043",
+    "fid": "W_ENTRY",
+    "bounds": [
+      [
+        -63.21952819824219,
+        86.87999725341797,
+        0.01600000075995922
+      ],
+      [
+        -62.388702392578125,
+        87.12000274658203,
+        0.15000000596046448
+      ]
+    ],
+    "vertices": 8,
+    "faces": 6,
+    "boundary": 0,
+    "nonmanifold": 0,
+    "negative_top": 1,
+    "materials": [
+      "FC_warm_granite"
+    ],
+    "modifiers": [
+      [
+        "small chamfer",
+        "BEVEL"
+      ]
+    ],
+    "parent": null
+  },
+  {
+    "name": "W_ENTRY aligned garden curb 044",
+    "fid": "W_ENTRY",
+    "bounds": [
+      [
+        -64.058349609375,
+        86.87999725341797,
+        0.01600000075995922
+      ],
+      [
+        -63.2275276184082,
+        87.12000274658203,
+        0.15000000596046448
+      ]
+    ],
+    "vertices": 8,
+    "faces": 6,
+    "boundary": 0,
+    "nonmanifold": 0,
+    "negative_top": 1,
+    "materials": [
+      "FC_warm_granite"
+    ],
+    "modifiers": [
+      [
+        "small chamfer",
+        "BEVEL"
+      ]
+    ],
+    "parent": null
+  },
+  {
+    "name": "W_ENTRY aligned garden curb 045",
+    "fid": "W_ENTRY",
+    "bounds": [
+      [
+        -64.89717864990234,
+        86.87999725341797,
+        0.01600000075995922
+      ],
+      [
+        -64.06635284423828,
+        87.12000274658203,
+        0.15000000596046448
+      ]
+    ],
+    "vertices": 8,
+    "faces": 6,
+    "boundary": 0,
+    "nonmanifold": 0,
+    "negative_top": 1,
+    "materials": [
+      "FC_warm_granite"
+    ],
+    "modifiers": [
+      [
+        "small chamfer",
+        "BEVEL"
+      ]
+    ],
+    "parent": null
+  },
+  {
+    "name": "W_ENTRY aligned garden curb 046",
+    "fid": "W_ENTRY",
+    "bounds": [
+      [
+        -65.73600006103516,
+        86.87999725341797,
+        0.01600000075995922
+      ],
+      [
+        -64.9051742553711,
+        87.12000274658203,
+        0.15000000596046448
+      ]
+    ],
+    "vertices": 8,
+    "faces": 6,
+    "boundary": 0,
+    "nonmanifold": 0,
+    "negative_top": 1,
+    "materials": [
+      "FC_warm_granite"
+    ],
+    "modifiers": [
+      [
+        "small chamfer",
+        "BEVEL"
+      ]
+    ],
+    "parent": null
+  },
+  {
+    "name": "W_ENTRY aligned garden curb 047",
+    "fid": "W_ENTRY",
+    "bounds": [
+      [
+        -66.57482147216797,
+        86.87999725341797,
+        0.01600000075995922
+      ],
+      [
+        -65.7439956665039,
+        87.12000274658203,
+        0.15000000596046448
+      ]
+    ],
+    "vertices": 8,
+    "faces": 6,
+    "boundary": 0,
+    "nonmanifold": 0,
+    "negative_top": 1,
+    "materials": [
+      "FC_warm_granite"
+    ],
+    "modifiers": [
+      [
+        "small chamfer",
+        "BEVEL"
+      ]
+    ],
+    "parent": null
+  },
+  {
+    "name": "W_ENTRY aligned garden curb 048",
+    "fid": "W_ENTRY",
+    "bounds": [
+      [
+        -67.41365051269531,
+        86.87999725341797,
+        0.01600000075995922
+      ],
+      [
+        -66.58282470703125,
+        87.12000274658203,
+        0.15000000596046448
+      ]
+    ],
+    "vertices": 8,
+    "faces": 6,
+    "boundary": 0,
+    "nonmanifold": 0,
+    "negative_top": 1,
+    "materials": [
+      "FC_warm_granite"
+    ],
+    "modifiers": [
+      [
+        "small chamfer",
+        "BEVEL"
+      ]
+    ],
+    "parent": null
+  },
+  {
+    "name": "W_ENTRY aligned garden curb 049",
+    "fid": "W_ENTRY",
+    "bounds": [
+      [
+        -68.2524642944336,
+        86.87999725341797,
+        0.01600000075995922
+      ],
+      [
+        -67.42164611816406,
+        87.12000274658203,
+        0.15000000596046448
+      ]
+    ],
+    "vertices": 8,
+    "faces": 6,
+    "boundary": 0,
+    "nonmanifold": 0,
+    "negative_top": 1,
+    "materials": [
+      "FC_warm_granite"
+    ],
+    "modifiers": [
+      [
+        "small chamfer",
+        "BEVEL"
+      ]
+    ],
+    "parent": null
+  },
+  {
+    "name": "W_ENTRY aligned garden curb 050",
+    "fid": "W_ENTRY",
+    "bounds": [
+      [
+        -69.09129333496094,
+        86.87999725341797,
+        0.01600000075995922
+      ],
+      [
+        -68.26046752929688,
+        87.12000274658203,
+        0.15000000596046448
+      ]
+    ],
+    "vertices": 8,
+    "faces": 6,
+    "boundary": 0,
+    "nonmanifold": 0,
+    "negative_top": 1,
+    "materials": [
+      "FC_warm_granite"
+    ],
+    "modifiers": [
+      [
+        "small chamfer",
+        "BEVEL"
+      ]
+    ],
+    "parent": null
+  },
+  {
+    "name": "W_ENTRY aligned garden curb 051",
+    "fid": "W_ENTRY",
+    "bounds": [
+      [
+        -69.93011474609375,
+        86.87999725341797,
+        0.01600000075995922
+      ],
+      [
+        -69.09928894042969,
+        87.12000274658203,
+        0.15000000596046448
+      ]
+    ],
+    "vertices": 8,
+    "faces": 6,
+    "boundary": 0,
+    "nonmanifold": 0,
+    "negative_top": 1,
+    "materials": [
+      "FC_warm_granite"
+    ],
+    "modifiers": [
+      [
+        "small chamfer",
+        "BEVEL"
+      ]
+    ],
+    "parent": null
+  },
+  {
+    "name": "W_ENTRY aligned garden curb 052",
+    "fid": "W_ENTRY",
+    "bounds": [
+      [
+        -70.76893615722656,
+        86.87999725341797,
+        0.01600000075995922
+      ],
+      [
+        -69.93811798095703,
+        87.12000274658203,
+        0.15000000596046448
+      ]
+    ],
+    "vertices": 8,
+    "faces": 6,
+    "boundary": 0,
+    "nonmanifold": 0,
+    "negative_top": 1,
+    "materials": [
+      "FC_warm_granite"
+    ],
+    "modifiers": [
+      [
+        "small chamfer",
+        "BEVEL"
+      ]
+    ],
+    "parent": null
+  },
+  {
+    "name": "W_ENTRY aligned garden curb 053",
+    "fid": "W_ENTRY",
+    "bounds": [
+      [
+        -71.6077651977539,
+        86.87999725341797,
+        0.01600000075995922
+      ],
+      [
+        -70.77693939208984,
+        87.12000274658203,
+        0.15000000596046448
+      ]
+    ],
+    "vertices": 8,
+    "faces": 6,
+    "boundary": 0,
+    "nonmanifold": 0,
+    "negative_top": 1,
+    "materials": [
+      "FC_warm_granite"
+    ],
+    "modifiers": [
+      [
+        "small chamfer",
+        "BEVEL"
+      ]
+    ],
+    "parent": null
+  },
+  {
+    "name": "W_ENTRY aligned garden curb 054",
+    "fid": "W_ENTRY",
+    "bounds": [
+      [
+        -72.44658660888672,
+        86.87999725341797,
+        0.01600000075995922
+      ],
+      [
+        -71.61576843261719,
+        87.12000274658203,
+        0.15000000596046448
+      ]
+    ],
+    "vertices": 8,
+    "faces": 6,
+    "boundary": 0,
+    "nonmanifold": 0,
+    "negative_top": 1,
+    "materials": [
+      "FC_warm_granite"
+    ],
+    "modifiers": [
+      [
+        "small chamfer",
+        "BEVEL"
+      ]
+    ],
+    "parent": null
+  },
+  {
+    "name": "W_ENTRY aligned garden curb 055",
+    "fid": "W_ENTRY",
+    "bounds": [
+      [
+        -73.28540802001953,
+        86.87999725341797,
+        0.01600000075995922
+      ],
+      [
+        -72.45458984375,
+        87.12000274658203,
+        0.15000000596046448
+      ]
+    ],
+    "vertices": 8,
+    "faces": 6,
+    "boundary": 0,
+    "nonmanifold": 0,
+    "negative_top": 1,
+    "materials": [
+      "FC_warm_granite"
+    ],
+    "modifiers": [
+      [
+        "small chamfer",
+        "BEVEL"
+      ]
+    ],
+    "parent": null
+  },
+  {
+    "name": "W_ENTRY aligned garden curb 056",
+    "fid": "W_ENTRY",
+    "bounds": [
+      [
+        -74.12423706054688,
+        86.87999725341797,
+        0.01600000075995922
+      ],
+      [
+        -73.29341125488281,
+        87.12000274658203,
+        0.15000000596046448
+      ]
+    ],
+    "vertices": 8,
+    "faces": 6,
+    "boundary": 0,
+    "nonmanifold": 0,
+    "negative_top": 1,
+    "materials": [
+      "FC_warm_granite"
+    ],
+    "modifiers": [
+      [
+        "small chamfer",
+        "BEVEL"
+      ]
+    ],
+    "parent": null
+  },
+  {
+    "name": "W_ENTRY aligned garden curb 057",
+    "fid": "W_ENTRY",
+    "bounds": [
+      [
+        -74.96305847167969,
+        86.87999725341797,
+        0.01600000075995922
+      ],
+      [
+        -74.13223266601562,
+        87.12000274658203,
+        0.15000000596046448
+      ]
+    ],
+    "vertices": 8,
+    "faces": 6,
+    "boundary": 0,
+    "nonmanifold": 0,
+    "negative_top": 1,
+    "materials": [
+      "FC_warm_granite"
+    ],
+    "modifiers": [
+      [
+        "small chamfer",
+        "BEVEL"
+      ]
+    ],
+    "parent": null
+  },
+  {
+    "name": "W_ENTRY aligned garden curb 058",
+    "fid": "W_ENTRY",
+    "bounds": [
+      [
+        -75.8018798828125,
+        86.87999725341797,
+        0.01600000075995922
+      ],
+      [
+        -74.97105407714844,
+        87.12000274658203,
+        0.15000000596046448
+      ]
+    ],
+    "vertices": 8,
+    "faces": 6,
+    "boundary": 0,
+    "nonmanifold": 0,
+    "negative_top": 1,
+    "materials": [
+      "FC_warm_granite"
+    ],
+    "modifiers": [
+      [
+        "small chamfer",
+        "BEVEL"
+      ]
+    ],
+    "parent": null
+  },
+  {
+    "name": "W_ENTRY aligned garden curb 059",
+    "fid": "W_ENTRY",
+    "bounds": [
+      [
+        -76.64070892333984,
+        86.87999725341797,
+        0.01600000075995922
+      ],
+      [
+        -75.80987548828125,
+        87.12000274658203,
+        0.15000000596046448
+      ]
+    ],
+    "vertices": 8,
+    "faces": 6,
+    "boundary": 0,
+    "nonmanifold": 0,
+    "negative_top": 1,
+    "materials": [
+      "FC_warm_granite"
+    ],
+    "modifiers": [
+      [
+        "small chamfer",
+        "BEVEL"
+      ]
+    ],
+    "parent": null
+  },
+  {
+    "name": "W_ENTRY aligned garden curb 060",
+    "fid": "W_ENTRY",
+    "bounds": [
+      [
+        -77.47953033447266,
+        86.87999725341797,
+        0.01600000075995922
+      ],
+      [
+        -76.6487045288086,
+        87.12000274658203,
+        0.15000000596046448
+      ]
+    ],
+    "vertices": 8,
+    "faces": 6,
+    "boundary": 0,
+    "nonmanifold": 0,
+    "negative_top": 1,
+    "materials": [
+      "FC_warm_granite"
+    ],
+    "modifiers": [
+      [
+        "small chamfer",
+        "BEVEL"
+      ]
+    ],
+    "parent": null
+  },
+  {
+    "name": "W_ENTRY aligned garden curb 061",
+    "fid": "W_ENTRY",
+    "bounds": [
+      [
+        -78.31835174560547,
+        86.87999725341797,
+        0.01600000075995922
+      ],
+      [
+        -77.48753356933594,
+        87.12000274658203,
+        0.15000000596046448
+      ]
+    ],
+    "vertices": 8,
+    "faces": 6,
+    "boundary": 0,
+    "nonmanifold": 0,
+    "negative_top": 1,
+    "materials": [
+      "FC_warm_granite"
+    ],
+    "modifiers": [
+      [
+        "small chamfer",
+        "BEVEL"
+      ]
+    ],
+    "parent": null
+  },
+  {
+    "name": "W_ENTRY aligned garden curb 062",
+    "fid": "W_ENTRY",
+    "bounds": [
+      [
+        -79.15718078613281,
+        86.87999725341797,
+        0.01600000075995922
+      ],
+      [
+        -78.32634735107422,
+        87.12000274658203,
+        0.15000000596046448
+      ]
+    ],
+    "vertices": 8,
+    "faces": 6,
+    "boundary": 0,
+    "nonmanifold": 0,
+    "negative_top": 1,
+    "materials": [
+      "FC_warm_granite"
+    ],
+    "modifiers": [
+      [
+        "small chamfer",
+        "BEVEL"
+      ]
+    ],
+    "parent": null
+  },
+  {
+    "name": "W_ENTRY aligned garden curb 063",
+    "fid": "W_ENTRY",
+    "bounds": [
+      [
+        -79.99600219726562,
+        86.87999725341797,
+        0.01600000075995922
+      ],
+      [
+        -79.16517639160156,
+        87.12000274658203,
+        0.15000000596046448
+      ]
+    ],
+    "vertices": 8,
+    "faces": 6,
+    "boundary": 0,
+    "nonmanifold": 0,
+    "negative_top": 1,
+    "materials": [
+      "FC_warm_granite"
+    ],
+    "modifiers": [
+      [
+        "small chamfer",
+        "BEVEL"
+      ]
+    ],
+    "parent": null
+  }
+]

@@ -1,0 +1,31 @@
+{
+  "baseline_unchanged": true,
+  "checkpoint_reopened": true,
+  "protected_lawn_building_and_terraces_unchanged": true,
+  "east_entry_symmetric": true,
+  "entry_axis": 65.44433196220757,
+  "entry_line": 77.8544821533358,
+  "urn_centres": [
+    [
+      61.94433196220757,
+      79.06448215333579
+    ],
+    [
+      68.94433196220757,
+      79.06448215333579
+    ]
+  ],
+  "new_finite_meshes": 621,
+  "embedded_images": 53,
+  "glb_bytes": 200730084,
+  "sculpture_glb_bytes": 17938472,
+  "limits": [
+    "dimensions and placement are photo-proportion estimates",
+    "unseen sculpture surfaces simplified",
+    "existing unrelated garden details inherited",
+    "not a production campus asset replacement"
+  ],
+  "plaque_clear_of_rough_stone": true,
+  "west_urn_world_vertices_unchanged": true,
+  "final_checkpoint_after_plaque_reopened": true
+}

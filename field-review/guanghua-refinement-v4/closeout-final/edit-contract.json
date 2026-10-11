@@ -1,0 +1,59 @@
+{
+  "source_sha256": "641a3ab8f02443ef98ce1bc2dcb2e8a6fdb63ba194dd6fffbec7a92aeeb146a2",
+  "removed": [
+    "BENTRY east outer retaining wall",
+    "BENTRY east outer coping",
+    "BENTRY east curved planter soil",
+    "BENTRY east curved planter wall",
+    "BENTRY east curved coping",
+    "BENTRY west outer retaining wall",
+    "BENTRY west outer coping",
+    "BENTRY west curved planter soil",
+    "BENTRY west curved planter wall",
+    "BENTRY west curved coping",
+    "BENTRY east burgundy planting",
+    "BENTRY east clipped green planting",
+    "BENTRY west burgundy planting",
+    "BENTRY west clipped green planting",
+    "EPATH__north-exit-path-terrain__turf",
+    "EPATH__photo_shape_road",
+    "EPATH__photo_shape_ground",
+    "EPATH | west exit shape controls",
+    "EPATH continuous union surface"
+  ],
+  "changed": [
+    "BENTRY east outer urn",
+    "BENTRY east outer broad leaves",
+    "BENTRY east outer red flowers",
+    "BENTRY east outer soil",
+    "BENTRY east inner urn",
+    "BENTRY east inner broad leaves",
+    "BENTRY east inner red flowers",
+    "BENTRY east inner soil",
+    "BENTRY west outer urn",
+    "BENTRY west outer broad leaves",
+    "BENTRY west outer red flowers",
+    "BENTRY west outer soil",
+    "BENTRY west inner urn",
+    "BENTRY west inner broad leaves",
+    "BENTRY west inner red flowers",
+    "BENTRY west inner soil"
+  ],
+  "tasks": {
+    "C03": {
+      "primary": {
+        "west": 4464,
+        "east": 4485
+      },
+      "target": "Independent low front curves, stepped stair returns, smooth ramp returns and separable bases",
+      "invariants": "Stair axes, ramp surfaces, lawn and plaza extents",
+      "confidence": "Confirmed visible relationship; dimensions inferred"
+    },
+    "C04": {
+      "primary": 4568,
+      "target": "Forward travel before turning; connected road surface with shared terrain edge height",
+      "invariants": "Flat road outside declared patch, terrace, skylights and openings",
+      "confidence": "Visible forward-then-turn relationship confirmed; metric levels and hidden alignment inferred"
+    }
+  }
+}

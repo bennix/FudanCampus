@@ -1,0 +1,27 @@
+{
+  "baselines_unchanged": {
+    "field-review\\west-garden-terrace-v2\\west-garden-terrace-v2.blend": "a3d0d182ea5ce71be58b9caf6be162d309446202abfe54a155455eb2b4fbc986",
+    "field-review\\guanghua-lawn-shape-v2\\guanghua-lawn-shape-v2.blend": "9c92bba8e572a6d8c20ce3ce5d9d66ce3a369eba6e2e3ac77267ef9466087d83"
+  },
+  "checkpoint_reopens": true,
+  "closed_positive_meshes": true,
+  "stone_pieces": 1957,
+  "embedded_images": 17,
+  "glb_bytes": 11613552,
+  "source_photos": [
+    4368,
+    4377,
+    4378,
+    4380,
+    4384,
+    4390,
+    4395
+  ],
+  "geometry_change": "skylight eave 2.47 -> 1.95; apex 3.47 -> 2.80; metres inferred",
+  "limitations": [
+    "footprint and compass registration unresolved",
+    "stone layout and texture grain are generated approximations",
+    "no exhaustive self intersection check"
+  ],
+  "glb_imports": true
+}

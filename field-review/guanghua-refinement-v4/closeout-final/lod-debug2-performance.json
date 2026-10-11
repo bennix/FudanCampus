@@ -1,0 +1,165 @@
+{
+  "tag": "lod-debug2",
+  "browser": "154.0.8037.59",
+  "headless": true,
+  "loading": "Fresh browser context, local HTTP; operating-system cache unspecified",
+  "coldContextLocalLoadMs": 3297,
+  "network": "loopback; no public-network bandwidth claim",
+  "resolution": [
+    1920,
+    1080
+  ],
+  "pixelRatio": 1,
+  "measurementSeconds": 10,
+  "views": [
+    {
+      "triangles": 7968192,
+      "drawCalls": 2894,
+      "geometries": 1151,
+      "textures": 61,
+      "lodObjects": 990,
+      "lodVisible": {
+        "far": 330
+      },
+      "lodMeshes": {
+        "campus": {
+          "triangles": 1353178,
+          "meshes": 672
+        },
+        "static": {
+          "triangles": 1987398,
+          "meshes": 273
+        },
+        "far": {
+          "triangles": 715222,
+          "meshes": 651
+        }
+      },
+      "shadowNeedsUpdate": false,
+      "shadowAutoUpdate": false,
+      "viewport": [
+        1920,
+        1080
+      ],
+      "pixelRatio": 1,
+      "camera": [
+        236,
+        114.99999999999996,
+        -47.00000000000003
+      ],
+      "target": [
+        127,
+        12,
+        -177
+      ],
+      "trees": true,
+      "gpu": "ANGLE (Intel, Intel(R) Arc(TM) Graphics (0x00007D55) Direct3D11 vs_5_0 ps_5_0, D3D11)",
+      "frameCount": 409,
+      "medianFrameMs": 24.5,
+      "p95FrameMs": 26.799999952316284,
+      "medianFps": 40.816326530612244
+    },
+    {
+      "triangles": 6444644,
+      "drawCalls": 2032,
+      "geometries": 1151,
+      "textures": 61,
+      "lodObjects": 990,
+      "lodVisible": {
+        "far": 330
+      },
+      "lodMeshes": {
+        "campus": {
+          "triangles": 1353178,
+          "meshes": 672
+        },
+        "static": {
+          "triangles": 1987398,
+          "meshes": 273
+        },
+        "far": {
+          "triangles": 715222,
+          "meshes": 651
+        }
+      },
+      "shadowNeedsUpdate": false,
+      "shadowAutoUpdate": false,
+      "viewport": [
+        1920,
+        1080
+      ],
+      "pixelRatio": 1,
+      "camera": [
+        126.00000000000001,
+        205,
+        -159.99999999998846
+      ],
+      "target": [
+        126.00000000000001,
+        0,
+        -160.1
+      ],
+      "trees": true,
+      "gpu": "ANGLE (Intel, Intel(R) Arc(TM) Graphics (0x00007D55) Direct3D11 vs_5_0 ps_5_0, D3D11)",
+      "frameCount": 514,
+      "medianFrameMs": 19.399999976158142,
+      "p95FrameMs": 20.5,
+      "medianFps": 51.546391815925865
+    },
+    {
+      "triangles": 5424754,
+      "drawCalls": 663,
+      "geometries": 1238,
+      "textures": 61,
+      "lodObjects": 990,
+      "lodVisible": {
+        "middle": 316,
+        "near": 14
+      },
+      "lodMeshes": {
+        "campus": {
+          "triangles": 1353178,
+          "meshes": 672
+        },
+        "static": {
+          "triangles": 1987398,
+          "meshes": 273
+        },
+        "middle": {
+          "triangles": 1439836,
+          "meshes": 637
+        },
+        "near": {
+          "triangles": 807580,
+          "meshes": 14
+        }
+      },
+      "shadowNeedsUpdate": false,
+      "shadowAutoUpdate": false,
+      "viewport": [
+        1920,
+        1080
+      ],
+      "pixelRatio": 1,
+      "camera": [
+        131.2,
+        6.999999999999993,
+        -120.8
+      ],
+      "target": [
+        131.2,
+        35,
+        -224.8
+      ],
+      "trees": true,
+      "gpu": "ANGLE (Intel, Intel(R) Arc(TM) Graphics (0x00007D55) Direct3D11 vs_5_0 ps_5_0, D3D11)",
+      "frameCount": 474,
+      "medianFrameMs": 21.100000023841858,
+      "p95FrameMs": 22,
+      "medianFps": 47.39336487535802
+    }
+  ],
+  "errors": [],
+  "failed": [],
+  "narrowOverflow": false
+}

@@ -1,0 +1,6026 @@
+{
+  "trees": [
+    {
+      "name": "VEGETATION__tree-trunks__FIN_bark",
+      "visible": false,
+      "feature": "VEGETATION",
+      "location": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "bounds": [
+        [
+          -77.20999908447266,
+          5.800278186798096,
+          -0.029999999329447746
+        ],
+        [
+          98.51211547851562,
+          92.19972229003906,
+          6.269999980926514
+        ]
+      ],
+      "vertices": 620,
+      "faces": 372,
+      "materials": [
+        "FIN_bark"
+      ]
+    },
+    {
+      "name": "VEGETATION__tree-branches__FIN_bark",
+      "visible": false,
+      "feature": "VEGETATION",
+      "location": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "bounds": [
+        [
+          -78.9885025024414,
+          3.8390612602233887,
+          2.534238815307617
+        ],
+        [
+          100.47848510742188,
+          93.7210922241211,
+          8.68346118927002
+        ]
+      ],
+      "vertices": 1736,
+      "faces": 1302,
+      "materials": [
+        "FIN_bark"
+      ]
+    },
+    {
+      "name": "VEGETATION__tree-canopies__FIN_leaf0",
+      "visible": false,
+      "feature": "VEGETATION",
+      "location": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "bounds": [
+        [
+          -80.74858856201172,
+          2.268946886062622,
+          3.362656354904175
+        ],
+        [
+          101.5401840209961,
+          93.96400451660156,
+          10.647706031799316
+        ]
+      ],
+      "vertices": 8131,
+      "faces": 9342,
+      "materials": [
+        "FIN_leaf0"
+      ]
+    },
+    {
+      "name": "VEGETATION__tree-canopies__FIN_leaf1",
+      "visible": false,
+      "feature": "VEGETATION",
+      "location": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "bounds": [
+        [
+          -80.14521789550781,
+          2.1826388835906982,
+          3.3610877990722656
+        ],
+        [
+          100.9609603881836,
+          95.01811981201172,
+          10.025431632995605
+        ]
+      ],
+      "vertices": 8178,
+      "faces": 9396,
+      "materials": [
+        "FIN_leaf1"
+      ]
+    },
+    {
+      "name": "VEGETATION__tree-canopies__FIN_leaf2",
+      "visible": false,
+      "feature": "VEGETATION",
+      "location": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "bounds": [
+        [
+          -79.7992935180664,
+          2.167095422744751,
+          2.9393317699432373
+        ],
+        [
+          101.97344207763672,
+          95.3326187133789,
+          9.753938674926758
+        ]
+      ],
+      "vertices": 8178,
+      "faces": 9396,
+      "materials": [
+        "FIN_leaf2"
+      ]
+    },
+    {
+      "name": "VEGETATION__tree-canopies__FIN_leaf3",
+      "visible": false,
+      "feature": "VEGETATION",
+      "location": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "bounds": [
+        [
+          -80.22578430175781,
+          2.2794933319091797,
+          2.586148262023926
+        ],
+        [
+          100.1388931274414,
+          94.56317138671875,
+          9.533852577209473
+        ]
+      ],
+      "vertices": 8178,
+      "faces": 9396,
+      "materials": [
+        "FIN_leaf3"
+      ]
+    },
+    {
+      "name": "VEGETATION__tree-canopies__FIN_leaf4",
+      "visible": false,
+      "feature": "VEGETATION",
+      "location": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "bounds": [
+        [
+          -79.06689453125,
+          2.3526103496551514,
+          3.040787935256958
+        ],
+        [
+          102.33146667480469,
+          95.38994598388672,
+          10.078862190246582
+        ]
+      ],
+      "vertices": 8131,
+      "faces": 9342,
+      "materials": [
+        "FIN_leaf4"
+      ]
+    },
+    {
+      "name": "V01 southern small tree branches",
+      "visible": false,
+      "feature": "VEGETATION_PILOT",
+      "location": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "bounds": [
+        [
+          65.67808532714844,
+          39.27307891845703,
+          0.5223369002342224
+        ],
+        [
+          70.6778793334961,
+          44.333980560302734,
+          5.431856155395508
+        ]
+      ],
+      "vertices": 1400,
+      "faces": 900,
+      "materials": [
+        "VEG1 olive",
+        "VEG1 grey-green",
+        "VEG1 deep-green",
+        "VEG1 young-green",
+        "VEG1 autumn",
+        "VEG1 bark"
+      ]
+    },
+    {
+      "name": "V01 southern small tree leaves",
+      "visible": false,
+      "feature": "VEGETATION_PILOT",
+      "location": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "bounds": [
+        [
+          64.81375885009766,
+          38.61894226074219,
+          2.2819290161132812
+        ],
+        [
+          71.2830810546875,
+          44.829769134521484,
+          5.679828643798828
+        ]
+      ],
+      "vertices": 17640,
+      "faces": 14112,
+      "materials": [
+        "VEG1 olive",
+        "VEG1 grey-green",
+        "VEG1 deep-green",
+        "VEG1 young-green",
+        "VEG1 autumn",
+        "VEG1 bark"
+      ]
+    },
+    {
+      "name": "V03 northern spreading tree branches",
+      "visible": false,
+      "feature": "VEGETATION_PILOT",
+      "location": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "bounds": [
+        [
+          72.37678527832031,
+          46.349647521972656,
+          1.2949566841125488
+        ],
+        [
+          80.12092590332031,
+          54.61903381347656,
+          7.230116367340088
+        ]
+      ],
+      "vertices": 1400,
+      "faces": 900,
+      "materials": [
+        "VEG1 olive",
+        "VEG1 grey-green",
+        "VEG1 deep-green",
+        "VEG1 young-green",
+        "VEG1 autumn",
+        "VEG1 bark"
+      ]
+    },
+    {
+      "name": "V03 northern spreading tree leaves",
+      "visible": false,
+      "feature": "VEGETATION_PILOT",
+      "location": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "bounds": [
+        [
+          71.63975524902344,
+          46.048561096191406,
+          4.224072456359863
+        ],
+        [
+          80.65188598632812,
+          55.4246711730957,
+          7.548116207122803
+        ]
+      ],
+      "vertices": 21840,
+      "faces": 17472,
+      "materials": [
+        "VEG1 olive",
+        "VEG1 grey-green",
+        "VEG1 deep-green",
+        "VEG1 young-green",
+        "VEG1 autumn",
+        "VEG1 bark"
+      ]
+    },
+    {
+      "name": "V04 east garden backdrop branches",
+      "visible": false,
+      "feature": "VEGETATION_PILOT",
+      "location": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "bounds": [
+        [
+          77.59124755859375,
+          56.36137008666992,
+          -0.02856294997036457
+        ],
+        [
+          83.62770080566406,
+          62.18424987792969,
+          6.988969326019287
+        ]
+      ],
+      "vertices": 1400,
+      "faces": 900,
+      "materials": [
+        "VEG1 olive",
+        "VEG1 grey-green",
+        "VEG1 deep-green",
+        "VEG1 young-green",
+        "VEG1 autumn",
+        "VEG1 bark"
+      ]
+    },
+    {
+      "name": "V04 east garden backdrop leaves",
+      "visible": false,
+      "feature": "VEGETATION_PILOT",
+      "location": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "bounds": [
+        [
+          77.29115295410156,
+          55.90121841430664,
+          2.8918375968933105
+        ],
+        [
+          84.23945617675781,
+          62.78146743774414,
+          7.343447208404541
+        ]
+      ],
+      "vertices": 26880,
+      "faces": 21504,
+      "materials": [
+        "VEG1 olive",
+        "VEG1 grey-green",
+        "VEG1 deep-green",
+        "VEG1 young-green",
+        "VEG1 autumn",
+        "VEG1 bark"
+      ]
+    },
+    {
+      "name": "V05 south garden backdrop branches",
+      "visible": false,
+      "feature": "VEGETATION_PILOT",
+      "location": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "bounds": [
+        [
+          75.56378936767578,
+          32.9410285949707,
+          0.059151120483875275
+        ],
+        [
+          81.0251693725586,
+          39.184268951416016,
+          6.159980773925781
+        ]
+      ],
+      "vertices": 1400,
+      "faces": 900,
+      "materials": [
+        "VEG1 olive",
+        "VEG1 grey-green",
+        "VEG1 deep-green",
+        "VEG1 young-green",
+        "VEG1 autumn",
+        "VEG1 bark"
+      ]
+    },
+    {
+      "name": "V05 south garden backdrop leaves",
+      "visible": false,
+      "feature": "VEGETATION_PILOT",
+      "location": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "bounds": [
+        [
+          74.99752044677734,
+          32.292423248291016,
+          2.6452083587646484
+        ],
+        [
+          81.50606536865234,
+          39.677886962890625,
+          6.491448402404785
+        ]
+      ],
+      "vertices": 24360,
+      "faces": 19488,
+      "materials": [
+        "VEG1 olive",
+        "VEG1 grey-green",
+        "VEG1 deep-green",
+        "VEG1 young-green",
+        "VEG1 autumn",
+        "VEG1 bark"
+      ]
+    },
+    {
+      "name": "V2 tree 00 V2 prototype 0 branches",
+      "visible": true,
+      "feature": "VEGETATION_V2",
+      "location": [
+        -75.0,
+        10.0,
+        -0.0049991607666015625
+      ],
+      "bounds": [
+        [
+          -79.59821319580078,
+          5.302287578582764,
+          -0.034360259771347046
+        ],
+        [
+          -70.17189025878906,
+          14.598410606384277,
+          8.053701400756836
+        ]
+      ],
+      "vertices": 1400,
+      "faces": 900,
+      "materials": [
+        "VEG1 olive",
+        "VEG1 grey-green",
+        "VEG1 deep-green",
+        "VEG1 young-green",
+        "VEG1 autumn",
+        "VEG1 bark"
+      ]
+    },
+    {
+      "name": "V2 tree 00 V2 prototype 0 leaves",
+      "visible": true,
+      "feature": "VEGETATION_V2",
+      "location": [
+        -75.0,
+        10.0,
+        -0.0049991607666015625
+      ],
+      "bounds": [
+        [
+          -80.35932159423828,
+          4.604210376739502,
+          3.204627275466919
+        ],
+        [
+          -69.60015106201172,
+          15.511122703552246,
+          8.616267204284668
+        ]
+      ],
+      "vertices": 39900,
+      "faces": 31920,
+      "materials": [
+        "VEG1 olive",
+        "VEG1 grey-green",
+        "VEG1 deep-green",
+        "VEG1 young-green",
+        "VEG1 autumn",
+        "VEG1 bark"
+      ]
+    },
+    {
+      "name": "V2 tree 01 V2 prototype 1 branches",
+      "visible": false,
+      "feature": "VEGETATION_V2",
+      "location": [
+        -76.0,
+        27.0,
+        -0.0049991607666015625
+      ],
+      "bounds": [
+        [
+          -82.05436706542969,
+          21.022384643554688,
+          -0.0376226045191288
+        ],
+        [
+          -69.25788116455078,
+          33.77129364013672,
+          9.385393142700195
+        ]
+      ],
+      "vertices": 1400,
+      "faces": 900,
+      "materials": [
+        "VEG1 olive",
+        "VEG1 grey-green",
+        "VEG1 deep-green",
+        "VEG1 young-green",
+        "VEG1 autumn",
+        "VEG1 bark"
+      ]
+    },
+    {
+      "name": "V2 tree 01 V2 prototype 1 leaves",
+      "visible": false,
+      "feature": "VEGETATION_V2",
+      "location": [
+        -76.0,
+        27.0,
+        -0.0049991607666015625
+      ],
+      "bounds": [
+        [
+          -83.13591003417969,
+          20.490970611572266,
+          4.586367607116699
+        ],
+        [
+          -68.66242218017578,
+          34.48396301269531,
+          9.82461929321289
+        ]
+      ],
+      "vertices": 43260,
+      "faces": 34608,
+      "materials": [
+        "VEG1 olive",
+        "VEG1 grey-green",
+        "VEG1 deep-green",
+        "VEG1 young-green",
+        "VEG1 autumn",
+        "VEG1 bark"
+      ]
+    },
+    {
+      "name": "V2 tree 02 V2 prototype 2 branches",
+      "visible": false,
+      "feature": "VEGETATION_V2",
+      "location": [
+        -75.0,
+        81.0,
+        -0.0049953460693359375
+      ],
+      "bounds": [
+        [
+          -80.50137329101562,
+          75.80445098876953,
+          -0.037618789821863174
+        ],
+        [
+          -69.34049987792969,
+          85.45612335205078,
+          9.330171585083008
+        ]
+      ],
+      "vertices": 1400,
+      "faces": 900,
+      "materials": [
+        "VEG1 olive",
+        "VEG1 grey-green",
+        "VEG1 deep-green",
+        "VEG1 young-green",
+        "VEG1 autumn",
+        "VEG1 bark"
+      ]
+    },
+    {
+      "name": "V2 tree 02 V2 prototype 2 leaves",
+      "visible": false,
+      "feature": "VEGETATION_V2",
+      "location": [
+        -75.0,
+        81.0,
+        -0.0049953460693359375
+      ],
+      "bounds": [
+        [
+          -81.85930633544922,
+          74.87652587890625,
+          3.9520089626312256
+        ],
+        [
+          -68.12218475341797,
+          86.32376098632812,
+          9.73795223236084
+        ]
+      ],
+      "vertices": 46620,
+      "faces": 37296,
+      "materials": [
+        "VEG1 olive",
+        "VEG1 grey-green",
+        "VEG1 deep-green",
+        "VEG1 young-green",
+        "VEG1 autumn",
+        "VEG1 bark"
+      ]
+    },
+    {
+      "name": "V2 tree 03 V2 prototype 3 branches",
+      "visible": true,
+      "feature": "VEGETATION_V2",
+      "location": [
+        -46.0,
+        8.0,
+        -0.005001068115234375
+      ],
+      "bounds": [
+        [
+          -49.461647033691406,
+          3.9861013889312744,
+          -0.031099824234843254
+        ],
+        [
+          -42.06339645385742,
+          12.002490043640137,
+          7.420076370239258
+        ]
+      ],
+      "vertices": 1400,
+      "faces": 900,
+      "materials": [
+        "VEG1 olive",
+        "VEG1 grey-green",
+        "VEG1 deep-green",
+        "VEG1 young-green",
+        "VEG1 autumn",
+        "VEG1 bark"
+      ]
+    },
+    {
+      "name": "V2 tree 03 V2 prototype 3 leaves",
+      "visible": true,
+      "feature": "VEGETATION_V2",
+      "location": [
+        -46.0,
+        8.0,
+        -0.005001068115234375
+      ],
+      "bounds": [
+        [
+          -50.13882827758789,
+          3.3893465995788574,
+          3.6321330070495605
+        ],
+        [
+          -41.37427520751953,
+          12.572735786437988,
+          7.948001861572266
+        ]
+      ],
+      "vertices": 49980,
+      "faces": 39984,
+      "materials": [
+        "VEG1 olive",
+        "VEG1 grey-green",
+        "VEG1 deep-green",
+        "VEG1 young-green",
+        "VEG1 autumn",
+        "VEG1 bark"
+      ]
+    },
+    {
+      "name": "V2 tree 04 V2 prototype 0 branches",
+      "visible": false,
+      "feature": "VEGETATION_V2",
+      "location": [
+        -44.0,
+        17.0,
+        -0.005001068115234375
+      ],
+      "bounds": [
+        [
+          -49.75093078613281,
+          11.022640228271484,
+          -0.03436216711997986
+        ],
+        [
+          -38.10103225708008,
+          22.772491455078125,
+          8.053699493408203
+        ]
+      ],
+      "vertices": 1400,
+      "faces": 900,
+      "materials": [
+        "VEG1 olive",
+        "VEG1 grey-green",
+        "VEG1 deep-green",
+        "VEG1 young-green",
+        "VEG1 autumn",
+        "VEG1 bark"
+      ]
+    },
+    {
+      "name": "V2 tree 04 V2 prototype 0 leaves",
+      "visible": false,
+      "feature": "VEGETATION_V2",
+      "location": [
+        -44.0,
+        17.0,
+        -0.005001068115234375
+      ],
+      "bounds": [
+        [
+          -50.56120681762695,
+          10.402981758117676,
+          3.204625368118286
+        ],
+        [
+          -37.34646987915039,
+          23.676498413085938,
+          8.616265296936035
+        ]
+      ],
+      "vertices": 39900,
+      "faces": 31920,
+      "materials": [
+        "VEG1 olive",
+        "VEG1 grey-green",
+        "VEG1 deep-green",
+        "VEG1 young-green",
+        "VEG1 autumn",
+        "VEG1 bark"
+      ]
+    },
+    {
+      "name": "V2 tree 05 V2 prototype 1 branches",
+      "visible": false,
+      "feature": "VEGETATION_V2",
+      "location": [
+        -50.0,
+        34.0,
+        -0.00499725341796875
+      ],
+      "bounds": [
+        [
+          -55.85310363769531,
+          27.80013656616211,
+          -0.03435835242271423
+        ],
+        [
+          -44.4576530456543,
+          39.31757354736328,
+          8.446355819702148
+        ]
+      ],
+      "vertices": 1400,
+      "faces": 900,
+      "materials": [
+        "VEG1 olive",
+        "VEG1 grey-green",
+        "VEG1 deep-green",
+        "VEG1 young-green",
+        "VEG1 autumn",
+        "VEG1 bark"
+      ]
+    },
+    {
+      "name": "V2 tree 05 V2 prototype 1 leaves",
+      "visible": false,
+      "feature": "VEGETATION_V2",
+      "location": [
+        -50.0,
+        34.0,
+        -0.00499725341796875
+      ],
+      "bounds": [
+        [
+          -56.509944915771484,
+          26.88161849975586,
+          4.127233028411865
+        ],
+        [
+          -43.31572723388672,
+          40.242794036865234,
+          8.841659545898438
+        ]
+      ],
+      "vertices": 43260,
+      "faces": 34608,
+      "materials": [
+        "VEG1 olive",
+        "VEG1 grey-green",
+        "VEG1 deep-green",
+        "VEG1 young-green",
+        "VEG1 autumn",
+        "VEG1 bark"
+      ]
+    },
+    {
+      "name": "V2 tree 06 V2 prototype 2 branches",
+      "visible": false,
+      "feature": "VEGETATION_V2",
+      "location": [
+        -40.0,
+        52.0,
+        -0.00499725341796875
+      ],
+      "bounds": [
+        [
+          -44.68678665161133,
+          48.29679870605469,
+          -0.03109600953757763
+        ],
+        [
+          -35.281803131103516,
+          56.307498931884766,
+          7.463136672973633
+        ]
+      ],
+      "vertices": 1400,
+      "faces": 900,
+      "materials": [
+        "VEG1 olive",
+        "VEG1 grey-green",
+        "VEG1 deep-green",
+        "VEG1 young-green",
+        "VEG1 autumn",
+        "VEG1 bark"
+      ]
+    },
+    {
+      "name": "V2 tree 06 V2 prototype 2 leaves",
+      "visible": false,
+      "feature": "VEGETATION_V2",
+      "location": [
+        -40.0,
+        52.0,
+        -0.00499725341796875
+      ],
+      "bounds": [
+        [
+          -45.228553771972656,
+          47.62467956542969,
+          3.1606061458587646
+        ],
+        [
+          -34.621177673339844,
+          56.99703598022461,
+          7.789360523223877
+        ]
+      ],
+      "vertices": 46620,
+      "faces": 37296,
+      "materials": [
+        "VEG1 olive",
+        "VEG1 grey-green",
+        "VEG1 deep-green",
+        "VEG1 young-green",
+        "VEG1 autumn",
+        "VEG1 bark"
+      ]
+    },
+    {
+      "name": "V2 tree 07 V2 prototype 3 branches",
+      "visible": false,
+      "feature": "VEGETATION_V2",
+      "location": [
+        -44.0,
+        64.0,
+        -0.0049991607666015625
+      ],
+      "bounds": [
+        [
+          -49.45174026489258,
+          58.803707122802734,
+          -0.034360259771347046
+        ],
+        [
+          -39.02973175048828,
+          69.47499084472656,
+          8.348213195800781
+        ]
+      ],
+      "vertices": 1400,
+      "faces": 900,
+      "materials": [
+        "VEG1 olive",
+        "VEG1 grey-green",
+        "VEG1 deep-green",
+        "VEG1 young-green",
+        "VEG1 autumn",
+        "VEG1 bark"
+      ]
+    },
+    {
+      "name": "V2 tree 07 V2 prototype 3 leaves",
+      "visible": false,
+      "feature": "VEGETATION_V2",
+      "location": [
+        -44.0,
+        64.0,
+        -0.0049991607666015625
+      ],
+      "bounds": [
+        [
+          -50.214927673339844,
+          58.04697036743164,
+          4.0867767333984375
+        ],
+        [
+          -38.2475471496582,
+          70.25741577148438,
+          8.942129135131836
+        ]
+      ],
+      "vertices": 49980,
+      "faces": 39984,
+      "materials": [
+        "VEG1 olive",
+        "VEG1 grey-green",
+        "VEG1 deep-green",
+        "VEG1 young-green",
+        "VEG1 autumn",
+        "VEG1 bark"
+      ]
+    },
+    {
+      "name": "V2 tree 08 V2 prototype 0 branches",
+      "visible": false,
+      "feature": "VEGETATION_V2",
+      "location": [
+        -48.0,
+        78.0,
+        -0.005001068115234375
+      ],
+      "bounds": [
+        [
+          -52.28462219238281,
+          73.81159973144531,
+          -0.031099824234843254
+        ],
+        [
+          -43.62971115112305,
+          82.3953628540039,
+          7.158288478851318
+        ]
+      ],
+      "vertices": 1400,
+      "faces": 900,
+      "materials": [
+        "VEG1 olive",
+        "VEG1 grey-green",
+        "VEG1 deep-green",
+        "VEG1 young-green",
+        "VEG1 autumn",
+        "VEG1 bark"
+      ]
+    },
+    {
+      "name": "V2 tree 08 V2 prototype 0 leaves",
+      "visible": false,
+      "feature": "VEGETATION_V2",
+      "location": [
+        -48.0,
+        78.0,
+        -0.005001068115234375
+      ],
+      "bounds": [
+        [
+          -52.82851028442383,
+          73.14794921875,
+          2.8480002880096436
+        ],
+        [
+          -43.271095275878906,
+          82.88577270507812,
+          7.658347129821777
+        ]
+      ],
+      "vertices": 39900,
+      "faces": 31920,
+      "materials": [
+        "VEG1 olive",
+        "VEG1 grey-green",
+        "VEG1 deep-green",
+        "VEG1 young-green",
+        "VEG1 autumn",
+        "VEG1 bark"
+      ]
+    },
+    {
+      "name": "V2 tree 09 V2 prototype 1 branches",
+      "visible": false,
+      "feature": "VEGETATION_V2",
+      "location": [
+        -65.0,
+        77.0,
+        -0.005001068115234375
+      ],
+      "bounds": [
+        [
+          -70.42359924316406,
+          72.21641540527344,
+          -0.03436216711997986
+        ],
+        [
+          -60.503379821777344,
+          81.64147186279297,
+          8.446352005004883
+        ]
+      ],
+      "vertices": 1400,
+      "faces": 900,
+      "materials": [
+        "VEG1 olive",
+        "VEG1 grey-green",
+        "VEG1 deep-green",
+        "VEG1 young-green",
+        "VEG1 autumn",
+        "VEG1 bark"
+      ]
+    },
+    {
+      "name": "V2 tree 09 V2 prototype 1 leaves",
+      "visible": false,
+      "feature": "VEGETATION_V2",
+      "location": [
+        -65.0,
+        77.0,
+        -0.005001068115234375
+      ],
+      "bounds": [
+        [
+          -71.15339660644531,
+          71.16674041748047,
+          4.1272292137146
+        ],
+        [
+          -59.54704284667969,
+          82.2396469116211,
+          8.841655731201172
+        ]
+      ],
+      "vertices": 43260,
+      "faces": 34608,
+      "materials": [
+        "VEG1 olive",
+        "VEG1 grey-green",
+        "VEG1 deep-green",
+        "VEG1 young-green",
+        "VEG1 autumn",
+        "VEG1 bark"
+      ]
+    },
+    {
+      "name": "V2 tree 10 V2 prototype 2 branches",
+      "visible": false,
+      "feature": "VEGETATION_V2",
+      "location": [
+        -62.0,
+        38.0,
+        -0.0049991607666015625
+      ],
+      "bounds": [
+        [
+          -66.82244873046875,
+          32.761016845703125,
+          -0.03109791688621044
+        ],
+        [
+          -57.733707427978516,
+          43.000370025634766,
+          7.463134765625
+        ]
+      ],
+      "vertices": 1400,
+      "faces": 900,
+      "materials": [
+        "VEG1 olive",
+        "VEG1 grey-green",
+        "VEG1 deep-green",
+        "VEG1 young-green",
+        "VEG1 autumn",
+        "VEG1 bark"
+      ]
+    },
+    {
+      "name": "V2 tree 10 V2 prototype 2 leaves",
+      "visible": false,
+      "feature": "VEGETATION_V2",
+      "location": [
+        -62.0,
+        38.0,
+        -0.0049991607666015625
+      ],
+      "bounds": [
+        [
+          -67.5440673828125,
+          32.29241943359375,
+          3.160604238510132
+        ],
+        [
+          -57.07988739013672,
+          43.567413330078125,
+          7.789358615875244
+        ]
+      ],
+      "vertices": 46620,
+      "faces": 37296,
+      "materials": [
+        "VEG1 olive",
+        "VEG1 grey-green",
+        "VEG1 deep-green",
+        "VEG1 young-green",
+        "VEG1 autumn",
+        "VEG1 bark"
+      ]
+    },
+    {
+      "name": "V2 tree 11 V2 prototype 3 branches",
+      "visible": true,
+      "feature": "VEGETATION_V2",
+      "location": [
+        -26.0,
+        6.0,
+        -0.005001068115234375
+      ],
+      "bounds": [
+        [
+          -30.74542236328125,
+          1.1594345569610596,
+          -0.03436216711997986
+        ],
+        [
+          -21.225366592407227,
+          10.286161422729492,
+          8.348211288452148
+        ]
+      ],
+      "vertices": 1400,
+      "faces": 900,
+      "materials": [
+        "VEG1 olive",
+        "VEG1 grey-green",
+        "VEG1 deep-green",
+        "VEG1 young-green",
+        "VEG1 autumn",
+        "VEG1 bark"
+      ]
+    },
+    {
+      "name": "V2 tree 11 V2 prototype 3 leaves",
+      "visible": true,
+      "feature": "VEGETATION_V2",
+      "location": [
+        -26.0,
+        6.0,
+        -0.005001068115234375
+      ],
+      "bounds": [
+        [
+          -31.4989070892334,
+          0.11155736446380615,
+          4.086774826049805
+        ],
+        [
+          -20.496326446533203,
+          11.294194221496582,
+          8.942127227783203
+        ]
+      ],
+      "vertices": 49980,
+      "faces": 39984,
+      "materials": [
+        "VEG1 olive",
+        "VEG1 grey-green",
+        "VEG1 deep-green",
+        "VEG1 young-green",
+        "VEG1 autumn",
+        "VEG1 bark"
+      ]
+    },
+    {
+      "name": "V2 tree 12 V2 prototype 0 branches",
+      "visible": true,
+      "feature": "VEGETATION_V2",
+      "location": [
+        -13.0,
+        6.0,
+        -0.005001068115234375
+      ],
+      "bounds": [
+        [
+          -18.16634750366211,
+          1.2818217277526855,
+          -0.03436216711997986
+        ],
+        [
+          -8.071310043334961,
+          10.783628463745117,
+          8.053699493408203
+        ]
+      ],
+      "vertices": 1400,
+      "faces": 900,
+      "materials": [
+        "VEG1 olive",
+        "VEG1 grey-green",
+        "VEG1 deep-green",
+        "VEG1 young-green",
+        "VEG1 autumn",
+        "VEG1 bark"
+      ]
+    },
+    {
+      "name": "V2 tree 12 V2 prototype 0 leaves",
+      "visible": true,
+      "feature": "VEGETATION_V2",
+      "location": [
+        -13.0,
+        6.0,
+        -0.005001068115234375
+      ],
+      "bounds": [
+        [
+          -18.780914306640625,
+          0.43515580892562866,
+          3.204625368118286
+        ],
+        [
+          -7.248620510101318,
+          11.454625129699707,
+          8.616265296936035
+        ]
+      ],
+      "vertices": 39900,
+      "faces": 31920,
+      "materials": [
+        "VEG1 olive",
+        "VEG1 grey-green",
+        "VEG1 deep-green",
+        "VEG1 young-green",
+        "VEG1 autumn",
+        "VEG1 bark"
+      ]
+    },
+    {
+      "name": "V2 tree 13 V2 prototype 1 branches",
+      "visible": true,
+      "feature": "VEGETATION_V2",
+      "location": [
+        1.0,
+        6.0,
+        -0.005001068115234375
+      ],
+      "bounds": [
+        [
+          -3.593831777572632,
+          0.6997875571250916,
+          -0.03436216711997986
+        ],
+        [
+          6.068405628204346,
+          10.48352336883545,
+          8.446352005004883
+        ]
+      ],
+      "vertices": 1400,
+      "faces": 900,
+      "materials": [
+        "VEG1 olive",
+        "VEG1 grey-green",
+        "VEG1 deep-green",
+        "VEG1 young-green",
+        "VEG1 autumn",
+        "VEG1 bark"
+      ]
+    },
+    {
+      "name": "V2 tree 13 V2 prototype 1 leaves",
+      "visible": true,
+      "feature": "VEGETATION_V2",
+      "location": [
+        1.0,
+        6.0,
+        -0.005001068115234375
+      ],
+      "bounds": [
+        [
+          -3.8559041023254395,
+          0.12022149562835693,
+          4.1272292137146
+        ],
+        [
+          6.6323561668396,
+          11.425517082214355,
+          8.841655731201172
+        ]
+      ],
+      "vertices": 43260,
+      "faces": 34608,
+      "materials": [
+        "VEG1 olive",
+        "VEG1 grey-green",
+        "VEG1 deep-green",
+        "VEG1 young-green",
+        "VEG1 autumn",
+        "VEG1 bark"
+      ]
+    },
+    {
+      "name": "V2 tree 14 V2 prototype 2 branches",
+      "visible": true,
+      "feature": "VEGETATION_V2",
+      "location": [
+        13.0,
+        6.0,
+        -0.005001068115234375
+      ],
+      "bounds": [
+        [
+          7.166186332702637,
+          -0.494617223739624,
+          -0.03436216711997986
+        ],
+        [
+          19.408100128173828,
+          12.128449440002441,
+          8.396649360656738
+        ]
+      ],
+      "vertices": 1400,
+      "faces": 900,
+      "materials": [
+        "VEG1 olive",
+        "VEG1 grey-green",
+        "VEG1 deep-green",
+        "VEG1 young-green",
+        "VEG1 autumn",
+        "VEG1 bark"
+      ]
+    },
+    {
+      "name": "V2 tree 14 V2 prototype 2 leaves",
+      "visible": true,
+      "feature": "VEGETATION_V2",
+      "location": [
+        13.0,
+        6.0,
+        -0.005001068115234375
+      ],
+      "bounds": [
+        [
+          6.376791477203369,
+          -1.2699148654937744,
+          3.556302785873413
+        ],
+        [
+          20.14569091796875,
+          12.775115013122559,
+          8.763651847839355
+        ]
+      ],
+      "vertices": 46620,
+      "faces": 37296,
+      "materials": [
+        "VEG1 olive",
+        "VEG1 grey-green",
+        "VEG1 deep-green",
+        "VEG1 young-green",
+        "VEG1 autumn",
+        "VEG1 bark"
+      ]
+    },
+    {
+      "name": "V2 tree 15 V2 prototype 3 branches",
+      "visible": true,
+      "feature": "VEGETATION_V2",
+      "location": [
+        52.0,
+        6.0,
+        -0.005001068115234375
+      ],
+      "bounds": [
+        [
+          46.43246841430664,
+          0.45546627044677734,
+          -0.03436216711997986
+        ],
+        [
+          57.963966369628906,
+          11.975860595703125,
+          8.348211288452148
+        ]
+      ],
+      "vertices": 1400,
+      "faces": 900,
+      "materials": [
+        "VEG1 olive",
+        "VEG1 grey-green",
+        "VEG1 deep-green",
+        "VEG1 young-green",
+        "VEG1 autumn",
+        "VEG1 bark"
+      ]
+    },
+    {
+      "name": "V2 tree 15 V2 prototype 3 leaves",
+      "visible": true,
+      "feature": "VEGETATION_V2",
+      "location": [
+        52.0,
+        6.0,
+        -0.005001068115234375
+      ],
+      "bounds": [
+        [
+          45.613739013671875,
+          -0.3903779983520508,
+          4.086774826049805
+        ],
+        [
+          58.801944732666016,
+          12.795307159423828,
+          8.942127227783203
+        ]
+      ],
+      "vertices": 49980,
+      "faces": 39984,
+      "materials": [
+        "VEG1 olive",
+        "VEG1 grey-green",
+        "VEG1 deep-green",
+        "VEG1 young-green",
+        "VEG1 autumn",
+        "VEG1 bark"
+      ]
+    },
+    {
+      "name": "V2 tree 16 V2 prototype 0 branches",
+      "visible": true,
+      "feature": "VEGETATION_V2",
+      "location": [
+        64.0,
+        6.0,
+        -0.005001068115234375
+      ],
+      "bounds": [
+        [
+          57.88008117675781,
+          0.013025283813476562,
+          -0.03436216711997986
+        ],
+        [
+          69.87027740478516,
+          11.965965270996094,
+          8.053699493408203
+        ]
+      ],
+      "vertices": 1400,
+      "faces": 900,
+      "materials": [
+        "VEG1 olive",
+        "VEG1 grey-green",
+        "VEG1 deep-green",
+        "VEG1 young-green",
+        "VEG1 autumn",
+        "VEG1 bark"
+      ]
+    },
+    {
+      "name": "V2 tree 16 V2 prototype 0 leaves",
+      "visible": true,
+      "feature": "VEGETATION_V2",
+      "location": [
+        64.0,
+        6.0,
+        -0.005001068115234375
+      ],
+      "bounds": [
+        [
+          57.09046936035156,
+          -1.0081071853637695,
+          3.204625368118286
+        ],
+        [
+          70.92855072021484,
+          12.886992454528809,
+          8.616265296936035
+        ]
+      ],
+      "vertices": 39900,
+      "faces": 31920,
+      "materials": [
+        "VEG1 olive",
+        "VEG1 grey-green",
+        "VEG1 deep-green",
+        "VEG1 young-green",
+        "VEG1 autumn",
+        "VEG1 bark"
+      ]
+    },
+    {
+      "name": "V2 tree 17 V2 prototype 1 branches",
+      "visible": true,
+      "feature": "VEGETATION_V2",
+      "location": [
+        78.0,
+        6.0,
+        -0.0049991607666015625
+      ],
+      "bounds": [
+        [
+          72.72723388671875,
+          0.9655520915985107,
+          -0.034360259771347046
+        ],
+        [
+          83.35065460205078,
+          11.967256546020508,
+          8.446353912353516
+        ]
+      ],
+      "vertices": 1400,
+      "faces": 900,
+      "materials": [
+        "VEG1 olive",
+        "VEG1 grey-green",
+        "VEG1 deep-green",
+        "VEG1 young-green",
+        "VEG1 autumn",
+        "VEG1 bark"
+      ]
+    },
+    {
+      "name": "V2 tree 17 V2 prototype 1 leaves",
+      "visible": true,
+      "feature": "VEGETATION_V2",
+      "location": [
+        78.0,
+        6.0,
+        -0.0049991607666015625
+      ],
+      "bounds": [
+        [
+          71.4603271484375,
+          -0.07439398765563965,
+          4.127231121063232
+        ],
+        [
+          84.11769104003906,
+          12.893548011779785,
+          8.841657638549805
+        ]
+      ],
+      "vertices": 43260,
+      "faces": 34608,
+      "materials": [
+        "VEG1 olive",
+        "VEG1 grey-green",
+        "VEG1 deep-green",
+        "VEG1 young-green",
+        "VEG1 autumn",
+        "VEG1 bark"
+      ]
+    },
+    {
+      "name": "V2 tree 18 V2 prototype 2 branches",
+      "visible": true,
+      "feature": "VEGETATION_V2",
+      "location": [
+        91.0,
+        6.0,
+        -0.00499725341796875
+      ],
+      "bounds": [
+        [
+          84.56111907958984,
+          -0.49065089225769043,
+          -0.03435835242271423
+        ],
+        [
+          97.0076675415039,
+          11.963536262512207,
+          8.396653175354004
+        ]
+      ],
+      "vertices": 1400,
+      "faces": 900,
+      "materials": [
+        "VEG1 olive",
+        "VEG1 grey-green",
+        "VEG1 deep-green",
+        "VEG1 young-green",
+        "VEG1 autumn",
+        "VEG1 bark"
+      ]
+    },
+    {
+      "name": "V2 tree 18 V2 prototype 2 leaves",
+      "visible": true,
+      "feature": "VEGETATION_V2",
+      "location": [
+        91.0,
+        6.0,
+        -0.00499725341796875
+      ],
+      "bounds": [
+        [
+          83.53474426269531,
+          -1.4211268424987793,
+          3.5563066005706787
+        ],
+        [
+          97.91056823730469,
+          12.962272644042969,
+          8.763655662536621
+        ]
+      ],
+      "vertices": 46620,
+      "faces": 37296,
+      "materials": [
+        "VEG1 olive",
+        "VEG1 grey-green",
+        "VEG1 deep-green",
+        "VEG1 young-green",
+        "VEG1 autumn",
+        "VEG1 bark"
+      ]
+    },
+    {
+      "name": "V2 tree 19 V2 prototype 3 branches",
+      "visible": false,
+      "feature": "VEGETATION_V2",
+      "location": [
+        98.30211639404297,
+        64.0,
+        -0.00499725341796875
+      ],
+      "bounds": [
+        [
+          93.57366943359375,
+          59.171730041503906,
+          -0.03109600953757763
+        ],
+        [
+          103.42515563964844,
+          69.09137725830078,
+          7.420080184936523
+        ]
+      ],
+      "vertices": 1400,
+      "faces": 900,
+      "materials": [
+        "VEG1 olive",
+        "VEG1 grey-green",
+        "VEG1 deep-green",
+        "VEG1 young-green",
+        "VEG1 autumn",
+        "VEG1 bark"
+      ]
+    },
+    {
+      "name": "V2 tree 19 V2 prototype 3 leaves",
+      "visible": false,
+      "feature": "VEGETATION_V2",
+      "location": [
+        98.30211639404297,
+        64.0,
+        -0.00499725341796875
+      ],
+      "bounds": [
+        [
+          92.58134460449219,
+          58.19416046142578,
+          3.632136821746826
+        ],
+        [
+          104.46661376953125,
+          70.07516479492188,
+          7.948005676269531
+        ]
+      ],
+      "vertices": 49980,
+      "faces": 39984,
+      "materials": [
+        "VEG1 olive",
+        "VEG1 grey-green",
+        "VEG1 deep-green",
+        "VEG1 young-green",
+        "VEG1 autumn",
+        "VEG1 bark"
+      ]
+    },
+    {
+      "name": "V2 tree 20 V2 prototype 0 branches",
+      "visible": false,
+      "feature": "VEGETATION_V2",
+      "location": [
+        91.30211639404297,
+        73.0,
+        -0.00499725341796875
+      ],
+      "bounds": [
+        [
+          87.3891830444336,
+          69.1861572265625,
+          -0.027833664789795876
+        ],
+        [
+          95.10000610351562,
+          76.65348052978516,
+          6.262881278991699
+        ]
+      ],
+      "vertices": 1400,
+      "faces": 900,
+      "materials": [
+        "VEG1 olive",
+        "VEG1 grey-green",
+        "VEG1 deep-green",
+        "VEG1 young-green",
+        "VEG1 autumn",
+        "VEG1 bark"
+      ]
+    },
+    {
+      "name": "V2 tree 20 V2 prototype 0 leaves",
+      "visible": false,
+      "feature": "VEGETATION_V2",
+      "location": [
+        91.30211639404297,
+        73.0,
+        -0.00499725341796875
+      ],
+      "bounds": [
+        [
+          87.1968002319336,
+          68.75120544433594,
+          2.4913790225982666
+        ],
+        [
+          95.48616027832031,
+          77.20118713378906,
+          6.700432300567627
+        ]
+      ],
+      "vertices": 39900,
+      "faces": 31920,
+      "materials": [
+        "VEG1 olive",
+        "VEG1 grey-green",
+        "VEG1 deep-green",
+        "VEG1 young-green",
+        "VEG1 autumn",
+        "VEG1 bark"
+      ]
+    },
+    {
+      "name": "V2 tree 21 V2 prototype 1 branches",
+      "visible": false,
+      "feature": "VEGETATION_V2",
+      "location": [
+        70.80211639404297,
+        57.5,
+        0.2417583465576172
+      ],
+      "bounds": [
+        [
+          67.05593872070312,
+          53.33077621459961,
+          0.22218428552150726
+        ],
+        [
+          75.11316680908203,
+          61.38747787475586,
+          5.875993728637695
+        ]
+      ],
+      "vertices": 1400,
+      "faces": 900,
+      "materials": [
+        "VEG1 olive",
+        "VEG1 grey-green",
+        "VEG1 deep-green",
+        "VEG1 young-green",
+        "VEG1 autumn",
+        "VEG1 bark"
+      ]
+    },
+    {
+      "name": "V2 tree 21 V2 prototype 1 leaves",
+      "visible": false,
+      "feature": "VEGETATION_V2",
+      "location": [
+        70.80211639404297,
+        57.5,
+        0.2417583465576172
+      ],
+      "bounds": [
+        [
+          66.63347625732422,
+          53.02326583862305,
+          2.9965784549713135
+        ],
+        [
+          75.57093811035156,
+          62.00537109375,
+          6.139529705047607
+        ]
+      ],
+      "vertices": 43260,
+      "faces": 34608,
+      "materials": [
+        "VEG1 olive",
+        "VEG1 grey-green",
+        "VEG1 deep-green",
+        "VEG1 young-green",
+        "VEG1 autumn",
+        "VEG1 bark"
+      ]
+    },
+    {
+      "name": "V2 tree 22 V2 prototype 2 branches",
+      "visible": false,
+      "feature": "VEGETATION_V2",
+      "location": [
+        85.30211639404297,
+        81.0,
+        -0.00499725341796875
+      ],
+      "bounds": [
+        [
+          81.15633392333984,
+          77.18156433105469,
+          -0.03109600953757763
+        ],
+        [
+          89.52120208740234,
+          84.21798706054688,
+          7.463136672973633
+        ]
+      ],
+      "vertices": 1400,
+      "faces": 900,
+      "materials": [
+        "VEG1 olive",
+        "VEG1 grey-green",
+        "VEG1 deep-green",
+        "VEG1 young-green",
+        "VEG1 autumn",
+        "VEG1 bark"
+      ]
+    },
+    {
+      "name": "V2 tree 22 V2 prototype 2 leaves",
+      "visible": false,
+      "feature": "VEGETATION_V2",
+      "location": [
+        85.30211639404297,
+        81.0,
+        -0.00499725341796875
+      ],
+      "bounds": [
+        [
+          80.272705078125,
+          76.53044128417969,
+          3.1606061458587646
+        ],
+        [
+          90.2912368774414,
+          84.83106231689453,
+          7.789360523223877
+        ]
+      ],
+      "vertices": 46620,
+      "faces": 37296,
+      "materials": [
+        "VEG1 olive",
+        "VEG1 grey-green",
+        "VEG1 deep-green",
+        "VEG1 young-green",
+        "VEG1 autumn",
+        "VEG1 bark"
+      ]
+    },
+    {
+      "name": "V2 tree 23 V2 prototype 3 branches",
+      "visible": false,
+      "feature": "VEGETATION_V2",
+      "location": [
+        -73.0,
+        18.0,
+        -0.0049991607666015625
+      ],
+      "bounds": [
+        [
+          -78.34346008300781,
+          12.271455764770508,
+          -0.03272908926010132
+        ],
+        [
+          -67.3287353515625,
+          23.283594131469727,
+          7.884145736694336
+        ]
+      ],
+      "vertices": 1400,
+      "faces": 900,
+      "materials": [
+        "VEG1 olive",
+        "VEG1 grey-green",
+        "VEG1 deep-green",
+        "VEG1 young-green",
+        "VEG1 autumn",
+        "VEG1 bark"
+      ]
+    },
+    {
+      "name": "V2 tree 23 V2 prototype 3 leaves",
+      "visible": false,
+      "feature": "VEGETATION_V2",
+      "location": [
+        -73.0,
+        18.0,
+        -0.0049991607666015625
+      ],
+      "bounds": [
+        [
+          -78.95087432861328,
+          11.71174430847168,
+          3.8594558238983154
+        ],
+        [
+          -66.77501678466797,
+          23.857725143432617,
+          8.445066452026367
+        ]
+      ],
+      "vertices": 49980,
+      "faces": 39984,
+      "materials": [
+        "VEG1 olive",
+        "VEG1 grey-green",
+        "VEG1 deep-green",
+        "VEG1 young-green",
+        "VEG1 autumn",
+        "VEG1 bark"
+      ]
+    },
+    {
+      "name": "V2 tree 24 V2 prototype 0 branches",
+      "visible": false,
+      "feature": "VEGETATION_V2",
+      "location": [
+        -62.0,
+        18.0,
+        -0.00499725341796875
+      ],
+      "bounds": [
+        [
+          -67.89308166503906,
+          11.946760177612305,
+          -0.03598952665925026
+        ],
+        [
+          -56.1396484375,
+          23.79098892211914,
+          8.501409530639648
+        ]
+      ],
+      "vertices": 1400,
+      "faces": 900,
+      "materials": [
+        "VEG1 olive",
+        "VEG1 grey-green",
+        "VEG1 deep-green",
+        "VEG1 young-green",
+        "VEG1 autumn",
+        "VEG1 bark"
+      ]
+    },
+    {
+      "name": "V2 tree 24 V2 prototype 0 leaves",
+      "visible": false,
+      "feature": "VEGETATION_V2",
+      "location": [
+        -62.0,
+        18.0,
+        -0.00499725341796875
+      ],
+      "bounds": [
+        [
+          -68.40177154541016,
+          11.341767311096191,
+          3.382941961288452
+        ],
+        [
+          -55.47805404663086,
+          24.647804260253906,
+          9.095229148864746
+        ]
+      ],
+      "vertices": 39900,
+      "faces": 31920,
+      "materials": [
+        "VEG1 olive",
+        "VEG1 grey-green",
+        "VEG1 deep-green",
+        "VEG1 young-green",
+        "VEG1 autumn",
+        "VEG1 bark"
+      ]
+    },
+    {
+      "name": "V2 tree 25 V2 prototype 1 branches",
+      "visible": false,
+      "feature": "VEGETATION_V2",
+      "location": [
+        -40.0,
+        43.0,
+        -0.00499725341796875
+      ],
+      "bounds": [
+        [
+          -45.825904846191406,
+          37.40328598022461,
+          -0.03598952665925026
+        ],
+        [
+          -33.687740325927734,
+          49.45513153076172,
+          8.915875434875488
+        ]
+      ],
+      "vertices": 1400,
+      "faces": 900,
+      "materials": [
+        "VEG1 olive",
+        "VEG1 grey-green",
+        "VEG1 deep-green",
+        "VEG1 young-green",
+        "VEG1 autumn",
+        "VEG1 bark"
+      ]
+    },
+    {
+      "name": "V2 tree 25 V2 prototype 1 leaves",
+      "visible": false,
+      "feature": "VEGETATION_V2",
+      "location": [
+        -40.0,
+        43.0,
+        -0.00499725341796875
+      ],
+      "bounds": [
+        [
+          -47.094600677490234,
+          36.442604064941406,
+          4.356801509857178
+        ],
+        [
+          -32.92951965332031,
+          50.50353240966797,
+          9.33314037322998
+        ]
+      ],
+      "vertices": 43260,
+      "faces": 34608,
+      "materials": [
+        "VEG1 olive",
+        "VEG1 grey-green",
+        "VEG1 deep-green",
+        "VEG1 young-green",
+        "VEG1 autumn",
+        "VEG1 bark"
+      ]
+    },
+    {
+      "name": "V2 tree 26 V2 prototype 2 branches",
+      "visible": true,
+      "feature": "VEGETATION_V2",
+      "location": [
+        -37.0,
+        8.0,
+        -0.005001068115234375
+      ],
+      "bounds": [
+        [
+          -44.07805633544922,
+          1.2543799877166748,
+          -0.03762451186776161
+        ],
+        [
+          -30.20918083190918,
+          14.045464515686035,
+          9.33016586303711
+        ]
+      ],
+      "vertices": 1400,
+      "faces": 900,
+      "materials": [
+        "VEG1 olive",
+        "VEG1 grey-green",
+        "VEG1 deep-green",
+        "VEG1 young-green",
+        "VEG1 autumn",
+        "VEG1 bark"
+      ]
+    },
+    {
+      "name": "V2 tree 26 V2 prototype 2 leaves",
+      "visible": true,
+      "feature": "VEGETATION_V2",
+      "location": [
+        -37.0,
+        8.0,
+        -0.005001068115234375
+      ],
+      "bounds": [
+        [
+          -44.87238311767578,
+          0.4055802822113037,
+          3.952003240585327
+        ],
+        [
+          -29.566020965576172,
+          14.925760269165039,
+          9.737946510314941
+        ]
+      ],
+      "vertices": 46620,
+      "faces": 37296,
+      "materials": [
+        "VEG1 olive",
+        "VEG1 grey-green",
+        "VEG1 deep-green",
+        "VEG1 young-green",
+        "VEG1 autumn",
+        "VEG1 bark"
+      ]
+    },
+    {
+      "name": "V2 tree 27 V2 prototype 3 branches",
+      "visible": true,
+      "feature": "VEGETATION_V2",
+      "location": [
+        -7.0,
+        8.0,
+        -0.005001068115234375
+      ],
+      "bounds": [
+        [
+          -12.89599609375,
+          1.924349069595337,
+          -0.03762451186776161
+        ],
+        [
+          -0.8944990634918213,
+          13.528751373291016,
+          9.276346206665039
+        ]
+      ],
+      "vertices": 1400,
+      "faces": 900,
+      "materials": [
+        "VEG1 olive",
+        "VEG1 grey-green",
+        "VEG1 deep-green",
+        "VEG1 young-green",
+        "VEG1 autumn",
+        "VEG1 bark"
+      ]
+    },
+    {
+      "name": "V2 tree 27 V2 prototype 3 leaves",
+      "visible": true,
+      "feature": "VEGETATION_V2",
+      "location": [
+        -7.0,
+        8.0,
+        -0.005001068115234375
+      ],
+      "bounds": [
+        [
+          -14.023123741149902,
+          0.5584795475006104,
+          4.541416645050049
+        ],
+        [
+          0.2297651767730713,
+          14.827444076538086,
+          9.93625259399414
+        ]
+      ],
+      "vertices": 49980,
+      "faces": 39984,
+      "materials": [
+        "VEG1 olive",
+        "VEG1 grey-green",
+        "VEG1 deep-green",
+        "VEG1 young-green",
+        "VEG1 autumn",
+        "VEG1 bark"
+      ]
+    },
+    {
+      "name": "V2 tree 28 V2 prototype 0 branches",
+      "visible": true,
+      "feature": "VEGETATION_V2",
+      "location": [
+        33.0,
+        8.0,
+        -0.005001068115234375
+      ],
+      "bounds": [
+        [
+          26.240293502807617,
+          0.8979566097259521,
+          -0.040886856615543365
+        ],
+        [
+          39.758670806884766,
+          14.800369262695312,
+          9.844522476196289
+        ]
+      ],
+      "vertices": 1400,
+      "faces": 900,
+      "materials": [
+        "VEG1 olive",
+        "VEG1 grey-green",
+        "VEG1 deep-green",
+        "VEG1 young-green",
+        "VEG1 autumn",
+        "VEG1 bark"
+      ]
+    },
+    {
+      "name": "V2 tree 28 V2 prototype 0 leaves",
+      "visible": true,
+      "feature": "VEGETATION_V2",
+      "location": [
+        33.0,
+        8.0,
+        -0.005001068115234375
+      ],
+      "bounds": [
+        [
+          25.34982681274414,
+          0.07459878921508789,
+          3.9178757667541504
+        ],
+        [
+          40.78839111328125,
+          15.925628662109375,
+          10.532102584838867
+        ]
+      ],
+      "vertices": 39900,
+      "faces": 31920,
+      "materials": [
+        "VEG1 olive",
+        "VEG1 grey-green",
+        "VEG1 deep-green",
+        "VEG1 young-green",
+        "VEG1 autumn",
+        "VEG1 bark"
+      ]
+    },
+    {
+      "name": "V2 tree 29 V2 prototype 1 branches",
+      "visible": true,
+      "feature": "VEGETATION_V2",
+      "location": [
+        43.0,
+        8.0,
+        -0.005001068115234375
+      ],
+      "bounds": [
+        [
+          35.81959533691406,
+          0.8253984451293945,
+          -0.04414920136332512
+        ],
+        [
+          51.045143127441406,
+          16.096031188964844,
+          11.263469696044922
+        ]
+      ],
+      "vertices": 1400,
+      "faces": 900,
+      "materials": [
+        "VEG1 olive",
+        "VEG1 grey-green",
+        "VEG1 deep-green",
+        "VEG1 young-green",
+        "VEG1 autumn",
+        "VEG1 bark"
+      ]
+    },
+    {
+      "name": "V2 tree 29 V2 prototype 1 leaves",
+      "visible": true,
+      "feature": "VEGETATION_V2",
+      "location": [
+        43.0,
+        8.0,
+        -0.005001068115234375
+      ],
+      "bounds": [
+        [
+          34.391082763671875,
+          0.006831169128417969,
+          5.504639148712158
+        ],
+        [
+          51.879127502441406,
+          17.20539093017578,
+          11.790541648864746
+        ]
+      ],
+      "vertices": 43260,
+      "faces": 34608,
+      "materials": [
+        "VEG1 olive",
+        "VEG1 grey-green",
+        "VEG1 deep-green",
+        "VEG1 young-green",
+        "VEG1 autumn",
+        "VEG1 bark"
+      ]
+    },
+    {
+      "name": "V2 tree 30 V2 prototype 2 branches",
+      "visible": true,
+      "feature": "VEGETATION_V2",
+      "location": [
+        73.0,
+        8.0,
+        -0.0049991607666015625
+      ],
+      "bounds": [
+        [
+          66.01376342773438,
+          1.5473206043243408,
+          -0.044147294014692307
+        ],
+        [
+          80.20944213867188,
+          13.572821617126465,
+          11.1972017288208
+        ]
+      ],
+      "vertices": 1400,
+      "faces": 900,
+      "materials": [
+        "VEG1 olive",
+        "VEG1 grey-green",
+        "VEG1 deep-green",
+        "VEG1 young-green",
+        "VEG1 autumn",
+        "VEG1 bark"
+      ]
+    },
+    {
+      "name": "V2 tree 30 V2 prototype 2 leaves",
+      "visible": true,
+      "feature": "VEGETATION_V2",
+      "location": [
+        73.0,
+        8.0,
+        -0.0049991607666015625
+      ],
+      "bounds": [
+        [
+          64.79076385498047,
+          0.4513106346130371,
+          4.743405818939209
+        ],
+        [
+          81.26586151123047,
+          14.590638160705566,
+          11.686537742614746
+        ]
+      ],
+      "vertices": 46620,
+      "faces": 37296,
+      "materials": [
+        "VEG1 olive",
+        "VEG1 grey-green",
+        "VEG1 deep-green",
+        "VEG1 young-green",
+        "VEG1 autumn",
+        "VEG1 bark"
+      ]
+    },
+    {
+      "name": "V2 tree 31 V2 prototype 3 branches",
+      "visible": true,
+      "feature": "VEGETATION_V2",
+      "location": [
+        83.0,
+        8.0,
+        -0.0049991607666015625
+      ],
+      "bounds": [
+        [
+          78.01390075683594,
+          3.319943904876709,
+          -0.0376226045191288
+        ],
+        [
+          88.00360107421875,
+          13.336700439453125,
+          9.276348114013672
+        ]
+      ],
+      "vertices": 1400,
+      "faces": 900,
+      "materials": [
+        "VEG1 olive",
+        "VEG1 grey-green",
+        "VEG1 deep-green",
+        "VEG1 young-green",
+        "VEG1 autumn",
+        "VEG1 bark"
+      ]
+    },
+    {
+      "name": "V2 tree 31 V2 prototype 3 leaves",
+      "visible": true,
+      "feature": "VEGETATION_V2",
+      "location": [
+        83.0,
+        8.0,
+        -0.0049991607666015625
+      ],
+      "bounds": [
+        [
+          77.3361587524414,
+          2.710319757461548,
+          4.541418552398682
+        ],
+        [
+          88.71821594238281,
+          13.92164134979248,
+          9.936254501342773
+        ]
+      ],
+      "vertices": 49980,
+      "faces": 39984,
+      "materials": [
+        "VEG1 olive",
+        "VEG1 grey-green",
+        "VEG1 deep-green",
+        "VEG1 young-green",
+        "VEG1 autumn",
+        "VEG1 bark"
+      ]
+    },
+    {
+      "name": "V2 tree 32 V2 prototype 0 branches",
+      "visible": false,
+      "feature": "VEGETATION_V2",
+      "location": [
+        97.0,
+        46.0,
+        -0.00499725341796875
+      ],
+      "bounds": [
+        [
+          91.50839233398438,
+          40.385379791259766,
+          -0.03435835242271423
+        ],
+        [
+          102.30662536621094,
+          51.448829650878906,
+          8.053703308105469
+        ]
+      ],
+      "vertices": 1400,
+      "faces": 900,
+      "materials": [
+        "VEG1 olive",
+        "VEG1 grey-green",
+        "VEG1 deep-green",
+        "VEG1 young-green",
+        "VEG1 autumn",
+        "VEG1 bark"
+      ]
+    },
+    {
+      "name": "V2 tree 32 V2 prototype 0 leaves",
+      "visible": false,
+      "feature": "VEGETATION_V2",
+      "location": [
+        97.0,
+        46.0,
+        -0.00499725341796875
+      ],
+      "bounds": [
+        [
+          90.57445526123047,
+          39.538028717041016,
+          3.2046291828155518
+        ],
+        [
+          103.5120620727539,
+          52.37548065185547,
+          8.6162691116333
+        ]
+      ],
+      "vertices": 39900,
+      "faces": 31920,
+      "materials": [
+        "VEG1 olive",
+        "VEG1 grey-green",
+        "VEG1 deep-green",
+        "VEG1 young-green",
+        "VEG1 autumn",
+        "VEG1 bark"
+      ]
+    },
+    {
+      "name": "V2 tree 33 V2 prototype 1 branches",
+      "visible": false,
+      "feature": "VEGETATION_V2",
+      "location": [
+        97.0,
+        77.0,
+        -0.00499725341796875
+      ],
+      "bounds": [
+        [
+          90.11438751220703,
+          70.82354736328125,
+          -0.03762069717049599
+        ],
+        [
+          102.86103820800781,
+          83.3755111694336,
+          9.385395050048828
+        ]
+      ],
+      "vertices": 1400,
+      "faces": 900,
+      "materials": [
+        "VEG1 olive",
+        "VEG1 grey-green",
+        "VEG1 deep-green",
+        "VEG1 young-green",
+        "VEG1 autumn",
+        "VEG1 bark"
+      ]
+    },
+    {
+      "name": "V2 tree 33 V2 prototype 1 leaves",
+      "visible": false,
+      "feature": "VEGETATION_V2",
+      "location": [
+        97.0,
+        77.0,
+        -0.00499725341796875
+      ],
+      "bounds": [
+        [
+          89.17538452148438,
+          69.65827178955078,
+          4.586369514465332
+        ],
+        [
+          103.8796157836914,
+          84.0070571899414,
+          9.824621200561523
+        ]
+      ],
+      "vertices": 43260,
+      "faces": 34608,
+      "materials": [
+        "VEG1 olive",
+        "VEG1 grey-green",
+        "VEG1 deep-green",
+        "VEG1 young-green",
+        "VEG1 autumn",
+        "VEG1 bark"
+      ]
+    },
+    {
+      "name": "POET_GARDEN context tree 0 V2 prototype 0 branches",
+      "visible": true,
+      "feature": "POET_GARDEN",
+      "location": [
+        -63.0,
+        122.0,
+        0.054999999701976776
+      ],
+      "bounds": [
+        [
+          -66.60223388671875,
+          118.22860717773438,
+          0.03020618110895157
+        ],
+        [
+          -59.49643325805664,
+          125.58531188964844,
+          6.860124588012695
+        ]
+      ],
+      "vertices": 1400,
+      "faces": 900,
+      "materials": [
+        "VEG1 olive",
+        "VEG1 grey-green",
+        "VEG1 deep-green",
+        "VEG1 young-green",
+        "VEG1 autumn",
+        "VEG1 bark"
+      ]
+    },
+    {
+      "name": "POET_GARDEN context tree 0 V2 prototype 0 leaves",
+      "visible": true,
+      "feature": "POET_GARDEN",
+      "location": [
+        -63.0,
+        122.0,
+        0.054999999701976776
+      ],
+      "bounds": [
+        [
+          -67.02239990234375,
+          117.79132843017578,
+          2.7653512954711914
+        ],
+        [
+          -58.887733459472656,
+          126.16607666015625,
+          7.335180759429932
+        ]
+      ],
+      "vertices": 39900,
+      "faces": 31920,
+      "materials": [
+        "VEG1 olive",
+        "VEG1 grey-green",
+        "VEG1 deep-green",
+        "VEG1 young-green",
+        "VEG1 autumn",
+        "VEG1 bark"
+      ]
+    },
+    {
+      "name": "POET_GARDEN context tree 1 V2 prototype 0 branches",
+      "visible": true,
+      "feature": "POET_GARDEN",
+      "location": [
+        -49.0,
+        123.0,
+        0.054999999701976776
+      ],
+      "bounds": [
+        [
+          -52.52031707763672,
+          119.4509048461914,
+          0.03464297205209732
+        ],
+        [
+          -45.31249237060547,
+          126.50491333007812,
+          5.642365455627441
+        ]
+      ],
+      "vertices": 1400,
+      "faces": 900,
+      "materials": [
+        "VEG1 olive",
+        "VEG1 grey-green",
+        "VEG1 deep-green",
+        "VEG1 young-green",
+        "VEG1 autumn",
+        "VEG1 bark"
+      ]
+    },
+    {
+      "name": "POET_GARDEN context tree 1 V2 prototype 0 leaves",
+      "visible": true,
+      "feature": "POET_GARDEN",
+      "location": [
+        -49.0,
+        123.0,
+        0.054999999701976776
+      ],
+      "bounds": [
+        [
+          -53.098236083984375,
+          119.00660705566406,
+          2.280341148376465
+        ],
+        [
+          -44.88447189331055,
+          127.07319641113281,
+          6.032411098480225
+        ]
+      ],
+      "vertices": 39900,
+      "faces": 31920,
+      "materials": [
+        "VEG1 olive",
+        "VEG1 grey-green",
+        "VEG1 deep-green",
+        "VEG1 young-green",
+        "VEG1 autumn",
+        "VEG1 bark"
+      ]
+    },
+    {
+      "name": "POET_GARDEN context tree 2 V2 prototype 0 branches",
+      "visible": true,
+      "feature": "POET_GARDEN",
+      "location": [
+        -69.0,
+        118.0,
+        0.054999999701976776
+      ],
+      "bounds": [
+        [
+          -74.57036590576172,
+          112.48198699951172,
+          0.026291366666555405
+        ],
+        [
+          -63.422523498535156,
+          123.76178741455078,
+          7.9346184730529785
+        ]
+      ],
+      "vertices": 1400,
+      "faces": 900,
+      "materials": [
+        "VEG1 olive",
+        "VEG1 grey-green",
+        "VEG1 deep-green",
+        "VEG1 young-green",
+        "VEG1 autumn",
+        "VEG1 bark"
+      ]
+    },
+    {
+      "name": "POET_GARDEN context tree 2 V2 prototype 0 leaves",
+      "visible": true,
+      "feature": "POET_GARDEN",
+      "location": [
+        -69.0,
+        118.0,
+        0.054999999701976776
+      ],
+      "bounds": [
+        [
+          -75.42646789550781,
+          111.56705474853516,
+          3.1933016777038574
+        ],
+        [
+          -62.68866729736328,
+          124.4311294555664,
+          8.4846830368042
+        ]
+      ],
+      "vertices": 39900,
+      "faces": 31920,
+      "materials": [
+        "VEG1 olive",
+        "VEG1 grey-green",
+        "VEG1 deep-green",
+        "VEG1 young-green",
+        "VEG1 autumn",
+        "VEG1 bark"
+      ]
+    },
+    {
+      "name": "POET_GARDEN context tree 3 V2 prototype 0 branches",
+      "visible": true,
+      "feature": "POET_GARDEN",
+      "location": [
+        -57.79999923706055,
+        123.0,
+        0.054999999701976776
+      ],
+      "bounds": [
+        [
+          -63.000709533691406,
+          117.89889526367188,
+          0.03020618110895157
+        ],
+        [
+          -52.80570602416992,
+          128.0592498779297,
+          6.860124588012695
+        ]
+      ],
+      "vertices": 1400,
+      "faces": 900,
+      "materials": [
+        "VEG1 olive",
+        "VEG1 grey-green",
+        "VEG1 deep-green",
+        "VEG1 young-green",
+        "VEG1 autumn",
+        "VEG1 bark"
+      ]
+    },
+    {
+      "name": "POET_GARDEN context tree 3 V2 prototype 0 leaves",
+      "visible": true,
+      "feature": "POET_GARDEN",
+      "location": [
+        -57.79999923706055,
+        123.0,
+        0.054999999701976776
+      ],
+      "bounds": [
+        [
+          -63.60530090332031,
+          117.15097045898438,
+          2.7653512954711914
+        ],
+        [
+          -51.97057342529297,
+          128.75254821777344,
+          7.335180759429932
+        ]
+      ],
+      "vertices": 39900,
+      "faces": 31920,
+      "materials": [
+        "VEG1 olive",
+        "VEG1 grey-green",
+        "VEG1 deep-green",
+        "VEG1 young-green",
+        "VEG1 autumn",
+        "VEG1 bark"
+      ]
+    },
+    {
+      "name": "West mature 00 bark",
+      "visible": true,
+      "feature": "GARDEN_VEGETATION_V3",
+      "location": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "bounds": [
+        [
+          -81.43035125732422,
+          20.978561401367188,
+          -0.06453367322683334
+        ],
+        [
+          -70.50439453125,
+          33.09556579589844,
+          12.573515892028809
+        ]
+      ],
+      "vertices": 4184,
+      "faces": 2822,
+      "materials": [
+        "GV3 deep olive",
+        "GV3 olive",
+        "GV3 grey green",
+        "GV3 fresh green",
+        "GV3 leaf underside",
+        "GV3 burgundy",
+        "GV3 bronze",
+        "GV3 autumn",
+        "GV3 fissured grey bark"
+      ]
+    },
+    {
+      "name": "West mature 00 foliage",
+      "visible": true,
+      "feature": "GARDEN_VEGETATION_V3",
+      "location": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "bounds": [
+        [
+          -82.64815521240234,
+          19.49843406677246,
+          6.849429607391357
+        ],
+        [
+          -69.8655014038086,
+          34.592613220214844,
+          14.052521705627441
+        ]
+      ],
+      "vertices": 615600,
+      "faces": 547200,
+      "materials": [
+        "GV3 deep olive",
+        "GV3 olive",
+        "GV3 grey green",
+        "GV3 fresh green",
+        "GV3 leaf underside",
+        "GV3 burgundy",
+        "GV3 bronze",
+        "GV3 autumn",
+        "GV3 fissured grey bark"
+      ]
+    },
+    {
+      "name": "West mature 01 bark",
+      "visible": true,
+      "feature": "GARDEN_VEGETATION_V3",
+      "location": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "bounds": [
+        [
+          -81.30724334716797,
+          75.46224975585938,
+          -0.06452986598014832
+        ],
+        [
+          -68.60128784179688,
+          86.4380111694336,
+          13.18191909790039
+        ]
+      ],
+      "vertices": 4184,
+      "faces": 2822,
+      "materials": [
+        "GV3 deep olive",
+        "GV3 olive",
+        "GV3 grey green",
+        "GV3 fresh green",
+        "GV3 leaf underside",
+        "GV3 burgundy",
+        "GV3 bronze",
+        "GV3 autumn",
+        "GV3 fissured grey bark"
+      ]
+    },
+    {
+      "name": "West mature 01 foliage",
+      "visible": true,
+      "feature": "GARDEN_VEGETATION_V3",
+      "location": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "bounds": [
+        [
+          -82.42021942138672,
+          74.46923065185547,
+          7.001026630401611
+        ],
+        [
+          -67.18901824951172,
+          87.88865661621094,
+          14.869122505187988
+        ]
+      ],
+      "vertices": 615600,
+      "faces": 547200,
+      "materials": [
+        "GV3 deep olive",
+        "GV3 olive",
+        "GV3 grey green",
+        "GV3 fresh green",
+        "GV3 leaf underside",
+        "GV3 burgundy",
+        "GV3 bronze",
+        "GV3 autumn",
+        "GV3 fissured grey bark"
+      ]
+    },
+    {
+      "name": "West mature 02 bark",
+      "visible": true,
+      "feature": "GARDEN_VEGETATION_V3",
+      "location": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "bounds": [
+        [
+          -48.163883209228516,
+          11.49161434173584,
+          -0.056500717997550964
+        ],
+        [
+          -39.23379135131836,
+          22.347410202026367,
+          12.79233455657959
+        ]
+      ],
+      "vertices": 4184,
+      "faces": 2822,
+      "materials": [
+        "GV3 deep olive",
+        "GV3 olive",
+        "GV3 grey green",
+        "GV3 fresh green",
+        "GV3 leaf underside",
+        "GV3 burgundy",
+        "GV3 bronze",
+        "GV3 autumn",
+        "GV3 fissured grey bark"
+      ]
+    },
+    {
+      "name": "West mature 02 foliage",
+      "visible": true,
+      "feature": "GARDEN_VEGETATION_V3",
+      "location": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "bounds": [
+        [
+          -49.099056243896484,
+          10.287911415100098,
+          4.931570053100586
+        ],
+        [
+          -37.91741180419922,
+          23.334701538085938,
+          14.070130348205566
+        ]
+      ],
+      "vertices": 615600,
+      "faces": 547200,
+      "materials": [
+        "GV3 deep olive",
+        "GV3 olive",
+        "GV3 grey green",
+        "GV3 fresh green",
+        "GV3 leaf underside",
+        "GV3 burgundy",
+        "GV3 bronze",
+        "GV3 autumn",
+        "GV3 fissured grey bark"
+      ]
+    },
+    {
+      "name": "West mature 03 bark",
+      "visible": true,
+      "feature": "GARDEN_VEGETATION_V3",
+      "location": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "bounds": [
+        [
+          -55.712215423583984,
+          27.909164428710938,
+          -0.05649689584970474
+        ],
+        [
+          -43.656131744384766,
+          39.81077194213867,
+          11.731230735778809
+        ]
+      ],
+      "vertices": 4184,
+      "faces": 2822,
+      "materials": [
+        "GV3 deep olive",
+        "GV3 olive",
+        "GV3 grey green",
+        "GV3 fresh green",
+        "GV3 leaf underside",
+        "GV3 burgundy",
+        "GV3 bronze",
+        "GV3 autumn",
+        "GV3 fissured grey bark"
+      ]
+    },
+    {
+      "name": "West mature 03 foliage",
+      "visible": true,
+      "feature": "GARDEN_VEGETATION_V3",
+      "location": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "bounds": [
+        [
+          -56.48208236694336,
+          27.051767349243164,
+          5.568661689758301
+        ],
+        [
+          -42.86252975463867,
+          41.23361587524414,
+          13.218149185180664
+        ]
+      ],
+      "vertices": 615600,
+      "faces": 547200,
+      "materials": [
+        "GV3 deep olive",
+        "GV3 olive",
+        "GV3 grey green",
+        "GV3 fresh green",
+        "GV3 leaf underside",
+        "GV3 burgundy",
+        "GV3 bronze",
+        "GV3 autumn",
+        "GV3 fissured grey bark"
+      ]
+    },
+    {
+      "name": "West mature 04 bark",
+      "visible": true,
+      "feature": "GARDEN_VEGETATION_V3",
+      "location": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "bounds": [
+        [
+          -44.64132308959961,
+          47.88772201538086,
+          -0.04840753972530365
+        ],
+        [
+          -33.90632629394531,
+          56.47029113769531,
+          11.071954727172852
+        ]
+      ],
+      "vertices": 4184,
+      "faces": 2822,
+      "materials": [
+        "GV3 deep olive",
+        "GV3 olive",
+        "GV3 grey green",
+        "GV3 fresh green",
+        "GV3 leaf underside",
+        "GV3 burgundy",
+        "GV3 bronze",
+        "GV3 autumn",
+        "GV3 fissured grey bark"
+      ]
+    },
+    {
+      "name": "West mature 04 foliage",
+      "visible": true,
+      "feature": "GARDEN_VEGETATION_V3",
+      "location": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "bounds": [
+        [
+          -45.485015869140625,
+          46.768035888671875,
+          5.061591625213623
+        ],
+        [
+          -33.06553268432617,
+          57.707096099853516,
+          11.975433349609375
+        ]
+      ],
+      "vertices": 615600,
+      "faces": 547200,
+      "materials": [
+        "GV3 deep olive",
+        "GV3 olive",
+        "GV3 grey green",
+        "GV3 fresh green",
+        "GV3 leaf underside",
+        "GV3 burgundy",
+        "GV3 bronze",
+        "GV3 autumn",
+        "GV3 fissured grey bark"
+      ]
+    },
+    {
+      "name": "West mature 05 bark",
+      "visible": true,
+      "feature": "GARDEN_VEGETATION_V3",
+      "location": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "bounds": [
+        [
+          -48.76828384399414,
+          60.05093002319336,
+          -0.05649881064891815
+        ],
+        [
+          -38.02188491821289,
+          70.56359100341797,
+          12.249107360839844
+        ]
+      ],
+      "vertices": 4184,
+      "faces": 2822,
+      "materials": [
+        "GV3 deep olive",
+        "GV3 olive",
+        "GV3 grey green",
+        "GV3 fresh green",
+        "GV3 leaf underside",
+        "GV3 burgundy",
+        "GV3 bronze",
+        "GV3 autumn",
+        "GV3 fissured grey bark"
+      ]
+    },
+    {
+      "name": "West mature 05 foliage",
+      "visible": true,
+      "feature": "GARDEN_VEGETATION_V3",
+      "location": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "bounds": [
+        [
+          -50.11017608642578,
+          59.26594161987305,
+          5.4759111404418945
+        ],
+        [
+          -36.654075622558594,
+          71.29479217529297,
+          13.505824089050293
+        ]
+      ],
+      "vertices": 615600,
+      "faces": 547200,
+      "materials": [
+        "GV3 deep olive",
+        "GV3 olive",
+        "GV3 grey green",
+        "GV3 fresh green",
+        "GV3 leaf underside",
+        "GV3 burgundy",
+        "GV3 bronze",
+        "GV3 autumn",
+        "GV3 fissured grey bark"
+      ]
+    },
+    {
+      "name": "West mature 06 bark",
+      "visible": true,
+      "feature": "GARDEN_VEGETATION_V3",
+      "location": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "bounds": [
+        [
+          -53.33897399902344,
+          73.17871856689453,
+          -0.04841136187314987
+        ],
+        [
+          -42.26185607910156,
+          83.09852600097656,
+          10.032241821289062
+        ]
+      ],
+      "vertices": 4184,
+      "faces": 2822,
+      "materials": [
+        "GV3 deep olive",
+        "GV3 olive",
+        "GV3 grey green",
+        "GV3 fresh green",
+        "GV3 leaf underside",
+        "GV3 burgundy",
+        "GV3 bronze",
+        "GV3 autumn",
+        "GV3 fissured grey bark"
+      ]
+    },
+    {
+      "name": "West mature 06 foliage",
+      "visible": true,
+      "feature": "GARDEN_VEGETATION_V3",
+      "location": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "bounds": [
+        [
+          -54.19826889038086,
+          72.09346771240234,
+          5.412078857421875
+        ],
+        [
+          -41.74146270751953,
+          83.74945831298828,
+          11.2542724609375
+        ]
+      ],
+      "vertices": 615600,
+      "faces": 547200,
+      "materials": [
+        "GV3 deep olive",
+        "GV3 olive",
+        "GV3 grey green",
+        "GV3 fresh green",
+        "GV3 leaf underside",
+        "GV3 burgundy",
+        "GV3 bronze",
+        "GV3 autumn",
+        "GV3 fissured grey bark"
+      ]
+    },
+    {
+      "name": "West mature 07 bark",
+      "visible": true,
+      "feature": "GARDEN_VEGETATION_V3",
+      "location": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "bounds": [
+        [
+          -70.58418273925781,
+          72.26948547363281,
+          -0.05650073289871216
+        ],
+        [
+          -58.564842224121094,
+          83.1927719116211,
+          12.543229103088379
+        ]
+      ],
+      "vertices": 4184,
+      "faces": 2822,
+      "materials": [
+        "GV3 deep olive",
+        "GV3 olive",
+        "GV3 grey green",
+        "GV3 fresh green",
+        "GV3 leaf underside",
+        "GV3 burgundy",
+        "GV3 bronze",
+        "GV3 autumn",
+        "GV3 fissured grey bark"
+      ]
+    },
+    {
+      "name": "West mature 07 foliage",
+      "visible": true,
+      "feature": "GARDEN_VEGETATION_V3",
+      "location": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "bounds": [
+        [
+          -71.74603271484375,
+          71.41222381591797,
+          6.464775085449219
+        ],
+        [
+          -57.219200134277344,
+          84.15726470947266,
+          13.883041381835938
+        ]
+      ],
+      "vertices": 615600,
+      "faces": 547200,
+      "materials": [
+        "GV3 deep olive",
+        "GV3 olive",
+        "GV3 grey green",
+        "GV3 fresh green",
+        "GV3 leaf underside",
+        "GV3 burgundy",
+        "GV3 bronze",
+        "GV3 autumn",
+        "GV3 fissured grey bark"
+      ]
+    },
+    {
+      "name": "West mature 08 bark",
+      "visible": true,
+      "feature": "GARDEN_VEGETATION_V3",
+      "location": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "bounds": [
+        [
+          -67.59156036376953,
+          34.060302734375,
+          -0.04840944707393646
+        ],
+        [
+          -56.26658630371094,
+          44.2591438293457,
+          10.963094711303711
+        ]
+      ],
+      "vertices": 4184,
+      "faces": 2822,
+      "materials": [
+        "GV3 deep olive",
+        "GV3 olive",
+        "GV3 grey green",
+        "GV3 fresh green",
+        "GV3 leaf underside",
+        "GV3 burgundy",
+        "GV3 bronze",
+        "GV3 autumn",
+        "GV3 fissured grey bark"
+      ]
+    },
+    {
+      "name": "West mature 08 foliage",
+      "visible": true,
+      "feature": "GARDEN_VEGETATION_V3",
+      "location": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "bounds": [
+        [
+          -68.82620239257812,
+          33.21030044555664,
+          5.828207492828369
+        ],
+        [
+          -55.25705337524414,
+          45.409732818603516,
+          12.118528366088867
+        ]
+      ],
+      "vertices": 615600,
+      "faces": 547200,
+      "materials": [
+        "GV3 deep olive",
+        "GV3 olive",
+        "GV3 grey green",
+        "GV3 fresh green",
+        "GV3 leaf underside",
+        "GV3 burgundy",
+        "GV3 bronze",
+        "GV3 autumn",
+        "GV3 fissured grey bark"
+      ]
+    },
+    {
+      "name": "East mature 09 bark",
+      "visible": true,
+      "feature": "GARDEN_VEGETATION_V3",
+      "location": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "bounds": [
+        [
+          94.87561798095703,
+          60.0153923034668,
+          -0.04760515317320824
+        ],
+        [
+          102.19960021972656,
+          67.9719009399414,
+          8.594006538391113
+        ]
+      ],
+      "vertices": 3408,
+      "faces": 2280,
+      "materials": [
+        "GV3 deep olive",
+        "GV3 olive",
+        "GV3 grey green",
+        "GV3 fresh green",
+        "GV3 leaf underside",
+        "GV3 burgundy",
+        "GV3 bronze",
+        "GV3 autumn",
+        "GV3 fissured grey bark"
+      ]
+    },
+    {
+      "name": "East mature 09 foliage",
+      "visible": true,
+      "feature": "GARDEN_VEGETATION_V3",
+      "location": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "bounds": [
+        [
+          94.38992309570312,
+          59.37382507324219,
+          4.636039733886719
+        ],
+        [
+          103.00096893310547,
+          68.71759796142578,
+          9.081085205078125
+        ]
+      ],
+      "vertices": 43155,
+      "faces": 38360,
+      "materials": [
+        "GV3 deep olive",
+        "GV3 olive",
+        "GV3 grey green",
+        "GV3 fresh green",
+        "GV3 leaf underside",
+        "GV3 burgundy",
+        "GV3 bronze",
+        "GV3 autumn",
+        "GV3 fissured grey bark"
+      ]
+    },
+    {
+      "name": "East mature 10 bark",
+      "visible": true,
+      "feature": "GARDEN_VEGETATION_V3",
+      "location": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "bounds": [
+        [
+          88.01160430908203,
+          69.12247467041016,
+          -0.03533090651035309
+        ],
+        [
+          94.98240661621094,
+          76.47190856933594,
+          7.829751014709473
+        ]
+      ],
+      "vertices": 4184,
+      "faces": 2822,
+      "materials": [
+        "GV3 deep olive",
+        "GV3 olive",
+        "GV3 grey green",
+        "GV3 fresh green",
+        "GV3 leaf underside",
+        "GV3 burgundy",
+        "GV3 bronze",
+        "GV3 autumn",
+        "GV3 fissured grey bark"
+      ]
+    },
+    {
+      "name": "East mature 10 foliage",
+      "visible": true,
+      "feature": "GARDEN_VEGETATION_V3",
+      "location": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "bounds": [
+        [
+          87.28559875488281,
+          68.63843536376953,
+          4.240890979766846
+        ],
+        [
+          95.71635437011719,
+          77.3406982421875,
+          8.39082145690918
+        ]
+      ],
+      "vertices": 461700,
+      "faces": 410400,
+      "materials": [
+        "GV3 deep olive",
+        "GV3 olive",
+        "GV3 grey green",
+        "GV3 fresh green",
+        "GV3 leaf underside",
+        "GV3 burgundy",
+        "GV3 bronze",
+        "GV3 autumn",
+        "GV3 fissured grey bark"
+      ]
+    },
+    {
+      "name": "East mature 11 bark",
+      "visible": true,
+      "feature": "GARDEN_VEGETATION_V3",
+      "location": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "bounds": [
+        [
+          67.64523315429688,
+          54.56889724731445,
+          0.20594799518585205
+        ],
+        [
+          74.2464828491211,
+          60.54336929321289,
+          7.109246253967285
+        ]
+      ],
+      "vertices": 3408,
+      "faces": 2280,
+      "materials": [
+        "GV3 deep olive",
+        "GV3 olive",
+        "GV3 grey green",
+        "GV3 fresh green",
+        "GV3 leaf underside",
+        "GV3 burgundy",
+        "GV3 bronze",
+        "GV3 autumn",
+        "GV3 fissured grey bark"
+      ]
+    },
+    {
+      "name": "East mature 11 foliage",
+      "visible": true,
+      "feature": "GARDEN_VEGETATION_V3",
+      "location": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "bounds": [
+        [
+          67.52416229248047,
+          54.39271926879883,
+          2.6763155460357666
+        ],
+        [
+          74.26529693603516,
+          60.60153579711914,
+          7.840033531188965
+        ]
+      ],
+      "vertices": 43155,
+      "faces": 38360,
+      "materials": [
+        "GV3 deep olive",
+        "GV3 olive",
+        "GV3 grey green",
+        "GV3 fresh green",
+        "GV3 leaf underside",
+        "GV3 burgundy",
+        "GV3 bronze",
+        "GV3 autumn",
+        "GV3 fissured grey bark"
+      ]
+    },
+    {
+      "name": "East mature 12 bark",
+      "visible": true,
+      "feature": "GARDEN_VEGETATION_V3",
+      "location": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "bounds": [
+        [
+          80.13346862792969,
+          77.33248138427734,
+          -0.037513140588998795
+        ],
+        [
+          88.93624114990234,
+          84.52050018310547,
+          8.325709342956543
+        ]
+      ],
+      "vertices": 4184,
+      "faces": 2822,
+      "materials": [
+        "GV3 deep olive",
+        "GV3 olive",
+        "GV3 grey green",
+        "GV3 fresh green",
+        "GV3 leaf underside",
+        "GV3 burgundy",
+        "GV3 bronze",
+        "GV3 autumn",
+        "GV3 fissured grey bark"
+      ]
+    },
+    {
+      "name": "East mature 12 foliage",
+      "visible": true,
+      "feature": "GARDEN_VEGETATION_V3",
+      "location": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "bounds": [
+        [
+          79.74604797363281,
+          76.36063385009766,
+          4.143687725067139
+        ],
+        [
+          89.75440979003906,
+          85.19819641113281,
+          9.018393516540527
+        ]
+      ],
+      "vertices": 461700,
+      "faces": 410400,
+      "materials": [
+        "GV3 deep olive",
+        "GV3 olive",
+        "GV3 grey green",
+        "GV3 fresh green",
+        "GV3 leaf underside",
+        "GV3 burgundy",
+        "GV3 bronze",
+        "GV3 autumn",
+        "GV3 fissured grey bark"
+      ]
+    },
+    {
+      "name": "West mature 13 bark",
+      "visible": true,
+      "feature": "GARDEN_VEGETATION_V3",
+      "location": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "bounds": [
+        [
+          -76.89713287353516,
+          12.099706649780273,
+          -0.05246172845363617
+        ],
+        [
+          -67.64070892333984,
+          22.586498260498047,
+          10.605831146240234
+        ]
+      ],
+      "vertices": 4184,
+      "faces": 2822,
+      "materials": [
+        "GV3 deep olive",
+        "GV3 olive",
+        "GV3 grey green",
+        "GV3 fresh green",
+        "GV3 leaf underside",
+        "GV3 burgundy",
+        "GV3 bronze",
+        "GV3 autumn",
+        "GV3 fissured grey bark"
+      ]
+    },
+    {
+      "name": "West mature 13 foliage",
+      "visible": true,
+      "feature": "GARDEN_VEGETATION_V3",
+      "location": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "bounds": [
+        [
+          -77.70796203613281,
+          11.304347038269043,
+          5.081995487213135
+        ],
+        [
+          -66.583740234375,
+          23.652469635009766,
+          11.723755836486816
+        ]
+      ],
+      "vertices": 615600,
+      "faces": 547200,
+      "materials": [
+        "GV3 deep olive",
+        "GV3 olive",
+        "GV3 grey green",
+        "GV3 fresh green",
+        "GV3 leaf underside",
+        "GV3 burgundy",
+        "GV3 bronze",
+        "GV3 autumn",
+        "GV3 fissured grey bark"
+      ]
+    },
+    {
+      "name": "West mature 14 bark",
+      "visible": true,
+      "feature": "GARDEN_VEGETATION_V3",
+      "location": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "bounds": [
+        [
+          -67.53993225097656,
+          11.872607231140137,
+          -0.06052039563655853
+        ],
+        [
+          -55.99690628051758,
+          24.558246612548828,
+          12.715743064880371
+        ]
+      ],
+      "vertices": 4184,
+      "faces": 2822,
+      "materials": [
+        "GV3 deep olive",
+        "GV3 olive",
+        "GV3 grey green",
+        "GV3 fresh green",
+        "GV3 leaf underside",
+        "GV3 burgundy",
+        "GV3 bronze",
+        "GV3 autumn",
+        "GV3 fissured grey bark"
+      ]
+    },
+    {
+      "name": "West mature 14 foliage",
+      "visible": true,
+      "feature": "GARDEN_VEGETATION_V3",
+      "location": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "bounds": [
+        [
+          -68.74068450927734,
+          10.43813705444336,
+          5.844247341156006
+        ],
+        [
+          -54.59360885620117,
+          25.6717472076416,
+          13.853665351867676
+        ]
+      ],
+      "vertices": 615600,
+      "faces": 547200,
+      "materials": [
+        "GV3 deep olive",
+        "GV3 olive",
+        "GV3 grey green",
+        "GV3 fresh green",
+        "GV3 leaf underside",
+        "GV3 burgundy",
+        "GV3 bronze",
+        "GV3 autumn",
+        "GV3 fissured grey bark"
+      ]
+    },
+    {
+      "name": "West mature 15 bark",
+      "visible": true,
+      "feature": "GARDEN_VEGETATION_V3",
+      "location": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "bounds": [
+        [
+          -45.939788818359375,
+          38.08177947998047,
+          -0.060520388185977936
+        ],
+        [
+          -33.941131591796875,
+          50.0568733215332,
+          13.137872695922852
+        ]
+      ],
+      "vertices": 4184,
+      "faces": 2822,
+      "materials": [
+        "GV3 deep olive",
+        "GV3 olive",
+        "GV3 grey green",
+        "GV3 fresh green",
+        "GV3 leaf underside",
+        "GV3 burgundy",
+        "GV3 bronze",
+        "GV3 autumn",
+        "GV3 fissured grey bark"
+      ]
+    },
+    {
+      "name": "West mature 15 foliage",
+      "visible": true,
+      "feature": "GARDEN_VEGETATION_V3",
+      "location": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "bounds": [
+        [
+          -46.70256423950195,
+          37.327030181884766,
+          6.343846797943115
+        ],
+        [
+          -32.70658493041992,
+          50.76679611206055,
+          14.85995864868164
+        ]
+      ],
+      "vertices": 615600,
+      "faces": 547200,
+      "materials": [
+        "GV3 deep olive",
+        "GV3 olive",
+        "GV3 grey green",
+        "GV3 fresh green",
+        "GV3 leaf underside",
+        "GV3 burgundy",
+        "GV3 bronze",
+        "GV3 autumn",
+        "GV3 fissured grey bark"
+      ]
+    },
+    {
+      "name": "East mature 16 bark",
+      "visible": true,
+      "feature": "GARDEN_VEGETATION_V3",
+      "location": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "bounds": [
+        [
+          93.25923156738281,
+          41.5095100402832,
+          -0.055601008236408234
+        ],
+        [
+          102.1171875,
+          49.85365676879883,
+          10.06389331817627
+        ]
+      ],
+      "vertices": 3408,
+      "faces": 2280,
+      "materials": [
+        "GV3 deep olive",
+        "GV3 olive",
+        "GV3 grey green",
+        "GV3 fresh green",
+        "GV3 leaf underside",
+        "GV3 burgundy",
+        "GV3 bronze",
+        "GV3 autumn",
+        "GV3 fissured grey bark"
+      ]
+    },
+    {
+      "name": "East mature 16 foliage",
+      "visible": true,
+      "feature": "GARDEN_VEGETATION_V3",
+      "location": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "bounds": [
+        [
+          92.48487091064453,
+          40.89162826538086,
+          4.601357460021973
+        ],
+        [
+          103.10545349121094,
+          50.38528060913086,
+          11.147795677185059
+        ]
+      ],
+      "vertices": 43155,
+      "faces": 38360,
+      "materials": [
+        "GV3 deep olive",
+        "GV3 olive",
+        "GV3 grey green",
+        "GV3 fresh green",
+        "GV3 leaf underside",
+        "GV3 burgundy",
+        "GV3 bronze",
+        "GV3 autumn",
+        "GV3 fissured grey bark"
+      ]
+    },
+    {
+      "name": "East mature 17 bark",
+      "visible": true,
+      "feature": "GARDEN_VEGETATION_V3",
+      "location": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "bounds": [
+        [
+          92.82353210449219,
+          72.32935333251953,
+          -0.05111084505915642
+        ],
+        [
+          101.88276672363281,
+          82.83914947509766,
+          11.083430290222168
+        ]
+      ],
+      "vertices": 4184,
+      "faces": 2822,
+      "materials": [
+        "GV3 deep olive",
+        "GV3 olive",
+        "GV3 grey green",
+        "GV3 fresh green",
+        "GV3 leaf underside",
+        "GV3 burgundy",
+        "GV3 bronze",
+        "GV3 autumn",
+        "GV3 fissured grey bark"
+      ]
+    },
+    {
+      "name": "East mature 17 foliage",
+      "visible": true,
+      "feature": "GARDEN_VEGETATION_V3",
+      "location": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "bounds": [
+        [
+          92.18560028076172,
+          71.31976318359375,
+          5.576470375061035
+        ],
+        [
+          102.58670043945312,
+          83.88601684570312,
+          12.109539985656738
+        ]
+      ],
+      "vertices": 461700,
+      "faces": 410400,
+      "materials": [
+        "GV3 deep olive",
+        "GV3 olive",
+        "GV3 grey green",
+        "GV3 fresh green",
+        "GV3 leaf underside",
+        "GV3 burgundy",
+        "GV3 bronze",
+        "GV3 autumn",
+        "GV3 fissured grey bark"
+      ]
+    },
+    {
+      "name": "East spreading 00 bark",
+      "visible": true,
+      "feature": "GARDEN_VEGETATION_V3",
+      "location": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "bounds": [
+        [
+          65.46886444091797,
+          39.46780014038086,
+          0.5117294192314148
+        ],
+        [
+          71.14070892333984,
+          44.65559005737305,
+          6.430883884429932
+        ]
+      ],
+      "vertices": 3408,
+      "faces": 2280,
+      "materials": [
+        "GV3 deep olive",
+        "GV3 olive",
+        "GV3 grey green",
+        "GV3 fresh green",
+        "GV3 leaf underside",
+        "GV3 burgundy",
+        "GV3 bronze",
+        "GV3 autumn",
+        "GV3 fissured grey bark"
+      ]
+    },
+    {
+      "name": "East spreading 00 foliage",
+      "visible": true,
+      "feature": "GARDEN_VEGETATION_V3",
+      "location": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "bounds": [
+        [
+          65.30414581298828,
+          38.954620361328125,
+          3.06886625289917
+        ],
+        [
+          71.42994689941406,
+          45.34770584106445,
+          6.787078857421875
+        ]
+      ],
+      "vertices": 39690,
+      "faces": 35280,
+      "materials": [
+        "GV3 deep olive",
+        "GV3 olive",
+        "GV3 grey green",
+        "GV3 fresh green",
+        "GV3 leaf underside",
+        "GV3 burgundy",
+        "GV3 bronze",
+        "GV3 autumn",
+        "GV3 fissured grey bark"
+      ]
+    },
+    {
+      "name": "East spreading 01 bark",
+      "visible": true,
+      "feature": "GARDEN_VEGETATION_V3",
+      "location": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "bounds": [
+        [
+          64.38172149658203,
+          41.87309265136719,
+          0.16735345125198364
+        ],
+        [
+          71.9737319946289,
+          51.93492126464844,
+          7.899968147277832
+        ]
+      ],
+      "vertices": 3408,
+      "faces": 2280,
+      "materials": [
+        "GV3 deep olive",
+        "GV3 olive",
+        "GV3 grey green",
+        "GV3 fresh green",
+        "GV3 leaf underside",
+        "GV3 burgundy",
+        "GV3 bronze",
+        "GV3 autumn",
+        "GV3 fissured grey bark"
+      ]
+    },
+    {
+      "name": "East spreading 01 foliage",
+      "visible": true,
+      "feature": "GARDEN_VEGETATION_V3",
+      "location": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "bounds": [
+        [
+          63.53004837036133,
+          41.22665023803711,
+          4.532670497894287
+        ],
+        [
+          72.55081939697266,
+          52.80247116088867,
+          8.77259635925293
+        ]
+      ],
+      "vertices": 39690,
+      "faces": 35280,
+      "materials": [
+        "GV3 deep olive",
+        "GV3 olive",
+        "GV3 grey green",
+        "GV3 fresh green",
+        "GV3 leaf underside",
+        "GV3 burgundy",
+        "GV3 bronze",
+        "GV3 autumn",
+        "GV3 fissured grey bark"
+      ]
+    },
+    {
+      "name": "East spreading 02 bark",
+      "visible": true,
+      "feature": "GARDEN_VEGETATION_V3",
+      "location": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "bounds": [
+        [
+          71.95150756835938,
+          46.11787414550781,
+          1.2802571058273315
+        ],
+        [
+          80.63233947753906,
+          55.87199020385742,
+          9.433810234069824
+        ]
+      ],
+      "vertices": 3408,
+      "faces": 2280,
+      "materials": [
+        "GV3 deep olive",
+        "GV3 olive",
+        "GV3 grey green",
+        "GV3 fresh green",
+        "GV3 leaf underside",
+        "GV3 burgundy",
+        "GV3 bronze",
+        "GV3 autumn",
+        "GV3 fissured grey bark"
+      ]
+    },
+    {
+      "name": "East spreading 02 foliage",
+      "visible": true,
+      "feature": "GARDEN_VEGETATION_V3",
+      "location": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "bounds": [
+        [
+          71.5277099609375,
+          45.0253791809082,
+          4.942061901092529
+        ],
+        [
+          81.61158752441406,
+          56.3056526184082,
+          9.927643775939941
+        ]
+      ],
+      "vertices": 39690,
+      "faces": 35280,
+      "materials": [
+        "GV3 deep olive",
+        "GV3 olive",
+        "GV3 grey green",
+        "GV3 fresh green",
+        "GV3 leaf underside",
+        "GV3 burgundy",
+        "GV3 bronze",
+        "GV3 autumn",
+        "GV3 fissured grey bark"
+      ]
+    },
+    {
+      "name": "East spreading 03 bark",
+      "visible": true,
+      "feature": "GARDEN_VEGETATION_V3",
+      "location": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "bounds": [
+        [
+          77.30318450927734,
+          56.789527893066406,
+          -0.04411638528108597
+        ],
+        [
+          84.59873962402344,
+          63.22550582885742,
+          8.384272575378418
+        ]
+      ],
+      "vertices": 3408,
+      "faces": 2280,
+      "materials": [
+        "GV3 deep olive",
+        "GV3 olive",
+        "GV3 grey green",
+        "GV3 fresh green",
+        "GV3 leaf underside",
+        "GV3 burgundy",
+        "GV3 bronze",
+        "GV3 autumn",
+        "GV3 fissured grey bark"
+      ]
+    },
+    {
+      "name": "East spreading 03 foliage",
+      "visible": true,
+      "feature": "GARDEN_VEGETATION_V3",
+      "location": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "bounds": [
+        [
+          76.6662368774414,
+          56.21091079711914,
+          4.349209308624268
+        ],
+        [
+          85.2769775390625,
+          63.95689392089844,
+          8.875027656555176
+        ]
+      ],
+      "vertices": 39690,
+      "faces": 35280,
+      "materials": [
+        "GV3 deep olive",
+        "GV3 olive",
+        "GV3 grey green",
+        "GV3 fresh green",
+        "GV3 leaf underside",
+        "GV3 burgundy",
+        "GV3 bronze",
+        "GV3 autumn",
+        "GV3 fissured grey bark"
+      ]
+    },
+    {
+      "name": "East spreading 04 bark",
+      "visible": true,
+      "feature": "GARDEN_VEGETATION_V3",
+      "location": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "bounds": [
+        [
+          75.23633575439453,
+          32.86668395996094,
+          0.04821205884218216
+        ],
+        [
+          81.97328186035156,
+          38.77069854736328,
+          8.085408210754395
+        ]
+      ],
+      "vertices": 3408,
+      "faces": 2280,
+      "materials": [
+        "GV3 deep olive",
+        "GV3 olive",
+        "GV3 grey green",
+        "GV3 fresh green",
+        "GV3 leaf underside",
+        "GV3 burgundy",
+        "GV3 bronze",
+        "GV3 autumn",
+        "GV3 fissured grey bark"
+      ]
+    },
+    {
+      "name": "East spreading 04 foliage",
+      "visible": true,
+      "feature": "GARDEN_VEGETATION_V3",
+      "location": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "bounds": [
+        [
+          74.86622619628906,
+          32.51695251464844,
+          4.1370038986206055
+        ],
+        [
+          82.75370025634766,
+          39.18543243408203,
+          8.751238822937012
+        ]
+      ],
+      "vertices": 39690,
+      "faces": 35280,
+      "materials": [
+        "GV3 deep olive",
+        "GV3 olive",
+        "GV3 grey green",
+        "GV3 fresh green",
+        "GV3 leaf underside",
+        "GV3 burgundy",
+        "GV3 bronze",
+        "GV3 autumn",
+        "GV3 fissured grey bark"
+      ]
+    },
+    {
+      "name": "Garden backdrop 00 bark",
+      "visible": true,
+      "feature": "GARDEN_VEGETATION_V3",
+      "location": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "bounds": [
+        [
+          -80.53144836425781,
+          30.098552703857422,
+          -0.05806957930326462
+        ],
+        [
+          -69.08242797851562,
+          42.610477447509766,
+          12.553714752197266
+        ]
+      ],
+      "vertices": 4184,
+      "faces": 2822,
+      "materials": [
+        "GV3 deep olive",
+        "GV3 olive",
+        "GV3 grey green",
+        "GV3 fresh green",
+        "GV3 leaf underside",
+        "GV3 burgundy",
+        "GV3 bronze",
+        "GV3 autumn",
+        "GV3 fissured grey bark"
+      ]
+    },
+    {
+      "name": "Garden backdrop 00 foliage",
+      "visible": true,
+      "feature": "GARDEN_VEGETATION_V3",
+      "location": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "bounds": [
+        [
+          -81.64295959472656,
+          28.919519424438477,
+          5.042048454284668
+        ],
+        [
+          -67.87393188476562,
+          43.433956146240234,
+          13.606131553649902
+        ]
+      ],
+      "vertices": 522684,
+      "faces": 464608,
+      "materials": [
+        "GV3 deep olive",
+        "GV3 olive",
+        "GV3 grey green",
+        "GV3 fresh green",
+        "GV3 leaf underside",
+        "GV3 burgundy",
+        "GV3 bronze",
+        "GV3 autumn",
+        "GV3 fissured grey bark"
+      ]
+    },
+    {
+      "name": "Garden backdrop 01 bark",
+      "visible": true,
+      "feature": "GARDEN_VEGETATION_V3",
+      "location": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "bounds": [
+        [
+          -80.33721160888672,
+          57.426719665527344,
+          -0.05487542599439621
+        ],
+        [
+          -70.72429656982422,
+          65.63878631591797,
+          12.23009204864502
+        ]
+      ],
+      "vertices": 4184,
+      "faces": 2822,
+      "materials": [
+        "GV3 deep olive",
+        "GV3 olive",
+        "GV3 grey green",
+        "GV3 fresh green",
+        "GV3 leaf underside",
+        "GV3 burgundy",
+        "GV3 bronze",
+        "GV3 autumn",
+        "GV3 fissured grey bark"
+      ]
+    },
+    {
+      "name": "Garden backdrop 01 foliage",
+      "visible": true,
+      "feature": "GARDEN_VEGETATION_V3",
+      "location": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "bounds": [
+        [
+          -80.87934875488281,
+          56.34078598022461,
+          5.886427879333496
+        ],
+        [
+          -69.56018829345703,
+          66.4596176147461,
+          13.57701587677002
+        ]
+      ],
+      "vertices": 522684,
+      "faces": 464608,
+      "materials": [
+        "GV3 deep olive",
+        "GV3 olive",
+        "GV3 grey green",
+        "GV3 fresh green",
+        "GV3 leaf underside",
+        "GV3 burgundy",
+        "GV3 bronze",
+        "GV3 autumn",
+        "GV3 fissured grey bark"
+      ]
+    },
+    {
+      "name": "Garden backdrop 02 bark",
+      "visible": true,
+      "feature": "GARDEN_VEGETATION_V3",
+      "location": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "bounds": [
+        [
+          -57.38819122314453,
+          70.54081726074219,
+          -0.045631203800439835
+        ],
+        [
+          -48.0313606262207,
+          78.67081451416016,
+          10.382428169250488
+        ]
+      ],
+      "vertices": 4184,
+      "faces": 2822,
+      "materials": [
+        "GV3 deep olive",
+        "GV3 olive",
+        "GV3 grey green",
+        "GV3 fresh green",
+        "GV3 leaf underside",
+        "GV3 burgundy",
+        "GV3 bronze",
+        "GV3 autumn",
+        "GV3 fissured grey bark"
+      ]
+    },
+    {
+      "name": "Garden backdrop 02 foliage",
+      "visible": true,
+      "feature": "GARDEN_VEGETATION_V3",
+      "location": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "bounds": [
+        [
+          -58.33024978637695,
+          69.50064086914062,
+          4.46264123916626
+        ],
+        [
+          -47.271121978759766,
+          79.6500015258789,
+          11.488091468811035
+        ]
+      ],
+      "vertices": 522684,
+      "faces": 464608,
+      "materials": [
+        "GV3 deep olive",
+        "GV3 olive",
+        "GV3 grey green",
+        "GV3 fresh green",
+        "GV3 leaf underside",
+        "GV3 burgundy",
+        "GV3 bronze",
+        "GV3 autumn",
+        "GV3 fissured grey bark"
+      ]
+    },
+    {
+      "name": "Garden backdrop 03 bark",
+      "visible": true,
+      "feature": "GARDEN_VEGETATION_V3",
+      "location": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "bounds": [
+        [
+          -72.6141586303711,
+          74.6313247680664,
+          -0.05002686753869057
+        ],
+        [
+          -63.896209716796875,
+          83.98993682861328,
+          11.292960166931152
+        ]
+      ],
+      "vertices": 4184,
+      "faces": 2822,
+      "materials": [
+        "GV3 deep olive",
+        "GV3 olive",
+        "GV3 grey green",
+        "GV3 fresh green",
+        "GV3 leaf underside",
+        "GV3 burgundy",
+        "GV3 bronze",
+        "GV3 autumn",
+        "GV3 fissured grey bark"
+      ]
+    },
+    {
+      "name": "Garden backdrop 03 foliage",
+      "visible": true,
+      "feature": "GARDEN_VEGETATION_V3",
+      "location": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "bounds": [
+        [
+          -73.83938598632812,
+          73.53185272216797,
+          5.432624340057373
+        ],
+        [
+          -63.003902435302734,
+          85.11835479736328,
+          12.543739318847656
+        ]
+      ],
+      "vertices": 522684,
+      "faces": 464608,
+      "materials": [
+        "GV3 deep olive",
+        "GV3 olive",
+        "GV3 grey green",
+        "GV3 fresh green",
+        "GV3 leaf underside",
+        "GV3 burgundy",
+        "GV3 bronze",
+        "GV3 autumn",
+        "GV3 fissured grey bark"
+      ]
+    },
+    {
+      "name": "Garden backdrop 05 bark",
+      "visible": true,
+      "feature": "GARDEN_VEGETATION_V3",
+      "location": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "bounds": [
+        [
+          85.492431640625,
+          34.028682708740234,
+          -0.061959363520145416
+        ],
+        [
+          95.3706283569336,
+          45.79497528076172,
+          12.970795631408691
+        ]
+      ],
+      "vertices": 4184,
+      "faces": 2822,
+      "materials": [
+        "GV3 deep olive",
+        "GV3 olive",
+        "GV3 grey green",
+        "GV3 fresh green",
+        "GV3 leaf underside",
+        "GV3 burgundy",
+        "GV3 bronze",
+        "GV3 autumn",
+        "GV3 fissured grey bark"
+      ]
+    },
+    {
+      "name": "Garden backdrop 05 foliage",
+      "visible": true,
+      "feature": "GARDEN_VEGETATION_V3",
+      "location": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "bounds": [
+        [
+          84.2451171875,
+          32.80830764770508,
+          6.523953914642334
+        ],
+        [
+          96.53827667236328,
+          46.58570861816406,
+          14.265181541442871
+        ]
+      ],
+      "vertices": 522684,
+      "faces": 464608,
+      "materials": [
+        "GV3 deep olive",
+        "GV3 olive",
+        "GV3 grey green",
+        "GV3 fresh green",
+        "GV3 leaf underside",
+        "GV3 burgundy",
+        "GV3 bronze",
+        "GV3 autumn",
+        "GV3 fissured grey bark"
+      ]
+    },
+    {
+      "name": "East ring-seat mature tree bark",
+      "visible": true,
+      "feature": "GARDEN_VEGETATION_V3",
+      "location": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "bounds": [
+        [
+          92.28258514404297,
+          32.390838623046875,
+          -0.032210491597652435
+        ],
+        [
+          100.57537078857422,
+          42.5504150390625,
+          12.04033374786377
+        ]
+      ],
+      "vertices": 4216,
+      "faces": 2848,
+      "materials": [
+        "GV3 deep olive",
+        "GV3 olive",
+        "GV3 grey green",
+        "GV3 fresh green",
+        "GV3 leaf underside",
+        "GV3 burgundy",
+        "GV3 bronze",
+        "GV3 autumn",
+        "GV3 fissured grey bark"
+      ]
+    },
+    {
+      "name": "East ring-seat mature tree foliage",
+      "visible": true,
+      "feature": "GARDEN_VEGETATION_V3",
+      "location": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "bounds": [
+        [
+          91.11688232421875,
+          31.44947624206543,
+          6.213870525360107
+        ],
+        [
+          101.79832458496094,
+          43.55250930786133,
+          13.132162094116211
+        ]
+      ],
+      "vertices": 615600,
+      "faces": 547200,
+      "materials": [
+        "GV3 deep olive",
+        "GV3 olive",
+        "GV3 grey green",
+        "GV3 fresh green",
+        "GV3 leaf underside",
+        "GV3 burgundy",
+        "GV3 bronze",
+        "GV3 autumn",
+        "GV3 fissured grey bark"
+      ]
+    }
+  ],
+  "terrain": [
+    {
+      "name": "ESKY__planter-soil__soil-east",
+      "feature": "ESKY",
+      "materials": [
+        "soil-east"
+      ]
+    },
+    {
+      "name": "EPATH__north-exit-path-terrain__turf",
+      "feature": "EPATH",
+      "materials": [
+        "FIN_garden_grass"
+      ]
+    },
+    {
+      "name": "GROUND__terrain__FIN_garden_grass",
+      "feature": "GROUND",
+      "materials": [
+        "FIN_garden_grass"
+      ]
+    },
+    {
+      "name": "old north opening infill",
+      "feature": "E_ENTRY",
+      "materials": [
+        "FIN_garden_grass"
+      ]
+    },
+    {
+      "name": "E_ENTRY 0 soil",
+      "feature": "E_ENTRY",
+      "materials": [
+        "FIN_garden_grass"
+      ]
+    },
+    {
+      "name": "E_ENTRY 1 soil",
+      "feature": "E_ENTRY",
+      "materials": [
+        "FIN_garden_grass"
+      ]
+    },
+    {
+      "name": "LAWN_EDGE sparse grass tips",
+      "feature": "LAWN_EDGE",
+      "materials": [
+        "FIN_grass"
+      ]
+    },
+    {
+      "name": "POET_DONKEY west frontage lawn",
+      "feature": "POET_GARDEN",
+      "materials": [
+        "FIN_garden_grass"
+      ]
+    },
+    {
+      "name": "W_ENTRY 0 soil",
+      "feature": "W_ENTRY",
+      "materials": [
+        "FIN_garden_grass"
+      ]
+    },
+    {
+      "name": "W_ENTRY 1 soil",
+      "feature": "W_ENTRY",
+      "materials": [
+        "FIN_garden_grass"
+      ]
+    },
+    {
+      "name": "BENTRY east curved planter soil",
+      "feature": "BUILDING_ENTRY",
+      "materials": [
+        "FIN_garden_grass"
+      ]
+    },
+    {
+      "name": "BENTRY east outer soil",
+      "feature": "BUILDING_ENTRY",
+      "materials": [
+        "FIN_garden_grass"
+      ]
+    },
+    {
+      "name": "BENTRY east inner soil",
+      "feature": "BUILDING_ENTRY",
+      "materials": [
+        "FIN_garden_grass"
+      ]
+    },
+    {
+      "name": "BENTRY west curved planter soil",
+      "feature": "BUILDING_ENTRY",
+      "materials": [
+        "FIN_garden_grass"
+      ]
+    },
+    {
+      "name": "BENTRY west outer soil",
+      "feature": "BUILDING_ENTRY",
+      "materials": [
+        "FIN_garden_grass"
+      ]
+    },
+    {
+      "name": "BENTRY west inner soil",
+      "feature": "BUILDING_ENTRY",
+      "materials": [
+        "FIN_garden_grass"
+      ]
+    },
+    {
+      "name": "LAWN | satellite-fixed concave north edge",
+      "feature": "LAWN",
+      "materials": [
+        "FIN_grass"
+      ]
+    }
+  ],
+  "cameras": [
+    {
+      "name": "FINAL overall",
+      "location": [
+        269.2640075683594,
+        -306.07525634765625,
+        259.41497802734375
+      ],
+      "rotation": [
+        1.1217021942138672,
+        -1.365093282856833e-08,
+        0.605372428894043
+      ],
+      "lens": 42.0,
+      "type": "ORTHO",
+      "ortho": 320.0
+    },
+    {
+      "name": "FINAL landscape",
+      "location": [
+        187.7962188720703,
+        -197.3901824951172,
+        239.29119873046875
+      ],
+      "rotation": [
+        0.9110556840896606,
+        -5.573146566462128e-08,
+        0.6182231307029724
+      ],
+      "lens": 42.0,
+      "type": "ORTHO",
+      "ortho": 219.0
+    },
+    {
+      "name": "FINAL plan",
+      "location": [
+        10.0,
+        56.0,
+        340.0
+      ],
+      "rotation": [
+        0.0,
+        -0.0,
+        0.0
+      ],
+      "lens": 42.0,
+      "type": "ORTHO",
+      "ortho": 208.0
+    },
+    {
+      "name": "FINAL west garages",
+      "location": [
+        -181.62509155273438,
+        -40.128379821777344,
+        50.247413635253906
+      ],
+      "rotation": [
+        1.242454171180725,
+        2.3610581934008223e-08,
+        -0.8264709115028381
+      ],
+      "lens": 42.0,
+      "type": "ORTHO",
+      "ortho": 58.0
+    },
+    {
+      "name": "FINAL south garage",
+      "location": [
+        -175.86094665527344,
+        1.3982086181640625,
+        42.07586669921875
+      ],
+      "rotation": [
+        1.2124152183532715,
+        -1.0801434768836771e-07,
+        -1.1341689825057983
+      ],
+      "lens": 42.0,
+      "type": "ORTHO",
+      "ortho": 12.0
+    },
+    {
+      "name": "FINAL north garage",
+      "location": [
+        -168.8966522216797,
+        15.810310363769531,
+        41.05517578125
+      ],
+      "rotation": [
+        1.212636113166809,
+        7.492997866620499e-08,
+        -1.0427221059799194
+      ],
+      "lens": 42.0,
+      "type": "ORTHO",
+      "ortho": 12.0
+    },
+    {
+      "name": "FINAL west stair",
+      "location": [
+        36.5488166809082,
+        12.451187133789062,
+        61.92473602294922
+      ],
+      "rotation": [
+        1.0012531280517578,
+        -8.071877033444252e-08,
+        0.7853983044624329
+      ],
+      "lens": 42.0,
+      "type": "ORTHO",
+      "ortho": 13.0
+    },
+    {
+      "name": "FINAL east stair",
+      "location": [
+        144.4267578125,
+        -13.540325164794922,
+        59.57817840576172
+      ],
+      "rotation": [
+        1.0171624422073364,
+        1.8229904696909216e-08,
+        0.8593370914459229
+      ],
+      "lens": 42.0,
+      "type": "ORTHO",
+      "ortho": 15.0
+    },
+    {
+      "name": "FINAL pergola",
+      "location": [
+        178.30845642089844,
+        -59.308441162109375,
+        46.73298263549805
+      ],
+      "rotation": [
+        1.2160742282867432,
+        2.5573886119900635e-08,
+        0.7853983044624329
+      ],
+      "lens": 42.0,
+      "type": "ORTHO",
+      "ortho": 35.0
+    },
+    {
+      "name": "FINAL ding",
+      "location": [
+        32.48108673095703,
+        -51.727928161621094,
+        37.2899169921875
+      ],
+      "rotation": [
+        1.2367173433303833,
+        -1.614393241311518e-08,
+        0.7086262702941895
+      ],
+      "lens": 42.0,
+      "type": "ORTHO",
+      "ortho": 7.0
+    },
+    {
+      "name": "FINAL fudan",
+      "location": [
+        93.75831604003906,
+        -80.34440612792969,
+        24.338960647583008
+      ],
+      "rotation": [
+        1.3669989109039307,
+        6.169855026882942e-08,
+        0.6435012221336365
+      ],
+      "lens": 42.0,
+      "type": "ORTHO",
+      "ortho": 13.0
+    },
+    {
+      "name": "FINAL flower",
+      "location": [
+        93.02751922607422,
+        -81.04403686523438,
+        37.518157958984375
+      ],
+      "rotation": [
+        1.2343003749847412,
+        -1.7281351460951555e-08,
+        0.5585992932319641
+      ],
+      "lens": 42.0,
+      "type": "ORTHO",
+      "ortho": 7.0
+    },
+    {
+      "name": "FINAL west south stair",
+      "location": [
+        36.654998779296875,
+        -20.65499496459961,
+        61.68949890136719
+      ],
+      "rotation": [
+        1.0040440559387207,
+        -1.970876439827407e-08,
+        0.7853981852531433
+      ],
+      "lens": 50.0,
+      "type": "ORTHO",
+      "ortho": 15.0
+    },
+    {
+      "name": "FINAL east north stair",
+      "location": [
+        139.35113525390625,
+        8.636734008789062,
+        62.32696533203125
+      ],
+      "rotation": [
+        0.9964696168899536,
+        9.667147793379627e-08,
+        0.7684503793716431
+      ],
+      "lens": 50.0,
+      "type": "ORTHO",
+      "ortho": 15.0
+    },
+    {
+      "name": "V4 east-top",
+      "location": [
+        85.0,
+        50.0,
+        140.0
+      ],
+      "rotation": [
+        0.0,
+        -0.0,
+        0.0
+      ],
+      "lens": 32.0,
+      "type": "ORTHO",
+      "ortho": 52.0
+    },
+    {
+      "name": "V4 east-entry",
+      "location": [
+        102.30211639404297,
+        53.5,
+        2.1500000953674316
+      ],
+      "rotation": [
+        1.524401068687439,
+        -3.048558738782958e-08,
+        1.570796251296997
+      ],
+      "lens": 25.0,
+      "type": "PERSP",
+      "ortho": 6.0
+    },
+    {
+      "name": "V4 east-overview",
+      "location": [
+        117.0,
+        26.0,
+        33.0
+      ],
+      "rotation": [
+        0.8883893489837646,
+        2.998794812469896e-08,
+        0.9075934290885925
+      ],
+      "lens": 32.0,
+      "type": "ORTHO",
+      "ortho": 48.0
+    },
+    {
+      "name": "V4 east-exit",
+      "location": [
+        81.30211639404297,
+        47.79999923706055,
+        3.9000000953674316
+      ],
+      "rotation": [
+        1.2718807458877563,
+        4.692016375429375e-08,
+        1.843805193901062
+      ],
+      "lens": 29.0,
+      "type": "PERSP",
+      "ortho": 6.0
+    },
+    {
+      "name": "SHAPE exit approximate",
+      "location": [
+        81.50212097167969,
+        47.79999923706055,
+        3.819999933242798
+      ],
+      "rotation": [
+        1.4329309463500977,
+        9.231402486875595e-08,
+        1.8573309183120728
+      ],
+      "lens": 24.0,
+      "type": "PERSP",
+      "ortho": 6.0
+    },
+    {
+      "name": "SHAPE top",
+      "location": [
+        72.80211639404297,
+        46.0,
+        50.0
+      ],
+      "rotation": [
+        0.0,
+        -0.0,
+        0.0
+      ],
+      "lens": 24.0,
+      "type": "ORTHO",
+      "ortho": 25.0
+    },
+    {
+      "name": "SHAPE side",
+      "location": [
+        88.30211639404297,
+        30.0,
+        15.0
+      ],
+      "rotation": [
+        1.0026581287384033,
+        7.762135112443502e-08,
+        0.7531513571739197
+      ],
+      "lens": 24.0,
+      "type": "ORTHO",
+      "ortho": 25.0
+    },
+    {
+      "name": "FORECOURT east entrance",
+      "location": [
+        78.30211639404297,
+        109.0,
+        25.0
+      ],
+      "rotation": [
+        0.8130010962486267,
+        6.256203732846188e-08,
+        2.627141237258911
+      ],
+      "lens": 50.0,
+      "type": "ORTHO",
+      "ortho": 27.0
+    },
+    {
+      "name": "FC aligned entry",
+      "location": [
+        65.44432830810547,
+        96.85448455810547,
+        10.0
+      ],
+      "rotation": [
+        1.1441688537597656,
+        7.958677628039368e-08,
+        3.141592502593994
+      ],
+      "lens": 40.0,
+      "type": "ORTHO",
+      "ortho": 23.0
+    },
+    {
+      "name": "FC entry oblique",
+      "location": [
+        78.44432830810547,
+        101.85448455810547,
+        25.0
+      ],
+      "rotation": [
+        0.8755109906196594,
+        6.039964262072317e-08,
+        2.692869186401367
+      ],
+      "lens": 40.0,
+      "type": "ORTHO",
+      "ortho": 27.0
+    },
+    {
+      "name": "FC entry top",
+      "location": [
+        65.44432830810547,
+        74.85448455810547,
+        55.0
+      ],
+      "rotation": [
+        0.0,
+        -0.0,
+        0.0
+      ],
+      "lens": 40.0,
+      "type": "ORTHO",
+      "ortho": 29.0
+    },
+    {
+      "name": "FC plaza photo4474",
+      "location": [
+        16.0,
+        112.0,
+        7.0
+      ],
+      "rotation": [
+        1.4560482501983643,
+        8.684785512969029e-08,
+        3.1415927410125732
+      ],
+      "lens": 25.0,
+      "type": "PERSP",
+      "ortho": 6.0
+    },
+    {
+      "name": "FC edge close",
+      "location": [
+        56.0,
+        89.0,
+        2.4000000953674316
+      ],
+      "rotation": [
+        1.3927034139633179,
+        8.604003909340463e-08,
+        3.1415927410125732
+      ],
+      "lens": 40.0,
+      "type": "PERSP",
+      "ortho": 6.0
+    },
+    {
+      "name": "FC statue photo4468",
+      "location": [
+        -51.70000076293945,
+        110.5,
+        3.5
+      ],
+      "rotation": [
+        1.4351623058319092,
+        -7.645418520496605e-09,
+        0.4683423638343811
+      ],
+      "lens": 48.0,
+      "type": "PERSP",
+      "ortho": 6.0
+    },
+    {
+      "name": "FC statue alternate",
+      "location": [
+        -49.5,
+        114.0,
+        4.300000190734863
+      ],
+      "rotation": [
+        1.3086950778961182,
+        9.266944545061051e-08,
+        0.9151006937026978
+      ],
+      "lens": 48.0,
+      "type": "PERSP",
+      "ortho": 6.0
+    },
+    {
+      "name": "W3 welded path seam",
+      "location": [
+        -43.298194885253906,
+        86.0,
+        14.0
+      ],
+      "rotation": [
+        0.6323748230934143,
+        5.167228778191202e-08,
+        3.141592502593994
+      ],
+      "lens": 50.0,
+      "type": "ORTHO",
+      "ortho": 11.0
+    },
+    {
+      "name": "01-overhead",
+      "location": [
+        14.5,
+        63.0,
+        270.0
+      ],
+      "rotation": [
+        0.0,
+        -0.0,
+        0.0
+      ],
+      "lens": 40.0,
+      "type": "ORTHO",
+      "ortho": 220.0
+    },
+    {
+      "name": "02-aerial",
+      "location": [
+        245.0,
+        -218.0,
+        233.0
+      ],
+      "rotation": [
+        1.0976966619491577,
+        2.5524457214487484e-08,
+        0.6594148874282837
+      ],
+      "lens": 40.0,
+      "type": "ORTHO",
+      "ortho": 340.0
+    },
+    {
+      "name": "03-west-garden",
+      "location": [
+        -15.0,
+        18.0,
+        34.0
+      ],
+      "rotation": [
+        1.0240774154663086,
+        2.597478143684384e-08,
+        0.7980558276176453
+      ],
+      "lens": 40.0,
+      "type": "ORTHO",
+      "ortho": 70.0
+    },
+    {
+      "name": "04-east-garden",
+      "location": [
+        147.0,
+        7.0,
+        42.0
+      ],
+      "rotation": [
+        1.026600956916809,
+        -8.911458593274801e-08,
+        0.9388222694396973
+      ],
+      "lens": 40.0,
+      "type": "ORTHO",
+      "ortho": 65.0
+    },
+    {
+      "name": "05-north-photo-4474",
+      "location": [
+        -2.5,
+        116.0,
+        4.699999809265137
+      ],
+      "rotation": [
+        1.5154446363449097,
+        2.7833712223923612e-08,
+        -2.93379282951355
+      ],
+      "lens": 24.0,
+      "type": "PERSP",
+      "ortho": 6.0
+    },
+    {
+      "name": "W3 west comparison",
+      "location": [
+        -26.299999237060547,
+        107.0,
+        29.0
+      ],
+      "rotation": [
+        0.7853981852531433,
+        6.181723932741079e-08,
+        3.141592502593994
+      ],
+      "lens": 50.0,
+      "type": "ORTHO",
+      "ortho": 36.0
+    },
+    {
+      "name": "W3 west front",
+      "location": [
+        -27.0,
+        96.85448455810547,
+        10.0
+      ],
+      "rotation": [
+        1.1441688537597656,
+        7.958677628039368e-08,
+        3.141592502593994
+      ],
+      "lens": 50.0,
+      "type": "ORTHO",
+      "ortho": 23.0
+    },
+    {
+      "name": "W3 west top",
+      "location": [
+        -27.0,
+        74.85448455810547,
+        55.0
+      ],
+      "rotation": [
+        0.0,
+        -0.0,
+        0.0
+      ],
+      "lens": 50.0,
+      "type": "ORTHO",
+      "ortho": 29.0
+    },
+    {
+      "name": "W3 paired entrances top",
+      "location": [
+        19.149999618530273,
+        75.0,
+        120.0
+      ],
+      "rotation": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "lens": 50.0,
+      "type": "ORTHO",
+      "ortho": 118.0
+    },
+    {
+      "name": "V4 ENTRY overhead",
+      "location": [
+        20.0,
+        105.0,
+        160.0
+      ],
+      "rotation": [
+        0.0,
+        -0.0,
+        0.0
+      ],
+      "lens": 27.0,
+      "type": "ORTHO",
+      "ortho": 153.0
+    },
+    {
+      "name": "V4 approximate photo4464",
+      "location": [
+        -42.0,
+        88.5,
+        2.200000047683716
+      ],
+      "rotation": [
+        1.5965569019317627,
+        3.008231885814894e-08,
+        0.2606024146080017
+      ],
+      "lens": 27.0,
+      "type": "PERSP",
+      "ortho": 6.0
+    },
+    {
+      "name": "V4 approximate photo4485",
+      "location": [
+        100.0,
+        100.0,
+        2.1500000953674316
+      ],
+      "rotation": [
+        1.565380334854126,
+        2.2690429091198894e-08,
+        1.5541311502456665
+      ],
+      "lens": 25.0,
+      "type": "PERSP",
+      "ortho": 6.0
+    },
+    {
+      "name": "V4 approximate photo4491",
+      "location": [
+        71.5,
+        85.0,
+        2.3499999046325684
+      ],
+      "rotation": [
+        1.4933558702468872,
+        -1.803506677333644e-07,
+        2.396635055541992
+      ],
+      "lens": 27.0,
+      "type": "PERSP",
+      "ortho": 6.0
+    },
+    {
+      "name": "V4 straight path overhead",
+      "location": [
+        78.0,
+        46.0,
+        130.0
+      ],
+      "rotation": [
+        0.0,
+        -0.0,
+        0.0
+      ],
+      "lens": 27.0,
+      "type": "ORTHO",
+      "ortho": 90.0
+    },
+    {
+      "name": "V4 approximate photo4492",
+      "location": [
+        65.4000015258789,
+        81.0,
+        1.7000000476837158
+      ],
+      "rotation": [
+        1.5559039115905762,
+        8.741307766513273e-08,
+        3.1415927410125732
+      ],
+      "lens": 26.0,
+      "type": "PERSP",
+      "ortho": 6.0
+    },
+    {
+      "name": "V4 approximate photo4496",
+      "location": [
+        65.80000305175781,
+        78.19999694824219,
+        1.7999999523162842
+      ],
+      "rotation": [
+        1.5261361598968506,
+        -8.44486081064133e-08,
+        -2.32063627243042
+      ],
+      "lens": 27.0,
+      "type": "PERSP",
+      "ortho": 6.0
+    },
+    {
+      "name": "V4 flat path crossing diagnostic",
+      "location": [
+        74.5,
+        31.0,
+        20.0
+      ],
+      "rotation": [
+        0.0,
+        -0.0,
+        0.0
+      ],
+      "lens": 27.0,
+      "type": "ORTHO",
+      "ortho": 9.0
+    },
+    {
+      "name": "GV3 west platform photo 4390",
+      "location": [
+        -55.5,
+        43.099998474121094,
+        2.8499999046325684
+      ],
+      "rotation": [
+        1.6675567626953125,
+        -2.1543630879250486e-08,
+        0.4909360408782959
+      ],
+      "lens": 26.0,
+      "type": "PERSP",
+      "ortho": 6.0
+    },
+    {
+      "name": "GV3 east understory photo 4582",
+      "location": [
+        75.5,
+        58.5,
+        1.899999976158142
+      ],
+      "rotation": [
+        1.7822548151016235,
+        -1.9263698192162337e-08,
+        -0.6805212497711182
+      ],
+      "lens": 27.0,
+      "type": "PERSP",
+      "ortho": 6.0
+    },
+    {
+      "name": "P5 stepped wall and entrance landing",
+      "location": [
+        -9.0,
+        99.0,
+        7.699999809265137
+      ],
+      "rotation": [
+        1.3267314434051514,
+        -3.095486533766234e-08,
+        0.7197486758232117
+      ],
+      "lens": 40.0,
+      "type": "PERSP",
+      "ortho": 6.0
+    },
+    {
+      "name": "P5 right wall plinth connection",
+      "location": [
+        81.0999984741211,
+        94.4000015258789,
+        3.5
+      ],
+      "rotation": [
+        1.2714353799819946,
+        1.2580636976622372e-08,
+        -0.6496743559837341
+      ],
+      "lens": 38.0,
+      "type": "PERSP",
+      "ortho": 6.0
+    },
+    {
+      "name": "P5 right planter overhead",
+      "location": [
+        74.4000015258789,
+        108.5999984741211,
+        110.0
+      ],
+      "rotation": [
+        0.0,
+        -0.0,
+        0.0
+      ],
+      "lens": 25.0,
+      "type": "ORTHO",
+      "ortho": 44.0
+    },
+    {
+      "name": "P5 paired planters overhead",
+      "location": [
+        20.0,
+        111.0,
+        180.0
+      ],
+      "rotation": [
+        0.0,
+        -0.0,
+        0.0
+      ],
+      "lens": 25.0,
+      "type": "ORTHO",
+      "ortho": 157.0
+    },
+    {
+      "name": "P5 left wall plinth connection",
+      "location": [
+        -41.70000076293945,
+        94.0,
+        3.549999952316284
+      ],
+      "rotation": [
+        1.244317650794983,
+        -6.428608401165548e-08,
+        0.6102940440177917
+      ],
+      "lens": 38.0,
+      "type": "PERSP",
+      "ortho": 6.0
+    },
+    {
+      "name": "P5 left planter overhead",
+      "location": [
+        -34.5,
+        108.19999694824219,
+        110.0
+      ],
+      "rotation": [
+        0.0,
+        -0.0,
+        0.0
+      ],
+      "lens": 25.0,
+      "type": "ORTHO",
+      "ortho": 44.0
+    },
+    {
+      "name": "P5 approximate IMG_4485",
+      "location": [
+        107.0,
+        90.0,
+        2.200000047683716
+      ],
+      "rotation": [
+        1.5679479837417603,
+        -7.648363720136331e-08,
+        1.2670620679855347
+      ],
+      "lens": 24.0,
+      "type": "PERSP",
+      "ortho": 6.0
+    },
+    {
+      "name": "P5 approximate IMG_4464",
+      "location": [
+        -45.0,
+        84.0,
+        2.200000047683716
+      ],
+      "rotation": [
+        1.5896217823028564,
+        1.002108795944423e-08,
+        -0.22923196852207184
+      ],
+      "lens": 22.0,
+      "type": "PERSP",
+      "ortho": 6.0
+    },
+    {
+      "name": "A plaza junction low",
+      "location": [
+        65.9000015258789,
+        80.0999984741211,
+        0.28999999165534973
+      ],
+      "rotation": [
+        1.4652870893478394,
+        -7.668649004699546e-08,
+        2.944197177886963
+      ],
+      "lens": 34.0,
+      "type": "PERSP",
+      "ortho": 6.0
+    },
+    {
+      "name": "A edge detail",
+      "location": [
+        66.08000183105469,
+        79.25,
+        1.0199999809265137
+      ],
+      "rotation": [
+        1.217822790145874,
+        2.1701054286893395e-09,
+        -2.8057920932769775
+      ],
+      "lens": 53.0,
+      "type": "PERSP",
+      "ortho": 6.0
+    },
+    {
+      "name": "A corridor orthographic",
+      "location": [
+        65.30000305175781,
+        47.0,
+        110.0
+      ],
+      "rotation": [
+        0.0,
+        -0.0,
+        0.0
+      ],
+      "lens": 27.0,
+      "type": "ORTHO",
+      "ortho": 94.0
+    },
+    {
+      "name": "A approximate IMG4493",
+      "location": [
+        66.80000305175781,
+        80.4000015258789,
+        1.7000000476837158
+      ],
+      "rotation": [
+        1.5546687841415405,
+        8.741140078427634e-08,
+        3.1415927410125732
+      ],
+      "lens": 29.0,
+      "type": "PERSP",
+      "ortho": 6.0
+    },
+    {
+      "name": "A approximate IMG4492",
+      "location": [
+        65.4000015258789,
+        81.0,
+        1.7000000476837158
+      ],
+      "rotation": [
+        1.553776741027832,
+        8.74101004910699e-08,
+        3.1415927410125732
+      ],
+      "lens": 26.0,
+      "type": "PERSP",
+      "ortho": 6.0
+    }
+  ]
+}

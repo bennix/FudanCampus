@@ -1,0 +1,54 @@
+{
+  "source": "C:\\Users\\Lumin\\source\\FudanCampus-course\\field-review\\guanghua-spring-v1\\guanghua-spring-photo-v3.blend",
+  "source_sha256": "3611d4de05059edae5d2207f5b581bf5ed6cd6e810e991ae157ba0daf109f32e",
+  "baseline": "C:\\Users\\Lumin\\source\\FudanCampus-course\\field-review\\guanghua-spring-v1\\guanghua-spring-branch-led-v2.blend",
+  "baseline_sha256": "a5622a6148ed86b2a2f0c4b825243d8114a92238503651521e45f8cafbeec655",
+  "target_tree": "V6 East spreading 01",
+  "root_native": [
+    67.9000015258789,
+    46.5,
+    0.13705936074256897
+  ],
+  "changed": [
+    "V6 East spreading 01 leaves",
+    "V6 East spreading 01 wood"
+  ],
+  "non_target_meshes_preserved": 1905,
+  "drift": [],
+  "blossom_cards": 70799,
+  "twig_anchor_sites": 21257,
+  "branch_paths": 3312,
+  "fork_height_native": 1.55,
+  "trunk_base_diameter_native": 1.16,
+  "canopy_horizontal_scale": [
+    1.3,
+    1.2
+  ],
+  "heart_clearance_native": 0.11499977111816406,
+  "heart_clearance_web": 0.07666651407877605,
+  "confidence": "Visible low fork, heavy lateral limbs, pale varying blossoms and whitewash photo-supported; depth and absolute scale inferred",
+  "wood_bounds_native": [
+    [
+      60.08170700073242,
+      40.2374382019043,
+      0.016171634197235107
+    ],
+    [
+      75.70201873779297,
+      52.7144775390625,
+      9.162935256958008
+    ]
+  ],
+  "flower_bounds_native": [
+    [
+      59.85050582885742,
+      40.069766998291016,
+      2.4008476734161377
+    ],
+    [
+      75.92050170898438,
+      52.884986877441406,
+      9.192087173461914
+    ]
+  ]
+}

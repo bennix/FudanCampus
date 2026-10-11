@@ -1,0 +1,1448 @@
+[
+  {
+    "x": 63.50216715698242,
+    "path_z": 0.03500080108642578,
+    "plaza_z": 0.03500008583068848,
+    "surface": "E_WALK recessed arc band 0 098"
+  },
+  {
+    "x": 63.5171667498525,
+    "path_z": 0.03500080108642578,
+    "plaza_z": 0.03500008583068848,
+    "surface": "E_WALK recessed arc band 0 098"
+  },
+  {
+    "x": 63.532166342722576,
+    "path_z": 0.03500056266784668,
+    "plaza_z": 0.03500020503997803,
+    "surface": "E_WALK recessed arc band 0 098"
+  },
+  {
+    "x": 63.54716593559265,
+    "path_z": 0.03500080108642578,
+    "plaza_z": 0.03500008583068848,
+    "surface": "E_WALK recessed arc band 0 098"
+  },
+  {
+    "x": 63.56216552846273,
+    "path_z": 0.03500080108642578,
+    "plaza_z": 0.03500020503997803,
+    "surface": "E_WALK recessed arc band 0 098"
+  },
+  {
+    "x": 63.577165121332804,
+    "path_z": 0.03500080108642578,
+    "plaza_z": 0.03500020503997803,
+    "surface": "E_WALK recessed arc band 0 098"
+  },
+  {
+    "x": 63.59216471420288,
+    "path_z": 0.03500068187713623,
+    "plaza_z": 0.03500008583068848,
+    "surface": "E_WALK recessed arc band 0 098"
+  },
+  {
+    "x": 63.607164307072956,
+    "path_z": 0.03500056266784668,
+    "plaza_z": 0.03500020503997803,
+    "surface": "E_WALK recessed arc band 0 098"
+  },
+  {
+    "x": 63.62216389994303,
+    "path_z": 0.03500056266784668,
+    "plaza_z": 0.03500020503997803,
+    "surface": "E_WALK recessed arc band 0 098"
+  },
+  {
+    "x": 63.63716349281311,
+    "path_z": 0.03500080108642578,
+    "plaza_z": 0.03500020503997803,
+    "surface": "E_WALK recessed arc band 0 098"
+  },
+  {
+    "x": 63.65216308568319,
+    "path_z": 0.03500080108642578,
+    "plaza_z": 0.03500020503997803,
+    "surface": "E_WALK recessed arc band 0 098"
+  },
+  {
+    "x": 63.66716267855327,
+    "path_z": 0.03500080108642578,
+    "plaza_z": 0.03500020503997803,
+    "surface": "E_WALK recessed arc band 0 098"
+  },
+  {
+    "x": 63.682162271423344,
+    "path_z": 0.03500080108642578,
+    "plaza_z": 0.03500020503997803,
+    "surface": "E_WALK recessed arc band 0 098"
+  },
+  {
+    "x": 63.69716186429342,
+    "path_z": 0.03500068187713623,
+    "plaza_z": 0.03500020503997803,
+    "surface": "E_WALK recessed arc band 0 098"
+  },
+  {
+    "x": 63.712161457163496,
+    "path_z": 0.03500056266784668,
+    "plaza_z": 0.03500008583068848,
+    "surface": "E_WALK recessed arc band 0 098"
+  },
+  {
+    "x": 63.72716105003357,
+    "path_z": 0.03500068187713623,
+    "plaza_z": 0.03500008583068848,
+    "surface": "E_WALK recessed arc band 0 098"
+  },
+  {
+    "x": 63.74216064290365,
+    "path_z": 0.03500092029571533,
+    "plaza_z": 0.03500020503997803,
+    "surface": "E_WALK recessed arc band 0 098"
+  },
+  {
+    "x": 63.757160235773725,
+    "path_z": 0.03500103950500488,
+    "plaza_z": 0.03500008583068848,
+    "surface": "E_WALK recessed arc band 0 098"
+  },
+  {
+    "x": 63.7721598286438,
+    "path_z": 0.03500068187713623,
+    "plaza_z": 0.03500020503997803,
+    "surface": "E_WALK recessed arc band 0 098"
+  },
+  {
+    "x": 63.78715942151388,
+    "path_z": 0.03500068187713623,
+    "plaza_z": 0.034999847412109375,
+    "surface": "E_WALK recessed arc band 0 098"
+  },
+  {
+    "x": 63.80215901438395,
+    "path_z": 0.03500080108642578,
+    "plaza_z": 0.034999966621398926,
+    "surface": "E_WALK recessed arc band 0 098"
+  },
+  {
+    "x": 63.81715860725403,
+    "path_z": 0.03500080108642578,
+    "plaza_z": 0.034999966621398926,
+    "surface": "E_WALK recessed arc band 0 098"
+  },
+  {
+    "x": 63.832158200124105,
+    "path_z": 0.03500068187713623,
+    "plaza_z": 0.034999966621398926,
+    "surface": "E_WALK central staggered paving"
+  },
+  {
+    "x": 63.84715779299418,
+    "path_z": 0.03500068187713623,
+    "plaza_z": 0.03500008583068848,
+    "surface": "E_WALK central staggered paving"
+  },
+  {
+    "x": 63.86215738586426,
+    "path_z": 0.03500068187713623,
+    "plaza_z": 0.034999966621398926,
+    "surface": "E_WALK central staggered paving"
+  },
+  {
+    "x": 63.877156978734334,
+    "path_z": 0.03500068187713623,
+    "plaza_z": 0.034999966621398926,
+    "surface": "E_WALK central staggered paving"
+  },
+  {
+    "x": 63.89215657160441,
+    "path_z": 0.03500068187713623,
+    "plaza_z": 0.034999966621398926,
+    "surface": "E_WALK central staggered paving"
+  },
+  {
+    "x": 63.907156164474486,
+    "path_z": 0.03500068187713623,
+    "plaza_z": 0.034999966621398926,
+    "surface": "E_WALK central staggered paving"
+  },
+  {
+    "x": 63.92215575734456,
+    "path_z": 0.03500068187713623,
+    "plaza_z": 0.03500020503997803,
+    "surface": "E_WALK central staggered paving"
+  },
+  {
+    "x": 63.93715535021464,
+    "path_z": 0.03500068187713623,
+    "plaza_z": 0.034999966621398926,
+    "surface": "E_WALK central staggered paving"
+  },
+  {
+    "x": 63.95215494308472,
+    "path_z": 0.03500068187713623,
+    "plaza_z": 0.034999966621398926,
+    "surface": "E_WALK central staggered paving"
+  },
+  {
+    "x": 63.9671545359548,
+    "path_z": 0.03500068187713623,
+    "plaza_z": 0.034999966621398926,
+    "surface": "E_WALK central staggered paving"
+  },
+  {
+    "x": 63.982154128824874,
+    "path_z": 0.03500080108642578,
+    "plaza_z": 0.034999966621398926,
+    "surface": "E_WALK central staggered paving"
+  },
+  {
+    "x": 63.99715372169495,
+    "path_z": 0.03500068187713623,
+    "plaza_z": 0.034999966621398926,
+    "surface": "E_WALK central staggered paving"
+  },
+  {
+    "x": 64.01215331456503,
+    "path_z": 0.03500068187713623,
+    "plaza_z": 0.03500008583068848,
+    "surface": "E_WALK central staggered paving"
+  },
+  {
+    "x": 64.0271529074351,
+    "path_z": 0.03500068187713623,
+    "plaza_z": 0.034999966621398926,
+    "surface": "E_WALK central staggered paving"
+  },
+  {
+    "x": 64.04215250030518,
+    "path_z": 0.03500068187713623,
+    "plaza_z": 0.034999966621398926,
+    "surface": "E_WALK central staggered paving"
+  },
+  {
+    "x": 64.05715209317525,
+    "path_z": 0.03500080108642578,
+    "plaza_z": 0.034999847412109375,
+    "surface": "E_WALK central staggered paving"
+  },
+  {
+    "x": 64.07215168604533,
+    "path_z": 0.03500080108642578,
+    "plaza_z": 0.034999966621398926,
+    "surface": "E_WALK central staggered paving"
+  },
+  {
+    "x": 64.08715127891541,
+    "path_z": 0.03500080108642578,
+    "plaza_z": 0.034999966621398926,
+    "surface": "E_WALK central staggered paving"
+  },
+  {
+    "x": 64.10215087178548,
+    "path_z": 0.03500080108642578,
+    "plaza_z": 0.034999966621398926,
+    "surface": "E_WALK central staggered paving"
+  },
+  {
+    "x": 64.11715046465557,
+    "path_z": 0.03500080108642578,
+    "plaza_z": 0.03500008583068848,
+    "surface": "E_WALK central staggered paving"
+  },
+  {
+    "x": 64.13215005752564,
+    "path_z": 0.03500080108642578,
+    "plaza_z": 0.034999966621398926,
+    "surface": "E_WALK central staggered paving"
+  },
+  {
+    "x": 64.14714965039572,
+    "path_z": 0.03500068187713623,
+    "plaza_z": 0.034999966621398926,
+    "surface": "E_WALK central staggered paving"
+  },
+  {
+    "x": 64.16214924326579,
+    "path_z": 0.03500068187713623,
+    "plaza_z": 0.034999966621398926,
+    "surface": "E_WALK central staggered paving"
+  },
+  {
+    "x": 64.17714883613587,
+    "path_z": 0.03500080108642578,
+    "plaza_z": 0.034999966621398926,
+    "surface": "E_WALK central staggered paving"
+  },
+  {
+    "x": 64.19214842900594,
+    "path_z": 0.03500080108642578,
+    "plaza_z": 0.03500008583068848,
+    "surface": "E_WALK central staggered paving"
+  },
+  {
+    "x": 64.20714802187602,
+    "path_z": 0.03500080108642578,
+    "plaza_z": 0.034999966621398926,
+    "surface": "E_WALK central staggered paving"
+  },
+  {
+    "x": 64.22214761474609,
+    "path_z": 0.03500080108642578,
+    "plaza_z": 0.034999966621398926,
+    "surface": "E_WALK central staggered paving"
+  },
+  {
+    "x": 64.23714720761618,
+    "path_z": 0.03500068187713623,
+    "plaza_z": 0.034999966621398926,
+    "surface": "E_WALK central staggered paving"
+  },
+  {
+    "x": 64.25214680048624,
+    "path_z": 0.03500068187713623,
+    "plaza_z": 0.034999966621398926,
+    "surface": "E_WALK central staggered paving"
+  },
+  {
+    "x": 64.26714639335633,
+    "path_z": 0.03500068187713623,
+    "plaza_z": 0.034999847412109375,
+    "surface": "E_WALK central staggered paving"
+  },
+  {
+    "x": 64.2821459862264,
+    "path_z": 0.03500068187713623,
+    "plaza_z": 0.034999966621398926,
+    "surface": "E_WALK central staggered paving"
+  },
+  {
+    "x": 64.29714557909648,
+    "path_z": 0.03500080108642578,
+    "plaza_z": 0.034999966621398926,
+    "surface": "E_WALK central staggered paving"
+  },
+  {
+    "x": 64.31214517196655,
+    "path_z": 0.03500068187713623,
+    "plaza_z": 0.034999966621398926,
+    "surface": "E_WALK central staggered paving"
+  },
+  {
+    "x": 64.32714476483663,
+    "path_z": 0.03500044345855713,
+    "plaza_z": 0.034999966621398926,
+    "surface": "E_WALK central staggered paving"
+  },
+  {
+    "x": 64.3421443577067,
+    "path_z": 0.03500080108642578,
+    "plaza_z": 0.034999966621398926,
+    "surface": "E_WALK central staggered paving"
+  },
+  {
+    "x": 64.35714395057678,
+    "path_z": 0.03500080108642578,
+    "plaza_z": 0.034999966621398926,
+    "surface": "E_WALK central staggered paving"
+  },
+  {
+    "x": 64.37214354344687,
+    "path_z": 0.03500068187713623,
+    "plaza_z": 0.034999966621398926,
+    "surface": "E_WALK central staggered paving"
+  },
+  {
+    "x": 64.38714313631694,
+    "path_z": 0.03500068187713623,
+    "plaza_z": 0.034999966621398926,
+    "surface": "E_WALK central staggered paving"
+  },
+  {
+    "x": 64.40214272918702,
+    "path_z": 0.03500068187713623,
+    "plaza_z": 0.034999966621398926,
+    "surface": "E_WALK central staggered paving"
+  },
+  {
+    "x": 64.41714232205709,
+    "path_z": 0.03500068187713623,
+    "plaza_z": 0.034999966621398926,
+    "surface": "E_WALK central staggered paving"
+  },
+  {
+    "x": 64.43214191492717,
+    "path_z": 0.03500080108642578,
+    "plaza_z": 0.034999966621398926,
+    "surface": "E_WALK central staggered paving"
+  },
+  {
+    "x": 64.44714150779724,
+    "path_z": 0.03500080108642578,
+    "plaza_z": 0.034999966621398926,
+    "surface": "E_WALK central staggered paving"
+  },
+  {
+    "x": 64.46214110066732,
+    "path_z": 0.03500080108642578,
+    "plaza_z": 0.034999966621398926,
+    "surface": "E_WALK central staggered paving"
+  },
+  {
+    "x": 64.4771406935374,
+    "path_z": 0.03500080108642578,
+    "plaza_z": 0.034999966621398926,
+    "surface": "E_WALK central staggered paving"
+  },
+  {
+    "x": 64.49214028640748,
+    "path_z": 0.03500080108642578,
+    "plaza_z": 0.034999966621398926,
+    "surface": "E_WALK central staggered paving"
+  },
+  {
+    "x": 64.50713987927755,
+    "path_z": 0.03500080108642578,
+    "plaza_z": 0.034999966621398926,
+    "surface": "E_WALK central staggered paving"
+  },
+  {
+    "x": 64.52213947214763,
+    "path_z": 0.03500056266784668,
+    "plaza_z": 0.034999966621398926,
+    "surface": "E_WALK central staggered paving"
+  },
+  {
+    "x": 64.5371390650177,
+    "path_z": 0.03500056266784668,
+    "plaza_z": 0.034999966621398926,
+    "surface": "E_WALK central staggered paving"
+  },
+  {
+    "x": 64.55213865788778,
+    "path_z": 0.03500080108642578,
+    "plaza_z": 0.034999966621398926,
+    "surface": "E_WALK central staggered paving"
+  },
+  {
+    "x": 64.56713825075785,
+    "path_z": 0.03500080108642578,
+    "plaza_z": 0.034999966621398926,
+    "surface": "E_WALK central staggered paving"
+  },
+  {
+    "x": 64.58213784362793,
+    "path_z": 0.03500044345855713,
+    "plaza_z": 0.034999966621398926,
+    "surface": "E_WALK central staggered paving"
+  },
+  {
+    "x": 64.597137436498,
+    "path_z": 0.03500044345855713,
+    "plaza_z": 0.034999966621398926,
+    "surface": "E_WALK central staggered paving"
+  },
+  {
+    "x": 64.61213702936809,
+    "path_z": 0.03500044345855713,
+    "plaza_z": 0.034999966621398926,
+    "surface": "E_WALK central staggered paving"
+  },
+  {
+    "x": 64.62713662223815,
+    "path_z": 0.03500080108642578,
+    "plaza_z": 0.034999966621398926,
+    "surface": "E_WALK central staggered paving"
+  },
+  {
+    "x": 64.64213621510824,
+    "path_z": 0.03500044345855713,
+    "plaza_z": 0.034999966621398926,
+    "surface": "E_WALK central staggered paving"
+  },
+  {
+    "x": 64.6571358079783,
+    "path_z": 0.03500080108642578,
+    "plaza_z": 0.034999966621398926,
+    "surface": "E_WALK central staggered paving"
+  },
+  {
+    "x": 64.67213540084839,
+    "path_z": 0.03500080108642578,
+    "plaza_z": 0.034999966621398926,
+    "surface": "E_WALK central staggered paving"
+  },
+  {
+    "x": 64.68713499371847,
+    "path_z": 0.03500080108642578,
+    "plaza_z": 0.034999966621398926,
+    "surface": "E_WALK central staggered paving"
+  },
+  {
+    "x": 64.70213458658854,
+    "path_z": 0.03500080108642578,
+    "plaza_z": 0.034999966621398926,
+    "surface": "E_WALK central staggered paving"
+  },
+  {
+    "x": 64.71713417945863,
+    "path_z": 0.03500080108642578,
+    "plaza_z": 0.034999966621398926,
+    "surface": "E_WALK central staggered paving"
+  },
+  {
+    "x": 64.7321337723287,
+    "path_z": 0.03500080108642578,
+    "plaza_z": 0.034999966621398926,
+    "surface": "E_WALK central staggered paving"
+  },
+  {
+    "x": 64.74713336519878,
+    "path_z": 0.03500080108642578,
+    "plaza_z": 0.034999847412109375,
+    "surface": "E_WALK central staggered paving"
+  },
+  {
+    "x": 64.76213295806885,
+    "path_z": 0.03500044345855713,
+    "plaza_z": 0.034999966621398926,
+    "surface": "E_WALK central staggered paving"
+  },
+  {
+    "x": 64.77713255093893,
+    "path_z": 0.03500044345855713,
+    "plaza_z": 0.034999966621398926,
+    "surface": "E_WALK central staggered paving"
+  },
+  {
+    "x": 64.792132143809,
+    "path_z": 0.03500044345855713,
+    "plaza_z": 0.034999966621398926,
+    "surface": "E_WALK central staggered paving"
+  },
+  {
+    "x": 64.80713173667908,
+    "path_z": 0.03500044345855713,
+    "plaza_z": 0.034999966621398926,
+    "surface": "E_WALK central staggered paving"
+  },
+  {
+    "x": 64.82213132954915,
+    "path_z": 0.03500080108642578,
+    "plaza_z": 0.034999966621398926,
+    "surface": "E_WALK central staggered paving"
+  },
+  {
+    "x": 64.83713092241923,
+    "path_z": 0.03500056266784668,
+    "plaza_z": 0.034999966621398926,
+    "surface": "E_WALK central staggered paving"
+  },
+  {
+    "x": 64.8521305152893,
+    "path_z": 0.03500044345855713,
+    "plaza_z": 0.034999966621398926,
+    "surface": "E_WALK central staggered paving"
+  },
+  {
+    "x": 64.86713010815939,
+    "path_z": 0.03500044345855713,
+    "plaza_z": 0.034999847412109375,
+    "surface": "E_WALK central staggered paving"
+  },
+  {
+    "x": 64.88212970102946,
+    "path_z": 0.03500080108642578,
+    "plaza_z": 0.034999966621398926,
+    "surface": "E_WALK central staggered paving"
+  },
+  {
+    "x": 64.89712929389954,
+    "path_z": 0.03500080108642578,
+    "plaza_z": 0.034999966621398926,
+    "surface": "E_WALK central staggered paving"
+  },
+  {
+    "x": 64.91212888676961,
+    "path_z": 0.03500056266784668,
+    "plaza_z": 0.034999966621398926,
+    "surface": "E_WALK central staggered paving"
+  },
+  {
+    "x": 64.92712847963969,
+    "path_z": 0.03500056266784668,
+    "plaza_z": 0.034999966621398926,
+    "surface": "E_WALK central staggered paving"
+  },
+  {
+    "x": 64.94212807250976,
+    "path_z": 0.03500044345855713,
+    "plaza_z": 0.034999847412109375,
+    "surface": "E_WALK central staggered paving"
+  },
+  {
+    "x": 64.95712766537984,
+    "path_z": 0.03500080108642578,
+    "plaza_z": 0.034999966621398926,
+    "surface": "E_WALK central staggered paving"
+  },
+  {
+    "x": 64.97212725824993,
+    "path_z": 0.03500080108642578,
+    "plaza_z": 0.034999966621398926,
+    "surface": "E_WALK central staggered paving"
+  },
+  {
+    "x": 64.98712685112,
+    "path_z": 0.03500080108642578,
+    "plaza_z": 0.034999847412109375,
+    "surface": "E_WALK central staggered paving"
+  },
+  {
+    "x": 65.00212644399008,
+    "path_z": 0.03500056266784668,
+    "plaza_z": 0.034999966621398926,
+    "surface": "E_WALK central staggered paving"
+  },
+  {
+    "x": 65.01712603686015,
+    "path_z": 0.03500056266784668,
+    "plaza_z": 0.034999847412109375,
+    "surface": "E_WALK central staggered paving"
+  },
+  {
+    "x": 65.03212562973023,
+    "path_z": 0.03500044345855713,
+    "plaza_z": 0.034999966621398926,
+    "surface": "E_WALK central staggered paving"
+  },
+  {
+    "x": 65.0471252226003,
+    "path_z": 0.03500080108642578,
+    "plaza_z": 0.034999966621398926,
+    "surface": "E_WALK central staggered paving"
+  },
+  {
+    "x": 65.06212481547038,
+    "path_z": 0.03500080108642578,
+    "plaza_z": 0.034999847412109375,
+    "surface": "E_WALK central staggered paving"
+  },
+  {
+    "x": 65.07712440834045,
+    "path_z": 0.03500080108642578,
+    "plaza_z": 0.034999966621398926,
+    "surface": "E_WALK central staggered paving"
+  },
+  {
+    "x": 65.09212400121054,
+    "path_z": 0.03500080108642578,
+    "plaza_z": 0.03500008583068848,
+    "surface": "E_WALK central staggered paving"
+  },
+  {
+    "x": 65.1071235940806,
+    "path_z": 0.03500056266784668,
+    "plaza_z": 0.034999966621398926,
+    "surface": "E_WALK central staggered paving"
+  },
+  {
+    "x": 65.12212318695069,
+    "path_z": 0.03500044345855713,
+    "plaza_z": 0.034999966621398926,
+    "surface": "E_WALK central staggered paving"
+  },
+  {
+    "x": 65.13712277982076,
+    "path_z": 0.03500056266784668,
+    "plaza_z": 0.034999847412109375,
+    "surface": "E_WALK central staggered paving"
+  },
+  {
+    "x": 65.15212237269084,
+    "path_z": 0.03500080108642578,
+    "plaza_z": 0.034999847412109375,
+    "surface": "E_WALK central staggered paving"
+  },
+  {
+    "x": 65.16712196556091,
+    "path_z": 0.03500080108642578,
+    "plaza_z": 0.034999966621398926,
+    "surface": "E_WALK central staggered paving"
+  },
+  {
+    "x": 65.18212155843099,
+    "path_z": 0.03500080108642578,
+    "plaza_z": 0.034999966621398926,
+    "surface": "E_WALK central staggered paving"
+  },
+  {
+    "x": 65.19712115130106,
+    "path_z": 0.03500080108642578,
+    "plaza_z": 0.034999966621398926,
+    "surface": "E_WALK central staggered paving"
+  },
+  {
+    "x": 65.21212074417114,
+    "path_z": 0.03500080108642578,
+    "plaza_z": 0.034999847412109375,
+    "surface": "E_WALK central staggered paving"
+  },
+  {
+    "x": 65.22712033704121,
+    "path_z": 0.03500044345855713,
+    "plaza_z": 0.034999847412109375,
+    "surface": "E_WALK central staggered paving"
+  },
+  {
+    "x": 65.2421199299113,
+    "path_z": 0.03500044345855713,
+    "plaza_z": 0.034999966621398926,
+    "surface": "E_WALK central staggered paving"
+  },
+  {
+    "x": 65.25711952278138,
+    "path_z": 0.03500080108642578,
+    "plaza_z": 0.034999966621398926,
+    "surface": "E_WALK central staggered paving"
+  },
+  {
+    "x": 65.27211911565145,
+    "path_z": 0.03500080108642578,
+    "plaza_z": 0.034999966621398926,
+    "surface": "E_WALK central staggered paving"
+  },
+  {
+    "x": 65.28711870852153,
+    "path_z": 0.03500080108642578,
+    "plaza_z": 0.034999966621398926,
+    "surface": "E_WALK central staggered paving"
+  },
+  {
+    "x": 65.3021183013916,
+    "path_z": 0.03500080108642578,
+    "plaza_z": 0.034999966621398926,
+    "surface": "E_WALK central staggered paving"
+  },
+  {
+    "x": 65.31711789426168,
+    "path_z": 0.03500080108642578,
+    "plaza_z": 0.034999966621398926,
+    "surface": "E_WALK central staggered paving"
+  },
+  {
+    "x": 65.33211748713175,
+    "path_z": 0.03500080108642578,
+    "plaza_z": 0.034999966621398926,
+    "surface": "E_WALK central staggered paving"
+  },
+  {
+    "x": 65.34711708000184,
+    "path_z": 0.03500080108642578,
+    "plaza_z": 0.034999966621398926,
+    "surface": "E_WALK central staggered paving"
+  },
+  {
+    "x": 65.3621166728719,
+    "path_z": 0.03500044345855713,
+    "plaza_z": 0.034999966621398926,
+    "surface": "E_WALK central staggered paving"
+  },
+  {
+    "x": 65.37711626574199,
+    "path_z": 0.03500044345855713,
+    "plaza_z": 0.034999966621398926,
+    "surface": "E_WALK central staggered paving"
+  },
+  {
+    "x": 65.39211585861206,
+    "path_z": 0.03500080108642578,
+    "plaza_z": 0.034999966621398926,
+    "surface": "E_WALK central staggered paving"
+  },
+  {
+    "x": 65.40711545148214,
+    "path_z": 0.03500044345855713,
+    "plaza_z": 0.034999966621398926,
+    "surface": "E_WALK central staggered paving"
+  },
+  {
+    "x": 65.42211504435221,
+    "path_z": 0.03500080108642578,
+    "plaza_z": 0.034999966621398926,
+    "surface": "E_WALK central staggered paving"
+  },
+  {
+    "x": 65.4371146372223,
+    "path_z": 0.03500080108642578,
+    "plaza_z": 0.034999728202819824,
+    "surface": "E_WALK central staggered paving"
+  },
+  {
+    "x": 65.45211423009236,
+    "path_z": 0.03500056266784668,
+    "plaza_z": 0.034999966621398926,
+    "surface": "E_WALK central staggered paving"
+  },
+  {
+    "x": 65.46711382296245,
+    "path_z": 0.03500080108642578,
+    "plaza_z": 0.034999966621398926,
+    "surface": "E_WALK central staggered paving"
+  },
+  {
+    "x": 65.48211341583252,
+    "path_z": 0.03500080108642578,
+    "plaza_z": 0.034999966621398926,
+    "surface": "E_WALK central staggered paving"
+  },
+  {
+    "x": 65.4971130087026,
+    "path_z": 0.03500056266784668,
+    "plaza_z": 0.034999966621398926,
+    "surface": "E_WALK central staggered paving"
+  },
+  {
+    "x": 65.51211260157267,
+    "path_z": 0.03500056266784668,
+    "plaza_z": 0.034999966621398926,
+    "surface": "E_WALK central staggered paving"
+  },
+  {
+    "x": 65.52711219444275,
+    "path_z": 0.03500056266784668,
+    "plaza_z": 0.034999966621398926,
+    "surface": "E_WALK central staggered paving"
+  },
+  {
+    "x": 65.54211178731283,
+    "path_z": 0.03500080108642578,
+    "plaza_z": 0.034999966621398926,
+    "surface": "E_WALK central staggered paving"
+  },
+  {
+    "x": 65.5571113801829,
+    "path_z": 0.03500056266784668,
+    "plaza_z": 0.034999966621398926,
+    "surface": "E_WALK central staggered paving"
+  },
+  {
+    "x": 65.57211097305299,
+    "path_z": 0.03500080108642578,
+    "plaza_z": 0.034999966621398926,
+    "surface": "E_WALK central staggered paving"
+  },
+  {
+    "x": 65.58711056592306,
+    "path_z": 0.03500092029571533,
+    "plaza_z": 0.034999966621398926,
+    "surface": "E_WALK central staggered paving"
+  },
+  {
+    "x": 65.60211015879314,
+    "path_z": 0.03500044345855713,
+    "plaza_z": 0.034999966621398926,
+    "surface": "E_WALK central staggered paving"
+  },
+  {
+    "x": 65.61710975166321,
+    "path_z": 0.03500080108642578,
+    "plaza_z": 0.034999966621398926,
+    "surface": "E_WALK central staggered paving"
+  },
+  {
+    "x": 65.63210934453329,
+    "path_z": 0.03500080108642578,
+    "plaza_z": 0.034999966621398926,
+    "surface": "E_WALK central staggered paving"
+  },
+  {
+    "x": 65.64710893740336,
+    "path_z": 0.03500080108642578,
+    "plaza_z": 0.034999966621398926,
+    "surface": "E_WALK central staggered paving"
+  },
+  {
+    "x": 65.66210853027344,
+    "path_z": 0.03500080108642578,
+    "plaza_z": 0.034999966621398926,
+    "surface": "E_WALK central staggered paving"
+  },
+  {
+    "x": 65.67710812314351,
+    "path_z": 0.03500056266784668,
+    "plaza_z": 0.034999728202819824,
+    "surface": "E_WALK central staggered paving"
+  },
+  {
+    "x": 65.6921077160136,
+    "path_z": 0.03500044345855713,
+    "plaza_z": 0.034999966621398926,
+    "surface": "E_WALK central staggered paving"
+  },
+  {
+    "x": 65.70710730888366,
+    "path_z": 0.03500092029571533,
+    "plaza_z": 0.034999966621398926,
+    "surface": "E_WALK central staggered paving"
+  },
+  {
+    "x": 65.72210690175375,
+    "path_z": 0.03500080108642578,
+    "plaza_z": 0.034999966621398926,
+    "surface": "E_WALK central staggered paving"
+  },
+  {
+    "x": 65.73710649462382,
+    "path_z": 0.03500056266784668,
+    "plaza_z": 0.034999966621398926,
+    "surface": "E_WALK central staggered paving"
+  },
+  {
+    "x": 65.7521060874939,
+    "path_z": 0.03500080108642578,
+    "plaza_z": 0.034999966621398926,
+    "surface": "E_WALK central staggered paving"
+  },
+  {
+    "x": 65.76710568036397,
+    "path_z": 0.03500080108642578,
+    "plaza_z": 0.034999966621398926,
+    "surface": "E_WALK central staggered paving"
+  },
+  {
+    "x": 65.78210527323405,
+    "path_z": 0.03500044345855713,
+    "plaza_z": 0.034999966621398926,
+    "surface": "E_WALK central staggered paving"
+  },
+  {
+    "x": 65.79710486610412,
+    "path_z": 0.03500080108642578,
+    "plaza_z": 0.034999966621398926,
+    "surface": "E_WALK central staggered paving"
+  },
+  {
+    "x": 65.8121044589742,
+    "path_z": 0.03500044345855713,
+    "plaza_z": 0.034999966621398926,
+    "surface": "E_WALK central staggered paving"
+  },
+  {
+    "x": 65.82710405184429,
+    "path_z": 0.03500080108642578,
+    "plaza_z": 0.034999966621398926,
+    "surface": "E_WALK central staggered paving"
+  },
+  {
+    "x": 65.84210364471436,
+    "path_z": 0.03500080108642578,
+    "plaza_z": 0.034999966621398926,
+    "surface": "E_WALK central staggered paving"
+  },
+  {
+    "x": 65.85710323758444,
+    "path_z": 0.03500080108642578,
+    "plaza_z": 0.034999966621398926,
+    "surface": "E_WALK central staggered paving"
+  },
+  {
+    "x": 65.87210283045451,
+    "path_z": 0.03500080108642578,
+    "plaza_z": 0.034999966621398926,
+    "surface": "E_WALK central staggered paving"
+  },
+  {
+    "x": 65.88710242332459,
+    "path_z": 0.03500080108642578,
+    "plaza_z": 0.034999966621398926,
+    "surface": "E_WALK central staggered paving"
+  },
+  {
+    "x": 65.90210201619466,
+    "path_z": 0.03500080108642578,
+    "plaza_z": 0.034999966621398926,
+    "surface": "E_WALK central staggered paving"
+  },
+  {
+    "x": 65.91710160906474,
+    "path_z": 0.03500080108642578,
+    "plaza_z": 0.034999966621398926,
+    "surface": "E_WALK central staggered paving"
+  },
+  {
+    "x": 65.93210120193481,
+    "path_z": 0.03500044345855713,
+    "plaza_z": 0.034999966621398926,
+    "surface": "E_WALK central staggered paving"
+  },
+  {
+    "x": 65.9471007948049,
+    "path_z": 0.03500044345855713,
+    "plaza_z": 0.034999966621398926,
+    "surface": "E_WALK central staggered paving"
+  },
+  {
+    "x": 65.96210038767497,
+    "path_z": 0.03500044345855713,
+    "plaza_z": 0.034999966621398926,
+    "surface": "E_WALK central staggered paving"
+  },
+  {
+    "x": 65.97709998054505,
+    "path_z": 0.03500044345855713,
+    "plaza_z": 0.034999966621398926,
+    "surface": "E_WALK central staggered paving"
+  },
+  {
+    "x": 65.99209957341512,
+    "path_z": 0.03500080108642578,
+    "plaza_z": 0.034999966621398926,
+    "surface": "E_WALK central staggered paving"
+  },
+  {
+    "x": 66.0070991662852,
+    "path_z": 0.03500056266784668,
+    "plaza_z": 0.034999966621398926,
+    "surface": "E_WALK central staggered paving"
+  },
+  {
+    "x": 66.02209875915527,
+    "path_z": 0.03500044345855713,
+    "plaza_z": 0.034999966621398926,
+    "surface": "E_WALK central staggered paving"
+  },
+  {
+    "x": 66.03709835202535,
+    "path_z": 0.03500080108642578,
+    "plaza_z": 0.034999966621398926,
+    "surface": "E_WALK central staggered paving"
+  },
+  {
+    "x": 66.05209794489542,
+    "path_z": 0.03500080108642578,
+    "plaza_z": 0.034999966621398926,
+    "surface": "E_WALK central staggered paving"
+  },
+  {
+    "x": 66.0670975377655,
+    "path_z": 0.03500080108642578,
+    "plaza_z": 0.034999966621398926,
+    "surface": "E_WALK central staggered paving"
+  },
+  {
+    "x": 66.08209713063557,
+    "path_z": 0.03500056266784668,
+    "plaza_z": 0.034999966621398926,
+    "surface": "E_WALK central staggered paving"
+  },
+  {
+    "x": 66.09709672350566,
+    "path_z": 0.03500080108642578,
+    "plaza_z": 0.034999728202819824,
+    "surface": "E_WALK central staggered paving"
+  },
+  {
+    "x": 66.11209631637573,
+    "path_z": 0.03500080108642578,
+    "plaza_z": 0.034999966621398926,
+    "surface": "E_WALK central staggered paving"
+  },
+  {
+    "x": 66.12709590924581,
+    "path_z": 0.03500056266784668,
+    "plaza_z": 0.034999966621398926,
+    "surface": "E_WALK central staggered paving"
+  },
+  {
+    "x": 66.1420955021159,
+    "path_z": 0.03500092029571533,
+    "plaza_z": 0.034999966621398926,
+    "surface": "E_WALK central staggered paving"
+  },
+  {
+    "x": 66.15709509498596,
+    "path_z": 0.03500080108642578,
+    "plaza_z": 0.034999966621398926,
+    "surface": "E_WALK central staggered paving"
+  },
+  {
+    "x": 66.17209468785605,
+    "path_z": 0.03500080108642578,
+    "plaza_z": 0.034999966621398926,
+    "surface": "E_WALK central staggered paving"
+  },
+  {
+    "x": 66.18709428072611,
+    "path_z": 0.03500068187713623,
+    "plaza_z": 0.034999966621398926,
+    "surface": "E_WALK central staggered paving"
+  },
+  {
+    "x": 66.2020938735962,
+    "path_z": 0.03500068187713623,
+    "plaza_z": 0.034999966621398926,
+    "surface": "E_WALK central staggered paving"
+  },
+  {
+    "x": 66.21709346646627,
+    "path_z": 0.03500056266784668,
+    "plaza_z": 0.034999966621398926,
+    "surface": "E_WALK central staggered paving"
+  },
+  {
+    "x": 66.23209305933635,
+    "path_z": 0.03500056266784668,
+    "plaza_z": 0.034999966621398926,
+    "surface": "E_WALK central staggered paving"
+  },
+  {
+    "x": 66.24709265220642,
+    "path_z": 0.03500068187713623,
+    "plaza_z": 0.034999966621398926,
+    "surface": "E_WALK central staggered paving"
+  },
+  {
+    "x": 66.2620922450765,
+    "path_z": 0.03500056266784668,
+    "plaza_z": 0.034999966621398926,
+    "surface": "E_WALK central staggered paving"
+  },
+  {
+    "x": 66.27709183794657,
+    "path_z": 0.03500068187713623,
+    "plaza_z": 0.034999728202819824,
+    "surface": "E_WALK central staggered paving"
+  },
+  {
+    "x": 66.29209143081665,
+    "path_z": 0.03500068187713623,
+    "plaza_z": 0.034999966621398926,
+    "surface": "E_WALK central staggered paving"
+  },
+  {
+    "x": 66.30709102368672,
+    "path_z": 0.03500068187713623,
+    "plaza_z": 0.034999966621398926,
+    "surface": "E_WALK central staggered paving"
+  },
+  {
+    "x": 66.3220906165568,
+    "path_z": 0.03500068187713623,
+    "plaza_z": 0.034999966621398926,
+    "surface": "E_WALK central staggered paving"
+  },
+  {
+    "x": 66.33709020942688,
+    "path_z": 0.03500068187713623,
+    "plaza_z": 0.034999966621398926,
+    "surface": "E_WALK central staggered paving"
+  },
+  {
+    "x": 66.35208980229696,
+    "path_z": 0.03500056266784668,
+    "plaza_z": 0.034999847412109375,
+    "surface": "E_WALK central staggered paving"
+  },
+  {
+    "x": 66.36708939516703,
+    "path_z": 0.03500068187713623,
+    "plaza_z": 0.034999966621398926,
+    "surface": "E_WALK central staggered paving"
+  },
+  {
+    "x": 66.38208898803711,
+    "path_z": 0.03500068187713623,
+    "plaza_z": 0.034999966621398926,
+    "surface": "E_WALK central staggered paving"
+  },
+  {
+    "x": 66.3970885809072,
+    "path_z": 0.03500068187713623,
+    "plaza_z": 0.034999966621398926,
+    "surface": "E_WALK central staggered paving"
+  },
+  {
+    "x": 66.41208817377726,
+    "path_z": 0.03500056266784668,
+    "plaza_z": 0.034999966621398926,
+    "surface": "E_WALK central staggered paving"
+  },
+  {
+    "x": 66.42708776664735,
+    "path_z": 0.03500068187713623,
+    "plaza_z": 0.034999966621398926,
+    "surface": "E_WALK central staggered paving"
+  },
+  {
+    "x": 66.44208735951742,
+    "path_z": 0.03500068187713623,
+    "plaza_z": 0.034999966621398926,
+    "surface": "E_WALK central staggered paving"
+  },
+  {
+    "x": 66.4570869523875,
+    "path_z": 0.03500068187713623,
+    "plaza_z": 0.034999966621398926,
+    "surface": "E_WALK central staggered paving"
+  },
+  {
+    "x": 66.47208654525757,
+    "path_z": 0.03500068187713623,
+    "plaza_z": 0.034999966621398926,
+    "surface": "E_WALK central staggered paving"
+  },
+  {
+    "x": 66.48708613812765,
+    "path_z": 0.03500068187713623,
+    "plaza_z": 0.034999966621398926,
+    "surface": "E_WALK central staggered paving"
+  },
+  {
+    "x": 66.50208573099772,
+    "path_z": 0.03500068187713623,
+    "plaza_z": 0.034999966621398926,
+    "surface": "E_WALK central staggered paving"
+  },
+  {
+    "x": 66.5170853238678,
+    "path_z": 0.03500068187713623,
+    "plaza_z": 0.034999966621398926,
+    "surface": "E_WALK central staggered paving"
+  },
+  {
+    "x": 66.53208491673787,
+    "path_z": 0.03500056266784668,
+    "plaza_z": 0.034999966621398926,
+    "surface": "E_WALK central staggered paving"
+  },
+  {
+    "x": 66.54708450960796,
+    "path_z": 0.03500056266784668,
+    "plaza_z": 0.034999728202819824,
+    "surface": "E_WALK central staggered paving"
+  },
+  {
+    "x": 66.56208410247802,
+    "path_z": 0.03500056266784668,
+    "plaza_z": 0.034999966621398926,
+    "surface": "E_WALK central staggered paving"
+  },
+  {
+    "x": 66.57708369534811,
+    "path_z": 0.03500068187713623,
+    "plaza_z": 0.034999966621398926,
+    "surface": "E_WALK central staggered paving"
+  },
+  {
+    "x": 66.59208328821818,
+    "path_z": 0.03500056266784668,
+    "plaza_z": 0.034999966621398926,
+    "surface": "E_WALK central staggered paving"
+  },
+  {
+    "x": 66.60708288108826,
+    "path_z": 0.03500068187713623,
+    "plaza_z": 0.034999966621398926,
+    "surface": "E_WALK central staggered paving"
+  },
+  {
+    "x": 66.62208247395833,
+    "path_z": 0.03500068187713623,
+    "plaza_z": 0.034999966621398926,
+    "surface": "E_WALK central staggered paving"
+  },
+  {
+    "x": 66.63708206682841,
+    "path_z": 0.03500068187713623,
+    "plaza_z": 0.034999966621398926,
+    "surface": "E_WALK central staggered paving"
+  },
+  {
+    "x": 66.65208165969848,
+    "path_z": 0.03500056266784668,
+    "plaza_z": 0.034999966621398926,
+    "surface": "E_WALK central staggered paving"
+  },
+  {
+    "x": 66.66708125256856,
+    "path_z": 0.03500068187713623,
+    "plaza_z": 0.034999966621398926,
+    "surface": "E_WALK central staggered paving"
+  },
+  {
+    "x": 66.68208084543863,
+    "path_z": 0.03500056266784668,
+    "plaza_z": 0.034999966621398926,
+    "surface": "E_WALK central staggered paving"
+  },
+  {
+    "x": 66.69708043830872,
+    "path_z": 0.03500068187713623,
+    "plaza_z": 0.034999966621398926,
+    "surface": "E_WALK central staggered paving"
+  },
+  {
+    "x": 66.7120800311788,
+    "path_z": 0.03500068187713623,
+    "plaza_z": 0.034999966621398926,
+    "surface": "E_WALK central staggered paving"
+  },
+  {
+    "x": 66.72707962404887,
+    "path_z": 0.03500068187713623,
+    "plaza_z": 0.034999966621398926,
+    "surface": "E_WALK central staggered paving"
+  },
+  {
+    "x": 66.74207921691895,
+    "path_z": 0.03500056266784668,
+    "plaza_z": 0.034999966621398926,
+    "surface": "E_WALK central staggered paving"
+  },
+  {
+    "x": 66.75707880978902,
+    "path_z": 0.03500068187713623,
+    "plaza_z": 0.034999966621398926,
+    "surface": "E_WALK central staggered paving"
+  },
+  {
+    "x": 66.7720784026591,
+    "path_z": 0.03500068187713623,
+    "plaza_z": 0.034999728202819824,
+    "surface": "E_WALK central staggered paving"
+  },
+  {
+    "x": 66.78707799552917,
+    "path_z": 0.03500056266784668,
+    "plaza_z": 0.034999966621398926,
+    "surface": "E_WALK recessed arc band 1 098"
+  },
+  {
+    "x": 66.80207758839926,
+    "path_z": 0.03500080108642578,
+    "plaza_z": 0.034999966621398926,
+    "surface": "E_WALK recessed arc band 1 098"
+  },
+  {
+    "x": 66.81707718126933,
+    "path_z": 0.03500068187713623,
+    "plaza_z": 0.034999966621398926,
+    "surface": "E_WALK recessed arc band 1 098"
+  },
+  {
+    "x": 66.83207677413941,
+    "path_z": 0.03500080108642578,
+    "plaza_z": 0.034999728202819824,
+    "surface": "E_WALK recessed arc band 1 098"
+  },
+  {
+    "x": 66.84707636700948,
+    "path_z": 0.03500080108642578,
+    "plaza_z": 0.034999966621398926,
+    "surface": "E_WALK recessed arc band 1 098"
+  },
+  {
+    "x": 66.86207595987956,
+    "path_z": 0.03500080108642578,
+    "plaza_z": 0.034999966621398926,
+    "surface": "E_WALK recessed arc band 1 098"
+  },
+  {
+    "x": 66.87707555274963,
+    "path_z": 0.03500080108642578,
+    "plaza_z": 0.034999966621398926,
+    "surface": "E_WALK recessed arc band 1 098"
+  },
+  {
+    "x": 66.89207514561971,
+    "path_z": 0.03500068187713623,
+    "plaza_z": 0.034999966621398926,
+    "surface": "E_WALK recessed arc band 1 098"
+  },
+  {
+    "x": 66.90707473848978,
+    "path_z": 0.03500092029571533,
+    "plaza_z": 0.034999966621398926,
+    "surface": "E_WALK recessed arc band 1 098"
+  },
+  {
+    "x": 66.92207433135987,
+    "path_z": 0.03500080108642578,
+    "plaza_z": 0.034999966621398926,
+    "surface": "E_WALK recessed arc band 1 098"
+  },
+  {
+    "x": 66.93707392422994,
+    "path_z": 0.03500068187713623,
+    "plaza_z": 0.034999966621398926,
+    "surface": "E_WALK recessed arc band 1 098"
+  },
+  {
+    "x": 66.95207351710002,
+    "path_z": 0.03500080108642578,
+    "plaza_z": 0.034999966621398926,
+    "surface": "E_WALK recessed arc band 1 098"
+  },
+  {
+    "x": 66.9670731099701,
+    "path_z": 0.03500056266784668,
+    "plaza_z": 0.034999847412109375,
+    "surface": "E_WALK recessed arc band 1 098"
+  },
+  {
+    "x": 66.98207270284017,
+    "path_z": 0.03500080108642578,
+    "plaza_z": 0.034999966621398926,
+    "surface": "E_WALK recessed arc band 1 098"
+  },
+  {
+    "x": 66.99707229571025,
+    "path_z": 0.03500068187713623,
+    "plaza_z": 0.034999966621398926,
+    "surface": "E_WALK recessed arc band 1 098"
+  },
+  {
+    "x": 67.01207188858032,
+    "path_z": 0.03500080108642578,
+    "plaza_z": 0.034999966621398926,
+    "surface": "E_WALK recessed arc band 1 098"
+  },
+  {
+    "x": 67.0270714814504,
+    "path_z": 0.03500068187713623,
+    "plaza_z": 0.034999966621398926,
+    "surface": "E_WALK recessed arc band 1 098"
+  },
+  {
+    "x": 67.04207107432048,
+    "path_z": 0.03500068187713623,
+    "plaza_z": 0.034999847412109375,
+    "surface": "E_WALK recessed arc band 1 098"
+  },
+  {
+    "x": 67.05707066719056,
+    "path_z": 0.03500080108642578,
+    "plaza_z": 0.034999966621398926,
+    "surface": "E_WALK recessed arc band 1 098"
+  },
+  {
+    "x": 67.07207026006063,
+    "path_z": 0.03500092029571533,
+    "plaza_z": 0.034999966621398926,
+    "surface": "E_WALK recessed arc band 1 098"
+  },
+  {
+    "x": 67.08706985293071,
+    "path_z": 0.03500068187713623,
+    "plaza_z": 0.034999966621398926,
+    "surface": "E_WALK recessed arc band 1 098"
+  },
+  {
+    "x": 67.10206944580078,
+    "path_z": 0.03500080108642578,
+    "plaza_z": 0.034999966621398926,
+    "surface": "E_WALK recessed arc band 1 098"
+  }
+]

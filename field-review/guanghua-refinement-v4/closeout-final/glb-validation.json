@@ -1,0 +1,159 @@
+{
+  "source_sha256": "8625e7b4813f9a864c5a03121f32f28e2cc1e5d7265518b921593a137f8b8714",
+  "production_assets": [
+    {
+      "url": "models/landscape/guanghua-closeout.glb",
+      "revision": "e45cc1abf184",
+      "bytes": 121353204
+    },
+    {
+      "url": "models/buildings/27-closeout.glb",
+      "revision": "7729b2cea51e",
+      "bytes": 3178560
+    }
+  ],
+  "meshes": 2229,
+  "features": [
+    "BOUNDARY",
+    "BUILDING_ENTRY",
+    "DING",
+    "EDGE_PATHS",
+    "EOPEN",
+    "EOPEN_S",
+    "EPATH",
+    "ERAMP",
+    "ESKY",
+    "ETERR",
+    "E_ENTRY",
+    "E_FURNITURE",
+    "E_PLANTING",
+    "E_WALK",
+    "FLOWER",
+    "FORECOURT",
+    "FURNITURE",
+    "GARDEN_VEGETATION_V3",
+    "GROUND",
+    "LAWN",
+    "LAWN_EDGE",
+    "POET_DONKEY",
+    "POET_GARDEN",
+    "SIGN",
+    "TREE_CANOPY_V6",
+    "VEGETATION",
+    "VEGETATION_V2",
+    "WB1",
+    "WB2",
+    "WGLASS",
+    "WGLASS2",
+    "WOPEN",
+    "WOPEN_S",
+    "WPATH",
+    "WSKY1",
+    "WSKY2",
+    "WTERR",
+    "W_ENTRY"
+  ],
+  "textNodes": [
+    {
+      "name": "POET_DONKEY_驢背詩思001",
+      "body": "驢背詩思",
+      "feature": "POET_DONKEY",
+      "min": [
+        80.13766244692322,
+        0.2651358368398865,
+        -201.4644127727421
+      ],
+      "max": [
+        80.72171177015248,
+        0.40110554072750915,
+        -201.38129937251392
+      ]
+    },
+    {
+      "name": "WB1__text__光华楼广场自行车库",
+      "body": "光华楼广场自行车库",
+      "feature": "WB1",
+      "min": [
+        68.09957325135221,
+        1.233014833581479,
+        -156.5112982412679
+      ],
+      "max": [
+        68.10584056700716,
+        1.5283620838217697,
+        -153.09796499225118
+      ]
+    },
+    {
+      "name": "WB2__text__光华楼广场自行车库",
+      "body": "光华楼广场自行车库",
+      "feature": "WB2",
+      "min": [
+        68.09957325135221,
+        1.233014833581479,
+        -171.17796999419758
+      ],
+      "max": [
+        68.10584056700716,
+        1.5283620838217697,
+        -167.76463674518087
+      ]
+    },
+    {
+      "name": "SIGN__text__FUDAN",
+      "body": "FUDAN",
+      "feature": "SIGN",
+      "min": [
+        132.16276088856154,
+        0.2500032210150612,
+        -129.22400578435597
+      ],
+      "max": [
+        136.29609444993451,
+        0.8680209110576206,
+        -128.98934260316153
+      ]
+    }
+  ],
+  "trianglesByLod": {
+    "near": 3503744,
+    "middle": 1793622,
+    "far": 337950,
+    "static": 1523728
+  },
+  "threeLevelGroups": 330,
+  "sharedGeometries": 237,
+  "textures": 54,
+  "estimatedRgbaTextureBytesWithMipmaps": 141907286,
+  "surfaceProbes": [
+    {
+      "id": "LAWN",
+      "object": "GH_LAWN_tile_0_1_hardscape",
+      "height": 0.036987942060891885
+    },
+    {
+      "id": "WOPEN",
+      "object": "GH_WOPEN_tile_-1_1_hardscape_3",
+      "height": -0.6913039059295643
+    },
+    {
+      "id": "WOPEN_S",
+      "object": "GH_WOPEN_S_tile_-1_1_hardscape_3",
+      "height": -0.6913041755168797
+    },
+    {
+      "id": "EOPEN",
+      "object": "GH_EOPEN_tile_1_1_hardscape_3",
+      "height": -0.6913039059295643
+    },
+    {
+      "id": "EOPEN_S",
+      "object": "GH_EOPEN_S_tile_1_1_hardscape_3",
+      "height": 0.14202922238814886
+    }
+  ],
+  "retainedVegetationTriangles": 60172,
+  "duplicateOutsideAssetVertices": [],
+  "otherCampusAssetsUnchanged": true,
+  "compressedProductionGLBLoadsInThree": true
+}

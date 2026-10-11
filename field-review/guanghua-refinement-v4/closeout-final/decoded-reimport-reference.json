@@ -1,0 +1,142 @@
+{
+  "source_sha256": "8625e7b4813f9a864c5a03121f32f28e2cc1e5d7265518b921593a137f8b8714",
+  "source_matches_export": true,
+  "page_sha256": "5f9ae28c9fa955216e3fd1bce54f708c05285e6e101d872fdde64829eb162d33",
+  "assets": [
+    {
+      "url": "models/landscape/guanghua-closeout.glb",
+      "revision": "e45cc1abf184",
+      "bytes": 121353204,
+      "sha256": "e45cc1abf18449507abd402b4db7ea0995e8a9b22cdcc6b32d8f84604e687bd2",
+      "actual_bytes": 121353204,
+      "matches_registered_bytes_and_revision": true
+    },
+    {
+      "url": "models/buildings/27-closeout.glb",
+      "revision": "7729b2cea51e",
+      "bytes": 3178560,
+      "sha256": "7729b2cea51e64e56dbb167891ca3bf259731451be494969463066f3acb74156",
+      "actual_bytes": 3178560,
+      "matches_registered_bytes_and_revision": true
+    },
+    {
+      "id": "05",
+      "name": "05 Landscape",
+      "url": "models/shared/05-guanghua-closeout.glb",
+      "revision": "39c56a008f4e",
+      "bytes": 4803248,
+      "sha256": "39c56a008f4ec9ceb712a91c4a49cd14d334b22e18aff6fb29ca79328e98e42d",
+      "actual_bytes": 4803248,
+      "matches_registered_bytes_and_revision": true
+    }
+  ],
+  "frozen": true,
+  "compressed_production": "C:\\Users\\Lumin\\source\\FudanCampus-course\\web\\public\\models\\landscape\\guanghua-closeout.glb",
+  "production_sha256": "e45cc1abf18449507abd402b4db7ea0995e8a9b22cdcc6b32d8f84604e687bd2",
+  "decoded_qa_file": "C:\\Users\\Lumin\\source\\FudanCampus-course\\field-review\\guanghua-refinement-v4\\closeout-final\\qa-decoded-reimport.glb",
+  "decoded_sha256": "9565b1d3dab253a1d6963e983cc8d369ba538199246a62c769f690c19fe09a4d",
+  "decoded_bytes": 264196152,
+  "method": "NodeIO loads and decodes EXT_meshopt_compression; only that encoding extension is disposed before writing an equivalent QA derivative. Blender imports the derivative because its production meshopt support is not assumed.",
+  "temporary_derivative_is_not_a_production_asset": true,
+  "extensions_before": [
+    "EXT_meshopt_compression",
+    "KHR_materials_ior",
+    "KHR_materials_specular",
+    "KHR_materials_transmission",
+    "KHR_mesh_quantization"
+  ],
+  "extensions_after": [
+    "KHR_materials_ior",
+    "KHR_materials_specular",
+    "KHR_materials_transmission",
+    "KHR_mesh_quantization"
+  ],
+  "triangles": 7159044,
+  "nonfinite": 0,
+  "bounds_blender": {
+    "min": [
+      57.86666691303253,
+      116.80019421016412,
+      -2.6776913230453587
+    ],
+    "max": [
+      192.7347485284431,
+      207.80045237592864,
+      14.329870268753982
+    ]
+  },
+  "texts": [
+    {
+      "name": "POET_DONKEY 驢背詩思.001",
+      "body": "驢背詩思",
+      "feature": "POET_DONKEY",
+      "bounds_blender": {
+        "min": [
+          80.13766244692816,
+          201.38129937491968,
+          0.26513583820695186
+        ],
+        "max": [
+          80.72171177014995,
+          201.46441277182095,
+          0.4011055391912806
+        ]
+      },
+      "triangles": 19496
+    },
+    {
+      "name": "WB1__text__光华楼广场自行车库",
+      "body": "光华楼广场自行车库",
+      "feature": "WB1",
+      "bounds_blender": {
+        "min": [
+          68.09957325135221,
+          153.09796499225118,
+          1.233014833581479
+        ],
+        "max": [
+          68.10584056700716,
+          156.5112982412679,
+          1.5283620838217697
+        ]
+      },
+      "triangles": 83036
+    },
+    {
+      "name": "WB2__text__光华楼广场自行车库",
+      "body": "光华楼广场自行车库",
+      "feature": "WB2",
+      "bounds_blender": {
+        "min": [
+          68.09957325135221,
+          167.76463674518087,
+          1.233014833581479
+        ],
+        "max": [
+          68.10584056700716,
+          171.17796999419758,
+          1.5283620838217697
+        ]
+      },
+      "triangles": 83036
+    },
+    {
+      "name": "SIGN__text__FUDAN",
+      "body": "FUDAN",
+      "feature": "SIGN",
+      "bounds_blender": {
+        "min": [
+          132.16276088856154,
+          128.98934260369757,
+          0.25000322155111293
+        ],
+        "max": [
+          136.29609444993451,
+          129.22400578381993,
+          0.8680209105215688
+        ]
+      },
+      "triangles": 9660
+    }
+  ]
+}

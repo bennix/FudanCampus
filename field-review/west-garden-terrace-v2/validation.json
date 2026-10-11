@@ -1,0 +1,174 @@
+{
+  "checkpoint_reopens": true,
+  "baselines_unchanged": {
+    "field-review\\guanghua-lawn-survey-v1\\model\\guanghua-lawn-v1.blend": "9448bf71fd9d4e5566fbde2aa17cfef0e5bc5c06747505112a93020b9c18cf73",
+    "field-review\\guanghua-lawn-shape-v2\\guanghua-lawn-shape-v2.blend": "9c92bba8e572a6d8c20ce3ce5d9d66ce3a369eba6e2e3ac77267ef9466087d83"
+  },
+  "glb_parses": true,
+  "WTERR_id_retained": true,
+  "meshes": [
+    {
+      "object": "WTERR__approach-coping__pale",
+      "nonmanifold_edges": 0,
+      "signed_volume": 0.5680001826285661
+    },
+    {
+      "object": "WTERR__approach-planter__concrete",
+      "nonmanifold_edges": 0,
+      "signed_volume": 5.751008421564109
+    },
+    {
+      "object": "WTERR__bench__benchwood",
+      "nonmanifold_edges": 0,
+      "signed_volume": 0.12568019987761603
+    },
+    {
+      "object": "WTERR__bench__rail",
+      "nonmanifold_edges": 0,
+      "signed_volume": 0.027770950274367157
+    },
+    {
+      "object": "WTERR__central-coping__pale",
+      "nonmanifold_edges": 0,
+      "signed_volume": 0.32944065505868103
+    },
+    {
+      "object": "WTERR__central-retaining-wall__concrete",
+      "nonmanifold_edges": 0,
+      "signed_volume": 3.8694993530139072
+    },
+    {
+      "object": "WTERR__hedge__hedge",
+      "nonmanifold_edges": 0,
+      "signed_volume": 20.694443496475287
+    },
+    {
+      "object": "WTERR__hedge__hedge.001",
+      "nonmanifold_edges": 0,
+      "signed_volume": 2.7689950714120597
+    },
+    {
+      "object": "WTERR__hedge__redhedge",
+      "nonmanifold_edges": 0,
+      "signed_volume": 33.149996280670166
+    },
+    {
+      "object": "WTERR__low-walk__pale",
+      "nonmanifold_edges": 0,
+      "signed_volume": 4.839993136972396
+    },
+    {
+      "object": "WTERR__paving-bands__joint",
+      "nonmanifold_edges": 0,
+      "signed_volume": 0.35190459079220204
+    },
+    {
+      "object": "WTERR__rail-bar__wood",
+      "nonmanifold_edges": 0,
+      "signed_volume": 1.5800095558049816
+    },
+    {
+      "object": "WTERR__rail-cross__wood",
+      "nonmanifold_edges": 0,
+      "signed_volume": 1.3533500298945977
+    },
+    {
+      "object": "WTERR__rail-post__wood",
+      "nonmanifold_edges": 0,
+      "signed_volume": 0.6048045868861416
+    },
+    {
+      "object": "WTERR__raised-platform__concrete",
+      "nonmanifold_edges": 0,
+      "signed_volume": 739.9300286490469
+    },
+    {
+      "object": "WTERR__recess-wall__concrete",
+      "nonmanifold_edges": 0,
+      "signed_volume": 2.3615946166417814
+    },
+    {
+      "object": "WTERR__skylight-base__concrete",
+      "nonmanifold_edges": 0,
+      "signed_volume": 21.76000213623047
+    },
+    {
+      "object": "WTERR__skylight-frame__rail",
+      "nonmanifold_edges": 0,
+      "signed_volume": 0.13520519714802504
+    },
+    {
+      "object": "WTERR__skylight-frame__silver",
+      "nonmanifold_edges": 0,
+      "signed_volume": 0.07260758639313854
+    },
+    {
+      "object": "WTERR__skylight-glass__glass",
+      "nonmanifold_edges": 0,
+      "signed_volume": 10.66666666666666
+    },
+    {
+      "object": "WTERR__skylight-planter__pale",
+      "nonmanifold_edges": 0,
+      "signed_volume": 23.659997582435615
+    },
+    {
+      "object": "WTERR__steps__pale",
+      "nonmanifold_edges": 0,
+      "signed_volume": 6.290863754106894
+    },
+    {
+      "object": "WTERR__stone-platform__stone",
+      "nonmanifold_edges": 0,
+      "signed_volume": 18.194982647895813
+    },
+    {
+      "object": "WTERR__turn-landing__pale",
+      "nonmanifold_edges": 0,
+      "signed_volume": 8.470002932399513
+    },
+    {
+      "object": "WTERR__upper-entry__stone",
+      "nonmanifold_edges": 0,
+      "signed_volume": 7.699987335505838
+    },
+    {
+      "object": "WTERR__upper-stair-bar__wood",
+      "nonmanifold_edges": 0,
+      "signed_volume": 0.07258418251641263
+    },
+    {
+      "object": "WTERR__upper-stair-cross__wood",
+      "nonmanifold_edges": 0,
+      "signed_volume": 0.06310206957325848
+    },
+    {
+      "object": "WTERR__upper-stair-post__wood",
+      "nonmanifold_edges": 0,
+      "signed_volume": 0.06048276583966672
+    },
+    {
+      "object": "WTERR__vent-louvre__rail",
+      "nonmanifold_edges": 0,
+      "signed_volume": 0.6240081176729326
+    }
+  ],
+  "not_claimed": [
+    "survey accuracy",
+    "full garden integration",
+    "exhaustive self-intersection checks",
+    "resolved entire terrace footprint"
+  ],
+  "connections": {
+    "lower_walk_z": 0.42,
+    "turn_z": 0.75,
+    "upper_z": 1.23,
+    "flights": [
+      3,
+      3,
+      5
+    ],
+    "status": "counts read from visible photos; dimensions inferred"
+  },
+  "glb_imports_in_blender": true
+}

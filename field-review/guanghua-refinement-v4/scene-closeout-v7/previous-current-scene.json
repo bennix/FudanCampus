@@ -1,0 +1,10 @@
+{
+  "version": "guanghua-unified-v5",
+  "date": "2026-09-30",
+  "scene": "C:\\Users\\Lumin\\source\\FudanCampus-course\\field-review\\guanghua-refinement-v4\\scene-unified-v5\\guanghua-unified-v5.blend",
+  "scene_sha256": "ba1a1169e1ff4705db5b467ce2359fe8c086a2801f07548e8d5bb3f085fb310f",
+  "manifest": "C:\\Users\\Lumin\\source\\FudanCampus-course\\field-review\\guanghua-refinement-v4\\scene-unified-v5\\version-manifest.json",
+  "review": "C:\\Users\\Lumin\\source\\FudanCampus-course\\field-review\\guanghua-refinement-v4\\scene-unified-v5\\review.html",
+  "brief": "C:\\Users\\Lumin\\source\\FudanCampus-course\\field-review\\guanghua-refinement-v4\\scene-unified-v5\\README.md",
+  "instruction": "后续整体渲染与细化从此统一检查点开始；禁止从仅含单项改动的分支文件覆盖总场景。"
+}

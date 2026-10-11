@@ -1,0 +1,15 @@
+{
+  "actual_area": 26029.11770906077,
+  "expected_area": 26029.118033491315,
+  "duplicate_projected_area": 0.0,
+  "domain_exterior_error_area": 0.0006721668084275386,
+  "original_holes_or_exterior_filled_area": 0.0,
+  "source_sha256": "1ec2e336e4c8f0933097ea5679bae14b4178039b9cc4975a931eb3fc5f263f9d",
+  "final_source_sha256": "8625e7b4813f9a864c5a03121f32f28e2cc1e5d7265518b921593a137f8b8714",
+  "checks": [
+    "Difference applied to actual new ground projection",
+    "Original holes not filled",
+    "No remaining duplicate ground area"
+  ],
+  "tolerance_note": "Float32 native vertices; exact source-domain subtraction with small boundary representation error separately reported"
+}

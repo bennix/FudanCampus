@@ -1,0 +1,3554 @@
+[
+  {
+    "name": "ESKY__planted-shrubs__leaf-green",
+    "fid": "ESKY",
+    "bounds": [
+      [
+        68.80648040771484,
+        42.322235107421875,
+        1.3240687847137451
+      ],
+      [
+        74.1053695678711,
+        46.880306243896484,
+        1.8593194484710693
+      ]
+    ],
+    "materials": [
+      "leaf-green"
+    ],
+    "hidden": false,
+    "vertices": 884,
+    "polygons": 1040
+  },
+  {
+    "name": "LAWN | satellite-fixed concave north edge",
+    "fid": "LAWN",
+    "bounds": [
+      [
+        -25.0,
+        15.78772258758545,
+        -0.125
+      ],
+      [
+        63.78654479980469,
+        78.24093627929688,
+        0.054999999701976776
+      ]
+    ],
+    "materials": [
+      "FIN_grass"
+    ],
+    "hidden": false,
+    "vertices": 262,
+    "polygons": 520
+  },
+  {
+    "name": "EPATH__photo_shape_road",
+    "fid": "EPATH",
+    "bounds": [
+      [
+        67.10211944580078,
+        39.113460540771484,
+        -0.09000000357627869
+      ],
+      [
+        78.25211334228516,
+        48.70132064819336,
+        1.75
+      ]
+    ],
+    "materials": [
+      "pink-path"
+    ],
+    "hidden": false,
+    "vertices": 10314,
+    "polygons": 20624
+  },
+  {
+    "name": "EPATH__photo_shape_ground",
+    "fid": "EPATH",
+    "bounds": [
+      [
+        67.10211944580078,
+        35.0,
+        -0.09000000357627869
+      ],
+      [
+        88.80211639404297,
+        59.0,
+        1.725000023841858
+      ]
+    ],
+    "materials": [
+      "FIN_garden_grass"
+    ],
+    "hidden": false,
+    "vertices": 89254,
+    "polygons": 178512
+  },
+  {
+    "name": "FURNITURE__bench__rail",
+    "fid": "FURNITURE",
+    "bounds": [
+      [
+        -69.75199890136719,
+        4.739999771118164,
+        -0.0005714520812034607
+      ],
+      [
+        105.26000213623047,
+        75.49211883544922,
+        1.8505713939666748
+      ]
+    ],
+    "materials": [
+      "FIN_green_metal"
+    ],
+    "hidden": false,
+    "vertices": 432,
+    "polygons": 324
+  },
+  {
+    "name": "FURNITURE__bench__benchwood",
+    "fid": "FURNITURE",
+    "bounds": [
+      [
+        -69.94999694824219,
+        4.747500419616699,
+        0.4375
+      ],
+      [
+        105.25249481201172,
+        75.60917663574219,
+        1.8025000095367432
+      ]
+    ],
+    "materials": [
+      "benchwood"
+    ],
+    "hidden": false,
+    "vertices": 504,
+    "polygons": 378
+  },
+  {
+    "name": "FURNITURE__geometry__concrete",
+    "fid": "FURNITURE",
+    "bounds": [
+      [
+        -84.4000015258789,
+        1.600000023841858,
+        0.03999999910593033
+      ],
+      [
+        111.4000015258789,
+        100.4000015258789,
+        0.14000000059604645
+      ]
+    ],
+    "materials": [
+      "FIN_concrete"
+    ],
+    "hidden": false,
+    "vertices": 288,
+    "polygons": 162
+  },
+  {
+    "name": "FURNITURE__stone-bollard__pale",
+    "fid": "FURNITURE",
+    "bounds": [
+      [
+        -84.37999725341797,
+        1.6200000047683716,
+        0.14000000059604645
+      ],
+      [
+        111.37999725341797,
+        100.37999725341797,
+        0.8999999761581421
+      ]
+    ],
+    "materials": [
+      "pale"
+    ],
+    "hidden": false,
+    "vertices": 558,
+    "polygons": 648
+  },
+  {
+    "name": "GROUND__terrain__FIN_garden_grass",
+    "fid": "GROUND",
+    "bounds": [
+      [
+        -90.0,
+        -9.0,
+        -4.015000343322754
+      ],
+      [
+        112.30211639404297,
+        124.0,
+        -0.004999999888241291
+      ]
+    ],
+    "materials": [
+      "FIN_garden_grass"
+    ],
+    "hidden": false,
+    "vertices": 238,
+    "polygons": 129
+  },
+  {
+    "name": "BOUNDARY__road__road",
+    "fid": "BOUNDARY",
+    "bounds": [
+      [
+        -90.0,
+        -5.0,
+        -0.30000001192092896
+      ],
+      [
+        112.30211639404297,
+        124.0,
+        0.0
+      ]
+    ],
+    "materials": [
+      "road"
+    ],
+    "hidden": false,
+    "vertices": 16,
+    "polygons": 12
+  },
+  {
+    "name": "BOUNDARY__sidewalk__FIN_pavers",
+    "fid": "BOUNDARY",
+    "bounds": [
+      [
+        -80.0,
+        0.5,
+        0.0
+      ],
+      [
+        102.30211639404297,
+        111.5,
+        0.05000000074505806
+      ]
+    ],
+    "materials": [
+      "FIN_pavers"
+    ],
+    "hidden": false,
+    "vertices": 32,
+    "polygons": 24
+  },
+  {
+    "name": "EDGE_PATHS__south-walk__FIN_pavers",
+    "fid": "EDGE_PATHS",
+    "bounds": [
+      [
+        -28.0,
+        11.90000057220459,
+        -0.019999999552965164
+      ],
+      [
+        67.30211639404297,
+        15.699999809265137,
+        0.05000000074505806
+      ]
+    ],
+    "materials": [
+      "FIN_pavers"
+    ],
+    "hidden": false,
+    "vertices": 8,
+    "polygons": 6,
+    "boundary_xy": [
+      [
+        -28.0,
+        11.900001
+      ],
+      [
+        -28.0,
+        15.7
+      ],
+      [
+        67.302116,
+        11.900001
+      ],
+      [
+        67.302116,
+        15.7
+      ]
+    ]
+  },
+  {
+    "name": "EOPEN_S__hedge-core__FIN_hedge",
+    "fid": "EOPEN_S",
+    "bounds": [
+      [
+        68.47711944580078,
+        46.22659683227539,
+        1.2599999904632568
+      ],
+      [
+        74.12712097167969,
+        51.099998474121094,
+        1.864799976348877
+      ]
+    ],
+    "materials": [
+      "FIN_hedge"
+    ],
+    "hidden": false,
+    "vertices": 16,
+    "polygons": 10
+  },
+  {
+    "name": "EOPEN_S__hedge-leaf-clusters__FIN_hedge",
+    "fid": "EOPEN_S",
+    "bounds": [
+      [
+        68.3629379272461,
+        46.03480529785156,
+        1.6272000074386597
+      ],
+      [
+        74.23249053955078,
+        51.452213287353516,
+        2.0160000324249268
+      ]
+    ],
+    "materials": [
+      "FIN_hedge"
+    ],
+    "hidden": false,
+    "vertices": 1564,
+    "polygons": 1840
+  },
+  {
+    "name": "VEGETATION__tree-trunks__FIN_bark",
+    "fid": "VEGETATION",
+    "bounds": [
+      [
+        -77.20999908447266,
+        5.800278186798096,
+        -0.029999999329447746
+      ],
+      [
+        98.51211547851562,
+        92.19972229003906,
+        6.269999980926514
+      ]
+    ],
+    "materials": [
+      "FIN_bark"
+    ],
+    "hidden": true,
+    "vertices": 620,
+    "polygons": 372
+  },
+  {
+    "name": "VEGETATION__tree-branches__FIN_bark",
+    "fid": "VEGETATION",
+    "bounds": [
+      [
+        -78.9885025024414,
+        3.8390612602233887,
+        2.534238815307617
+      ],
+      [
+        100.47848510742188,
+        93.7210922241211,
+        8.68346118927002
+      ]
+    ],
+    "materials": [
+      "FIN_bark"
+    ],
+    "hidden": true,
+    "vertices": 1736,
+    "polygons": 1302
+  },
+  {
+    "name": "VEGETATION__tree-canopies__FIN_leaf0",
+    "fid": "VEGETATION",
+    "bounds": [
+      [
+        -80.74858856201172,
+        2.268946886062622,
+        3.362656354904175
+      ],
+      [
+        101.5401840209961,
+        93.96400451660156,
+        10.647706031799316
+      ]
+    ],
+    "materials": [
+      "FIN_leaf0"
+    ],
+    "hidden": true,
+    "vertices": 8131,
+    "polygons": 9342
+  },
+  {
+    "name": "VEGETATION__tree-canopies__FIN_leaf1",
+    "fid": "VEGETATION",
+    "bounds": [
+      [
+        -80.14521789550781,
+        2.1826388835906982,
+        3.3610877990722656
+      ],
+      [
+        100.9609603881836,
+        95.01811981201172,
+        10.025431632995605
+      ]
+    ],
+    "materials": [
+      "FIN_leaf1"
+    ],
+    "hidden": true,
+    "vertices": 8178,
+    "polygons": 9396
+  },
+  {
+    "name": "VEGETATION__tree-canopies__FIN_leaf2",
+    "fid": "VEGETATION",
+    "bounds": [
+      [
+        -79.7992935180664,
+        2.167095422744751,
+        2.9393317699432373
+      ],
+      [
+        101.97344207763672,
+        95.3326187133789,
+        9.753938674926758
+      ]
+    ],
+    "materials": [
+      "FIN_leaf2"
+    ],
+    "hidden": true,
+    "vertices": 8178,
+    "polygons": 9396
+  },
+  {
+    "name": "VEGETATION__tree-canopies__FIN_leaf3",
+    "fid": "VEGETATION",
+    "bounds": [
+      [
+        -80.22578430175781,
+        2.2794933319091797,
+        2.586148262023926
+      ],
+      [
+        100.1388931274414,
+        94.56317138671875,
+        9.533852577209473
+      ]
+    ],
+    "materials": [
+      "FIN_leaf3"
+    ],
+    "hidden": true,
+    "vertices": 8178,
+    "polygons": 9396
+  },
+  {
+    "name": "VEGETATION__tree-canopies__FIN_leaf4",
+    "fid": "VEGETATION",
+    "bounds": [
+      [
+        -79.06689453125,
+        2.3526103496551514,
+        3.040787935256958
+      ],
+      [
+        102.33146667480469,
+        95.38994598388672,
+        10.078862190246582
+      ]
+    ],
+    "materials": [
+      "FIN_leaf4"
+    ],
+    "hidden": true,
+    "vertices": 8131,
+    "polygons": 9342
+  },
+  {
+    "name": "V01 southern small tree branches",
+    "fid": "VEGETATION_PILOT",
+    "bounds": [
+      [
+        65.67808532714844,
+        39.27307891845703,
+        0.5223369002342224
+      ],
+      [
+        70.6778793334961,
+        44.333980560302734,
+        5.431856155395508
+      ]
+    ],
+    "materials": [
+      "VEG1 olive",
+      "VEG1 grey-green",
+      "VEG1 deep-green",
+      "VEG1 young-green",
+      "VEG1 autumn",
+      "VEG1 bark"
+    ],
+    "hidden": false,
+    "vertices": 1400,
+    "polygons": 900
+  },
+  {
+    "name": "V01 southern small tree leaves",
+    "fid": "VEGETATION_PILOT",
+    "bounds": [
+      [
+        64.81375885009766,
+        38.61894226074219,
+        2.2819290161132812
+      ],
+      [
+        71.2830810546875,
+        44.829769134521484,
+        5.679828643798828
+      ]
+    ],
+    "materials": [
+      "VEG1 olive",
+      "VEG1 grey-green",
+      "VEG1 deep-green",
+      "VEG1 young-green",
+      "VEG1 autumn",
+      "VEG1 bark"
+    ],
+    "hidden": false,
+    "vertices": 17640,
+    "polygons": 14112
+  },
+  {
+    "name": "V02 behind skylight branches",
+    "fid": "VEGETATION_PILOT",
+    "bounds": [
+      [
+        64.52464294433594,
+        42.16445541381836,
+        0.18119826912879944
+      ],
+      [
+        72.02423858642578,
+        49.7889518737793,
+        6.477488994598389
+      ]
+    ],
+    "materials": [
+      "VEG1 olive",
+      "VEG1 grey-green",
+      "VEG1 deep-green",
+      "VEG1 young-green",
+      "VEG1 autumn",
+      "VEG1 bark"
+    ],
+    "hidden": false,
+    "vertices": 1400,
+    "polygons": 900
+  },
+  {
+    "name": "V02 behind skylight leaves",
+    "fid": "VEGETATION_PILOT",
+    "bounds": [
+      [
+        63.97039794921875,
+        41.912864685058594,
+        2.866240978240967
+      ],
+      [
+        72.4634017944336,
+        50.37470626831055,
+        7.026342868804932
+      ]
+    ],
+    "materials": [
+      "VEG1 olive",
+      "VEG1 grey-green",
+      "VEG1 deep-green",
+      "VEG1 young-green",
+      "VEG1 autumn",
+      "VEG1 bark"
+    ],
+    "hidden": false,
+    "vertices": 21840,
+    "polygons": 17472
+  },
+  {
+    "name": "S04 clipped foreground twigs",
+    "fid": "VEGETATION_PILOT",
+    "bounds": [
+      [
+        68.14933013916016,
+        42.276607513427734,
+        0.557202160358429
+      ],
+      [
+        69.05746459960938,
+        43.11109161376953,
+        1.2791471481323242
+      ]
+    ],
+    "materials": [
+      "VEG1 olive",
+      "VEG1 grey-green",
+      "VEG1 deep-green",
+      "VEG1 young-green",
+      "VEG1 autumn",
+      "VEG1 bark"
+    ],
+    "hidden": false,
+    "vertices": 126,
+    "polygons": 81
+  },
+  {
+    "name": "S04 clipped foreground leaves",
+    "fid": "VEGETATION_PILOT",
+    "bounds": [
+      [
+        67.85187530517578,
+        41.97418212890625,
+        0.5429455041885376
+      ],
+      [
+        69.4007339477539,
+        43.43616485595703,
+        1.5970324277877808
+      ]
+    ],
+    "materials": [
+      "VEG1 olive",
+      "VEG1 grey-green",
+      "VEG1 deep-green",
+      "VEG1 young-green",
+      "VEG1 autumn",
+      "VEG1 bark"
+    ],
+    "hidden": false,
+    "vertices": 9000,
+    "polygons": 7200
+  },
+  {
+    "name": "H ESKY textured leaves",
+    "fid": "VEGETATION_PILOT",
+    "bounds": [
+      [
+        68.72172546386719,
+        42.2221794128418,
+        1.466161847114563
+      ],
+      [
+        74.21321105957031,
+        46.97603225708008,
+        1.953170895576477
+      ]
+    ],
+    "materials": [
+      "VEG1 olive",
+      "VEG1 grey-green",
+      "VEG1 deep-green",
+      "VEG1 young-green",
+      "VEG1 autumn",
+      "VEG1 bark"
+    ],
+    "hidden": false,
+    "vertices": 49410,
+    "polygons": 39528
+  },
+  {
+    "name": "H EOPEN_S textured leaves",
+    "fid": "VEGETATION_PILOT",
+    "bounds": [
+      [
+        68.30244445800781,
+        45.956138610839844,
+        1.233989953994751
+      ],
+      [
+        74.32970428466797,
+        51.53799057006836,
+        2.1192047595977783
+      ]
+    ],
+    "materials": [
+      "VEG1 olive",
+      "VEG1 grey-green",
+      "VEG1 deep-green",
+      "VEG1 young-green",
+      "VEG1 autumn",
+      "VEG1 bark"
+    ],
+    "hidden": false,
+    "vertices": 130440,
+    "polygons": 104352
+  },
+  {
+    "name": "V2 tree 21 V2 prototype 1 branches",
+    "fid": "VEGETATION_V2",
+    "bounds": [
+      [
+        67.05593872070312,
+        53.33077621459961,
+        0.22218428552150726
+      ],
+      [
+        75.11316680908203,
+        61.38747787475586,
+        5.875993728637695
+      ]
+    ],
+    "materials": [
+      "VEG1 olive",
+      "VEG1 grey-green",
+      "VEG1 deep-green",
+      "VEG1 young-green",
+      "VEG1 autumn",
+      "VEG1 bark"
+    ],
+    "hidden": false,
+    "vertices": 1400,
+    "polygons": 900
+  },
+  {
+    "name": "V2 tree 21 V2 prototype 1 leaves",
+    "fid": "VEGETATION_V2",
+    "bounds": [
+      [
+        66.63347625732422,
+        53.02326583862305,
+        2.9965784549713135
+      ],
+      [
+        75.57093811035156,
+        62.00537109375,
+        6.139529705047607
+      ]
+    ],
+    "materials": [
+      "VEG1 olive",
+      "VEG1 grey-green",
+      "VEG1 deep-green",
+      "VEG1 young-green",
+      "VEG1 autumn",
+      "VEG1 bark"
+    ],
+    "hidden": false,
+    "vertices": 43260,
+    "polygons": 34608
+  },
+  {
+    "name": "V2 tree 30 V2 prototype 2 branches",
+    "fid": "VEGETATION_V2",
+    "bounds": [
+      [
+        66.01376342773438,
+        1.5473206043243408,
+        -0.044147294014692307
+      ],
+      [
+        80.20944213867188,
+        13.572821617126465,
+        11.1972017288208
+      ]
+    ],
+    "materials": [
+      "VEG1 olive",
+      "VEG1 grey-green",
+      "VEG1 deep-green",
+      "VEG1 young-green",
+      "VEG1 autumn",
+      "VEG1 bark"
+    ],
+    "hidden": false,
+    "vertices": 1400,
+    "polygons": 900
+  },
+  {
+    "name": "V2 tree 30 V2 prototype 2 leaves",
+    "fid": "VEGETATION_V2",
+    "bounds": [
+      [
+        64.79076385498047,
+        0.4513106346130371,
+        4.743405818939209
+      ],
+      [
+        81.26586151123047,
+        14.590638160705566,
+        11.686537742614746
+      ]
+    ],
+    "materials": [
+      "VEG1 olive",
+      "VEG1 grey-green",
+      "VEG1 deep-green",
+      "VEG1 young-green",
+      "VEG1 autumn",
+      "VEG1 bark"
+    ],
+    "hidden": false,
+    "vertices": 46620,
+    "polygons": 37296
+  },
+  {
+    "name": "V2 leaves VEGETATION",
+    "fid": "VEGETATION_V2",
+    "bounds": [
+      [
+        -72.62104034423828,
+        3.3234968185424805,
+        -0.016786102205514908
+      ],
+      [
+        64.39439392089844,
+        87.13174438476562,
+        1.7809737920761108
+      ]
+    ],
+    "materials": [
+      "VEG1 olive",
+      "VEG1 grey-green",
+      "VEG1 deep-green",
+      "VEG1 young-green",
+      "VEG1 autumn",
+      "VEG1 bark"
+    ],
+    "hidden": false,
+    "vertices": 96420,
+    "polygons": 77136
+  },
+  {
+    "name": "LAWN_EDGE segmented granite 101",
+    "fid": "LAWN_EDGE",
+    "bounds": [
+      [
+        60.84523010253906,
+        15.671637535095215,
+        0.01600000075995922
+      ],
+      [
+        61.687652587890625,
+        15.913595199584961,
+        0.15000000596046448
+      ]
+    ],
+    "materials": [
+      "FC_warm_granite"
+    ],
+    "hidden": false,
+    "vertices": 8,
+    "polygons": 6
+  },
+  {
+    "name": "LAWN_EDGE segmented granite 102",
+    "fid": "LAWN_EDGE",
+    "bounds": [
+      [
+        61.69514465332031,
+        15.669594764709473,
+        0.01600000075995922
+      ],
+      [
+        62.53757095336914,
+        15.911551475524902,
+        0.15000000596046448
+      ]
+    ],
+    "materials": [
+      "FC_warm_granite"
+    ],
+    "hidden": false,
+    "vertices": 8,
+    "polygons": 6
+  },
+  {
+    "name": "LAWN_EDGE segmented granite 103",
+    "fid": "LAWN_EDGE",
+    "bounds": [
+      [
+        62.533729553222656,
+        15.671792030334473,
+        0.01600000075995922
+      ],
+      [
+        63.31436538696289,
+        15.990586280822754,
+        0.15000000596046448
+      ]
+    ],
+    "materials": [
+      "FC_warm_granite"
+    ],
+    "hidden": false,
+    "vertices": 8,
+    "polygons": 6
+  },
+  {
+    "name": "LAWN_EDGE segmented granite 104",
+    "fid": "LAWN_EDGE",
+    "bounds": [
+      [
+        63.18295669555664,
+        15.88000774383545,
+        0.01600000075995922
+      ],
+      [
+        63.429298400878906,
+        16.723552703857422,
+        0.15000000596046448
+      ]
+    ],
+    "materials": [
+      "FC_warm_granite"
+    ],
+    "hidden": false,
+    "vertices": 8,
+    "polygons": 6
+  },
+  {
+    "name": "LAWN_EDGE segmented granite 105",
+    "fid": "LAWN_EDGE",
+    "bounds": [
+      [
+        63.18959426879883,
+        16.729900360107422,
+        0.01600000075995922
+      ],
+      [
+        63.43593215942383,
+        17.57344627380371,
+        0.15000000596046448
+      ]
+    ],
+    "materials": [
+      "FC_warm_granite"
+    ],
+    "hidden": false,
+    "vertices": 8,
+    "polygons": 6
+  },
+  {
+    "name": "LAWN_EDGE segmented granite 106",
+    "fid": "LAWN_EDGE",
+    "bounds": [
+      [
+        63.19622802734375,
+        17.579790115356445,
+        0.01600000075995922
+      ],
+      [
+        63.44256591796875,
+        18.42333984375,
+        0.15000000596046448
+      ]
+    ],
+    "materials": [
+      "FC_warm_granite"
+    ],
+    "hidden": false,
+    "vertices": 8,
+    "polygons": 6
+  },
+  {
+    "name": "LAWN_EDGE segmented granite 107",
+    "fid": "LAWN_EDGE",
+    "bounds": [
+      [
+        63.202857971191406,
+        18.429683685302734,
+        0.01600000075995922
+      ],
+      [
+        63.449195861816406,
+        19.273229598999023,
+        0.15000000596046448
+      ]
+    ],
+    "materials": [
+      "FC_warm_granite"
+    ],
+    "hidden": false,
+    "vertices": 8,
+    "polygons": 6
+  },
+  {
+    "name": "LAWN_EDGE segmented granite 108",
+    "fid": "LAWN_EDGE",
+    "bounds": [
+      [
+        63.20949172973633,
+        19.279577255249023,
+        0.01600000075995922
+      ],
+      [
+        63.45582962036133,
+        20.123123168945312,
+        0.15000000596046448
+      ]
+    ],
+    "materials": [
+      "FC_warm_granite"
+    ],
+    "hidden": false,
+    "vertices": 8,
+    "polygons": 6
+  },
+  {
+    "name": "LAWN_EDGE segmented granite 109",
+    "fid": "LAWN_EDGE",
+    "bounds": [
+      [
+        63.21612548828125,
+        20.129467010498047,
+        0.01600000075995922
+      ],
+      [
+        63.462467193603516,
+        20.9730167388916,
+        0.15000000596046448
+      ]
+    ],
+    "materials": [
+      "FC_warm_granite"
+    ],
+    "hidden": false,
+    "vertices": 8,
+    "polygons": 6
+  },
+  {
+    "name": "LAWN_EDGE segmented granite 110",
+    "fid": "LAWN_EDGE",
+    "bounds": [
+      [
+        63.22275924682617,
+        20.979360580444336,
+        0.01600000075995922
+      ],
+      [
+        63.46910095214844,
+        21.822906494140625,
+        0.15000000596046448
+      ]
+    ],
+    "materials": [
+      "FC_warm_granite"
+    ],
+    "hidden": false,
+    "vertices": 8,
+    "polygons": 6
+  },
+  {
+    "name": "LAWN_EDGE segmented granite 111",
+    "fid": "LAWN_EDGE",
+    "bounds": [
+      [
+        63.22938919067383,
+        21.829254150390625,
+        0.01600000075995922
+      ],
+      [
+        63.47573471069336,
+        22.672800064086914,
+        0.15000000596046448
+      ]
+    ],
+    "materials": [
+      "FC_warm_granite"
+    ],
+    "hidden": false,
+    "vertices": 8,
+    "polygons": 6
+  },
+  {
+    "name": "LAWN_EDGE segmented granite 112",
+    "fid": "LAWN_EDGE",
+    "bounds": [
+      [
+        63.23602294921875,
+        22.679141998291016,
+        0.01600000075995922
+      ],
+      [
+        63.482364654541016,
+        23.522693634033203,
+        0.15000000596046448
+      ]
+    ],
+    "materials": [
+      "FC_warm_granite"
+    ],
+    "hidden": false,
+    "vertices": 8,
+    "polygons": 6
+  },
+  {
+    "name": "LAWN_EDGE segmented granite 113",
+    "fid": "LAWN_EDGE",
+    "bounds": [
+      [
+        63.24265670776367,
+        23.529037475585938,
+        0.01600000075995922
+      ],
+      [
+        63.48899841308594,
+        24.372587203979492,
+        0.15000000596046448
+      ]
+    ],
+    "materials": [
+      "FC_warm_granite"
+    ],
+    "hidden": false,
+    "vertices": 8,
+    "polygons": 6
+  },
+  {
+    "name": "LAWN_EDGE segmented granite 114",
+    "fid": "LAWN_EDGE",
+    "bounds": [
+      [
+        63.24929428100586,
+        24.378929138183594,
+        0.01600000075995922
+      ],
+      [
+        63.49563217163086,
+        25.222476959228516,
+        0.15000000596046448
+      ]
+    ],
+    "materials": [
+      "FC_warm_granite"
+    ],
+    "hidden": false,
+    "vertices": 8,
+    "polygons": 6
+  },
+  {
+    "name": "LAWN_EDGE segmented granite 115",
+    "fid": "LAWN_EDGE",
+    "bounds": [
+      [
+        63.25592803955078,
+        25.228822708129883,
+        0.01600000075995922
+      ],
+      [
+        63.50226593017578,
+        26.072370529174805,
+        0.15000000596046448
+      ]
+    ],
+    "materials": [
+      "FC_warm_granite"
+    ],
+    "hidden": false,
+    "vertices": 8,
+    "polygons": 6
+  },
+  {
+    "name": "LAWN_EDGE segmented granite 116",
+    "fid": "LAWN_EDGE",
+    "bounds": [
+      [
+        63.2625617980957,
+        26.078712463378906,
+        0.01600000075995922
+      ],
+      [
+        63.5088996887207,
+        26.922260284423828,
+        0.15000000596046448
+      ]
+    ],
+    "materials": [
+      "FC_warm_granite"
+    ],
+    "hidden": false,
+    "vertices": 8,
+    "polygons": 6
+  },
+  {
+    "name": "LAWN_EDGE segmented granite 117",
+    "fid": "LAWN_EDGE",
+    "bounds": [
+      [
+        63.26919174194336,
+        26.928606033325195,
+        0.01600000075995922
+      ],
+      [
+        63.51552963256836,
+        27.772153854370117,
+        0.15000000596046448
+      ]
+    ],
+    "materials": [
+      "FC_warm_granite"
+    ],
+    "hidden": false,
+    "vertices": 8,
+    "polygons": 6
+  },
+  {
+    "name": "LAWN_EDGE segmented granite 118",
+    "fid": "LAWN_EDGE",
+    "bounds": [
+      [
+        63.27582550048828,
+        27.77849578857422,
+        0.01600000075995922
+      ],
+      [
+        63.52216720581055,
+        28.622047424316406,
+        0.15000000596046448
+      ]
+    ],
+    "materials": [
+      "FC_warm_granite"
+    ],
+    "hidden": false,
+    "vertices": 8,
+    "polygons": 6
+  },
+  {
+    "name": "LAWN_EDGE segmented granite 119",
+    "fid": "LAWN_EDGE",
+    "bounds": [
+      [
+        63.2824592590332,
+        28.628389358520508,
+        0.01600000075995922
+      ],
+      [
+        63.52880096435547,
+        29.471940994262695,
+        0.15000000596046448
+      ]
+    ],
+    "materials": [
+      "FC_warm_granite"
+    ],
+    "hidden": false,
+    "vertices": 8,
+    "polygons": 6
+  },
+  {
+    "name": "LAWN_EDGE segmented granite 120",
+    "fid": "LAWN_EDGE",
+    "bounds": [
+      [
+        63.28908920288086,
+        29.478282928466797,
+        0.01600000075995922
+      ],
+      [
+        63.53543472290039,
+        30.321828842163086,
+        0.15000000596046448
+      ]
+    ],
+    "materials": [
+      "FC_warm_granite"
+    ],
+    "hidden": false,
+    "vertices": 8,
+    "polygons": 6
+  },
+  {
+    "name": "LAWN_EDGE segmented granite 121",
+    "fid": "LAWN_EDGE",
+    "bounds": [
+      [
+        63.29572677612305,
+        30.328176498413086,
+        0.01600000075995922
+      ],
+      [
+        63.54206466674805,
+        31.171722412109375,
+        0.15000000596046448
+      ]
+    ],
+    "materials": [
+      "FC_warm_granite"
+    ],
+    "hidden": false,
+    "vertices": 8,
+    "polygons": 6
+  },
+  {
+    "name": "LAWN_EDGE segmented granite 122",
+    "fid": "LAWN_EDGE",
+    "bounds": [
+      [
+        63.30236053466797,
+        31.17806625366211,
+        0.01600000075995922
+      ],
+      [
+        63.54869842529297,
+        32.021610260009766,
+        0.15000000596046448
+      ]
+    ],
+    "materials": [
+      "FC_warm_granite"
+    ],
+    "hidden": false,
+    "vertices": 8,
+    "polygons": 6
+  },
+  {
+    "name": "LAWN_EDGE segmented granite 123",
+    "fid": "LAWN_EDGE",
+    "bounds": [
+      [
+        63.30899429321289,
+        32.02796173095703,
+        0.01600000075995922
+      ],
+      [
+        63.55533218383789,
+        32.87150192260742,
+        0.15000000596046448
+      ]
+    ],
+    "materials": [
+      "FC_warm_granite"
+    ],
+    "hidden": false,
+    "vertices": 8,
+    "polygons": 6
+  },
+  {
+    "name": "LAWN_EDGE segmented granite 124",
+    "fid": "LAWN_EDGE",
+    "bounds": [
+      [
+        63.31562423706055,
+        32.87785339355469,
+        0.01600000075995922
+      ],
+      [
+        63.56196212768555,
+        33.721397399902344,
+        0.15000000596046448
+      ]
+    ],
+    "materials": [
+      "FC_warm_granite"
+    ],
+    "hidden": false,
+    "vertices": 8,
+    "polygons": 6
+  },
+  {
+    "name": "LAWN_EDGE segmented granite 125",
+    "fid": "LAWN_EDGE",
+    "bounds": [
+      [
+        63.322261810302734,
+        33.727745056152344,
+        0.01600000075995922
+      ],
+      [
+        63.568599700927734,
+        34.5712890625,
+        0.15000000596046448
+      ]
+    ],
+    "materials": [
+      "FC_warm_granite"
+    ],
+    "hidden": false,
+    "vertices": 8,
+    "polygons": 6
+  },
+  {
+    "name": "LAWN_EDGE segmented granite 126",
+    "fid": "LAWN_EDGE",
+    "bounds": [
+      [
+        63.32889175415039,
+        34.57763671875,
+        0.01600000075995922
+      ],
+      [
+        63.57523727416992,
+        35.42118835449219,
+        0.15000000596046448
+      ]
+    ],
+    "materials": [
+      "FC_warm_granite"
+    ],
+    "hidden": false,
+    "vertices": 8,
+    "polygons": 6
+  },
+  {
+    "name": "LAWN_EDGE segmented granite 127",
+    "fid": "LAWN_EDGE",
+    "bounds": [
+      [
+        63.33552551269531,
+        35.42753219604492,
+        0.01600000075995922
+      ],
+      [
+        63.58186721801758,
+        36.27107620239258,
+        0.15000000596046448
+      ]
+    ],
+    "materials": [
+      "FC_warm_granite"
+    ],
+    "hidden": false,
+    "vertices": 8,
+    "polygons": 6
+  },
+  {
+    "name": "LAWN_EDGE segmented granite 128",
+    "fid": "LAWN_EDGE",
+    "bounds": [
+      [
+        63.342159271240234,
+        36.27742385864258,
+        0.01600000075995922
+      ],
+      [
+        63.5885009765625,
+        37.120967864990234,
+        0.15000000596046448
+      ]
+    ],
+    "materials": [
+      "FC_warm_granite"
+    ],
+    "hidden": false,
+    "vertices": 8,
+    "polygons": 6
+  },
+  {
+    "name": "LAWN_EDGE segmented granite 129",
+    "fid": "LAWN_EDGE",
+    "bounds": [
+      [
+        63.34878921508789,
+        37.12731170654297,
+        0.01600000075995922
+      ],
+      [
+        63.59513473510742,
+        37.97085952758789,
+        0.15000000596046448
+      ]
+    ],
+    "materials": [
+      "FC_warm_granite"
+    ],
+    "hidden": false,
+    "vertices": 8,
+    "polygons": 6
+  },
+  {
+    "name": "LAWN_EDGE segmented granite 130",
+    "fid": "LAWN_EDGE",
+    "bounds": [
+      [
+        63.35542678833008,
+        37.977210998535156,
+        0.01600000075995922
+      ],
+      [
+        63.60176467895508,
+        38.82074737548828,
+        0.15000000596046448
+      ]
+    ],
+    "materials": [
+      "FC_warm_granite"
+    ],
+    "hidden": false,
+    "vertices": 8,
+    "polygons": 6
+  },
+  {
+    "name": "LAWN_EDGE segmented granite 131",
+    "fid": "LAWN_EDGE",
+    "bounds": [
+      [
+        63.362060546875,
+        38.82710266113281,
+        0.01600000075995922
+      ],
+      [
+        63.6083984375,
+        39.6706428527832,
+        0.15000000596046448
+      ]
+    ],
+    "materials": [
+      "FC_warm_granite"
+    ],
+    "hidden": false,
+    "vertices": 8,
+    "polygons": 6
+  },
+  {
+    "name": "LAWN_EDGE segmented granite 132",
+    "fid": "LAWN_EDGE",
+    "bounds": [
+      [
+        63.36869430541992,
+        39.67699432373047,
+        0.01600000075995922
+      ],
+      [
+        63.61503219604492,
+        40.52053451538086,
+        0.15000000596046448
+      ]
+    ],
+    "materials": [
+      "FC_warm_granite"
+    ],
+    "hidden": false,
+    "vertices": 8,
+    "polygons": 6
+  },
+  {
+    "name": "LAWN_EDGE segmented granite 133",
+    "fid": "LAWN_EDGE",
+    "bounds": [
+      [
+        63.375328063964844,
+        40.526885986328125,
+        0.01600000075995922
+      ],
+      [
+        63.621665954589844,
+        41.37042236328125,
+        0.15000000596046448
+      ]
+    ],
+    "materials": [
+      "FC_warm_granite"
+    ],
+    "hidden": false,
+    "vertices": 8,
+    "polygons": 6
+  },
+  {
+    "name": "LAWN_EDGE segmented granite 134",
+    "fid": "LAWN_EDGE",
+    "bounds": [
+      [
+        63.381961822509766,
+        41.37678146362305,
+        0.01600000075995922
+      ],
+      [
+        63.628299713134766,
+        42.22031784057617,
+        0.15000000596046448
+      ]
+    ],
+    "materials": [
+      "FC_warm_granite"
+    ],
+    "hidden": false,
+    "vertices": 8,
+    "polygons": 6
+  },
+  {
+    "name": "LAWN_EDGE segmented granite 135",
+    "fid": "LAWN_EDGE",
+    "bounds": [
+      [
+        63.38859176635742,
+        42.2266731262207,
+        0.01600000075995922
+      ],
+      [
+        63.63493728637695,
+        43.070213317871094,
+        0.15000000596046448
+      ]
+    ],
+    "materials": [
+      "FC_warm_granite"
+    ],
+    "hidden": false,
+    "vertices": 8,
+    "polygons": 6
+  },
+  {
+    "name": "LAWN_EDGE segmented granite 136",
+    "fid": "LAWN_EDGE",
+    "bounds": [
+      [
+        63.395225524902344,
+        43.07655715942383,
+        0.01600000075995922
+      ],
+      [
+        63.64156723022461,
+        43.92010498046875,
+        0.15000000596046448
+      ]
+    ],
+    "materials": [
+      "FC_warm_granite"
+    ],
+    "hidden": false,
+    "vertices": 8,
+    "polygons": 6
+  },
+  {
+    "name": "LAWN_EDGE segmented granite 137",
+    "fid": "LAWN_EDGE",
+    "bounds": [
+      [
+        63.401859283447266,
+        43.926448822021484,
+        0.01600000075995922
+      ],
+      [
+        63.64820098876953,
+        44.77000045776367,
+        0.15000000596046448
+      ]
+    ],
+    "materials": [
+      "FC_warm_granite"
+    ],
+    "hidden": false,
+    "vertices": 8,
+    "polygons": 6
+  },
+  {
+    "name": "LAWN_EDGE segmented granite 138",
+    "fid": "LAWN_EDGE",
+    "bounds": [
+      [
+        63.40848922729492,
+        44.77634048461914,
+        0.01600000075995922
+      ],
+      [
+        63.65483474731445,
+        45.61989212036133,
+        0.15000000596046448
+      ]
+    ],
+    "materials": [
+      "FC_warm_granite"
+    ],
+    "hidden": false,
+    "vertices": 8,
+    "polygons": 6
+  },
+  {
+    "name": "LAWN_EDGE segmented granite 139",
+    "fid": "LAWN_EDGE",
+    "bounds": [
+      [
+        63.41512680053711,
+        45.62623977661133,
+        0.01600000075995922
+      ],
+      [
+        63.66146469116211,
+        46.469783782958984,
+        0.15000000596046448
+      ]
+    ],
+    "materials": [
+      "FC_warm_granite"
+    ],
+    "hidden": false,
+    "vertices": 8,
+    "polygons": 6
+  },
+  {
+    "name": "LAWN_EDGE segmented granite 140",
+    "fid": "LAWN_EDGE",
+    "bounds": [
+      [
+        63.4217643737793,
+        46.476131439208984,
+        0.01600000075995922
+      ],
+      [
+        63.66809844970703,
+        47.319671630859375,
+        0.15000000596046448
+      ]
+    ],
+    "materials": [
+      "FC_warm_granite"
+    ],
+    "hidden": false,
+    "vertices": 8,
+    "polygons": 6
+  },
+  {
+    "name": "LAWN_EDGE segmented granite 141",
+    "fid": "LAWN_EDGE",
+    "bounds": [
+      [
+        63.42839431762695,
+        47.32602310180664,
+        0.01600000075995922
+      ],
+      [
+        63.67473220825195,
+        48.1695671081543,
+        0.15000000596046448
+      ]
+    ],
+    "materials": [
+      "FC_warm_granite"
+    ],
+    "hidden": false,
+    "vertices": 8,
+    "polygons": 6
+  },
+  {
+    "name": "LAWN_EDGE segmented granite 142",
+    "fid": "LAWN_EDGE",
+    "bounds": [
+      [
+        63.435028076171875,
+        48.1759147644043,
+        0.01600000075995922
+      ],
+      [
+        63.68136978149414,
+        49.01946258544922,
+        0.15000000596046448
+      ]
+    ],
+    "materials": [
+      "FC_warm_granite"
+    ],
+    "hidden": false,
+    "vertices": 8,
+    "polygons": 6
+  },
+  {
+    "name": "LAWN_EDGE segmented granite 143",
+    "fid": "LAWN_EDGE",
+    "bounds": [
+      [
+        63.4416618347168,
+        49.02581024169922,
+        0.01600000075995922
+      ],
+      [
+        63.6879997253418,
+        49.86935043334961,
+        0.15000000596046448
+      ]
+    ],
+    "materials": [
+      "FC_warm_granite"
+    ],
+    "hidden": false,
+    "vertices": 8,
+    "polygons": 6
+  },
+  {
+    "name": "LAWN_EDGE segmented granite 144",
+    "fid": "LAWN_EDGE",
+    "bounds": [
+      [
+        63.44829177856445,
+        49.875701904296875,
+        0.01600000075995922
+      ],
+      [
+        63.69462966918945,
+        50.719242095947266,
+        0.15000000596046448
+      ]
+    ],
+    "materials": [
+      "FC_warm_granite"
+    ],
+    "hidden": false,
+    "vertices": 8,
+    "polygons": 6
+  },
+  {
+    "name": "LAWN_EDGE segmented granite 145",
+    "fid": "LAWN_EDGE",
+    "bounds": [
+      [
+        63.454925537109375,
+        50.7255859375,
+        0.01600000075995922
+      ],
+      [
+        63.70126724243164,
+        51.56913375854492,
+        0.15000000596046448
+      ]
+    ],
+    "materials": [
+      "FC_warm_granite"
+    ],
+    "hidden": false,
+    "vertices": 8,
+    "polygons": 6
+  },
+  {
+    "name": "LAWN_EDGE segmented granite 146",
+    "fid": "LAWN_EDGE",
+    "bounds": [
+      [
+        63.4615592956543,
+        51.57548141479492,
+        0.01600000075995922
+      ],
+      [
+        63.70790100097656,
+        52.419029235839844,
+        0.15000000596046448
+      ]
+    ],
+    "materials": [
+      "FC_warm_granite"
+    ],
+    "hidden": false,
+    "vertices": 8,
+    "polygons": 6
+  },
+  {
+    "name": "LAWN_EDGE segmented granite 147",
+    "fid": "LAWN_EDGE",
+    "bounds": [
+      [
+        63.468196868896484,
+        52.425376892089844,
+        0.01600000075995922
+      ],
+      [
+        63.714534759521484,
+        53.268917083740234,
+        0.15000000596046448
+      ]
+    ],
+    "materials": [
+      "FC_warm_granite"
+    ],
+    "hidden": false,
+    "vertices": 8,
+    "polygons": 6
+  },
+  {
+    "name": "LAWN_EDGE segmented granite 148",
+    "fid": "LAWN_EDGE",
+    "bounds": [
+      [
+        63.47482681274414,
+        53.275264739990234,
+        0.01600000075995922
+      ],
+      [
+        63.721168518066406,
+        54.11881637573242,
+        0.15000000596046448
+      ]
+    ],
+    "materials": [
+      "FC_warm_granite"
+    ],
+    "hidden": false,
+    "vertices": 8,
+    "polygons": 6
+  },
+  {
+    "name": "LAWN_EDGE segmented granite 149",
+    "fid": "LAWN_EDGE",
+    "bounds": [
+      [
+        63.4814567565918,
+        54.12515640258789,
+        0.01600000075995922
+      ],
+      [
+        63.72779846191406,
+        54.96870803833008,
+        0.15000000596046448
+      ]
+    ],
+    "materials": [
+      "FC_warm_granite"
+    ],
+    "hidden": false,
+    "vertices": 8,
+    "polygons": 6
+  },
+  {
+    "name": "LAWN_EDGE segmented granite 150",
+    "fid": "LAWN_EDGE",
+    "bounds": [
+      [
+        63.488094329833984,
+        54.97505569458008,
+        0.01600000075995922
+      ],
+      [
+        63.734432220458984,
+        55.81859588623047,
+        0.15000000596046448
+      ]
+    ],
+    "materials": [
+      "FC_warm_granite"
+    ],
+    "hidden": false,
+    "vertices": 8,
+    "polygons": 6
+  },
+  {
+    "name": "LAWN_EDGE segmented granite 151",
+    "fid": "LAWN_EDGE",
+    "bounds": [
+      [
+        63.494728088378906,
+        55.82494354248047,
+        0.01600000075995922
+      ],
+      [
+        63.74106979370117,
+        56.66849136352539,
+        0.15000000596046448
+      ]
+    ],
+    "materials": [
+      "FC_warm_granite"
+    ],
+    "hidden": false,
+    "vertices": 8,
+    "polygons": 6
+  },
+  {
+    "name": "LAWN_EDGE segmented granite 152",
+    "fid": "LAWN_EDGE",
+    "bounds": [
+      [
+        63.50136184692383,
+        56.67483901977539,
+        0.01600000075995922
+      ],
+      [
+        63.74769973754883,
+        57.51837921142578,
+        0.15000000596046448
+      ]
+    ],
+    "materials": [
+      "FC_warm_granite"
+    ],
+    "hidden": false,
+    "vertices": 8,
+    "polygons": 6
+  },
+  {
+    "name": "LAWN_EDGE segmented granite 153",
+    "fid": "LAWN_EDGE",
+    "bounds": [
+      [
+        63.507991790771484,
+        57.52473449707031,
+        0.01600000075995922
+      ],
+      [
+        63.754329681396484,
+        58.3682746887207,
+        0.15000000596046448
+      ]
+    ],
+    "materials": [
+      "FC_warm_granite"
+    ],
+    "hidden": false,
+    "vertices": 8,
+    "polygons": 6
+  },
+  {
+    "name": "LAWN_EDGE segmented granite 154",
+    "fid": "LAWN_EDGE",
+    "bounds": [
+      [
+        63.514625549316406,
+        58.37461853027344,
+        0.01600000075995922
+      ],
+      [
+        63.76096725463867,
+        59.218170166015625,
+        0.15000000596046448
+      ]
+    ],
+    "materials": [
+      "FC_warm_granite"
+    ],
+    "hidden": false,
+    "vertices": 8,
+    "polygons": 6
+  },
+  {
+    "name": "LAWN_EDGE segmented granite 155",
+    "fid": "LAWN_EDGE",
+    "bounds": [
+      [
+        63.52125930786133,
+        59.22451400756836,
+        0.01600000075995922
+      ],
+      [
+        63.767601013183594,
+        60.068058013916016,
+        0.15000000596046448
+      ]
+    ],
+    "materials": [
+      "FC_warm_granite"
+    ],
+    "hidden": false,
+    "vertices": 8,
+    "polygons": 6
+  },
+  {
+    "name": "LAWN_EDGE segmented granite 156",
+    "fid": "LAWN_EDGE",
+    "bounds": [
+      [
+        63.527896881103516,
+        60.07440948486328,
+        0.01600000075995922
+      ],
+      [
+        63.774234771728516,
+        60.917945861816406,
+        0.15000000596046448
+      ]
+    ],
+    "materials": [
+      "FC_warm_granite"
+    ],
+    "hidden": false,
+    "vertices": 8,
+    "polygons": 6
+  },
+  {
+    "name": "LAWN_EDGE segmented granite 157",
+    "fid": "LAWN_EDGE",
+    "bounds": [
+      [
+        63.53452682495117,
+        60.924293518066406,
+        0.01600000075995922
+      ],
+      [
+        63.78086853027344,
+        61.767845153808594,
+        0.15000000596046448
+      ]
+    ],
+    "materials": [
+      "FC_warm_granite"
+    ],
+    "hidden": false,
+    "vertices": 8,
+    "polygons": 6
+  },
+  {
+    "name": "LAWN_EDGE segmented granite 158",
+    "fid": "LAWN_EDGE",
+    "bounds": [
+      [
+        63.54115676879883,
+        61.77418899536133,
+        0.01600000075995922
+      ],
+      [
+        63.787498474121094,
+        62.61773681640625,
+        0.15000000596046448
+      ]
+    ],
+    "materials": [
+      "FC_warm_granite"
+    ],
+    "hidden": false,
+    "vertices": 8,
+    "polygons": 6
+  },
+  {
+    "name": "LAWN_EDGE segmented granite 159",
+    "fid": "LAWN_EDGE",
+    "bounds": [
+      [
+        63.547794342041016,
+        62.62408447265625,
+        0.01600000075995922
+      ],
+      [
+        63.794132232666016,
+        63.46762466430664,
+        0.15000000596046448
+      ]
+    ],
+    "materials": [
+      "FC_warm_granite"
+    ],
+    "hidden": false,
+    "vertices": 8,
+    "polygons": 6
+  },
+  {
+    "name": "LAWN_EDGE segmented granite 160",
+    "fid": "LAWN_EDGE",
+    "bounds": [
+      [
+        63.55442810058594,
+        63.473976135253906,
+        0.01600000075995922
+      ],
+      [
+        63.8007698059082,
+        64.3175277709961,
+        0.15000000596046448
+      ]
+    ],
+    "materials": [
+      "FC_warm_granite"
+    ],
+    "hidden": false,
+    "vertices": 8,
+    "polygons": 6
+  },
+  {
+    "name": "LAWN_EDGE segmented granite 161",
+    "fid": "LAWN_EDGE",
+    "bounds": [
+      [
+        63.56106185913086,
+        64.32386016845703,
+        0.01600000075995922
+      ],
+      [
+        63.80739974975586,
+        65.16741943359375,
+        0.15000000596046448
+      ]
+    ],
+    "materials": [
+      "FC_warm_granite"
+    ],
+    "hidden": false,
+    "vertices": 8,
+    "polygons": 6
+  },
+  {
+    "name": "LAWN_EDGE segmented granite 162",
+    "fid": "LAWN_EDGE",
+    "bounds": [
+      [
+        63.56769561767578,
+        65.17375183105469,
+        0.01600000075995922
+      ],
+      [
+        63.81403350830078,
+        66.0173110961914,
+        0.15000000596046448
+      ]
+    ],
+    "materials": [
+      "FC_warm_granite"
+    ],
+    "hidden": false,
+    "vertices": 8,
+    "polygons": 6
+  },
+  {
+    "name": "LAWN_EDGE segmented granite 163",
+    "fid": "LAWN_EDGE",
+    "bounds": [
+      [
+        63.57432556152344,
+        66.02365112304688,
+        0.01600000075995922
+      ],
+      [
+        63.8206672668457,
+        66.86720275878906,
+        0.15000000596046448
+      ]
+    ],
+    "materials": [
+      "FC_warm_granite"
+    ],
+    "hidden": false,
+    "vertices": 8,
+    "polygons": 6
+  },
+  {
+    "name": "LAWN_EDGE segmented granite 164",
+    "fid": "LAWN_EDGE",
+    "bounds": [
+      [
+        63.58095932006836,
+        66.87353515625,
+        0.01600000075995922
+      ],
+      [
+        63.827301025390625,
+        67.71709442138672,
+        0.15000000596046448
+      ]
+    ],
+    "materials": [
+      "FC_warm_granite"
+    ],
+    "hidden": false,
+    "vertices": 8,
+    "polygons": 6
+  },
+  {
+    "name": "LAWN_EDGE segmented granite 165",
+    "fid": "LAWN_EDGE",
+    "bounds": [
+      [
+        63.58759689331055,
+        67.72342681884766,
+        0.01600000075995922
+      ],
+      [
+        63.83393478393555,
+        68.56698608398438,
+        0.15000000596046448
+      ]
+    ],
+    "materials": [
+      "FC_warm_granite"
+    ],
+    "hidden": false,
+    "vertices": 8,
+    "polygons": 6
+  },
+  {
+    "name": "LAWN_EDGE segmented granite 166",
+    "fid": "LAWN_EDGE",
+    "bounds": [
+      [
+        63.5942268371582,
+        68.57332611083984,
+        0.01600000075995922
+      ],
+      [
+        63.84056854248047,
+        69.41688537597656,
+        0.15000000596046448
+      ]
+    ],
+    "materials": [
+      "FC_warm_granite"
+    ],
+    "hidden": false,
+    "vertices": 8,
+    "polygons": 6
+  },
+  {
+    "name": "LAWN_EDGE segmented granite 167",
+    "fid": "LAWN_EDGE",
+    "bounds": [
+      [
+        63.600860595703125,
+        69.4232177734375,
+        0.01600000075995922
+      ],
+      [
+        63.847198486328125,
+        70.26677703857422,
+        0.15000000596046448
+      ]
+    ],
+    "materials": [
+      "FC_warm_granite"
+    ],
+    "hidden": false,
+    "vertices": 8,
+    "polygons": 6
+  },
+  {
+    "name": "LAWN_EDGE segmented granite 168",
+    "fid": "LAWN_EDGE",
+    "bounds": [
+      [
+        63.60749435424805,
+        70.27310943603516,
+        0.01600000075995922
+      ],
+      [
+        63.85383224487305,
+        71.11666107177734,
+        0.15000000596046448
+      ]
+    ],
+    "materials": [
+      "FC_warm_granite"
+    ],
+    "hidden": false,
+    "vertices": 8,
+    "polygons": 6
+  },
+  {
+    "name": "LAWN_EDGE segmented granite 169",
+    "fid": "LAWN_EDGE",
+    "bounds": [
+      [
+        63.61412811279297,
+        71.12300109863281,
+        0.01600000075995922
+      ],
+      [
+        63.860469818115234,
+        71.966552734375,
+        0.15000000596046448
+      ]
+    ],
+    "materials": [
+      "FC_warm_granite"
+    ],
+    "hidden": false,
+    "vertices": 8,
+    "polygons": 6
+  },
+  {
+    "name": "LAWN_EDGE segmented granite 170",
+    "fid": "LAWN_EDGE",
+    "bounds": [
+      [
+        63.62076187133789,
+        71.97289276123047,
+        0.01600000075995922
+      ],
+      [
+        63.867103576660156,
+        72.81645202636719,
+        0.15000000596046448
+      ]
+    ],
+    "materials": [
+      "FC_warm_granite"
+    ],
+    "hidden": false,
+    "vertices": 8,
+    "polygons": 6
+  },
+  {
+    "name": "LAWN_EDGE segmented granite 171",
+    "fid": "LAWN_EDGE",
+    "bounds": [
+      [
+        63.62739562988281,
+        72.82278442382812,
+        0.01600000075995922
+      ],
+      [
+        63.87373733520508,
+        73.66633605957031,
+        0.15000000596046448
+      ]
+    ],
+    "materials": [
+      "FC_warm_granite"
+    ],
+    "hidden": false,
+    "vertices": 8,
+    "polygons": 6
+  },
+  {
+    "name": "LAWN_EDGE segmented granite 172",
+    "fid": "LAWN_EDGE",
+    "bounds": [
+      [
+        63.63402557373047,
+        73.67267608642578,
+        0.01600000075995922
+      ],
+      [
+        63.880367279052734,
+        74.51622772216797,
+        0.15000000596046448
+      ]
+    ],
+    "materials": [
+      "FC_warm_granite"
+    ],
+    "hidden": false,
+    "vertices": 8,
+    "polygons": 6
+  },
+  {
+    "name": "LAWN_EDGE segmented granite 173",
+    "fid": "LAWN_EDGE",
+    "bounds": [
+      [
+        63.64065933227539,
+        74.52256774902344,
+        0.01600000075995922
+      ],
+      [
+        63.887001037597656,
+        75.36612701416016,
+        0.15000000596046448
+      ]
+    ],
+    "materials": [
+      "FC_warm_granite"
+    ],
+    "hidden": false,
+    "vertices": 8,
+    "polygons": 6
+  },
+  {
+    "name": "LAWN_EDGE segmented granite 174",
+    "fid": "LAWN_EDGE",
+    "bounds": [
+      [
+        63.64729690551758,
+        75.3724594116211,
+        0.01600000075995922
+      ],
+      [
+        63.89363479614258,
+        76.21601867675781,
+        0.15000000596046448
+      ]
+    ],
+    "materials": [
+      "FC_warm_granite"
+    ],
+    "hidden": false,
+    "vertices": 8,
+    "polygons": 6
+  },
+  {
+    "name": "LAWN_EDGE segmented granite 175",
+    "fid": "LAWN_EDGE",
+    "bounds": [
+      [
+        63.6539306640625,
+        76.22235107421875,
+        0.01600000075995922
+      ],
+      [
+        63.9002685546875,
+        77.06591033935547,
+        0.15000000596046448
+      ]
+    ],
+    "materials": [
+      "FC_warm_granite"
+    ],
+    "hidden": false,
+    "vertices": 8,
+    "polygons": 6
+  },
+  {
+    "name": "LAWN_EDGE segmented granite 176",
+    "fid": "LAWN_EDGE",
+    "bounds": [
+      [
+        63.607383728027344,
+        77.0656967163086,
+        0.01600000075995922
+      ],
+      [
+        63.8991813659668,
+        77.85907745361328,
+        0.15000000596046448
+      ]
+    ],
+    "materials": [
+      "FC_warm_granite"
+    ],
+    "hidden": false,
+    "vertices": 8,
+    "polygons": 6
+  },
+  {
+    "name": "LAWN_EDGE segmented granite 177",
+    "fid": "LAWN_EDGE",
+    "bounds": [
+      [
+        62.8726921081543,
+        77.6987075805664,
+        0.01600000075995922
+      ],
+      [
+        63.722320556640625,
+        77.9706802368164,
+        0.15000000596046448
+      ]
+    ],
+    "materials": [
+      "FC_warm_granite"
+    ],
+    "hidden": false,
+    "vertices": 8,
+    "polygons": 6
+  },
+  {
+    "name": "LAWN_EDGE segmented granite 178",
+    "fid": "LAWN_EDGE",
+    "bounds": [
+      [
+        62.02363967895508,
+        77.66738891601562,
+        0.01600000075995922
+      ],
+      [
+        62.87278747558594,
+        77.93717956542969,
+        0.15000000596046448
+      ]
+    ],
+    "materials": [
+      "FC_warm_granite"
+    ],
+    "hidden": false,
+    "vertices": 8,
+    "polygons": 6
+  },
+  {
+    "name": "LAWN_EDGE segmented granite 179",
+    "fid": "LAWN_EDGE",
+    "bounds": [
+      [
+        61.173728942871094,
+        77.62946319580078,
+        0.01600000075995922
+      ],
+      [
+        62.02429962158203,
+        77.9057388305664,
+        0.15000000596046448
+      ]
+    ],
+    "materials": [
+      "FC_warm_granite"
+    ],
+    "hidden": false,
+    "vertices": 8,
+    "polygons": 6
+  },
+  {
+    "name": "LAWN_EDGE segmented granite 180",
+    "fid": "LAWN_EDGE",
+    "bounds": [
+      [
+        60.323795318603516,
+        77.57971954345703,
+        0.01600000075995922
+      ],
+      [
+        61.17674255371094,
+        77.86730194091797,
+        0.15000000596046448
+      ]
+    ],
+    "materials": [
+      "FC_warm_granite"
+    ],
+    "hidden": false,
+    "vertices": 8,
+    "polygons": 6
+  },
+  {
+    "name": "E_ENTRY aligned garden curb 000",
+    "fid": "LAWN_EDGE",
+    "bounds": [
+      [
+        67.10611724853516,
+        77.73448181152344,
+        0.01600000075995922
+      ],
+      [
+        67.93556213378906,
+        77.9744873046875,
+        0.15000000596046448
+      ]
+    ],
+    "materials": [
+      "FC_warm_granite"
+    ],
+    "hidden": false,
+    "vertices": 8,
+    "polygons": 6,
+    "boundary_xy": [
+      [
+        67.106117,
+        77.734482
+      ],
+      [
+        67.106117,
+        77.974487
+      ],
+      [
+        67.935562,
+        77.734482
+      ],
+      [
+        67.935562,
+        77.974487
+      ]
+    ]
+  },
+  {
+    "name": "E_ENTRY aligned garden curb 001",
+    "fid": "LAWN_EDGE",
+    "bounds": [
+      [
+        67.94355773925781,
+        77.73448181152344,
+        0.01600000075995922
+      ],
+      [
+        68.77299499511719,
+        77.9744873046875,
+        0.15000000596046448
+      ]
+    ],
+    "materials": [
+      "FC_warm_granite"
+    ],
+    "hidden": false,
+    "vertices": 8,
+    "polygons": 6,
+    "boundary_xy": [
+      [
+        67.943558,
+        77.734482
+      ],
+      [
+        67.943558,
+        77.974487
+      ],
+      [
+        68.772995,
+        77.734482
+      ],
+      [
+        68.772995,
+        77.974487
+      ]
+    ]
+  },
+  {
+    "name": "E_ENTRY aligned garden curb 002",
+    "fid": "LAWN_EDGE",
+    "bounds": [
+      [
+        68.78099822998047,
+        77.73448181152344,
+        0.01600000075995922
+      ],
+      [
+        69.61043548583984,
+        77.9744873046875,
+        0.15000000596046448
+      ]
+    ],
+    "materials": [
+      "FC_warm_granite"
+    ],
+    "hidden": false,
+    "vertices": 8,
+    "polygons": 6,
+    "boundary_xy": [
+      [
+        68.780998,
+        77.734482
+      ],
+      [
+        68.780998,
+        77.974487
+      ],
+      [
+        69.610435,
+        77.734482
+      ],
+      [
+        69.610435,
+        77.974487
+      ]
+    ]
+  },
+  {
+    "name": "E_ENTRY 0 pedestal core",
+    "fid": "E_ENTRY",
+    "bounds": [
+      [
+        60.86933135986328,
+        77.9894790649414,
+        0.029999999329447746
+      ],
+      [
+        63.01933288574219,
+        80.13948059082031,
+        0.8399999737739563
+      ]
+    ],
+    "materials": [
+      "FC_warm_granite"
+    ],
+    "hidden": false,
+    "vertices": 8,
+    "polygons": 6,
+    "boundary_xy": [
+      [
+        60.869331,
+        77.989479
+      ],
+      [
+        60.869331,
+        80.139481
+      ],
+      [
+        63.019333,
+        77.989479
+      ],
+      [
+        63.019333,
+        80.139481
+      ]
+    ]
+  },
+  {
+    "name": "E_ENTRY 0 plinth foot",
+    "fid": "E_ENTRY",
+    "bounds": [
+      [
+        60.83433151245117,
+        77.95448303222656,
+        0.029999999329447746
+      ],
+      [
+        63.0543327331543,
+        80.17448425292969,
+        0.1899999976158142
+      ]
+    ],
+    "materials": [
+      "FC_warm_granite"
+    ],
+    "hidden": false,
+    "vertices": 8,
+    "polygons": 6,
+    "boundary_xy": [
+      [
+        60.834332,
+        77.954483
+      ],
+      [
+        60.834332,
+        80.174484
+      ],
+      [
+        63.054333,
+        77.954483
+      ],
+      [
+        63.054333,
+        80.174484
+      ]
+    ]
+  },
+  {
+    "name": "E_ENTRY 0 rounded coping",
+    "fid": "E_ENTRY",
+    "bounds": [
+      [
+        60.79433059692383,
+        77.91448211669922,
+        0.8349999785423279
+      ],
+      [
+        63.09433364868164,
+        80.21448516845703,
+        0.9200000166893005
+      ]
+    ],
+    "materials": [
+      "FC_warm_granite"
+    ],
+    "hidden": false,
+    "vertices": 8,
+    "polygons": 6,
+    "boundary_xy": [
+      [
+        60.794331,
+        77.914482
+      ],
+      [
+        60.794331,
+        80.214485
+      ],
+      [
+        63.094334,
+        77.914482
+      ],
+      [
+        63.094334,
+        80.214485
+      ]
+    ]
+  },
+  {
+    "name": "E_ENTRY 0 panel joint",
+    "fid": "E_ENTRY",
+    "bounds": [
+      [
+        61.24833297729492,
+        77.98297882080078,
+        0.125
+      ],
+      [
+        61.26033020019531,
+        77.99198150634766,
+        0.7749999761581421
+      ]
+    ],
+    "materials": [
+      "FC_plaque"
+    ],
+    "hidden": false,
+    "vertices": 8,
+    "polygons": 6,
+    "boundary_xy": [
+      [
+        61.248333,
+        77.982979
+      ],
+      [
+        61.248333,
+        77.991982
+      ],
+      [
+        61.26033,
+        77.982979
+      ],
+      [
+        61.26033,
+        77.991982
+      ]
+    ]
+  },
+  {
+    "name": "E_ENTRY 0 panel joint.001",
+    "fid": "E_ENTRY",
+    "bounds": [
+      [
+        62.62833023071289,
+        77.98297882080078,
+        0.125
+      ],
+      [
+        62.64033126831055,
+        77.99198150634766,
+        0.7749999761581421
+      ]
+    ],
+    "materials": [
+      "FC_plaque"
+    ],
+    "hidden": false,
+    "vertices": 8,
+    "polygons": 6,
+    "boundary_xy": [
+      [
+        62.62833,
+        77.982979
+      ],
+      [
+        62.62833,
+        77.991982
+      ],
+      [
+        62.640331,
+        77.982979
+      ],
+      [
+        62.640331,
+        77.991982
+      ]
+    ]
+  },
+  {
+    "name": "E_ENTRY 0 panel joint.002",
+    "fid": "E_ENTRY",
+    "bounds": [
+      [
+        61.24833297729492,
+        80.1369857788086,
+        0.125
+      ],
+      [
+        61.26033020019531,
+        80.14598083496094,
+        0.7749999761581421
+      ]
+    ],
+    "materials": [
+      "FC_plaque"
+    ],
+    "hidden": false,
+    "vertices": 8,
+    "polygons": 6,
+    "boundary_xy": [
+      [
+        61.248333,
+        80.136986
+      ],
+      [
+        61.248333,
+        80.145981
+      ],
+      [
+        61.26033,
+        80.136986
+      ],
+      [
+        61.26033,
+        80.145981
+      ]
+    ]
+  },
+  {
+    "name": "E_ENTRY 0 panel joint.003",
+    "fid": "E_ENTRY",
+    "bounds": [
+      [
+        62.62833023071289,
+        80.1369857788086,
+        0.125
+      ],
+      [
+        62.64033126831055,
+        80.14598083496094,
+        0.7749999761581421
+      ]
+    ],
+    "materials": [
+      "FC_plaque"
+    ],
+    "hidden": false,
+    "vertices": 8,
+    "polygons": 6,
+    "boundary_xy": [
+      [
+        62.62833,
+        80.136986
+      ],
+      [
+        62.62833,
+        80.145981
+      ],
+      [
+        62.640331,
+        80.136986
+      ],
+      [
+        62.640331,
+        80.145981
+      ]
+    ]
+  },
+  {
+    "name": "E_ENTRY 0 soil",
+    "fid": "E_ENTRY",
+    "bounds": [
+      [
+        60.92433166503906,
+        78.04447937011719,
+        1.75
+      ],
+      [
+        62.964332580566406,
+        80.08448028564453,
+        1.7699999809265137
+      ]
+    ],
+    "materials": [
+      "FIN_garden_grass"
+    ],
+    "hidden": false,
+    "vertices": 384,
+    "polygons": 290,
+    "boundary_xy": []
+  },
+  {
+    "name": "E_ENTRY 0 broad leaves",
+    "fid": "E_ENTRY",
+    "bounds": [
+      [
+        60.89461898803711,
+        78.04217529296875,
+        1.7800250053405762
+      ],
+      [
+        63.036800384521484,
+        80.08810424804688,
+        2.2100813388824463
+      ]
+    ],
+    "materials": [
+      "VEG1 olive"
+    ],
+    "hidden": false,
+    "vertices": 1750,
+    "polygons": 1400,
+    "boundary_xy": []
+  },
+  {
+    "name": "E_ENTRY 0 red flowers",
+    "fid": "E_ENTRY",
+    "bounds": [
+      [
+        60.945858001708984,
+        78.14813995361328,
+        1.884605884552002
+      ],
+      [
+        62.93588638305664,
+        79.96337127685547,
+        2.2312636375427246
+      ]
+    ],
+    "materials": [
+      "FC_red_begonia"
+    ],
+    "hidden": false,
+    "vertices": 2340,
+    "polygons": 585,
+    "boundary_xy": []
+  },
+  {
+    "name": "E_ENTRY 1 pedestal core",
+    "fid": "E_ENTRY",
+    "bounds": [
+      [
+        67.86933135986328,
+        77.9894790649414,
+        0.029999999329447746
+      ],
+      [
+        70.01933288574219,
+        80.13948059082031,
+        0.8399999737739563
+      ]
+    ],
+    "materials": [
+      "FC_warm_granite"
+    ],
+    "hidden": false,
+    "vertices": 8,
+    "polygons": 6,
+    "boundary_xy": [
+      [
+        67.869331,
+        77.989479
+      ],
+      [
+        67.869331,
+        80.139481
+      ],
+      [
+        70.019333,
+        77.989479
+      ],
+      [
+        70.019333,
+        80.139481
+      ]
+    ]
+  },
+  {
+    "name": "E_ENTRY 1 plinth foot",
+    "fid": "E_ENTRY",
+    "bounds": [
+      [
+        67.83433532714844,
+        77.95448303222656,
+        0.029999999329447746
+      ],
+      [
+        70.05432891845703,
+        80.17448425292969,
+        0.1899999976158142
+      ]
+    ],
+    "materials": [
+      "FC_warm_granite"
+    ],
+    "hidden": false,
+    "vertices": 8,
+    "polygons": 6,
+    "boundary_xy": [
+      [
+        67.834335,
+        77.954483
+      ],
+      [
+        67.834335,
+        80.174484
+      ],
+      [
+        70.054329,
+        77.954483
+      ],
+      [
+        70.054329,
+        80.174484
+      ]
+    ]
+  },
+  {
+    "name": "E_ENTRY 1 rounded coping",
+    "fid": "E_ENTRY",
+    "bounds": [
+      [
+        67.7943344116211,
+        77.91448211669922,
+        0.8349999785423279
+      ],
+      [
+        70.09432983398438,
+        80.21448516845703,
+        0.9200000166893005
+      ]
+    ],
+    "materials": [
+      "FC_warm_granite"
+    ],
+    "hidden": false,
+    "vertices": 8,
+    "polygons": 6,
+    "boundary_xy": [
+      [
+        67.794334,
+        77.914482
+      ],
+      [
+        67.794334,
+        80.214485
+      ],
+      [
+        70.09433,
+        77.914482
+      ],
+      [
+        70.09433,
+        80.214485
+      ]
+    ]
+  },
+  {
+    "name": "E_ENTRY 1 panel joint",
+    "fid": "E_ENTRY",
+    "bounds": [
+      [
+        68.24832916259766,
+        77.98297882080078,
+        0.125
+      ],
+      [
+        68.26033020019531,
+        77.99198150634766,
+        0.7749999761581421
+      ]
+    ],
+    "materials": [
+      "FC_plaque"
+    ],
+    "hidden": false,
+    "vertices": 8,
+    "polygons": 6,
+    "boundary_xy": [
+      [
+        68.248329,
+        77.982979
+      ],
+      [
+        68.248329,
+        77.991982
+      ],
+      [
+        68.26033,
+        77.982979
+      ],
+      [
+        68.26033,
+        77.991982
+      ]
+    ]
+  },
+  {
+    "name": "E_ENTRY 1 panel joint.002",
+    "fid": "E_ENTRY",
+    "bounds": [
+      [
+        68.24832916259766,
+        80.1369857788086,
+        0.125
+      ],
+      [
+        68.26033020019531,
+        80.14598083496094,
+        0.7749999761581421
+      ]
+    ],
+    "materials": [
+      "FC_plaque"
+    ],
+    "hidden": false,
+    "vertices": 8,
+    "polygons": 6,
+    "boundary_xy": [
+      [
+        68.248329,
+        80.136986
+      ],
+      [
+        68.248329,
+        80.145981
+      ],
+      [
+        68.26033,
+        80.136986
+      ],
+      [
+        68.26033,
+        80.145981
+      ]
+    ]
+  },
+  {
+    "name": "E_ENTRY 1 soil",
+    "fid": "E_ENTRY",
+    "bounds": [
+      [
+        67.92433166503906,
+        78.04447937011719,
+        1.75
+      ],
+      [
+        69.9643325805664,
+        80.08448028564453,
+        1.7699999809265137
+      ]
+    ],
+    "materials": [
+      "FIN_garden_grass"
+    ],
+    "hidden": false,
+    "vertices": 384,
+    "polygons": 290,
+    "boundary_xy": []
+  },
+  {
+    "name": "E_ENTRY 1 broad leaves",
+    "fid": "E_ENTRY",
+    "bounds": [
+      [
+        67.89462280273438,
+        78.04217529296875,
+        1.7800250053405762
+      ],
+      [
+        70.03680419921875,
+        80.08810424804688,
+        2.2100813388824463
+      ]
+    ],
+    "materials": [
+      "VEG1 olive"
+    ],
+    "hidden": false,
+    "vertices": 1750,
+    "polygons": 1400,
+    "boundary_xy": []
+  },
+  {
+    "name": "E_ENTRY 1 red flowers",
+    "fid": "E_ENTRY",
+    "bounds": [
+      [
+        67.94586181640625,
+        78.14813995361328,
+        1.884605884552002
+      ],
+      [
+        69.93588256835938,
+        79.96337127685547,
+        2.2312636375427246
+      ]
+    ],
+    "materials": [
+      "FC_red_begonia"
+    ],
+    "hidden": false,
+    "vertices": 2340,
+    "polygons": 585,
+    "boundary_xy": []
+  },
+  {
+    "name": "FORECOURT photo grid plaza",
+    "fid": "FORECOURT",
+    "bounds": [
+      [
+        -80.0,
+        67.94995880126953,
+        -0.03500000014901161
+      ],
+      [
+        102.30211639404297,
+        113.0,
+        0.03500000014901161
+      ]
+    ],
+    "materials": [
+      "V4 calibrated plaza granite"
+    ],
+    "hidden": false,
+    "vertices": 286,
+    "polygons": 425,
+    "boundary_xy": []
+  },
+  {
+    "name": "E_ENTRY 0 fluted bowl",
+    "fid": "E_ENTRY",
+    "bounds": [
+      [
+        60.77363204956055,
+        77.89378356933594,
+        0.9200000166893005
+      ],
+      [
+        63.11503219604492,
+        80.23518371582031,
+        1.8799999952316284
+      ]
+    ],
+    "materials": [
+      "FC_fluted_white"
+    ],
+    "hidden": false,
+    "vertices": 1441,
+    "polygons": 1441,
+    "boundary_xy": []
+  },
+  {
+    "name": "E_ENTRY 1 fluted bowl",
+    "fid": "E_ENTRY",
+    "bounds": [
+      [
+        67.77362823486328,
+        77.89378356933594,
+        0.9200000166893005
+      ],
+      [
+        70.11502838134766,
+        80.23518371582031,
+        1.8799999952316284
+      ]
+    ],
+    "materials": [
+      "FC_fluted_white"
+    ],
+    "hidden": false,
+    "vertices": 1441,
+    "polygons": 1441,
+    "boundary_xy": []
+  },
+  {
+    "name": "E_WALK central staggered paving",
+    "fid": "E_WALK",
+    "bounds": [
+      [
+        63.83211898803711,
+        14.0,
+        -0.019999999552965164
+      ],
+      [
+        66.7721176147461,
+        77.85448455810547,
+        0.04500000178813934
+      ]
+    ],
+    "materials": [
+      "V4 walkway rectangular pavers"
+    ],
+    "hidden": false,
+    "vertices": 8,
+    "polygons": 6,
+    "boundary_xy": [
+      [
+        63.832119,
+        14.0
+      ],
+      [
+        63.832119,
+        77.854485
+      ],
+      [
+        66.772118,
+        14.0
+      ],
+      [
+        66.772118,
+        77.854485
+      ]
+    ]
+  },
+  {
+    "name": "E_WALK recessed arc band 0 000",
+    "fid": "E_WALK",
+    "bounds": [
+      [
+        63.50211715698242,
+        14.001999855041504,
+        -0.019999999552965164
+      ],
+      [
+        63.83211898803711,
+        14.64299488067627,
+        0.10999999940395355
+      ]
+    ],
+    "materials": [
+      "FC_light_band"
+    ],
+    "hidden": false,
+    "vertices": 291,
+    "polygons": 261,
+    "boundary_xy": []
+  },
+  {
+    "name": "E_WALK recessed arc band 0 098",
+    "fid": "E_WALK",
+    "bounds": [
+      [
+        63.50211715698242,
+        77.21148681640625,
+        -0.019999999552965164
+      ],
+      [
+        63.83211898803711,
+        77.85248565673828,
+        0.10999999940395355
+      ]
+    ],
+    "materials": [
+      "FC_light_band"
+    ],
+    "hidden": false,
+    "vertices": 291,
+    "polygons": 261,
+    "boundary_xy": []
+  },
+  {
+    "name": "E_WALK recessed arc band 1 000",
+    "fid": "E_WALK",
+    "bounds": [
+      [
+        66.7721176147461,
+        14.001999855041504,
+        -0.019999999552965164
+      ],
+      [
+        67.10211944580078,
+        14.64299488067627,
+        0.10999999940395355
+      ]
+    ],
+    "materials": [
+      "FC_light_band"
+    ],
+    "hidden": false,
+    "vertices": 291,
+    "polygons": 261,
+    "boundary_xy": []
+  },
+  {
+    "name": "E_WALK recessed arc band 1 098",
+    "fid": "E_WALK",
+    "bounds": [
+      [
+        66.7721176147461,
+        77.21148681640625,
+        -0.019999999552965164
+      ],
+      [
+        67.10211944580078,
+        77.85248565673828,
+        0.10999999940395355
+      ]
+    ],
+    "materials": [
+      "FC_light_band"
+    ],
+    "hidden": false,
+    "vertices": 291,
+    "polygons": 261,
+    "boundary_xy": []
+  },
+  {
+    "name": "EPATH continuous union surface",
+    "fid": "EPATH",
+    "bounds": [
+      [
+        67.09622955322266,
+        14.683454513549805,
+        -0.03500000014901161
+      ],
+      [
+        99.919921875,
+        77.22645568847656,
+        1.3300000429153442
+      ]
+    ],
+    "materials": [
+      "V4 clean irregular garden stone"
+    ],
+    "hidden": false,
+    "vertices": 988,
+    "polygons": 1648
+  }
+]

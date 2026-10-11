@@ -1,0 +1,131 @@
+{
+  "images": [
+    {
+      "file": "stage01-after-4464.png",
+      "bytes": 1915563,
+      "sha256": "771aaf3376f8291a6fb33d58639227b3484810094b88c1b666d4dad7be469e00"
+    },
+    {
+      "file": "stage01-after-4485.png",
+      "bytes": 1777829,
+      "sha256": "5e7343accb5452c1b87d5a2fbc51329a6fdcac2d44bc5b7931a5f12da23feb75"
+    },
+    {
+      "file": "stage01-after-top.png",
+      "bytes": 990713,
+      "sha256": "cd8e2ebbb10daed128241db82f766905d8ef6a19686ca545b39561a394f9c5bb"
+    },
+    {
+      "file": "stage01-before-4464.png",
+      "bytes": 984663,
+      "sha256": "fca19a16d1fe371920bdf3e9f2f6ef2ffc64c43b2606619a4b24ea4af97352c4"
+    },
+    {
+      "file": "stage02-after-4491.png",
+      "bytes": 1800986,
+      "sha256": "4451aa03572ea113b42224fe5a5f2625c0d86cf53f52cacc0bbb7cb464472a2d"
+    },
+    {
+      "file": "stage02-after-top.png",
+      "bytes": 1864998,
+      "sha256": "f480c33ce04e6d4f4f5548ed7f8688a960c5caaf88d1641067b8cf64cf530e90"
+    },
+    {
+      "file": "stage02-before-4491.png",
+      "bytes": 925885,
+      "sha256": "01e6b6f9eca699e1a5fb501c1cf738cc1d7c79db282bb95407a210fe7589d407"
+    },
+    {
+      "file": "stage03-after-4492.png",
+      "bytes": 1897928,
+      "sha256": "e6c6878862c705306fa3321976df66290872076d0043616b9df4e20c69c69f85"
+    },
+    {
+      "file": "stage03-after-top.png",
+      "bytes": 1957356,
+      "sha256": "7b2768c7c8468a6be6fc24a5bca081994c3d6dcdbc57d7343bea3a7e83a0fb7a"
+    },
+    {
+      "file": "stage03-before-4492.png",
+      "bytes": 985240,
+      "sha256": "1281c0998dae2bd43701bbb7c6845a5561e1eea8c59f08b03441f530577f3edb"
+    },
+    {
+      "file": "stage04-after-4496.png",
+      "bytes": 2096010,
+      "sha256": "76966bdf8d186af97c213386d8b9c10607749516fb7db5e62baeea951b490d22"
+    },
+    {
+      "file": "stage04-after-junction.png",
+      "bytes": 1905034,
+      "sha256": "1cc103a634c3a8867a211967d69d51c715a6bf055a9c3bdb6988a58109bf9184"
+    },
+    {
+      "file": "stage04-after-top.png",
+      "bytes": 1944658,
+      "sha256": "f7b3449863295d7c02e61f4d2b452d2adb5cb5bdbcb25adbb0b8ba237ea64068"
+    },
+    {
+      "file": "stage04-before-4496.png",
+      "bytes": 1126194,
+      "sha256": "c6ccc4dd496c9a5160b4e4f28ced957570a4c8b0b8bc0c118734149e3a94bfb1"
+    },
+    {
+      "file": "stage04-before-junction.png",
+      "bytes": 1086688,
+      "sha256": "50ccf298bb026ba6683ed0e4ecf54bc49a47f464fa673be489f12137f4350c90"
+    },
+    {
+      "file": "stage05-after-4464.png",
+      "bytes": 2414335,
+      "sha256": "44be75e67f39f97f034d01eb47d165be3e36ba50b9d44a6b99b44879b1e5ee68"
+    },
+    {
+      "file": "stage05-after-4485.png",
+      "bytes": 2269258,
+      "sha256": "5dc059de335ce560f92be296eb80accf6e2a7a8aabe4dffa1e4634b3765a592c"
+    },
+    {
+      "file": "stage05-after-overall.png",
+      "bytes": 2433814,
+      "sha256": "ee8449907000d31bf31204f7f35964f84cbb8d240cec3d424f45a9d234acd18a"
+    },
+    {
+      "file": "stage05-after-top.png",
+      "bytes": 1210312,
+      "sha256": "68818ee4eabee3aab2439ed2c57a12283d3cb92776f375c05acb5f72251e123d"
+    },
+    {
+      "file": "stage05-before-4485.png",
+      "bytes": 937504,
+      "sha256": "eebffcb3ad2ecad334b5bac2fe8b817956e04357dbd6196c072a7fc55a7c2e8a"
+    },
+    {
+      "file": "../../../references/guanghua_lawn/img/img/IMG_4464.jpeg",
+      "bytes": 5202502,
+      "sha256": "c55ba460913e7f9a65eaa66313ed516986f827b8ab40af72437ed761e9331b4f"
+    },
+    {
+      "file": "../../../references/guanghua_lawn/img/img/IMG_4485.jpeg",
+      "bytes": 4397708,
+      "sha256": "e97c9288e495679fab9361938294d734cfeaad9758133d8e14f914cbba48f515"
+    },
+    {
+      "file": "../../../references/guanghua_lawn/img/img/IMG_4491.jpeg",
+      "bytes": 3087363,
+      "sha256": "fdae589f5770660ca8f93dcce2cdcab6a19761c215c01c621aee108293b119a4"
+    },
+    {
+      "file": "../../../references/guanghua_lawn/img/img/IMG_4492.jpeg",
+      "bytes": 4040560,
+      "sha256": "9f900bc482e9a5d79d1729f4b6df516386cf53d8ec32745ca63a3008ac69ef26"
+    },
+    {
+      "file": "../../../references/guanghua_lawn/img/img/IMG_4496.jpeg",
+      "bytes": 6723189,
+      "sha256": "6b8b7f8637eb752fe540d79b7bf29ef3ff7cfbca1f5de9ede21fad5d83232485"
+    }
+  ],
+  "camera_status": "manual approximate; not solved",
+  "dimensions": "inferred; not measured"
+}

@@ -1,0 +1,110 @@
+{
+  "model_sha256": "e672bb29d170353ef130eb7fb3d493ebfe76004eb214a0afb696beaadee0147d",
+  "base_sha256": "e7626f7f4296a177885fead57152dd35aa65846092e4816c7c058c9ba370fa60",
+  "batch": "diagnostic-01",
+  "status": "rejected",
+  "build_script_sha256": "f0b9fa74c4f21401ac4d7ef5035a152328efb5468df77ce15f9e30d76db74916",
+  "render_script_sha256": "99faf15af390391a1783b86e151c39356b7d043af68211802b2a681ad9e9973a",
+  "configuration_sha256": "79eb73255027393a2756b3968942de8827b325be3d9ddb216a3200bd098bf32b",
+  "payload_sha256": "329d79bd688b347cd91adb2be46200e0bd984de61322d3d6c093239ca5a7dbf8",
+  "cameras": {
+    "ROAD_SAMPLE_TOP": {
+      "matrix": [
+        [
+          1.0,
+          0.0,
+          0.0,
+          76.69999694824219
+        ],
+        [
+          0.0,
+          1.0,
+          0.0,
+          47.29999923706055
+        ],
+        [
+          0.0,
+          0.0,
+          1.0,
+          45.0
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "lens": 50.0,
+      "ortho_scale": 20.0
+    },
+    "ROAD_SAMPLE_SIDE": {
+      "matrix": [
+        [
+          0.6698893904685974,
+          -0.45719602704048157,
+          0.5849957466125488,
+          90.0
+        ],
+        [
+          0.7424609065055847,
+          0.4125075936317444,
+          -0.5278155207633972,
+          35.0
+        ],
+        [
+          -1.6420820259099855e-08,
+          0.787914514541626,
+          0.6157846450805664,
+          15.0
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "lens": 50.0,
+      "ortho_scale": 22.0
+    },
+    "V4 east-exit": {
+      "matrix": [
+        [
+          -0.2696300745010376,
+          -0.2835775315761566,
+          0.9202626943588257,
+          81.30211639404297
+        ],
+        [
+          0.9629639983177185,
+          -0.07940171658992767,
+          0.2576737403869629,
+          47.79999923706055
+        ],
+        [
+          -4.692016375429375e-08,
+          0.9556564092636108,
+          0.29448404908180237,
+          3.9000000953674316
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "lens": 29.0,
+      "ortho_scale": 6.0
+    }
+  },
+  "visual_review": {
+    "passed": false,
+    "reasons": [
+      "The inherited nearly parallel branch produced an excessively broad merged junction.",
+      "Terrain protection omitted the interior of the stair opening.",
+      "Steep inherited elevation profile is not field-validated."
+    ]
+  }
+}

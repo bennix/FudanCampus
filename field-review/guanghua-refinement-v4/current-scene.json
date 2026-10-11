@@ -1,0 +1,17 @@
+{
+  "version": "guanghua-closeout-final",
+  "date": "2026-10-01",
+  "status": "Internal verification complete; user visual review pending; draw-call target tracked separately",
+  "scene": "C:\\Users\\Lumin\\source\\FudanCampus-course\\field-review\\guanghua-refinement-v4\\closeout-final\\guanghua-closeout-final.blend",
+  "scene_sha256": "8625e7b4813f9a864c5a03121f32f28e2cc1e5d7265518b921593a137f8b8714",
+  "manifest": "C:\\Users\\Lumin\\source\\FudanCampus-course\\field-review\\guanghua-refinement-v4\\closeout-final\\version-manifest.json",
+  "review": "C:\\Users\\Lumin\\source\\FudanCampus-course\\field-review\\guanghua-refinement-v4\\closeout-final\\review.html",
+  "review_type": "html",
+  "brief": "C:\\Users\\Lumin\\source\\FudanCampus-course\\field-review\\guanghua-refinement-v4\\closeout-final\\README.md",
+  "plan": "C:\\Users\\Lumin\\source\\FudanCampus-course\\field-review\\guanghua-refinement-v4\\scene-closeout-v7\\closeout-plan.md",
+  "validation": "C:\\Users\\Lumin\\source\\FudanCampus-course\\field-review\\guanghua-refinement-v4\\closeout-final\\delivery-validation.json",
+  "user_visual_acceptance": false,
+  "web_assets_updated": true,
+  "baseline_preserved": "C:\\Users\\Lumin\\source\\FudanCampus-course\\field-review\\guanghua-refinement-v4\\scene-closeout-v7\\guanghua-unified-closeout-v7.blend",
+  "instruction": "以本收官模型和同源审阅页作为当前入口；保留 v7 原件及既有其它校园资产。未知和推定见 uncertainty.md，用户视觉认可尚未登记。"
+}

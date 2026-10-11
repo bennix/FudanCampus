@@ -1,0 +1,11 @@
+{
+  "algorithm": "xy-union-cdt-conforming-refinement-independent-profile-v1",
+  "grid": 1e-05,
+  "max_edge": 0.25,
+  "python": "3.14.7",
+  "shapely": "2.1.2",
+  "geos": "3.13.1",
+  "numpy": "2.3.4",
+  "blender": "4.4.3",
+  "uv_metre_scale": 0.3
+}

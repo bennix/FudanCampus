@@ -1,0 +1,29 @@
+{
+  "source": "C:\\Users\\Lumin\\source\\FudanCampus-course\\field-review\\guanghua-spring-v1\\guanghua-spring.blend",
+  "source_sha256": "84cf8fd969d99364034be8324d382a3b92a7af3a3fb4d30b54c476867a84231e",
+  "baseline": "C:\\Users\\Lumin\\source\\FudanCampus-course\\field-review\\guanghua-refinement-v4\\closeout-final\\guanghua-closeout-final.blend",
+  "baseline_sha256": "8625e7b4813f9a864c5a03121f32f28e2cc1e5d7265518b921593a137f8b8714",
+  "target_tree": "V6 East spreading 01",
+  "root_native": [
+    67.9000015258789,
+    46.5,
+    0.13705936074256897
+  ],
+  "changed": [
+    "SIGN__continuous-heart__FIN_red",
+    "V6 East spreading 01 leaves",
+    "V6 East spreading 01 wood"
+  ],
+  "non_target_meshes_preserved": 1904,
+  "drift": [],
+  "blossom_cards": 11476,
+  "whitewash_faces": 106,
+  "heart_translation_native": [
+    0,
+    0.32,
+    0
+  ],
+  "heart_clearance_native": 0.11499977111816406,
+  "heart_clearance_web": 0.07666651407877605,
+  "confidence": "Flower color, flowering habit, and whitewashed trunk photo-supported; placement and absolute size inherited and inferred"
+}
