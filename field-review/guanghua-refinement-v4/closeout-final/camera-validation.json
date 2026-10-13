@@ -1,0 +1,100 @@
+{
+  "source_sha256": "8625e7b4813f9a864c5a03121f32f28e2cc1e5d7265518b921593a137f8b8714",
+  "fits": [
+    {
+      "camera": "P5 approximate IMG_4464",
+      "primary_photo": 4464,
+      "source_sha256": "8625e7b4813f9a864c5a03121f32f28e2cc1e5d7265518b921593a137f8b8714",
+      "anchors": [
+        {
+          "world": [
+            -53.6,
+            99.52,
+            0.915
+          ],
+          "photo_normalized": [
+            0.2012061403508772,
+            0.4027777777777778
+          ],
+          "model_normalized": [
+            0.20239700376987457,
+            0.38929200172424316
+          ],
+          "error": [
+            0.0011908634189973788,
+            0.013485776053534626
+          ]
+        },
+        {
+          "world": [
+            -46.0,
+            99.45,
+            0.915
+          ],
+          "photo_normalized": [
+            0.6524122807017544,
+            0.4057017543859649
+          ],
+          "model_normalized": [
+            0.6519351601600647,
+            0.399513304233551
+          ],
+          "error": [
+            0.00047712054168969065,
+            0.006188450152413871
+          ]
+        },
+        {
+          "world": [
+            -53.6,
+            99.52,
+            0.035
+          ],
+          "photo_normalized": [
+            0.2012061403508772,
+            0.4466374269005848
+          ],
+          "model_normalized": [
+            0.2030823826789856,
+            0.46022772789001465
+          ],
+          "error": [
+            0.0018762423281084017,
+            0.013590300989429871
+          ]
+        },
+        {
+          "world": [
+            -46.0,
+            99.45,
+            0.035
+          ],
+          "photo_normalized": [
+            0.6524122807017544,
+            0.4605263157894737
+          ],
+          "model_normalized": [
+            0.6498392820358276,
+            0.46667325496673584
+          ],
+          "error": [
+            0.002572998665926751,
+            0.006146939177262167
+          ]
+        }
+      ],
+      "max_axis_error": 0.013590300989429871,
+      "confidence": "Relative fit to four approximate visible plinth anchors; pose/scale inferred. Other facade anchors not certified."
+    },
+    {
+      "camera": "GV3 west platform photo 4390",
+      "primary_photo": 4390,
+      "source_sha256": "8625e7b4813f9a864c5a03121f32f28e2cc1e5d7265518b921593a137f8b8714",
+      "anchors": [],
+      "max_axis_error": null,
+      "confidence": "Manual hardscape orientation: glass island on the right, north-facing view within the terrace. Camera position inferred; no metric correspondence claim."
+    }
+  ],
+  "unmatched_policy": "Other fixed photographs are approximate manual views; hardscape relationships reviewed individually. Canopy coverage is not certified from a mismatched photographic pose.",
+  "absolute_scale": "inferred, not surveyed"
+}

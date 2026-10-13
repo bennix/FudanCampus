@@ -1,0 +1,93 @@
+{
+  "version": "guanghua-unified-closeout-v7",
+  "date": "2026-10-01",
+  "status": "unified candidate baseline assembled and reopened; visual closeout remains planned",
+  "scene": "C:\\Users\\Lumin\\source\\FudanCampus-course\\field-review\\guanghua-refinement-v4\\scene-closeout-v7\\guanghua-unified-closeout-v7.blend",
+  "scene_sha256": "641a3ab8f02443ef98ce1bc2dcb2e8a6fdb63ba194dd6fffbec7a92aeeb146a2",
+  "bytes": 465232615,
+  "sources": {
+    "base": {
+      "path": "C:\\Users\\Lumin\\source\\FudanCampus-course\\field-review\\guanghua-refinement-v4\\forecourt-refinement-v4\\forecourt-refined-v4.blend",
+      "sha256": "87fd8fd57c849864ed38cb6c2f5cf81b3717a39d619d46956987be4332854685",
+      "mesh_objects": 1347
+    },
+    "garden": {
+      "path": "C:\\Users\\Lumin\\source\\FudanCampus-course\\field-review\\guanghua-refinement-v4\\garden-vegetation-v3\\garden-vegetation-v3.blend",
+      "sha256": "73bd354d6f23134d5e274d8ca1550d4ad898d55460d360908d13695b93092c7a",
+      "mesh_objects": 1956
+    },
+    "planters": {
+      "path": "C:\\Users\\Lumin\\source\\FudanCampus-course\\field-review\\guanghua-refinement-v4\\entry-planters-v5\\entry-planters-review-v5.blend",
+      "sha256": "b515ef531cd9cc83869c27ad2b33312a9007ebfcf0c0d0287724eef9faf42e3a",
+      "mesh_objects": 1347
+    },
+    "path": {
+      "path": "C:\\Users\\Lumin\\source\\FudanCampus-course\\field-review\\guanghua-refinement-v4\\straight-path-a-v1\\east-straight-path-a-v1.blend",
+      "sha256": "eedc2565ebb7262ac80b9c7842513fd56926cb72638f48fdef13bd8076b88180",
+      "mesh_objects": 1275
+    },
+    "unified_v5": {
+      "path": "C:\\Users\\Lumin\\source\\FudanCampus-course\\field-review\\guanghua-refinement-v4\\scene-unified-v5\\guanghua-unified-v5.blend",
+      "sha256": "ba1a1169e1ff4705db5b467ce2359fe8c086a2801f07548e8d5bb3f085fb310f"
+    },
+    "latest_tree_canopy_v6": {
+      "path": "C:\\Users\\Lumin\\source\\FudanCampus-course\\field-review\\guanghua-refinement-v4\\tree-canopy-v6\\guanghua-tree-canopy-v6.blend",
+      "sha256": "c8ceb97189ba180f5d3887ceec7651a9c6a34b6a32dfbdce53338eaaaccf6fdb"
+    }
+  },
+  "mesh_objects": 1892,
+  "merge_method": "Use already merged v5 plus latest v6 descendant; reconcile via complete content fingerprints, retain native fonts, do not append whole old branches or import old GLBs",
+  "branch_conflicts": {
+    "garden + planters": [],
+    "garden + path": [],
+    "planters + path": []
+  },
+  "existing_text_export_repairs": {
+    "west-entry-v3": {
+      "source": "field-review\\guanghua-refinement-v4\\west-entry-v3\\west-entry-aligned-v3.blend",
+      "source_sha256": "becbeb75aa5f4cea4a80c34039a8825ace683eb5b4a9eac7a67300da067514b0",
+      "target": "field-review\\guanghua-refinement-v4\\west-entry-v3\\west-entry-aligned-v3.glb",
+      "target_sha256": "fbead4b3c61aba8ec1840ad1cbbdaadccf12ef6ae7185182d75b943fb7fd7bf3",
+      "source_unchanged": true,
+      "corrected_export_unchanged": true,
+      "text_meshes": 3
+    },
+    "vegetation-v2": {
+      "source": "field-review\\guanghua-refinement-v4\\vegetation-v2\\vegetation-v2.blend",
+      "source_sha256": "6251c3d7d03d7c1f5595f86476e18faae4d9c3ad87a5103342a1fccfefe63c51",
+      "target": "field-review\\guanghua-refinement-v4\\vegetation-v2\\vegetation-v2.glb",
+      "target_sha256": "9eed7971a3aac12d7bab0c72379d860e471292976b08d3b1b2a56202dba2eb63",
+      "source_unchanged": true,
+      "corrected_export_unchanged": true,
+      "text_meshes": 3
+    }
+  },
+  "export_helper": "C:\\Users\\Lumin\\source\\FudanCampus-course\\scripts\\export_visible_glb.py",
+  "export_helper_sha256": "079e611045e85c2c3323ddc091f864c51d36d7c2972d4853150da744466129f0",
+  "web_assets_updated": false,
+  "unified_glb_exported": false,
+  "user_visual_acceptance": false,
+  "remaining_scope": "closeout-plan.md",
+  "metrics": {
+    "visible_mesh_triangles_before_export": 18800656,
+    "visible_v6_tree_triangles": 5580784,
+    "unique_meshes_with_finite_coordinates": 1314,
+    "triangles_scope": "Native visible mesh estimate before modifiers/font tessellation; not browser rendered triangles"
+  },
+  "historical_visual_evidence": {
+    "source_scene": "C:\\Users\\Lumin\\source\\FudanCampus-course\\field-review\\guanghua-refinement-v4\\tree-canopy-v6\\guanghua-tree-canopy-v6.blend",
+    "source_sha256": "c8ceb97189ba180f5d3887ceec7651a9c6a34b6a32dfbdce53338eaaaccf6fdb",
+    "render_manifest": "C:\\Users\\Lumin\\source\\FudanCampus-course\\field-review\\guanghua-refinement-v4\\tree-canopy-v6\\final-render-manifest.json",
+    "note": "Existing v6 views are inherited evidence; they are not renders of v7. All mesh, font, camera and light content is unchanged by this consolidation."
+  },
+  "limits": [
+    "Native content consolidation only; visual/model/web closeout has not been completed",
+    "Photo cameras, absolute scale, additional trees and unseen geometry retain inferred/unknown status",
+    "No new full-scene collision certification or browser performance result"
+  ],
+  "export_state_validation": {
+    "passed": true,
+    "report": "C:\\Users\\Lumin\\source\\FudanCampus-course\\field-review\\guanghua-refinement-v4\\scene-closeout-v7\\export-state-validation.json",
+    "scope": "Disposable test scene: successful export and two exception paths; actual small GLB reimport. Full unified GLB not yet exported."
+  }
+}

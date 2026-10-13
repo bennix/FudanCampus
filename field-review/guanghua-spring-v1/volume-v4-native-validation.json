@@ -1,0 +1,57 @@
+{
+  "source": "C:\\Users\\Lumin\\source\\FudanCampus-course\\field-review\\guanghua-spring-v1\\guanghua-spring-volume-v4.blend",
+  "source_sha256": "4bc676711957a959872a6323b7e4cdae2a52fed6c7cf12d4cf726c1e2759321c",
+  "baseline": "C:\\Users\\Lumin\\source\\FudanCampus-course\\field-review\\guanghua-spring-v1\\guanghua-spring-photo-v3.blend",
+  "baseline_sha256": "3611d4de05059edae5d2207f5b581bf5ed6cd6e810e991ae157ba0daf109f32e",
+  "target_tree": "V6 East spreading 01",
+  "root_native": [
+    67.9000015258789,
+    46.5,
+    0.13705936074256897
+  ],
+  "changed": [
+    "V6 East spreading 01 leaves",
+    "V6 East spreading 01 wood"
+  ],
+  "non_target_meshes_preserved": 1905,
+  "drift": [],
+  "blossom_cards": 82412,
+  "twig_anchor_sites": 19029,
+  "branch_paths": 4128,
+  "fork_height_native": 1.55,
+  "trunk_base_diameter_native": 1.16,
+  "canopy_horizontal_scale": [
+    1.3,
+    1.2
+  ],
+  "heart_clearance_native": 0.11499977111816406,
+  "heart_clearance_web": 0.07666651407877605,
+  "confidence": "Visible low fork, heavy lateral limbs, pale varying blossoms and whitewash photo-supported; depth and absolute scale inferred",
+  "central_shoots": 16,
+  "generation": "Non-coplanar connected twigs; volumetric anchors; small curved two-half blossom sprays",
+  "materials_reused": true,
+  "wood_bounds_native": [
+    [
+      59.5466194152832,
+      40.484352111816406,
+      0.016171634197235107
+    ],
+    [
+      75.50762939453125,
+      52.64804458618164,
+      8.742476463317871
+    ]
+  ],
+  "flower_bounds_native": [
+    [
+      59.44651794433594,
+      40.372623443603516,
+      2.3711977005004883
+    ],
+    [
+      75.72174072265625,
+      52.73602294921875,
+      8.833956718444824
+    ]
+  ]
+}

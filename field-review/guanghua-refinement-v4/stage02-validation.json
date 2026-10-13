@@ -1,0 +1,7 @@
+{
+  "baseline_sha256": "e7626f7f4296a177885fead57152dd35aa65846092e4816c7c058c9ba370fa60",
+  "baseline_unchanged": true,
+  "non_EPATH_geometry_unchanged": true,
+  "reopen_passed": true,
+  "scope": "Mesh repair only; route, terrain grade and exit heights remain inferred."
+}

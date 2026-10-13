@@ -1,0 +1,164 @@
+{
+  "date": "2026-10-01",
+  "source_sha256": "8625e7b4813f9a864c5a03121f32f28e2cc1e5d7265518b921593a137f8b8714",
+  "status": "内部核验完成 · 已达到运行门槛，待用户视觉审阅",
+  "internal_delivery_ready": true,
+  "user_visual_acceptance": false,
+  "gates": {
+    "protected_v7": true,
+    "native": true,
+    "camera_report": true,
+    "independent_native_audit": true,
+    "glb": true,
+    "formal_18_main": true,
+    "formal_11_local": true,
+    "canopy_before_after": true,
+    "performance": true,
+    "web_build_checks": true,
+    "internal_visual_review": true
+  },
+  "same_source_reports": {
+    "native-validation.json": true,
+    "camera-validation.json": true,
+    "glb-validation.json": true,
+    "final-performance.json": true,
+    "web-checks.json": true,
+    "export-conversion.json": true,
+    "integration.json": true,
+    "visual-review.json": true,
+    "independent-native-repair.json": true,
+    "ground-trim-planar-validation.json": true
+  },
+  "native_same_camera_comparisons": [
+    {
+      "view": "west-platform",
+      "baseline_image_valid": true,
+      "same_camera": true,
+      "camera_matrix_maximum_error": 0.0,
+      "before_image": "canopy-before-west-platform.png",
+      "after_image": "final-west-platform.png",
+      "before_source_sha256": "641a3ab8f02443ef98ce1bc2dcb2e8a6fdb63ba194dd6fffbec7a92aeeb146a2",
+      "after_source_sha256": "8625e7b4813f9a864c5a03121f32f28e2cc1e5d7265518b921593a137f8b8714",
+      "before_resolution": [
+        900,
+        675
+      ],
+      "after_resolution": [
+        1800,
+        1350
+      ],
+      "before_samples": 12,
+      "after_samples": 40
+    },
+    {
+      "view": "east-understory",
+      "baseline_image_valid": true,
+      "same_camera": true,
+      "camera_matrix_maximum_error": 0.0,
+      "before_image": "canopy-before-east-understory.png",
+      "after_image": "final-east-understory.png",
+      "before_source_sha256": "641a3ab8f02443ef98ce1bc2dcb2e8a6fdb63ba194dd6fffbec7a92aeeb146a2",
+      "after_source_sha256": "8625e7b4813f9a864c5a03121f32f28e2cc1e5d7265518b921593a137f8b8714",
+      "before_resolution": [
+        900,
+        675
+      ],
+      "after_resolution": [
+        1800,
+        1350
+      ],
+      "before_samples": 12,
+      "after_samples": 40
+    },
+    {
+      "view": "east-exit",
+      "baseline_image_valid": true,
+      "same_camera": true,
+      "camera_matrix_maximum_error": 0.0,
+      "before_image": "canopy-before-east-exit.png",
+      "after_image": "final-east-exit.png",
+      "before_source_sha256": "641a3ab8f02443ef98ce1bc2dcb2e8a6fdb63ba194dd6fffbec7a92aeeb146a2",
+      "after_source_sha256": "8625e7b4813f9a864c5a03121f32f28e2cc1e5d7265518b921593a137f8b8714",
+      "before_resolution": [
+        900,
+        675
+      ],
+      "after_resolution": [
+        1800,
+        1350
+      ],
+      "before_samples": 12,
+      "after_samples": 40
+    },
+    {
+      "view": "south-walk",
+      "baseline_image_valid": true,
+      "same_camera": true,
+      "camera_matrix_maximum_error": 0.0,
+      "before_image": "canopy-before-south-walk.png",
+      "after_image": "final-south-walk.png",
+      "before_source_sha256": "641a3ab8f02443ef98ce1bc2dcb2e8a6fdb63ba194dd6fffbec7a92aeeb146a2",
+      "after_source_sha256": "8625e7b4813f9a864c5a03121f32f28e2cc1e5d7265518b921593a137f8b8714",
+      "before_resolution": [
+        900,
+        675
+      ],
+      "after_resolution": [
+        1800,
+        1350
+      ],
+      "before_samples": 12,
+      "after_samples": 40
+    }
+  ],
+  "actual_production_assets": [
+    {
+      "url": "models/landscape/guanghua-closeout.glb",
+      "sha256": "e45cc1abf18449507abd402b4db7ea0995e8a9b22cdcc6b32d8f84604e687bd2",
+      "bytes": 121353204,
+      "valid": true
+    },
+    {
+      "url": "models/buildings/27-closeout.glb",
+      "sha256": "7729b2cea51e64e56dbb167891ca3bf259731451be494969463066f3acb74156",
+      "bytes": 3178560,
+      "valid": true
+    },
+    {
+      "url": "models/shared/05-guanghua-closeout.glb",
+      "sha256": "39c56a008f4ec9ceb712a91c4a49cd14d334b22e18aff6fb29ca79328e98e42d",
+      "bytes": 4803248,
+      "valid": true
+    }
+  ],
+  "performance_checks": {
+    "same_source": true,
+    "conditions": true,
+    "fps": true,
+    "p95": true,
+    "overview_triangles": true,
+    "near_triangles": true,
+    "relative_regression": true,
+    "baseline_conditions": true,
+    "browser_errors": true,
+    "production_asset_binding": true,
+    "page_binding": true,
+    "new_assets_size": true
+  },
+  "draw_calls_goal_met": false,
+  "new_asset_bytes": 129335012,
+  "missing_main_views": [],
+  "missing_local_views": [],
+  "render_issues": [],
+  "frame_time_regression": [
+    -0.051136368985695735,
+    0.0,
+    0.0
+  ],
+  "limits": [
+    "Other camera poses are approximate",
+    "Canopy/shrub coverage statistics not certified",
+    "Absolute scale/levels inferred",
+    "ESKY_N position unknown"
+  ]
+}

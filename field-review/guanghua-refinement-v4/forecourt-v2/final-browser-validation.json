@@ -1,0 +1,100 @@
+{
+  "ready": true,
+  "meshCount": 1231,
+  "render": {
+    "calls": 582,
+    "triangles": 2146716
+  },
+  "reviewedAt": "2026-09-30T08:39:02.154Z",
+  "views": 8,
+  "plaqueView": true,
+  "inscriptions": [
+    {
+      "name": "POET_DONKEY_inset_nameplate",
+      "isMesh": true,
+      "featureId": "POET_DONKEY"
+    },
+    {
+      "name": "POET_DONKEY_驢背詩思",
+      "isMesh": true,
+      "featureId": "POET_DONKEY"
+    }
+  ],
+  "images": [
+    {
+      "src": "../forecourt-v1/after-entry.png",
+      "width": 1000,
+      "height": 800
+    },
+    {
+      "src": "after-entry-oblique.png",
+      "width": 1400,
+      "height": 1050
+    },
+    {
+      "src": "../../../references/guanghua_lawn/img/img/IMG_4491.jpeg",
+      "width": 4032,
+      "height": 3024
+    },
+    {
+      "src": "after-entry.png",
+      "width": 1400,
+      "height": 1050
+    },
+    {
+      "src": "../../../references/guanghua_lawn/img/img/IMG_4474.jpeg",
+      "width": 4032,
+      "height": 3024
+    },
+    {
+      "src": "after-plaza.png",
+      "width": 1400,
+      "height": 1050
+    },
+    {
+      "src": "after-edge.png",
+      "width": 1400,
+      "height": 1050
+    },
+    {
+      "src": "after-entry-top.png",
+      "width": 1400,
+      "height": 1050
+    },
+    {
+      "src": "../../../references/guanghua_lawn/img/img/IMG_4468.jpeg",
+      "width": 4032,
+      "height": 3024
+    },
+    {
+      "src": "final-statue.png",
+      "width": 1800,
+      "height": 1350
+    },
+    {
+      "src": "after-statue-side.png",
+      "width": 1400,
+      "height": 1050
+    },
+    {
+      "src": "after-overall.png",
+      "width": 1400,
+      "height": 1050
+    },
+    {
+      "src": "final-plaque-front.png",
+      "width": 1600,
+      "height": 1000
+    },
+    {
+      "src": "final-plaque-oblique.png",
+      "width": 1600,
+      "height": 1000
+    }
+  ],
+  "foliageToggle": true,
+  "mobileWidth": 390,
+  "overflow": false,
+  "errors": [],
+  "failedResponses": []
+}

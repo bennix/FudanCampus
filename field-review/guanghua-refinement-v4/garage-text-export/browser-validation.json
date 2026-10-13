@@ -1,0 +1,50 @@
+{
+  "westEntry": {
+    "texts": [
+      {
+        "name": "WB1__text__光华楼广场自行车库",
+        "feature_id": "WB1",
+        "vertices": 48818
+      },
+      {
+        "name": "WB2__text__光华楼广场自行车库",
+        "feature_id": "WB2",
+        "vertices": 48818
+      },
+      {
+        "name": "SIGN__text__FUDAN",
+        "feature_id": "SIGN",
+        "vertices": 5726
+      }
+    ],
+    "errors": []
+  },
+  "vegetation": {
+    "texts": [
+      {
+        "name": "WB1__text__光华楼广场自行车库",
+        "feature_id": "WB1",
+        "vertices": 48818
+      },
+      {
+        "name": "WB2__text__光华楼广场自行车库",
+        "feature_id": "WB2",
+        "vertices": 48818
+      },
+      {
+        "name": "SIGN__text__FUDAN",
+        "feature_id": "SIGN",
+        "vertices": 5726
+      }
+    ],
+    "errors": []
+  },
+  "visuallyCheckedViews": [
+    "west-entry-v3 garage1",
+    "west-entry-v3 garage2",
+    "west-entry-v3 FUDAN",
+    "vegetation-v2 garage1",
+    "vegetation-v2 garage2",
+    "vegetation-v2 FUDAN"
+  ]
+}

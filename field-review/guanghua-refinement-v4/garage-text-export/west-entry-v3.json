@@ -1,0 +1,154 @@
+{
+  "source": "field-review\\guanghua-refinement-v4\\west-entry-v3\\west-entry-aligned-v3.blend",
+  "source_sha256": "becbeb75aa5f4cea4a80c34039a8825ace683eb5b4a9eac7a67300da067514b0",
+  "source_unchanged": true,
+  "target": "field-review\\guanghua-refinement-v4\\west-entry-v3\\west-entry-aligned-v3.glb",
+  "before_sha256": "acaaadd9f5dd8712f0d314270b1bf8ecdf8dde15b1053bf930a6501f20450e5e",
+  "after_sha256": "fbead4b3c61aba8ec1840ad1cbbdaadccf12ef6ae7185182d75b943fb7fd7bf3",
+  "before_bytes": 200891228,
+  "after_bytes": 204759944,
+  "preserved_meshes": 1084,
+  "added_text_meshes": [
+    {
+      "name": "WB1__text__光华楼广场自行车库",
+      "body": "光华楼广场自行车库",
+      "font": "C:\\Windows\\Fonts\\simhei.ttf",
+      "feature_id": "WB1",
+      "vertices": 48482,
+      "polygons": 44943,
+      "matrix": [
+        [
+          -4.371138828673793e-08,
+          -4.371138828673793e-08,
+          -1.0,
+          -74.64593505859375
+        ],
+        [
+          -1.0,
+          1.910685676922942e-15,
+          4.371138828673793e-08,
+          48.0
+        ],
+        [
+          0.0,
+          1.0,
+          -4.371138828673793e-08,
+          2.069999933242798
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "reimport_bounds_blender": [
+        [
+          -74.66993713378906,
+          45.89492416381836,
+          1.8435155153274536
+        ],
+        [
+          -74.62193298339844,
+          50.120662689208984,
+          2.3002097606658936
+        ]
+      ]
+    },
+    {
+      "name": "WB2__text__光华楼广场自行车库",
+      "body": "光华楼广场自行车库",
+      "font": "C:\\Windows\\Fonts\\simhei.ttf",
+      "feature_id": "WB2",
+      "vertices": 48482,
+      "polygons": 44943,
+      "matrix": [
+        [
+          -4.371138828673793e-08,
+          -4.371138828673793e-08,
+          -1.0,
+          -74.64593505859375
+        ],
+        [
+          -1.0,
+          1.910685676922942e-15,
+          4.371138828673793e-08,
+          70.0
+        ],
+        [
+          0.0,
+          1.0,
+          -4.371138828673793e-08,
+          2.069999933242798
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "reimport_bounds_blender": [
+        [
+          -74.66993713378906,
+          67.8949203491211,
+          1.8435155153274536
+        ],
+        [
+          -74.62193298339844,
+          72.12066650390625,
+          2.3002097606658936
+        ]
+      ]
+    },
+    {
+      "name": "SIGN__text__FUDAN",
+      "body": "FUDAN",
+      "font": "C:\\Windows\\Fonts\\arialbd.ttf",
+      "feature_id": "SIGN",
+      "vertices": 5642,
+      "polygons": 5227,
+      "matrix": [
+        [
+          1.4701998233795166,
+          0.0,
+          0.0,
+          24.549999237060547
+        ],
+        [
+          0.0,
+          -4.371138828673793e-08,
+          -1.0,
+          9.460000038146973
+        ],
+        [
+          0.0,
+          1.0,
+          -4.371138828673793e-08,
+          0.8320744037628174
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "reimport_bounds_blender": [
+        [
+          21.444133758544922,
+          9.284000396728516,
+          0.3749999403953552
+        ],
+        [
+          27.644134521484375,
+          9.63599967956543,
+          1.302036166191101
+        ]
+      ]
+    }
+  ],
+  "existing_mesh_geometry_materials_transforms_metadata_unchanged": true,
+  "embedded_images": 53,
+  "glb_reimport_ok": true
+}

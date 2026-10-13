@@ -1,0 +1,6154 @@
+{
+  "source_sha256": "8625e7b4813f9a864c5a03121f32f28e2cc1e5d7265518b921593a137f8b8714",
+  "baseline_unchanged": true,
+  "reopened_snapshot_equal": true,
+  "meshes": 1907,
+  "visible_native_triangles": 19427060,
+  "closed_repaired_solids": [
+    {
+      "name": "C03 west retaining wall",
+      "nonmanifold": 0,
+      "zero_area": 0,
+      "volume": 73.02231136356957,
+      "finite": true,
+      "faces": 6056
+    },
+    {
+      "name": "C03 west flower plinth wall",
+      "nonmanifold": 0,
+      "zero_area": 0,
+      "volume": 4.8587350318122375,
+      "finite": true,
+      "faces": 2252
+    },
+    {
+      "name": "C03 west retaining coping",
+      "nonmanifold": 0,
+      "zero_area": 0,
+      "volume": 6.161100518720732,
+      "finite": true,
+      "faces": 6304
+    },
+    {
+      "name": "C03 west flower plinth coping",
+      "nonmanifold": 0,
+      "zero_area": 0,
+      "volume": 0.9796016174525061,
+      "finite": true,
+      "faces": 2804
+    },
+    {
+      "name": "C03 west outer rail wall",
+      "nonmanifold": 0,
+      "zero_area": 0,
+      "volume": 31.19593891204541,
+      "finite": true,
+      "faces": 1764
+    },
+    {
+      "name": "C03 west outer flower plinth wall",
+      "nonmanifold": 0,
+      "zero_area": 0,
+      "volume": 4.672191142402267,
+      "finite": true,
+      "faces": 2552
+    },
+    {
+      "name": "C03 west outer rail coping",
+      "nonmanifold": 0,
+      "zero_area": 0,
+      "volume": 1.9676858346078099,
+      "finite": true,
+      "faces": 1896
+    },
+    {
+      "name": "C03 west outer flower plinth coping",
+      "nonmanifold": 0,
+      "zero_area": 0,
+      "volume": 0.9485501670740262,
+      "finite": true,
+      "faces": 3208
+    },
+    {
+      "name": "C03 west planting surface",
+      "nonmanifold": 0,
+      "zero_area": 0,
+      "volume": 596.7896201072857,
+      "finite": true,
+      "faces": 138908
+    },
+    {
+      "name": "C03 east retaining wall",
+      "nonmanifold": 0,
+      "zero_area": 0,
+      "volume": 72.30301209194,
+      "finite": true,
+      "faces": 5768
+    },
+    {
+      "name": "C03 east flower plinth wall",
+      "nonmanifold": 0,
+      "zero_area": 0,
+      "volume": 4.858767536742469,
+      "finite": true,
+      "faces": 2732
+    },
+    {
+      "name": "C03 east retaining coping",
+      "nonmanifold": 0,
+      "zero_area": 0,
+      "volume": 6.033301238337007,
+      "finite": true,
+      "faces": 5836
+    },
+    {
+      "name": "C03 east flower plinth coping",
+      "nonmanifold": 0,
+      "zero_area": 0,
+      "volume": 0.9796097686182084,
+      "finite": true,
+      "faces": 3264
+    },
+    {
+      "name": "C03 east outer rail wall",
+      "nonmanifold": 0,
+      "zero_area": 0,
+      "volume": 31.033694833215932,
+      "finite": true,
+      "faces": 1764
+    },
+    {
+      "name": "C03 east outer flower plinth wall",
+      "nonmanifold": 0,
+      "zero_area": 0,
+      "volume": 4.672146443130857,
+      "finite": true,
+      "faces": 2516
+    },
+    {
+      "name": "C03 east outer rail coping",
+      "nonmanifold": 0,
+      "zero_area": 0,
+      "volume": 1.9375125855700321,
+      "finite": true,
+      "faces": 1904
+    },
+    {
+      "name": "C03 east outer flower plinth coping",
+      "nonmanifold": 0,
+      "zero_area": 0,
+      "volume": 0.9485588871281109,
+      "finite": true,
+      "faces": 1996
+    },
+    {
+      "name": "C03 east planting surface",
+      "nonmanifold": 0,
+      "zero_area": 0,
+      "volume": 579.0113550940179,
+      "finite": true,
+      "faces": 130048
+    },
+    {
+      "name": "C04 continuous road",
+      "nonmanifold": 0,
+      "zero_area": 0,
+      "volume": 117.94408317011828,
+      "finite": true,
+      "faces": 36692
+    },
+    {
+      "name": "C04 continuous ground",
+      "nonmanifold": 0,
+      "zero_area": 0,
+      "volume": 275.5395160875336,
+      "finite": true,
+      "faces": 117944
+    },
+    {
+      "name": "C15 plaque stone mounting return",
+      "nonmanifold": 0,
+      "zero_area": 0,
+      "volume": 0.15849928088950893,
+      "finite": true,
+      "faces": 6
+    },
+    {
+      "name": "C02 visible fluted facade columns",
+      "nonmanifold": 0,
+      "zero_area": 0,
+      "volume": 171.210603561042,
+      "finite": true,
+      "faces": 13050
+    }
+  ],
+  "straight_path_entities": 200,
+  "plaza_interface_samples": 241,
+  "max_plaza_recess": 5.7220458984375e-06,
+  "road_boundary_samples": 241,
+  "max_actual_road_ground_difference": 9.5367431640625e-06,
+  "fonts": [
+    {
+      "name": "WB1__text__光华楼广场自行车库",
+      "body": "光华楼广场自行车库",
+      "bounds": [
+        [
+          -74.650634765625,
+          45.44694137573242,
+          1.8495151996612549
+        ],
+        [
+          -74.6412353515625,
+          50.56694412231445,
+          2.2925500869750977
+        ]
+      ],
+      "font": "SimHei Regular",
+      "packed": true
+    },
+    {
+      "name": "WB2__text__光华楼广场自行车库",
+      "body": "光华楼广场自行车库",
+      "bounds": [
+        [
+          -74.650634765625,
+          67.44694519042969,
+          1.8495151996612549
+        ],
+        [
+          -74.6412353515625,
+          72.56694030761719,
+          2.2925500869750977
+        ]
+      ],
+      "font": "SimHei Regular.001",
+      "packed": true
+    },
+    {
+      "name": "SIGN__text__FUDAN",
+      "body": "FUDAN",
+      "bounds": [
+        [
+          21.444133758544922,
+          9.284000396728516,
+          0.3750000298023224
+        ],
+        [
+          27.644134521484375,
+          9.63599967956543,
+          1.302036166191101
+        ]
+      ],
+      "font": "Arial Bold",
+      "packed": true
+    }
+  ],
+  "component_inventory": {
+    "WB1": [
+      "WB1__sloping-apron__FIN_ramp",
+      "WB1__retaining-wall__FIN_concrete",
+      "WB1__coping__FIN_stone_pale",
+      "WB1__side-pipe__FIN_stainless",
+      "WB1__hedge-core__FIN_hedge",
+      "WB1__hedge-leaf-clusters__FIN_hedge",
+      "WB1__door-jamb__FIN_concrete",
+      "WB1__door-lintel__FIN_concrete",
+      "WB1__sign-board__FIN_blue",
+      "WB1__door-frame__FIN_door",
+      "WB1__visibility-limit__FIN_black",
+      "WB1__folded-open-leaf__FIN_door",
+      "WB1__opening-top-return__FIN_door",
+      "WB1__mouth-grate__FIN_stainless",
+      "WB1__hedge-core__FIN_redhedge",
+      "WB1__hedge-leaf-clusters__FIN_redhedge",
+      "WB1__text__光华楼广场自行车库"
+    ],
+    "WB2": [
+      "WB2__sloping-apron__FIN_ramp",
+      "WB2__retaining-wall__FIN_concrete",
+      "WB2__coping__FIN_stone_pale",
+      "WB2__side-pipe__FIN_stainless",
+      "WB2__hedge-core__FIN_hedge",
+      "WB2__hedge-leaf-clusters__FIN_hedge",
+      "WB2__door-jamb__FIN_concrete",
+      "WB2__door-lintel__FIN_concrete",
+      "WB2__sign-board__FIN_blue",
+      "WB2__door-frame__FIN_door",
+      "WB2__closed-door-leaf__FIN_door",
+      "WB2__door-seam__FIN_black",
+      "WB2__door-handle__FIN_stainless",
+      "WB2__mouth-grate__FIN_stainless",
+      "WB2__hedge-core__FIN_redhedge",
+      "WB2__hedge-leaf-clusters__FIN_redhedge",
+      "WB2__text__光华楼广场自行车库"
+    ],
+    "WOPEN": [
+      "WOPEN__side-wall__FIN_concrete",
+      "WOPEN__coping__FIN_stone_pale",
+      "WOPEN__end-wall__FIN_concrete",
+      "WOPEN__descending-steps__FIN_concrete",
+      "WOPEN__tread__FIN_granite",
+      "WOPEN__step-edge__FIN_stone_pale",
+      "WOPEN__rail-post__FIN_green_metal",
+      "WOPEN__rail-bar__FIN_green_metal",
+      "WOPEN__middle-rail__FIN_green_metal",
+      "WOPEN__sloping-handrail__FIN_stainless",
+      "WOPEN__handrail-post__FIN_stainless",
+      "WOPEN__hedge-core__FIN_hedge",
+      "WOPEN__entry-stepping-stones__FIN_granite",
+      "WOPEN__lower-visibility-limit__FIN_black"
+    ],
+    "WOPEN_S": [
+      "WOPEN_S__side-wall__FIN_concrete",
+      "WOPEN_S__coping__FIN_stone_pale",
+      "WOPEN_S__end-wall__FIN_concrete",
+      "WOPEN_S__descending-steps__FIN_concrete",
+      "WOPEN_S__tread__FIN_granite",
+      "WOPEN_S__step-edge__FIN_stone_pale",
+      "WOPEN_S__rail-post__FIN_green_metal",
+      "WOPEN_S__rail-bar__FIN_green_metal",
+      "WOPEN_S__middle-rail__FIN_green_metal",
+      "WOPEN_S__sloping-handrail__FIN_stainless",
+      "WOPEN_S__handrail-post__FIN_stainless",
+      "WOPEN_S__hedge-core__FIN_hedge",
+      "WOPEN_S__entry-stepping-stones__FIN_granite",
+      "WOPEN_S__lower-visibility-limit__FIN_black"
+    ],
+    "EOPEN": [
+      "EOPEN__side-wall__FIN_concrete",
+      "EOPEN__coping__FIN_stone_pale",
+      "EOPEN__end-wall__FIN_concrete",
+      "EOPEN__descending-steps__FIN_concrete",
+      "EOPEN__tread__FIN_granite",
+      "EOPEN__step-edge__FIN_stone_pale",
+      "EOPEN__rail-post__FIN_green_metal",
+      "EOPEN__rail-bar__FIN_green_metal",
+      "EOPEN__middle-rail__FIN_green_metal",
+      "EOPEN__sloping-handrail__FIN_stainless",
+      "EOPEN__handrail-post__FIN_stainless",
+      "EOPEN__hedge-core__FIN_hedge",
+      "EOPEN__entry-stepping-stones__FIN_granite",
+      "EOPEN__lower-visibility-limit__FIN_black"
+    ],
+    "EOPEN_S": [
+      "EOPEN_S__side-wall__FIN_concrete",
+      "EOPEN_S__coping__FIN_stone_pale",
+      "EOPEN_S__end-wall__FIN_concrete",
+      "EOPEN_S__descending-steps__FIN_concrete",
+      "EOPEN_S__tread__FIN_granite",
+      "EOPEN_S__step-edge__FIN_stone_pale",
+      "EOPEN_S__rail-post__FIN_green_metal",
+      "EOPEN_S__rail-bar__FIN_green_metal",
+      "EOPEN_S__middle-rail__FIN_green_metal",
+      "EOPEN_S__sloping-handrail__FIN_stainless",
+      "EOPEN_S__handrail-post__FIN_stainless",
+      "EOPEN_S__hedge-core__FIN_hedge",
+      "EOPEN_S__entry-stepping-stones__FIN_granite",
+      "EOPEN_S__lower-visibility-limit__FIN_black"
+    ],
+    "ESKY": [
+      "ESKY__roof-frame__metal-green",
+      "ESKY__plinth__warm-granite",
+      "ESKY__planter-wall__warm-granite",
+      "ESKY__planter-soil__soil-east",
+      "ESKY__planter-coping__grey-granite",
+      "ESKY__planted-shrubs__leaf-green",
+      "ESKY__louvres__metal-green",
+      "ESKY__louvre-dark-back__metal-green",
+      "ESKY__glass-roof__glass-east"
+    ],
+    "ESKY_N": [],
+    "WSKY1": [
+      "WSKY1__skylight-base__concrete",
+      "WSKY1__vent-louvre__rail",
+      "WSKY1__skylight-glass__glass",
+      "WSKY1__skylight-frame__silver",
+      "WSKY1__skylight-frame__rail"
+    ],
+    "WSKY2": [
+      "WSKY2__skylight-base__concrete",
+      "WSKY2__vent-louvre__rail",
+      "WSKY2__skylight-glass__glass",
+      "WSKY2__skylight-frame__silver",
+      "WSKY2__skylight-frame__rail"
+    ],
+    "WTERR": [
+      "WTERR__vent-louvre__rail",
+      "WTERR__upper-stair-post__wood",
+      "WTERR__upper-stair-cross__wood",
+      "WTERR__upper-stair-bar__wood",
+      "WTERR__upper-entry__stone",
+      "WTERR__turn-landing__pale",
+      "WTERR__stone-platform__stone",
+      "WTERR__steps__pale",
+      "WTERR__skylight-planter__pale",
+      "WTERR__skylight-glass__glass",
+      "WTERR__skylight-frame__silver",
+      "WTERR__skylight-frame__rail",
+      "WTERR__skylight-base__concrete",
+      "WTERR__recess-wall__concrete",
+      "WTERR__raised-platform__concrete",
+      "WTERR__rail-post__wood",
+      "WTERR__rail-cross__wood",
+      "WTERR__rail-bar__wood",
+      "WTERR__planter-coping__granite-grey",
+      "WTERR__paving-bands__joint",
+      "WTERR__low-walk__pale",
+      "WTERR__irregular-paving__stone-chip-7",
+      "WTERR__irregular-paving__stone-chip-6",
+      "WTERR__irregular-paving__stone-chip-5",
+      "WTERR__irregular-paving__stone-chip-4",
+      "WTERR__irregular-paving__stone-chip-3",
+      "WTERR__irregular-paving__stone-chip-2",
+      "WTERR__irregular-paving__stone-chip-1",
+      "WTERR__irregular-paving__stone-chip-0",
+      "WTERR__hedge__redhedge",
+      "WTERR__hedge__hedge.001",
+      "WTERR__hedge__hedge",
+      "WTERR__central-retaining-wall__concrete",
+      "WTERR__central-coping__pale",
+      "WTERR__bench__rail",
+      "WTERR__bench__benchwood",
+      "WTERR__approach-planter__concrete",
+      "WTERR__approach-coping__pale"
+    ],
+    "ETERR": [
+      "ETERR__road-flight-7__warm-granite",
+      "ETERR__road-flight-7-nose__grey-granite",
+      "ETERR__lower-support__aged-wall",
+      "ETERR__lower-surface__dark-paving",
+      "ETERR__square-inlay__pale-inlay",
+      "ETERR__middle-flight-6__warm-granite",
+      "ETERR__middle-flight-6-nose__grey-granite",
+      "ETERR__middle-support__aged-wall",
+      "ETERR__middle-surface__warm-impressed-paving",
+      "ETERR__upper-turn-flight-3__warm-granite",
+      "ETERR__upper-turn-flight-3-nose__grey-granite",
+      "ETERR__upper-support__aged-wall",
+      "ETERR__upper-surface__warm-impressed-paving",
+      "ETERR__north-exit-3-inferred-count__warm-granite",
+      "ETERR__north-exit-3-inferred-count-nose__grey-granite",
+      "ETERR__west-exit-3-inferred-count__warm-granite",
+      "ETERR__west-exit-3-inferred-count-nose__grey-granite",
+      "ETERR__wall__warm-granite",
+      "ETERR__coping__grey-granite",
+      "ETERR__hedge__leaf-green",
+      "ETERR__hedge__leaf-bronze",
+      "ETERR__bench__rail",
+      "ETERR__bench__benchwood",
+      "ETERR__outer-wall-courses__joint-dark"
+    ],
+    "ERAMP": [
+      "ERAMP__wall-reflector__yellow",
+      "ERAMP__wall-coping__grey-granite",
+      "ERAMP__sloped-deck__ramp-worn-ochre",
+      "ERAMP__retaining-wall__aged-wall",
+      "ERAMP__pergola-slats__dark-wood",
+      "ERAMP__pergola-post__dark-wood",
+      "ERAMP__pergola-long-beam__dark-wood",
+      "ERAMP__pergola-cross-beam__dark-wood",
+      "ERAMP__mouth-drain__joint-dark",
+      "ERAMP__edge-line__yellow",
+      "ERAMP__safety-strip__FIN_black",
+      "ERAMP__safety-marker__yellow",
+      "C14 connected vine stems",
+      "C14 attached vine leaves"
+    ],
+    "E_FURNITURE": [
+      "E_FURNITURE__road-sitting-apron-surface__path-grey",
+      "E_FURNITURE__road-sitting-apron-support__aged-wall",
+      "E_FURNITURE__ring-seat__dark-wood",
+      "E_FURNITURE__ring-legs__metal-green",
+      "E_FURNITURE__ring-back__dark-wood",
+      "E_FURNITURE__bench__rail",
+      "E_FURNITURE__bench__benchwood"
+    ],
+    "SIGN": [
+      "SIGN__plinth__FIN_blue",
+      "SIGN__text__FUDAN",
+      "SIGN__continuous-heart__FIN_red",
+      "SIGN__seat-legs__FIN_blue",
+      "SIGN__seat-back__FIN_blue",
+      "SIGN__seat-slats__FIN_blue",
+      "SIGN__back-slats__FIN_blue",
+      "SIGN__visitor-apron__FIN_pavers"
+    ],
+    "POET_DONKEY": [
+      "POET_DONKEY donkey torso",
+      "POET_DONKEY long ear -1",
+      "POET_DONKEY eye -1",
+      "POET_DONKEY long ear 1",
+      "POET_DONKEY eye 1",
+      "POET_DONKEY tail",
+      "POET_DONKEY rider body",
+      "POET_DONKEY bowed head",
+      "POET_DONKEY draped robe folds",
+      "POET_DONKEY sleeve -1",
+      "POET_DONKEY hand -1",
+      "POET_DONKEY boot -1",
+      "POET_DONKEY sleeve 1",
+      "POET_DONKEY hand 1",
+      "POET_DONKEY boot 1",
+      "POET_DONKEY broad traveller hat",
+      "POET_DONKEY loose rein -1",
+      "POET_DONKEY loose rein 1",
+      "POET_DONKEY cast rock foot",
+      "POET_DONKEY base core 0",
+      "POET_DONKEY rough ashlar",
+      "POET_DONKEY rough ashlar.001",
+      "POET_DONKEY rough ashlar.002",
+      "POET_DONKEY rough ashlar.003",
+      "POET_DONKEY rough ashlar.004",
+      "POET_DONKEY rough ashlar.005",
+      "POET_DONKEY rough ashlar.006",
+      "POET_DONKEY rough ashlar.007",
+      "POET_DONKEY side ashlar",
+      "POET_DONKEY side ashlar.001",
+      "POET_DONKEY side ashlar.002",
+      "POET_DONKEY side ashlar.003",
+      "POET_DONKEY base core 1",
+      "POET_DONKEY rough ashlar.008",
+      "POET_DONKEY rough ashlar.009",
+      "POET_DONKEY rough ashlar.010",
+      "POET_DONKEY rough ashlar.011",
+      "POET_DONKEY rough ashlar.012",
+      "POET_DONKEY rough ashlar.013",
+      "POET_DONKEY side ashlar.004",
+      "POET_DONKEY side ashlar.005",
+      "POET_DONKEY side ashlar.006",
+      "POET_DONKEY side ashlar.007",
+      "POET_DONKEY base core 2",
+      "POET_DONKEY rough ashlar.014",
+      "POET_DONKEY rough ashlar.015",
+      "POET_DONKEY rough ashlar.016",
+      "POET_DONKEY rough ashlar.017",
+      "POET_DONKEY rough ashlar.018",
+      "POET_DONKEY rough ashlar.019",
+      "POET_DONKEY rough ashlar.020",
+      "POET_DONKEY rough ashlar.021",
+      "POET_DONKEY side ashlar.008",
+      "POET_DONKEY side ashlar.009",
+      "POET_DONKEY side ashlar.010",
+      "POET_DONKEY side ashlar.011",
+      "POET_DONKEY dressed coping",
+      "POET_DONKEY inset nameplate",
+      "POET_DONKEY 驢背詩思",
+      "C15 plaque stone mounting return"
+    ]
+  },
+  "shrubs": [
+    {
+      "group": "GV3 shrub 000",
+      "location": [
+        -75.23898315429688,
+        20.46022605895996,
+        -0.005001068115234375
+      ],
+      "road_z": null,
+      "ground_z": null,
+      "objects": [
+        "GV3 shrub 000 GV3 shrub prototype 4 twigs",
+        "GV3 shrub 000 GV3 shrub prototype 4 foliage"
+      ]
+    },
+    {
+      "group": "GV3 shrub 001",
+      "location": [
+        -73.4610366821289,
+        18.698896408081055,
+        -0.005001068115234375
+      ],
+      "road_z": null,
+      "ground_z": null,
+      "objects": [
+        "GV3 shrub 001 GV3 shrub prototype 5 twigs",
+        "GV3 shrub 001 GV3 shrub prototype 5 foliage"
+      ]
+    },
+    {
+      "group": "GV3 shrub 002",
+      "location": [
+        -73.09474182128906,
+        20.83491325378418,
+        -0.005001068115234375
+      ],
+      "road_z": null,
+      "ground_z": null,
+      "objects": [
+        "GV3 shrub 002 GV3 shrub prototype 2 twigs",
+        "GV3 shrub 002 GV3 shrub prototype 2 foliage"
+      ]
+    },
+    {
+      "group": "GV3 shrub 003",
+      "location": [
+        -73.40861511230469,
+        22.41155242919922,
+        -0.0050048828125
+      ],
+      "road_z": null,
+      "ground_z": null,
+      "objects": [
+        "GV3 shrub 003 GV3 shrub prototype 3 twigs",
+        "GV3 shrub 003 GV3 shrub prototype 3 foliage"
+      ]
+    },
+    {
+      "group": "GV3 shrub 004",
+      "location": [
+        -74.01396942138672,
+        33.818572998046875,
+        -0.005001068115234375
+      ],
+      "road_z": null,
+      "ground_z": null,
+      "objects": [
+        "GV3 shrub 004 GV3 shrub prototype 0 twigs",
+        "GV3 shrub 004 GV3 shrub prototype 0 foliage"
+      ]
+    },
+    {
+      "group": "GV3 shrub 005",
+      "location": [
+        -73.52775573730469,
+        36.71052169799805,
+        -0.005001068115234375
+      ],
+      "road_z": null,
+      "ground_z": null,
+      "objects": [
+        "GV3 shrub 005 GV3 shrub prototype 2 twigs",
+        "GV3 shrub 005 GV3 shrub prototype 2 foliage"
+      ]
+    },
+    {
+      "group": "GV3 shrub 006",
+      "location": [
+        -73.837646484375,
+        74.76576232910156,
+        -0.005001068115234375
+      ],
+      "road_z": null,
+      "ground_z": null,
+      "objects": [
+        "GV3 shrub 006 GV3 shrub prototype 4 twigs",
+        "GV3 shrub 006 GV3 shrub prototype 4 foliage"
+      ]
+    },
+    {
+      "group": "GV3 shrub 007",
+      "location": [
+        -73.18543243408203,
+        76.72321319580078,
+        -0.00499725341796875
+      ],
+      "road_z": null,
+      "ground_z": null,
+      "objects": [
+        "GV3 shrub 007 GV3 shrub prototype 4 twigs",
+        "GV3 shrub 007 GV3 shrub prototype 4 foliage"
+      ]
+    },
+    {
+      "group": "GV3 shrub 008",
+      "location": [
+        -73.25051879882812,
+        79.20419311523438,
+        -0.005001068115234375
+      ],
+      "road_z": null,
+      "ground_z": null,
+      "objects": [
+        "GV3 shrub 008 GV3 shrub prototype 4 twigs",
+        "GV3 shrub 008 GV3 shrub prototype 4 foliage"
+      ]
+    },
+    {
+      "group": "GV3 shrub 009",
+      "location": [
+        -73.99903869628906,
+        81.47514343261719,
+        -0.0050048828125
+      ],
+      "road_z": null,
+      "ground_z": null,
+      "objects": [
+        "GV3 shrub 009 GV3 shrub prototype 4 twigs",
+        "GV3 shrub 009 GV3 shrub prototype 4 foliage"
+      ]
+    },
+    {
+      "group": "GV3 shrub 010",
+      "location": [
+        -73.22508239746094,
+        83.04309844970703,
+        -0.005001068115234375
+      ],
+      "road_z": null,
+      "ground_z": null,
+      "objects": [
+        "GV3 shrub 010 GV3 shrub prototype 3 twigs",
+        "GV3 shrub 010 GV3 shrub prototype 3 foliage"
+      ]
+    },
+    {
+      "group": "GV3 shrub 011",
+      "location": [
+        -70.91790008544922,
+        17.82278060913086,
+        -0.005001068115234375
+      ],
+      "road_z": null,
+      "ground_z": null,
+      "objects": [
+        "GV3 shrub 011 GV3 shrub prototype 1 twigs",
+        "GV3 shrub 011 GV3 shrub prototype 1 foliage"
+      ]
+    },
+    {
+      "group": "GV3 shrub 012",
+      "location": [
+        -71.10919952392578,
+        20.655643463134766,
+        -0.005001068115234375
+      ],
+      "road_z": null,
+      "ground_z": null,
+      "objects": [
+        "GV3 shrub 012 GV3 shrub prototype 0 twigs",
+        "GV3 shrub 012 GV3 shrub prototype 0 foliage"
+      ]
+    },
+    {
+      "group": "GV3 shrub 013",
+      "location": [
+        -70.95997619628906,
+        22.37060546875,
+        -0.005001068115234375
+      ],
+      "road_z": null,
+      "ground_z": null,
+      "objects": [
+        "GV3 shrub 013 GV3 shrub prototype 0 twigs",
+        "GV3 shrub 013 GV3 shrub prototype 0 foliage"
+      ]
+    },
+    {
+      "group": "GV3 shrub 014",
+      "location": [
+        -70.92402648925781,
+        34.311458587646484,
+        -0.005001068115234375
+      ],
+      "road_z": null,
+      "ground_z": null,
+      "objects": [
+        "GV3 shrub 014 GV3 shrub prototype 3 twigs",
+        "GV3 shrub 014 GV3 shrub prototype 3 foliage"
+      ]
+    },
+    {
+      "group": "GV3 shrub 015",
+      "location": [
+        -71.103271484375,
+        35.70024108886719,
+        -0.005001068115234375
+      ],
+      "road_z": null,
+      "ground_z": null,
+      "objects": [
+        "GV3 shrub 015 GV3 shrub prototype 1 twigs",
+        "GV3 shrub 015 GV3 shrub prototype 1 foliage"
+      ]
+    },
+    {
+      "group": "GV3 shrub 016",
+      "location": [
+        -71.01901245117188,
+        74.59712219238281,
+        -0.00499725341796875
+      ],
+      "road_z": null,
+      "ground_z": null,
+      "objects": [
+        "GV3 shrub 016 GV3 shrub prototype 1 twigs",
+        "GV3 shrub 016 GV3 shrub prototype 1 foliage"
+      ]
+    },
+    {
+      "group": "GV3 shrub 017",
+      "location": [
+        -71.0347671508789,
+        76.59304809570312,
+        -0.005001068115234375
+      ],
+      "road_z": null,
+      "ground_z": null,
+      "objects": [
+        "GV3 shrub 017 GV3 shrub prototype 1 twigs",
+        "GV3 shrub 017 GV3 shrub prototype 1 foliage"
+      ]
+    },
+    {
+      "group": "GV3 shrub 018",
+      "location": [
+        -71.51897430419922,
+        78.76644897460938,
+        -0.0050048828125
+      ],
+      "road_z": null,
+      "ground_z": null,
+      "objects": [
+        "GV3 shrub 018 GV3 shrub prototype 3 twigs",
+        "GV3 shrub 018 GV3 shrub prototype 3 foliage"
+      ]
+    },
+    {
+      "group": "GV3 shrub 019",
+      "location": [
+        -70.96434783935547,
+        81.31397247314453,
+        -0.00499725341796875
+      ],
+      "road_z": null,
+      "ground_z": null,
+      "objects": [
+        "GV3 shrub 019 GV3 shrub prototype 1 twigs",
+        "GV3 shrub 019 GV3 shrub prototype 1 foliage"
+      ]
+    },
+    {
+      "group": "GV3 shrub 020",
+      "location": [
+        -69.12274932861328,
+        18.6737003326416,
+        -0.005001068115234375
+      ],
+      "road_z": null,
+      "ground_z": null,
+      "objects": [
+        "GV3 shrub 020 GV3 shrub prototype 1 twigs",
+        "GV3 shrub 020 GV3 shrub prototype 1 foliage"
+      ]
+    },
+    {
+      "group": "GV3 shrub 021",
+      "location": [
+        -68.94100952148438,
+        20.817859649658203,
+        -0.005001068115234375
+      ],
+      "road_z": null,
+      "ground_z": null,
+      "objects": [
+        "GV3 shrub 021 GV3 shrub prototype 5 twigs",
+        "GV3 shrub 021 GV3 shrub prototype 5 foliage"
+      ]
+    },
+    {
+      "group": "GV3 shrub 022",
+      "location": [
+        -68.72696685791016,
+        23.228740692138672,
+        -0.005001068115234375
+      ],
+      "road_z": null,
+      "ground_z": null,
+      "objects": [
+        "GV3 shrub 022 GV3 shrub prototype 3 twigs",
+        "GV3 shrub 022 GV3 shrub prototype 3 foliage"
+      ]
+    },
+    {
+      "group": "GV3 shrub 023",
+      "location": [
+        -68.48944854736328,
+        33.64828872680664,
+        -0.005001068115234375
+      ],
+      "road_z": null,
+      "ground_z": null,
+      "objects": [
+        "GV3 shrub 023 GV3 shrub prototype 3 twigs",
+        "GV3 shrub 023 GV3 shrub prototype 3 foliage"
+      ]
+    },
+    {
+      "group": "GV3 shrub 024",
+      "location": [
+        -69.11959838867188,
+        35.81049346923828,
+        -0.005001068115234375
+      ],
+      "road_z": null,
+      "ground_z": null,
+      "objects": [
+        "GV3 shrub 024 GV3 shrub prototype 3 twigs",
+        "GV3 shrub 024 GV3 shrub prototype 3 foliage"
+      ]
+    },
+    {
+      "group": "GV3 shrub 025",
+      "location": [
+        -69.22444915771484,
+        38.67018508911133,
+        -0.00499725341796875
+      ],
+      "road_z": null,
+      "ground_z": null,
+      "objects": [
+        "GV3 shrub 025 GV3 shrub prototype 3 twigs",
+        "GV3 shrub 025 GV3 shrub prototype 3 foliage"
+      ]
+    },
+    {
+      "group": "GV3 shrub 026",
+      "location": [
+        -68.9054183959961,
+        74.27801513671875,
+        -0.00499725341796875
+      ],
+      "road_z": null,
+      "ground_z": null,
+      "objects": [
+        "GV3 shrub 026 GV3 shrub prototype 0 twigs",
+        "GV3 shrub 026 GV3 shrub prototype 0 foliage"
+      ]
+    },
+    {
+      "group": "GV3 shrub 027",
+      "location": [
+        -69.18020629882812,
+        76.81015014648438,
+        -0.005001068115234375
+      ],
+      "road_z": null,
+      "ground_z": null,
+      "objects": [
+        "GV3 shrub 027 GV3 shrub prototype 1 twigs",
+        "GV3 shrub 027 GV3 shrub prototype 1 foliage"
+      ]
+    },
+    {
+      "group": "GV3 shrub 028",
+      "location": [
+        -69.36334228515625,
+        78.69330596923828,
+        -0.005001068115234375
+      ],
+      "road_z": null,
+      "ground_z": null,
+      "objects": [
+        "GV3 shrub 028 GV3 shrub prototype 3 twigs",
+        "GV3 shrub 028 GV3 shrub prototype 3 foliage"
+      ]
+    },
+    {
+      "group": "GV3 shrub 029",
+      "location": [
+        -69.33538818359375,
+        81.70561218261719,
+        -0.00499725341796875
+      ],
+      "road_z": null,
+      "ground_z": null,
+      "objects": [
+        "GV3 shrub 029 GV3 shrub prototype 0 twigs",
+        "GV3 shrub 029 GV3 shrub prototype 0 foliage"
+      ]
+    },
+    {
+      "group": "GV3 shrub 030",
+      "location": [
+        -69.14250946044922,
+        83.31648254394531,
+        -0.005001068115234375
+      ],
+      "road_z": null,
+      "ground_z": null,
+      "objects": [
+        "GV3 shrub 030 GV3 shrub prototype 0 twigs",
+        "GV3 shrub 030 GV3 shrub prototype 0 foliage"
+      ]
+    },
+    {
+      "group": "GV3 shrub 031",
+      "location": [
+        -66.69609832763672,
+        20.08281135559082,
+        -0.005001068115234375
+      ],
+      "road_z": null,
+      "ground_z": null,
+      "objects": [
+        "GV3 shrub 031 GV3 shrub prototype 0 twigs",
+        "GV3 shrub 031 GV3 shrub prototype 0 foliage"
+      ]
+    },
+    {
+      "group": "GV3 shrub 032",
+      "location": [
+        -66.5951156616211,
+        22.31789779663086,
+        -0.005001068115234375
+      ],
+      "road_z": null,
+      "ground_z": null,
+      "objects": [
+        "GV3 shrub 032 GV3 shrub prototype 1 twigs",
+        "GV3 shrub 032 GV3 shrub prototype 1 foliage"
+      ]
+    },
+    {
+      "group": "GV3 shrub 033",
+      "location": [
+        -66.56192016601562,
+        24.557910919189453,
+        -0.005001068115234375
+      ],
+      "road_z": null,
+      "ground_z": null,
+      "objects": [
+        "GV3 shrub 033 GV3 shrub prototype 3 twigs",
+        "GV3 shrub 033 GV3 shrub prototype 3 foliage"
+      ]
+    },
+    {
+      "group": "GV3 shrub 034",
+      "location": [
+        -66.64962768554688,
+        26.711715698242188,
+        -0.005001068115234375
+      ],
+      "road_z": null,
+      "ground_z": null,
+      "objects": [
+        "GV3 shrub 034 GV3 shrub prototype 0 twigs",
+        "GV3 shrub 034 GV3 shrub prototype 0 foliage"
+      ]
+    },
+    {
+      "group": "GV3 shrub 035",
+      "location": [
+        -66.56295776367188,
+        29.09868621826172,
+        -0.005001068115234375
+      ],
+      "road_z": null,
+      "ground_z": null,
+      "objects": [
+        "GV3 shrub 035 GV3 shrub prototype 4 twigs",
+        "GV3 shrub 035 GV3 shrub prototype 4 foliage"
+      ]
+    },
+    {
+      "group": "GV3 shrub 036",
+      "location": [
+        -66.65884399414062,
+        31.714115142822266,
+        -0.005001068115234375
+      ],
+      "road_z": null,
+      "ground_z": null,
+      "objects": [
+        "GV3 shrub 036 GV3 shrub prototype 1 twigs",
+        "GV3 shrub 036 GV3 shrub prototype 1 foliage"
+      ]
+    },
+    {
+      "group": "GV3 shrub 037",
+      "location": [
+        -66.81698608398438,
+        34.48435974121094,
+        -0.005001068115234375
+      ],
+      "road_z": null,
+      "ground_z": null,
+      "objects": [
+        "GV3 shrub 037 GV3 shrub prototype 2 twigs",
+        "GV3 shrub 037 GV3 shrub prototype 2 foliage"
+      ]
+    },
+    {
+      "group": "GV3 shrub 038",
+      "location": [
+        -66.62541961669922,
+        36.48309326171875,
+        -0.005001068115234375
+      ],
+      "road_z": null,
+      "ground_z": null,
+      "objects": [
+        "GV3 shrub 038 GV3 shrub prototype 4 twigs",
+        "GV3 shrub 038 GV3 shrub prototype 4 foliage"
+      ]
+    },
+    {
+      "group": "GV3 shrub 039",
+      "location": [
+        -66.44278717041016,
+        72.66246032714844,
+        -0.00499725341796875
+      ],
+      "road_z": null,
+      "ground_z": null,
+      "objects": [
+        "GV3 shrub 039 GV3 shrub prototype 4 twigs",
+        "GV3 shrub 039 GV3 shrub prototype 4 foliage"
+      ]
+    },
+    {
+      "group": "GV3 shrub 040",
+      "location": [
+        -66.8242416381836,
+        74.24269104003906,
+        -0.005001068115234375
+      ],
+      "road_z": null,
+      "ground_z": null,
+      "objects": [
+        "GV3 shrub 040 GV3 shrub prototype 3 twigs",
+        "GV3 shrub 040 GV3 shrub prototype 3 foliage"
+      ]
+    },
+    {
+      "group": "GV3 shrub 041",
+      "location": [
+        -66.62215423583984,
+        76.39408111572266,
+        -0.00499725341796875
+      ],
+      "road_z": null,
+      "ground_z": null,
+      "objects": [
+        "GV3 shrub 041 GV3 shrub prototype 0 twigs",
+        "GV3 shrub 041 GV3 shrub prototype 0 foliage"
+      ]
+    },
+    {
+      "group": "GV3 shrub 042",
+      "location": [
+        -66.46048736572266,
+        78.92146301269531,
+        -0.00499725341796875
+      ],
+      "road_z": null,
+      "ground_z": null,
+      "objects": [
+        "GV3 shrub 042 GV3 shrub prototype 0 twigs",
+        "GV3 shrub 042 GV3 shrub prototype 0 foliage"
+      ]
+    },
+    {
+      "group": "GV3 shrub 043",
+      "location": [
+        -67.08009338378906,
+        80.7529525756836,
+        -0.00499725341796875
+      ],
+      "road_z": null,
+      "ground_z": null,
+      "objects": [
+        "GV3 shrub 043 GV3 shrub prototype 0 twigs",
+        "GV3 shrub 043 GV3 shrub prototype 0 foliage"
+      ]
+    },
+    {
+      "group": "GV3 shrub 044",
+      "location": [
+        -66.70602416992188,
+        83.42354583740234,
+        -0.00499725341796875
+      ],
+      "road_z": null,
+      "ground_z": null,
+      "objects": [
+        "GV3 shrub 044 GV3 shrub prototype 0 twigs",
+        "GV3 shrub 044 GV3 shrub prototype 0 foliage"
+      ]
+    },
+    {
+      "group": "GV3 shrub 045",
+      "location": [
+        -64.0151596069336,
+        20.701881408691406,
+        -0.005001068115234375
+      ],
+      "road_z": null,
+      "ground_z": null,
+      "objects": [
+        "GV3 shrub 045 GV3 shrub prototype 0 twigs",
+        "GV3 shrub 045 GV3 shrub prototype 0 foliage"
+      ]
+    },
+    {
+      "group": "GV3 shrub 046",
+      "location": [
+        -64.82758331298828,
+        22.539064407348633,
+        -0.005001068115234375
+      ],
+      "road_z": null,
+      "ground_z": null,
+      "objects": [
+        "GV3 shrub 046 GV3 shrub prototype 0 twigs",
+        "GV3 shrub 046 GV3 shrub prototype 0 foliage"
+      ]
+    },
+    {
+      "group": "GV3 shrub 047",
+      "location": [
+        -64.8462142944336,
+        27.083316802978516,
+        -0.005001068115234375
+      ],
+      "road_z": null,
+      "ground_z": null,
+      "objects": [
+        "GV3 shrub 047 GV3 shrub prototype 2 twigs",
+        "GV3 shrub 047 GV3 shrub prototype 2 foliage"
+      ]
+    },
+    {
+      "group": "GV3 shrub 048",
+      "location": [
+        -64.27017974853516,
+        28.998275756835938,
+        -0.0050048828125
+      ],
+      "road_z": null,
+      "ground_z": null,
+      "objects": [
+        "GV3 shrub 048 GV3 shrub prototype 1 twigs",
+        "GV3 shrub 048 GV3 shrub prototype 1 foliage"
+      ]
+    },
+    {
+      "group": "GV3 shrub 049",
+      "location": [
+        -64.3674087524414,
+        31.826244354248047,
+        -0.005001068115234375
+      ],
+      "road_z": null,
+      "ground_z": null,
+      "objects": [
+        "GV3 shrub 049 GV3 shrub prototype 1 twigs",
+        "GV3 shrub 049 GV3 shrub prototype 1 foliage"
+      ]
+    },
+    {
+      "group": "GV3 shrub 050",
+      "location": [
+        -63.98563766479492,
+        34.01659393310547,
+        -0.00499725341796875
+      ],
+      "road_z": null,
+      "ground_z": null,
+      "objects": [
+        "GV3 shrub 050 GV3 shrub prototype 0 twigs",
+        "GV3 shrub 050 GV3 shrub prototype 0 foliage"
+      ]
+    },
+    {
+      "group": "GV3 shrub 051",
+      "location": [
+        -64.29212188720703,
+        36.14202117919922,
+        -0.005001068115234375
+      ],
+      "road_z": null,
+      "ground_z": null,
+      "objects": [
+        "GV3 shrub 051 GV3 shrub prototype 1 twigs",
+        "GV3 shrub 051 GV3 shrub prototype 1 foliage"
+      ]
+    },
+    {
+      "group": "GV3 shrub 052",
+      "location": [
+        -64.92710876464844,
+        76.58001708984375,
+        -0.00499725341796875
+      ],
+      "road_z": null,
+      "ground_z": null,
+      "objects": [
+        "GV3 shrub 052 GV3 shrub prototype 4 twigs",
+        "GV3 shrub 052 GV3 shrub prototype 4 foliage"
+      ]
+    },
+    {
+      "group": "GV3 shrub 053",
+      "location": [
+        -64.14675903320312,
+        78.49090576171875,
+        -0.00499725341796875
+      ],
+      "road_z": null,
+      "ground_z": null,
+      "objects": [
+        "GV3 shrub 053 GV3 shrub prototype 0 twigs",
+        "GV3 shrub 053 GV3 shrub prototype 0 foliage"
+      ]
+    },
+    {
+      "group": "GV3 shrub 054",
+      "location": [
+        -63.97502899169922,
+        83.16145324707031,
+        -0.005001068115234375
+      ],
+      "road_z": null,
+      "ground_z": null,
+      "objects": [
+        "GV3 shrub 054 GV3 shrub prototype 3 twigs",
+        "GV3 shrub 054 GV3 shrub prototype 3 foliage"
+      ]
+    },
+    {
+      "group": "GV3 shrub 055",
+      "location": [
+        -62.506927490234375,
+        23.084646224975586,
+        -0.005001068115234375
+      ],
+      "road_z": null,
+      "ground_z": null,
+      "objects": [
+        "GV3 shrub 055 GV3 shrub prototype 4 twigs",
+        "GV3 shrub 055 GV3 shrub prototype 4 foliage"
+      ]
+    },
+    {
+      "group": "GV3 shrub 056",
+      "location": [
+        -62.33409118652344,
+        25.487045288085938,
+        -0.005001068115234375
+      ],
+      "road_z": null,
+      "ground_z": null,
+      "objects": [
+        "GV3 shrub 056 GV3 shrub prototype 4 twigs",
+        "GV3 shrub 056 GV3 shrub prototype 4 foliage"
+      ]
+    },
+    {
+      "group": "GV3 shrub 057",
+      "location": [
+        -62.01446533203125,
+        27.073535919189453,
+        -0.005001068115234375
+      ],
+      "road_z": null,
+      "ground_z": null,
+      "objects": [
+        "GV3 shrub 057 GV3 shrub prototype 2 twigs",
+        "GV3 shrub 057 GV3 shrub prototype 2 foliage"
+      ]
+    },
+    {
+      "group": "GV3 shrub 058",
+      "location": [
+        -62.680419921875,
+        29.669601440429688,
+        -0.005001068115234375
+      ],
+      "road_z": null,
+      "ground_z": null,
+      "objects": [
+        "GV3 shrub 058 GV3 shrub prototype 3 twigs",
+        "GV3 shrub 058 GV3 shrub prototype 3 foliage"
+      ]
+    },
+    {
+      "group": "GV3 shrub 059",
+      "location": [
+        -62.163204193115234,
+        31.65997886657715,
+        -0.005001068115234375
+      ],
+      "road_z": null,
+      "ground_z": null,
+      "objects": [
+        "GV3 shrub 059 GV3 shrub prototype 1 twigs",
+        "GV3 shrub 059 GV3 shrub prototype 1 foliage"
+      ]
+    },
+    {
+      "group": "GV3 shrub 060",
+      "location": [
+        -62.42557907104492,
+        33.810298919677734,
+        -0.005001068115234375
+      ],
+      "road_z": null,
+      "ground_z": null,
+      "objects": [
+        "GV3 shrub 060 GV3 shrub prototype 2 twigs",
+        "GV3 shrub 060 GV3 shrub prototype 2 foliage"
+      ]
+    },
+    {
+      "group": "GV3 shrub 061",
+      "location": [
+        -61.73032760620117,
+        74.7368392944336,
+        -0.00499725341796875
+      ],
+      "road_z": null,
+      "ground_z": null,
+      "objects": [
+        "GV3 shrub 061 GV3 shrub prototype 1 twigs",
+        "GV3 shrub 061 GV3 shrub prototype 1 foliage"
+      ]
+    },
+    {
+      "group": "GV3 shrub 062",
+      "location": [
+        -62.45164489746094,
+        76.68861389160156,
+        -0.00499725341796875
+      ],
+      "road_z": null,
+      "ground_z": null,
+      "objects": [
+        "GV3 shrub 062 GV3 shrub prototype 3 twigs",
+        "GV3 shrub 062 GV3 shrub prototype 3 foliage"
+      ]
+    },
+    {
+      "group": "GV3 shrub 063",
+      "location": [
+        -62.460174560546875,
+        78.92241668701172,
+        -0.00499725341796875
+      ],
+      "road_z": null,
+      "ground_z": null,
+      "objects": [
+        "GV3 shrub 063 GV3 shrub prototype 1 twigs",
+        "GV3 shrub 063 GV3 shrub prototype 1 foliage"
+      ]
+    },
+    {
+      "group": "GV3 shrub 064",
+      "location": [
+        -60.183570861816406,
+        22.821990966796875,
+        -0.005001068115234375
+      ],
+      "road_z": null,
+      "ground_z": null,
+      "objects": [
+        "GV3 shrub 064 GV3 shrub prototype 4 twigs",
+        "GV3 shrub 064 GV3 shrub prototype 4 foliage"
+      ]
+    },
+    {
+      "group": "GV3 shrub 065",
+      "location": [
+        -60.10687255859375,
+        27.546939849853516,
+        -0.005001068115234375
+      ],
+      "road_z": null,
+      "ground_z": null,
+      "objects": [
+        "GV3 shrub 065 GV3 shrub prototype 5 twigs",
+        "GV3 shrub 065 GV3 shrub prototype 5 foliage"
+      ]
+    },
+    {
+      "group": "GV3 shrub 066",
+      "location": [
+        -59.7225227355957,
+        29.562667846679688,
+        -0.005001068115234375
+      ],
+      "road_z": null,
+      "ground_z": null,
+      "objects": [
+        "GV3 shrub 066 GV3 shrub prototype 0 twigs",
+        "GV3 shrub 066 GV3 shrub prototype 0 foliage"
+      ]
+    },
+    {
+      "group": "GV3 shrub 067",
+      "location": [
+        -60.174415588378906,
+        74.27957916259766,
+        -0.005001068115234375
+      ],
+      "road_z": null,
+      "ground_z": null,
+      "objects": [
+        "GV3 shrub 067 GV3 shrub prototype 5 twigs",
+        "GV3 shrub 067 GV3 shrub prototype 5 foliage"
+      ]
+    },
+    {
+      "group": "GV3 shrub 068",
+      "location": [
+        -59.79829025268555,
+        77.0797119140625,
+        -0.005001068115234375
+      ],
+      "road_z": null,
+      "ground_z": null,
+      "objects": [
+        "GV3 shrub 068 GV3 shrub prototype 1 twigs",
+        "GV3 shrub 068 GV3 shrub prototype 1 foliage"
+      ]
+    },
+    {
+      "group": "GV3 shrub 069",
+      "location": [
+        -60.411376953125,
+        78.62828826904297,
+        -0.005001068115234375
+      ],
+      "road_z": null,
+      "ground_z": null,
+      "objects": [
+        "GV3 shrub 069 GV3 shrub prototype 0 twigs",
+        "GV3 shrub 069 GV3 shrub prototype 0 foliage"
+      ]
+    },
+    {
+      "group": "GV3 shrub 070",
+      "location": [
+        -57.84812545776367,
+        20.623428344726562,
+        -0.005001068115234375
+      ],
+      "road_z": null,
+      "ground_z": null,
+      "objects": [
+        "GV3 shrub 070 GV3 shrub prototype 3 twigs",
+        "GV3 shrub 070 GV3 shrub prototype 3 foliage"
+      ]
+    },
+    {
+      "group": "GV3 shrub 071",
+      "location": [
+        -58.11988830566406,
+        23.22755241394043,
+        -0.005001068115234375
+      ],
+      "road_z": null,
+      "ground_z": null,
+      "objects": [
+        "GV3 shrub 071 GV3 shrub prototype 5 twigs",
+        "GV3 shrub 071 GV3 shrub prototype 5 foliage"
+      ]
+    },
+    {
+      "group": "GV3 shrub 072",
+      "location": [
+        -58.29704284667969,
+        25.040470123291016,
+        -0.005001068115234375
+      ],
+      "road_z": null,
+      "ground_z": null,
+      "objects": [
+        "GV3 shrub 072 GV3 shrub prototype 1 twigs",
+        "GV3 shrub 072 GV3 shrub prototype 1 foliage"
+      ]
+    },
+    {
+      "group": "GV3 shrub 073",
+      "location": [
+        -57.48231506347656,
+        27.05659294128418,
+        -0.005001068115234375
+      ],
+      "road_z": null,
+      "ground_z": null,
+      "objects": [
+        "GV3 shrub 073 GV3 shrub prototype 2 twigs",
+        "GV3 shrub 073 GV3 shrub prototype 2 foliage"
+      ]
+    },
+    {
+      "group": "GV3 shrub 074",
+      "location": [
+        -57.56239318847656,
+        29.39211082458496,
+        -0.005001068115234375
+      ],
+      "road_z": null,
+      "ground_z": null,
+      "objects": [
+        "GV3 shrub 074 GV3 shrub prototype 1 twigs",
+        "GV3 shrub 074 GV3 shrub prototype 1 foliage"
+      ]
+    },
+    {
+      "group": "GV3 shrub 075",
+      "location": [
+        -57.59637451171875,
+        31.341575622558594,
+        -0.005001068115234375
+      ],
+      "road_z": null,
+      "ground_z": null,
+      "objects": [
+        "GV3 shrub 075 GV3 shrub prototype 1 twigs",
+        "GV3 shrub 075 GV3 shrub prototype 1 foliage"
+      ]
+    },
+    {
+      "group": "GV3 shrub 076",
+      "location": [
+        -57.9283447265625,
+        74.87226867675781,
+        -0.005001068115234375
+      ],
+      "road_z": null,
+      "ground_z": null,
+      "objects": [
+        "GV3 shrub 076 GV3 shrub prototype 5 twigs",
+        "GV3 shrub 076 GV3 shrub prototype 5 foliage"
+      ]
+    },
+    {
+      "group": "GV3 shrub 077",
+      "location": [
+        -57.21159362792969,
+        77.04944610595703,
+        -0.005001068115234375
+      ],
+      "road_z": null,
+      "ground_z": null,
+      "objects": [
+        "GV3 shrub 077 GV3 shrub prototype 3 twigs",
+        "GV3 shrub 077 GV3 shrub prototype 3 foliage"
+      ]
+    },
+    {
+      "group": "GV3 shrub 078",
+      "location": [
+        -55.744049072265625,
+        20.552364349365234,
+        -0.0050048828125
+      ],
+      "road_z": null,
+      "ground_z": null,
+      "objects": [
+        "GV3 shrub 078 GV3 shrub prototype 0 twigs",
+        "GV3 shrub 078 GV3 shrub prototype 0 foliage"
+      ]
+    },
+    {
+      "group": "GV3 shrub 079",
+      "location": [
+        -55.874176025390625,
+        25.15712547302246,
+        -0.005001068115234375
+      ],
+      "road_z": null,
+      "ground_z": null,
+      "objects": [
+        "GV3 shrub 079 GV3 shrub prototype 2 twigs",
+        "GV3 shrub 079 GV3 shrub prototype 2 foliage"
+      ]
+    },
+    {
+      "group": "GV3 shrub 080",
+      "location": [
+        -55.866004943847656,
+        27.521272659301758,
+        -0.005001068115234375
+      ],
+      "road_z": null,
+      "ground_z": null,
+      "objects": [
+        "GV3 shrub 080 GV3 shrub prototype 5 twigs",
+        "GV3 shrub 080 GV3 shrub prototype 5 foliage"
+      ]
+    },
+    {
+      "group": "GV3 shrub 081",
+      "location": [
+        -55.14606475830078,
+        32.065399169921875,
+        -0.005001068115234375
+      ],
+      "road_z": null,
+      "ground_z": null,
+      "objects": [
+        "GV3 shrub 081 GV3 shrub prototype 0 twigs",
+        "GV3 shrub 081 GV3 shrub prototype 0 foliage"
+      ]
+    },
+    {
+      "group": "GV3 shrub 082",
+      "location": [
+        -53.60914993286133,
+        20.92976188659668,
+        -0.005001068115234375
+      ],
+      "road_z": null,
+      "ground_z": null,
+      "objects": [
+        "GV3 shrub 082 GV3 shrub prototype 0 twigs",
+        "GV3 shrub 082 GV3 shrub prototype 0 foliage"
+      ]
+    },
+    {
+      "group": "GV3 shrub 083",
+      "location": [
+        -53.113616943359375,
+        22.459800720214844,
+        -0.0050048828125
+      ],
+      "road_z": null,
+      "ground_z": null,
+      "objects": [
+        "GV3 shrub 083 GV3 shrub prototype 0 twigs",
+        "GV3 shrub 083 GV3 shrub prototype 0 foliage"
+      ]
+    },
+    {
+      "group": "GV3 shrub 084",
+      "location": [
+        -53.41838455200195,
+        24.61302947998047,
+        -0.005001068115234375
+      ],
+      "road_z": null,
+      "ground_z": null,
+      "objects": [
+        "GV3 shrub 084 GV3 shrub prototype 4 twigs",
+        "GV3 shrub 084 GV3 shrub prototype 4 foliage"
+      ]
+    },
+    {
+      "group": "GV3 shrub 085",
+      "location": [
+        -53.63040542602539,
+        26.965686798095703,
+        -0.005001068115234375
+      ],
+      "road_z": null,
+      "ground_z": null,
+      "objects": [
+        "GV3 shrub 085 GV3 shrub prototype 3 twigs",
+        "GV3 shrub 085 GV3 shrub prototype 3 foliage"
+      ]
+    },
+    {
+      "group": "GV3 shrub 086",
+      "location": [
+        -53.56950378417969,
+        29.710020065307617,
+        -0.005001068115234375
+      ],
+      "road_z": null,
+      "ground_z": null,
+      "objects": [
+        "GV3 shrub 086 GV3 shrub prototype 1 twigs",
+        "GV3 shrub 086 GV3 shrub prototype 1 foliage"
+      ]
+    },
+    {
+      "group": "GV3 shrub 087",
+      "location": [
+        -52.939476013183594,
+        31.40439224243164,
+        -0.005001068115234375
+      ],
+      "road_z": null,
+      "ground_z": null,
+      "objects": [
+        "GV3 shrub 087 GV3 shrub prototype 1 twigs",
+        "GV3 shrub 087 GV3 shrub prototype 1 foliage"
+      ]
+    },
+    {
+      "group": "GV3 shrub 088",
+      "location": [
+        -51.54017639160156,
+        22.25226402282715,
+        -0.0050048828125
+      ],
+      "road_z": null,
+      "ground_z": null,
+      "objects": [
+        "GV3 shrub 088 GV3 shrub prototype 1 twigs",
+        "GV3 shrub 088 GV3 shrub prototype 1 foliage"
+      ]
+    },
+    {
+      "group": "GV3 shrub 089",
+      "location": [
+        -50.94608688354492,
+        25.204641342163086,
+        -0.0050048828125
+      ],
+      "road_z": null,
+      "ground_z": null,
+      "objects": [
+        "GV3 shrub 089 GV3 shrub prototype 0 twigs",
+        "GV3 shrub 089 GV3 shrub prototype 0 foliage"
+      ]
+    },
+    {
+      "group": "GV3 shrub 090",
+      "location": [
+        -51.17189025878906,
+        26.997106552124023,
+        -0.005001068115234375
+      ],
+      "road_z": null,
+      "ground_z": null,
+      "objects": [
+        "GV3 shrub 090 GV3 shrub prototype 1 twigs",
+        "GV3 shrub 090 GV3 shrub prototype 1 foliage"
+      ]
+    },
+    {
+      "group": "GV3 shrub 091",
+      "location": [
+        -51.016300201416016,
+        29.990541458129883,
+        -0.00499725341796875
+      ],
+      "road_z": null,
+      "ground_z": null,
+      "objects": [
+        "GV3 shrub 091 GV3 shrub prototype 1 twigs",
+        "GV3 shrub 091 GV3 shrub prototype 1 foliage"
+      ]
+    },
+    {
+      "group": "GV3 shrub 092",
+      "location": [
+        -51.397151947021484,
+        32.227447509765625,
+        -0.005001068115234375
+      ],
+      "road_z": null,
+      "ground_z": null,
+      "objects": [
+        "GV3 shrub 092 GV3 shrub prototype 1 twigs",
+        "GV3 shrub 092 GV3 shrub prototype 1 foliage"
+      ]
+    },
+    {
+      "group": "GV3 shrub 093",
+      "location": [
+        -48.53757858276367,
+        25.293907165527344,
+        -0.0050048828125
+      ],
+      "road_z": null,
+      "ground_z": null,
+      "objects": [
+        "GV3 shrub 093 GV3 shrub prototype 1 twigs",
+        "GV3 shrub 093 GV3 shrub prototype 1 foliage"
+      ]
+    },
+    {
+      "group": "GV3 shrub 094",
+      "location": [
+        -48.61963653564453,
+        26.72179412841797,
+        -0.005001068115234375
+      ],
+      "road_z": null,
+      "ground_z": null,
+      "objects": [
+        "GV3 shrub 094 GV3 shrub prototype 2 twigs",
+        "GV3 shrub 094 GV3 shrub prototype 2 foliage"
+      ]
+    },
+    {
+      "group": "GV3 shrub 095",
+      "location": [
+        -48.354103088378906,
+        29.145341873168945,
+        -0.005001068115234375
+      ],
+      "road_z": null,
+      "ground_z": null,
+      "objects": [
+        "GV3 shrub 095 GV3 shrub prototype 1 twigs",
+        "GV3 shrub 095 GV3 shrub prototype 1 foliage"
+      ]
+    },
+    {
+      "group": "GV3 shrub 096",
+      "location": [
+        -48.604801177978516,
+        78.82557678222656,
+        -0.005001068115234375
+      ],
+      "road_z": null,
+      "ground_z": null,
+      "objects": [
+        "GV3 shrub 096 GV3 shrub prototype 3 twigs",
+        "GV3 shrub 096 GV3 shrub prototype 3 foliage"
+      ]
+    },
+    {
+      "group": "GV3 shrub 097",
+      "location": [
+        -46.1407470703125,
+        70.46446228027344,
+        -0.005001068115234375
+      ],
+      "road_z": null,
+      "ground_z": null,
+      "objects": [
+        "GV3 shrub 097 GV3 shrub prototype 0 twigs",
+        "GV3 shrub 097 GV3 shrub prototype 0 foliage"
+      ]
+    },
+    {
+      "group": "GV3 shrub 098",
+      "location": [
+        -46.32432174682617,
+        72.4376220703125,
+        -0.005001068115234375
+      ],
+      "road_z": null,
+      "ground_z": null,
+      "objects": [
+        "GV3 shrub 098 GV3 shrub prototype 0 twigs",
+        "GV3 shrub 098 GV3 shrub prototype 0 foliage"
+      ]
+    },
+    {
+      "group": "GV3 shrub 099",
+      "location": [
+        -46.58246612548828,
+        78.79438781738281,
+        -0.005001068115234375
+      ],
+      "road_z": null,
+      "ground_z": null,
+      "objects": [
+        "GV3 shrub 099 GV3 shrub prototype 3 twigs",
+        "GV3 shrub 099 GV3 shrub prototype 3 foliage"
+      ]
+    },
+    {
+      "group": "GV3 shrub 100",
+      "location": [
+        -44.53050231933594,
+        59.01299285888672,
+        -0.005001068115234375
+      ],
+      "road_z": null,
+      "ground_z": null,
+      "objects": [
+        "GV3 shrub 100 GV3 shrub prototype 3 twigs",
+        "GV3 shrub 100 GV3 shrub prototype 3 foliage"
+      ]
+    },
+    {
+      "group": "GV3 shrub 101",
+      "location": [
+        -44.31015396118164,
+        60.89175033569336,
+        -0.005001068115234375
+      ],
+      "road_z": null,
+      "ground_z": null,
+      "objects": [
+        "GV3 shrub 101 GV3 shrub prototype 1 twigs",
+        "GV3 shrub 101 GV3 shrub prototype 1 foliage"
+      ]
+    },
+    {
+      "group": "GV3 shrub 102",
+      "location": [
+        -41.92741012573242,
+        21.04512596130371,
+        -0.005001068115234375
+      ],
+      "road_z": null,
+      "ground_z": null,
+      "objects": [
+        "GV3 shrub 102 GV3 shrub prototype 0 twigs",
+        "GV3 shrub 102 GV3 shrub prototype 0 foliage"
+      ]
+    },
+    {
+      "group": "GV3 shrub 103",
+      "location": [
+        -41.57468032836914,
+        65.58665466308594,
+        -0.005001068115234375
+      ],
+      "road_z": null,
+      "ground_z": null,
+      "objects": [
+        "GV3 shrub 103 GV3 shrub prototype 1 twigs",
+        "GV3 shrub 103 GV3 shrub prototype 1 foliage"
+      ]
+    },
+    {
+      "group": "GV3 shrub 104",
+      "location": [
+        -40.20545959472656,
+        20.624483108520508,
+        -0.005001068115234375
+      ],
+      "road_z": null,
+      "ground_z": null,
+      "objects": [
+        "GV3 shrub 104 GV3 shrub prototype 0 twigs",
+        "GV3 shrub 104 GV3 shrub prototype 0 foliage"
+      ]
+    },
+    {
+      "group": "GV3 shrub 105",
+      "location": [
+        -40.19221878051758,
+        23.114452362060547,
+        -0.0050048828125
+      ],
+      "road_z": null,
+      "ground_z": null,
+      "objects": [
+        "GV3 shrub 105 GV3 shrub prototype 2 twigs",
+        "GV3 shrub 105 GV3 shrub prototype 2 foliage"
+      ]
+    },
+    {
+      "group": "GV3 shrub 106",
+      "location": [
+        -39.98998260498047,
+        25.264080047607422,
+        -0.0050048828125
+      ],
+      "road_z": null,
+      "ground_z": null,
+      "objects": [
+        "GV3 shrub 106 GV3 shrub prototype 2 twigs",
+        "GV3 shrub 106 GV3 shrub prototype 2 foliage"
+      ]
+    },
+    {
+      "group": "GV3 shrub 107",
+      "location": [
+        -40.10639190673828,
+        31.893999099731445,
+        -0.00499725341796875
+      ],
+      "road_z": null,
+      "ground_z": null,
+      "objects": [
+        "GV3 shrub 107 GV3 shrub prototype 3 twigs",
+        "GV3 shrub 107 GV3 shrub prototype 3 foliage"
+      ]
+    },
+    {
+      "group": "GV3 shrub 108",
+      "location": [
+        -39.86635971069336,
+        33.460750579833984,
+        -0.0050048828125
+      ],
+      "road_z": null,
+      "ground_z": null,
+      "objects": [
+        "GV3 shrub 108 GV3 shrub prototype 0 twigs",
+        "GV3 shrub 108 GV3 shrub prototype 0 foliage"
+      ]
+    },
+    {
+      "group": "GV3 shrub 109",
+      "location": [
+        -40.252601623535156,
+        42.578853607177734,
+        -0.005001068115234375
+      ],
+      "road_z": null,
+      "ground_z": null,
+      "objects": [
+        "GV3 shrub 109 GV3 shrub prototype 5 twigs",
+        "GV3 shrub 109 GV3 shrub prototype 5 foliage"
+      ]
+    },
+    {
+      "group": "GV3 shrub 110",
+      "location": [
+        -39.93367004394531,
+        45.256752014160156,
+        -0.005001068115234375
+      ],
+      "road_z": null,
+      "ground_z": null,
+      "objects": [
+        "GV3 shrub 110 GV3 shrub prototype 0 twigs",
+        "GV3 shrub 110 GV3 shrub prototype 0 foliage"
+      ]
+    },
+    {
+      "group": "GV3 shrub 111",
+      "location": [
+        -39.813560485839844,
+        47.375572204589844,
+        -0.005001068115234375
+      ],
+      "road_z": null,
+      "ground_z": null,
+      "objects": [
+        "GV3 shrub 111 GV3 shrub prototype 2 twigs",
+        "GV3 shrub 111 GV3 shrub prototype 2 foliage"
+      ]
+    },
+    {
+      "group": "GV3 shrub 112",
+      "location": [
+        -39.831974029541016,
+        50.267364501953125,
+        -0.005001068115234375
+      ],
+      "road_z": null,
+      "ground_z": null,
+      "objects": [
+        "GV3 shrub 112 GV3 shrub prototype 5 twigs",
+        "GV3 shrub 112 GV3 shrub prototype 5 foliage"
+      ]
+    },
+    {
+      "group": "GV3 shrub 113",
+      "location": [
+        -39.86296844482422,
+        52.27744674682617,
+        -0.005001068115234375
+      ],
+      "road_z": null,
+      "ground_z": null,
+      "objects": [
+        "GV3 shrub 113 GV3 shrub prototype 1 twigs",
+        "GV3 shrub 113 GV3 shrub prototype 1 foliage"
+      ]
+    },
+    {
+      "group": "GV3 shrub 114",
+      "location": [
+        -40.23931884765625,
+        54.52897262573242,
+        -0.005001068115234375
+      ],
+      "road_z": null,
+      "ground_z": null,
+      "objects": [
+        "GV3 shrub 114 GV3 shrub prototype 0 twigs",
+        "GV3 shrub 114 GV3 shrub prototype 0 foliage"
+      ]
+    },
+    {
+      "group": "GV3 shrub 115",
+      "location": [
+        -39.338661193847656,
+        72.69918823242188,
+        -0.005001068115234375
+      ],
+      "road_z": null,
+      "ground_z": null,
+      "objects": [
+        "GV3 shrub 115 GV3 shrub prototype 5 twigs",
+        "GV3 shrub 115 GV3 shrub prototype 5 foliage"
+      ]
+    },
+    {
+      "group": "GV3 shrub 116",
+      "location": [
+        -37.997718811035156,
+        22.997081756591797,
+        -0.0050048828125
+      ],
+      "road_z": null,
+      "ground_z": null,
+      "objects": [
+        "GV3 shrub 116 GV3 shrub prototype 4 twigs",
+        "GV3 shrub 116 GV3 shrub prototype 4 foliage"
+      ]
+    },
+    {
+      "group": "GV3 shrub 117",
+      "location": [
+        -37.166378021240234,
+        31.93877601623535,
+        -0.00499725341796875
+      ],
+      "road_z": null,
+      "ground_z": null,
+      "objects": [
+        "GV3 shrub 117 GV3 shrub prototype 0 twigs",
+        "GV3 shrub 117 GV3 shrub prototype 0 foliage"
+      ]
+    },
+    {
+      "group": "GV3 shrub 118",
+      "location": [
+        -37.84653091430664,
+        47.788822174072266,
+        -0.0050048828125
+      ],
+      "road_z": null,
+      "ground_z": null,
+      "objects": [
+        "GV3 shrub 118 GV3 shrub prototype 1 twigs",
+        "GV3 shrub 118 GV3 shrub prototype 1 foliage"
+      ]
+    },
+    {
+      "group": "GV3 shrub 119",
+      "location": [
+        -37.478824615478516,
+        49.55367660522461,
+        -0.00499725341796875
+      ],
+      "road_z": null,
+      "ground_z": null,
+      "objects": [
+        "GV3 shrub 119 GV3 shrub prototype 5 twigs",
+        "GV3 shrub 119 GV3 shrub prototype 5 foliage"
+      ]
+    },
+    {
+      "group": "GV3 shrub 120",
+      "location": [
+        -37.91504669189453,
+        51.797786712646484,
+        -0.005001068115234375
+      ],
+      "road_z": null,
+      "ground_z": null,
+      "objects": [
+        "GV3 shrub 120 GV3 shrub prototype 4 twigs",
+        "GV3 shrub 120 GV3 shrub prototype 4 foliage"
+      ]
+    },
+    {
+      "group": "GV3 shrub 121",
+      "location": [
+        -37.90180206298828,
+        54.67716979980469,
+        -0.00499725341796875
+      ],
+      "road_z": null,
+      "ground_z": null,
+      "objects": [
+        "GV3 shrub 121 GV3 shrub prototype 1 twigs",
+        "GV3 shrub 121 GV3 shrub prototype 1 foliage"
+      ]
+    },
+    {
+      "group": "GV3 shrub 122",
+      "location": [
+        -37.05195617675781,
+        56.17196273803711,
+        -0.005001068115234375
+      ],
+      "road_z": null,
+      "ground_z": null,
+      "objects": [
+        "GV3 shrub 122 GV3 shrub prototype 1 twigs",
+        "GV3 shrub 122 GV3 shrub prototype 1 foliage"
+      ]
+    },
+    {
+      "group": "GV3 shrub 123",
+      "location": [
+        -37.57880783081055,
+        58.2249755859375,
+        -0.005001068115234375
+      ],
+      "road_z": null,
+      "ground_z": null,
+      "objects": [
+        "GV3 shrub 123 GV3 shrub prototype 1 twigs",
+        "GV3 shrub 123 GV3 shrub prototype 1 foliage"
+      ]
+    },
+    {
+      "group": "GV3 shrub 124",
+      "location": [
+        70.18016815185547,
+        25.519182205200195,
+        -0.005001068115234375
+      ],
+      "road_z": null,
+      "ground_z": null,
+      "objects": [
+        "GV3 shrub 124 GV3 shrub prototype 2 twigs",
+        "GV3 shrub 124 GV3 shrub prototype 2 foliage"
+      ]
+    },
+    {
+      "group": "GV3 shrub 125",
+      "location": [
+        69.75845336914062,
+        34.13829803466797,
+        -0.0050048828125
+      ],
+      "road_z": null,
+      "ground_z": null,
+      "objects": [
+        "GV3 shrub 125 GV3 shrub prototype 1 twigs",
+        "GV3 shrub 125 GV3 shrub prototype 1 foliage"
+      ]
+    },
+    {
+      "group": "GV3 shrub 126",
+      "location": [
+        70.32378387451172,
+        36.56045150756836,
+        0.23861096799373627
+      ],
+      "road_z": null,
+      "ground_z": 0.2356109619140625,
+      "objects": [
+        "GV3 shrub 126 GV3 shrub prototype 1 twigs",
+        "GV3 shrub 126 GV3 shrub prototype 1 foliage"
+      ]
+    },
+    {
+      "group": "GV3 shrub 127",
+      "location": [
+        73.0268783569336,
+        25.48764419555664,
+        -0.005001068115234375
+      ],
+      "road_z": null,
+      "ground_z": null,
+      "objects": [
+        "GV3 shrub 127 GV3 shrub prototype 4 twigs",
+        "GV3 shrub 127 GV3 shrub prototype 4 foliage"
+      ]
+    },
+    {
+      "group": "GV3 shrub 128",
+      "location": [
+        74.83900451660156,
+        22.610416412353516,
+        -0.005001068115234375
+      ],
+      "road_z": null,
+      "ground_z": null,
+      "objects": [
+        "GV3 shrub 128 GV3 shrub prototype 2 twigs",
+        "GV3 shrub 128 GV3 shrub prototype 2 foliage"
+      ]
+    },
+    {
+      "group": "GV3 shrub 129",
+      "location": [
+        74.60514068603516,
+        38.04023742675781,
+        0.7755200862884521
+      ],
+      "road_z": null,
+      "ground_z": 0.7725200653076172,
+      "objects": [
+        "GV3 shrub 129 GV3 shrub prototype 5 twigs",
+        "GV3 shrub 129 GV3 shrub prototype 5 foliage"
+      ]
+    },
+    {
+      "group": "GV3 shrub 130",
+      "location": [
+        76.87667083740234,
+        31.936893463134766,
+        -0.0050048828125
+      ],
+      "road_z": null,
+      "ground_z": null,
+      "objects": [
+        "GV3 shrub 130 GV3 shrub prototype 1 twigs",
+        "GV3 shrub 130 GV3 shrub prototype 1 foliage"
+      ]
+    },
+    {
+      "group": "GV3 shrub 131",
+      "location": [
+        77.19866943359375,
+        38.56930923461914,
+        1.2977559566497803
+      ],
+      "road_z": null,
+      "ground_z": 1.2947559356689453,
+      "objects": [
+        "GV3 shrub 131 GV3 shrub prototype 3 twigs",
+        "GV3 shrub 131 GV3 shrub prototype 3 foliage"
+      ]
+    },
+    {
+      "group": "GV3 shrub 132",
+      "location": [
+        77.77842712402344,
+        41.39071273803711,
+        1.7018353939056396
+      ],
+      "road_z": null,
+      "ground_z": 1.6988353729248047,
+      "objects": [
+        "GV3 shrub 132 GV3 shrub prototype 1 twigs",
+        "GV3 shrub 132 GV3 shrub prototype 1 foliage"
+      ]
+    },
+    {
+      "group": "GV3 shrub 133",
+      "location": [
+        77.10821533203125,
+        44.90681457519531,
+        1.5531423091888428
+      ],
+      "road_z": null,
+      "ground_z": 1.5501422882080078,
+      "objects": [
+        "GV3 shrub 133 GV3 shrub prototype 0 twigs",
+        "GV3 shrub 133 GV3 shrub prototype 0 foliage"
+      ]
+    },
+    {
+      "group": "GV3 shrub 134",
+      "location": [
+        77.17552185058594,
+        56.99324417114258,
+        0.5210855007171631
+      ],
+      "road_z": null,
+      "ground_z": 0.5180854797363281,
+      "objects": [
+        "GV3 shrub 134 GV3 shrub prototype 1 twigs",
+        "GV3 shrub 134 GV3 shrub prototype 1 foliage"
+      ]
+    },
+    {
+      "group": "GV3 shrub 135",
+      "location": [
+        77.29935455322266,
+        58.45208740234375,
+        0.008889892138540745
+      ],
+      "road_z": null,
+      "ground_z": 0.005889892578125,
+      "objects": [
+        "GV3 shrub 135 GV3 shrub prototype 4 twigs",
+        "GV3 shrub 135 GV3 shrub prototype 4 foliage"
+      ]
+    },
+    {
+      "group": "GV3 shrub 136",
+      "location": [
+        76.8431396484375,
+        67.44877624511719,
+        -0.0016749114729464054
+      ],
+      "road_z": null,
+      "ground_z": -0.0046749114990234375,
+      "objects": [
+        "GV3 shrub 136 GV3 shrub prototype 3 twigs",
+        "GV3 shrub 136 GV3 shrub prototype 3 foliage"
+      ]
+    },
+    {
+      "group": "GV3 shrub 137",
+      "location": [
+        77.11923217773438,
+        70.04801177978516,
+        -0.0015032500959932804
+      ],
+      "road_z": null,
+      "ground_z": -0.0045261383056640625,
+      "objects": [
+        "GV3 shrub 137 GV3 shrub prototype 2 twigs",
+        "GV3 shrub 137 GV3 shrub prototype 2 foliage"
+      ]
+    },
+    {
+      "group": "GV3 shrub 138",
+      "location": [
+        76.45443725585938,
+        72.0347900390625,
+        -0.001997253391891718
+      ],
+      "road_z": null,
+      "ground_z": -0.005001068115234375,
+      "objects": [
+        "GV3 shrub 138 GV3 shrub prototype 1 twigs",
+        "GV3 shrub 138 GV3 shrub prototype 1 foliage"
+      ]
+    },
+    {
+      "group": "GV3 shrub 139",
+      "location": [
+        75.6888427734375,
+        73.0333023071289,
+        0.01592419482767582
+      ],
+      "road_z": null,
+      "ground_z": 0.012905120849609375,
+      "objects": [
+        "GV3 shrub 139 GV3 shrub prototype 1 twigs",
+        "GV3 shrub 139 GV3 shrub prototype 1 foliage"
+      ]
+    },
+    {
+      "group": "GV3 shrub 140",
+      "location": [
+        78.88568115234375,
+        27.3292179107666,
+        -0.005001068115234375
+      ],
+      "road_z": null,
+      "ground_z": null,
+      "objects": [
+        "GV3 shrub 140 GV3 shrub prototype 1 twigs",
+        "GV3 shrub 140 GV3 shrub prototype 1 foliage"
+      ]
+    },
+    {
+      "group": "GV3 shrub 141",
+      "location": [
+        79.02783203125,
+        29.58759880065918,
+        -0.005001068115234375
+      ],
+      "road_z": null,
+      "ground_z": null,
+      "objects": [
+        "GV3 shrub 141 GV3 shrub prototype 1 twigs",
+        "GV3 shrub 141 GV3 shrub prototype 1 foliage"
+      ]
+    },
+    {
+      "group": "GV3 shrub 142",
+      "location": [
+        79.20911407470703,
+        32.04332733154297,
+        -0.0050048828125
+      ],
+      "road_z": null,
+      "ground_z": null,
+      "objects": [
+        "GV3 shrub 142 GV3 shrub prototype 4 twigs",
+        "GV3 shrub 142 GV3 shrub prototype 4 foliage"
+      ]
+    },
+    {
+      "group": "GV3 shrub 143",
+      "location": [
+        79.10536193847656,
+        34.197792053222656,
+        -0.005001068115234375
+      ],
+      "road_z": null,
+      "ground_z": null,
+      "objects": [
+        "GV3 shrub 143 GV3 shrub prototype 1 twigs",
+        "GV3 shrub 143 GV3 shrub prototype 1 foliage"
+      ]
+    },
+    {
+      "group": "GV3 shrub 144",
+      "location": [
+        79.70067596435547,
+        36.71200942993164,
+        0.18760083615779877
+      ],
+      "road_z": null,
+      "ground_z": 0.184600830078125,
+      "objects": [
+        "GV3 shrub 144 GV3 shrub prototype 4 twigs",
+        "GV3 shrub 144 GV3 shrub prototype 4 foliage"
+      ]
+    },
+    {
+      "group": "GV3 shrub 145",
+      "location": [
+        79.51068115234375,
+        38.23123550415039,
+        0.7731702327728271
+      ],
+      "road_z": null,
+      "ground_z": 0.7701702117919922,
+      "objects": [
+        "GV3 shrub 145 GV3 shrub prototype 0 twigs",
+        "GV3 shrub 145 GV3 shrub prototype 0 foliage"
+      ]
+    },
+    {
+      "group": "GV3 shrub 146",
+      "location": [
+        78.87395477294922,
+        40.64374923706055,
+        1.62973952293396
+      ],
+      "road_z": null,
+      "ground_z": 1.626739501953125,
+      "objects": [
+        "GV3 shrub 146 GV3 shrub prototype 0 twigs",
+        "GV3 shrub 146 GV3 shrub prototype 0 foliage"
+      ]
+    },
+    {
+      "group": "GV3 shrub 147",
+      "location": [
+        79.7139663696289,
+        56.13557434082031,
+        -0.001997253391891718
+      ],
+      "road_z": null,
+      "ground_z": null,
+      "objects": [
+        "GV3 shrub 147 GV3 shrub prototype 0 twigs",
+        "GV3 shrub 147 GV3 shrub prototype 0 foliage"
+      ]
+    },
+    {
+      "group": "GV3 shrub 148",
+      "location": [
+        79.57469940185547,
+        58.24143981933594,
+        -0.0019991607405245304
+      ],
+      "road_z": null,
+      "ground_z": null,
+      "objects": [
+        "GV3 shrub 148 GV3 shrub prototype 0 twigs",
+        "GV3 shrub 148 GV3 shrub prototype 0 foliage"
+      ]
+    },
+    {
+      "group": "GV3 shrub 149",
+      "location": [
+        79.2501449584961,
+        61.238277435302734,
+        0.04150555282831192
+      ],
+      "road_z": null,
+      "ground_z": 0.03850555419921875,
+      "objects": [
+        "GV3 shrub 149 GV3 shrub prototype 0 twigs",
+        "GV3 shrub 149 GV3 shrub prototype 0 foliage"
+      ]
+    },
+    {
+      "group": "GV3 shrub 150",
+      "location": [
+        79.76092529296875,
+        70.1712646484375,
+        0.01716778613626957
+      ],
+      "road_z": null,
+      "ground_z": 0.01416015625,
+      "objects": [
+        "GV3 shrub 150 GV3 shrub prototype 2 twigs",
+        "GV3 shrub 150 GV3 shrub prototype 2 foliage"
+      ]
+    },
+    {
+      "group": "GV3 shrub 151",
+      "location": [
+        78.84330749511719,
+        72.57949829101562,
+        0.04715702682733536
+      ],
+      "road_z": null,
+      "ground_z": 0.04427909851074219,
+      "objects": [
+        "GV3 shrub 151 GV3 shrub prototype 3 twigs",
+        "GV3 shrub 151 GV3 shrub prototype 3 foliage"
+      ]
+    },
+    {
+      "group": "GV3 shrub 152",
+      "location": [
+        81.82836151123047,
+        24.561349868774414,
+        -0.005001068115234375
+      ],
+      "road_z": null,
+      "ground_z": null,
+      "objects": [
+        "GV3 shrub 152 GV3 shrub prototype 1 twigs",
+        "GV3 shrub 152 GV3 shrub prototype 1 foliage"
+      ]
+    },
+    {
+      "group": "GV3 shrub 153",
+      "location": [
+        81.79069519042969,
+        27.78404998779297,
+        -0.005001068115234375
+      ],
+      "road_z": null,
+      "ground_z": null,
+      "objects": [
+        "GV3 shrub 153 GV3 shrub prototype 3 twigs",
+        "GV3 shrub 153 GV3 shrub prototype 3 foliage"
+      ]
+    },
+    {
+      "group": "GV3 shrub 154",
+      "location": [
+        81.2848892211914,
+        29.545495986938477,
+        -0.0050048828125
+      ],
+      "road_z": null,
+      "ground_z": null,
+      "objects": [
+        "GV3 shrub 154 GV3 shrub prototype 5 twigs",
+        "GV3 shrub 154 GV3 shrub prototype 5 foliage"
+      ]
+    },
+    {
+      "group": "GV3 shrub 155",
+      "location": [
+        81.64598846435547,
+        32.02580261230469,
+        -0.005001068115234375
+      ],
+      "road_z": null,
+      "ground_z": null,
+      "objects": [
+        "GV3 shrub 155 GV3 shrub prototype 3 twigs",
+        "GV3 shrub 155 GV3 shrub prototype 3 foliage"
+      ]
+    },
+    {
+      "group": "GV3 shrub 156",
+      "location": [
+        81.31072998046875,
+        38.82246017456055,
+        0.15510152280330658
+      ],
+      "road_z": null,
+      "ground_z": 0.1521015167236328,
+      "objects": [
+        "GV3 shrub 156 GV3 shrub prototype 1 twigs",
+        "GV3 shrub 156 GV3 shrub prototype 1 foliage"
+      ]
+    },
+    {
+      "group": "GV3 shrub 157",
+      "location": [
+        81.18768310546875,
+        56.990882873535156,
+        -0.001997253391891718
+      ],
+      "road_z": null,
+      "ground_z": null,
+      "objects": [
+        "GV3 shrub 157 GV3 shrub prototype 3 twigs",
+        "GV3 shrub 157 GV3 shrub prototype 3 foliage"
+      ]
+    },
+    {
+      "group": "GV3 shrub 158",
+      "location": [
+        81.63545227050781,
+        58.60057067871094,
+        -0.001997253391891718
+      ],
+      "road_z": null,
+      "ground_z": null,
+      "objects": [
+        "GV3 shrub 158 GV3 shrub prototype 0 twigs",
+        "GV3 shrub 158 GV3 shrub prototype 0 foliage"
+      ]
+    },
+    {
+      "group": "GV3 shrub 159",
+      "location": [
+        81.40885925292969,
+        62.89944076538086,
+        0.13121961057186127
+      ],
+      "road_z": null,
+      "ground_z": 0.1282196044921875,
+      "objects": [
+        "GV3 shrub 159 GV3 shrub prototype 1 twigs",
+        "GV3 shrub 159 GV3 shrub prototype 1 foliage"
+      ]
+    },
+    {
+      "group": "GV3 shrub 160",
+      "location": [
+        83.29501342773438,
+        23.15731430053711,
+        -0.005001068115234375
+      ],
+      "road_z": null,
+      "ground_z": null,
+      "objects": [
+        "GV3 shrub 160 GV3 shrub prototype 0 twigs",
+        "GV3 shrub 160 GV3 shrub prototype 0 foliage"
+      ]
+    },
+    {
+      "group": "GV3 shrub 161",
+      "location": [
+        83.423828125,
+        79.44718170166016,
+        -0.005001068115234375
+      ],
+      "road_z": null,
+      "ground_z": null,
+      "objects": [
+        "GV3 shrub 161 GV3 shrub prototype 0 twigs",
+        "GV3 shrub 161 GV3 shrub prototype 0 foliage"
+      ]
+    },
+    {
+      "group": "GV3 shrub 162",
+      "location": [
+        85.98703002929688,
+        70.37916564941406,
+        -0.001997253391891718
+      ],
+      "road_z": null,
+      "ground_z": -0.00499725341796875,
+      "objects": [
+        "GV3 shrub 162 GV3 shrub prototype 1 twigs",
+        "GV3 shrub 162 GV3 shrub prototype 1 foliage"
+      ]
+    },
+    {
+      "group": "GV3 shrub 163",
+      "location": [
+        85.74087524414062,
+        71.85627746582031,
+        -0.001997253391891718
+      ],
+      "road_z": null,
+      "ground_z": -0.00499725341796875,
+      "objects": [
+        "GV3 shrub 163 GV3 shrub prototype 1 twigs",
+        "GV3 shrub 163 GV3 shrub prototype 1 foliage"
+      ]
+    },
+    {
+      "group": "GV3 shrub 164",
+      "location": [
+        86.46514129638672,
+        74.81257629394531,
+        -0.001997253391891718
+      ],
+      "road_z": null,
+      "ground_z": null,
+      "objects": [
+        "GV3 shrub 164 GV3 shrub prototype 1 twigs",
+        "GV3 shrub 164 GV3 shrub prototype 1 foliage"
+      ]
+    },
+    {
+      "group": "GV3 shrub 165",
+      "location": [
+        86.42628479003906,
+        76.68680572509766,
+        -0.001997253391891718
+      ],
+      "road_z": null,
+      "ground_z": null,
+      "objects": [
+        "GV3 shrub 165 GV3 shrub prototype 1 twigs",
+        "GV3 shrub 165 GV3 shrub prototype 1 foliage"
+      ]
+    },
+    {
+      "group": "GV3 shrub 166",
+      "location": [
+        85.82745361328125,
+        78.8701400756836,
+        -0.005001068115234375
+      ],
+      "road_z": null,
+      "ground_z": null,
+      "objects": [
+        "GV3 shrub 166 GV3 shrub prototype 5 twigs",
+        "GV3 shrub 166 GV3 shrub prototype 5 foliage"
+      ]
+    },
+    {
+      "group": "GV3 shrub 167",
+      "location": [
+        88.2706298828125,
+        70.32718658447266,
+        -0.001997253391891718
+      ],
+      "road_z": null,
+      "ground_z": -0.005001068115234375,
+      "objects": [
+        "GV3 shrub 167 GV3 shrub prototype 1 twigs",
+        "GV3 shrub 167 GV3 shrub prototype 1 foliage"
+      ]
+    },
+    {
+      "group": "GV3 shrub 168",
+      "location": [
+        88.47441864013672,
+        71.88345336914062,
+        -0.001997253391891718
+      ],
+      "road_z": null,
+      "ground_z": -0.0049991607666015625,
+      "objects": [
+        "GV3 shrub 168 GV3 shrub prototype 3 twigs",
+        "GV3 shrub 168 GV3 shrub prototype 3 foliage"
+      ]
+    },
+    {
+      "group": "GV3 shrub 169",
+      "location": [
+        88.72105407714844,
+        74.32269287109375,
+        -0.001997253391891718
+      ],
+      "road_z": null,
+      "ground_z": null,
+      "objects": [
+        "GV3 shrub 169 GV3 shrub prototype 0 twigs",
+        "GV3 shrub 169 GV3 shrub prototype 0 foliage"
+      ]
+    },
+    {
+      "group": "GV3 shrub 170",
+      "location": [
+        87.9623031616211,
+        76.27195739746094,
+        -0.001997253391891718
+      ],
+      "road_z": null,
+      "ground_z": null,
+      "objects": [
+        "GV3 shrub 170 GV3 shrub prototype 1 twigs",
+        "GV3 shrub 170 GV3 shrub prototype 1 foliage"
+      ]
+    },
+    {
+      "group": "GV3 shrub 171",
+      "location": [
+        88.31954193115234,
+        79.04641723632812,
+        -0.00499725341796875
+      ],
+      "road_z": null,
+      "ground_z": null,
+      "objects": [
+        "GV3 shrub 171 GV3 shrub prototype 2 twigs",
+        "GV3 shrub 171 GV3 shrub prototype 2 foliage"
+      ]
+    },
+    {
+      "group": "GV3 shrub 172",
+      "location": [
+        88.72540283203125,
+        81.17739868164062,
+        -0.005001068115234375
+      ],
+      "road_z": null,
+      "ground_z": null,
+      "objects": [
+        "GV3 shrub 172 GV3 shrub prototype 2 twigs",
+        "GV3 shrub 172 GV3 shrub prototype 2 foliage"
+      ]
+    },
+    {
+      "group": "GV3 shrub 173",
+      "location": [
+        90.60307312011719,
+        70.46712493896484,
+        -0.001997253391891718
+      ],
+      "road_z": null,
+      "ground_z": -0.005001068115234375,
+      "objects": [
+        "GV3 shrub 173 GV3 shrub prototype 1 twigs",
+        "GV3 shrub 173 GV3 shrub prototype 1 foliage"
+      ]
+    },
+    {
+      "group": "GV3 shrub 174",
+      "location": [
+        90.7575454711914,
+        71.86339569091797,
+        -0.002001068089157343
+      ],
+      "road_z": null,
+      "ground_z": -0.0050029754638671875,
+      "objects": [
+        "GV3 shrub 174 GV3 shrub prototype 5 twigs",
+        "GV3 shrub 174 GV3 shrub prototype 5 foliage"
+      ]
+    },
+    {
+      "group": "GV3 shrub 175",
+      "location": [
+        90.30718994140625,
+        74.22032165527344,
+        -0.001997253391891718
+      ],
+      "road_z": null,
+      "ground_z": null,
+      "objects": [
+        "GV3 shrub 175 GV3 shrub prototype 0 twigs",
+        "GV3 shrub 175 GV3 shrub prototype 0 foliage"
+      ]
+    },
+    {
+      "group": "GV3 shrub 176",
+      "location": [
+        90.12550354003906,
+        76.35862731933594,
+        -0.001997253391891718
+      ],
+      "road_z": null,
+      "ground_z": null,
+      "objects": [
+        "GV3 shrub 176 GV3 shrub prototype 0 twigs",
+        "GV3 shrub 176 GV3 shrub prototype 0 foliage"
+      ]
+    },
+    {
+      "group": "GV3 shrub 177",
+      "location": [
+        90.15726470947266,
+        79.51190948486328,
+        -0.005001068115234375
+      ],
+      "road_z": null,
+      "ground_z": null,
+      "objects": [
+        "GV3 shrub 177 GV3 shrub prototype 0 twigs",
+        "GV3 shrub 177 GV3 shrub prototype 0 foliage"
+      ]
+    },
+    {
+      "group": "GV3 shrub 178",
+      "location": [
+        90.08161926269531,
+        81.4781723022461,
+        -0.005001068115234375
+      ],
+      "road_z": null,
+      "ground_z": null,
+      "objects": [
+        "GV3 shrub 178 GV3 shrub prototype 1 twigs",
+        "GV3 shrub 178 GV3 shrub prototype 1 foliage"
+      ]
+    },
+    {
+      "group": "GV3 shrub 179",
+      "location": [
+        91.04280853271484,
+        83.4722671508789,
+        -0.005001068115234375
+      ],
+      "road_z": null,
+      "ground_z": null,
+      "objects": [
+        "GV3 shrub 179 GV3 shrub prototype 4 twigs",
+        "GV3 shrub 179 GV3 shrub prototype 4 foliage"
+      ]
+    },
+    {
+      "group": "GV3 shrub 180",
+      "location": [
+        92.69049835205078,
+        72.62885284423828,
+        -0.005001068115234375
+      ],
+      "road_z": null,
+      "ground_z": null,
+      "objects": [
+        "GV3 shrub 180 GV3 shrub prototype 4 twigs",
+        "GV3 shrub 180 GV3 shrub prototype 4 foliage"
+      ]
+    },
+    {
+      "group": "GV3 shrub 181",
+      "location": [
+        93.26306915283203,
+        74.40713500976562,
+        -0.005001068115234375
+      ],
+      "road_z": null,
+      "ground_z": null,
+      "objects": [
+        "GV3 shrub 181 GV3 shrub prototype 3 twigs",
+        "GV3 shrub 181 GV3 shrub prototype 3 foliage"
+      ]
+    },
+    {
+      "group": "GV3 shrub 182",
+      "location": [
+        92.96812438964844,
+        76.78633117675781,
+        -0.005001068115234375
+      ],
+      "road_z": null,
+      "ground_z": null,
+      "objects": [
+        "GV3 shrub 182 GV3 shrub prototype 3 twigs",
+        "GV3 shrub 182 GV3 shrub prototype 3 foliage"
+      ]
+    },
+    {
+      "group": "GV3 shrub 183",
+      "location": [
+        93.23171997070312,
+        79.30784606933594,
+        -0.005001068115234375
+      ],
+      "road_z": null,
+      "ground_z": null,
+      "objects": [
+        "GV3 shrub 183 GV3 shrub prototype 0 twigs",
+        "GV3 shrub 183 GV3 shrub prototype 0 foliage"
+      ]
+    },
+    {
+      "group": "GV3 shrub 184",
+      "location": [
+        93.00167846679688,
+        80.82755279541016,
+        -0.005001068115234375
+      ],
+      "road_z": null,
+      "ground_z": null,
+      "objects": [
+        "GV3 shrub 184 GV3 shrub prototype 0 twigs",
+        "GV3 shrub 184 GV3 shrub prototype 0 foliage"
+      ]
+    },
+    {
+      "group": "GV3 shrub 185",
+      "location": [
+        92.40853118896484,
+        83.83275604248047,
+        -0.005001068115234375
+      ],
+      "road_z": null,
+      "ground_z": null,
+      "objects": [
+        "GV3 shrub 185 GV3 shrub prototype 1 twigs",
+        "GV3 shrub 185 GV3 shrub prototype 1 foliage"
+      ]
+    },
+    {
+      "group": "GV3 shrub 186",
+      "location": [
+        94.4983901977539,
+        73.96394348144531,
+        -0.00499725341796875
+      ],
+      "road_z": null,
+      "ground_z": null,
+      "objects": [
+        "GV3 shrub 186 GV3 shrub prototype 3 twigs",
+        "GV3 shrub 186 GV3 shrub prototype 3 foliage"
+      ]
+    },
+    {
+      "group": "GV3 shrub 187",
+      "location": [
+        94.98587799072266,
+        76.2800521850586,
+        -0.005001068115234375
+      ],
+      "road_z": null,
+      "ground_z": null,
+      "objects": [
+        "GV3 shrub 187 GV3 shrub prototype 1 twigs",
+        "GV3 shrub 187 GV3 shrub prototype 1 foliage"
+      ]
+    },
+    {
+      "group": "GV3 shrub 188",
+      "location": [
+        95.23876190185547,
+        78.95864868164062,
+        -0.005001068115234375
+      ],
+      "road_z": null,
+      "ground_z": null,
+      "objects": [
+        "GV3 shrub 188 GV3 shrub prototype 1 twigs",
+        "GV3 shrub 188 GV3 shrub prototype 1 foliage"
+      ]
+    },
+    {
+      "group": "GV3 shrub 189",
+      "location": [
+        95.17547607421875,
+        81.08467864990234,
+        -0.005001068115234375
+      ],
+      "road_z": null,
+      "ground_z": null,
+      "objects": [
+        "GV3 shrub 189 GV3 shrub prototype 0 twigs",
+        "GV3 shrub 189 GV3 shrub prototype 0 foliage"
+      ]
+    },
+    {
+      "group": "GV3 shrub 190",
+      "location": [
+        94.78074645996094,
+        82.97612762451172,
+        -0.005001068115234375
+      ],
+      "road_z": null,
+      "ground_z": null,
+      "objects": [
+        "GV3 shrub 190 GV3 shrub prototype 3 twigs",
+        "GV3 shrub 190 GV3 shrub prototype 3 foliage"
+      ]
+    },
+    {
+      "group": "GV3 shrub 191",
+      "location": [
+        97.05035400390625,
+        60.94027328491211,
+        -0.005001068115234375
+      ],
+      "road_z": null,
+      "ground_z": null,
+      "objects": [
+        "GV3 shrub 191 GV3 shrub prototype 1 twigs",
+        "GV3 shrub 191 GV3 shrub prototype 1 foliage"
+      ]
+    },
+    {
+      "group": "GV3 shrub 192",
+      "location": [
+        96.74744415283203,
+        62.86674118041992,
+        -0.00499725341796875
+      ],
+      "road_z": null,
+      "ground_z": null,
+      "objects": [
+        "GV3 shrub 192 GV3 shrub prototype 2 twigs",
+        "GV3 shrub 192 GV3 shrub prototype 2 foliage"
+      ]
+    },
+    {
+      "group": "GV3 shrub 193",
+      "location": [
+        96.70073699951172,
+        65.78485870361328,
+        -0.005001068115234375
+      ],
+      "road_z": null,
+      "ground_z": null,
+      "objects": [
+        "GV3 shrub 193 GV3 shrub prototype 4 twigs",
+        "GV3 shrub 193 GV3 shrub prototype 4 foliage"
+      ]
+    },
+    {
+      "group": "GV3 shrub 194",
+      "location": [
+        97.40120697021484,
+        68.02763366699219,
+        -0.005001068115234375
+      ],
+      "road_z": null,
+      "ground_z": null,
+      "objects": [
+        "GV3 shrub 194 GV3 shrub prototype 2 twigs",
+        "GV3 shrub 194 GV3 shrub prototype 2 foliage"
+      ]
+    },
+    {
+      "group": "GV3 shrub 195",
+      "location": [
+        77.5999984741211,
+        44.900001525878906,
+        1.646747350692749
+      ],
+      "road_z": null,
+      "ground_z": 1.643747329711914,
+      "objects": [
+        "GV3 shrub 195 GV3 shrub prototype 0 twigs",
+        "GV3 shrub 195 GV3 shrub prototype 0 foliage"
+      ]
+    },
+    {
+      "group": "GV3 shrub 196",
+      "location": [
+        76.19999694824219,
+        42.29999923706055,
+        1.3647305965423584
+      ],
+      "road_z": null,
+      "ground_z": 1.3617305755615234,
+      "objects": [
+        "GV3 shrub 196 GV3 shrub prototype 0 twigs",
+        "GV3 shrub 196 GV3 shrub prototype 0 foliage"
+      ]
+    },
+    {
+      "group": "GV3 shrub 197",
+      "location": [
+        78.0,
+        50.400001525878906,
+        1.6913621425628662
+      ],
+      "road_z": null,
+      "ground_z": 1.6883621215820312,
+      "objects": [
+        "GV3 shrub 197 GV3 shrub prototype 0 twigs",
+        "GV3 shrub 197 GV3 shrub prototype 0 foliage"
+      ]
+    },
+    {
+      "group": "GV3 shrub 198",
+      "location": [
+        68.5999984741211,
+        42.70000076293945,
+        0.5432813167572021
+      ],
+      "road_z": null,
+      "ground_z": 0.5402812957763672,
+      "objects": [
+        "GV3 shrub 198 GV3 shrub prototype 0 twigs",
+        "GV3 shrub 198 GV3 shrub prototype 0 foliage"
+      ]
+    },
+    {
+      "group": "GV3 shrub 199",
+      "location": [
+        -37.53070068359375,
+        34.0,
+        -0.005001068115234375
+      ],
+      "road_z": null,
+      "ground_z": null,
+      "objects": [
+        "GV3 shrub 199 GV3 shrub prototype 1 twigs",
+        "GV3 shrub 199 GV3 shrub prototype 1 foliage"
+      ]
+    },
+    {
+      "group": "GV3 shrub 200",
+      "location": [
+        -38.312530517578125,
+        34.303958892822266,
+        -0.005001068115234375
+      ],
+      "road_z": null,
+      "ground_z": null,
+      "objects": [
+        "GV3 shrub 200 GV3 shrub prototype 1 twigs",
+        "GV3 shrub 200 GV3 shrub prototype 1 foliage"
+      ]
+    },
+    {
+      "group": "GV3 shrub 201",
+      "location": [
+        -37.94132614135742,
+        33.551727294921875,
+        -0.005001068115234375
+      ],
+      "road_z": null,
+      "ground_z": null,
+      "objects": [
+        "GV3 shrub 201 GV3 shrub prototype 1 twigs",
+        "GV3 shrub 201 GV3 shrub prototype 1 foliage"
+      ]
+    },
+    {
+      "group": "GV3 shrub 202",
+      "location": [
+        -37.70694351196289,
+        34.35715103149414,
+        -0.00499725341796875
+      ],
+      "road_z": null,
+      "ground_z": null,
+      "objects": [
+        "GV3 shrub 202 GV3 shrub prototype 1 twigs",
+        "GV3 shrub 202 GV3 shrub prototype 1 foliage"
+      ]
+    },
+    {
+      "group": "GV3 shrub 203",
+      "location": [
+        -38.42381286621094,
+        33.92155456542969,
+        -0.005001068115234375
+      ],
+      "road_z": null,
+      "ground_z": null,
+      "objects": [
+        "GV3 shrub 203 GV3 shrub prototype 4 twigs",
+        "GV3 shrub 203 GV3 shrub prototype 4 foliage"
+      ]
+    },
+    {
+      "group": "GV3 shrub 204",
+      "location": [
+        -37.60096740722656,
+        33.758541107177734,
+        -0.005001068115234375
+      ],
+      "road_z": null,
+      "ground_z": null,
+      "objects": [
+        "GV3 shrub 204 GV3 shrub prototype 4 twigs",
+        "GV3 shrub 204 GV3 shrub prototype 4 foliage"
+      ]
+    },
+    {
+      "group": "GV3 shrub 205",
+      "location": [
+        -38.097618103027344,
+        34.434547424316406,
+        -0.005001068115234375
+      ],
+      "road_z": null,
+      "ground_z": null,
+      "objects": [
+        "GV3 shrub 205 GV3 shrub prototype 1 twigs",
+        "GV3 shrub 205 GV3 shrub prototype 1 foliage"
+      ]
+    },
+    {
+      "group": "GV3 shrub 206",
+      "location": [
+        -38.18800735473633,
+        33.60059356689453,
+        -0.005001068115234375
+      ],
+      "road_z": null,
+      "ground_z": null,
+      "objects": [
+        "GV3 shrub 206 GV3 shrub prototype 1 twigs",
+        "GV3 shrub 206 GV3 shrub prototype 1 foliage"
+      ]
+    },
+    {
+      "group": "GV3 shrub 207",
+      "location": [
+        -39.53070068359375,
+        38.0,
+        -0.005001068115234375
+      ],
+      "road_z": null,
+      "ground_z": null,
+      "objects": [
+        "GV3 shrub 207 GV3 shrub prototype 4 twigs",
+        "GV3 shrub 207 GV3 shrub prototype 4 foliage"
+      ]
+    },
+    {
+      "group": "GV3 shrub 208",
+      "location": [
+        -40.312530517578125,
+        38.303958892822266,
+        -0.005001068115234375
+      ],
+      "road_z": null,
+      "ground_z": null,
+      "objects": [
+        "GV3 shrub 208 GV3 shrub prototype 0 twigs",
+        "GV3 shrub 208 GV3 shrub prototype 0 foliage"
+      ]
+    },
+    {
+      "group": "GV3 shrub 209",
+      "location": [
+        -39.94132614135742,
+        37.551727294921875,
+        -0.005001068115234375
+      ],
+      "road_z": null,
+      "ground_z": null,
+      "objects": [
+        "GV3 shrub 209 GV3 shrub prototype 1 twigs",
+        "GV3 shrub 209 GV3 shrub prototype 1 foliage"
+      ]
+    },
+    {
+      "group": "GV3 shrub 210",
+      "location": [
+        -39.70694351196289,
+        38.35715103149414,
+        -0.005001068115234375
+      ],
+      "road_z": null,
+      "ground_z": null,
+      "objects": [
+        "GV3 shrub 210 GV3 shrub prototype 1 twigs",
+        "GV3 shrub 210 GV3 shrub prototype 1 foliage"
+      ]
+    },
+    {
+      "group": "GV3 shrub 211",
+      "location": [
+        -40.42381286621094,
+        37.92155456542969,
+        -0.005001068115234375
+      ],
+      "road_z": null,
+      "ground_z": null,
+      "objects": [
+        "GV3 shrub 211 GV3 shrub prototype 1 twigs",
+        "GV3 shrub 211 GV3 shrub prototype 1 foliage"
+      ]
+    },
+    {
+      "group": "GV3 shrub 212",
+      "location": [
+        -39.60096740722656,
+        37.758541107177734,
+        -0.005001068115234375
+      ],
+      "road_z": null,
+      "ground_z": null,
+      "objects": [
+        "GV3 shrub 212 GV3 shrub prototype 4 twigs",
+        "GV3 shrub 212 GV3 shrub prototype 4 foliage"
+      ]
+    },
+    {
+      "group": "GV3 shrub 213",
+      "location": [
+        -40.097618103027344,
+        38.434547424316406,
+        -0.0050048828125
+      ],
+      "road_z": null,
+      "ground_z": null,
+      "objects": [
+        "GV3 shrub 213 GV3 shrub prototype 4 twigs",
+        "GV3 shrub 213 GV3 shrub prototype 4 foliage"
+      ]
+    },
+    {
+      "group": "GV3 shrub 214",
+      "location": [
+        -40.18800735473633,
+        37.60059356689453,
+        -0.00499725341796875
+      ],
+      "road_z": null,
+      "ground_z": null,
+      "objects": [
+        "GV3 shrub 214 GV3 shrub prototype 4 twigs",
+        "GV3 shrub 214 GV3 shrub prototype 4 foliage"
+      ]
+    },
+    {
+      "group": "GV3 shrub 215",
+      "location": [
+        -44.53070068359375,
+        67.0,
+        -0.005001068115234375
+      ],
+      "road_z": null,
+      "ground_z": null,
+      "objects": [
+        "GV3 shrub 215 GV3 shrub prototype 1 twigs",
+        "GV3 shrub 215 GV3 shrub prototype 1 foliage"
+      ]
+    },
+    {
+      "group": "GV3 shrub 216",
+      "location": [
+        -45.312530517578125,
+        67.303955078125,
+        -0.005001068115234375
+      ],
+      "road_z": null,
+      "ground_z": null,
+      "objects": [
+        "GV3 shrub 216 GV3 shrub prototype 4 twigs",
+        "GV3 shrub 216 GV3 shrub prototype 4 foliage"
+      ]
+    },
+    {
+      "group": "GV3 shrub 217",
+      "location": [
+        -44.94132614135742,
+        66.55172729492188,
+        -0.00499725341796875
+      ],
+      "road_z": null,
+      "ground_z": null,
+      "objects": [
+        "GV3 shrub 217 GV3 shrub prototype 0 twigs",
+        "GV3 shrub 217 GV3 shrub prototype 0 foliage"
+      ]
+    },
+    {
+      "group": "GV3 shrub 218",
+      "location": [
+        -44.70694351196289,
+        67.35714721679688,
+        -0.005001068115234375
+      ],
+      "road_z": null,
+      "ground_z": null,
+      "objects": [
+        "GV3 shrub 218 GV3 shrub prototype 1 twigs",
+        "GV3 shrub 218 GV3 shrub prototype 1 foliage"
+      ]
+    },
+    {
+      "group": "GV3 shrub 219",
+      "location": [
+        -45.42381286621094,
+        66.92155456542969,
+        -0.005001068115234375
+      ],
+      "road_z": null,
+      "ground_z": null,
+      "objects": [
+        "GV3 shrub 219 GV3 shrub prototype 4 twigs",
+        "GV3 shrub 219 GV3 shrub prototype 4 foliage"
+      ]
+    },
+    {
+      "group": "GV3 shrub 220",
+      "location": [
+        -44.60096740722656,
+        66.758544921875,
+        -0.0050048828125
+      ],
+      "road_z": null,
+      "ground_z": null,
+      "objects": [
+        "GV3 shrub 220 GV3 shrub prototype 0 twigs",
+        "GV3 shrub 220 GV3 shrub prototype 0 foliage"
+      ]
+    },
+    {
+      "group": "GV3 shrub 221",
+      "location": [
+        -45.097618103027344,
+        67.43453979492188,
+        -0.005001068115234375
+      ],
+      "road_z": null,
+      "ground_z": null,
+      "objects": [
+        "GV3 shrub 221 GV3 shrub prototype 0 twigs",
+        "GV3 shrub 221 GV3 shrub prototype 0 foliage"
+      ]
+    },
+    {
+      "group": "GV3 shrub 222",
+      "location": [
+        -45.18800735473633,
+        66.60060119628906,
+        -0.0050048828125
+      ],
+      "road_z": null,
+      "ground_z": null,
+      "objects": [
+        "GV3 shrub 222 GV3 shrub prototype 0 twigs",
+        "GV3 shrub 222 GV3 shrub prototype 0 foliage"
+      ]
+    },
+    {
+      "group": "GV3 shrub 223",
+      "location": [
+        -35.53070068359375,
+        73.0,
+        -0.005001068115234375
+      ],
+      "road_z": null,
+      "ground_z": null,
+      "objects": [
+        "GV3 shrub 223 GV3 shrub prototype 1 twigs",
+        "GV3 shrub 223 GV3 shrub prototype 1 foliage"
+      ]
+    },
+    {
+      "group": "GV3 shrub 224",
+      "location": [
+        -36.312530517578125,
+        73.303955078125,
+        -0.005001068115234375
+      ],
+      "road_z": null,
+      "ground_z": null,
+      "objects": [
+        "GV3 shrub 224 GV3 shrub prototype 1 twigs",
+        "GV3 shrub 224 GV3 shrub prototype 1 foliage"
+      ]
+    },
+    {
+      "group": "GV3 shrub 225",
+      "location": [
+        -35.94132614135742,
+        72.55172729492188,
+        -0.005001068115234375
+      ],
+      "road_z": null,
+      "ground_z": null,
+      "objects": [
+        "GV3 shrub 225 GV3 shrub prototype 4 twigs",
+        "GV3 shrub 225 GV3 shrub prototype 4 foliage"
+      ]
+    },
+    {
+      "group": "GV3 shrub 226",
+      "location": [
+        -35.70694351196289,
+        73.35714721679688,
+        -0.005001068115234375
+      ],
+      "road_z": null,
+      "ground_z": null,
+      "objects": [
+        "GV3 shrub 226 GV3 shrub prototype 4 twigs",
+        "GV3 shrub 226 GV3 shrub prototype 4 foliage"
+      ]
+    },
+    {
+      "group": "GV3 shrub 227",
+      "location": [
+        -36.42381286621094,
+        72.92155456542969,
+        -0.005001068115234375
+      ],
+      "road_z": null,
+      "ground_z": null,
+      "objects": [
+        "GV3 shrub 227 GV3 shrub prototype 4 twigs",
+        "GV3 shrub 227 GV3 shrub prototype 4 foliage"
+      ]
+    },
+    {
+      "group": "GV3 shrub 228",
+      "location": [
+        -35.60096740722656,
+        72.758544921875,
+        -0.005001068115234375
+      ],
+      "road_z": null,
+      "ground_z": null,
+      "objects": [
+        "GV3 shrub 228 GV3 shrub prototype 1 twigs",
+        "GV3 shrub 228 GV3 shrub prototype 1 foliage"
+      ]
+    },
+    {
+      "group": "GV3 shrub 229",
+      "location": [
+        -36.097618103027344,
+        73.43453979492188,
+        -0.005001068115234375
+      ],
+      "road_z": null,
+      "ground_z": null,
+      "objects": [
+        "GV3 shrub 229 GV3 shrub prototype 1 twigs",
+        "GV3 shrub 229 GV3 shrub prototype 1 foliage"
+      ]
+    },
+    {
+      "group": "GV3 shrub 230",
+      "location": [
+        -36.18800735473633,
+        72.60060119628906,
+        -0.005001068115234375
+      ],
+      "road_z": null,
+      "ground_z": null,
+      "objects": [
+        "GV3 shrub 230 GV3 shrub prototype 1 twigs",
+        "GV3 shrub 230 GV3 shrub prototype 1 foliage"
+      ]
+    },
+    {
+      "group": "GV3 shrub 231",
+      "location": [
+        -61.53070068359375,
+        79.0,
+        -0.00499725341796875
+      ],
+      "road_z": null,
+      "ground_z": null,
+      "objects": [
+        "GV3 shrub 231 GV3 shrub prototype 4 twigs",
+        "GV3 shrub 231 GV3 shrub prototype 4 foliage"
+      ]
+    },
+    {
+      "group": "GV3 shrub 232",
+      "location": [
+        -62.312530517578125,
+        79.303955078125,
+        -0.00499725341796875
+      ],
+      "road_z": null,
+      "ground_z": null,
+      "objects": [
+        "GV3 shrub 232 GV3 shrub prototype 0 twigs",
+        "GV3 shrub 232 GV3 shrub prototype 0 foliage"
+      ]
+    },
+    {
+      "group": "GV3 shrub 233",
+      "location": [
+        -61.94132614135742,
+        78.55172729492188,
+        -0.00499725341796875
+      ],
+      "road_z": null,
+      "ground_z": null,
+      "objects": [
+        "GV3 shrub 233 GV3 shrub prototype 4 twigs",
+        "GV3 shrub 233 GV3 shrub prototype 4 foliage"
+      ]
+    },
+    {
+      "group": "GV3 shrub 234",
+      "location": [
+        -61.70694351196289,
+        79.35714721679688,
+        -0.005001068115234375
+      ],
+      "road_z": null,
+      "ground_z": null,
+      "objects": [
+        "GV3 shrub 234 GV3 shrub prototype 4 twigs",
+        "GV3 shrub 234 GV3 shrub prototype 4 foliage"
+      ]
+    },
+    {
+      "group": "GV3 shrub 235",
+      "location": [
+        -62.42381286621094,
+        78.92155456542969,
+        -0.00499725341796875
+      ],
+      "road_z": null,
+      "ground_z": null,
+      "objects": [
+        "GV3 shrub 235 GV3 shrub prototype 4 twigs",
+        "GV3 shrub 235 GV3 shrub prototype 4 foliage"
+      ]
+    },
+    {
+      "group": "GV3 shrub 236",
+      "location": [
+        -61.60096740722656,
+        78.758544921875,
+        -0.00499725341796875
+      ],
+      "road_z": null,
+      "ground_z": null,
+      "objects": [
+        "GV3 shrub 236 GV3 shrub prototype 4 twigs",
+        "GV3 shrub 236 GV3 shrub prototype 4 foliage"
+      ]
+    },
+    {
+      "group": "GV3 shrub 237",
+      "location": [
+        -62.097618103027344,
+        79.43453979492188,
+        -0.00499725341796875
+      ],
+      "road_z": null,
+      "ground_z": null,
+      "objects": [
+        "GV3 shrub 237 GV3 shrub prototype 4 twigs",
+        "GV3 shrub 237 GV3 shrub prototype 4 foliage"
+      ]
+    },
+    {
+      "group": "GV3 shrub 238",
+      "location": [
+        -62.18800735473633,
+        78.60060119628906,
+        -0.005001068115234375
+      ],
+      "road_z": null,
+      "ground_z": null,
+      "objects": [
+        "GV3 shrub 238 GV3 shrub prototype 1 twigs",
+        "GV3 shrub 238 GV3 shrub prototype 1 foliage"
+      ]
+    },
+    {
+      "group": "GV3 shrub 239",
+      "location": [
+        -53.53070068359375,
+        21.0,
+        -0.00499725341796875
+      ],
+      "road_z": null,
+      "ground_z": null,
+      "objects": [
+        "GV3 shrub 239 GV3 shrub prototype 0 twigs",
+        "GV3 shrub 239 GV3 shrub prototype 0 foliage"
+      ]
+    },
+    {
+      "group": "GV3 shrub 240",
+      "location": [
+        -54.312530517578125,
+        21.303958892822266,
+        -0.0050048828125
+      ],
+      "road_z": null,
+      "ground_z": null,
+      "objects": [
+        "GV3 shrub 240 GV3 shrub prototype 4 twigs",
+        "GV3 shrub 240 GV3 shrub prototype 4 foliage"
+      ]
+    },
+    {
+      "group": "GV3 shrub 241",
+      "location": [
+        -53.94132614135742,
+        20.551725387573242,
+        -0.005001068115234375
+      ],
+      "road_z": null,
+      "ground_z": null,
+      "objects": [
+        "GV3 shrub 241 GV3 shrub prototype 1 twigs",
+        "GV3 shrub 241 GV3 shrub prototype 1 foliage"
+      ]
+    },
+    {
+      "group": "GV3 shrub 242",
+      "location": [
+        -53.70694351196289,
+        21.35715103149414,
+        -0.005001068115234375
+      ],
+      "road_z": null,
+      "ground_z": null,
+      "objects": [
+        "GV3 shrub 242 GV3 shrub prototype 1 twigs",
+        "GV3 shrub 242 GV3 shrub prototype 1 foliage"
+      ]
+    },
+    {
+      "group": "GV3 shrub 243",
+      "location": [
+        -54.42381286621094,
+        20.921552658081055,
+        -0.00499725341796875
+      ],
+      "road_z": null,
+      "ground_z": null,
+      "objects": [
+        "GV3 shrub 243 GV3 shrub prototype 1 twigs",
+        "GV3 shrub 243 GV3 shrub prototype 1 foliage"
+      ]
+    },
+    {
+      "group": "GV3 shrub 244",
+      "location": [
+        -53.60096740722656,
+        20.758541107177734,
+        -0.0050048828125
+      ],
+      "road_z": null,
+      "ground_z": null,
+      "objects": [
+        "GV3 shrub 244 GV3 shrub prototype 1 twigs",
+        "GV3 shrub 244 GV3 shrub prototype 1 foliage"
+      ]
+    },
+    {
+      "group": "GV3 shrub 245",
+      "location": [
+        -54.097618103027344,
+        21.434545516967773,
+        -0.0050048828125
+      ],
+      "road_z": null,
+      "ground_z": null,
+      "objects": [
+        "GV3 shrub 245 GV3 shrub prototype 4 twigs",
+        "GV3 shrub 245 GV3 shrub prototype 4 foliage"
+      ]
+    },
+    {
+      "group": "GV3 shrub 246",
+      "location": [
+        -54.18800735473633,
+        20.600595474243164,
+        -0.0050048828125
+      ],
+      "road_z": null,
+      "ground_z": null,
+      "objects": [
+        "GV3 shrub 246 GV3 shrub prototype 0 twigs",
+        "GV3 shrub 246 GV3 shrub prototype 0 foliage"
+      ]
+    },
+    {
+      "group": "GV3 shrub 247",
+      "location": [
+        -69.53070068359375,
+        86.0,
+        -0.00499725341796875
+      ],
+      "road_z": null,
+      "ground_z": null,
+      "objects": [
+        "GV3 shrub 247 GV3 shrub prototype 1 twigs",
+        "GV3 shrub 247 GV3 shrub prototype 1 foliage"
+      ]
+    },
+    {
+      "group": "GV3 shrub 248",
+      "location": [
+        -70.31253051757812,
+        86.303955078125,
+        -0.00499725341796875
+      ],
+      "road_z": null,
+      "ground_z": null,
+      "objects": [
+        "GV3 shrub 248 GV3 shrub prototype 0 twigs",
+        "GV3 shrub 248 GV3 shrub prototype 0 foliage"
+      ]
+    },
+    {
+      "group": "GV3 shrub 249",
+      "location": [
+        -69.94132995605469,
+        85.55172729492188,
+        -0.00499725341796875
+      ],
+      "road_z": null,
+      "ground_z": null,
+      "objects": [
+        "GV3 shrub 249 GV3 shrub prototype 4 twigs",
+        "GV3 shrub 249 GV3 shrub prototype 4 foliage"
+      ]
+    },
+    {
+      "group": "GV3 shrub 250",
+      "location": [
+        -69.70693969726562,
+        86.35714721679688,
+        -0.00499725341796875
+      ],
+      "road_z": null,
+      "ground_z": null,
+      "objects": [
+        "GV3 shrub 250 GV3 shrub prototype 0 twigs",
+        "GV3 shrub 250 GV3 shrub prototype 0 foliage"
+      ]
+    },
+    {
+      "group": "GV3 shrub 251",
+      "location": [
+        -70.42381286621094,
+        85.92155456542969,
+        -0.005001068115234375
+      ],
+      "road_z": null,
+      "ground_z": null,
+      "objects": [
+        "GV3 shrub 251 GV3 shrub prototype 1 twigs",
+        "GV3 shrub 251 GV3 shrub prototype 1 foliage"
+      ]
+    },
+    {
+      "group": "GV3 shrub 252",
+      "location": [
+        -69.60096740722656,
+        85.758544921875,
+        -0.005001068115234375
+      ],
+      "road_z": null,
+      "ground_z": null,
+      "objects": [
+        "GV3 shrub 252 GV3 shrub prototype 0 twigs",
+        "GV3 shrub 252 GV3 shrub prototype 0 foliage"
+      ]
+    },
+    {
+      "group": "GV3 shrub 253",
+      "location": [
+        -70.09762573242188,
+        86.43453979492188,
+        -0.005001068115234375
+      ],
+      "road_z": null,
+      "ground_z": null,
+      "objects": [
+        "GV3 shrub 253 GV3 shrub prototype 4 twigs",
+        "GV3 shrub 253 GV3 shrub prototype 4 foliage"
+      ]
+    },
+    {
+      "group": "GV3 shrub 254",
+      "location": [
+        -70.18800354003906,
+        85.60060119628906,
+        -0.00499725341796875
+      ],
+      "road_z": null,
+      "ground_z": null,
+      "objects": [
+        "GV3 shrub 254 GV3 shrub prototype 4 twigs",
+        "GV3 shrub 254 GV3 shrub prototype 4 foliage"
+      ]
+    },
+    {
+      "group": "GV3 shrub 255",
+      "location": [
+        81.30211639404297,
+        68.0,
+        0.07748005539178848
+      ],
+      "road_z": null,
+      "ground_z": 0.07444000244140625,
+      "objects": [
+        "GV3 shrub 255 GV3 shrub prototype 1 twigs",
+        "GV3 shrub 255 GV3 shrub prototype 1 foliage"
+      ]
+    },
+    {
+      "group": "GV3 shrub 256",
+      "location": [
+        78.17628479003906,
+        72.3499984741211,
+        0.02680371142923832
+      ],
+      "road_z": null,
+      "ground_z": 0.02370452880859375,
+      "objects": [
+        "GV3 shrub 256 GV3 shrub prototype 1 twigs",
+        "GV3 shrub 256 GV3 shrub prototype 1 foliage"
+      ]
+    },
+    {
+      "group": "GV3 shrub 257",
+      "location": [
+        80.30211639404297,
+        78.0,
+        -0.005001068115234375
+      ],
+      "road_z": null,
+      "ground_z": null,
+      "objects": [
+        "GV3 shrub 257 GV3 shrub prototype 4 twigs",
+        "GV3 shrub 257 GV3 shrub prototype 4 foliage"
+      ]
+    },
+    {
+      "group": "GV3 shrub 258",
+      "location": [
+        71.30211639404297,
+        36.0,
+        0.07958386093378067
+      ],
+      "road_z": null,
+      "ground_z": 0.0765838623046875,
+      "objects": [
+        "GV3 shrub 258 GV3 shrub prototype 1 twigs",
+        "GV3 shrub 258 GV3 shrub prototype 1 foliage"
+      ]
+    },
+    {
+      "group": "GV3 shrub 259",
+      "location": [
+        81.30211639404297,
+        25.0,
+        -0.005001068115234375
+      ],
+      "road_z": null,
+      "ground_z": null,
+      "objects": [
+        "GV3 shrub 259 GV3 shrub prototype 4 twigs",
+        "GV3 shrub 259 GV3 shrub prototype 4 foliage"
+      ]
+    },
+    {
+      "group": "GV3 shrub 260",
+      "location": [
+        83.30211639404297,
+        20.0,
+        -0.005001068115234375
+      ],
+      "road_z": null,
+      "ground_z": null,
+      "objects": [
+        "GV3 shrub 260 GV3 shrub prototype 0 twigs",
+        "GV3 shrub 260 GV3 shrub prototype 0 foliage"
+      ]
+    },
+    {
+      "group": "GV3 shrub 261",
+      "location": [
+        78.30211639404297,
+        70.0,
+        0.005262115504592657
+      ],
+      "road_z": null,
+      "ground_z": 0.002246856689453125,
+      "objects": [
+        "GV3 shrub 261 GV3 shrub prototype 4 twigs",
+        "GV3 shrub 261 GV3 shrub prototype 4 foliage"
+      ]
+    }
+  ],
+  "diff": {
+    "removed": [
+      "BENTRY east burgundy planting",
+      "BENTRY east clipped green planting",
+      "BENTRY east curved coping",
+      "BENTRY east curved planter soil",
+      "BENTRY east curved planter wall",
+      "BENTRY east outer coping",
+      "BENTRY east outer retaining wall",
+      "BENTRY west burgundy planting",
+      "BENTRY west clipped green planting",
+      "BENTRY west curved coping",
+      "BENTRY west curved planter soil",
+      "BENTRY west curved planter wall",
+      "BENTRY west outer coping",
+      "BENTRY west outer retaining wall",
+      "EPATH continuous union surface",
+      "EPATH__north-exit-path-terrain__turf",
+      "EPATH__photo_shape_ground",
+      "EPATH__photo_shape_road",
+      "ERAMP__extra-vines__FIN_leaf0",
+      "ERAMP__extra-vines__FIN_leaf1",
+      "ERAMP__extra-vines__FIN_leaf2",
+      "ERAMP__hanging-vines__leaf-green",
+      "ERAMP__pergola-vines__leaf-green"
+    ],
+    "added": [
+      "C02 visible fluted facade columns",
+      "C03 east burgundy shrubs",
+      "C03 east burgundy shrubs attached sprigs",
+      "C03 east burgundy shrubs attached twigs",
+      "C03 east flower plinth coping",
+      "C03 east flower plinth wall",
+      "C03 east green shrubs",
+      "C03 east green shrubs attached sprigs",
+      "C03 east green shrubs attached twigs",
+      "C03 east outer flower plinth coping",
+      "C03 east outer flower plinth wall",
+      "C03 east outer rail coping",
+      "C03 east outer rail wall",
+      "C03 east planting surface",
+      "C03 east retaining coping",
+      "C03 east retaining wall",
+      "C03 west burgundy shrubs",
+      "C03 west burgundy shrubs attached sprigs",
+      "C03 west burgundy shrubs attached twigs",
+      "C03 west flower plinth coping",
+      "C03 west flower plinth wall",
+      "C03 west green shrubs",
+      "C03 west green shrubs attached sprigs",
+      "C03 west green shrubs attached twigs",
+      "C03 west outer flower plinth coping",
+      "C03 west outer flower plinth wall",
+      "C03 west outer rail coping",
+      "C03 west outer rail wall",
+      "C03 west planting surface",
+      "C03 west retaining coping",
+      "C03 west retaining wall",
+      "C04 continuous ground",
+      "C04 continuous road",
+      "C12 bounded bare trunk soil",
+      "C12 sparse ground litter",
+      "C14 attached vine leaves",
+      "C14 connected vine stems",
+      "C15 plaque stone mounting return"
+    ],
+    "changed": [
+      "BENTRY east inner broad leaves",
+      "BENTRY east inner red flowers",
+      "BENTRY east inner soil",
+      "BENTRY east inner urn",
+      "BENTRY east outer broad leaves",
+      "BENTRY east outer red flowers",
+      "BENTRY east outer soil",
+      "BENTRY east outer urn",
+      "BENTRY west inner broad leaves",
+      "BENTRY west inner red flowers",
+      "BENTRY west inner soil",
+      "BENTRY west inner urn",
+      "BENTRY west outer broad leaves",
+      "BENTRY west outer red flowers",
+      "BENTRY west outer soil",
+      "BENTRY west outer urn",
+      "ESKY__glass-roof__glass-east",
+      "East hedge EOPEN_S__hedge-core__FIN_hedge",
+      "East hedge EOPEN__hedge-core__FIN_hedge",
+      "East hedge ESKY__planted-shrubs__leaf-green",
+      "East hedge ETERR__hedge__leaf-bronze",
+      "East hedge ETERR__hedge__leaf-green",
+      "GROUND__terrain__FIN_garden_grass",
+      "GV3 pergola fine vine leaves",
+      "GV3 scattered fallen leaves",
+      "GV3 shrub 000 GV3 shrub prototype 4 foliage",
+      "GV3 shrub 000 GV3 shrub prototype 4 twigs",
+      "GV3 shrub 001 GV3 shrub prototype 5 foliage",
+      "GV3 shrub 001 GV3 shrub prototype 5 twigs",
+      "GV3 shrub 002 GV3 shrub prototype 2 foliage",
+      "GV3 shrub 002 GV3 shrub prototype 2 twigs",
+      "GV3 shrub 003 GV3 shrub prototype 3 foliage",
+      "GV3 shrub 003 GV3 shrub prototype 3 twigs",
+      "GV3 shrub 004 GV3 shrub prototype 0 foliage",
+      "GV3 shrub 004 GV3 shrub prototype 0 twigs",
+      "GV3 shrub 005 GV3 shrub prototype 2 foliage",
+      "GV3 shrub 005 GV3 shrub prototype 2 twigs",
+      "GV3 shrub 006 GV3 shrub prototype 4 foliage",
+      "GV3 shrub 006 GV3 shrub prototype 4 twigs",
+      "GV3 shrub 007 GV3 shrub prototype 4 foliage",
+      "GV3 shrub 007 GV3 shrub prototype 4 twigs",
+      "GV3 shrub 008 GV3 shrub prototype 4 foliage",
+      "GV3 shrub 008 GV3 shrub prototype 4 twigs",
+      "GV3 shrub 009 GV3 shrub prototype 4 foliage",
+      "GV3 shrub 009 GV3 shrub prototype 4 twigs",
+      "GV3 shrub 010 GV3 shrub prototype 3 foliage",
+      "GV3 shrub 010 GV3 shrub prototype 3 twigs",
+      "GV3 shrub 011 GV3 shrub prototype 1 foliage",
+      "GV3 shrub 011 GV3 shrub prototype 1 twigs",
+      "GV3 shrub 012 GV3 shrub prototype 0 foliage",
+      "GV3 shrub 012 GV3 shrub prototype 0 twigs",
+      "GV3 shrub 013 GV3 shrub prototype 0 foliage",
+      "GV3 shrub 013 GV3 shrub prototype 0 twigs",
+      "GV3 shrub 014 GV3 shrub prototype 3 foliage",
+      "GV3 shrub 014 GV3 shrub prototype 3 twigs",
+      "GV3 shrub 015 GV3 shrub prototype 1 foliage",
+      "GV3 shrub 015 GV3 shrub prototype 1 twigs",
+      "GV3 shrub 016 GV3 shrub prototype 1 foliage",
+      "GV3 shrub 016 GV3 shrub prototype 1 twigs",
+      "GV3 shrub 017 GV3 shrub prototype 1 foliage",
+      "GV3 shrub 017 GV3 shrub prototype 1 twigs",
+      "GV3 shrub 018 GV3 shrub prototype 3 foliage",
+      "GV3 shrub 018 GV3 shrub prototype 3 twigs",
+      "GV3 shrub 019 GV3 shrub prototype 1 foliage",
+      "GV3 shrub 019 GV3 shrub prototype 1 twigs",
+      "GV3 shrub 020 GV3 shrub prototype 1 foliage",
+      "GV3 shrub 020 GV3 shrub prototype 1 twigs",
+      "GV3 shrub 021 GV3 shrub prototype 5 foliage",
+      "GV3 shrub 021 GV3 shrub prototype 5 twigs",
+      "GV3 shrub 022 GV3 shrub prototype 3 foliage",
+      "GV3 shrub 022 GV3 shrub prototype 3 twigs",
+      "GV3 shrub 023 GV3 shrub prototype 3 foliage",
+      "GV3 shrub 023 GV3 shrub prototype 3 twigs",
+      "GV3 shrub 024 GV3 shrub prototype 3 foliage",
+      "GV3 shrub 024 GV3 shrub prototype 3 twigs",
+      "GV3 shrub 025 GV3 shrub prototype 3 foliage",
+      "GV3 shrub 025 GV3 shrub prototype 3 twigs",
+      "GV3 shrub 026 GV3 shrub prototype 0 foliage",
+      "GV3 shrub 026 GV3 shrub prototype 0 twigs",
+      "GV3 shrub 027 GV3 shrub prototype 1 foliage",
+      "GV3 shrub 027 GV3 shrub prototype 1 twigs",
+      "GV3 shrub 028 GV3 shrub prototype 3 foliage",
+      "GV3 shrub 028 GV3 shrub prototype 3 twigs",
+      "GV3 shrub 029 GV3 shrub prototype 0 foliage",
+      "GV3 shrub 029 GV3 shrub prototype 0 twigs",
+      "GV3 shrub 030 GV3 shrub prototype 0 foliage",
+      "GV3 shrub 030 GV3 shrub prototype 0 twigs",
+      "GV3 shrub 031 GV3 shrub prototype 0 foliage",
+      "GV3 shrub 031 GV3 shrub prototype 0 twigs",
+      "GV3 shrub 032 GV3 shrub prototype 1 foliage",
+      "GV3 shrub 032 GV3 shrub prototype 1 twigs",
+      "GV3 shrub 033 GV3 shrub prototype 3 foliage",
+      "GV3 shrub 033 GV3 shrub prototype 3 twigs",
+      "GV3 shrub 034 GV3 shrub prototype 0 foliage",
+      "GV3 shrub 034 GV3 shrub prototype 0 twigs",
+      "GV3 shrub 035 GV3 shrub prototype 4 foliage",
+      "GV3 shrub 035 GV3 shrub prototype 4 twigs",
+      "GV3 shrub 036 GV3 shrub prototype 1 foliage",
+      "GV3 shrub 036 GV3 shrub prototype 1 twigs",
+      "GV3 shrub 037 GV3 shrub prototype 2 foliage",
+      "GV3 shrub 037 GV3 shrub prototype 2 twigs",
+      "GV3 shrub 038 GV3 shrub prototype 4 foliage",
+      "GV3 shrub 038 GV3 shrub prototype 4 twigs",
+      "GV3 shrub 039 GV3 shrub prototype 4 foliage",
+      "GV3 shrub 039 GV3 shrub prototype 4 twigs",
+      "GV3 shrub 040 GV3 shrub prototype 3 foliage",
+      "GV3 shrub 040 GV3 shrub prototype 3 twigs",
+      "GV3 shrub 041 GV3 shrub prototype 0 foliage",
+      "GV3 shrub 041 GV3 shrub prototype 0 twigs",
+      "GV3 shrub 042 GV3 shrub prototype 0 foliage",
+      "GV3 shrub 042 GV3 shrub prototype 0 twigs",
+      "GV3 shrub 043 GV3 shrub prototype 0 foliage",
+      "GV3 shrub 043 GV3 shrub prototype 0 twigs",
+      "GV3 shrub 044 GV3 shrub prototype 0 foliage",
+      "GV3 shrub 044 GV3 shrub prototype 0 twigs",
+      "GV3 shrub 045 GV3 shrub prototype 0 foliage",
+      "GV3 shrub 045 GV3 shrub prototype 0 twigs",
+      "GV3 shrub 046 GV3 shrub prototype 0 foliage",
+      "GV3 shrub 046 GV3 shrub prototype 0 twigs",
+      "GV3 shrub 047 GV3 shrub prototype 2 foliage",
+      "GV3 shrub 047 GV3 shrub prototype 2 twigs",
+      "GV3 shrub 048 GV3 shrub prototype 1 foliage",
+      "GV3 shrub 048 GV3 shrub prototype 1 twigs",
+      "GV3 shrub 049 GV3 shrub prototype 1 foliage",
+      "GV3 shrub 049 GV3 shrub prototype 1 twigs",
+      "GV3 shrub 050 GV3 shrub prototype 0 foliage",
+      "GV3 shrub 050 GV3 shrub prototype 0 twigs",
+      "GV3 shrub 051 GV3 shrub prototype 1 foliage",
+      "GV3 shrub 051 GV3 shrub prototype 1 twigs",
+      "GV3 shrub 052 GV3 shrub prototype 4 foliage",
+      "GV3 shrub 052 GV3 shrub prototype 4 twigs",
+      "GV3 shrub 053 GV3 shrub prototype 0 foliage",
+      "GV3 shrub 053 GV3 shrub prototype 0 twigs",
+      "GV3 shrub 054 GV3 shrub prototype 3 foliage",
+      "GV3 shrub 054 GV3 shrub prototype 3 twigs",
+      "GV3 shrub 055 GV3 shrub prototype 4 foliage",
+      "GV3 shrub 055 GV3 shrub prototype 4 twigs",
+      "GV3 shrub 056 GV3 shrub prototype 4 foliage",
+      "GV3 shrub 056 GV3 shrub prototype 4 twigs",
+      "GV3 shrub 057 GV3 shrub prototype 2 foliage",
+      "GV3 shrub 057 GV3 shrub prototype 2 twigs",
+      "GV3 shrub 058 GV3 shrub prototype 3 foliage",
+      "GV3 shrub 058 GV3 shrub prototype 3 twigs",
+      "GV3 shrub 059 GV3 shrub prototype 1 foliage",
+      "GV3 shrub 059 GV3 shrub prototype 1 twigs",
+      "GV3 shrub 060 GV3 shrub prototype 2 foliage",
+      "GV3 shrub 060 GV3 shrub prototype 2 twigs",
+      "GV3 shrub 061 GV3 shrub prototype 1 foliage",
+      "GV3 shrub 061 GV3 shrub prototype 1 twigs",
+      "GV3 shrub 062 GV3 shrub prototype 3 foliage",
+      "GV3 shrub 062 GV3 shrub prototype 3 twigs",
+      "GV3 shrub 063 GV3 shrub prototype 1 foliage",
+      "GV3 shrub 063 GV3 shrub prototype 1 twigs",
+      "GV3 shrub 064 GV3 shrub prototype 4 foliage",
+      "GV3 shrub 064 GV3 shrub prototype 4 twigs",
+      "GV3 shrub 065 GV3 shrub prototype 5 foliage",
+      "GV3 shrub 065 GV3 shrub prototype 5 twigs",
+      "GV3 shrub 066 GV3 shrub prototype 0 foliage",
+      "GV3 shrub 066 GV3 shrub prototype 0 twigs",
+      "GV3 shrub 067 GV3 shrub prototype 5 foliage",
+      "GV3 shrub 067 GV3 shrub prototype 5 twigs",
+      "GV3 shrub 068 GV3 shrub prototype 1 foliage",
+      "GV3 shrub 068 GV3 shrub prototype 1 twigs",
+      "GV3 shrub 069 GV3 shrub prototype 0 foliage",
+      "GV3 shrub 069 GV3 shrub prototype 0 twigs",
+      "GV3 shrub 070 GV3 shrub prototype 3 foliage",
+      "GV3 shrub 070 GV3 shrub prototype 3 twigs",
+      "GV3 shrub 071 GV3 shrub prototype 5 foliage",
+      "GV3 shrub 071 GV3 shrub prototype 5 twigs",
+      "GV3 shrub 072 GV3 shrub prototype 1 foliage",
+      "GV3 shrub 072 GV3 shrub prototype 1 twigs",
+      "GV3 shrub 073 GV3 shrub prototype 2 foliage",
+      "GV3 shrub 073 GV3 shrub prototype 2 twigs",
+      "GV3 shrub 074 GV3 shrub prototype 1 foliage",
+      "GV3 shrub 074 GV3 shrub prototype 1 twigs",
+      "GV3 shrub 075 GV3 shrub prototype 1 foliage",
+      "GV3 shrub 075 GV3 shrub prototype 1 twigs",
+      "GV3 shrub 076 GV3 shrub prototype 5 foliage",
+      "GV3 shrub 076 GV3 shrub prototype 5 twigs",
+      "GV3 shrub 077 GV3 shrub prototype 3 foliage",
+      "GV3 shrub 077 GV3 shrub prototype 3 twigs",
+      "GV3 shrub 078 GV3 shrub prototype 0 foliage",
+      "GV3 shrub 078 GV3 shrub prototype 0 twigs",
+      "GV3 shrub 079 GV3 shrub prototype 2 foliage",
+      "GV3 shrub 079 GV3 shrub prototype 2 twigs",
+      "GV3 shrub 080 GV3 shrub prototype 5 foliage",
+      "GV3 shrub 080 GV3 shrub prototype 5 twigs",
+      "GV3 shrub 081 GV3 shrub prototype 0 foliage",
+      "GV3 shrub 081 GV3 shrub prototype 0 twigs",
+      "GV3 shrub 082 GV3 shrub prototype 0 foliage",
+      "GV3 shrub 082 GV3 shrub prototype 0 twigs",
+      "GV3 shrub 083 GV3 shrub prototype 0 foliage",
+      "GV3 shrub 083 GV3 shrub prototype 0 twigs",
+      "GV3 shrub 084 GV3 shrub prototype 4 foliage",
+      "GV3 shrub 084 GV3 shrub prototype 4 twigs",
+      "GV3 shrub 085 GV3 shrub prototype 3 foliage",
+      "GV3 shrub 085 GV3 shrub prototype 3 twigs",
+      "GV3 shrub 086 GV3 shrub prototype 1 foliage",
+      "GV3 shrub 086 GV3 shrub prototype 1 twigs",
+      "GV3 shrub 087 GV3 shrub prototype 1 foliage",
+      "GV3 shrub 087 GV3 shrub prototype 1 twigs",
+      "GV3 shrub 088 GV3 shrub prototype 1 foliage",
+      "GV3 shrub 088 GV3 shrub prototype 1 twigs",
+      "GV3 shrub 089 GV3 shrub prototype 0 foliage",
+      "GV3 shrub 089 GV3 shrub prototype 0 twigs",
+      "GV3 shrub 090 GV3 shrub prototype 1 foliage",
+      "GV3 shrub 090 GV3 shrub prototype 1 twigs",
+      "GV3 shrub 091 GV3 shrub prototype 1 foliage",
+      "GV3 shrub 091 GV3 shrub prototype 1 twigs",
+      "GV3 shrub 092 GV3 shrub prototype 1 foliage",
+      "GV3 shrub 092 GV3 shrub prototype 1 twigs",
+      "GV3 shrub 093 GV3 shrub prototype 1 foliage",
+      "GV3 shrub 093 GV3 shrub prototype 1 twigs",
+      "GV3 shrub 094 GV3 shrub prototype 2 foliage",
+      "GV3 shrub 094 GV3 shrub prototype 2 twigs",
+      "GV3 shrub 095 GV3 shrub prototype 1 foliage",
+      "GV3 shrub 095 GV3 shrub prototype 1 twigs",
+      "GV3 shrub 096 GV3 shrub prototype 3 foliage",
+      "GV3 shrub 096 GV3 shrub prototype 3 twigs",
+      "GV3 shrub 097 GV3 shrub prototype 0 foliage",
+      "GV3 shrub 097 GV3 shrub prototype 0 twigs",
+      "GV3 shrub 098 GV3 shrub prototype 0 foliage",
+      "GV3 shrub 098 GV3 shrub prototype 0 twigs",
+      "GV3 shrub 099 GV3 shrub prototype 3 foliage",
+      "GV3 shrub 099 GV3 shrub prototype 3 twigs",
+      "GV3 shrub 100 GV3 shrub prototype 3 foliage",
+      "GV3 shrub 100 GV3 shrub prototype 3 twigs",
+      "GV3 shrub 101 GV3 shrub prototype 1 foliage",
+      "GV3 shrub 101 GV3 shrub prototype 1 twigs",
+      "GV3 shrub 102 GV3 shrub prototype 0 foliage",
+      "GV3 shrub 102 GV3 shrub prototype 0 twigs",
+      "GV3 shrub 103 GV3 shrub prototype 1 foliage",
+      "GV3 shrub 103 GV3 shrub prototype 1 twigs",
+      "GV3 shrub 104 GV3 shrub prototype 0 foliage",
+      "GV3 shrub 104 GV3 shrub prototype 0 twigs",
+      "GV3 shrub 105 GV3 shrub prototype 2 foliage",
+      "GV3 shrub 105 GV3 shrub prototype 2 twigs",
+      "GV3 shrub 106 GV3 shrub prototype 2 foliage",
+      "GV3 shrub 106 GV3 shrub prototype 2 twigs",
+      "GV3 shrub 107 GV3 shrub prototype 3 foliage",
+      "GV3 shrub 107 GV3 shrub prototype 3 twigs",
+      "GV3 shrub 108 GV3 shrub prototype 0 foliage",
+      "GV3 shrub 108 GV3 shrub prototype 0 twigs",
+      "GV3 shrub 109 GV3 shrub prototype 5 foliage",
+      "GV3 shrub 109 GV3 shrub prototype 5 twigs",
+      "GV3 shrub 110 GV3 shrub prototype 0 foliage",
+      "GV3 shrub 110 GV3 shrub prototype 0 twigs",
+      "GV3 shrub 111 GV3 shrub prototype 2 foliage",
+      "GV3 shrub 111 GV3 shrub prototype 2 twigs",
+      "GV3 shrub 112 GV3 shrub prototype 5 foliage",
+      "GV3 shrub 112 GV3 shrub prototype 5 twigs",
+      "GV3 shrub 113 GV3 shrub prototype 1 foliage",
+      "GV3 shrub 113 GV3 shrub prototype 1 twigs",
+      "GV3 shrub 114 GV3 shrub prototype 0 foliage",
+      "GV3 shrub 114 GV3 shrub prototype 0 twigs",
+      "GV3 shrub 115 GV3 shrub prototype 5 foliage",
+      "GV3 shrub 115 GV3 shrub prototype 5 twigs",
+      "GV3 shrub 116 GV3 shrub prototype 4 foliage",
+      "GV3 shrub 116 GV3 shrub prototype 4 twigs",
+      "GV3 shrub 117 GV3 shrub prototype 0 foliage",
+      "GV3 shrub 117 GV3 shrub prototype 0 twigs",
+      "GV3 shrub 118 GV3 shrub prototype 1 foliage",
+      "GV3 shrub 118 GV3 shrub prototype 1 twigs",
+      "GV3 shrub 119 GV3 shrub prototype 5 foliage",
+      "GV3 shrub 119 GV3 shrub prototype 5 twigs",
+      "GV3 shrub 120 GV3 shrub prototype 4 foliage",
+      "GV3 shrub 120 GV3 shrub prototype 4 twigs",
+      "GV3 shrub 121 GV3 shrub prototype 1 foliage",
+      "GV3 shrub 121 GV3 shrub prototype 1 twigs",
+      "GV3 shrub 122 GV3 shrub prototype 1 foliage",
+      "GV3 shrub 122 GV3 shrub prototype 1 twigs",
+      "GV3 shrub 123 GV3 shrub prototype 1 foliage",
+      "GV3 shrub 123 GV3 shrub prototype 1 twigs",
+      "GV3 shrub 124 GV3 shrub prototype 2 foliage",
+      "GV3 shrub 124 GV3 shrub prototype 2 twigs",
+      "GV3 shrub 125 GV3 shrub prototype 1 foliage",
+      "GV3 shrub 125 GV3 shrub prototype 1 twigs",
+      "GV3 shrub 126 GV3 shrub prototype 1 foliage",
+      "GV3 shrub 126 GV3 shrub prototype 1 twigs",
+      "GV3 shrub 127 GV3 shrub prototype 4 foliage",
+      "GV3 shrub 127 GV3 shrub prototype 4 twigs",
+      "GV3 shrub 128 GV3 shrub prototype 2 foliage",
+      "GV3 shrub 128 GV3 shrub prototype 2 twigs",
+      "GV3 shrub 129 GV3 shrub prototype 5 foliage",
+      "GV3 shrub 129 GV3 shrub prototype 5 twigs",
+      "GV3 shrub 130 GV3 shrub prototype 1 foliage",
+      "GV3 shrub 130 GV3 shrub prototype 1 twigs",
+      "GV3 shrub 131 GV3 shrub prototype 3 foliage",
+      "GV3 shrub 131 GV3 shrub prototype 3 twigs",
+      "GV3 shrub 132 GV3 shrub prototype 1 foliage",
+      "GV3 shrub 132 GV3 shrub prototype 1 twigs",
+      "GV3 shrub 133 GV3 shrub prototype 0 foliage",
+      "GV3 shrub 133 GV3 shrub prototype 0 twigs",
+      "GV3 shrub 134 GV3 shrub prototype 1 foliage",
+      "GV3 shrub 134 GV3 shrub prototype 1 twigs",
+      "GV3 shrub 135 GV3 shrub prototype 4 foliage",
+      "GV3 shrub 135 GV3 shrub prototype 4 twigs",
+      "GV3 shrub 136 GV3 shrub prototype 3 foliage",
+      "GV3 shrub 136 GV3 shrub prototype 3 twigs",
+      "GV3 shrub 137 GV3 shrub prototype 2 foliage",
+      "GV3 shrub 137 GV3 shrub prototype 2 twigs",
+      "GV3 shrub 138 GV3 shrub prototype 1 foliage",
+      "GV3 shrub 138 GV3 shrub prototype 1 twigs",
+      "GV3 shrub 139 GV3 shrub prototype 1 foliage",
+      "GV3 shrub 139 GV3 shrub prototype 1 twigs",
+      "GV3 shrub 140 GV3 shrub prototype 1 foliage",
+      "GV3 shrub 140 GV3 shrub prototype 1 twigs",
+      "GV3 shrub 141 GV3 shrub prototype 1 foliage",
+      "GV3 shrub 141 GV3 shrub prototype 1 twigs",
+      "GV3 shrub 142 GV3 shrub prototype 4 foliage",
+      "GV3 shrub 142 GV3 shrub prototype 4 twigs",
+      "GV3 shrub 143 GV3 shrub prototype 1 foliage",
+      "GV3 shrub 143 GV3 shrub prototype 1 twigs",
+      "GV3 shrub 144 GV3 shrub prototype 4 foliage",
+      "GV3 shrub 144 GV3 shrub prototype 4 twigs",
+      "GV3 shrub 145 GV3 shrub prototype 0 foliage",
+      "GV3 shrub 145 GV3 shrub prototype 0 twigs",
+      "GV3 shrub 146 GV3 shrub prototype 0 foliage",
+      "GV3 shrub 146 GV3 shrub prototype 0 twigs",
+      "GV3 shrub 147 GV3 shrub prototype 0 foliage",
+      "GV3 shrub 147 GV3 shrub prototype 0 twigs",
+      "GV3 shrub 148 GV3 shrub prototype 0 foliage",
+      "GV3 shrub 148 GV3 shrub prototype 0 twigs",
+      "GV3 shrub 149 GV3 shrub prototype 0 foliage",
+      "GV3 shrub 149 GV3 shrub prototype 0 twigs",
+      "GV3 shrub 150 GV3 shrub prototype 2 foliage",
+      "GV3 shrub 150 GV3 shrub prototype 2 twigs",
+      "GV3 shrub 151 GV3 shrub prototype 3 foliage",
+      "GV3 shrub 151 GV3 shrub prototype 3 twigs",
+      "GV3 shrub 152 GV3 shrub prototype 1 foliage",
+      "GV3 shrub 152 GV3 shrub prototype 1 twigs",
+      "GV3 shrub 153 GV3 shrub prototype 3 foliage",
+      "GV3 shrub 153 GV3 shrub prototype 3 twigs",
+      "GV3 shrub 154 GV3 shrub prototype 5 foliage",
+      "GV3 shrub 154 GV3 shrub prototype 5 twigs",
+      "GV3 shrub 155 GV3 shrub prototype 3 foliage",
+      "GV3 shrub 155 GV3 shrub prototype 3 twigs",
+      "GV3 shrub 156 GV3 shrub prototype 1 foliage",
+      "GV3 shrub 156 GV3 shrub prototype 1 twigs",
+      "GV3 shrub 157 GV3 shrub prototype 3 foliage",
+      "GV3 shrub 157 GV3 shrub prototype 3 twigs",
+      "GV3 shrub 158 GV3 shrub prototype 0 foliage",
+      "GV3 shrub 158 GV3 shrub prototype 0 twigs",
+      "GV3 shrub 159 GV3 shrub prototype 1 foliage",
+      "GV3 shrub 159 GV3 shrub prototype 1 twigs",
+      "GV3 shrub 160 GV3 shrub prototype 0 foliage",
+      "GV3 shrub 160 GV3 shrub prototype 0 twigs",
+      "GV3 shrub 161 GV3 shrub prototype 0 foliage",
+      "GV3 shrub 161 GV3 shrub prototype 0 twigs",
+      "GV3 shrub 162 GV3 shrub prototype 1 foliage",
+      "GV3 shrub 162 GV3 shrub prototype 1 twigs",
+      "GV3 shrub 163 GV3 shrub prototype 1 foliage",
+      "GV3 shrub 163 GV3 shrub prototype 1 twigs",
+      "GV3 shrub 164 GV3 shrub prototype 1 foliage",
+      "GV3 shrub 164 GV3 shrub prototype 1 twigs",
+      "GV3 shrub 165 GV3 shrub prototype 1 foliage",
+      "GV3 shrub 165 GV3 shrub prototype 1 twigs",
+      "GV3 shrub 166 GV3 shrub prototype 5 foliage",
+      "GV3 shrub 166 GV3 shrub prototype 5 twigs",
+      "GV3 shrub 167 GV3 shrub prototype 1 foliage",
+      "GV3 shrub 167 GV3 shrub prototype 1 twigs",
+      "GV3 shrub 168 GV3 shrub prototype 3 foliage",
+      "GV3 shrub 168 GV3 shrub prototype 3 twigs",
+      "GV3 shrub 169 GV3 shrub prototype 0 foliage",
+      "GV3 shrub 169 GV3 shrub prototype 0 twigs",
+      "GV3 shrub 170 GV3 shrub prototype 1 foliage",
+      "GV3 shrub 170 GV3 shrub prototype 1 twigs",
+      "GV3 shrub 171 GV3 shrub prototype 2 foliage",
+      "GV3 shrub 171 GV3 shrub prototype 2 twigs",
+      "GV3 shrub 172 GV3 shrub prototype 2 foliage",
+      "GV3 shrub 172 GV3 shrub prototype 2 twigs",
+      "GV3 shrub 173 GV3 shrub prototype 1 foliage",
+      "GV3 shrub 173 GV3 shrub prototype 1 twigs",
+      "GV3 shrub 174 GV3 shrub prototype 5 foliage",
+      "GV3 shrub 174 GV3 shrub prototype 5 twigs",
+      "GV3 shrub 175 GV3 shrub prototype 0 foliage",
+      "GV3 shrub 175 GV3 shrub prototype 0 twigs",
+      "GV3 shrub 176 GV3 shrub prototype 0 foliage",
+      "GV3 shrub 176 GV3 shrub prototype 0 twigs",
+      "GV3 shrub 177 GV3 shrub prototype 0 foliage",
+      "GV3 shrub 177 GV3 shrub prototype 0 twigs",
+      "GV3 shrub 178 GV3 shrub prototype 1 foliage",
+      "GV3 shrub 178 GV3 shrub prototype 1 twigs",
+      "GV3 shrub 179 GV3 shrub prototype 4 foliage",
+      "GV3 shrub 179 GV3 shrub prototype 4 twigs",
+      "GV3 shrub 180 GV3 shrub prototype 4 foliage",
+      "GV3 shrub 180 GV3 shrub prototype 4 twigs",
+      "GV3 shrub 181 GV3 shrub prototype 3 foliage",
+      "GV3 shrub 181 GV3 shrub prototype 3 twigs",
+      "GV3 shrub 182 GV3 shrub prototype 3 foliage",
+      "GV3 shrub 182 GV3 shrub prototype 3 twigs",
+      "GV3 shrub 183 GV3 shrub prototype 0 foliage",
+      "GV3 shrub 183 GV3 shrub prototype 0 twigs",
+      "GV3 shrub 184 GV3 shrub prototype 0 foliage",
+      "GV3 shrub 184 GV3 shrub prototype 0 twigs",
+      "GV3 shrub 185 GV3 shrub prototype 1 foliage",
+      "GV3 shrub 185 GV3 shrub prototype 1 twigs",
+      "GV3 shrub 186 GV3 shrub prototype 3 foliage",
+      "GV3 shrub 186 GV3 shrub prototype 3 twigs",
+      "GV3 shrub 187 GV3 shrub prototype 1 foliage",
+      "GV3 shrub 187 GV3 shrub prototype 1 twigs",
+      "GV3 shrub 188 GV3 shrub prototype 1 foliage",
+      "GV3 shrub 188 GV3 shrub prototype 1 twigs",
+      "GV3 shrub 189 GV3 shrub prototype 0 foliage",
+      "GV3 shrub 189 GV3 shrub prototype 0 twigs",
+      "GV3 shrub 190 GV3 shrub prototype 3 foliage",
+      "GV3 shrub 190 GV3 shrub prototype 3 twigs",
+      "GV3 shrub 191 GV3 shrub prototype 1 foliage",
+      "GV3 shrub 191 GV3 shrub prototype 1 twigs",
+      "GV3 shrub 192 GV3 shrub prototype 2 foliage",
+      "GV3 shrub 192 GV3 shrub prototype 2 twigs",
+      "GV3 shrub 193 GV3 shrub prototype 4 foliage",
+      "GV3 shrub 193 GV3 shrub prototype 4 twigs",
+      "GV3 shrub 194 GV3 shrub prototype 2 foliage",
+      "GV3 shrub 194 GV3 shrub prototype 2 twigs",
+      "GV3 shrub 195 GV3 shrub prototype 0 foliage",
+      "GV3 shrub 195 GV3 shrub prototype 0 twigs",
+      "GV3 shrub 196 GV3 shrub prototype 0 foliage",
+      "GV3 shrub 196 GV3 shrub prototype 0 twigs",
+      "GV3 shrub 197 GV3 shrub prototype 0 foliage",
+      "GV3 shrub 197 GV3 shrub prototype 0 twigs",
+      "GV3 shrub 198 GV3 shrub prototype 0 foliage",
+      "GV3 shrub 198 GV3 shrub prototype 0 twigs",
+      "GV3 shrub 199 GV3 shrub prototype 1 foliage",
+      "GV3 shrub 199 GV3 shrub prototype 1 twigs",
+      "GV3 shrub 200 GV3 shrub prototype 1 foliage",
+      "GV3 shrub 200 GV3 shrub prototype 1 twigs",
+      "GV3 shrub 201 GV3 shrub prototype 1 foliage",
+      "GV3 shrub 201 GV3 shrub prototype 1 twigs",
+      "GV3 shrub 202 GV3 shrub prototype 1 foliage",
+      "GV3 shrub 202 GV3 shrub prototype 1 twigs",
+      "GV3 shrub 203 GV3 shrub prototype 4 foliage",
+      "GV3 shrub 203 GV3 shrub prototype 4 twigs",
+      "GV3 shrub 204 GV3 shrub prototype 4 foliage",
+      "GV3 shrub 204 GV3 shrub prototype 4 twigs",
+      "GV3 shrub 205 GV3 shrub prototype 1 foliage",
+      "GV3 shrub 205 GV3 shrub prototype 1 twigs",
+      "GV3 shrub 206 GV3 shrub prototype 1 foliage",
+      "GV3 shrub 206 GV3 shrub prototype 1 twigs",
+      "GV3 shrub 207 GV3 shrub prototype 4 foliage",
+      "GV3 shrub 207 GV3 shrub prototype 4 twigs",
+      "GV3 shrub 208 GV3 shrub prototype 0 foliage",
+      "GV3 shrub 208 GV3 shrub prototype 0 twigs",
+      "GV3 shrub 209 GV3 shrub prototype 1 foliage",
+      "GV3 shrub 209 GV3 shrub prototype 1 twigs",
+      "GV3 shrub 210 GV3 shrub prototype 1 foliage",
+      "GV3 shrub 210 GV3 shrub prototype 1 twigs",
+      "GV3 shrub 211 GV3 shrub prototype 1 foliage",
+      "GV3 shrub 211 GV3 shrub prototype 1 twigs",
+      "GV3 shrub 212 GV3 shrub prototype 4 foliage",
+      "GV3 shrub 212 GV3 shrub prototype 4 twigs",
+      "GV3 shrub 213 GV3 shrub prototype 4 foliage",
+      "GV3 shrub 213 GV3 shrub prototype 4 twigs",
+      "GV3 shrub 214 GV3 shrub prototype 4 foliage",
+      "GV3 shrub 214 GV3 shrub prototype 4 twigs",
+      "GV3 shrub 215 GV3 shrub prototype 1 foliage",
+      "GV3 shrub 215 GV3 shrub prototype 1 twigs",
+      "GV3 shrub 216 GV3 shrub prototype 4 foliage",
+      "GV3 shrub 216 GV3 shrub prototype 4 twigs",
+      "GV3 shrub 217 GV3 shrub prototype 0 foliage",
+      "GV3 shrub 217 GV3 shrub prototype 0 twigs",
+      "GV3 shrub 218 GV3 shrub prototype 1 foliage",
+      "GV3 shrub 218 GV3 shrub prototype 1 twigs",
+      "GV3 shrub 219 GV3 shrub prototype 4 foliage",
+      "GV3 shrub 219 GV3 shrub prototype 4 twigs",
+      "GV3 shrub 220 GV3 shrub prototype 0 foliage",
+      "GV3 shrub 220 GV3 shrub prototype 0 twigs",
+      "GV3 shrub 221 GV3 shrub prototype 0 foliage",
+      "GV3 shrub 221 GV3 shrub prototype 0 twigs",
+      "GV3 shrub 222 GV3 shrub prototype 0 foliage",
+      "GV3 shrub 222 GV3 shrub prototype 0 twigs",
+      "GV3 shrub 223 GV3 shrub prototype 1 foliage",
+      "GV3 shrub 223 GV3 shrub prototype 1 twigs",
+      "GV3 shrub 224 GV3 shrub prototype 1 foliage",
+      "GV3 shrub 224 GV3 shrub prototype 1 twigs",
+      "GV3 shrub 225 GV3 shrub prototype 4 foliage",
+      "GV3 shrub 225 GV3 shrub prototype 4 twigs",
+      "GV3 shrub 226 GV3 shrub prototype 4 foliage",
+      "GV3 shrub 226 GV3 shrub prototype 4 twigs",
+      "GV3 shrub 227 GV3 shrub prototype 4 foliage",
+      "GV3 shrub 227 GV3 shrub prototype 4 twigs",
+      "GV3 shrub 228 GV3 shrub prototype 1 foliage",
+      "GV3 shrub 228 GV3 shrub prototype 1 twigs",
+      "GV3 shrub 229 GV3 shrub prototype 1 foliage",
+      "GV3 shrub 229 GV3 shrub prototype 1 twigs",
+      "GV3 shrub 230 GV3 shrub prototype 1 foliage",
+      "GV3 shrub 230 GV3 shrub prototype 1 twigs",
+      "GV3 shrub 231 GV3 shrub prototype 4 foliage",
+      "GV3 shrub 231 GV3 shrub prototype 4 twigs",
+      "GV3 shrub 232 GV3 shrub prototype 0 foliage",
+      "GV3 shrub 232 GV3 shrub prototype 0 twigs",
+      "GV3 shrub 233 GV3 shrub prototype 4 foliage",
+      "GV3 shrub 233 GV3 shrub prototype 4 twigs",
+      "GV3 shrub 234 GV3 shrub prototype 4 foliage",
+      "GV3 shrub 234 GV3 shrub prototype 4 twigs",
+      "GV3 shrub 235 GV3 shrub prototype 4 foliage",
+      "GV3 shrub 235 GV3 shrub prototype 4 twigs",
+      "GV3 shrub 236 GV3 shrub prototype 4 foliage",
+      "GV3 shrub 236 GV3 shrub prototype 4 twigs",
+      "GV3 shrub 237 GV3 shrub prototype 4 foliage",
+      "GV3 shrub 237 GV3 shrub prototype 4 twigs",
+      "GV3 shrub 238 GV3 shrub prototype 1 foliage",
+      "GV3 shrub 238 GV3 shrub prototype 1 twigs",
+      "GV3 shrub 239 GV3 shrub prototype 0 foliage",
+      "GV3 shrub 239 GV3 shrub prototype 0 twigs",
+      "GV3 shrub 240 GV3 shrub prototype 4 foliage",
+      "GV3 shrub 240 GV3 shrub prototype 4 twigs",
+      "GV3 shrub 241 GV3 shrub prototype 1 foliage",
+      "GV3 shrub 241 GV3 shrub prototype 1 twigs",
+      "GV3 shrub 242 GV3 shrub prototype 1 foliage",
+      "GV3 shrub 242 GV3 shrub prototype 1 twigs",
+      "GV3 shrub 243 GV3 shrub prototype 1 foliage",
+      "GV3 shrub 243 GV3 shrub prototype 1 twigs",
+      "GV3 shrub 244 GV3 shrub prototype 1 foliage",
+      "GV3 shrub 244 GV3 shrub prototype 1 twigs",
+      "GV3 shrub 245 GV3 shrub prototype 4 foliage",
+      "GV3 shrub 245 GV3 shrub prototype 4 twigs",
+      "GV3 shrub 246 GV3 shrub prototype 0 foliage",
+      "GV3 shrub 246 GV3 shrub prototype 0 twigs",
+      "GV3 shrub 247 GV3 shrub prototype 1 foliage",
+      "GV3 shrub 247 GV3 shrub prototype 1 twigs",
+      "GV3 shrub 248 GV3 shrub prototype 0 foliage",
+      "GV3 shrub 248 GV3 shrub prototype 0 twigs",
+      "GV3 shrub 249 GV3 shrub prototype 4 foliage",
+      "GV3 shrub 249 GV3 shrub prototype 4 twigs",
+      "GV3 shrub 250 GV3 shrub prototype 0 foliage",
+      "GV3 shrub 250 GV3 shrub prototype 0 twigs",
+      "GV3 shrub 251 GV3 shrub prototype 1 foliage",
+      "GV3 shrub 251 GV3 shrub prototype 1 twigs",
+      "GV3 shrub 252 GV3 shrub prototype 0 foliage",
+      "GV3 shrub 252 GV3 shrub prototype 0 twigs",
+      "GV3 shrub 253 GV3 shrub prototype 4 foliage",
+      "GV3 shrub 253 GV3 shrub prototype 4 twigs",
+      "GV3 shrub 254 GV3 shrub prototype 4 foliage",
+      "GV3 shrub 254 GV3 shrub prototype 4 twigs",
+      "GV3 shrub 255 GV3 shrub prototype 1 foliage",
+      "GV3 shrub 255 GV3 shrub prototype 1 twigs",
+      "GV3 shrub 256 GV3 shrub prototype 1 foliage",
+      "GV3 shrub 256 GV3 shrub prototype 1 twigs",
+      "GV3 shrub 257 GV3 shrub prototype 4 foliage",
+      "GV3 shrub 257 GV3 shrub prototype 4 twigs",
+      "GV3 shrub 258 GV3 shrub prototype 1 foliage",
+      "GV3 shrub 258 GV3 shrub prototype 1 twigs",
+      "GV3 shrub 259 GV3 shrub prototype 4 foliage",
+      "GV3 shrub 259 GV3 shrub prototype 4 twigs",
+      "GV3 shrub 260 GV3 shrub prototype 0 foliage",
+      "GV3 shrub 260 GV3 shrub prototype 0 twigs",
+      "GV3 shrub 261 GV3 shrub prototype 4 foliage",
+      "GV3 shrub 261 GV3 shrub prototype 4 twigs",
+      "GV3 tall understory 10 GV3 shrub prototype 2 foliage",
+      "GV3 tall understory 11 GV3 shrub prototype 4 foliage",
+      "GV3 tall understory 12 GV3 shrub prototype 2 foliage",
+      "GV3 tall understory 13 GV3 shrub prototype 0 foliage",
+      "GV3 tall understory 14 GV3 shrub prototype 2 foliage",
+      "GV3 tall understory 15 GV3 shrub prototype 2 foliage",
+      "GV3 tall understory 16 GV3 shrub prototype 4 foliage",
+      "POET_DONKEY bowed head",
+      "POET_DONKEY donkey torso",
+      "POET_DONKEY draped robe folds",
+      "POET_DONKEY inset nameplate",
+      "POET_DONKEY rider body",
+      "POET_DONKEY 驢背詩思",
+      "V6 East mature 09 leaves",
+      "V6 East mature 09 wood",
+      "V6 East mature 10 leaves",
+      "V6 East mature 10 wood",
+      "V6 East mature 11 leaves",
+      "V6 East mature 11 wood",
+      "V6 East mature 12 leaves",
+      "V6 East mature 12 wood",
+      "V6 East mature 16 leaves",
+      "V6 East mature 16 wood",
+      "V6 East mature 17 leaves",
+      "V6 East mature 17 wood",
+      "V6 East ring-seat mature tree leaves",
+      "V6 East ring-seat mature tree wood",
+      "V6 East spreading 00 leaves",
+      "V6 East spreading 00 wood",
+      "V6 East spreading 01 leaves",
+      "V6 East spreading 01 wood",
+      "V6 East spreading 02 leaves",
+      "V6 East spreading 02 wood",
+      "V6 East spreading 03 leaves",
+      "V6 East spreading 03 wood",
+      "V6 East spreading 04 leaves",
+      "V6 East spreading 04 wood",
+      "V6 Garden backdrop 00 leaves",
+      "V6 Garden backdrop 00 wood",
+      "V6 Garden backdrop 01 leaves",
+      "V6 Garden backdrop 01 wood",
+      "V6 Garden backdrop 02 leaves",
+      "V6 Garden backdrop 02 wood",
+      "V6 Garden backdrop 03 leaves",
+      "V6 Garden backdrop 03 wood",
+      "V6 Garden backdrop 05 leaves",
+      "V6 Garden backdrop 05 wood",
+      "V6 West mature 00 leaves",
+      "V6 West mature 00 wood",
+      "V6 West mature 01 leaves",
+      "V6 West mature 01 wood",
+      "V6 West mature 02 leaves",
+      "V6 West mature 02 wood",
+      "V6 West mature 03 leaves",
+      "V6 West mature 03 wood",
+      "V6 West mature 04 leaves",
+      "V6 West mature 04 wood",
+      "V6 West mature 05 leaves",
+      "V6 West mature 05 wood",
+      "V6 West mature 06 leaves",
+      "V6 West mature 06 wood",
+      "V6 West mature 07 leaves",
+      "V6 West mature 07 wood",
+      "V6 West mature 08 leaves",
+      "V6 West mature 08 wood",
+      "V6 West mature 13 leaves",
+      "V6 West mature 13 wood",
+      "V6 West mature 14 leaves",
+      "V6 West mature 14 wood",
+      "V6 West mature 15 leaves",
+      "V6 West mature 15 wood",
+      "V6 south avenue 00 leaves",
+      "V6 south avenue 00 wood",
+      "V6 south avenue 01 leaves",
+      "V6 south avenue 01 wood",
+      "V6 south avenue 02 leaves",
+      "V6 south avenue 02 wood",
+      "V6 south avenue 03 leaves",
+      "V6 south avenue 03 wood",
+      "V6 south avenue 04 leaves",
+      "V6 south avenue 04 wood",
+      "V6 south avenue 05 leaves",
+      "V6 south avenue 05 wood",
+      "V6 south avenue 06 leaves",
+      "V6 south avenue 06 wood",
+      "V6 south avenue 07 leaves",
+      "V6 south avenue 07 wood",
+      "V6 south avenue 08 leaves",
+      "V6 south avenue 08 wood",
+      "V6 south avenue 09 leaves",
+      "V6 south avenue 09 wood",
+      "V6 south avenue 10 leaves",
+      "V6 south avenue 10 wood",
+      "V6 south avenue 11 leaves",
+      "V6 south avenue 11 wood",
+      "V6 south avenue 12 leaves",
+      "V6 south avenue 12 wood",
+      "V6 south avenue 13 leaves",
+      "V6 south avenue 13 wood",
+      "V6 south avenue 14 leaves",
+      "V6 south avenue 14 wood",
+      "V6 south avenue 15 leaves",
+      "V6 south avenue 15 wood",
+      "V6 south conifer 01 needles",
+      "V6 south conifer 01 wood",
+      "V6 south conifer 02 needles",
+      "V6 south conifer 02 wood",
+      "V6 south conifer 04 needles",
+      "V6 south conifer 04 wood",
+      "V6 south conifer 05 needles",
+      "V6 south conifer 05 wood",
+      "WB1__sign-board__FIN_blue",
+      "WB2__sign-board__FIN_blue",
+      "WGLASS2__glass-enclosure__glass",
+      "WGLASS__glass-enclosure__glass",
+      "WSKY1__skylight-glass__glass",
+      "WSKY2__skylight-glass__glass",
+      "WTERR__skylight-glass__glass",
+      "West hedge WOPEN_S__hedge-core__FIN_hedge",
+      "West hedge WOPEN__hedge-core__FIN_hedge",
+      "West hedge WTERR__hedge__hedge",
+      "West hedge WTERR__hedge__hedge.001",
+      "West hedge WTERR__hedge__redhedge",
+      "光华楼 · Guanghua light stone edges"
+    ],
+    "unchanged": [
+      "BENTRY continuous main stair",
+      "BENTRY east platform apron",
+      "BENTRY east sloping ramp",
+      "BENTRY east upper landing wing",
+      "BENTRY stair nose 00",
+      "BENTRY stair nose 01",
+      "BENTRY stair nose 02",
+      "BENTRY stair nose 03",
+      "BENTRY stair nose 04",
+      "BENTRY stair nose 05",
+      "BENTRY stair nose 06",
+      "BENTRY stair nose 07",
+      "BENTRY stair nose 08",
+      "BENTRY stair nose 09",
+      "BENTRY stair nose 10",
+      "BENTRY stair nose 11",
+      "BENTRY stair nose 12",
+      "BENTRY stair nose 13",
+      "BENTRY stair nose 14",
+      "BENTRY stair nose 15",
+      "BENTRY stair nose 16",
+      "BENTRY stair nose 17",
+      "BENTRY stair nose 18",
+      "BENTRY stair nose 19",
+      "BENTRY stair nose 20",
+      "BENTRY stair nose 21",
+      "BENTRY upper platform",
+      "BENTRY west platform apron",
+      "BENTRY west sloping ramp",
+      "BENTRY west upper landing wing",
+      "BOUNDARY__road__road",
+      "BOUNDARY__sidewalk__FIN_pavers",
+      "BOUNDARY__south-road__road",
+      "BOUNDARY__south-sidewalk__FIN_pavers",
+      "DING__base-recesses__FIN_black",
+      "DING__feet__FIN_bronze",
+      "DING__four-legs__FIN_bronze",
+      "DING__plinth__FIN_bronze",
+      "DING__plinth__FIN_granite",
+      "DING__plinth__FIN_stone_pale",
+      "DING__restrained-relief__FIN_bronze",
+      "DING__rim-band__FIN_bronze",
+      "DING__twin-ears__FIN_bronze",
+      "DING__vessel-bottom__FIN_bronze",
+      "DING__vessel-wall__FIN_bronze",
+      "EDGE_PATHS__edge-walk__FIN_pavers",
+      "EDGE_PATHS__south-walk__FIN_pavers",
+      "EOPEN_S__coping__FIN_stone_pale",
+      "EOPEN_S__descending-steps__FIN_concrete",
+      "EOPEN_S__end-wall__FIN_concrete",
+      "EOPEN_S__entry-stepping-stones__FIN_granite",
+      "EOPEN_S__handrail-post__FIN_stainless",
+      "EOPEN_S__hedge-core__FIN_hedge",
+      "EOPEN_S__hedge-leaf-clusters__FIN_hedge",
+      "EOPEN_S__lower-visibility-limit__FIN_black",
+      "EOPEN_S__middle-rail__FIN_green_metal",
+      "EOPEN_S__rail-bar__FIN_green_metal",
+      "EOPEN_S__rail-post__FIN_green_metal",
+      "EOPEN_S__side-wall__FIN_concrete",
+      "EOPEN_S__sloping-handrail__FIN_stainless",
+      "EOPEN_S__step-edge__FIN_stone_pale",
+      "EOPEN_S__tread__FIN_granite",
+      "EOPEN__coping__FIN_stone_pale",
+      "EOPEN__descending-steps__FIN_concrete",
+      "EOPEN__end-wall__FIN_concrete",
+      "EOPEN__entry-stepping-stones__FIN_granite",
+      "EOPEN__handrail-post__FIN_stainless",
+      "EOPEN__hedge-core__FIN_hedge",
+      "EOPEN__hedge-leaf-clusters__FIN_hedge",
+      "EOPEN__lower-visibility-limit__FIN_black",
+      "EOPEN__middle-rail__FIN_green_metal",
+      "EOPEN__rail-bar__FIN_green_metal",
+      "EOPEN__rail-post__FIN_green_metal",
+      "EOPEN__side-wall__FIN_concrete",
+      "EOPEN__sloping-handrail__FIN_stainless",
+      "EOPEN__step-edge__FIN_stone_pale",
+      "EOPEN__tread__FIN_granite",
+      "ERAMP__edge-line__yellow",
+      "ERAMP__mouth-drain__joint-dark",
+      "ERAMP__pergola-cross-beam__dark-wood",
+      "ERAMP__pergola-long-beam__dark-wood",
+      "ERAMP__pergola-post__dark-wood",
+      "ERAMP__pergola-slats__dark-wood",
+      "ERAMP__retaining-wall__aged-wall",
+      "ERAMP__safety-marker__yellow",
+      "ERAMP__safety-strip__FIN_black",
+      "ERAMP__sloped-deck__ramp-worn-ochre",
+      "ERAMP__vine-leaf-clusters__leaf-green",
+      "ERAMP__wall-coping__grey-granite",
+      "ERAMP__wall-reflector__yellow",
+      "ESKY__louvre-dark-back__metal-green",
+      "ESKY__louvres__metal-green",
+      "ESKY__planted-shrubs__leaf-green",
+      "ESKY__planter-coping__grey-granite",
+      "ESKY__planter-soil__soil-east",
+      "ESKY__planter-wall__warm-granite",
+      "ESKY__plinth__warm-granite",
+      "ESKY__roof-frame__metal-green",
+      "ETERR__bench__benchwood",
+      "ETERR__bench__rail",
+      "ETERR__coping__grey-granite",
+      "ETERR__hedge__leaf-bronze",
+      "ETERR__hedge__leaf-green",
+      "ETERR__lower-support__aged-wall",
+      "ETERR__lower-surface__dark-paving",
+      "ETERR__middle-flight-6-nose__grey-granite",
+      "ETERR__middle-flight-6__warm-granite",
+      "ETERR__middle-support__aged-wall",
+      "ETERR__middle-surface__warm-impressed-paving",
+      "ETERR__north-exit-3-inferred-count-nose__grey-granite",
+      "ETERR__north-exit-3-inferred-count__warm-granite",
+      "ETERR__outer-wall-courses__joint-dark",
+      "ETERR__road-flight-7-nose__grey-granite",
+      "ETERR__road-flight-7__warm-granite",
+      "ETERR__square-inlay__pale-inlay",
+      "ETERR__upper-support__aged-wall",
+      "ETERR__upper-surface__warm-impressed-paving",
+      "ETERR__upper-turn-flight-3-nose__grey-granite",
+      "ETERR__upper-turn-flight-3__warm-granite",
+      "ETERR__wall__warm-granite",
+      "ETERR__west-exit-3-inferred-count-nose__grey-granite",
+      "ETERR__west-exit-3-inferred-count__warm-granite",
+      "E_ENTRY 0 broad leaves",
+      "E_ENTRY 0 fluted bowl",
+      "E_ENTRY 0 panel joint",
+      "E_ENTRY 0 panel joint.001",
+      "E_ENTRY 0 panel joint.002",
+      "E_ENTRY 0 panel joint.003",
+      "E_ENTRY 0 pedestal core",
+      "E_ENTRY 0 plinth foot",
+      "E_ENTRY 0 red flowers",
+      "E_ENTRY 0 rounded coping",
+      "E_ENTRY 0 soil",
+      "E_ENTRY 1 broad leaves",
+      "E_ENTRY 1 fluted bowl",
+      "E_ENTRY 1 panel joint",
+      "E_ENTRY 1 panel joint.001",
+      "E_ENTRY 1 panel joint.002",
+      "E_ENTRY 1 panel joint.003",
+      "E_ENTRY 1 pedestal core",
+      "E_ENTRY 1 plinth foot",
+      "E_ENTRY 1 red flowers",
+      "E_ENTRY 1 rounded coping",
+      "E_ENTRY 1 soil",
+      "E_ENTRY aligned garden curb 000",
+      "E_ENTRY aligned garden curb 001",
+      "E_ENTRY aligned garden curb 002",
+      "E_ENTRY aligned garden curb 003",
+      "E_ENTRY aligned garden curb 004",
+      "E_ENTRY aligned garden curb 005",
+      "E_ENTRY aligned garden curb 006",
+      "E_ENTRY aligned garden curb 007",
+      "E_ENTRY aligned garden curb 008",
+      "E_ENTRY aligned garden curb 009",
+      "E_ENTRY aligned garden curb 010",
+      "E_ENTRY aligned garden curb 011",
+      "E_ENTRY aligned garden curb 012",
+      "E_ENTRY aligned garden curb 013",
+      "E_ENTRY aligned garden curb 014",
+      "E_ENTRY aligned garden curb 015",
+      "E_ENTRY aligned garden curb 016",
+      "E_ENTRY aligned garden curb 017",
+      "E_ENTRY aligned garden curb 018",
+      "E_ENTRY aligned garden curb 019",
+      "E_ENTRY aligned garden curb 020",
+      "E_ENTRY aligned garden curb 021",
+      "E_ENTRY aligned garden curb 022",
+      "E_ENTRY aligned garden curb 023",
+      "E_ENTRY aligned garden curb 024",
+      "E_ENTRY aligned garden curb 025",
+      "E_ENTRY aligned garden curb 026",
+      "E_ENTRY aligned garden curb 027",
+      "E_ENTRY aligned garden curb 028",
+      "E_ENTRY aligned garden curb 029",
+      "E_ENTRY aligned garden curb 030",
+      "E_ENTRY aligned garden curb 031",
+      "E_ENTRY aligned garden curb 032",
+      "E_ENTRY aligned garden curb 033",
+      "E_ENTRY aligned garden curb 034",
+      "E_ENTRY aligned garden curb 035",
+      "E_ENTRY aligned garden curb 036",
+      "E_ENTRY aligned garden curb 037",
+      "E_ENTRY aligned garden curb 038",
+      "E_ENTRY aligned garden curb 039",
+      "E_ENTRY aligned garden curb 040",
+      "E_ENTRY aligned garden curb 041",
+      "E_ENTRY aligned garden curb 042",
+      "E_ENTRY aligned garden curb 043",
+      "E_ENTRY aligned garden curb 044",
+      "E_FURNITURE__bench__benchwood",
+      "E_FURNITURE__bench__rail",
+      "E_FURNITURE__ring-back__dark-wood",
+      "E_FURNITURE__ring-legs__metal-green",
+      "E_FURNITURE__ring-seat__dark-wood",
+      "E_FURNITURE__road-sitting-apron-support__aged-wall",
+      "E_FURNITURE__road-sitting-apron-surface__path-grey",
+      "E_PLANTING__clipped-shrub__leaf-green",
+      "E_PLANTING__geometry__trunk",
+      "E_WALK central staggered paving",
+      "E_WALK continuous filled paving bed",
+      "E_WALK recessed arc band 0 000",
+      "E_WALK recessed arc band 0 001",
+      "E_WALK recessed arc band 0 002",
+      "E_WALK recessed arc band 0 003",
+      "E_WALK recessed arc band 0 004",
+      "E_WALK recessed arc band 0 005",
+      "E_WALK recessed arc band 0 006",
+      "E_WALK recessed arc band 0 007",
+      "E_WALK recessed arc band 0 008",
+      "E_WALK recessed arc band 0 009",
+      "E_WALK recessed arc band 0 010",
+      "E_WALK recessed arc band 0 011",
+      "E_WALK recessed arc band 0 012",
+      "E_WALK recessed arc band 0 013",
+      "E_WALK recessed arc band 0 014",
+      "E_WALK recessed arc band 0 015",
+      "E_WALK recessed arc band 0 016",
+      "E_WALK recessed arc band 0 017",
+      "E_WALK recessed arc band 0 018",
+      "E_WALK recessed arc band 0 019",
+      "E_WALK recessed arc band 0 020",
+      "E_WALK recessed arc band 0 021",
+      "E_WALK recessed arc band 0 022",
+      "E_WALK recessed arc band 0 023",
+      "E_WALK recessed arc band 0 024",
+      "E_WALK recessed arc band 0 025",
+      "E_WALK recessed arc band 0 026",
+      "E_WALK recessed arc band 0 027",
+      "E_WALK recessed arc band 0 028",
+      "E_WALK recessed arc band 0 029",
+      "E_WALK recessed arc band 0 030",
+      "E_WALK recessed arc band 0 031",
+      "E_WALK recessed arc band 0 032",
+      "E_WALK recessed arc band 0 033",
+      "E_WALK recessed arc band 0 034",
+      "E_WALK recessed arc band 0 035",
+      "E_WALK recessed arc band 0 036",
+      "E_WALK recessed arc band 0 037",
+      "E_WALK recessed arc band 0 038",
+      "E_WALK recessed arc band 0 039",
+      "E_WALK recessed arc band 0 040",
+      "E_WALK recessed arc band 0 041",
+      "E_WALK recessed arc band 0 042",
+      "E_WALK recessed arc band 0 043",
+      "E_WALK recessed arc band 0 044",
+      "E_WALK recessed arc band 0 045",
+      "E_WALK recessed arc band 0 046",
+      "E_WALK recessed arc band 0 047",
+      "E_WALK recessed arc band 0 048",
+      "E_WALK recessed arc band 0 049",
+      "E_WALK recessed arc band 0 050",
+      "E_WALK recessed arc band 0 051",
+      "E_WALK recessed arc band 0 052",
+      "E_WALK recessed arc band 0 053",
+      "E_WALK recessed arc band 0 054",
+      "E_WALK recessed arc band 0 055",
+      "E_WALK recessed arc band 0 056",
+      "E_WALK recessed arc band 0 057",
+      "E_WALK recessed arc band 0 058",
+      "E_WALK recessed arc band 0 059",
+      "E_WALK recessed arc band 0 060",
+      "E_WALK recessed arc band 0 061",
+      "E_WALK recessed arc band 0 062",
+      "E_WALK recessed arc band 0 063",
+      "E_WALK recessed arc band 0 064",
+      "E_WALK recessed arc band 0 065",
+      "E_WALK recessed arc band 0 066",
+      "E_WALK recessed arc band 0 067",
+      "E_WALK recessed arc band 0 068",
+      "E_WALK recessed arc band 0 069",
+      "E_WALK recessed arc band 0 070",
+      "E_WALK recessed arc band 0 071",
+      "E_WALK recessed arc band 0 072",
+      "E_WALK recessed arc band 0 073",
+      "E_WALK recessed arc band 0 074",
+      "E_WALK recessed arc band 0 075",
+      "E_WALK recessed arc band 0 076",
+      "E_WALK recessed arc band 0 077",
+      "E_WALK recessed arc band 0 078",
+      "E_WALK recessed arc band 0 079",
+      "E_WALK recessed arc band 0 080",
+      "E_WALK recessed arc band 0 081",
+      "E_WALK recessed arc band 0 082",
+      "E_WALK recessed arc band 0 083",
+      "E_WALK recessed arc band 0 084",
+      "E_WALK recessed arc band 0 085",
+      "E_WALK recessed arc band 0 086",
+      "E_WALK recessed arc band 0 087",
+      "E_WALK recessed arc band 0 088",
+      "E_WALK recessed arc band 0 089",
+      "E_WALK recessed arc band 0 090",
+      "E_WALK recessed arc band 0 091",
+      "E_WALK recessed arc band 0 092",
+      "E_WALK recessed arc band 0 093",
+      "E_WALK recessed arc band 0 094",
+      "E_WALK recessed arc band 0 095",
+      "E_WALK recessed arc band 0 096",
+      "E_WALK recessed arc band 0 097",
+      "E_WALK recessed arc band 0 098",
+      "E_WALK recessed arc band 1 000",
+      "E_WALK recessed arc band 1 001",
+      "E_WALK recessed arc band 1 002",
+      "E_WALK recessed arc band 1 003",
+      "E_WALK recessed arc band 1 004",
+      "E_WALK recessed arc band 1 005",
+      "E_WALK recessed arc band 1 006",
+      "E_WALK recessed arc band 1 007",
+      "E_WALK recessed arc band 1 008",
+      "E_WALK recessed arc band 1 009",
+      "E_WALK recessed arc band 1 010",
+      "E_WALK recessed arc band 1 011",
+      "E_WALK recessed arc band 1 012",
+      "E_WALK recessed arc band 1 013",
+      "E_WALK recessed arc band 1 014",
+      "E_WALK recessed arc band 1 015",
+      "E_WALK recessed arc band 1 016",
+      "E_WALK recessed arc band 1 017",
+      "E_WALK recessed arc band 1 018",
+      "E_WALK recessed arc band 1 019",
+      "E_WALK recessed arc band 1 020",
+      "E_WALK recessed arc band 1 021",
+      "E_WALK recessed arc band 1 022",
+      "E_WALK recessed arc band 1 023",
+      "E_WALK recessed arc band 1 024",
+      "E_WALK recessed arc band 1 025",
+      "E_WALK recessed arc band 1 026",
+      "E_WALK recessed arc band 1 027",
+      "E_WALK recessed arc band 1 028",
+      "E_WALK recessed arc band 1 029",
+      "E_WALK recessed arc band 1 030",
+      "E_WALK recessed arc band 1 031",
+      "E_WALK recessed arc band 1 032",
+      "E_WALK recessed arc band 1 033",
+      "E_WALK recessed arc band 1 034",
+      "E_WALK recessed arc band 1 035",
+      "E_WALK recessed arc band 1 036",
+      "E_WALK recessed arc band 1 037",
+      "E_WALK recessed arc band 1 038",
+      "E_WALK recessed arc band 1 039",
+      "E_WALK recessed arc band 1 040",
+      "E_WALK recessed arc band 1 041",
+      "E_WALK recessed arc band 1 042",
+      "E_WALK recessed arc band 1 043",
+      "E_WALK recessed arc band 1 044",
+      "E_WALK recessed arc band 1 045",
+      "E_WALK recessed arc band 1 046",
+      "E_WALK recessed arc band 1 047",
+      "E_WALK recessed arc band 1 048",
+      "E_WALK recessed arc band 1 049",
+      "E_WALK recessed arc band 1 050",
+      "E_WALK recessed arc band 1 051",
+      "E_WALK recessed arc band 1 052",
+      "E_WALK recessed arc band 1 053",
+      "E_WALK recessed arc band 1 054",
+      "E_WALK recessed arc band 1 055",
+      "E_WALK recessed arc band 1 056",
+      "E_WALK recessed arc band 1 057",
+      "E_WALK recessed arc band 1 058",
+      "E_WALK recessed arc band 1 059",
+      "E_WALK recessed arc band 1 060",
+      "E_WALK recessed arc band 1 061",
+      "E_WALK recessed arc band 1 062",
+      "E_WALK recessed arc band 1 063",
+      "E_WALK recessed arc band 1 064",
+      "E_WALK recessed arc band 1 065",
+      "E_WALK recessed arc band 1 066",
+      "E_WALK recessed arc band 1 067",
+      "E_WALK recessed arc band 1 068",
+      "E_WALK recessed arc band 1 069",
+      "E_WALK recessed arc band 1 070",
+      "E_WALK recessed arc band 1 071",
+      "E_WALK recessed arc band 1 072",
+      "E_WALK recessed arc band 1 073",
+      "E_WALK recessed arc band 1 074",
+      "E_WALK recessed arc band 1 075",
+      "E_WALK recessed arc band 1 076",
+      "E_WALK recessed arc band 1 077",
+      "E_WALK recessed arc band 1 078",
+      "E_WALK recessed arc band 1 079",
+      "E_WALK recessed arc band 1 080",
+      "E_WALK recessed arc band 1 081",
+      "E_WALK recessed arc band 1 082",
+      "E_WALK recessed arc band 1 083",
+      "E_WALK recessed arc band 1 084",
+      "E_WALK recessed arc band 1 085",
+      "E_WALK recessed arc band 1 086",
+      "E_WALK recessed arc band 1 087",
+      "E_WALK recessed arc band 1 088",
+      "E_WALK recessed arc band 1 089",
+      "E_WALK recessed arc band 1 090",
+      "E_WALK recessed arc band 1 091",
+      "E_WALK recessed arc band 1 092",
+      "E_WALK recessed arc band 1 093",
+      "E_WALK recessed arc band 1 094",
+      "E_WALK recessed arc band 1 095",
+      "E_WALK recessed arc band 1 096",
+      "E_WALK recessed arc band 1 097",
+      "E_WALK recessed arc band 1 098",
+      "FLOWER__flower-bed__FIN_flower",
+      "FLOWER__flower-stems__FIN_hedge",
+      "FLOWER__inclined-double-ring__FIN_stone_pale",
+      "FLOWER__planted-backing__FIN_hedge",
+      "FLOWER__planted-disk__FIN_leaf0",
+      "FLOWER__planted-disk__FIN_leaf1",
+      "FLOWER__planted-disk__FIN_leaf2",
+      "FLOWER__planted-disk__FIN_leaf3",
+      "FLOWER__planter-grid__FIN_green_metal",
+      "FLOWER__ring-support__FIN_green_metal",
+      "FORECOURT longitudinal drain joint",
+      "FORECOURT photo grid plaza",
+      "FURNITURE__bench__benchwood",
+      "FURNITURE__bench__rail",
+      "FURNITURE__geometry__concrete",
+      "FURNITURE__stone-bollard__pale",
+      "GV3 groundcover blades",
+      "GV3 tall understory 10 GV3 shrub prototype 2 twigs",
+      "GV3 tall understory 11 GV3 shrub prototype 4 twigs",
+      "GV3 tall understory 12 GV3 shrub prototype 2 twigs",
+      "GV3 tall understory 13 GV3 shrub prototype 0 twigs",
+      "GV3 tall understory 14 GV3 shrub prototype 2 twigs",
+      "GV3 tall understory 15 GV3 shrub prototype 2 twigs",
+      "GV3 tall understory 16 GV3 shrub prototype 4 twigs",
+      "H EOPEN_S textured leaves",
+      "H ESKY textured leaves",
+      "H ETERR textured leaves",
+      "LAWN | satellite-fixed concave north edge",
+      "LAWN_EDGE segmented granite 000",
+      "LAWN_EDGE segmented granite 001",
+      "LAWN_EDGE segmented granite 002",
+      "LAWN_EDGE segmented granite 003",
+      "LAWN_EDGE segmented granite 004",
+      "LAWN_EDGE segmented granite 005",
+      "LAWN_EDGE segmented granite 006",
+      "LAWN_EDGE segmented granite 007",
+      "LAWN_EDGE segmented granite 008",
+      "LAWN_EDGE segmented granite 009",
+      "LAWN_EDGE segmented granite 010",
+      "LAWN_EDGE segmented granite 011",
+      "LAWN_EDGE segmented granite 012",
+      "LAWN_EDGE segmented granite 013",
+      "LAWN_EDGE segmented granite 014",
+      "LAWN_EDGE segmented granite 015",
+      "LAWN_EDGE segmented granite 016",
+      "LAWN_EDGE segmented granite 017",
+      "LAWN_EDGE segmented granite 018",
+      "LAWN_EDGE segmented granite 019",
+      "LAWN_EDGE segmented granite 020",
+      "LAWN_EDGE segmented granite 021",
+      "LAWN_EDGE segmented granite 022",
+      "LAWN_EDGE segmented granite 023",
+      "LAWN_EDGE segmented granite 024",
+      "LAWN_EDGE segmented granite 025",
+      "LAWN_EDGE segmented granite 026",
+      "LAWN_EDGE segmented granite 027",
+      "LAWN_EDGE segmented granite 028",
+      "LAWN_EDGE segmented granite 029",
+      "LAWN_EDGE segmented granite 030",
+      "LAWN_EDGE segmented granite 031",
+      "LAWN_EDGE segmented granite 032",
+      "LAWN_EDGE segmented granite 033",
+      "LAWN_EDGE segmented granite 034",
+      "LAWN_EDGE segmented granite 035",
+      "LAWN_EDGE segmented granite 036",
+      "LAWN_EDGE segmented granite 037",
+      "LAWN_EDGE segmented granite 038",
+      "LAWN_EDGE segmented granite 039",
+      "LAWN_EDGE segmented granite 040",
+      "LAWN_EDGE segmented granite 041",
+      "LAWN_EDGE segmented granite 042",
+      "LAWN_EDGE segmented granite 043",
+      "LAWN_EDGE segmented granite 044",
+      "LAWN_EDGE segmented granite 045",
+      "LAWN_EDGE segmented granite 046",
+      "LAWN_EDGE segmented granite 047",
+      "LAWN_EDGE segmented granite 048",
+      "LAWN_EDGE segmented granite 049",
+      "LAWN_EDGE segmented granite 050",
+      "LAWN_EDGE segmented granite 051",
+      "LAWN_EDGE segmented granite 052",
+      "LAWN_EDGE segmented granite 053",
+      "LAWN_EDGE segmented granite 054",
+      "LAWN_EDGE segmented granite 055",
+      "LAWN_EDGE segmented granite 056",
+      "LAWN_EDGE segmented granite 057",
+      "LAWN_EDGE segmented granite 058",
+      "LAWN_EDGE segmented granite 059",
+      "LAWN_EDGE segmented granite 060",
+      "LAWN_EDGE segmented granite 061",
+      "LAWN_EDGE segmented granite 062",
+      "LAWN_EDGE segmented granite 063",
+      "LAWN_EDGE segmented granite 064",
+      "LAWN_EDGE segmented granite 065",
+      "LAWN_EDGE segmented granite 066",
+      "LAWN_EDGE segmented granite 067",
+      "LAWN_EDGE segmented granite 068",
+      "LAWN_EDGE segmented granite 069",
+      "LAWN_EDGE segmented granite 070",
+      "LAWN_EDGE segmented granite 071",
+      "LAWN_EDGE segmented granite 072",
+      "LAWN_EDGE segmented granite 073",
+      "LAWN_EDGE segmented granite 074",
+      "LAWN_EDGE segmented granite 075",
+      "LAWN_EDGE segmented granite 076",
+      "LAWN_EDGE segmented granite 077",
+      "LAWN_EDGE segmented granite 078",
+      "LAWN_EDGE segmented granite 079",
+      "LAWN_EDGE segmented granite 080",
+      "LAWN_EDGE segmented granite 081",
+      "LAWN_EDGE segmented granite 082",
+      "LAWN_EDGE segmented granite 083",
+      "LAWN_EDGE segmented granite 084",
+      "LAWN_EDGE segmented granite 085",
+      "LAWN_EDGE segmented granite 086",
+      "LAWN_EDGE segmented granite 087",
+      "LAWN_EDGE segmented granite 088",
+      "LAWN_EDGE segmented granite 089",
+      "LAWN_EDGE segmented granite 090",
+      "LAWN_EDGE segmented granite 091",
+      "LAWN_EDGE segmented granite 092",
+      "LAWN_EDGE segmented granite 093",
+      "LAWN_EDGE segmented granite 094",
+      "LAWN_EDGE segmented granite 095",
+      "LAWN_EDGE segmented granite 096",
+      "LAWN_EDGE segmented granite 097",
+      "LAWN_EDGE segmented granite 098",
+      "LAWN_EDGE segmented granite 099",
+      "LAWN_EDGE segmented granite 100",
+      "LAWN_EDGE segmented granite 101",
+      "LAWN_EDGE segmented granite 102",
+      "LAWN_EDGE segmented granite 103",
+      "LAWN_EDGE segmented granite 177",
+      "LAWN_EDGE segmented granite 178",
+      "LAWN_EDGE segmented granite 179",
+      "LAWN_EDGE segmented granite 180",
+      "LAWN_EDGE segmented granite 181",
+      "LAWN_EDGE segmented granite 182",
+      "LAWN_EDGE segmented granite 183",
+      "LAWN_EDGE segmented granite 184",
+      "LAWN_EDGE segmented granite 185",
+      "LAWN_EDGE segmented granite 186",
+      "LAWN_EDGE segmented granite 187",
+      "LAWN_EDGE segmented granite 188",
+      "LAWN_EDGE segmented granite 189",
+      "LAWN_EDGE segmented granite 190",
+      "LAWN_EDGE segmented granite 191",
+      "LAWN_EDGE segmented granite 192",
+      "LAWN_EDGE segmented granite 193",
+      "LAWN_EDGE segmented granite 194",
+      "LAWN_EDGE segmented granite 195",
+      "LAWN_EDGE segmented granite 196",
+      "LAWN_EDGE segmented granite 197",
+      "LAWN_EDGE segmented granite 198",
+      "LAWN_EDGE segmented granite 199",
+      "LAWN_EDGE segmented granite 200",
+      "LAWN_EDGE segmented granite 201",
+      "LAWN_EDGE segmented granite 202",
+      "LAWN_EDGE segmented granite 203",
+      "LAWN_EDGE segmented granite 204",
+      "LAWN_EDGE segmented granite 205",
+      "LAWN_EDGE segmented granite 206",
+      "LAWN_EDGE segmented granite 207",
+      "LAWN_EDGE segmented granite 208",
+      "LAWN_EDGE segmented granite 209",
+      "LAWN_EDGE segmented granite 210",
+      "LAWN_EDGE segmented granite 211",
+      "LAWN_EDGE segmented granite 212",
+      "LAWN_EDGE segmented granite 213",
+      "LAWN_EDGE segmented granite 214",
+      "LAWN_EDGE segmented granite 215",
+      "LAWN_EDGE segmented granite 216",
+      "LAWN_EDGE segmented granite 217",
+      "LAWN_EDGE segmented granite 218",
+      "LAWN_EDGE segmented granite 219",
+      "LAWN_EDGE segmented granite 220",
+      "LAWN_EDGE segmented granite 221",
+      "LAWN_EDGE segmented granite 222",
+      "LAWN_EDGE segmented granite 223",
+      "LAWN_EDGE segmented granite 224",
+      "LAWN_EDGE segmented granite 225",
+      "LAWN_EDGE segmented granite 226",
+      "LAWN_EDGE segmented granite 227",
+      "LAWN_EDGE segmented granite 228",
+      "LAWN_EDGE segmented granite 229",
+      "LAWN_EDGE segmented granite 230",
+      "LAWN_EDGE segmented granite 231",
+      "LAWN_EDGE segmented granite 232",
+      "LAWN_EDGE segmented granite 233",
+      "LAWN_EDGE segmented granite 234",
+      "LAWN_EDGE segmented granite 235",
+      "LAWN_EDGE segmented granite 236",
+      "LAWN_EDGE segmented granite 237",
+      "LAWN_EDGE segmented granite 238",
+      "LAWN_EDGE segmented granite 239",
+      "LAWN_EDGE segmented granite 240",
+      "LAWN_EDGE segmented granite 241",
+      "LAWN_EDGE segmented granite 242",
+      "LAWN_EDGE segmented granite 243",
+      "LAWN_EDGE segmented granite 244",
+      "LAWN_EDGE segmented granite 245",
+      "LAWN_EDGE segmented granite 246",
+      "LAWN_EDGE segmented granite 247",
+      "LAWN_EDGE segmented granite 248",
+      "LAWN_EDGE segmented granite 249",
+      "LAWN_EDGE segmented granite 250",
+      "LAWN_EDGE segmented granite 251",
+      "LAWN_EDGE segmented granite 252",
+      "LAWN_EDGE segmented granite 253",
+      "LAWN_EDGE segmented granite 254",
+      "LAWN_EDGE segmented granite 255",
+      "LAWN_EDGE segmented granite 256",
+      "LAWN_EDGE segmented granite 257",
+      "LAWN_EDGE segmented granite 258",
+      "LAWN_EDGE segmented granite 259",
+      "LAWN_EDGE segmented granite 260",
+      "LAWN_EDGE segmented granite 261",
+      "LAWN_EDGE segmented granite 262",
+      "LAWN_EDGE segmented granite 263",
+      "LAWN_EDGE segmented granite 264",
+      "LAWN_EDGE segmented granite 265",
+      "LAWN_EDGE segmented granite 266",
+      "LAWN_EDGE segmented granite 267",
+      "LAWN_EDGE segmented granite 268",
+      "LAWN_EDGE segmented granite 269",
+      "LAWN_EDGE segmented granite 270",
+      "LAWN_EDGE segmented granite 271",
+      "LAWN_EDGE segmented granite 272",
+      "LAWN_EDGE segmented granite 273",
+      "LAWN_EDGE segmented granite 274",
+      "LAWN_EDGE segmented granite 275",
+      "LAWN_EDGE segmented granite 276",
+      "LAWN_EDGE segmented granite 277",
+      "LAWN_EDGE segmented granite 278",
+      "LAWN_EDGE segmented granite 279",
+      "LAWN_EDGE segmented granite 280",
+      "LAWN_EDGE segmented granite 281",
+      "LAWN_EDGE segmented granite 282",
+      "LAWN_EDGE segmented granite 283",
+      "LAWN_EDGE segmented granite 284",
+      "LAWN_EDGE segmented granite 285",
+      "LAWN_EDGE segmented granite 286",
+      "LAWN_EDGE segmented granite 287",
+      "LAWN_EDGE segmented granite 288",
+      "LAWN_EDGE segmented granite 289",
+      "LAWN_EDGE segmented granite 290",
+      "LAWN_EDGE segmented granite 291",
+      "LAWN_EDGE segmented granite 292",
+      "LAWN_EDGE segmented granite 293",
+      "LAWN_EDGE segmented granite 294",
+      "LAWN_EDGE segmented granite 295",
+      "LAWN_EDGE segmented granite 296",
+      "LAWN_EDGE segmented granite 297",
+      "LAWN_EDGE segmented granite 298",
+      "LAWN_EDGE segmented granite 299",
+      "LAWN_EDGE segmented granite 300",
+      "LAWN_EDGE segmented granite 301",
+      "LAWN_EDGE segmented granite 302",
+      "LAWN_EDGE segmented granite 303",
+      "LAWN_EDGE segmented granite 304",
+      "LAWN_EDGE segmented granite 305",
+      "LAWN_EDGE segmented granite 306",
+      "LAWN_EDGE segmented granite 307",
+      "LAWN_EDGE segmented granite 308",
+      "LAWN_EDGE segmented granite 309",
+      "LAWN_EDGE segmented granite 310",
+      "LAWN_EDGE segmented granite 311",
+      "LAWN_EDGE segmented granite 312",
+      "LAWN_EDGE segmented granite 313",
+      "LAWN_EDGE segmented granite 314",
+      "LAWN_EDGE segmented granite 315",
+      "LAWN_EDGE segmented granite 316",
+      "LAWN_EDGE segmented granite 317",
+      "LAWN_EDGE segmented granite 318",
+      "LAWN_EDGE segmented granite 319",
+      "LAWN_EDGE segmented granite 320",
+      "LAWN_EDGE segmented granite 321",
+      "LAWN_EDGE segmented granite 322",
+      "LAWN_EDGE segmented granite 323",
+      "LAWN_EDGE segmented granite 324",
+      "LAWN_EDGE segmented granite 325",
+      "LAWN_EDGE segmented granite 326",
+      "LAWN_EDGE segmented granite 327",
+      "LAWN_EDGE segmented granite 328",
+      "LAWN_EDGE segmented granite 329",
+      "LAWN_EDGE segmented granite 330",
+      "LAWN_EDGE segmented granite 331",
+      "LAWN_EDGE segmented granite 332",
+      "LAWN_EDGE segmented granite 333",
+      "LAWN_EDGE segmented granite 334",
+      "LAWN_EDGE segmented granite 335",
+      "LAWN_EDGE segmented granite 336",
+      "LAWN_EDGE segmented granite 337",
+      "LAWN_EDGE segmented granite 338",
+      "LAWN_EDGE segmented granite 339",
+      "LAWN_EDGE segmented granite 340",
+      "LAWN_EDGE segmented granite 341",
+      "LAWN_EDGE segmented granite 342",
+      "LAWN_EDGE segmented granite 343",
+      "LAWN_EDGE segmented granite 344",
+      "LAWN_EDGE segmented granite 345",
+      "LAWN_EDGE segmented granite 346",
+      "LAWN_EDGE segmented granite 347",
+      "LAWN_EDGE segmented granite 348",
+      "LAWN_EDGE segmented granite 349",
+      "LAWN_EDGE segmented granite 350",
+      "LAWN_EDGE segmented granite 351",
+      "LAWN_EDGE segmented granite 352",
+      "LAWN_EDGE segmented granite 353",
+      "LAWN_EDGE segmented granite 354",
+      "LAWN_EDGE segmented granite 355",
+      "LAWN_EDGE segmented granite 356",
+      "LAWN_EDGE sparse grass tips",
+      "POET_DONKEY base core 0",
+      "POET_DONKEY base core 1",
+      "POET_DONKEY base core 2",
+      "POET_DONKEY boot -1",
+      "POET_DONKEY boot 1",
+      "POET_DONKEY broad traveller hat",
+      "POET_DONKEY cast rock foot",
+      "POET_DONKEY dressed coping",
+      "POET_DONKEY eye -1",
+      "POET_DONKEY eye 1",
+      "POET_DONKEY hand -1",
+      "POET_DONKEY hand 1",
+      "POET_DONKEY long ear -1",
+      "POET_DONKEY long ear 1",
+      "POET_DONKEY loose rein -1",
+      "POET_DONKEY loose rein 1",
+      "POET_DONKEY rough ashlar",
+      "POET_DONKEY rough ashlar.001",
+      "POET_DONKEY rough ashlar.002",
+      "POET_DONKEY rough ashlar.003",
+      "POET_DONKEY rough ashlar.004",
+      "POET_DONKEY rough ashlar.005",
+      "POET_DONKEY rough ashlar.006",
+      "POET_DONKEY rough ashlar.007",
+      "POET_DONKEY rough ashlar.008",
+      "POET_DONKEY rough ashlar.009",
+      "POET_DONKEY rough ashlar.010",
+      "POET_DONKEY rough ashlar.011",
+      "POET_DONKEY rough ashlar.012",
+      "POET_DONKEY rough ashlar.013",
+      "POET_DONKEY rough ashlar.014",
+      "POET_DONKEY rough ashlar.015",
+      "POET_DONKEY rough ashlar.016",
+      "POET_DONKEY rough ashlar.017",
+      "POET_DONKEY rough ashlar.018",
+      "POET_DONKEY rough ashlar.019",
+      "POET_DONKEY rough ashlar.020",
+      "POET_DONKEY rough ashlar.021",
+      "POET_DONKEY side ashlar",
+      "POET_DONKEY side ashlar.001",
+      "POET_DONKEY side ashlar.002",
+      "POET_DONKEY side ashlar.003",
+      "POET_DONKEY side ashlar.004",
+      "POET_DONKEY side ashlar.005",
+      "POET_DONKEY side ashlar.006",
+      "POET_DONKEY side ashlar.007",
+      "POET_DONKEY side ashlar.008",
+      "POET_DONKEY side ashlar.009",
+      "POET_DONKEY side ashlar.010",
+      "POET_DONKEY side ashlar.011",
+      "POET_DONKEY sleeve -1",
+      "POET_DONKEY sleeve 1",
+      "POET_DONKEY tail",
+      "POET_DONKEY west frontage lawn",
+      "POET_GARDEN clipped mound 0",
+      "POET_GARDEN clipped mound 1",
+      "POET_GARDEN clipped mound 2",
+      "POET_GARDEN context tree 0 V2 prototype 0 branches",
+      "POET_GARDEN context tree 0 V2 prototype 0 leaves",
+      "POET_GARDEN context tree 1 V2 prototype 0 branches",
+      "POET_GARDEN context tree 1 V2 prototype 0 leaves",
+      "POET_GARDEN context tree 2 V2 prototype 0 branches",
+      "POET_GARDEN context tree 2 V2 prototype 0 leaves",
+      "POET_GARDEN context tree 3 V2 prototype 0 branches",
+      "POET_GARDEN context tree 3 V2 prototype 0 leaves",
+      "POET_GARDEN landscape rock 0",
+      "POET_GARDEN landscape rock 1",
+      "POET_GARDEN landscape rock 2",
+      "POET_GARDEN stone border 000",
+      "POET_GARDEN stone border 001",
+      "POET_GARDEN stone border 002",
+      "POET_GARDEN stone border 003",
+      "POET_GARDEN stone border 004",
+      "POET_GARDEN stone border 005",
+      "POET_GARDEN stone border 006",
+      "POET_GARDEN stone border 007",
+      "POET_GARDEN stone border 008",
+      "POET_GARDEN stone border 009",
+      "POET_GARDEN stone border 010",
+      "POET_GARDEN stone border 011",
+      "POET_GARDEN stone border 012",
+      "POET_GARDEN stone border 013",
+      "POET_GARDEN stone border 014",
+      "POET_GARDEN stone border 015",
+      "POET_GARDEN stone border 016",
+      "POET_GARDEN stone border 017",
+      "POET_GARDEN stone border 018",
+      "POET_GARDEN stone border 019",
+      "POET_GARDEN stone border 020",
+      "POET_GARDEN stone border 021",
+      "POET_GARDEN stone border 022",
+      "POET_GARDEN stone border 023",
+      "POET_GARDEN stone border 024",
+      "POET_GARDEN stone border 025",
+      "POET_GARDEN stone border 026",
+      "POET_GARDEN stone border 027",
+      "POET_GARDEN stone border 028",
+      "POET_GARDEN stone border 029",
+      "POET_GARDEN stone border 030",
+      "POET_GARDEN stone border 031",
+      "POET_GARDEN stone border 032",
+      "POET_GARDEN stone border 033",
+      "POET_GARDEN stone border 034",
+      "POET_GARDEN stone border 035",
+      "POET_GARDEN stone border 036",
+      "POET_GARDEN stone border 037",
+      "POET_GARDEN stone border 038",
+      "POET_GARDEN stone border 039",
+      "POET_GARDEN stone border 040",
+      "POET_GARDEN stone border 041",
+      "POET_GARDEN stone border 042",
+      "POET_GARDEN stone border 043",
+      "POET_GARDEN stone border 044",
+      "POET_GARDEN stone border 045",
+      "POET_GARDEN stone border 046",
+      "POET_GARDEN stone border 047",
+      "POET_GARDEN stone border 048",
+      "POET_GARDEN stone border 049",
+      "POET_GARDEN stone border 050",
+      "POET_GARDEN stone border 051",
+      "POET_GARDEN stone border 052",
+      "POET_GARDEN stone border 053",
+      "POET_GARDEN stone border 054",
+      "POET_GARDEN stone border 055",
+      "POET_GARDEN stone border 056",
+      "POET_GARDEN stone border 057",
+      "POET_GARDEN stone border 058",
+      "POET_GARDEN stone border 059",
+      "POET_GARDEN stone border 060",
+      "POET_GARDEN stone border 061",
+      "POET_GARDEN stone border 062",
+      "POET_GARDEN stone border 063",
+      "POET_GARDEN stone border 064",
+      "POET_GARDEN stone border 065",
+      "POET_GARDEN stone border 066",
+      "POET_GARDEN stone border 067",
+      "POET_GARDEN stone border 068",
+      "POET_GARDEN stone border 069",
+      "POET_GARDEN stone border 070",
+      "POET_GARDEN stone border 071",
+      "POET_GARDEN stone border 072",
+      "POET_GARDEN stone border 073",
+      "POET_GARDEN stone border 074",
+      "POET_GARDEN stone border 075",
+      "POET_GARDEN stone border 076",
+      "POET_GARDEN stone border 077",
+      "POET_GARDEN stone border 078",
+      "POET_GARDEN stone border 079",
+      "POET_GARDEN stone border 080",
+      "POET_GARDEN stone border 081",
+      "POET_GARDEN stone border 082",
+      "POET_GARDEN stone border 083",
+      "POET_GARDEN stone border 084",
+      "POET_GARDEN stone border 085",
+      "POET_GARDEN stone border 086",
+      "POET_GARDEN stone border 087",
+      "POET_GARDEN stone border 088",
+      "POET_GARDEN stone border 089",
+      "POET_GARDEN stone border 090",
+      "POET_GARDEN stone border 091",
+      "POET_GARDEN stone border 092",
+      "POET_GARDEN stone border 093",
+      "POET_GARDEN stone border 094",
+      "POET_GARDEN stone border 095",
+      "POET_GARDEN stone border 096",
+      "POET_GARDEN stone border 097",
+      "POET_GARDEN stone border 098",
+      "POET_GARDEN stone border 099",
+      "POET_GARDEN stone border 100",
+      "POET_GARDEN stone border 101",
+      "POET_GARDEN stone border 102",
+      "POET_GARDEN stone border 103",
+      "POET_GARDEN stone border 104",
+      "POET_GARDEN stone border 105",
+      "POET_GARDEN stone border 106",
+      "POET_GARDEN stone border 107",
+      "POET_GARDEN stone border 108",
+      "POET_GARDEN stone border 109",
+      "POET_GARDEN stone border 110",
+      "POET_GARDEN stone border 111",
+      "POET_GARDEN stone border 112",
+      "POET_GARDEN stone border 113",
+      "POET_GARDEN stone border 114",
+      "POET_GARDEN stone border 115",
+      "POET_GARDEN stone border 116",
+      "POET_GARDEN stone border 117",
+      "POET_GARDEN stone border 118",
+      "S01 broadleaf at south exit leaves",
+      "S01 broadleaf at south exit twigs",
+      "S02 south approach leaves",
+      "S02 south approach twigs",
+      "S03 north exit bush leaves",
+      "S03 north exit bush twigs",
+      "S04 clipped foreground leaves",
+      "S04 clipped foreground twigs",
+      "SIGN__back-slats__FIN_blue",
+      "SIGN__continuous-heart__FIN_red",
+      "SIGN__plinth__FIN_blue",
+      "SIGN__seat-back__FIN_blue",
+      "SIGN__seat-legs__FIN_blue",
+      "SIGN__seat-slats__FIN_blue",
+      "SIGN__visitor-apron__FIN_pavers",
+      "V01 southern small tree branches",
+      "V01 southern small tree leaves",
+      "V02 behind skylight branches",
+      "V02 behind skylight leaves",
+      "V03 northern spreading tree branches",
+      "V03 northern spreading tree leaves",
+      "V04 east garden backdrop branches",
+      "V04 east garden backdrop leaves",
+      "V05 south garden backdrop branches",
+      "V05 south garden backdrop leaves",
+      "V2 leaves EOPEN",
+      "V2 leaves ERAMP",
+      "V2 leaves E_PLANTING",
+      "V2 leaves FLOWER",
+      "V2 leaves VEGETATION",
+      "V2 leaves WB1",
+      "V2 leaves WB2",
+      "V2 leaves WOPEN",
+      "V2 leaves WOPEN_S",
+      "V2 leaves WTERR",
+      "V2 tree 01 V2 prototype 1 branches",
+      "V2 tree 01 V2 prototype 1 leaves",
+      "V2 tree 02 V2 prototype 2 branches",
+      "V2 tree 02 V2 prototype 2 leaves",
+      "V2 tree 04 V2 prototype 0 branches",
+      "V2 tree 04 V2 prototype 0 leaves",
+      "V2 tree 05 V2 prototype 1 branches",
+      "V2 tree 05 V2 prototype 1 leaves",
+      "V2 tree 06 V2 prototype 2 branches",
+      "V2 tree 06 V2 prototype 2 leaves",
+      "V2 tree 07 V2 prototype 3 branches",
+      "V2 tree 07 V2 prototype 3 leaves",
+      "V2 tree 08 V2 prototype 0 branches",
+      "V2 tree 08 V2 prototype 0 leaves",
+      "V2 tree 09 V2 prototype 1 branches",
+      "V2 tree 09 V2 prototype 1 leaves",
+      "V2 tree 10 V2 prototype 2 branches",
+      "V2 tree 10 V2 prototype 2 leaves",
+      "V2 tree 19 V2 prototype 3 branches",
+      "V2 tree 19 V2 prototype 3 leaves",
+      "V2 tree 20 V2 prototype 0 branches",
+      "V2 tree 20 V2 prototype 0 leaves",
+      "V2 tree 21 V2 prototype 1 branches",
+      "V2 tree 21 V2 prototype 1 leaves",
+      "V2 tree 22 V2 prototype 2 branches",
+      "V2 tree 22 V2 prototype 2 leaves",
+      "V2 tree 23 V2 prototype 3 branches",
+      "V2 tree 23 V2 prototype 3 leaves",
+      "V2 tree 24 V2 prototype 0 branches",
+      "V2 tree 24 V2 prototype 0 leaves",
+      "V2 tree 25 V2 prototype 1 branches",
+      "V2 tree 25 V2 prototype 1 leaves",
+      "V2 tree 32 V2 prototype 0 branches",
+      "V2 tree 32 V2 prototype 0 leaves",
+      "V2 tree 33 V2 prototype 1 branches",
+      "V2 tree 33 V2 prototype 1 leaves",
+      "VEGETATION__clipped-shrubs__FIN_hedge",
+      "VEGETATION__hedge-core__FIN_redhedge",
+      "VEGETATION__hedge-leaf-clusters__FIN_redhedge",
+      "VEGETATION__shrub-stem__FIN_bark",
+      "VEGETATION__tree-branches__FIN_bark",
+      "VEGETATION__tree-canopies__FIN_leaf0",
+      "VEGETATION__tree-canopies__FIN_leaf1",
+      "VEGETATION__tree-canopies__FIN_leaf2",
+      "VEGETATION__tree-canopies__FIN_leaf3",
+      "VEGETATION__tree-canopies__FIN_leaf4",
+      "VEGETATION__tree-trunks__FIN_bark",
+      "WB1__coping__FIN_stone_pale",
+      "WB1__door-frame__FIN_door",
+      "WB1__door-jamb__FIN_concrete",
+      "WB1__door-lintel__FIN_concrete",
+      "WB1__folded-open-leaf__FIN_door",
+      "WB1__hedge-core__FIN_hedge",
+      "WB1__hedge-core__FIN_redhedge",
+      "WB1__hedge-leaf-clusters__FIN_hedge",
+      "WB1__hedge-leaf-clusters__FIN_redhedge",
+      "WB1__mouth-grate__FIN_stainless",
+      "WB1__opening-top-return__FIN_door",
+      "WB1__retaining-wall__FIN_concrete",
+      "WB1__side-pipe__FIN_stainless",
+      "WB1__sloping-apron__FIN_ramp",
+      "WB1__visibility-limit__FIN_black",
+      "WB2__closed-door-leaf__FIN_door",
+      "WB2__coping__FIN_stone_pale",
+      "WB2__door-frame__FIN_door",
+      "WB2__door-handle__FIN_stainless",
+      "WB2__door-jamb__FIN_concrete",
+      "WB2__door-lintel__FIN_concrete",
+      "WB2__door-seam__FIN_black",
+      "WB2__hedge-core__FIN_hedge",
+      "WB2__hedge-core__FIN_redhedge",
+      "WB2__hedge-leaf-clusters__FIN_hedge",
+      "WB2__hedge-leaf-clusters__FIN_redhedge",
+      "WB2__mouth-grate__FIN_stainless",
+      "WB2__retaining-wall__FIN_concrete",
+      "WB2__side-pipe__FIN_stainless",
+      "WB2__sloping-apron__FIN_ramp",
+      "WGLASS2__glass-frame__rail",
+      "WGLASS2__glass-plinth__concrete",
+      "WGLASS__deck-louvre__rail",
+      "WGLASS__deck__wood",
+      "WGLASS__glass-frame__rail",
+      "WGLASS__glass-plinth__concrete",
+      "WGLASS__low-vent-deck__concrete",
+      "WOPEN_S__coping__FIN_stone_pale",
+      "WOPEN_S__descending-steps__FIN_concrete",
+      "WOPEN_S__end-wall__FIN_concrete",
+      "WOPEN_S__entry-stepping-stones__FIN_granite",
+      "WOPEN_S__handrail-post__FIN_stainless",
+      "WOPEN_S__hedge-core__FIN_hedge",
+      "WOPEN_S__hedge-leaf-clusters__FIN_hedge",
+      "WOPEN_S__lower-visibility-limit__FIN_black",
+      "WOPEN_S__middle-rail__FIN_green_metal",
+      "WOPEN_S__rail-bar__FIN_green_metal",
+      "WOPEN_S__rail-post__FIN_green_metal",
+      "WOPEN_S__side-wall__FIN_concrete",
+      "WOPEN_S__sloping-handrail__FIN_stainless",
+      "WOPEN_S__step-edge__FIN_stone_pale",
+      "WOPEN_S__tread__FIN_granite",
+      "WOPEN__coping__FIN_stone_pale",
+      "WOPEN__descending-steps__FIN_concrete",
+      "WOPEN__end-wall__FIN_concrete",
+      "WOPEN__entry-stepping-stones__FIN_granite",
+      "WOPEN__handrail-post__FIN_stainless",
+      "WOPEN__hedge-core__FIN_hedge",
+      "WOPEN__hedge-leaf-clusters__FIN_hedge",
+      "WOPEN__lower-visibility-limit__FIN_black",
+      "WOPEN__middle-rail__FIN_green_metal",
+      "WOPEN__rail-bar__FIN_green_metal",
+      "WOPEN__rail-post__FIN_green_metal",
+      "WOPEN__side-wall__FIN_concrete",
+      "WOPEN__sloping-handrail__FIN_stainless",
+      "WOPEN__step-edge__FIN_stone_pale",
+      "WOPEN__tread__FIN_granite",
+      "WPATH__curb-ding-spur__pale",
+      "WPATH__curb-west-garden__pale",
+      "WPATH__curb-west-main-link__pale",
+      "WPATH__ding-spur__stone",
+      "WPATH__reconnected-terrace-access__FIN_pavers",
+      "WPATH__west-garden__stone",
+      "WPATH__west-main-link__stone",
+      "WSKY1__skylight-base__concrete",
+      "WSKY1__skylight-frame__rail",
+      "WSKY1__skylight-frame__silver",
+      "WSKY1__vent-louvre__rail",
+      "WSKY2__skylight-base__concrete",
+      "WSKY2__skylight-frame__rail",
+      "WSKY2__skylight-frame__silver",
+      "WSKY2__vent-louvre__rail",
+      "WTERR__approach-coping__pale",
+      "WTERR__approach-planter__concrete",
+      "WTERR__back-hedge-leaves__hedge-burgundy",
+      "WTERR__bench__benchwood",
+      "WTERR__bench__rail",
+      "WTERR__central-coping__pale",
+      "WTERR__central-retaining-wall__concrete",
+      "WTERR__hedge-leaf-masses__hedge-green",
+      "WTERR__hedge__hedge",
+      "WTERR__hedge__hedge.001",
+      "WTERR__hedge__redhedge",
+      "WTERR__irregular-paving__stone-chip-0",
+      "WTERR__irregular-paving__stone-chip-1",
+      "WTERR__irregular-paving__stone-chip-2",
+      "WTERR__irregular-paving__stone-chip-3",
+      "WTERR__irregular-paving__stone-chip-4",
+      "WTERR__irregular-paving__stone-chip-5",
+      "WTERR__irregular-paving__stone-chip-6",
+      "WTERR__irregular-paving__stone-chip-7",
+      "WTERR__low-walk__pale",
+      "WTERR__paving-bands__joint",
+      "WTERR__planter-coping__granite-grey",
+      "WTERR__rail-bar__wood",
+      "WTERR__rail-cross__wood",
+      "WTERR__rail-post__wood",
+      "WTERR__raised-platform__concrete",
+      "WTERR__recess-wall__concrete",
+      "WTERR__skylight-base__concrete",
+      "WTERR__skylight-frame__rail",
+      "WTERR__skylight-frame__silver",
+      "WTERR__skylight-planter__pale",
+      "WTERR__steps__pale",
+      "WTERR__stone-platform__stone",
+      "WTERR__turn-landing__pale",
+      "WTERR__upper-entry__stone",
+      "WTERR__upper-stair-bar__wood",
+      "WTERR__upper-stair-cross__wood",
+      "WTERR__upper-stair-post__wood",
+      "WTERR__vent-louvre__rail",
+      "W_ENTRY 0 broad leaves",
+      "W_ENTRY 0 fluted bowl",
+      "W_ENTRY 0 panel joint",
+      "W_ENTRY 0 panel joint.001",
+      "W_ENTRY 0 panel joint.002",
+      "W_ENTRY 0 panel joint.003",
+      "W_ENTRY 0 pedestal core",
+      "W_ENTRY 0 plinth foot",
+      "W_ENTRY 0 red flowers",
+      "W_ENTRY 0 rounded coping",
+      "W_ENTRY 0 soil",
+      "W_ENTRY 1 broad leaves",
+      "W_ENTRY 1 fluted bowl",
+      "W_ENTRY 1 panel joint",
+      "W_ENTRY 1 panel joint.001",
+      "W_ENTRY 1 panel joint.002",
+      "W_ENTRY 1 panel joint.003",
+      "W_ENTRY 1 pedestal core",
+      "W_ENTRY 1 plinth foot",
+      "W_ENTRY 1 red flowers",
+      "W_ENTRY 1 rounded coping",
+      "W_ENTRY 1 soil",
+      "W_ENTRY aligned garden curb 000",
+      "W_ENTRY aligned garden curb 001",
+      "W_ENTRY aligned garden curb 002",
+      "W_ENTRY aligned garden curb 003",
+      "W_ENTRY aligned garden curb 004",
+      "W_ENTRY aligned garden curb 005",
+      "W_ENTRY aligned garden curb 006",
+      "W_ENTRY aligned garden curb 007",
+      "W_ENTRY aligned garden curb 008",
+      "W_ENTRY aligned garden curb 009",
+      "W_ENTRY aligned garden curb 010",
+      "W_ENTRY aligned garden curb 011",
+      "W_ENTRY aligned garden curb 012",
+      "W_ENTRY aligned garden curb 013",
+      "W_ENTRY aligned garden curb 014",
+      "W_ENTRY aligned garden curb 015",
+      "W_ENTRY aligned garden curb 016",
+      "W_ENTRY aligned garden curb 017",
+      "W_ENTRY aligned garden curb 018",
+      "W_ENTRY aligned garden curb 019",
+      "W_ENTRY aligned garden curb 020",
+      "W_ENTRY aligned garden curb 021",
+      "W_ENTRY aligned garden curb 022",
+      "W_ENTRY aligned garden curb 023",
+      "W_ENTRY aligned garden curb 024",
+      "W_ENTRY aligned garden curb 025",
+      "W_ENTRY aligned garden curb 026",
+      "W_ENTRY aligned garden curb 027",
+      "W_ENTRY aligned garden curb 028",
+      "W_ENTRY aligned garden curb 029",
+      "W_ENTRY aligned garden curb 030",
+      "W_ENTRY aligned garden curb 031",
+      "W_ENTRY aligned garden curb 032",
+      "W_ENTRY aligned garden curb 033",
+      "W_ENTRY aligned garden curb 034",
+      "W_ENTRY aligned garden curb 035",
+      "W_ENTRY aligned garden curb 036",
+      "W_ENTRY aligned garden curb 037",
+      "W_ENTRY aligned garden curb 038",
+      "W_ENTRY aligned garden curb 039",
+      "W_ENTRY aligned garden curb 040",
+      "W_ENTRY aligned garden curb 041",
+      "W_ENTRY aligned garden curb 042",
+      "W_ENTRY aligned garden curb 043",
+      "W_ENTRY aligned garden curb 044",
+      "W_ENTRY aligned garden curb 045",
+      "W_ENTRY aligned garden curb 046",
+      "W_ENTRY aligned garden curb 047",
+      "W_ENTRY aligned garden curb 048",
+      "W_ENTRY aligned garden curb 049",
+      "W_ENTRY aligned garden curb 050",
+      "W_ENTRY aligned garden curb 051",
+      "W_ENTRY aligned garden curb 052",
+      "W_ENTRY aligned garden curb 053",
+      "W_ENTRY aligned garden curb 054",
+      "W_ENTRY aligned garden curb 055",
+      "W_ENTRY aligned garden curb 056",
+      "W_ENTRY aligned garden curb 057",
+      "W_ENTRY aligned garden curb 058",
+      "W_ENTRY aligned garden curb 059",
+      "W_ENTRY aligned garden curb 060",
+      "W_ENTRY aligned garden curb 061",
+      "W_ENTRY aligned garden curb 062",
+      "W_ENTRY aligned garden curb 063",
+      "old north opening infill",
+      "光华楼 · Guanghua blue glazing 0",
+      "光华楼 · Guanghua blue glazing 1",
+      "光华楼 · Guanghua blue glazing 2",
+      "光华楼 · Guanghua blue glazing 3",
+      "光华楼 · Guanghua curtain wall mullions",
+      "光华楼 · Guanghua recessed bronze",
+      "光华楼 · Guanghua roof",
+      "光华楼 · Guanghua rose grey stone"
+    ]
+  },
+  "limits": [
+    "Absolute scale and levels inferred",
+    "ESKY_N geographic placement remains unknown",
+    "No certification of hidden structures or global solid collision freedom"
+  ]
+}

@@ -1,9 +1,13 @@
+from pathlib import Path
+import sys
+sys.path.insert(0, str(Path(__file__).resolve().parent))
+from asset_protection import assert_export_allowed
+assert_export_allowed()  # Before clearing the scene or writing any existing asset.
 import bpy, math, random, os, json
 from mathutils import Vector
 random.seed(21)
-from pathlib import Path
 ROOT=str(Path(__file__).resolve().parents[1])
-OUT=str(Path(ROOT)/'output')
+OUT=ROOT+'/output'
 bpy.ops.object.select_all(action='SELECT'); bpy.ops.object.delete(use_global=False)
 for c in list(bpy.data.collections):
  if c.name != 'Collection': bpy.data.collections.remove(c)

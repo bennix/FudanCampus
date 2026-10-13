@@ -1,0 +1,28 @@
+const {chromium}=require('C:/Users/Lumin/.cache/codex-runtimes/codex-primary-runtime/dependencies/node/node_modules/playwright');
+const fs=require('fs'),path=require('path'),assert=require('assert');
+const root=path.resolve(__dirname,'..'),out=path.join(root,'field-review/guanghua-lawn-survey-v1');
+(async()=>{
+ const browser=await chromium.launch({executablePath:'C:/Program Files/Google/Chrome/Application/chrome.exe',headless:true,args:['--use-angle=swiftshader','--enable-unsafe-swiftshader']});
+ const page=await browser.newPage({viewport:{width:1440,height:1040}}),errors=[],failures=[];
+ page.on('pageerror',e=>errors.push(e.message));page.on('response',r=>{if(r.status()>=400&&!r.url().includes('favicon'))failures.push([r.status(),r.url()]);});
+ const base='http://127.0.0.1:8767/field-review/guanghua-lawn-survey-v1/';
+ await page.goto(base+'index.html');await page.locator('#photo').waitFor();await page.waitForFunction(()=>document.querySelector('#photo').complete);
+ assert.equal(await page.locator('.pin').count(),21);assert.equal(await page.locator('.photo-dot').count(),305);
+ await page.screenshot({path:path.join(out,'renders/06-atlas-desktop.png'),fullPage:true});
+ await page.locator('[data-id="WTERR"]').click();assert((await page.locator('#title').innerText()).includes('西花园高台'));assert.equal(await page.locator('#count').innerText(),'当前组 1 / 5');
+ await page.locator('#next').click();assert((await page.locator('#meta').innerText()).includes('4377'));
+ await page.locator('#zone').selectOption('E2');assert.equal(await page.locator('#count').innerText(),'当前组 1 / 17');
+ await page.locator('#timeline').fill('16');await page.locator('#timeline').dispatchEvent('input');assert((await page.locator('#meta').innerText()).includes('4571'));
+ await page.goto(base+'index.html#EOPEN_S');assert((await page.locator('#title').innerText()).includes('东侧中段'));
+ await page.setViewportSize({width:390,height:844});await page.screenshot({path:path.join(out,'renders/07-atlas-mobile.png'),fullPage:true});assert(await page.evaluate(()=>document.documentElement.scrollWidth<=innerWidth+1));
+ await page.setViewportSize({width:1440,height:1000});await page.goto(base+'viewer.html');await page.waitForFunction(()=>window.__modelReady||window.__modelError,{},{timeout:60000});
+ const info=await page.evaluate(()=>({ready:window.__modelReady,error:window.__modelError,...window.__modelInfo}));assert(info.ready,info.error);assert(info.objects>100);
+ await page.screenshot({path:path.join(out,'renders/08-viewer-aerial.png')});
+ await page.locator('[data-view="west"]').click();await page.evaluate(()=>window.__selectFeature('WTERR'));await page.waitForTimeout(600);
+ assert(await page.locator('#detail').isVisible());assert.equal(await page.locator('#photos img').count(),5);assert(!(await page.locator('#building').isChecked()));
+ await page.screenshot({path:path.join(out,'renders/09-viewer-west.png')});
+ await page.setViewportSize({width:390,height:844});await page.locator('[data-view="top"]').click();await page.locator('#close').click();await page.screenshot({path:path.join(out,'renders/10-viewer-mobile.png')});assert(await page.evaluate(()=>document.documentElement.scrollWidth<=innerWidth+1));
+ await browser.close();assert.deepEqual(errors,[]);assert.deepEqual(failures,[]);
+ const result={atlas:{photo_points:305,feature_pins:21,filter_and_timeline:true,linked_feature:true,mobile_no_overflow:true},viewer:{...info,feature_evidence:true,visibility_controls:true,mobile_no_overflow:true},errors,failed_requests:failures};
+ fs.writeFileSync(path.join(out,'model/preview-validation.json'),JSON.stringify(result,null,2));console.log(JSON.stringify(result));
+})().catch(e=>{console.error(e);process.exit(1)});

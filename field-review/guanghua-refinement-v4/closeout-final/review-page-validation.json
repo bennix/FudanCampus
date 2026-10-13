@@ -1,0 +1,34 @@
+{
+  "source_sha256": "8625e7b4813f9a864c5a03121f32f28e2cc1e5d7265518b921593a137f8b8714",
+  "review_html_sha256": "287a0f0fc6fdceb5e744616c135ae09ca74791c9edabeb730687a0551d603708",
+  "url": "http://127.0.0.1:8766/field-review/guanghua-refinement-v4/closeout-final/review.html",
+  "browser": "154.0.8037.59",
+  "headless": true,
+  "desktop": [
+    1440,
+    1000
+  ],
+  "narrow": [
+    390,
+    844
+  ],
+  "embedded3D": 0,
+  "images": 72,
+  "cards": 35,
+  "failed": [],
+  "errors": [],
+  "broken": [],
+  "narrowOverflow": false,
+  "screenshots": [
+    {
+      "name": "review-desktop.png",
+      "sha256": "a15cbd09789f9dccb3453b6c4fdab7249c573d0a82bf3c516375d6ea19afbe46"
+    },
+    {
+      "name": "review-narrow.png",
+      "sha256": "c570609daf2ed62afd66cff8bab789f5dd4e7883c417095b833306a7c2f8881e"
+    }
+  ],
+  "pass": true,
+  "scope": "Static review layout, all images and local HTTP requests. No 3D campus frame or performance measurement."
+}

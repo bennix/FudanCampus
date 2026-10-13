@@ -1,0 +1,9 @@
+{
+  "source_sha256": "55ecddb8f13353d750bf1fbc60c558b276d5b5c261fa57816c6f8969e91fee89",
+  "changed": [
+    "C04 continuous road",
+    "C04 continuous ground"
+  ],
+  "reason": "Production GLB ray found new ground covering the northeast EOPEN stair mouth",
+  "hardscape_guard": "Original four stair mouths and all other meshes preserved"
+}

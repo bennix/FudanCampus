@@ -1,0 +1,14 @@
+{
+  "source": "models/shared/05-guanghua-v3.glb",
+  "source_sha256": "ff5885e88797c200907ffad8716a47db4a53915ea3ca5f6822a5c4c9c28bec28",
+  "bytes": 4803248,
+  "removedTriangles": 84,
+  "retainedTriangles": 60172,
+  "alteredNodes": [
+    "Canopy 0 details.001",
+    "Canopy 4 details.001",
+    "Canopy 3 details.001",
+    "Canopy 2 details.001"
+  ],
+  "method": "Discard only triangles with a referenced vertex entering the inherited interior envelope; all retained attributes and world transforms are unchanged"
+}

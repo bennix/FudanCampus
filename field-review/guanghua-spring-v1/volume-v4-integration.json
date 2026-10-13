@@ -1,0 +1,292 @@
+{
+  "source": "C:\\Users\\Lumin\\source\\FudanCampus-course\\field-review\\guanghua-spring-v1\\guanghua-spring-volume-v4.blend",
+  "source_sha256": "4bc676711957a959872a6323b7e4cdae2a52fed6c7cf12d4cf726c1e2759321c",
+  "scale": 0.6666666666666666,
+  "translation_blender": [
+    117.86666870117188,
+    122.80000305175781,
+    0
+  ],
+  "baselines": {
+    "models/shared/00-guanghua-v3.glb": "a1a8a53da36af0ab10255b31b2295fd063a186a687a76e06cb15f212d53e3dc8",
+    "models/shared/01-hanbing-v14.glb": "f0ebd998b5244d1a5488b4adbdef3153432b90a79544ae5847832050d6aa7147",
+    "models/shared/02.glb": "7fa75aab7af1f9814016fab428f6c40cef6b39fa285cb7baa5dfea7fb13a47b5",
+    "models/shared/03.glb": "d537da09f0675300853f64c37e9e098019a164052b9086e780b07030e22891ec",
+    "models/shared/04.glb": "88235469b10d1e6ab9e9cc6987896854d7fb20e9baf7c79c773afdd125726636",
+    "models/shared/05-guanghua-v3.glb": "ff5885e88797c200907ffad8716a47db4a53915ea3ca5f6822a5c4c9c28bec28",
+    "models/landscape/guanghua-complete-v3.glb": "274e05364a185482da38d97b3050857aa55f5a68eff2aa9e7f422dc73c83f4f9",
+    "models/buildings/14.glb": "0b6bffa0e4fad9955816fe7c2a8e19669fceb96d8cdc0aed87609deb19af94e0",
+    "models/buildings/16.glb": "31da9550a24f72051cf914da4505f2d0037f8966a2fab061a8801e34b25953fc",
+    "models/buildings/20.glb": "0c39e38a472a4c65413a7ba350af2abf8a42bb698b0489d9bb1de16b7765d119",
+    "models/buildings/27.glb": "fca1d0c77446ed7db491864d24d2412828c0cd70da9c71222997a3c71196479a",
+    "models/buildings/42.glb": "94ab3ba507e601cc370da8a8ec1726af332cdf3b3585d43124e008248d23fc8b",
+    "models/buildings/51.glb": "e17cd179569f740d3be3e155ba50b68f315ceb1a9bcf961c59e02668729cf451",
+    "models/buildings/55.glb": "95a895241e1ca7d5dfb425794eb8cb55aae0fdd4ecec759d76066beb35e8dd0a",
+    "models/buildings/56.glb": "966a98308aa546df2528e070d94ea1f325de4fdff7f49b1ad4bad5a098e9ad13",
+    "models/buildings/65.glb": "36581b572da434f2f71b5c4d48ad6d3861dfe67b18786e6c23e77bd7cdef9327",
+    "models/overview/42.glb": "8d9f53a24348fade636b29974ea528c77376c21b6c7a838e9384eeddf0940081"
+  },
+  "feature_ids": [
+    "BOUNDARY",
+    "BUILDING_ENTRY",
+    "DING",
+    "EDGE_PATHS",
+    "EOPEN",
+    "EOPEN_S",
+    "EPATH",
+    "ERAMP",
+    "ESKY",
+    "ETERR",
+    "E_ENTRY",
+    "E_FURNITURE",
+    "E_PLANTING",
+    "E_WALK",
+    "FLOWER",
+    "FORECOURT",
+    "FURNITURE",
+    "GARDEN_VEGETATION_V3",
+    "GROUND",
+    "LAWN",
+    "LAWN_EDGE",
+    "POET_DONKEY",
+    "POET_GARDEN",
+    "SIGN",
+    "TREE_CANOPY_V6",
+    "VEGETATION",
+    "VEGETATION_V2",
+    "WB1",
+    "WB2",
+    "WGLASS",
+    "WGLASS2",
+    "WOPEN",
+    "WOPEN_S",
+    "WPATH",
+    "WSKY1",
+    "WSKY2",
+    "WTERR",
+    "W_ENTRY"
+  ],
+  "landscape": {
+    "url": "models/landscape/guanghua-spring-volume-v4.glb.parts.json",
+    "revision": "588b6b5b8370",
+    "bytes": 149252900
+  },
+  "building": {
+    "url": "models/buildings/27-closeout.glb",
+    "revision": "7729b2cea51e",
+    "bytes": 3178560
+  },
+  "building_bounds": {
+    "min": [
+      -62.849992752075195,
+      0,
+      -16
+    ],
+    "max": [
+      62.85000419616699,
+      79.55000305175781,
+      20.049999237060547
+    ]
+  },
+  "terrain_reused": {
+    "id": "00",
+    "name": "00 Terrain and roads",
+    "url": "models/shared/00-guanghua-v3.glb",
+    "revision": "a1a8a53da36a",
+    "bytes": 3435320
+  },
+  "vegetation_reused": {
+    "id": "05",
+    "name": "05 Landscape",
+    "url": "models/shared/05-guanghua-closeout.glb",
+    "revision": "39c56a008f4e",
+    "bytes": 4803248
+  },
+  "inherited_footprint": [
+    -90,
+    112.3021175619119,
+    -9,
+    124
+  ],
+  "registration": "Inherited provisional 2/3 scale; native landscape envelope preserved",
+  "replacement": "Building 27 and Guanghua landscape switch to new local assets; old shared forest triangles protruding into the replacement envelope are removed in a new derivative; retained outside vegetation triangles remain exact",
+  "validation_status": "Passed native reopen, protected GLB fingerprints, Three.js model checks, TypeScript, static build, browser top and side visual review",
+  "derivation": {
+    "baseline_glb": "models/landscape/guanghua-spring-photo-v3.glb",
+    "baseline_glb_sha256": "0710d41f194a4e4481914376c3128c5f11318ebf8a9bd17028859b214245d881",
+    "target_tree": "V6 East spreading 01",
+    "non_target_glb_nodes_preserved": 1074,
+    "non_target_native_meshes_preserved": 1905,
+    "central_shoots": 16,
+    "materials_reused": true,
+    "branch_paths": 4128,
+    "blossom_cards": 82412,
+    "blossom_anchor_sites": 19029,
+    "neighbor_geometry_materials_transforms_preserved": true,
+    "all_other_manifest_entries_preserved": true,
+    "web_quantization": {
+      "position_bits": 14,
+      "normal_bits": 8,
+      "texcoord_bits": 16,
+      "scope": "replacement tree only"
+    }
+  },
+  "browser_preview": "http://127.0.0.1:5174/FudanCampus/?view=cherry",
+  "visual_review": {
+    "top": "http://127.0.0.1:5174/FudanCampus/?view=cherry-top",
+    "side": "http://127.0.0.1:5174/FudanCampus/?view=cherry",
+    "console_errors": 0,
+    "observations": [
+      "Reduced planar ribbons; central coverage increased",
+      "Accepted flower materials and neighboring landscape preserved"
+    ]
+  },
+  "upstream_merge": {
+    "remote_commit": "afc24ddf719a399f38306cca7250c7745045af70",
+    "terrain": {
+      "id": "00",
+      "name": "00 Terrain and roads",
+      "url": "models/shared/00-guanghua-merged.glb",
+      "revision": "3e1fd09514ba",
+      "bytes": 3431968
+    },
+    "statue": {
+      "id": "58",
+      "name": "毛主席像",
+      "url": "models/shared/58.glb",
+      "bytes": 463584,
+      "revision": "44bd055f433c"
+    },
+    "buildings": [
+      {
+        "id": "3",
+        "name": "北区体育馆",
+        "url": "models/buildings/3.glb",
+        "revision": "e3cce82d50b8",
+        "bytes": 60580,
+        "overview": {
+          "url": "models/overview/3.glb",
+          "revision": "60963d53e0bf",
+          "bytes": 16468
+        },
+        "position": [
+          -460.8,
+          0,
+          -509.6
+        ],
+        "rotation": [
+          0,
+          0,
+          0
+        ],
+        "orientationBaked": true,
+        "bounds": {
+          "min": [
+            -20.08000488281249,
+            0,
+            -34.07999267578123
+          ],
+          "max": [
+            20.079998779296886,
+            15.149999618530273,
+            24.300012207031273
+          ]
+        },
+        "labelPosition": [
+          -460.8,
+          11.5,
+          -509.6
+        ],
+        "loadDistance": 240
+      },
+      {
+        "id": "5",
+        "name": "北区食堂",
+        "url": "models/buildings/5.glb",
+        "revision": "799648b03a15",
+        "bytes": 118684,
+        "overview": {
+          "url": "models/overview/5.glb",
+          "revision": "03df7518bb63",
+          "bytes": 22436
+        },
+        "position": [
+          -351.20000000000005,
+          0,
+          -514.4
+        ],
+        "rotation": [
+          0,
+          0,
+          0
+        ],
+        "orientationBaked": true,
+        "bounds": {
+          "min": [
+            -24.90800170898433,
+            0.10000000149011612,
+            -18.800012207031273
+          ],
+          "max": [
+            24.908007812500045,
+            16.075000762939453,
+            27.880010986328102
+          ]
+        },
+        "labelPosition": [
+          -351.20000000000005,
+          11.5,
+          -514.4
+        ],
+        "loadDistance": 240
+      },
+      {
+        "id": "7",
+        "name": "仓库",
+        "url": "models/buildings/7.glb",
+        "revision": "832b487d4596",
+        "bytes": 23104,
+        "overview": {
+          "url": "models/overview/7.glb",
+          "revision": "d1fd65fcdedc",
+          "bytes": 7696
+        },
+        "position": [
+          -364.8,
+          0,
+          -272
+        ],
+        "rotation": [
+          0,
+          0,
+          0
+        ],
+        "orientationBaked": true,
+        "bounds": {
+          "min": [
+            -12.400012207031239,
+            0,
+            -12.399993896484375
+          ],
+          "max": [
+            12.400006103515636,
+            11.729999542236328,
+            12.399993896484375
+          ]
+        },
+        "labelPosition": [
+          -364.8,
+          11.5,
+          -272
+        ],
+        "loadDistance": 240
+      }
+    ],
+    "legacy_statue_nodes_removed": [
+      "Statue plinth.001",
+      "Statue abstract body.001",
+      "Statue head.001"
+    ],
+    "non_target_terrain_nodes_preserved": 133
+  }
+}

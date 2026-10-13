@@ -1,0 +1,32 @@
+{
+  "all_mesh_geometry_unchanged": true,
+  "material_targets": [
+    "FORECOURT photo grid plaza",
+    "BENTRY upper platform",
+    "BENTRY east sloping ramp",
+    "BENTRY east upper landing wing",
+    "BENTRY east platform apron",
+    "BENTRY west sloping ramp",
+    "BENTRY west upper landing wing",
+    "BENTRY west platform apron"
+  ],
+  "independent_material": true,
+  "estimated_large_bay": 6,
+  "estimated_minor_panel": [
+    1.2,
+    1.5
+  ],
+  "estimated_band_width": 0.18,
+  "phase_origin": [
+    20,
+    100
+  ],
+  "views": [
+    "top",
+    "4485",
+    "4464",
+    "overall"
+  ],
+  "baseline_unchanged": true,
+  "dimensions": "推定：照片比例，未实测"
+}

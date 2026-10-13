@@ -1,0 +1,398 @@
+{
+  "changed": [
+    "BENTRY east inner broad leaves",
+    "BENTRY east inner red flowers",
+    "BENTRY east inner soil",
+    "BENTRY east inner urn",
+    "BENTRY east outer broad leaves",
+    "BENTRY east outer red flowers",
+    "BENTRY east outer soil",
+    "BENTRY east outer urn",
+    "BENTRY west inner broad leaves",
+    "BENTRY west inner red flowers",
+    "BENTRY west inner soil",
+    "BENTRY west inner urn",
+    "BENTRY west outer broad leaves",
+    "BENTRY west outer red flowers",
+    "BENTRY west outer soil",
+    "BENTRY west outer urn",
+    "C03 east flower plinth coping",
+    "C03 east flower plinth wall",
+    "C03 east outer flower plinth coping",
+    "C03 east outer flower plinth wall",
+    "C03 east outer rail coping",
+    "C03 east outer rail wall",
+    "C03 east retaining coping",
+    "C03 east retaining wall",
+    "C03 west flower plinth coping",
+    "C03 west flower plinth wall",
+    "C03 west outer flower plinth coping",
+    "C03 west outer flower plinth wall",
+    "C03 west outer rail coping",
+    "C03 west outer rail wall",
+    "C03 west retaining coping",
+    "C03 west retaining wall",
+    "C04 continuous road",
+    "光华楼 · Guanghua light stone edges"
+  ],
+  "added": [
+    "C02 visible fluted facade columns",
+    "C12 bounded bare trunk soil",
+    "C12 sparse ground litter"
+  ],
+  "tasks": {
+    "C02": {
+      "replaced_square_columns": 45,
+      "retained_noncolumn_vertices": 1552,
+      "axes_and_openings_preserved": true,
+      "dimension_status": "Inherited relative scale; no surveyed claim"
+    },
+    "C11": {
+      "metric_uv": "Scene-unit mapping on repaired solids; original calibrated surfaces retained",
+      "relief_distance": 0.009,
+      "material_graph": "Native procedural microrelief; export conversion recorded separately"
+    },
+    "C12": {
+      "root_patches": [
+        {
+          "tree": "V6 West mature 00",
+          "position": [
+            -76.0,
+            27.0,
+            -0.0049991607666015625
+          ],
+          "soil_radius": 0.36
+        },
+        {
+          "tree": "V6 West mature 01",
+          "position": [
+            -75.0,
+            81.0,
+            -0.0049991607666015625
+          ],
+          "soil_radius": 0.36
+        },
+        {
+          "tree": "V6 West mature 02",
+          "position": [
+            -44.0,
+            17.0,
+            -0.0049953460693359375
+          ],
+          "soil_radius": 0.36
+        },
+        {
+          "tree": "V6 West mature 03",
+          "position": [
+            -50.0,
+            34.0,
+            -0.00499725341796875
+          ],
+          "soil_radius": 0.36
+        },
+        {
+          "tree": "V6 West mature 04",
+          "position": [
+            -40.0,
+            52.0,
+            -0.005001068115234375
+          ],
+          "soil_radius": 0.36
+        },
+        {
+          "tree": "V6 West mature 05",
+          "position": [
+            -44.0,
+            64.0,
+            -0.005001068115234375
+          ],
+          "soil_radius": 0.36
+        },
+        {
+          "tree": "V6 West mature 06",
+          "position": [
+            -48.0,
+            78.0,
+            -0.0049991607666015625
+          ],
+          "soil_radius": 0.36
+        },
+        {
+          "tree": "V6 West mature 07",
+          "position": [
+            -65.0,
+            77.0,
+            -0.0049953460693359375
+          ],
+          "soil_radius": 0.36
+        },
+        {
+          "tree": "V6 West mature 08",
+          "position": [
+            -62.0,
+            38.0,
+            -0.0049991607666015625
+          ],
+          "soil_radius": 0.36
+        },
+        {
+          "tree": "V6 East mature 09",
+          "position": [
+            98.30211639404297,
+            64.0,
+            -0.00499725341796875
+          ],
+          "soil_radius": 0.36
+        },
+        {
+          "tree": "V6 East mature 10",
+          "position": [
+            91.30211639404297,
+            73.0,
+            -0.00499725341796875
+          ],
+          "soil_radius": 0.36
+        },
+        {
+          "tree": "V6 East mature 11",
+          "position": [
+            70.80211639404297,
+            57.5,
+            0.21614837646484375
+          ],
+          "soil_radius": 0.36
+        },
+        {
+          "tree": "V6 East mature 12",
+          "position": [
+            85.30211639404297,
+            81.0,
+            -0.00499725341796875
+          ],
+          "soil_radius": 0.36
+        },
+        {
+          "tree": "V6 West mature 13",
+          "position": [
+            -73.0,
+            18.0,
+            -0.0049991607666015625
+          ],
+          "soil_radius": 0.36
+        },
+        {
+          "tree": "V6 West mature 14",
+          "position": [
+            -62.0,
+            18.0,
+            -0.005001068115234375
+          ],
+          "soil_radius": 0.36
+        },
+        {
+          "tree": "V6 West mature 15",
+          "position": [
+            -40.0,
+            43.0,
+            -0.00499725341796875
+          ],
+          "soil_radius": 0.36
+        },
+        {
+          "tree": "V6 East mature 16",
+          "position": [
+            97.0,
+            46.0,
+            -0.00499725341796875
+          ],
+          "soil_radius": 0.36
+        },
+        {
+          "tree": "V6 East mature 17",
+          "position": [
+            97.0,
+            77.0,
+            -0.00499725341796875
+          ],
+          "soil_radius": 0.36
+        },
+        {
+          "tree": "V6 East spreading 00",
+          "position": [
+            68.5999984741211,
+            41.5,
+            0.5511474609375
+          ],
+          "soil_radius": 0.36
+        },
+        {
+          "tree": "V6 East spreading 01",
+          "position": [
+            67.9000015258789,
+            46.5,
+            0.13505935668945312
+          ],
+          "soil_radius": 0.36
+        },
+        {
+          "tree": "V6 East spreading 02",
+          "position": [
+            76.80000305175781,
+            50.900001525878906,
+            1.512826919555664
+          ],
+          "soil_radius": 0.36
+        },
+        {
+          "tree": "V6 East spreading 03",
+          "position": [
+            80.80000305175781,
+            59.5,
+            -0.00499725341796875
+          ],
+          "soil_radius": 0.36
+        },
+        {
+          "tree": "V6 East spreading 04",
+          "position": [
+            78.4000015258789,
+            35.79999923706055,
+            0.07158279418945312
+          ],
+          "soil_radius": 0.36
+        },
+        {
+          "tree": "V6 Garden backdrop 00",
+          "position": [
+            -75.0,
+            37.0,
+            -0.0049991607666015625
+          ],
+          "soil_radius": 0.36
+        },
+        {
+          "tree": "V6 Garden backdrop 01",
+          "position": [
+            -76.0,
+            61.0,
+            -0.005001068115234375
+          ],
+          "soil_radius": 0.36
+        },
+        {
+          "tree": "V6 Garden backdrop 02",
+          "position": [
+            -53.0,
+            74.0,
+            -0.005001068115234375
+          ],
+          "soil_radius": 0.36
+        },
+        {
+          "tree": "V6 Garden backdrop 03",
+          "position": [
+            -69.0,
+            80.0,
+            -0.0050029754638671875
+          ],
+          "soil_radius": 0.36
+        },
+        {
+          "tree": "V6 Garden backdrop 05",
+          "position": [
+            90.0,
+            40.0,
+            -0.0049991607666015625
+          ],
+          "soil_radius": 0.36
+        },
+        {
+          "tree": "V6 East ring-seat mature tree",
+          "position": [
+            96.50212097167969,
+            36.80000305175781,
+            -0.005001068115234375
+          ],
+          "soil_radius": 0.36
+        },
+        {
+          "tree": "V6 south avenue 00",
+          "position": [
+            -75.0,
+            10.0,
+            -0.0049991607666015625
+          ],
+          "soil_radius": 0.36
+        },
+        {
+          "tree": "V6 south avenue 01",
+          "position": [
+            -46.0,
+            8.0,
+            -0.0049953460693359375
+          ],
+          "soil_radius": 0.36
+        },
+        {
+          "tree": "V6 south avenue 08",
+          "position": [
+            78.0,
+            6.0,
+            -0.0049953460693359375
+          ],
+          "soil_radius": 0.36
+        },
+        {
+          "tree": "V6 south avenue 09",
+          "position": [
+            91.0,
+            6.0,
+            -0.0049991607666015625
+          ],
+          "soil_radius": 0.36
+        },
+        {
+          "tree": "V6 south avenue 10",
+          "position": [
+            -37.0,
+            8.0,
+            -0.005001068115234375
+          ],
+          "soil_radius": 0.36
+        },
+        {
+          "tree": "V6 south avenue 14",
+          "position": [
+            73.0,
+            8.0,
+            -0.0049991607666015625
+          ],
+          "soil_radius": 0.36
+        },
+        {
+          "tree": "V6 south avenue 15",
+          "position": [
+            83.0,
+            8.0,
+            -0.0049991607666015625
+          ],
+          "soil_radius": 0.36
+        },
+        {
+          "tree": "V6 south conifer 05",
+          "position": [
+            87.0,
+            10.5,
+            -0.0049991607666015625
+          ],
+          "soil_radius": 0.36
+        }
+      ],
+      "litter_blades": 257,
+      "roads_excluded": true,
+      "underground_roots": "unknown; not modeled"
+    }
+  },
+  "source_sha256": "817b058c50c14adfd395d6f3286dd3ada3406f9cdc7ca763321645343b030d3b",
+  "visual_status": "pending diagnostic2"
+}

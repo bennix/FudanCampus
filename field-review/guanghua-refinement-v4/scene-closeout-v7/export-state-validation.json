@@ -1,0 +1,50 @@
+{
+  "disposable_scene": true,
+  "user_models_loaded": false,
+  "helper_sha256": "079e611045e85c2c3323ddc091f864c51d36d7c2972d4853150da744466129f0",
+  "normal_export_restores_state": true,
+  "normal_text_meshes": [
+    {
+      "name": "WB1__text__光华楼广场自行车库",
+      "feature_id": "WB1",
+      "vertices": 2852,
+      "polygons": 2063
+    },
+    {
+      "name": "WB2__text__光华楼广场自行车库",
+      "feature_id": "WB2",
+      "vertices": 2852,
+      "polygons": 2063
+    },
+    {
+      "name": "SIGN__text__FUDAN",
+      "feature_id": "SIGN",
+      "vertices": 312,
+      "polygons": 222
+    }
+  ],
+  "injected_export_failure_restores_state": true,
+  "partial_text_preparation_failure_restores_state": true,
+  "no_temporary_objects_or_meshes_after_each_call": true,
+  "original_selections_and_hidden_active_object_restored": true,
+  "glb_has_exact_expected_mesh_nodes_and_text_metadata": true,
+  "glb_bytes": 223084,
+  "three_texts_reimport_as_nonempty_meshes_at_source_bounds": [
+    {
+      "name": "WB1__text__光华楼广场自行车库",
+      "feature_id": "WB1",
+      "vertices": 2914
+    },
+    {
+      "name": "WB2__text__光华楼广场自行车库",
+      "feature_id": "WB2",
+      "vertices": 2914
+    },
+    {
+      "name": "SIGN__text__FUDAN",
+      "feature_id": "SIGN",
+      "vertices": 326
+    }
+  ],
+  "passed": true
+}

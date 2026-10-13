@@ -1,0 +1,1416 @@
+{
+  "protected_meshes_unchanged": 1150,
+  "west_straight_walk_vertices_unchanged": true,
+  "walk_bounds": [
+    63.50211715698242,
+    67.10211944580078,
+    14.0,
+    77.85448455810547
+  ],
+  "central_width": 2.9400022888183592,
+  "separate_border_solids": 198,
+  "estimated_border_width": 0.33,
+  "estimated_groove_depth": 0.06,
+  "estimated_border_pitch": 0.6449947935162168,
+  "solids": [
+    {
+      "name": "E_WALK central staggered paving",
+      "nonmanifold": 0,
+      "zero_area": 0,
+      "volume": 12.202586550920955,
+      "finite": true
+    },
+    {
+      "name": "E_WALK recessed arc band 0 000",
+      "nonmanifold": 0,
+      "zero_area": 0,
+      "volume": 0.02598116528277565,
+      "finite": true
+    },
+    {
+      "name": "E_WALK recessed arc band 0 001",
+      "nonmanifold": 0,
+      "zero_area": 0,
+      "volume": 0.025981165686775734,
+      "finite": true
+    },
+    {
+      "name": "E_WALK recessed arc band 0 002",
+      "nonmanifold": 0,
+      "zero_area": 0,
+      "volume": 0.0259811614244964,
+      "finite": true
+    },
+    {
+      "name": "E_WALK recessed arc band 0 003",
+      "nonmanifold": 0,
+      "zero_area": 0,
+      "volume": 0.025981201879826388,
+      "finite": true
+    },
+    {
+      "name": "E_WALK recessed arc band 0 004",
+      "nonmanifold": 0,
+      "zero_area": 0,
+      "volume": 0.025981168211258746,
+      "finite": true
+    },
+    {
+      "name": "E_WALK recessed arc band 0 005",
+      "nonmanifold": 0,
+      "zero_area": 0,
+      "volume": 0.02598116821125525,
+      "finite": true
+    },
+    {
+      "name": "E_WALK recessed arc band 0 006",
+      "nonmanifold": 0,
+      "zero_area": 0,
+      "volume": 0.025981168317879832,
+      "finite": true
+    },
+    {
+      "name": "E_WALK recessed arc band 0 007",
+      "nonmanifold": 0,
+      "zero_area": 0,
+      "volume": 0.025981168317858475,
+      "finite": true
+    },
+    {
+      "name": "E_WALK recessed arc band 0 008",
+      "nonmanifold": 0,
+      "zero_area": 0,
+      "volume": 0.025981163106707186,
+      "finite": true
+    },
+    {
+      "name": "E_WALK recessed arc band 0 009",
+      "nonmanifold": 0,
+      "zero_area": 0,
+      "volume": 0.025981163106698346,
+      "finite": true
+    },
+    {
+      "name": "E_WALK recessed arc band 0 010",
+      "nonmanifold": 0,
+      "zero_area": 0,
+      "volume": 0.02598116391468798,
+      "finite": true
+    },
+    {
+      "name": "E_WALK recessed arc band 0 011",
+      "nonmanifold": 0,
+      "zero_area": 0,
+      "volume": 0.025981163914720842,
+      "finite": true
+    },
+    {
+      "name": "E_WALK recessed arc band 0 012",
+      "nonmanifold": 0,
+      "zero_area": 0,
+      "volume": 0.025981163914650385,
+      "finite": true
+    },
+    {
+      "name": "E_WALK recessed arc band 0 013",
+      "nonmanifold": 0,
+      "zero_area": 0,
+      "volume": 0.025981163914628305,
+      "finite": true
+    },
+    {
+      "name": "E_WALK recessed arc band 0 014",
+      "nonmanifold": 0,
+      "zero_area": 0,
+      "volume": 0.025981174901467813,
+      "finite": true
+    },
+    {
+      "name": "E_WALK recessed arc band 0 015",
+      "nonmanifold": 0,
+      "zero_area": 0,
+      "volume": 0.02598117490147711,
+      "finite": true
+    },
+    {
+      "name": "E_WALK recessed arc band 0 016",
+      "nonmanifold": 0,
+      "zero_area": 0,
+      "volume": 0.025981174901489712,
+      "finite": true
+    },
+    {
+      "name": "E_WALK recessed arc band 0 017",
+      "nonmanifold": 0,
+      "zero_area": 0,
+      "volume": 0.02598117490146215,
+      "finite": true
+    },
+    {
+      "name": "E_WALK recessed arc band 0 018",
+      "nonmanifold": 0,
+      "zero_area": 0,
+      "volume": 0.02598116117001592,
+      "finite": true
+    },
+    {
+      "name": "E_WALK recessed arc band 0 019",
+      "nonmanifold": 0,
+      "zero_area": 0,
+      "volume": 0.02598116140180523,
+      "finite": true
+    },
+    {
+      "name": "E_WALK recessed arc band 0 020",
+      "nonmanifold": 0,
+      "zero_area": 0,
+      "volume": 0.025981161401792546,
+      "finite": true
+    },
+    {
+      "name": "E_WALK recessed arc band 0 021",
+      "nonmanifold": 0,
+      "zero_area": 0,
+      "volume": 0.02598116138703943,
+      "finite": true
+    },
+    {
+      "name": "E_WALK recessed arc band 0 022",
+      "nonmanifold": 0,
+      "zero_area": 0,
+      "volume": 0.025981161387043594,
+      "finite": true
+    },
+    {
+      "name": "E_WALK recessed arc band 0 023",
+      "nonmanifold": 0,
+      "zero_area": 0,
+      "volume": 0.02598116745883622,
+      "finite": true
+    },
+    {
+      "name": "E_WALK recessed arc band 0 024",
+      "nonmanifold": 0,
+      "zero_area": 0,
+      "volume": 0.025981167458829085,
+      "finite": true
+    },
+    {
+      "name": "E_WALK recessed arc band 0 025",
+      "nonmanifold": 0,
+      "zero_area": 0,
+      "volume": 0.025981167458860754,
+      "finite": true
+    },
+    {
+      "name": "E_WALK recessed arc band 0 026",
+      "nonmanifold": 0,
+      "zero_area": 0,
+      "volume": 0.025981167458828225,
+      "finite": true
+    },
+    {
+      "name": "E_WALK recessed arc band 0 027",
+      "nonmanifold": 0,
+      "zero_area": 0,
+      "volume": 0.02598115893440786,
+      "finite": true
+    },
+    {
+      "name": "E_WALK recessed arc band 0 028",
+      "nonmanifold": 0,
+      "zero_area": 0,
+      "volume": 0.025981162064544136,
+      "finite": true
+    },
+    {
+      "name": "E_WALK recessed arc band 0 029",
+      "nonmanifold": 0,
+      "zero_area": 0,
+      "volume": 0.02598116576466293,
+      "finite": true
+    },
+    {
+      "name": "E_WALK recessed arc band 0 030",
+      "nonmanifold": 0,
+      "zero_area": 0,
+      "volume": 0.025981184038205568,
+      "finite": true
+    },
+    {
+      "name": "E_WALK recessed arc band 0 031",
+      "nonmanifold": 0,
+      "zero_area": 0,
+      "volume": 0.025981165764681097,
+      "finite": true
+    },
+    {
+      "name": "E_WALK recessed arc band 0 032",
+      "nonmanifold": 0,
+      "zero_area": 0,
+      "volume": 0.025981184038310748,
+      "finite": true
+    },
+    {
+      "name": "E_WALK recessed arc band 0 033",
+      "nonmanifold": 0,
+      "zero_area": 0,
+      "volume": 0.025981165764632344,
+      "finite": true
+    },
+    {
+      "name": "E_WALK recessed arc band 0 034",
+      "nonmanifold": 0,
+      "zero_area": 0,
+      "volume": 0.025981156575392614,
+      "finite": true
+    },
+    {
+      "name": "E_WALK recessed arc band 0 035",
+      "nonmanifold": 0,
+      "zero_area": 0,
+      "volume": 0.02598116576466626,
+      "finite": true
+    },
+    {
+      "name": "E_WALK recessed arc band 0 036",
+      "nonmanifold": 0,
+      "zero_area": 0,
+      "volume": 0.025981156575331718,
+      "finite": true
+    },
+    {
+      "name": "E_WALK recessed arc band 0 037",
+      "nonmanifold": 0,
+      "zero_area": 0,
+      "volume": 0.02598116622826338,
+      "finite": true
+    },
+    {
+      "name": "E_WALK recessed arc band 0 038",
+      "nonmanifold": 0,
+      "zero_area": 0,
+      "volume": 0.025981156545859058,
+      "finite": true
+    },
+    {
+      "name": "E_WALK recessed arc band 0 039",
+      "nonmanifold": 0,
+      "zero_area": 0,
+      "volume": 0.025981166228181765,
+      "finite": true
+    },
+    {
+      "name": "E_WALK recessed arc band 0 040",
+      "nonmanifold": 0,
+      "zero_area": 0,
+      "volume": 0.025981156545906395,
+      "finite": true
+    },
+    {
+      "name": "E_WALK recessed arc band 0 041",
+      "nonmanifold": 0,
+      "zero_area": 0,
+      "volume": 0.025981178371793603,
+      "finite": true
+    },
+    {
+      "name": "E_WALK recessed arc band 0 042",
+      "nonmanifold": 0,
+      "zero_area": 0,
+      "volume": 0.025981156545898373,
+      "finite": true
+    },
+    {
+      "name": "E_WALK recessed arc band 0 043",
+      "nonmanifold": 0,
+      "zero_area": 0,
+      "volume": 0.02598117837183679,
+      "finite": true
+    },
+    {
+      "name": "E_WALK recessed arc band 0 044",
+      "nonmanifold": 0,
+      "zero_area": 0,
+      "volume": 0.025981156545830636,
+      "finite": true
+    },
+    {
+      "name": "E_WALK recessed arc band 0 045",
+      "nonmanifold": 0,
+      "zero_area": 0,
+      "volume": 0.025981161322703644,
+      "finite": true
+    },
+    {
+      "name": "E_WALK recessed arc band 0 046",
+      "nonmanifold": 0,
+      "zero_area": 0,
+      "volume": 0.025981156848165723,
+      "finite": true
+    },
+    {
+      "name": "E_WALK recessed arc band 0 047",
+      "nonmanifold": 0,
+      "zero_area": 0,
+      "volume": 0.02598099767130345,
+      "finite": true
+    },
+    {
+      "name": "E_WALK recessed arc band 0 048",
+      "nonmanifold": 0,
+      "zero_area": 0,
+      "volume": 0.02598115684816192,
+      "finite": true
+    },
+    {
+      "name": "E_WALK recessed arc band 0 049",
+      "nonmanifold": 0,
+      "zero_area": 0,
+      "volume": 0.025980996583932242,
+      "finite": true
+    },
+    {
+      "name": "E_WALK recessed arc band 0 050",
+      "nonmanifold": 0,
+      "zero_area": 0,
+      "volume": 0.025981161698600805,
+      "finite": true
+    },
+    {
+      "name": "E_WALK recessed arc band 0 051",
+      "nonmanifold": 0,
+      "zero_area": 0,
+      "volume": 0.02598099658392357,
+      "finite": true
+    },
+    {
+      "name": "E_WALK recessed arc band 0 052",
+      "nonmanifold": 0,
+      "zero_area": 0,
+      "volume": 0.025981161698619498,
+      "finite": true
+    },
+    {
+      "name": "E_WALK recessed arc band 0 053",
+      "nonmanifold": 0,
+      "zero_area": 0,
+      "volume": 0.025981160235295717,
+      "finite": true
+    },
+    {
+      "name": "E_WALK recessed arc band 0 054",
+      "nonmanifold": 0,
+      "zero_area": 0,
+      "volume": 0.025981176187195434,
+      "finite": true
+    },
+    {
+      "name": "E_WALK recessed arc band 0 055",
+      "nonmanifold": 0,
+      "zero_area": 0,
+      "volume": 0.025981160448427992,
+      "finite": true
+    },
+    {
+      "name": "E_WALK recessed arc band 0 056",
+      "nonmanifold": 0,
+      "zero_area": 0,
+      "volume": 0.025981176187178642,
+      "finite": true
+    },
+    {
+      "name": "E_WALK recessed arc band 0 057",
+      "nonmanifold": 0,
+      "zero_area": 0,
+      "volume": 0.025981160448552268,
+      "finite": true
+    },
+    {
+      "name": "E_WALK recessed arc band 0 058",
+      "nonmanifold": 0,
+      "zero_area": 0,
+      "volume": 0.025981165764839526,
+      "finite": true
+    },
+    {
+      "name": "E_WALK recessed arc band 0 059",
+      "nonmanifold": 0,
+      "zero_area": 0,
+      "volume": 0.02598116206457461,
+      "finite": true
+    },
+    {
+      "name": "E_WALK recessed arc band 0 060",
+      "nonmanifold": 0,
+      "zero_area": 0,
+      "volume": 0.02598116576490485,
+      "finite": true
+    },
+    {
+      "name": "E_WALK recessed arc band 0 061",
+      "nonmanifold": 0,
+      "zero_area": 0,
+      "volume": 0.02598116206453259,
+      "finite": true
+    },
+    {
+      "name": "E_WALK recessed arc band 0 062",
+      "nonmanifold": 0,
+      "zero_area": 0,
+      "volume": 0.02598116576469564,
+      "finite": true
+    },
+    {
+      "name": "E_WALK recessed arc band 0 063",
+      "nonmanifold": 0,
+      "zero_area": 0,
+      "volume": 0.025981184038252086,
+      "finite": true
+    },
+    {
+      "name": "E_WALK recessed arc band 0 064",
+      "nonmanifold": 0,
+      "zero_area": 0,
+      "volume": 0.025981165764641226,
+      "finite": true
+    },
+    {
+      "name": "E_WALK recessed arc band 0 065",
+      "nonmanifold": 0,
+      "zero_area": 0,
+      "volume": 0.025981184038300978,
+      "finite": true
+    },
+    {
+      "name": "E_WALK recessed arc band 0 066",
+      "nonmanifold": 0,
+      "zero_area": 0,
+      "volume": 0.025981165764659822,
+      "finite": true
+    },
+    {
+      "name": "E_WALK recessed arc band 0 067",
+      "nonmanifold": 0,
+      "zero_area": 0,
+      "volume": 0.025981156575391226,
+      "finite": true
+    },
+    {
+      "name": "E_WALK recessed arc band 0 068",
+      "nonmanifold": 0,
+      "zero_area": 0,
+      "volume": 0.025981165764713113,
+      "finite": true
+    },
+    {
+      "name": "E_WALK recessed arc band 0 069",
+      "nonmanifold": 0,
+      "zero_area": 0,
+      "volume": 0.02598115657529007,
+      "finite": true
+    },
+    {
+      "name": "E_WALK recessed arc band 0 070",
+      "nonmanifold": 0,
+      "zero_area": 0,
+      "volume": 0.02598116622827437,
+      "finite": true
+    },
+    {
+      "name": "E_WALK recessed arc band 0 071",
+      "nonmanifold": 0,
+      "zero_area": 0,
+      "volume": 0.02598115654584633,
+      "finite": true
+    },
+    {
+      "name": "E_WALK recessed arc band 0 072",
+      "nonmanifold": 0,
+      "zero_area": 0,
+      "volume": 0.02598116622818332,
+      "finite": true
+    },
+    {
+      "name": "E_WALK recessed arc band 0 073",
+      "nonmanifold": 0,
+      "zero_area": 0,
+      "volume": 0.025981156545913472,
+      "finite": true
+    },
+    {
+      "name": "E_WALK recessed arc band 0 074",
+      "nonmanifold": 0,
+      "zero_area": 0,
+      "volume": 0.02598117837180726,
+      "finite": true
+    },
+    {
+      "name": "E_WALK recessed arc band 0 075",
+      "nonmanifold": 0,
+      "zero_area": 0,
+      "volume": 0.025981156545909337,
+      "finite": true
+    },
+    {
+      "name": "E_WALK recessed arc band 0 076",
+      "nonmanifold": 0,
+      "zero_area": 0,
+      "volume": 0.02598117837182659,
+      "finite": true
+    },
+    {
+      "name": "E_WALK recessed arc band 0 077",
+      "nonmanifold": 0,
+      "zero_area": 0,
+      "volume": 0.02598113741023858,
+      "finite": true
+    },
+    {
+      "name": "E_WALK recessed arc band 0 078",
+      "nonmanifold": 0,
+      "zero_area": 0,
+      "volume": 0.025981292555473157,
+      "finite": true
+    },
+    {
+      "name": "E_WALK recessed arc band 0 079",
+      "nonmanifold": 0,
+      "zero_area": 0,
+      "volume": 0.025981016946436508,
+      "finite": true
+    },
+    {
+      "name": "E_WALK recessed arc band 0 080",
+      "nonmanifold": 0,
+      "zero_area": 0,
+      "volume": 0.02598102114083234,
+      "finite": true
+    },
+    {
+      "name": "E_WALK recessed arc band 0 081",
+      "nonmanifold": 0,
+      "zero_area": 0,
+      "volume": 0.025980976221354965,
+      "finite": true
+    },
+    {
+      "name": "E_WALK recessed arc band 0 082",
+      "nonmanifold": 0,
+      "zero_area": 0,
+      "volume": 0.025981292555445956,
+      "finite": true
+    },
+    {
+      "name": "E_WALK recessed arc band 0 083",
+      "nonmanifold": 0,
+      "zero_area": 0,
+      "volume": 0.025981016946510532,
+      "finite": true
+    },
+    {
+      "name": "E_WALK recessed arc band 0 084",
+      "nonmanifold": 0,
+      "zero_area": 0,
+      "volume": 0.02598102114080668,
+      "finite": true
+    },
+    {
+      "name": "E_WALK recessed arc band 0 085",
+      "nonmanifold": 0,
+      "zero_area": 0,
+      "volume": 0.025980976221272392,
+      "finite": true
+    },
+    {
+      "name": "E_WALK recessed arc band 0 086",
+      "nonmanifold": 0,
+      "zero_area": 0,
+      "volume": 0.025981302256443517,
+      "finite": true
+    },
+    {
+      "name": "E_WALK recessed arc band 0 087",
+      "nonmanifold": 0,
+      "zero_area": 0,
+      "volume": 0.025981344249463967,
+      "finite": true
+    },
+    {
+      "name": "E_WALK recessed arc band 0 088",
+      "nonmanifold": 0,
+      "zero_area": 0,
+      "volume": 0.025981050118036406,
+      "finite": true
+    },
+    {
+      "name": "E_WALK recessed arc band 0 089",
+      "nonmanifold": 0,
+      "zero_area": 0,
+      "volume": 0.025980976647691695,
+      "finite": true
+    },
+    {
+      "name": "E_WALK recessed arc band 0 090",
+      "nonmanifold": 0,
+      "zero_area": 0,
+      "volume": 0.025981281411674606,
+      "finite": true
+    },
+    {
+      "name": "E_WALK recessed arc band 0 091",
+      "nonmanifold": 0,
+      "zero_area": 0,
+      "volume": 0.02598134424944787,
+      "finite": true
+    },
+    {
+      "name": "E_WALK recessed arc band 0 092",
+      "nonmanifold": 0,
+      "zero_area": 0,
+      "volume": 0.02598105011801874,
+      "finite": true
+    },
+    {
+      "name": "E_WALK recessed arc band 0 093",
+      "nonmanifold": 0,
+      "zero_area": 0,
+      "volume": 0.025980976647709028,
+      "finite": true
+    },
+    {
+      "name": "E_WALK recessed arc band 0 094",
+      "nonmanifold": 0,
+      "zero_area": 0,
+      "volume": 0.025981281411799284,
+      "finite": true
+    },
+    {
+      "name": "E_WALK recessed arc band 0 095",
+      "nonmanifold": 0,
+      "zero_area": 0,
+      "volume": 0.0259813474811999,
+      "finite": true
+    },
+    {
+      "name": "E_WALK recessed arc band 0 096",
+      "nonmanifold": 0,
+      "zero_area": 0,
+      "volume": 0.025981050117681176,
+      "finite": true
+    },
+    {
+      "name": "E_WALK recessed arc band 0 097",
+      "nonmanifold": 0,
+      "zero_area": 0,
+      "volume": 0.025981020595194373,
+      "finite": true
+    },
+    {
+      "name": "E_WALK recessed arc band 0 098",
+      "nonmanifold": 0,
+      "zero_area": 0,
+      "volume": 0.025981281411700474,
+      "finite": true
+    },
+    {
+      "name": "E_WALK recessed arc band 1 000",
+      "nonmanifold": 0,
+      "zero_area": 0,
+      "volume": 0.02598116537391404,
+      "finite": true
+    },
+    {
+      "name": "E_WALK recessed arc band 1 001",
+      "nonmanifold": 0,
+      "zero_area": 0,
+      "volume": 0.02598116577793043,
+      "finite": true
+    },
+    {
+      "name": "E_WALK recessed arc band 1 002",
+      "nonmanifold": 0,
+      "zero_area": 0,
+      "volume": 0.025981161515607545,
+      "finite": true
+    },
+    {
+      "name": "E_WALK recessed arc band 1 003",
+      "nonmanifold": 0,
+      "zero_area": 0,
+      "volume": 0.025981201970896345,
+      "finite": true
+    },
+    {
+      "name": "E_WALK recessed arc band 1 004",
+      "nonmanifold": 0,
+      "zero_area": 0,
+      "volume": 0.025981168302410332,
+      "finite": true
+    },
+    {
+      "name": "E_WALK recessed arc band 1 005",
+      "nonmanifold": 0,
+      "zero_area": 0,
+      "volume": 0.025981168302416105,
+      "finite": true
+    },
+    {
+      "name": "E_WALK recessed arc band 1 006",
+      "nonmanifold": 0,
+      "zero_area": 0,
+      "volume": 0.025981168408991548,
+      "finite": true
+    },
+    {
+      "name": "E_WALK recessed arc band 1 007",
+      "nonmanifold": 0,
+      "zero_area": 0,
+      "volume": 0.025981168409026117,
+      "finite": true
+    },
+    {
+      "name": "E_WALK recessed arc band 1 008",
+      "nonmanifold": 0,
+      "zero_area": 0,
+      "volume": 0.025981163197852666,
+      "finite": true
+    },
+    {
+      "name": "E_WALK recessed arc band 1 009",
+      "nonmanifold": 0,
+      "zero_area": 0,
+      "volume": 0.025981163197860438,
+      "finite": true
+    },
+    {
+      "name": "E_WALK recessed arc band 1 010",
+      "nonmanifold": 0,
+      "zero_area": 0,
+      "volume": 0.02598116400585325,
+      "finite": true
+    },
+    {
+      "name": "E_WALK recessed arc band 1 011",
+      "nonmanifold": 0,
+      "zero_area": 0,
+      "volume": 0.02598116400588238,
+      "finite": true
+    },
+    {
+      "name": "E_WALK recessed arc band 1 012",
+      "nonmanifold": 0,
+      "zero_area": 0,
+      "volume": 0.02598116400575315,
+      "finite": true
+    },
+    {
+      "name": "E_WALK recessed arc band 1 013",
+      "nonmanifold": 0,
+      "zero_area": 0,
+      "volume": 0.025981164005779406,
+      "finite": true
+    },
+    {
+      "name": "E_WALK recessed arc band 1 014",
+      "nonmanifold": 0,
+      "zero_area": 0,
+      "volume": 0.025981174992664932,
+      "finite": true
+    },
+    {
+      "name": "E_WALK recessed arc band 1 015",
+      "nonmanifold": 0,
+      "zero_area": 0,
+      "volume": 0.025981174992689066,
+      "finite": true
+    },
+    {
+      "name": "E_WALK recessed arc band 1 016",
+      "nonmanifold": 0,
+      "zero_area": 0,
+      "volume": 0.025981174992680406,
+      "finite": true
+    },
+    {
+      "name": "E_WALK recessed arc band 1 017",
+      "nonmanifold": 0,
+      "zero_area": 0,
+      "volume": 0.02598117499265959,
+      "finite": true
+    },
+    {
+      "name": "E_WALK recessed arc band 1 018",
+      "nonmanifold": 0,
+      "zero_area": 0,
+      "volume": 0.025981161261154143,
+      "finite": true
+    },
+    {
+      "name": "E_WALK recessed arc band 1 019",
+      "nonmanifold": 0,
+      "zero_area": 0,
+      "volume": 0.025981161492917168,
+      "finite": true
+    },
+    {
+      "name": "E_WALK recessed arc band 1 020",
+      "nonmanifold": 0,
+      "zero_area": 0,
+      "volume": 0.025981161492966837,
+      "finite": true
+    },
+    {
+      "name": "E_WALK recessed arc band 1 021",
+      "nonmanifold": 0,
+      "zero_area": 0,
+      "volume": 0.02598116147819475,
+      "finite": true
+    },
+    {
+      "name": "E_WALK recessed arc band 1 022",
+      "nonmanifold": 0,
+      "zero_area": 0,
+      "volume": 0.025981161478219078,
+      "finite": true
+    },
+    {
+      "name": "E_WALK recessed arc band 1 023",
+      "nonmanifold": 0,
+      "zero_area": 0,
+      "volume": 0.025981167549948392,
+      "finite": true
+    },
+    {
+      "name": "E_WALK recessed arc band 1 024",
+      "nonmanifold": 0,
+      "zero_area": 0,
+      "volume": 0.025981167549951556,
+      "finite": true
+    },
+    {
+      "name": "E_WALK recessed arc band 1 025",
+      "nonmanifold": 0,
+      "zero_area": 0,
+      "volume": 0.025981167549943368,
+      "finite": true
+    },
+    {
+      "name": "E_WALK recessed arc band 1 026",
+      "nonmanifold": 0,
+      "zero_area": 0,
+      "volume": 0.025981167549973788,
+      "finite": true
+    },
+    {
+      "name": "E_WALK recessed arc band 1 027",
+      "nonmanifold": 0,
+      "zero_area": 0,
+      "volume": 0.02598115902548856,
+      "finite": true
+    },
+    {
+      "name": "E_WALK recessed arc band 1 028",
+      "nonmanifold": 0,
+      "zero_area": 0,
+      "volume": 0.025981162155691323,
+      "finite": true
+    },
+    {
+      "name": "E_WALK recessed arc band 1 029",
+      "nonmanifold": 0,
+      "zero_area": 0,
+      "volume": 0.025981165855850627,
+      "finite": true
+    },
+    {
+      "name": "E_WALK recessed arc band 1 030",
+      "nonmanifold": 0,
+      "zero_area": 0,
+      "volume": 0.02598118412944421,
+      "finite": true
+    },
+    {
+      "name": "E_WALK recessed arc band 1 031",
+      "nonmanifold": 0,
+      "zero_area": 0,
+      "volume": 0.02598116585586202,
+      "finite": true
+    },
+    {
+      "name": "E_WALK recessed arc band 1 032",
+      "nonmanifold": 0,
+      "zero_area": 0,
+      "volume": 0.025981184129414345,
+      "finite": true
+    },
+    {
+      "name": "E_WALK recessed arc band 1 033",
+      "nonmanifold": 0,
+      "zero_area": 0,
+      "volume": 0.025981165855903765,
+      "finite": true
+    },
+    {
+      "name": "E_WALK recessed arc band 1 034",
+      "nonmanifold": 0,
+      "zero_area": 0,
+      "volume": 0.025981156666455327,
+      "finite": true
+    },
+    {
+      "name": "E_WALK recessed arc band 1 035",
+      "nonmanifold": 0,
+      "zero_area": 0,
+      "volume": 0.025981165855933283,
+      "finite": true
+    },
+    {
+      "name": "E_WALK recessed arc band 1 036",
+      "nonmanifold": 0,
+      "zero_area": 0,
+      "volume": 0.025981156666473965,
+      "finite": true
+    },
+    {
+      "name": "E_WALK recessed arc band 1 037",
+      "nonmanifold": 0,
+      "zero_area": 0,
+      "volume": 0.02598116631947027,
+      "finite": true
+    },
+    {
+      "name": "E_WALK recessed arc band 1 038",
+      "nonmanifold": 0,
+      "zero_area": 0,
+      "volume": 0.02598115663696307,
+      "finite": true
+    },
+    {
+      "name": "E_WALK recessed arc band 1 039",
+      "nonmanifold": 0,
+      "zero_area": 0,
+      "volume": 0.025981166319414925,
+      "finite": true
+    },
+    {
+      "name": "E_WALK recessed arc band 1 040",
+      "nonmanifold": 0,
+      "zero_area": 0,
+      "volume": 0.025981156636956146,
+      "finite": true
+    },
+    {
+      "name": "E_WALK recessed arc band 1 041",
+      "nonmanifold": 0,
+      "zero_area": 0,
+      "volume": 0.025981178462961274,
+      "finite": true
+    },
+    {
+      "name": "E_WALK recessed arc band 1 042",
+      "nonmanifold": 0,
+      "zero_area": 0,
+      "volume": 0.025981156636955036,
+      "finite": true
+    },
+    {
+      "name": "E_WALK recessed arc band 1 043",
+      "nonmanifold": 0,
+      "zero_area": 0,
+      "volume": 0.025981178462946702,
+      "finite": true
+    },
+    {
+      "name": "E_WALK recessed arc band 1 044",
+      "nonmanifold": 0,
+      "zero_area": 0,
+      "volume": 0.02598115663702598,
+      "finite": true
+    },
+    {
+      "name": "E_WALK recessed arc band 1 045",
+      "nonmanifold": 0,
+      "zero_area": 0,
+      "volume": 0.025981161413769535,
+      "finite": true
+    },
+    {
+      "name": "E_WALK recessed arc band 1 046",
+      "nonmanifold": 0,
+      "zero_area": 0,
+      "volume": 0.0259811569392476,
+      "finite": true
+    },
+    {
+      "name": "E_WALK recessed arc band 1 047",
+      "nonmanifold": 0,
+      "zero_area": 0,
+      "volume": 0.025980997762379818,
+      "finite": true
+    },
+    {
+      "name": "E_WALK recessed arc band 1 048",
+      "nonmanifold": 0,
+      "zero_area": 0,
+      "volume": 0.025981156939251446,
+      "finite": true
+    },
+    {
+      "name": "E_WALK recessed arc band 1 049",
+      "nonmanifold": 0,
+      "zero_area": 0,
+      "volume": 0.0259809966749439,
+      "finite": true
+    },
+    {
+      "name": "E_WALK recessed arc band 1 050",
+      "nonmanifold": 0,
+      "zero_area": 0,
+      "volume": 0.025981161789693938,
+      "finite": true
+    },
+    {
+      "name": "E_WALK recessed arc band 1 051",
+      "nonmanifold": 0,
+      "zero_area": 0,
+      "volume": 0.025980996674984533,
+      "finite": true
+    },
+    {
+      "name": "E_WALK recessed arc band 1 052",
+      "nonmanifold": 0,
+      "zero_area": 0,
+      "volume": 0.02598116178967473,
+      "finite": true
+    },
+    {
+      "name": "E_WALK recessed arc band 1 053",
+      "nonmanifold": 0,
+      "zero_area": 0,
+      "volume": 0.025981160326423364,
+      "finite": true
+    },
+    {
+      "name": "E_WALK recessed arc band 1 054",
+      "nonmanifold": 0,
+      "zero_area": 0,
+      "volume": 0.02598117627836674,
+      "finite": true
+    },
+    {
+      "name": "E_WALK recessed arc band 1 055",
+      "nonmanifold": 0,
+      "zero_area": 0,
+      "volume": 0.025981160539598508,
+      "finite": true
+    },
+    {
+      "name": "E_WALK recessed arc band 1 056",
+      "nonmanifold": 0,
+      "zero_area": 0,
+      "volume": 0.025981176278387225,
+      "finite": true
+    },
+    {
+      "name": "E_WALK recessed arc band 1 057",
+      "nonmanifold": 0,
+      "zero_area": 0,
+      "volume": 0.025981160539622336,
+      "finite": true
+    },
+    {
+      "name": "E_WALK recessed arc band 1 058",
+      "nonmanifold": 0,
+      "zero_area": 0,
+      "volume": 0.025981165856086827,
+      "finite": true
+    },
+    {
+      "name": "E_WALK recessed arc band 1 059",
+      "nonmanifold": 0,
+      "zero_area": 0,
+      "volume": 0.025981162155670964,
+      "finite": true
+    },
+    {
+      "name": "E_WALK recessed arc band 1 060",
+      "nonmanifold": 0,
+      "zero_area": 0,
+      "volume": 0.025981165856125796,
+      "finite": true
+    },
+    {
+      "name": "E_WALK recessed arc band 1 061",
+      "nonmanifold": 0,
+      "zero_area": 0,
+      "volume": 0.025981162155683732,
+      "finite": true
+    },
+    {
+      "name": "E_WALK recessed arc band 1 062",
+      "nonmanifold": 0,
+      "zero_area": 0,
+      "volume": 0.02598116585590897,
+      "finite": true
+    },
+    {
+      "name": "E_WALK recessed arc band 1 063",
+      "nonmanifold": 0,
+      "zero_area": 0,
+      "volume": 0.02598118412936587,
+      "finite": true
+    },
+    {
+      "name": "E_WALK recessed arc band 1 064",
+      "nonmanifold": 0,
+      "zero_area": 0,
+      "volume": 0.025981165855876606,
+      "finite": true
+    },
+    {
+      "name": "E_WALK recessed arc band 1 065",
+      "nonmanifold": 0,
+      "zero_area": 0,
+      "volume": 0.02598118412946475,
+      "finite": true
+    },
+    {
+      "name": "E_WALK recessed arc band 1 066",
+      "nonmanifold": 0,
+      "zero_area": 0,
+      "volume": 0.02598116585593241,
+      "finite": true
+    },
+    {
+      "name": "E_WALK recessed arc band 1 067",
+      "nonmanifold": 0,
+      "zero_area": 0,
+      "volume": 0.025981156666445113,
+      "finite": true
+    },
+    {
+      "name": "E_WALK recessed arc band 1 068",
+      "nonmanifold": 0,
+      "zero_area": 0,
+      "volume": 0.02598116585593707,
+      "finite": true
+    },
+    {
+      "name": "E_WALK recessed arc band 1 069",
+      "nonmanifold": 0,
+      "zero_area": 0,
+      "volume": 0.025981156666431124,
+      "finite": true
+    },
+    {
+      "name": "E_WALK recessed arc band 1 070",
+      "nonmanifold": 0,
+      "zero_area": 0,
+      "volume": 0.02598116631945213,
+      "finite": true
+    },
+    {
+      "name": "E_WALK recessed arc band 1 071",
+      "nonmanifold": 0,
+      "zero_area": 0,
+      "volume": 0.025981156636922895,
+      "finite": true
+    },
+    {
+      "name": "E_WALK recessed arc band 1 072",
+      "nonmanifold": 0,
+      "zero_area": 0,
+      "volume": 0.02598116631941516,
+      "finite": true
+    },
+    {
+      "name": "E_WALK recessed arc band 1 073",
+      "nonmanifold": 0,
+      "zero_area": 0,
+      "volume": 0.025981156636980737,
+      "finite": true
+    },
+    {
+      "name": "E_WALK recessed arc band 1 074",
+      "nonmanifold": 0,
+      "zero_area": 0,
+      "volume": 0.025981178462904486,
+      "finite": true
+    },
+    {
+      "name": "E_WALK recessed arc band 1 075",
+      "nonmanifold": 0,
+      "zero_area": 0,
+      "volume": 0.025981156636936217,
+      "finite": true
+    },
+    {
+      "name": "E_WALK recessed arc band 1 076",
+      "nonmanifold": 0,
+      "zero_area": 0,
+      "volume": 0.025981178462924692,
+      "finite": true
+    },
+    {
+      "name": "E_WALK recessed arc band 1 077",
+      "nonmanifold": 0,
+      "zero_area": 0,
+      "volume": 0.02598113750116425,
+      "finite": true
+    },
+    {
+      "name": "E_WALK recessed arc band 1 078",
+      "nonmanifold": 0,
+      "zero_area": 0,
+      "volume": 0.02598129264663651,
+      "finite": true
+    },
+    {
+      "name": "E_WALK recessed arc band 1 079",
+      "nonmanifold": 0,
+      "zero_area": 0,
+      "volume": 0.025981017037747994,
+      "finite": true
+    },
+    {
+      "name": "E_WALK recessed arc band 1 080",
+      "nonmanifold": 0,
+      "zero_area": 0,
+      "volume": 0.025981021231792883,
+      "finite": true
+    },
+    {
+      "name": "E_WALK recessed arc band 1 081",
+      "nonmanifold": 0,
+      "zero_area": 0,
+      "volume": 0.025980976312213133,
+      "finite": true
+    },
+    {
+      "name": "E_WALK recessed arc band 1 082",
+      "nonmanifold": 0,
+      "zero_area": 0,
+      "volume": 0.025981292646675896,
+      "finite": true
+    },
+    {
+      "name": "E_WALK recessed arc band 1 083",
+      "nonmanifold": 0,
+      "zero_area": 0,
+      "volume": 0.025981017037728982,
+      "finite": true
+    },
+    {
+      "name": "E_WALK recessed arc band 1 084",
+      "nonmanifold": 0,
+      "zero_area": 0,
+      "volume": 0.02598102123183793,
+      "finite": true
+    },
+    {
+      "name": "E_WALK recessed arc band 1 085",
+      "nonmanifold": 0,
+      "zero_area": 0,
+      "volume": 0.025980976312264425,
+      "finite": true
+    },
+    {
+      "name": "E_WALK recessed arc band 1 086",
+      "nonmanifold": 0,
+      "zero_area": 0,
+      "volume": 0.025981302347373475,
+      "finite": true
+    },
+    {
+      "name": "E_WALK recessed arc band 1 087",
+      "nonmanifold": 0,
+      "zero_area": 0,
+      "volume": 0.025981344340527346,
+      "finite": true
+    },
+    {
+      "name": "E_WALK recessed arc band 1 088",
+      "nonmanifold": 0,
+      "zero_area": 0,
+      "volume": 0.025981050209349016,
+      "finite": true
+    },
+    {
+      "name": "E_WALK recessed arc band 1 089",
+      "nonmanifold": 0,
+      "zero_area": 0,
+      "volume": 0.025980976738658818,
+      "finite": true
+    },
+    {
+      "name": "E_WALK recessed arc band 1 090",
+      "nonmanifold": 0,
+      "zero_area": 0,
+      "volume": 0.02598128150282719,
+      "finite": true
+    },
+    {
+      "name": "E_WALK recessed arc band 1 091",
+      "nonmanifold": 0,
+      "zero_area": 0,
+      "volume": 0.02598134434050614,
+      "finite": true
+    },
+    {
+      "name": "E_WALK recessed arc band 1 092",
+      "nonmanifold": 0,
+      "zero_area": 0,
+      "volume": 0.025981050209383877,
+      "finite": true
+    },
+    {
+      "name": "E_WALK recessed arc band 1 093",
+      "nonmanifold": 0,
+      "zero_area": 0,
+      "volume": 0.025980976738707334,
+      "finite": true
+    },
+    {
+      "name": "E_WALK recessed arc band 1 094",
+      "nonmanifold": 0,
+      "zero_area": 0,
+      "volume": 0.025981281502895692,
+      "finite": true
+    },
+    {
+      "name": "E_WALK recessed arc band 1 095",
+      "nonmanifold": 0,
+      "zero_area": 0,
+      "volume": 0.025981347572596625,
+      "finite": true
+    },
+    {
+      "name": "E_WALK recessed arc band 1 096",
+      "nonmanifold": 0,
+      "zero_area": 0,
+      "volume": 0.025981050208886497,
+      "finite": true
+    },
+    {
+      "name": "E_WALK recessed arc band 1 097",
+      "nonmanifold": 0,
+      "zero_area": 0,
+      "volume": 0.025981020686257933,
+      "finite": true
+    },
+    {
+      "name": "E_WALK recessed arc band 1 098",
+      "nonmanifold": 0,
+      "zero_area": 0,
+      "volume": 0.025981281502758885,
+      "finite": true
+    }
+  ],
+  "views": [
+    "top",
+    "4492"
+  ],
+  "baseline_unchanged": true,
+  "dimensions": "推定：照片比例，未实测"
+}

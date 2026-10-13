@@ -1,0 +1,120 @@
+{
+  "baseline_unchanged": true,
+  "all_original_meshes_and_transforms_unchanged": true,
+  "protected_mesh_count": 291,
+  "reopened": true,
+  "restored_visibility": [
+    "VEGETATION | VEGETATION",
+    "VEGETATION__tree-trunks__FIN_bark",
+    "VEGETATION__tree-branches__FIN_bark",
+    "VEGETATION__tree-canopies__FIN_leaf0",
+    "VEGETATION__tree-canopies__FIN_leaf1",
+    "VEGETATION__tree-canopies__FIN_leaf2",
+    "VEGETATION__tree-canopies__FIN_leaf3",
+    "VEGETATION__tree-canopies__FIN_leaf4",
+    "VEGETATION__shrub-stem__FIN_bark",
+    "VEGETATION__clipped-shrubs__FIN_hedge",
+    "VEGETATION__hedge-core__FIN_redhedge",
+    "VEGETATION__hedge-leaf-clusters__FIN_redhedge"
+  ],
+  "trees": [
+    {
+      "name": "V01 southern small tree",
+      "x": 68.6,
+      "y": 41.5,
+      "z": 0.5653209686279297,
+      "height": 4.8,
+      "spread": 2.4,
+      "confidence": "inferred",
+      "sources": [
+        4568,
+        4574
+      ]
+    },
+    {
+      "name": "V02 behind skylight",
+      "x": 67.9,
+      "y": 46.5,
+      "z": 0.21055221557617188,
+      "height": 7.1,
+      "spread": 4.2,
+      "confidence": "inferred",
+      "sources": [
+        4568,
+        4574
+      ]
+    },
+    {
+      "name": "V03 northern spreading tree",
+      "x": 76.0,
+      "y": 50.9,
+      "z": 1.3239097595214844,
+      "height": 7.2,
+      "spread": 4.3,
+      "confidence": "inferred",
+      "sources": [
+        4568,
+        4574
+      ]
+    },
+    {
+      "name": "V04 east garden backdrop",
+      "x": 80.8,
+      "y": 59.5,
+      "z": 0,
+      "height": 7.3,
+      "spread": 3.2,
+      "confidence": "inferred",
+      "sources": [
+        4568,
+        4574
+      ]
+    },
+    {
+      "name": "V05 south garden backdrop",
+      "x": 78.4,
+      "y": 35.8,
+      "z": 0.09116172790527344,
+      "height": 6.5,
+      "spread": 3.0,
+      "confidence": "inferred",
+      "sources": [
+        4568,
+        4574
+      ]
+    }
+  ],
+  "leaf_count": 177364,
+  "added_meshes": 21,
+  "hedge_sources": [
+    "ESKY__planted-shrubs__leaf-green",
+    "ETERR__hedge__leaf-green",
+    "ETERR__hedge__leaf-bronze",
+    "EOPEN_S__hedge-core__FIN_hedge",
+    "EOPEN_S__hedge-leaf-clusters__FIN_hedge"
+  ],
+  "render_seconds": {
+    "before": null,
+    "visibility": null,
+    "after": 11.2,
+    "side": 12.99,
+    "top": 13.83
+  },
+  "glb_bytes": 87238888,
+  "limitations": [
+    "Manual approximate camera, not calibrated",
+    "Tree locations and sizes inferred",
+    "Existing road issues retained",
+    "Pilot only; full garden refinement pending",
+    "Browser performance not measured"
+  ],
+  "glb_reimport": true,
+  "finite_added_vertices": true,
+  "tree_centres_clear_of_local_walk": [
+    "V01 southern small tree",
+    "V02 behind skylight",
+    "V03 northern spreading tree",
+    "V04 east garden backdrop",
+    "V05 south garden backdrop"
+  ]
+}

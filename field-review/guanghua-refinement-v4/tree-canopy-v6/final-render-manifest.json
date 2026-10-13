@@ -1,0 +1,317 @@
+[
+  {
+    "view": "west-platform",
+    "image": "west-platform.png",
+    "model": "C:\\Users\\Lumin\\source\\FudanCampus-course\\field-review\\guanghua-refinement-v4\\tree-canopy-v6\\guanghua-tree-canopy-v6.blend",
+    "model_sha256": "c8ceb97189ba180f5d3887ceec7651a9c6a34b6a32dfbdce53338eaaaccf6fdb",
+    "camera": "GV3 west platform photo 4390",
+    "camera_matrix": [
+      [
+        0.8818919658660889,
+        0.04554669186472893,
+        0.4692462980747223,
+        -55.5
+      ],
+      [
+        0.4714515805244446,
+        -0.08519916981458664,
+        -0.8777667880058289,
+        43.099998474121094
+      ],
+      [
+        2.1543630879250486e-08,
+        0.9953223466873169,
+        -0.09660951793193817,
+        2.8499999046325684
+      ],
+      [
+        0.0,
+        0.0,
+        0.0,
+        1.0
+      ]
+    ],
+    "lens": 26.0,
+    "type": "PERSP",
+    "ortho_scale": 6.0,
+    "resolution": [
+      1600,
+      1200
+    ],
+    "samples": 40,
+    "exposure": 0.65,
+    "seconds": 52.0,
+    "visibility": "All checkpoint mesh visibility retained; no hidden content overrides",
+    "image_sha256": "99cbe20dc139cf0873a5574b3d285e4354cddba13192a9d16b038686ac9e30b0"
+  },
+  {
+    "view": "east-understory",
+    "image": "east-understory.png",
+    "model": "C:\\Users\\Lumin\\source\\FudanCampus-course\\field-review\\guanghua-refinement-v4\\tree-canopy-v6\\guanghua-tree-canopy-v6.blend",
+    "model_sha256": "c8ceb97189ba180f5d3887ceec7651a9c6a34b6a32dfbdce53338eaaaccf6fdb",
+    "camera": "GV3 east understory photo 4582",
+    "camera_matrix": [
+      [
+        0.7772448658943176,
+        -0.1320599913597107,
+        -0.6151833534240723,
+        75.5
+      ],
+      [
+        -0.6291982531547546,
+        -0.16313289105892181,
+        -0.7599323987960815,
+        58.5
+      ],
+      [
+        1.9263698192162337e-08,
+        0.9777258634567261,
+        -0.2098861187696457,
+        1.899999976158142
+      ],
+      [
+        0.0,
+        0.0,
+        0.0,
+        1.0
+      ]
+    ],
+    "lens": 27.0,
+    "type": "PERSP",
+    "ortho_scale": 6.0,
+    "resolution": [
+      1600,
+      1200
+    ],
+    "samples": 40,
+    "exposure": 0.65,
+    "seconds": 55.5,
+    "visibility": "All checkpoint mesh visibility retained; no hidden content overrides",
+    "image_sha256": "ab6b2bf830eee41ba2f51a36daea73413970c15a5c568e7713e0cd6c7f165ebe"
+  },
+  {
+    "view": "south-walk",
+    "image": "south-walk.png",
+    "model": "C:\\Users\\Lumin\\source\\FudanCampus-course\\field-review\\guanghua-refinement-v4\\tree-canopy-v6\\guanghua-tree-canopy-v6.blend",
+    "model_sha256": "c8ceb97189ba180f5d3887ceec7651a9c6a34b6a32dfbdce53338eaaaccf6fdb",
+    "camera": "V6 south photo4597",
+    "camera_matrix": [
+      [
+        -4.371138828673793e-08,
+        0.020881490781903267,
+        0.9997819662094116,
+        59.0
+      ],
+      [
+        1.0,
+        9.127589795099311e-10,
+        4.3701859908651386e-08,
+        14.5
+      ],
+      [
+        0.0,
+        0.9997819662094116,
+        -0.020881490781903267,
+        1.75
+      ],
+      [
+        0.0,
+        0.0,
+        0.0,
+        1.0
+      ]
+    ],
+    "lens": 29.0,
+    "type": "PERSP",
+    "ortho_scale": 6.0,
+    "resolution": [
+      1600,
+      1200
+    ],
+    "samples": 40,
+    "exposure": 0.65,
+    "seconds": 56.8,
+    "visibility": "All checkpoint mesh visibility retained; no hidden content overrides",
+    "image_sha256": "e5299996a39dddaac125306b5cabdb644a8e602bbd2e02b90d3eaaa66d11bb0f"
+  },
+  {
+    "view": "south-elevation",
+    "image": "south-elevation.png",
+    "model": "C:\\Users\\Lumin\\source\\FudanCampus-course\\field-review\\guanghua-refinement-v4\\tree-canopy-v6\\guanghua-tree-canopy-v6.blend",
+    "model_sha256": "c8ceb97189ba180f5d3887ceec7651a9c6a34b6a32dfbdce53338eaaaccf6fdb",
+    "camera": "V6 south crown elevation",
+    "camera_matrix": [
+      [
+        1.0,
+        0.0,
+        0.0,
+        18.0
+      ],
+      [
+        0.0,
+        -0.020403919741511345,
+        -0.9997918009757996,
+        -40.0
+      ],
+      [
+        0.0,
+        0.9997918009757996,
+        -0.020403919741511345,
+        9.0
+      ],
+      [
+        0.0,
+        0.0,
+        0.0,
+        1.0
+      ]
+    ],
+    "lens": 30.0,
+    "type": "PERSP",
+    "ortho_scale": 6.0,
+    "resolution": [
+      1600,
+      1200
+    ],
+    "samples": 32,
+    "exposure": 0.65,
+    "seconds": 42.3,
+    "visibility": "All checkpoint mesh visibility retained; no hidden content overrides",
+    "image_sha256": "38e1970b9b3ac2758d7733f79996ed907d936713d97a7ae3c57c11dcfeb728fa"
+  },
+  {
+    "view": "overall",
+    "image": "overall.png",
+    "model": "C:\\Users\\Lumin\\source\\FudanCampus-course\\field-review\\guanghua-refinement-v4\\tree-canopy-v6\\guanghua-tree-canopy-v6.blend",
+    "model_sha256": "c8ceb97189ba180f5d3887ceec7651a9c6a34b6a32dfbdce53338eaaaccf6fdb",
+    "camera": "FINAL landscape",
+    "camera_matrix": [
+      [
+        0.8149095773696899,
+        -0.3552365005016327,
+        0.4579622149467468,
+        187.7962188720703
+      ],
+      [
+        0.5795881152153015,
+        0.49946779012680054,
+        -0.6439018249511719,
+        -197.3901824951172
+      ],
+      [
+        5.573146566462128e-08,
+        0.7901512384414673,
+        0.6129119396209717,
+        239.29119873046875
+      ],
+      [
+        0.0,
+        0.0,
+        0.0,
+        1.0
+      ]
+    ],
+    "lens": 42.0,
+    "type": "ORTHO",
+    "ortho_scale": 219.0,
+    "resolution": [
+      1600,
+      1200
+    ],
+    "samples": 40,
+    "exposure": 0.65,
+    "seconds": 44.2,
+    "visibility": "All checkpoint mesh visibility retained; no hidden content overrides",
+    "image_sha256": "5edd8dc163ebc89e1ec454e7fc08abcb8944edcdd9aab445a29486a9b86d8c55"
+  },
+  {
+    "view": "top",
+    "image": "top.png",
+    "model": "C:\\Users\\Lumin\\source\\FudanCampus-course\\field-review\\guanghua-refinement-v4\\tree-canopy-v6\\guanghua-tree-canopy-v6.blend",
+    "model_sha256": "c8ceb97189ba180f5d3887ceec7651a9c6a34b6a32dfbdce53338eaaaccf6fdb",
+    "camera": "V6 overhead",
+    "camera_matrix": [
+      [
+        1.0,
+        0.0,
+        0.0,
+        10.0
+      ],
+      [
+        0.0,
+        1.0,
+        0.0,
+        58.0
+      ],
+      [
+        0.0,
+        0.0,
+        1.0,
+        280.0
+      ],
+      [
+        0.0,
+        0.0,
+        0.0,
+        1.0
+      ]
+    ],
+    "lens": 50.0,
+    "type": "ORTHO",
+    "ortho_scale": 280.0,
+    "resolution": [
+      1600,
+      1200
+    ],
+    "samples": 32,
+    "exposure": 0.65,
+    "seconds": 32.1,
+    "visibility": "All checkpoint mesh visibility retained; no hidden content overrides",
+    "image_sha256": "6392b918699d806748dd673a4822b295a628644aba757f324a1c9241f6ebc51f"
+  },
+  {
+    "view": "east-exit",
+    "image": "east-exit.png",
+    "model": "C:\\Users\\Lumin\\source\\FudanCampus-course\\field-review\\guanghua-refinement-v4\\tree-canopy-v6\\guanghua-tree-canopy-v6.blend",
+    "model_sha256": "c8ceb97189ba180f5d3887ceec7651a9c6a34b6a32dfbdce53338eaaaccf6fdb",
+    "camera": "SHAPE exit approximate",
+    "camera_matrix": [
+      [
+        -0.2826298177242279,
+        -0.1318259835243225,
+        0.9501275420188904,
+        81.50212097167969
+      ],
+      [
+        0.959229052066803,
+        -0.03884146362543106,
+        0.2799481153488159,
+        47.79999923706055
+      ],
+      [
+        -9.231402486875595e-08,
+        0.9905115962028503,
+        0.13742905855178833,
+        3.819999933242798
+      ],
+      [
+        0.0,
+        0.0,
+        0.0,
+        1.0
+      ]
+    ],
+    "lens": 24.0,
+    "type": "PERSP",
+    "ortho_scale": 6.0,
+    "resolution": [
+      1600,
+      1200
+    ],
+    "samples": 32,
+    "exposure": 0.65,
+    "seconds": 57.9,
+    "visibility": "All checkpoint mesh visibility retained; no hidden content overrides",
+    "image_sha256": "aed5b7fa0e4e94e2ddacdd2457d7947811805631aaaed44069e8e66558d6c4a0"
+  }
+]

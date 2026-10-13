@@ -1,0 +1,110 @@
+{
+  "model_sha256": "aeae75255df779ca51a9471e02d8f141e23d20c73e52145a34bbe53399b118cf",
+  "base_sha256": "e7626f7f4296a177885fead57152dd35aa65846092e4816c7c058c9ba370fa60",
+  "batch": "diagnostic-03",
+  "status": "technical-sample-only",
+  "script_sha256": "661498f673f3669fdb0493b6263c45f461388f7fca41d8a28bfcabcb90b22216",
+  "configuration_sha256": "8b89cd6571d654aa94574ab55aede466ba425132c575576e74183aafb2b034f7",
+  "payload_sha256": "b351440c03ff1e398f14c6aecb3a18059ff62ca2cfc2169cd65ecc07037e1490",
+  "cameras": {
+    "ROAD_SAMPLE_TOP": {
+      "matrix": [
+        [
+          1.0,
+          0.0,
+          0.0,
+          76.69999694824219
+        ],
+        [
+          0.0,
+          1.0,
+          0.0,
+          47.29999923706055
+        ],
+        [
+          0.0,
+          0.0,
+          1.0,
+          45.0
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "lens": 50.0,
+      "ortho_scale": 20.0
+    },
+    "ROAD_SAMPLE_SIDE": {
+      "matrix": [
+        [
+          0.6698893904685974,
+          -0.45719602704048157,
+          0.5849957466125488,
+          90.0
+        ],
+        [
+          0.7424609065055847,
+          0.4125075936317444,
+          -0.5278155207633972,
+          35.0
+        ],
+        [
+          -1.6420820259099855e-08,
+          0.787914514541626,
+          0.6157846450805664,
+          15.0
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "lens": 50.0,
+      "ortho_scale": 22.0
+    },
+    "V4 east-exit": {
+      "matrix": [
+        [
+          -0.2696300745010376,
+          -0.2835775315761566,
+          0.9202626943588257,
+          81.30211639404297
+        ],
+        [
+          0.9629639983177185,
+          -0.07940171658992767,
+          0.2576737403869629,
+          47.79999923706055
+        ],
+        [
+          -4.692016375429375e-08,
+          0.9556564092636108,
+          0.29448404908180237,
+          3.9000000953674316
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "lens": 29.0,
+      "ortho_scale": 6.0
+    }
+  },
+  "visual_review": {
+    "road_continuity": "passed for the reviewed local patch",
+    "terrain_form": "not accepted; steep shoulders and faceting remain",
+    "site_profile": "not accepted; unmeasured height and grade hypothesis",
+    "whole_site": "not reviewed or rebuilt"
+  },
+  "reproducibility_verified": true,
+  "independent_validation": "passed",
+  "final_asset": false
+}

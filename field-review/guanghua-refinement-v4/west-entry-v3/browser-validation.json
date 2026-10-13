@@ -1,0 +1,213 @@
+{
+  "reviewedAt": "2026-09-30T09:43:10.221Z",
+  "method": "Codex in-app browser, DOM verification and actual rendered views",
+  "ready": true,
+  "model": {
+    "ready": true,
+    "file": "west-entry-aligned-v3.glb",
+    "meshes": 1308,
+    "ids": {
+      "LAWN": 1,
+      "VEGETATION_PILOT": 9,
+      "undefined": 285,
+      "VEGETATION_V2": 34,
+      "E_ENTRY": 24,
+      "LAWN_EDGE": 522,
+      "POET_GARDEN": 11,
+      "FORECOURT": 2,
+      "W_ENTRY": 86,
+      "WTERR": 39,
+      "ESKY": 9,
+      "ERAMP": 18,
+      "E_PLANTING": 2,
+      "E_FURNITURE": 7,
+      "WPATH": 7,
+      "WSKY1": 5,
+      "WSKY2": 5,
+      "WGLASS": 6,
+      "WGLASS2": 3,
+      "ETERR": 24,
+      "EPATH": 6,
+      "FURNITURE": 4,
+      "CONTEXT_GUANGHUA": 9,
+      "GROUND": 1,
+      "BOUNDARY": 4,
+      "EDGE_PATHS": 2,
+      "WB1": 16,
+      "WB2": 16,
+      "WOPEN": 15,
+      "WOPEN_S": 15,
+      "EOPEN": 15,
+      "EOPEN_S": 15,
+      "DING": 11,
+      "SIGN": 7,
+      "FLOWER": 10,
+      "VEGETATION": 4,
+      "POET_DONKEY": 59
+    },
+    "urns": [
+      {
+        "name": "E_ENTRY_0_pedestal_core",
+        "fid": "E_ENTRY",
+        "min": [
+          60.86933135986328,
+          0.029999999329447746,
+          -80.13948059082031
+        ],
+        "max": [
+          63.01933288574219,
+          0.8299999833106995,
+          -77.9894790649414
+        ]
+      },
+      {
+        "name": "E_ENTRY_1_pedestal_core",
+        "fid": "E_ENTRY",
+        "min": [
+          67.86933135986328,
+          0.029999999329447746,
+          -80.13948059082031
+        ],
+        "max": [
+          70.01933288574219,
+          0.8299999833106995,
+          -77.9894790649414
+        ]
+      },
+      {
+        "name": "W_ENTRY_0_pedestal_core",
+        "fid": "W_ENTRY",
+        "min": [
+          -31.574996948242188,
+          0.029999999329447746,
+          -80.13948059082031
+        ],
+        "max": [
+          -29.42499542236328,
+          0.8299999833106995,
+          -77.9894790649414
+        ]
+      },
+      {
+        "name": "W_ENTRY_1_pedestal_core",
+        "fid": "W_ENTRY",
+        "min": [
+          -24.574996948242188,
+          0.029999999329447746,
+          -80.13948059082031
+        ],
+        "max": [
+          -22.42499542236328,
+          0.8299999833106995,
+          -77.9894790649414
+        ]
+      }
+    ],
+    "paths": [
+      {
+        "name": "WPATH__curb-west-garden__pale",
+        "join": "Shared welded cross section at y=75; continuous watertight mesh"
+      },
+      {
+        "name": "WPATH__west-garden__stone",
+        "join": "Shared welded cross section at y=75; continuous watertight mesh"
+      }
+    ],
+    "localBenches": [
+      {
+        "name": "FURNITURE__bench__benchwood",
+        "min": [
+          -48.096168518066406,
+          0.4375,
+          -75.60917663574219
+        ],
+        "max": [
+          -46.12092971801758,
+          1.002500057220459,
+          -74.43781280517578
+        ]
+      },
+      {
+        "name": "FURNITURE__bench__rail",
+        "min": [
+          -47.89215850830078,
+          -0.0005714520812034607,
+          -75.49211883544922
+        ],
+        "max": [
+          -46.3067741394043,
+          1.0505714416503906,
+          -74.49933624267578
+        ]
+      }
+    ],
+    "foliageMeshes": 291
+  },
+  "views": [
+    "west",
+    "westFront",
+    "westTop",
+    "join",
+    "paired",
+    "east",
+    "overall"
+  ],
+  "images": [
+    {
+      "complete": true,
+      "height": 900,
+      "src": "before-west-oblique.png",
+      "width": 1100
+    },
+    {
+      "complete": true,
+      "height": 1200,
+      "src": "after-west-oblique.png",
+      "width": 1600
+    },
+    {
+      "complete": true,
+      "height": 1200,
+      "src": "after-west-front.png",
+      "width": 1600
+    },
+    {
+      "complete": true,
+      "height": 1200,
+      "src": "after-west-top.png",
+      "width": 1600
+    },
+    {
+      "complete": true,
+      "height": 1200,
+      "src": "after-path-join.png",
+      "width": 1600
+    },
+    {
+      "complete": true,
+      "height": 1200,
+      "src": "after-paired-top.png",
+      "width": 1600
+    },
+    {
+      "complete": true,
+      "height": 3024,
+      "src": "../../../references/guanghua_lawn/img/img/IMG_4491.jpeg",
+      "width": 4032
+    },
+    {
+      "complete": true,
+      "height": 1200,
+      "src": "after-overall.png",
+      "width": 1600
+    }
+  ],
+  "foliageToggle": true,
+  "mobileViewportRequested": 390,
+  "mobileClientWidth": 375,
+  "mobileScrollWidth": 375,
+  "mobileNoOverflow": true,
+  "consoleErrors": [],
+  "assetHttpStatus": 200,
+  "finalGlbSha256": "acaaadd9f5dd8712f0d314270b1bf8ecdf8dde15b1053bf930a6501f20450e5e"
+}

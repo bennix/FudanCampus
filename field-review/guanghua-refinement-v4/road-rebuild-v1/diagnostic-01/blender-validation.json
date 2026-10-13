@@ -1,0 +1,33 @@
+{
+  "non_EPATH_geometry_materials_unchanged": true,
+  "outside_patch_remaining_vertices": {
+    "EPATH__lawn-connection__pink-path": {
+      "remaining_vertices": 320,
+      "outside_patch_coordinates_unchanged": true
+    },
+    "EPATH__main-curve__pink-path": {
+      "remaining_vertices": 688,
+      "outside_patch_coordinates_unchanged": true
+    }
+  },
+  "checkpoint_reopened": true,
+  "protected_files_unchanged": 336,
+  "generated_meshes": [
+    {
+      "object": "EPATH__west_sample_road",
+      "nonmanifold_edges": 0,
+      "signed_volume": 34.12129270772836,
+      "vertices": 12590,
+      "faces": 25176
+    },
+    {
+      "object": "EPATH__west_sample_terrain",
+      "nonmanifold_edges": 0,
+      "signed_volume": 9.631648648288648,
+      "vertices": 4300,
+      "faces": 8572
+    }
+  ],
+  "visual_review": "pending",
+  "site_profile": "inferred"
+}

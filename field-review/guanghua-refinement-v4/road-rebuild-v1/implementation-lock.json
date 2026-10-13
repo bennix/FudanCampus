@@ -1,0 +1,18 @@
+{
+  "baseline-geometry.json": "c6c9d1aff60f3ca70c9c3aded01a3ee8280d16b39d97b7fdb90d043ff4558e46",
+  "build_report.py": "b4990f594e707d46bfd11a06bcbd5231ef744b5c8ea3ee3065de34c24c7be204",
+  "build_roads_blender.py": "661498f673f3669fdb0493b6263c45f461388f7fca41d8a28bfcabcb90b22216",
+  "generator-tests.json": "616b4b9b9a62cffe04f0786a191ae5a94a41cd24d8517e21d3d0848a51171f3e",
+  "inspect_baseline.py": "7748179dedc43dc90936e7d53c863268291a5de053623ed26d26933717109124",
+  "prepare_west_sample.py": "0dbf0dcbe691570b08ad04ad3f1fbac8902b5d286fa38e1a73b5ec1dcde17705",
+  "protected-files.json": "0a62f66f9795cf96de332eee8a562fbe761c62c8a5f7308b3768e25352d5fe06",
+  "render_study.py": "99faf15af390391a1783b86e151c39356b7d043af68211802b2a681ad9e9973a",
+  "requirements.txt": "88779395d38d2219d62ecb3f0278f36ee300674ba372b57b97684350e6255407",
+  "road-generation-config.json": "8b89cd6571d654aa94574ab55aede466ba425132c575576e74183aafb2b034f7",
+  "road-network.json": "53c7fbbf8b4f9523abbebc40549829cd87bc038367f2ee4a3ee6121d73bb8f25",
+  "road-protection.json": "42cc387ead5306cb0e3fb1254e6d6be0f61e2fc04c78ce5c1b15d0a7ab30c5eb",
+  "road_geometry.py": "6d54ba8db42da0ff5ca82084a0164deaa63a42ffddcc6e184d560f695c06880e",
+  "sample-settings.json": "9157e24b87720cec4e71bbce3dba74cfaa65ad5fc082e211d642370727686a17",
+  "test_road_geometry.py": "cef2ba2256ceb512b87d97aaee92f3553290dde37638b13971aae0b7992776f3",
+  "validate_roads.py": "910276f32a0a079c7411bf18583a125623b71b614fa5f775eb403dddf59a79c8"
+}

@@ -1,0 +1,12 @@
+{
+  "ready": true,
+  "meshes": 100,
+  "render": {
+    "calls": 1190,
+    "triangles": 6125452
+  },
+  "errors": [],
+  "overflow": false,
+  "toggle": true,
+  "views": true
+}

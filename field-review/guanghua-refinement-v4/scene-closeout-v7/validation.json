@@ -1,0 +1,315 @@
+{
+  "checkpoint_reopens": true,
+  "scene_sha256": "641a3ab8f02443ef98ce1bc2dcb2e8a6fdb63ba194dd6fffbec7a92aeeb146a2",
+  "all_six_native_source_hashes_unchanged": true,
+  "mesh_objects": 1892,
+  "exact_v6_mesh_snapshot_preserved": true,
+  "v5_protected_non_tree_meshes_preserved": 1794,
+  "four_planter_material_objects_preserved": true,
+  "east_path_solids_preserved": 200,
+  "inherited_junction_check": {
+    "samples": 241,
+    "maximum_stone_face_step": 1.0728836059570312e-06,
+    "provenance": "All 200 path solids and four audited adjacent meshes exactly match v5; no new geometric junction change"
+  },
+  "editable_lettering": {
+    "WB1__text__光华楼广场自行车库": {
+      "body": "光华楼广场自行车库",
+      "feature_id": "WB1",
+      "vertices": 48482,
+      "polygons": 44943,
+      "evaluated_geometry_sha256": "f8a50ce77ded14b1913261ef9215be5e8fbe33945b3399d4a48dfb0e5b81501f",
+      "world_bounds": [
+        [
+          -74.66993713378906,
+          45.89492416381836,
+          1.8435155153274536
+        ],
+        [
+          -74.62193298339844,
+          50.120662689208984,
+          2.3002097606658936
+        ]
+      ],
+      "matrix": [
+        [
+          -4.371138828673793e-08,
+          -4.371138828673793e-08,
+          -1.0,
+          -74.64593505859375
+        ],
+        [
+          -1.0,
+          1.910685676922942e-15,
+          4.371138828673793e-08,
+          48.0
+        ],
+        [
+          0.0,
+          1.0,
+          -4.371138828673793e-08,
+          2.069999933242798
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "visible": true,
+      "typography": {
+        "size": 0.47999998927116394,
+        "align_x": "CENTER",
+        "align_y": "CENTER",
+        "space_character": 1.0,
+        "space_word": 1.0,
+        "extrude": 0.017999999225139618,
+        "bevel_depth": 0.006000000052154064,
+        "resolution_u": 12
+      },
+      "material_signatures": [
+        "0a9df2edc9f3a876d37ddf3fc3b216b70dcd1d5f36979b7421d8732e8472a033"
+      ],
+      "font_name": "SimHei Regular",
+      "font_sha256": "9b1959db3b3abeb7efdaec26edf7dfe871a6039de8d614af7248575207be629e",
+      "font_packed": true,
+      "properties": {
+        "feature_id": "WB1",
+        "label": "自行车库南门",
+        "source_photos": [
+          4416,
+          4419
+        ],
+        "existence_confidence": "confirmed",
+        "geometry_confidence": "inferred",
+        "scale_status": "provisional metres; no measured control",
+        "note": "Photo facade confirmed; metric size and short apron slope inferred. Hidden garage omitted.",
+        "registration_note": "Facade placed outside west terrace wall; apron length ~5.9 m inferred to avoid overlap."
+      }
+    },
+    "WB2__text__光华楼广场自行车库": {
+      "body": "光华楼广场自行车库",
+      "feature_id": "WB2",
+      "vertices": 48482,
+      "polygons": 44943,
+      "evaluated_geometry_sha256": "f8a50ce77ded14b1913261ef9215be5e8fbe33945b3399d4a48dfb0e5b81501f",
+      "world_bounds": [
+        [
+          -74.66993713378906,
+          67.8949203491211,
+          1.8435155153274536
+        ],
+        [
+          -74.62193298339844,
+          72.12066650390625,
+          2.3002097606658936
+        ]
+      ],
+      "matrix": [
+        [
+          -4.371138828673793e-08,
+          -4.371138828673793e-08,
+          -1.0,
+          -74.64593505859375
+        ],
+        [
+          -1.0,
+          1.910685676922942e-15,
+          4.371138828673793e-08,
+          70.0
+        ],
+        [
+          0.0,
+          1.0,
+          -4.371138828673793e-08,
+          2.069999933242798
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "visible": true,
+      "typography": {
+        "size": 0.47999998927116394,
+        "align_x": "CENTER",
+        "align_y": "CENTER",
+        "space_character": 1.0,
+        "space_word": 1.0,
+        "extrude": 0.017999999225139618,
+        "bevel_depth": 0.006000000052154064,
+        "resolution_u": 12
+      },
+      "material_signatures": [
+        "0a9df2edc9f3a876d37ddf3fc3b216b70dcd1d5f36979b7421d8732e8472a033"
+      ],
+      "font_name": "SimHei Regular.001",
+      "font_sha256": "9b1959db3b3abeb7efdaec26edf7dfe871a6039de8d614af7248575207be629e",
+      "font_packed": true,
+      "properties": {
+        "feature_id": "WB2",
+        "label": "自行车库北门",
+        "source_photos": [
+          4421,
+          4424,
+          4434
+        ],
+        "existence_confidence": "confirmed",
+        "geometry_confidence": "inferred",
+        "scale_status": "provisional metres; no measured control",
+        "note": "Photo facade confirmed; metric size and short apron slope inferred. Hidden garage omitted.",
+        "registration_note": "Facade placed outside west terrace wall; apron length ~5.9 m inferred to avoid overlap."
+      }
+    },
+    "SIGN__text__FUDAN": {
+      "body": "FUDAN",
+      "feature_id": "SIGN",
+      "vertices": 5642,
+      "polygons": 5227,
+      "evaluated_geometry_sha256": "a65d2dd71878bafba9433c92ac436cc9da5dc1e27c25e61bffe406b24f02d0eb",
+      "world_bounds": [
+        [
+          21.444133758544922,
+          9.284000396728516,
+          0.3750000298023224
+        ],
+        [
+          27.644134521484375,
+          9.63599967956543,
+          1.302036166191101
+        ]
+      ],
+      "matrix": [
+        [
+          1.4701998233795166,
+          0.0,
+          0.0,
+          24.549999237060547
+        ],
+        [
+          0.0,
+          -4.371138828673793e-08,
+          -1.0,
+          9.460000038146973
+        ],
+        [
+          0.0,
+          1.0,
+          -4.371138828673793e-08,
+          0.8320744037628174
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "visible": true,
+      "typography": {
+        "size": 1.7999999523162842,
+        "align_x": "CENTER",
+        "align_y": "CENTER",
+        "space_character": 1.0,
+        "space_word": 1.0,
+        "extrude": 0.17000000178813934,
+        "bevel_depth": 0.006000000052154064,
+        "resolution_u": 12
+      },
+      "material_signatures": [
+        "3190bc5701f8b6a3a2ca84c57c64e4566337948fb53c88ced865ea65ad3d5da9"
+      ],
+      "font_name": "Arial Bold",
+      "font_sha256": "e8f4e3baf6cc35fed6fcce3a540e8b39e8f6cda1d22a28f2ec8f526fef7a43f5",
+      "font_packed": true,
+      "properties": {
+        "feature_id": "SIGN",
+        "label": "南中央FUDAN装置",
+        "source_photos": [
+          4603,
+          4604,
+          4606
+        ],
+        "existence_confidence": "confirmed",
+        "geometry_confidence": "inferred",
+        "scale_status": "provisional metres; no measured control",
+        "note": "Blue extruded letters, heart and chair confirmed; font and proportions approximate."
+      }
+    }
+  },
+  "evaluated_text_meshes_nonempty": true,
+  "original_cameras_lights_and_other_objects_preserved": true,
+  "required_feature_ids": [
+    "BOUNDARY",
+    "BUILDING_ENTRY",
+    "CONTEXT_GUANGHUA",
+    "DING",
+    "EDGE_PATHS",
+    "EOPEN",
+    "EOPEN_S",
+    "EPATH",
+    "ERAMP",
+    "ESKY",
+    "ETERR",
+    "E_ENTRY",
+    "E_FURNITURE",
+    "E_PLANTING",
+    "E_WALK",
+    "FLOWER",
+    "FORECOURT",
+    "FURNITURE",
+    "GARDEN_VEGETATION_V3",
+    "GROUND",
+    "LAWN",
+    "LAWN_EDGE",
+    "PLAZA",
+    "POET_DONKEY",
+    "POET_GARDEN",
+    "SIGN",
+    "TREE_CANOPY_V6",
+    "VEGETATION",
+    "VEGETATION_PILOT",
+    "VEGETATION_V2",
+    "WB1",
+    "WB2",
+    "WGLASS",
+    "WGLASS2",
+    "WOPEN",
+    "WOPEN_S",
+    "WPATH",
+    "WSKY1",
+    "WSKY2",
+    "WTERR",
+    "W_ENTRY"
+  ],
+  "metrics": {
+    "visible_mesh_triangles_before_export": 18800656,
+    "visible_v6_tree_triangles": 5580784,
+    "unique_meshes_with_finite_coordinates": 1314,
+    "triangles_scope": "Native visible mesh estimate before modifiers/font tessellation; not browser rendered triangles"
+  },
+  "old_corrected_text_exports_preserved": {
+    "west-entry-v3": {
+      "source": "field-review\\guanghua-refinement-v4\\west-entry-v3\\west-entry-aligned-v3.blend",
+      "source_sha256": "becbeb75aa5f4cea4a80c34039a8825ace683eb5b4a9eac7a67300da067514b0",
+      "target": "field-review\\guanghua-refinement-v4\\west-entry-v3\\west-entry-aligned-v3.glb",
+      "target_sha256": "fbead4b3c61aba8ec1840ad1cbbdaadccf12ef6ae7185182d75b943fb7fd7bf3",
+      "source_unchanged": true,
+      "corrected_export_unchanged": true,
+      "text_meshes": 3
+    },
+    "vegetation-v2": {
+      "source": "field-review\\guanghua-refinement-v4\\vegetation-v2\\vegetation-v2.blend",
+      "source_sha256": "6251c3d7d03d7c1f5595f86476e18faae4d9c3ad87a5103342a1fccfefe63c51",
+      "target": "field-review\\guanghua-refinement-v4\\vegetation-v2\\vegetation-v2.glb",
+      "target_sha256": "9eed7971a3aac12d7bab0c72379d860e471292976b08d3b1b2a56202dba2eb63",
+      "source_unchanged": true,
+      "corrected_export_unchanged": true,
+      "text_meshes": 3
+    }
+  },
+  "web_and_final_visual_acceptance_pending": true
+}

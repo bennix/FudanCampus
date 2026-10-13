@@ -1,0 +1,104 @@
+{
+  "pass": true,
+  "method": "NodeIO loads and decodes EXT_meshopt_compression; only that encoding extension is disposed before writing an equivalent QA derivative. Blender imports the derivative because its production meshopt support is not assumed.",
+  "production_sha256": "e45cc1abf18449507abd402b4db7ea0995e8a9b22cdcc6b32d8f84604e687bd2",
+  "source_sha256": "8625e7b4813f9a864c5a03121f32f28e2cc1e5d7265518b921593a137f8b8714",
+  "temporary_derivative_is_not_a_production_asset": true,
+  "blender_version": "4.4.3",
+  "mesh_objects": 1077,
+  "triangles_all_lod_levels": 7159044,
+  "nonfinite": 0,
+  "bounds_blender": {
+    "min": [
+      57.866661071777344,
+      116.80018615722656,
+      -2.6776914596557617
+    ],
+    "max": [
+      192.7347412109375,
+      207.80044555664062,
+      14.329870223999023
+    ]
+  },
+  "maximum_global_decode_reimport_bound_error": 8.052937559455131e-06,
+  "texts": [
+    {
+      "name": "POET_DONKEY 驢背詩思.001",
+      "body": "驢背詩思",
+      "feature": "POET_DONKEY",
+      "bounds_blender": {
+        "min": [
+          80.13766479492188,
+          201.3813018798828,
+          0.26513582468032837
+        ],
+        "max": [
+          80.72171020507812,
+          201.4644012451172,
+          0.40110552310943604
+        ]
+      },
+      "maximum_decode_reimport_bound_error": 1.1526703758590884e-05,
+      "triangles": 19496
+    },
+    {
+      "name": "WB1__text__光华楼广场自行车库",
+      "body": "光华楼广场自行车库",
+      "feature": "WB1",
+      "bounds_blender": {
+        "min": [
+          68.09957122802734,
+          153.09796142578125,
+          1.2330148220062256
+        ],
+        "max": [
+          68.10584259033203,
+          156.51129150390625,
+          1.5283620357513428
+        ]
+      },
+      "maximum_decode_reimport_bound_error": 6.737361644582052e-06,
+      "triangles": 83036
+    },
+    {
+      "name": "WB2__text__光华楼广场自行车库",
+      "body": "光华楼广场自行车库",
+      "feature": "WB2",
+      "bounds_blender": {
+        "min": [
+          68.09957122802734,
+          167.76463317871094,
+          1.2330148220062256
+        ],
+        "max": [
+          68.10584259033203,
+          171.17796325683594,
+          1.5283620357513428
+        ]
+      },
+      "maximum_decode_reimport_bound_error": 6.737361644582052e-06,
+      "triangles": 83036
+    },
+    {
+      "name": "SIGN__text__FUDAN",
+      "body": "FUDAN",
+      "feature": "SIGN",
+      "bounds_blender": {
+        "min": [
+          132.1627655029297,
+          128.98934936523438,
+          0.25000324845314026
+        ],
+        "max": [
+          136.2960968017578,
+          129.2239990234375,
+          0.8680208325386047
+        ]
+      },
+      "maximum_decode_reimport_bound_error": 6.76153680956304e-06,
+      "triangles": 9660
+    }
+  ],
+  "seconds": 39.3,
+  "production_asset_unchanged": true
+}

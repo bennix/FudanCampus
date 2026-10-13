@@ -1,0 +1,50 @@
+{
+  "checkpoint_reopens": true,
+  "scene_sha256": "ba1a1169e1ff4705db5b467ce2359fe8c086a2801f07548e8d5bb3f085fb310f",
+  "exact_expected_mesh_content": true,
+  "mesh_objects": 1884,
+  "all_source_files_unchanged": true,
+  "content_owners": {
+    "base": 985,
+    "garden": 691,
+    "planters": 4,
+    "path": 204
+  },
+  "object_conflicts": {
+    "garden + planters": [],
+    "garden + path": [],
+    "planters + path": []
+  },
+  "garden_new_objects": 609,
+  "garden_changed_original_objects": 82,
+  "planter_material_objects": 4,
+  "packed_planter_textures": 4,
+  "all_used_image_textures_packed": true,
+  "path_solids": 200,
+  "path_nonmanifold_edges": 0,
+  "path_zero_area_faces": 0,
+  "path_positive_volumes": true,
+  "all_mesh_coordinates_finite": true,
+  "required_feature_ids_retained": true,
+  "deleted_old_curbs_absent": 73,
+  "plaza_interface_samples": 241,
+  "plaza_interface_covered": true,
+  "maximum_stone_face_step": 1.0728836059570312e-06,
+  "intentional_filled_joint_recess": 0.0025,
+  "corridor_projected_overlap_areas": {
+    "FORECOURT photo grid plaza": 0.0,
+    "LAWN | satellite-fixed concave north edge": 0,
+    "EDGE_PATHS__south-walk__FIN_pavers": 0.0,
+    "LAWN_EDGE segmented granite 177": 0.0
+  },
+  "arc_bands": 198,
+  "mesh_groove_depth_range": [
+    0.01799999848008156,
+    0.01800002933282465
+  ],
+  "limits": [
+    "合并既有成果，不新增现场测量认证",
+    "树位、尺度、槽深和用途继承各分支的推定标记",
+    "校验限定内容保持与指定通道交界，不是全场景碰撞认证"
+  ]
+}

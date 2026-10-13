@@ -1,0 +1,22 @@
+{
+  "version": 1,
+  "bytes": 149252900,
+  "sha256": "588b6b5b8370bd578f7b0f4e74316def731d00048705fd709d27c70c08ccd03b",
+  "parts": [
+    {
+      "url": "guanghua-spring-volume-v4.glb.588b6b5b8370.part0.bin",
+      "bytes": 67108864,
+      "sha256": "fff4be576ab0c88c911590cda6d60b5b8bc000e902b9363e3f20f0f0d87de093"
+    },
+    {
+      "url": "guanghua-spring-volume-v4.glb.588b6b5b8370.part1.bin",
+      "bytes": 67108864,
+      "sha256": "6705d21a26f0997164a07eb60c4a49b357e1c87399da1c9673caa69340e445e1"
+    },
+    {
+      "url": "guanghua-spring-volume-v4.glb.588b6b5b8370.part2.bin",
+      "bytes": 15035172,
+      "sha256": "5d56ddcd12c1bf38704505925a64bdc3ca8f87257ec269aeea7013888c39ed9c"
+    }
+  ]
+}

@@ -1,0 +1,49 @@
+{
+  "scope": "Material finish on stable v4 geometry; unfinished geometric study not applied",
+  "source": "C:\\Users\\Lumin\\source\\FudanCampus-course\\field-review\\guanghua-refinement-v4\\forecourt-refinement-v4\\forecourt-refined-v4.blend",
+  "source_sha256": "87fd8fd57c849864ed38cb6c2f5cf81b3717a39d619d46956987be4332854685",
+  "protected_meshes": 1343,
+  "protected_geometry_uv_materials_unchanged": true,
+  "modified_objects": [
+    {
+      "object": "BENTRY west burgundy planting",
+      "vertices": 104,
+      "faces": 152,
+      "material": "P5 layered red shrub foliage"
+    },
+    {
+      "object": "BENTRY west clipped green planting",
+      "vertices": 12,
+      "faces": 14,
+      "material": "P5 layered green shrub foliage"
+    },
+    {
+      "object": "BENTRY east burgundy planting",
+      "vertices": 104,
+      "faces": 152,
+      "material": "P5 layered red shrub foliage"
+    },
+    {
+      "object": "BENTRY east clipped green planting",
+      "vertices": 12,
+      "faces": 14,
+      "material": "P5 layered green shrub foliage"
+    }
+  ],
+  "all_geometry_retained": true,
+  "textures_packed": true,
+  "dimensions": "No measured dimensions added; v4 geometry and elevations remain inferred",
+  "views": [
+    "4464",
+    "pair-top",
+    "4485",
+    "west-top",
+    "east-top",
+    "west-junction",
+    "east-junction"
+  ],
+  "checkpoint_reopened": true,
+  "source_unchanged": true,
+  "final_sha256": "b515ef531cd9cc83869c27ad2b33312a9007ebfcf0c0d0287724eef9faf42e3a",
+  "render_complete": true
+}

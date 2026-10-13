@@ -1,0 +1,297 @@
+{
+  "date": "2026-10-01",
+  "source_sha256": "8625e7b4813f9a864c5a03121f32f28e2cc1e5d7265518b921593a137f8b8714",
+  "status": "Internal visible-scope review complete; user visual review pending",
+  "user_visual_acceptance": false,
+  "reviewer": "Primary implementation agent, using actual rendered files and browser screenshots",
+  "review_scope": "29 current-source formal views, 4 same-camera v7 baseline views, original photo contact sheet, actual frozen browser glyph/FUDAN/plaque/mobile screenshots, and current structural/export/browser reports",
+  "tasks": {
+    "C01": {
+      "status": "reviewed",
+      "conclusion": "西坛四个可见底座锚点拟合最大轴向偏差1.36%；其余机位为人工近似并逐项查看构件关系。四组树冠前后相机矩阵一致。",
+      "evidence": "camera-validation.json",
+      "limits": "全立面及照片冠层覆盖率没有测量认证。"
+    },
+    "C02": {
+      "status": "reviewed",
+      "conclusion": "可见前柱改为凹槽圆柱与柱头；正式门厅近景复核柱、窗框、台阶附着和入口阴影，继承塔楼比例及窗轴保留。",
+      "evidence": "final-foyer-detail.png",
+      "limits": "楼体绝对尺度、隐蔽结构与细部雕刻为推定或概括。"
+    },
+    "C03": {
+      "status": "reviewed",
+      "conclusion": "左右独立坛体、弧端转折和底座接头已重建；无遮挡俯视与接头近景核验，指定台阶及坡道净带无投影侵占。",
+      "evidence": "structure-validation.json",
+      "limits": "曲率及局部标高推定。"
+    },
+    "C04": {
+      "status": "reviewed",
+      "conclusion": "东园道路连续接续，梯脚先前进再转向；新旧草面重复区域裁除，重复投影面积0，东口黑片消失。道路俯视和侧视复核。",
+      "evidence": "ground-trim-planar-validation.json",
+      "limits": "标高和坡肩推定；地形及平台的接地阴影保留，Float32边界差积另列。"
+    },
+    "C05": {
+      "status": "reviewed",
+      "conclusion": "200件直通道实体保留；241点广场接口及241点路园边界复验通过，实际边界高差最大9.54e-6。",
+      "evidence": "native-validation.json",
+      "limits": "不等于全场任意对象无碰撞认证；设计缝和台阶除外。"
+    },
+    "C06": {
+      "status": "reviewed",
+      "conclusion": "从v6保留根位和冠层轮廓，修连续分枝及枝粗渐变；24株花园阔叶加大局部叶片，粉点感减轻，四组同机位前后查看冠形、透空和遮挡。",
+      "evidence": "canopy-before-render-manifest.json",
+      "limits": "人工近似机位不认证与照片覆盖率差小于10个百分点。"
+    },
+    "C07": {
+      "status": "reviewed",
+      "conclusion": "南路阔叶与4株推定杉类保留混植和疏密差异；沿路视图复核高直主干、窄冠及草坪净空。",
+      "evidence": "final-south-walk.png",
+      "limits": "精确杉种、树位、株数和背冠推定。"
+    },
+    "C08": {
+      "status": "reviewed",
+      "conclusion": "共享叶片原型只变形一次；近景可辨短圆叶、枝叶着生、朝向和露枝，非对称冠面与红外绿内区保留，东园根组避让道路。",
+      "evidence": "final-leaf-detail.png",
+      "limits": "修剪式顶冠为概括；没有可靠机位的独立灌木覆盖率测量。"
+    },
+    "C09": {
+      "status": "reviewed",
+      "conclusion": "两处蓝底黄字的字幅、字距、留白和厚度调整；三FONT原生完整可编辑，生产GLB和网页近景均完整可读。",
+      "evidence": "glb-validation.json",
+      "limits": "文字厚度和绝对字幅推定，用户视觉认可尚未登记。"
+    },
+    "C10": {
+      "status": "reviewed",
+      "conclusion": "WB1开放与WB2四扇关闭状态、门框、坡面、格栅和外部接续复核保留；实际网页两处全景与字幅图核验。",
+      "evidence": "web-checks.json",
+      "limits": "地下空间、车辆和未拍深部结构未知。"
+    },
+    "C11": {
+      "status": "reviewed",
+      "conclusion": "保留铺装方向、板缝和直通道浅槽；石材场景尺度UV及微粗糙度调整，西平台和园路近景复核。",
+      "evidence": "surface-validation.json",
+      "limits": "板块、磨损为受控概括，非逐块照片复刻；程序微起伏不完整进入GLB。"
+    },
+    "C12": {
+      "status": "reviewed",
+      "conclusion": "补小范围根土、稀草和少量落叶，并避开道路；园地、根脚和路肩近景复核。",
+      "evidence": "canopy-contact-validation.json",
+      "limits": "地下根系未知，落叶分布推定。"
+    },
+    "C13": {
+      "status": "reviewed",
+      "conclusion": "分别查看四口无遮挡图及采光顶图，框架、玻璃、基座、扶手、踏石和开口可见；新地面保持开口，生产GLB射线复验。",
+      "evidence": "glb-validation.json",
+      "limits": "ESKY_N准确位置未知，未凭对称补造。"
+    },
+    "C14": {
+      "status": "reviewed",
+      "conclusion": "藤叶改为连续茎及附着叶；去叶正式图核验梁柱连接和支脚，环树处改为近地不等双干并保留根脚/冠层锚点，花钵近景可见红花。",
+      "evidence": "final-pergola-structure.png",
+      "limits": "隐藏连接和局部尺寸推定。"
+    },
+    "C15": {
+      "status": "reviewed",
+      "conclusion": "铭牌背衬补齐且斜视不漂浮；驢背詩思、FUDAN、橙色爱心及座椅在正式图和网页完整，金属亮度与字面可读性调整。",
+      "evidence": "final-plaque-oblique.png",
+      "limits": "未拍雕塑细部及刻深为概括或未知。"
+    },
+    "C16": {
+      "status": "reviewed",
+      "conclusion": "全29图统一AgX曝光和采样；实际网页查看色区、轮廓、玻璃和叶片，网页薄玻璃采用已记录的透明近似。",
+      "evidence": "export-conversion.json",
+      "limits": "网页光照、玻璃及程序材质不与原生完全等价。"
+    },
+    "C17": {
+      "status": "reviewed",
+      "conclusion": "64共享植物原型、近中远细节与实例绘制已接入本地校园；构建/重导入/十机位网页验证通过，运行及体积门槛通过。",
+      "evidence": "web-checks.json",
+      "limits": "绘制调用500次目标有5处未达：总览898，四车库586–653；回环测试不代表公网或真实手机帧率。"
+    }
+  },
+  "formal_images": [
+    {
+      "view": "overall",
+      "image": "final-overall.png",
+      "sha256": "fb54605b1fb0fb64722c0e1c9865da21cdefe68daf370d898836ded3bab0dbf2"
+    },
+    {
+      "view": "top",
+      "image": "final-top.png",
+      "sha256": "b851a4dc65236b6330f344e190ce5de97956679b78d7e0901bb4dcbb57dc537b"
+    },
+    {
+      "view": "west-platform",
+      "image": "final-west-platform.png",
+      "sha256": "1c562db3c8533b0131c186442f4d965b75fddeaa8289be0b57834481fde0f9f3"
+    },
+    {
+      "view": "east-understory",
+      "image": "final-east-understory.png",
+      "sha256": "e52f445048160e14e49973728af0279b4b48b66b4562b927a3f9dffecc696b43"
+    },
+    {
+      "view": "east-exit",
+      "image": "final-east-exit.png",
+      "sha256": "d7cc908d25edeaa746678891b038dc7b270e61dc9ecdc19b02caac79d83ff3a7"
+    },
+    {
+      "view": "south-walk",
+      "image": "final-south-walk.png",
+      "sha256": "448037b1829bd1c780abb26cda8dde303048c00dcb334c70a90ac4b80d11d232"
+    },
+    {
+      "view": "west-planter",
+      "image": "final-west-planter.png",
+      "sha256": "fdac1fa3f093ecc7b002108fad1c9f9a7267e602f40852188edbdd6470fbe6f2"
+    },
+    {
+      "view": "east-planter",
+      "image": "final-east-planter.png",
+      "sha256": "04dfdfbc8cf1fc64b9607b11d116dfc00fb03f0c72dc2889c71368975618c134"
+    },
+    {
+      "view": "planter-top",
+      "image": "final-planter-top.png",
+      "sha256": "14a2ba57831b5c373aa90fda0fc6ca94c8b92064d7f76be435d772347086dd8d"
+    },
+    {
+      "view": "plinth-junction",
+      "image": "final-plinth-junction.png",
+      "sha256": "d5e9f1fd6521dc6262d1fc456250ffb88d0574f650c1ad51933e61e167ef8d9d"
+    },
+    {
+      "view": "garage-wb1",
+      "image": "final-garage-wb1.png",
+      "sha256": "27e9c3f1d9e2baa6ad9a1220fa58635bab0b9c3f574124c5da4220a5824e60cb"
+    },
+    {
+      "view": "garage-wb2",
+      "image": "final-garage-wb2.png",
+      "sha256": "459e3d689194ce772b668c20d62c4d33dcb79efccada48977c5a89a0caf46593"
+    },
+    {
+      "view": "corridor-junction",
+      "image": "final-corridor-junction.png",
+      "sha256": "a98f4c114762140e75fb74d1fe0028cfe357eb98561c7ef1551d5a7518501c21"
+    },
+    {
+      "view": "plaque-front",
+      "image": "final-plaque-front.png",
+      "sha256": "e67dee3ffd33607351d2a257da00d698b975fbfede32624e4536824cd6107651"
+    },
+    {
+      "view": "plaque-oblique",
+      "image": "final-plaque-oblique.png",
+      "sha256": "5ec265ba31c06eab70f0ce9e6f6bfc171d0ff398d98ef07d37c2a189fa9e2fda"
+    },
+    {
+      "view": "fudan",
+      "image": "final-fudan.png",
+      "sha256": "c207b0fb4f5998ae432a84984ddbdd50251a6d64ec05d0354ffa991a1b26fcd6"
+    },
+    {
+      "view": "pergola-seat",
+      "image": "final-pergola-seat.png",
+      "sha256": "9321c7d191f4a437a7e8c8f8137f45bc15df6f4942d63be534c911e236fdcd13"
+    },
+    {
+      "view": "skylight-opening",
+      "image": "final-skylight-opening.png",
+      "sha256": "38070599b03067b127b87e040bdb8255b60fba7a3bb50c85845f4d9cbcff05b1"
+    },
+    {
+      "view": "east-road-top",
+      "image": "final-east-road-top.png",
+      "sha256": "751ca15d3447cba9479d3c363e1ae7868d724eec52de74ac202d62247ec98c15"
+    },
+    {
+      "view": "mouth-w-n",
+      "image": "final-mouth-w-n.png",
+      "sha256": "26c8ba4ef24fc02cdea4ff9c4cd5df8b0533706f6ab542d23c61ff90b127e475"
+    },
+    {
+      "view": "mouth-w-s",
+      "image": "final-mouth-w-s.png",
+      "sha256": "282ef1a1bad573e7eced6585a43032ffc3d4af9179f3e7c20e57af7ec796ebec"
+    },
+    {
+      "view": "mouth-e-n",
+      "image": "final-mouth-e-n.png",
+      "sha256": "4145ac048e0cdae9340ebd28eadae433284e6cd361aeb4880de5289cf2d096d6"
+    },
+    {
+      "view": "mouth-e-s",
+      "image": "final-mouth-e-s.png",
+      "sha256": "66ca42e3e2ce24bba69891eab16cd72b929c233ec04f3692e131700a4e725c9b"
+    },
+    {
+      "view": "sculpture-side",
+      "image": "final-sculpture-side.png",
+      "sha256": "b6f280f7c1cfbca19f00257d6d982612b9f0d57453c11a458567f0790bc27f9d"
+    },
+    {
+      "view": "foyer-detail",
+      "image": "final-foyer-detail.png",
+      "sha256": "3a672f806a3204ab9c316fafdf02eef1dee9f33f8d33498c1c5011f4311e38d1"
+    },
+    {
+      "view": "pergola-structure",
+      "image": "final-pergola-structure.png",
+      "sha256": "7615b7a20014d5a6e7358bad84b7abdfff4daa1b45e64c83572d72bca419989f"
+    },
+    {
+      "view": "east-road-side",
+      "image": "final-east-road-side.png",
+      "sha256": "aa7ded442732aed297c35cfd6f57c26df72656e15b1f7fc9ec250e45f4ee76e4"
+    },
+    {
+      "view": "flower-detail",
+      "image": "final-flower-detail.png",
+      "sha256": "24d6a662b889becbbeea933596af8c8682f84be3c2dfb8914acddd780676f3b9"
+    },
+    {
+      "view": "leaf-detail",
+      "image": "final-leaf-detail.png",
+      "sha256": "1c3f85ce1095d703685706b316d3fa2923b4a36d86b8cd87ed8a84b46dff8834"
+    }
+  ],
+  "web_source_sha256": "8625e7b4813f9a864c5a03121f32f28e2cc1e5d7265518b921593a137f8b8714",
+  "production_assets": [
+    {
+      "url": "models/landscape/guanghua-closeout.glb",
+      "revision": "e45cc1abf184",
+      "bytes": 121353204,
+      "sha256": "e45cc1abf18449507abd402b4db7ea0995e8a9b22cdcc6b32d8f84604e687bd2"
+    },
+    {
+      "url": "models/buildings/27-closeout.glb",
+      "revision": "7729b2cea51e",
+      "bytes": 3178560,
+      "sha256": "7729b2cea51e64e56dbb167891ca3bf259731451be494969463066f3acb74156"
+    },
+    {
+      "id": "05",
+      "name": "05 Landscape",
+      "url": "models/shared/05-guanghua-closeout.glb",
+      "revision": "39c56a008f4e",
+      "bytes": 4803248,
+      "sha256": "39c56a008f4ec9ceb712a91c4a49cd14d334b22e18aff6fb29ca79328e98e42d"
+    }
+  ],
+  "unresolved_evidence": [
+    "Absolute scale and levels inferred",
+    "Canopy and shrub photo coverage statistics not certified",
+    "Hidden structures and underground spaces unknown",
+    "ESKY_N location unknown"
+  ],
+  "secondary_targets_not_met": [
+    "Draw calls <=500: 5 measured views exceed target; mandatory runtime gates pass"
+  ],
+  "camera_repairs": [
+    "Flower detail reframed to include flowers and pedestal",
+    "Road side orthographic camera moved backward to avoid slicing ground",
+    "Leaf detail aimed at grounded shrub 159 from outside raised platform"
+  ],
+  "acceptance_boundary": "Internal relationship/structure/performance review of the supported visible scope; not a measured replica or automatic user acceptance"
+}
