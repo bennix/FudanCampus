@@ -17,6 +17,7 @@ for(const [level,ratio,size] of [['far',.01,128],['middle',.025,256],['near',.15
  await doc.transform(dequantize());
  const sourceBounds=getBounds(doc.getRoot().listScenes()[0]);
  for(const ext of [...doc.getRoot().listExtensionsUsed()])if(['EXT_meshopt_compression','KHR_mesh_quantization'].includes(ext.extensionName))ext.dispose();
+ for(const n of [...doc.getRoot().listNodes()])if(n.getExtras().tree_group==='V6 East spreading 01')n.dispose();
  for(const n of [...doc.getRoot().listNodes()]){const tag=n.getExtras().closeout_lod;if(tag&&tag!=='static'&&tag!==(level==='middle'?'far':level))n.dispose();}
  if(level==='far'){
   const proxies=new Map();
@@ -78,3 +79,4 @@ for(const [level,ratio,size] of [['far',.01,128],['middle',.025,256],['near',.15
  console.log('LANDSCAPE_LOD',level,out.length,triangles);
 }
 const path=new URL('campus-lod.json',pub),lod=JSON.parse(fs.readFileSync(path));lod.assets=lod.assets.filter(a=>a.id!=='shared-guanghua-landscape');lod.assets.push({id:'shared-guanghua-landscape',name:asset.name,sourceRevision:asset.revision,position:[0,0,0],rotation:[0,0,0],bounds,nearDistance:80,mediumDistance:250,tiers});fs.writeFileSync(path,JSON.stringify(lod,null,2)+'\n');
+await import('./build-cherry-lods.mjs');

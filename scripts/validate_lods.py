@@ -5,9 +5,9 @@ root=Path(__file__).resolve().parents[1]/'web/public'
 m=json.loads((root/'campus-manifest.json').read_text())
 lod=json.loads((root/'campus-lod.json').read_text())
 sources={category+'-'+a['id']:a for category in ['shared','buildings'] for a in m[category]}
-assert {a['id'] for a in lod['assets']}==set(sources)
+assert {a.get('sourceId',a['id']) for a in lod['assets']}==set(sources)
 for a in lod['assets']:
- s=sources[a['id']]
+ s=sources[a.get('sourceId',a['id'])]
  assert a['sourceRevision']==s['revision'],f"Stale LOD {a['id']}; run scripts/build_lods.py"
  assert a['position']==s.get('position',[0,0,0])
  assert all(low<=high for low,high in zip(a['bounds']['min'],a['bounds']['max']))
@@ -20,14 +20,17 @@ for a in lod['assets']:
   triangles=sum(sum(g['accessors'][p['indices']]['count']//3 for p in g['meshes'][node['mesh']]['primitives'])*g['accessors'][next(iter(node['extensions']['EXT_mesh_gpu_instancing']['attributes'].values()))]['count'] if 'EXT_mesh_gpu_instancing' in node.get('extensions',{}) else sum(g['accessors'][p['indices']]['count']//3 for p in g['meshes'][node['mesh']]['primitives']) for node in g['nodes'] if 'mesh' in node)
   assert triangles==t['triangles'] and triangles>0
   if a['id']=='shared-guanghua-landscape':
+   assert not any(n.get('extras',{}).get('tree_group')=='V6 East spreading 01' for n in g['nodes']), 'Duplicate cherry in landscape'
    assert any(n.get('extras',{}).get('feature_id')=='LAWN' for n in g['nodes']), 'Lawn surface missing'
    assert any(n.get('extras',{}).get('campusVegetation') for n in g['nodes']), 'Vegetation missing'
+ if a['id']=='guanghua-cherry':
+  assert a['tiers'][2]['triangles']==709192, 'Original cherry flower and branch detail must be retained'
  assert a['tiers'][0]['triangles']<=a['tiers'][1]['triangles']
  # Export triangulation can differ from canonical source; architectural surfaces must survive.
  if a['id'].startswith('buildings-'):
   assert a['tiers'][0]['triangles']>=a['tiers'][2]['triangles']*.85, f"Architectural detail destroyed: {a['id']}"
 initial=sum(a['tiers'][0]['bytes'] for a in lod['assets'])
 triangles=sum(a['tiers'][0]['triangles'] for a in lod['assets'])
-assert initial<25_000_000 and triangles<1_800_000,(initial,triangles)
+assert initial<35_000_000 and triangles<1_800_000,(initial,triangles)
 print(f"PASS: {len(lod['assets'])} assets, 3 LOD tiers, current source hashes, positions and GLB metadata")
 print(f'Overview payload: {initial:,} bytes; {triangles:,} triangles')

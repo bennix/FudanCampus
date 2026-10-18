@@ -1030,21 +1030,71 @@
       "tiers": [
         {
           "url": "models/lod/shared-guanghua-landscape-far.glb",
-          "revision": "9ae904852104",
-          "bytes": 3653468,
-          "triangles": 140132
+          "revision": "bdbbf3e9427c",
+          "bytes": 3607292,
+          "triangles": 136331
         },
         {
           "url": "models/lod/shared-guanghua-landscape-middle.glb",
-          "revision": "092bbb7256f9",
-          "bytes": 11479096,
-          "triangles": 594979
+          "revision": "94ffbaeda560",
+          "bytes": 9000088,
+          "triangles": 475689
         },
         {
           "url": "models/lod/shared-guanghua-landscape-near.glb",
-          "revision": "35b34d9741fc",
-          "bytes": 47127680,
-          "triangles": 1774575
+          "revision": "b4cf049b3f04",
+          "bytes": 44853280,
+          "triangles": 1635451
+        }
+      ]
+    },
+    {
+      "id": "guanghua-cherry",
+      "sourceId": "shared-guanghua-landscape",
+      "name": "东花园春樱",
+      "sourceRevision": "588b6b5b8370",
+      "position": [
+        0,
+        0,
+        0
+      ],
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "bounds": {
+        "min": [
+          157.5274837286655,
+          0.010876042336955827,
+          -157.94405582728237
+        ],
+        "max": [
+          168.29153839434457,
+          5.841868464442996,
+          -149.71513511754375
+        ]
+      },
+      "nearDistance": 45,
+      "mediumDistance": 140,
+      "tiers": [
+        {
+          "url": "models/lod/guanghua-cherry-far.glb",
+          "bytes": 2838784,
+          "triangles": 155514,
+          "revision": "886fe7b18fef"
+        },
+        {
+          "url": "models/lod/guanghua-cherry-middle.glb",
+          "bytes": 4870968,
+          "triangles": 354590,
+          "revision": "3e4c51e1d964"
+        },
+        {
+          "url": "models/lod/guanghua-cherry-near.glb",
+          "bytes": 9396460,
+          "triangles": 709192,
+          "revision": "d5a6e837c32d"
         }
       ]
     }
