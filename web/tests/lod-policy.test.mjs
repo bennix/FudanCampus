@@ -28,3 +28,12 @@ test('large overlapping districts do not starve a nearby landmark',()=>{
 test("close cherry retains original blossom and branch detail on mobile",()=>{const cherry=item("guanghua-cherry",15,[150000,360000,709192]);const campus=item("campus",1000,[1300000,1300000,1300000]);assert.equal(allocateTiers([campus,cherry],true).get("guanghua-cherry"),2);});
 
 test("nearby trees have independent detail slots",()=>{const trees=Array.from({length:10},(_,i)=>item("landscape-tree-"+i,10,[5000,26000,61000]));const selected=allocateTiers(trees,true);assert.ok([...selected.values()].every(t=>t===2));});
+
+test('close hedge tiles retain full density alongside tree detail',()=>{
+ const shrubs=Array.from({length:6},(_,i)=>item('landscape-shrub-'+i,5,[5000,20000,60000]));
+ const trees=Array.from({length:6},(_,i)=>item('landscape-tree-'+i,10,[5000,26000,61000]));
+ const selected=allocateTiers([...shrubs,...trees],true);
+ assert.ok([...selected.values()].every(t=>t===2));
+});
+
+test('campus trees use local foliage detail slots',()=>{const items=Array.from({length:8},(_,i)=>item('campus-tree-'+i,10,[2000,8000,16000]));assert.ok([...allocateTiers(items,true).values()].every(t=>t===2));});

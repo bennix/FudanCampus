@@ -9,7 +9,7 @@ const pub=new URL('./public/',import.meta.url),path=new URL('campus-lod.json',pu
 await Promise.all([MeshoptDecoder.ready,MeshoptEncoder.ready]);
 const io=new NodeIO().registerExtensions(ALL_EXTENSIONS).registerDependencies({'meshopt.decoder':MeshoptDecoder,'meshopt.encoder':MeshoptEncoder});
 for(const a of lod.assets){
- if(a.id.startsWith('landscape-tree-')||a.id==='guanghua-cherry'||a.id==='shared-guanghua-landscape'||(process.argv[2]&&a.id!==process.argv[2]))continue;
+ if(a.id.startsWith('campus-tree-')||a.id.startsWith('landscape-')||a.id==='guanghua-cherry'||a.id==='shared-guanghua-landscape'||(process.argv[2]&&a.id!==process.argv[2]))continue;
  for(let i=0;i<2;i++){
   const t=a.tiers[i],file=new URL(t.url,pub),doc=await io.read(file.pathname);
   await doc.transform(textureCompress({encoder:sharp,resize:i===0?[128,128]:[512,512]}),meshopt({encoder:MeshoptEncoder,level:'medium',quantizePosition:16}));

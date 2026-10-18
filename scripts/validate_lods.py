@@ -19,6 +19,10 @@ for a in lod['assets']:
   n=struct.unpack_from('<I',b,12)[0];g=json.loads(b[20:20+n])
   triangles=sum(sum(g['accessors'][p['indices']]['count']//3 for p in g['meshes'][node['mesh']]['primitives'])*g['accessors'][next(iter(node['extensions']['EXT_mesh_gpu_instancing']['attributes'].values()))]['count'] if 'EXT_mesh_gpu_instancing' in node.get('extensions',{}) else sum(g['accessors'][p['indices']]['count']//3 for p in g['meshes'][node['mesh']]['primitives']) for node in g['nodes'] if 'mesh' in node)
   assert triangles==t['triangles'] and triangles>0
+  if a['id']=='shared-05':
+   assert not any('Canopy' in n.get('name','') for n in g['nodes']), 'Old polygon canopy must be removed'
+  if a['id'].startswith('campus-tree-'):
+   assert all(m.get('alphaMode')=='MASK' for m in g['materials']), 'Leaf silhouettes require alpha cutouts'
   if a['id']=='shared-guanghua-landscape':
    assert not any(n.get('extras',{}).get('tree_group')=='V6 East spreading 01' for n in g['nodes']), 'Duplicate cherry in landscape'
    assert any(n.get('extras',{}).get('feature_id')=='LAWN' for n in g['nodes']), 'Lawn surface missing'

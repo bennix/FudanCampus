@@ -16,7 +16,7 @@ for(const [level,ratio,size] of [['far',.01,128],['middle',.025,256],['near',.15
  await doc.transform(dequantize());
  const sourceBounds=getBounds(doc.getRoot().listScenes()[0]);
  for(const ext of [...doc.getRoot().listExtensionsUsed()])if(['EXT_meshopt_compression','KHR_mesh_quantization'].includes(ext.extensionName))ext.dispose();
- for(const n of [...doc.getRoot().listNodes()])if(n.getExtras().tree_group)n.dispose();
+ for(const n of [...doc.getRoot().listNodes()])if(n.getExtras().tree_group||(['near','middle','far'].includes(n.getExtras().closeout_lod)&&/hedge|shrub/i.test(n.getName())))n.dispose();
  for(const n of [...doc.getRoot().listNodes()]){const tag=n.getExtras().closeout_lod;if(tag&&tag!=='static'&&tag!==(level==='middle'?'far':level))n.dispose();}
  await doc.transform(prune(),weld());
  const preserve=new Map();

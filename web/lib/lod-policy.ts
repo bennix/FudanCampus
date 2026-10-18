@@ -12,12 +12,13 @@ export function allocateTiers(items:Candidate[],mobile:boolean):Map<string,Tier>
  let remaining=(mobile?3_500_000:5_000_000)-items.reduce((n,i)=>n+i.triangles[0],0);
  let slots=mobile?3:6;
  let treeSlots=mobile?16:32;
+ let shrubSlots=mobile?8:16;
  for(const item of [...items].sort((a,b)=>(a.priority??a.distance)-(b.priority??b.distance))) {
-  const tree=item.id.startsWith('landscape-tree-');
-  if(tree?!treeSlots:!slots)continue;
+  const tree=item.id.startsWith('landscape-tree-')||item.id.startsWith('campus-tree-'),shrub=item.id.startsWith('landscape-shrub-');
+  if(shrub?!shrubSlots:tree?!treeSlots:!slots)continue;
   let tier=desiredTier(item,mobile);
-  while(tier>0 && (item.triangles[tier]-item.triangles[0]>remaining || (mobile && item.triangles[tier]>(item.id==='guanghua-cherry'?750_000:180_000))))tier=(tier-1) as Tier;
-  if(tier>0){result.set(item.id,tier);remaining-=item.triangles[tier]-item.triangles[0];if(tree)treeSlots--;else slots--;}
+  while(tier>0 && (item.triangles[tier]-item.triangles[0]>remaining || (mobile && item.triangles[tier]>(item.id==='guanghua-cherry'?750_000:shrub?500_000:180_000))))tier=(tier-1) as Tier;
+  if(tier>0){result.set(item.id,tier);remaining-=item.triangles[tier]-item.triangles[0];if(shrub)shrubSlots--;else if(tree)treeSlots--;else slots--;}
  }
  return result;
 }

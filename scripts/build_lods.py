@@ -63,3 +63,6 @@ if __name__=='__main__':
 
     import subprocess
     subprocess.run(['node',str(ROOT/'web/pack-lods.mjs'),*args],check=True)
+
+    if not args or args[0]=="shared-05":
+        subprocess.run(["node",str(ROOT/"web/build-campus-tree-lods.mjs")],check=True)
