@@ -2,7 +2,7 @@
 
 ## 毛主席像（58 号）
 
-依据两张实景照片重做低多边形长大衣、背手站姿、双排纽扣与铭牌底座；未拍到的背面、头顶及绝对尺寸为近似补全。网页新增「毛主席像」近景，模型位于原地图 58 号位置。
+人物已替换为 [1821427398 的「毛主席雕塑像」](https://sketchfab.com/3d-models/ef18c25e1e094cf99e2b377ad7377d05)（CC BY 4.0）。保留现有基座、铭牌和地图位置，裁去下载模型自带的小基座并统一缩放、调整石材材质。该模型源自重庆大学雕像，作为外形近似替代；网页提供模型署名链接。原文件及许可说明位于 `assets/landmarks/sources/`。
 
 - 独立源文件：`assets/landmarks/58.blend`；造型脚本：`scripts/statue_geometry.py`。
 - 网页模型：`web/public/models/shared/58.glb`，保留独立地标编号。
@@ -102,3 +102,21 @@ RENDER_VIEWS=none /Applications/Blender.app/Contents/MacOS/Blender -b -t 8 --pyt
 **完整重建会重新生成八栋 `.blend`、所有模块和清单，覆盖手工编辑的单栋文件。** 合并手工造型前不要运行完整重建；需先决定以脚本还是手工 `.blend` 为该栋的造型来源。`output/FudanCampus.blend` 是完整重建的组合场景；单栋导出不会同步修改它。原 `campus.glb` 保留为历史兼容文件，网页不再请求它；仅设置 `EXPORT_LEGACY=1` 完整重建时才更新。
 
 验证：`python3 scripts/validate_modular.py`、`node web/validate-models.mjs`，以及在 `web/` 下运行 `npx tsc --noEmit` 和 `npm run build:pages`。
+
+## 浏览器分级显示（LOD）
+
+桌面与移动浏览器统一使用远、中、近三档模型。首屏仅加载 15 个轻量总览资源（约 2.51 MB、40,280 个三角面）；靠近后按距离和面数预算加载细节，远离时恢复总览并释放细节几何、材质与贴图。切换边界保留 25% 缓冲区，快速跳转取消过期请求；失败保留现有模型并延迟重试。
+
+自动适配根据粗指针和 CPU 核数选择省电档，也可手动选择省电或高画质。省电档总可见几何预算 22 万三角面、单个细节不超过 10 万面、最多 3 个细节和 1 个并发请求，像素比最高 1.25、30 FPS 上限、关闭阴影。桌面高画质预算 200 万面、最多 6 个细节和 2 个并发请求，60 FPS 上限、2048 阴影。静止时不重复渲染，后台标签页暂停渲染。预算不包含升级过程中短暂共存的旧模型和解析缓冲；这不是实际手机帧率保证。
+
+源模型更新后重建 LOD，再发布（构建前自动校验源版本与资源哈希，防止发布过期模型）：
+
+```sh
+blender -b --python scripts/build_lods.py
+# 只更新雕像时：
+blender -b --python scripts/build_lods.py -- shared-58
+python3 scripts/validate_lods.py
+cd web && npm run test:lod && npm run build:pages
+```
+
+运行时清单：`web/public/campus-lod.json`；源模型清单仍为 `campus-manifest.json`。原始精度资源保留，LOD 是可重复生成的派生资源。

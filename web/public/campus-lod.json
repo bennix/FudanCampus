@@ -1,0 +1,740 @@
+{
+  "version": 1,
+  "assets": [
+    {
+      "id": "shared-00",
+      "name": "00 Terrain and roads",
+      "sourceRevision": "a04df4d240cf",
+      "position": [
+        0,
+        0,
+        0
+      ],
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "bounds": {
+        "min": [
+          -1600.0,
+          -0.8999999761581421,
+          -1900.0
+        ],
+        "max": [
+          1600.0,
+          5.375,
+          1300.0
+        ]
+      },
+      "nearDistance": 0,
+      "mediumDistance": 0,
+      "tiers": [
+        {
+          "url": "models/lod/shared-00-far.glb",
+          "revision": "caf2b405c59d",
+          "bytes": 152680,
+          "triangles": 1564
+        },
+        {
+          "url": "models/lod/shared-00-medium.glb",
+          "revision": "213f000e1c67",
+          "bytes": 154376,
+          "triangles": 1620
+        },
+        {
+          "url": "models/shared/00.glb",
+          "revision": "a04df4d240cf",
+          "bytes": 182848,
+          "triangles": 2300
+        }
+      ]
+    },
+    {
+      "id": "shared-01",
+      "name": "01 Historic courtyards",
+      "sourceRevision": "de995099bca1",
+      "position": [
+        0,
+        0,
+        0
+      ],
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "bounds": {
+        "min": [
+          -375.5249938964844,
+          0.0,
+          -183.4499969482422
+        ],
+        "max": [
+          -130.14999389648438,
+          14.702174186706543,
+          -18.260000228881836
+        ]
+      },
+      "nearDistance": 100,
+      "mediumDistance": 340,
+      "tiers": [
+        {
+          "url": "models/lod/shared-01-far.glb",
+          "revision": "c63faf24eacf",
+          "bytes": 120788,
+          "triangles": 1461
+        },
+        {
+          "url": "models/lod/shared-01-medium.glb",
+          "revision": "6329d943a97b",
+          "bytes": 317372,
+          "triangles": 4535
+        },
+        {
+          "url": "models/shared/01.glb",
+          "revision": "de995099bca1",
+          "bytes": 2271144,
+          "triangles": 41442
+        }
+      ]
+    },
+    {
+      "id": "shared-02",
+      "name": "02 West academic blocks",
+      "sourceRevision": "7fa75aab7af1",
+      "position": [
+        0,
+        0,
+        0
+      ],
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "bounds": {
+        "min": [
+          -393.5249938964844,
+          0.0,
+          -327.92498779296875
+        ],
+        "max": [
+          285.92498779296875,
+          19.15404510498047,
+          -5.860000133514404
+        ]
+      },
+      "nearDistance": 100,
+      "mediumDistance": 340,
+      "tiers": [
+        {
+          "url": "models/lod/shared-02-far.glb",
+          "revision": "7a94d341ca1f",
+          "bytes": 314940,
+          "triangles": 4464
+        },
+        {
+          "url": "models/lod/shared-02-medium.glb",
+          "revision": "6134cfc06777",
+          "bytes": 966248,
+          "triangles": 15809
+        },
+        {
+          "url": "models/shared/02.glb",
+          "revision": "7fa75aab7af1",
+          "bytes": 9096152,
+          "triangles": 151968
+        }
+      ]
+    },
+    {
+      "id": "shared-03",
+      "name": "03 North campus",
+      "sourceRevision": "d537da09f067",
+      "position": [
+        0,
+        0,
+        0
+      ],
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "bounds": {
+        "min": [
+          -520.3719482421875,
+          0.0,
+          -649.125
+        ],
+        "max": [
+          -229.17906188964844,
+          32.143714904785156,
+          -351.8599853515625
+        ]
+      },
+      "nearDistance": 100,
+      "mediumDistance": 340,
+      "tiers": [
+        {
+          "url": "models/lod/shared-03-far.glb",
+          "revision": "e2f5e5fc3af5",
+          "bytes": 291756,
+          "triangles": 4204
+        },
+        {
+          "url": "models/lod/shared-03-medium.glb",
+          "revision": "c7720f49bd96",
+          "bytes": 948084,
+          "triangles": 15171
+        },
+        {
+          "url": "models/shared/03.glb",
+          "revision": "d537da09f067",
+          "bytes": 8794420,
+          "triangles": 146772
+        }
+      ]
+    },
+    {
+      "id": "shared-04",
+      "name": "04 East campus",
+      "sourceRevision": "88235469b10d",
+      "position": [
+        0,
+        0,
+        0
+      ],
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "bounds": {
+        "min": [
+          287.67498779296875,
+          0.0,
+          -299.125
+        ],
+        "max": [
+          480.32501220703125,
+          22.351186752319336,
+          -21.459999084472656
+        ]
+      },
+      "nearDistance": 100,
+      "mediumDistance": 340,
+      "tiers": [
+        {
+          "url": "models/lod/shared-04-far.glb",
+          "revision": "29f54c31fa70",
+          "bytes": 176300,
+          "triangles": 2159
+        },
+        {
+          "url": "models/lod/shared-04-medium.glb",
+          "revision": "5e16519091a6",
+          "bytes": 460644,
+          "triangles": 7333
+        },
+        {
+          "url": "models/shared/04.glb",
+          "revision": "88235469b10d",
+          "bytes": 3978856,
+          "triangles": 69414
+        }
+      ]
+    },
+    {
+      "id": "shared-05",
+      "name": "05 Landscape",
+      "sourceRevision": "fa3be380e707",
+      "position": [
+        0,
+        0,
+        0
+      ],
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "bounds": {
+        "min": [
+          -515.8928833007812,
+          0.0,
+          -603.5739135742188
+        ],
+        "max": [
+          482.33563232421875,
+          8.07368278503418,
+          -10.75412368774414
+        ]
+      },
+      "nearDistance": 100,
+      "mediumDistance": 340,
+      "tiers": [
+        {
+          "url": "models/lod/shared-05-far.glb",
+          "revision": "520b742314fc",
+          "bytes": 122640,
+          "triangles": 1524
+        },
+        {
+          "url": "models/lod/shared-05-medium.glb",
+          "revision": "11c3e0276790",
+          "bytes": 468732,
+          "triangles": 6104
+        },
+        {
+          "url": "models/shared/05.glb",
+          "revision": "fa3be380e707",
+          "bytes": 4609656,
+          "triangles": 61040
+        }
+      ]
+    },
+    {
+      "id": "shared-58",
+      "name": "毛主席像",
+      "sourceRevision": "8f49e6afda91",
+      "position": [
+        0,
+        0,
+        0
+      ],
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "bounds": {
+        "min": [
+          -42.150001525878906,
+          0.0,
+          -68.30000305175781
+        ],
+        "max": [
+          -37.849998474121094,
+          8.34000015258789,
+          -64.5
+        ]
+      },
+      "nearDistance": 35,
+      "mediumDistance": 140,
+      "tiers": [
+        {
+          "url": "models/lod/shared-58-far.glb",
+          "revision": "d7647bed7ca0",
+          "bytes": 184956,
+          "triangles": 9307
+        },
+        {
+          "url": "models/lod/shared-58-medium.glb",
+          "revision": "9cebf44620d7",
+          "bytes": 691536,
+          "triangles": 37018
+        },
+        {
+          "url": "models/shared/58.glb",
+          "revision": "8f49e6afda91",
+          "bytes": 8947332,
+          "triangles": 369548
+        }
+      ]
+    },
+    {
+      "id": "buildings-14",
+      "name": "逸夫科技楼",
+      "sourceRevision": "0b6bffa0e4fa",
+      "position": [
+        -208.0,
+        0,
+        -198.4
+      ],
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "bounds": {
+        "min": [
+          -230.5,
+          0.0,
+          -208.70000305175782
+        ],
+        "max": [
+          -184.0,
+          33.400001525878906,
+          -187.25000610351563
+        ]
+      },
+      "nearDistance": 100,
+      "mediumDistance": 340,
+      "tiers": [
+        {
+          "url": "models/lod/buildings-14-far.glb",
+          "revision": "b72fcb04a815",
+          "bytes": 13216,
+          "triangles": 110
+        },
+        {
+          "url": "models/lod/buildings-14-medium.glb",
+          "revision": "3c4139ddd4fb",
+          "bytes": 37540,
+          "triangles": 457
+        },
+        {
+          "url": "models/buildings/14.glb",
+          "revision": "0b6bffa0e4fa",
+          "bytes": 256728,
+          "triangles": 4612
+        }
+      ]
+    },
+    {
+      "id": "buildings-16",
+      "name": "逸夫楼",
+      "sourceRevision": "31da9550a24f",
+      "position": [
+        -120.0,
+        0,
+        -255.20000000000002
+      ],
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "bounds": {
+        "min": [
+          -135.0030059814453,
+          0.0,
+          -266.2000152587891
+        ],
+        "max": [
+          -103.80000305175781,
+          24.200000762939453,
+          -243.00000305175783
+        ]
+      },
+      "nearDistance": 100,
+      "mediumDistance": 340,
+      "tiers": [
+        {
+          "url": "models/lod/buildings-16-far.glb",
+          "revision": "36fd07ff716d",
+          "bytes": 61128,
+          "triangles": 931
+        },
+        {
+          "url": "models/lod/buildings-16-medium.glb",
+          "revision": "2fe354bd140a",
+          "bytes": 213908,
+          "triangles": 3665
+        },
+        {
+          "url": "models/buildings/16.glb",
+          "revision": "31da9550a24f",
+          "bytes": 1963724,
+          "triangles": 36456
+        }
+      ]
+    },
+    {
+      "id": "buildings-20",
+      "name": "恒隆物理楼",
+      "sourceRevision": "0c39e38a472a",
+      "position": [
+        -40.0,
+        0,
+        -202.4
+      ],
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "bounds": {
+        "min": [
+          -86.4000015258789,
+          0.0,
+          -209.65
+        ],
+        "max": [
+          6.400001525878906,
+          20.299999237060547,
+          -188.00000610351563
+        ]
+      },
+      "nearDistance": 100,
+      "mediumDistance": 340,
+      "tiers": [
+        {
+          "url": "models/lod/buildings-20-far.glb",
+          "revision": "abb60fb879be",
+          "bytes": 22776,
+          "triangles": 276
+        },
+        {
+          "url": "models/lod/buildings-20-medium.glb",
+          "revision": "49baecf4c455",
+          "bytes": 67592,
+          "triangles": 1040
+        },
+        {
+          "url": "models/buildings/20.glb",
+          "revision": "0c39e38a472a",
+          "bytes": 556192,
+          "triangles": 10192
+        }
+      ]
+    },
+    {
+      "id": "buildings-27",
+      "name": "光华楼",
+      "sourceRevision": "fca1d0c77446",
+      "position": [
+        131.20000000000002,
+        0,
+        -224.8
+      ],
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "bounds": {
+        "min": [
+          68.35000152587892,
+          0.0,
+          -240.8
+        ],
+        "max": [
+          194.05000610351564,
+          79.55000305175781,
+          -195.46999816894532
+        ]
+      },
+      "nearDistance": 100,
+      "mediumDistance": 340,
+      "tiers": [
+        {
+          "url": "models/lod/buildings-27-far.glb",
+          "revision": "e5175e7caaee",
+          "bytes": 46780,
+          "triangles": 597
+        },
+        {
+          "url": "models/lod/buildings-27-medium.glb",
+          "revision": "05bc53527867",
+          "bytes": 142172,
+          "triangles": 2329
+        },
+        {
+          "url": "models/buildings/27.glb",
+          "revision": "fca1d0c77446",
+          "bytes": 1235336,
+          "triangles": 23104
+        }
+      ]
+    },
+    {
+      "id": "buildings-51",
+      "name": "综合办公楼",
+      "sourceRevision": "e17cd179569f",
+      "position": [
+        -165.60000000000002,
+        0,
+        -65.60000000000001
+      ],
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "bounds": {
+        "min": [
+          -186.60000000000002,
+          0.0,
+          -76.9499984741211
+        ],
+        "max": [
+          -144.60000000000002,
+          18.424999237060547,
+          -53.90000305175782
+        ]
+      },
+      "nearDistance": 100,
+      "mediumDistance": 340,
+      "tiers": [
+        {
+          "url": "models/lod/buildings-51-far.glb",
+          "revision": "b6b652a3dadf",
+          "bytes": 28424,
+          "triangles": 407
+        },
+        {
+          "url": "models/lod/buildings-51-medium.glb",
+          "revision": "1a5b8ff599b8",
+          "bytes": 79284,
+          "triangles": 1610
+        },
+        {
+          "url": "models/buildings/51.glb",
+          "revision": "e17cd179569f",
+          "bytes": 670052,
+          "triangles": 16032
+        }
+      ]
+    },
+    {
+      "id": "buildings-55",
+      "name": "化学楼",
+      "sourceRevision": "95a895241e1c",
+      "position": [
+        -97.60000000000001,
+        0,
+        -160.8
+      ],
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "bounds": {
+        "min": [
+          -130.3999954223633,
+          0.0,
+          -177.1999938964844
+        ],
+        "max": [
+          -58.80000076293946,
+          12.600000381469727,
+          -144.0799987792969
+        ]
+      },
+      "nearDistance": 100,
+      "mediumDistance": 340,
+      "tiers": [
+        {
+          "url": "models/lod/buildings-55-far.glb",
+          "revision": "2a4ae12d2e38",
+          "bytes": 38048,
+          "triangles": 543
+        },
+        {
+          "url": "models/lod/buildings-55-medium.glb",
+          "revision": "0bf966a919c6",
+          "bytes": 114312,
+          "triangles": 2180
+        },
+        {
+          "url": "models/buildings/55.glb",
+          "revision": "95a895241e1c",
+          "bytes": 1007380,
+          "triangles": 21820
+        }
+      ]
+    },
+    {
+      "id": "buildings-56",
+      "name": "理科图书馆",
+      "sourceRevision": "966a98308aa5",
+      "position": [
+        -96.80000000000001,
+        0,
+        -80.80000000000001
+      ],
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "bounds": {
+        "min": [
+          -128.8,
+          0.0,
+          -100.44999389648439
+        ],
+        "max": [
+          -64.80000000000001,
+          11.34000015258789,
+          -84.08208160400392
+        ]
+      },
+      "nearDistance": 100,
+      "mediumDistance": 340,
+      "tiers": [
+        {
+          "url": "models/lod/buildings-56-far.glb",
+          "revision": "8502adfc895e",
+          "bytes": 845904,
+          "triangles": 11596
+        },
+        {
+          "url": "models/lod/buildings-56-medium.glb",
+          "revision": "f22c3d8405da",
+          "bytes": 3348788,
+          "triangles": 46402
+        },
+        {
+          "url": "models/buildings/56.glb",
+          "revision": "966a98308aa5",
+          "bytes": 27602000,
+          "triangles": 464068
+        }
+      ]
+    },
+    {
+      "id": "buildings-65",
+      "name": "复旦正门",
+      "sourceRevision": "36581b572da4",
+      "position": [
+        -40.0,
+        0,
+        -6.4
+      ],
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "bounds": {
+        "min": [
+          -59.025001525878906,
+          0.0,
+          -9.390000247955323
+        ],
+        "max": [
+          -20.975000381469727,
+          8.369999885559082,
+          -1.599999809265137
+        ]
+      },
+      "nearDistance": 100,
+      "mediumDistance": 340,
+      "tiers": [
+        {
+          "url": "models/lod/buildings-65-far.glb",
+          "revision": "ad08dc96e12a",
+          "bytes": 91076,
+          "triangles": 1137
+        },
+        {
+          "url": "models/lod/buildings-65-medium.glb",
+          "revision": "5939d55c7c47",
+          "bytes": 295528,
+          "triangles": 4339
+        },
+        {
+          "url": "models/buildings/65.glb",
+          "revision": "36581b572da4",
+          "bytes": 2467960,
+          "triangles": 42768
+        }
+      ]
+    }
+  ]
+}

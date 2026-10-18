@@ -1,4 +1,4 @@
-"""58: low-poly photo study; front is Blender -Y (campus south).
+"""58: reference-guided sculptural study; front is Blender -Y (campus south).
 
 Dimensions are inferred, not surveyed. The cropped crown and unseen rear are
 conservative reconstructions. Geometry only: no photographic image billboard.
@@ -15,8 +15,8 @@ def build_statue(x=0, y=0):
         m = bpy.data.materials.new(name)
         m.diffuse_color = (*color, 1)
         m.use_nodes = True
-        m.node_tree.nodes['Principled BSDF'].inputs['Base Color'].default_value = (*color, 1)
-        m.node_tree.nodes['Principled BSDF'].inputs['Roughness'].default_value = .92
+        next(n for n in m.node_tree.nodes if n.type == 'BSDF_PRINCIPLED').inputs['Base Color'].default_value = (*color, 1)
+        next(n for n in m.node_tree.nodes if n.type == 'BSDF_PRINCIPLED').inputs['Roughness'].default_value = .92
         return m
     stone = material('58 · weathered grey stone', (.19,.18,.165))
     light = material('58 · cut stone planes', (.215,.202,.184))
@@ -82,9 +82,11 @@ def build_statue(x=0, y=0):
         (5.82,0,.015,.69,.40),(6.25,0,0,.72,.41),
         (6.82,0,0,.79,.415),(7.20,0,.01,.77,.37),
         (7.35,0,.025,.57,.31),(7.43,0,.035,.31,.25)],20)
+    for v in coat.data.vertices:
+        if v.co.y < 0 and v.co.z < 5.9:
+            v.co.y -= .035*math.cos(v.co.x*15)*(5.9-v.co.z)/1.9
     # Deliberate low-poly creases, same stone, rather than drawn black outlines.
     for sign in [-1,1]:
-        mesh('long coat fold',[(sign*.48,-.38,5.91),(sign*.69,-.40,4.05),(sign*.44,-.48,4.04),(sign*.31,-.408,5.17)],[(0,1,2),(0,2,3)],light)
         limb('sleeve with elbow behind',[(sign*.60,.06,7.19),(sign*.76,.045,7.02),(sign*.86,.06,6.65),(sign*.94,.13,6.07),(sign*.76,.37,5.70),(sign*.45,.52,5.62)],[.22,.25,.24,.215,.17,.14])
         mesh('slanted pocket flap',[(sign*.57,-.32,5.94),(sign*.78,-.26,5.88),(sign*.79,-.29,5.67),(sign*.57,-.38,5.73)],[(0,1,2,3)],light)
         mesh('pointed collar',[(sign*.035,-.25,7.43),(sign*.30,-.21,7.43),(sign*.46,-.365,7.22),(sign*.25,-.425,7.08)],[(0,1,2),(0,2,3)],light)
@@ -93,53 +95,96 @@ def build_statue(x=0, y=0):
         for z in [5.97,6.34,6.71,7.04]:
             ellipsoid('double row coat button',(sign*.30,-.414,z),(.052,.025,.052),light,10,4)
     mesh('overlap seam',[(-.12,-.415,5.95),(-.11,-.419,6.93),(-.095,-.422,6.93),(-.10,-.418,5.95)],[(0,1,2,3)],dark)
-    rings('neck',[(7.34,0,.025,.20,.20),(7.65,0,.015,.22,.21)],12)
+    neck=rings('neck',[(7.34,0,.025,.20,.20),(7.65,0,.015,.22,.21)],48)
+    for poly in neck.data.polygons:poly.use_smooth=True
+    for obj in objects:
+        if any(word in obj.name for word in ['overcoat','sleeve','trouser leg','shoe','hands clasped']):
+            for poly in obj.data.polygons:poly.use_smooth=True
+            mod=obj.modifiers.new('Soft sculpted cloth','SUBSURF');mod.levels=2;mod.render_levels=2
     # Head: broad cheeks and forehead, receding swept-back hair, sculpted nose and lips.
     head_start=len(objects)
-    head=rings('broad rounded face',[(7.53,0,-.005,.17,.17),
-        (7.60,0,-.025,.245,.235),(7.69,0,-.005,.29,.265),
-        (7.81,0,.005,.325,.275),(7.94,0,.018,.325,.272),
-        (8.06,0,.025,.31,.273),(8.18,0,.03,.302,.272),
-        (8.30,0,.038,.285,.255),(8.38,0,.045,.235,.21),
-        (8.425,0,.055,.12,.115),(8.44,0,.06,.018,.02)],24)
-    # Flatten the central face continuously into the cheek planes. No separate
-    # spherical cheek attachments: they made the earlier face look mechanical.
-    for v in head.data.vertices:
-        if v.co.y < -.08:
-            v.co.y -= .025*(abs(v.co.x)/.325)
+    # Continuous sculpted surface: features displace the same facial mesh.
+    # Coordinates remain compatible with the campus statue's neck and scale.
+    def g(x,z,cx,cz,wx,wz):
+        return math.exp(-((x-cx)/wx)**2-((z-cz)/wz)**2)
+    vs=[];fs=[];nu=128;nv=104
+    for k in range(nv+1):
+        t=math.pi*(.001+.998*k/nv)
+        z=7.985+.465*math.cos(t)
+        jaw=1-.14*math.exp(-((z-7.59)/.13)**2)
+        rx=.332*math.sin(t)*jaw
+        for j in range(nu):
+            a=math.tau*j/nu
+            xx=rx*math.cos(a); yy=.045+.285*math.sin(t)*math.sin(a)
+            front=max(0,-math.sin(a))**4
+            d=0
+            # Fuller cheek pads, broad chin and recessed eye sockets.
+            for sign in [-1,1]:
+                d+=.042*g(xx,z,sign*.19,7.91,.105,.115)
+                d-=.027*g(xx,z,sign*.135,8.075,.083,.038)
+                d+=.032*g(xx,z,sign*.13,8.126,.10,.035)
+                d+=.014*g(xx,z,sign*.13,8.035,.075,.025)
+                d+=.037*g(xx,z,sign*.068,7.958,.042,.028)
+                d-=.014*g(xx,z,sign*.071,7.938,.019,.012)
+                d-=.010*g(xx,z,sign*.12,7.88,.024,.059)
+            d+=.052*g(xx,z,0,7.657,.15,.065)
+            # Nose bridge and rounded tip, integrated into the cheeks.
+            d+=.063*g(xx,z,0,8.048,.037,.102)
+            d+=.115*g(xx,z,0,7.969,.056,.042)
+            d+=.018*g(xx,z,0,7.855,.12,.065)
+            d+=.020*g(xx,z,0,7.826,.109,.014)
+            d+=.025*g(xx,z,0,7.797,.108,.018)
+            d-=.017*g(xx,z,0,7.813,.13,.006)
+            d-=.009*g(xx,z,0,7.757,.10,.018)
+            yy-=front*d
+            vs.append((xx,yy,z))
+    for k in range(nv):
+        for j in range(nu):
+            a=k*nu+j;b=k*nu+(j+1)%nu
+            fs.append((a,b,b+nu,a+nu))
+    fs.extend([tuple(range(nu-1,-1,-1)),tuple(nv*nu+j for j in range(nu))])
+    head=mesh('continuous sculpted portrait',vs,fs)
+    for poly in head.data.polygons:poly.use_smooth=True
+    def facial_y(xx,zz):
+        candidates=[v for v in vs if v[1]<0]
+        return min(candidates,key=lambda v:(v[0]-xx)**2+(v[2]-zz)**2)[1]
+    def ridge(name,points,radius,mat):
+        curve=bpy.data.curves.new(name,'CURVE');curve.dimensions='3D';curve.bevel_depth=radius;curve.bevel_resolution=3
+        spline=curve.splines.new('POLY');spline.points.add(len(points)-1)
+        for i,(p,co) in enumerate(zip(spline.points,points)):
+            p.co=(*co,1);p.radius=.15+.85*math.sin(math.pi*i/(len(points)-1))
+        ob=bpy.data.objects.new('毛主席像 · '+name,curve);bpy.context.scene.collection.objects.link(ob);ob.location=(x,y,0);ob.data.materials.append(mat)
+        bpy.ops.object.select_all(action='DESELECT');ob.select_set(True);bpy.context.view_layer.objects.active=ob;bpy.ops.object.convert(target='MESH')
+        ob['landmark_id']='58';ob['landmark_name']='毛主席像';objects.append(ob)
     for sign in [-1,1]:
-        ellipsoid('ear',(sign*.315,.025,7.94),(.04,.068,.118),segments=10,rings_count=5)
-        mesh('soft brow arch',[(sign*.052,-.253,8.125),(sign*.12,-.272,8.143),(sign*.195,-.241,8.131),(sign*.238,-.204,8.10),(sign*.17,-.253,8.105),(sign*.085,-.272,8.105)],[(0,1,5),(1,2,4,5),(2,3,4)],stone)
-        mesh('upper eyelid',[(sign*.065,-.258,8.066),(sign*.115,-.273,8.088),(sign*.165,-.26,8.087),(sign*.215,-.226,8.059),(sign*.158,-.267,8.064),(sign*.11,-.275,8.066)],[(0,1,5),(1,2,4,5),(2,3,4)],stone)
-        mesh('eye slit',[(sign*.07,-.263,8.063),(sign*.12,-.278,8.073),(sign*.167,-.263,8.07),(sign*.21,-.23,8.058),(sign*.157,-.268,8.054),(sign*.115,-.279,8.053)],[(0,1,5),(1,2,4,5),(2,3,4)],dark)
-        ellipsoid('lower eyelid',(sign*.136,-.244,8.040),(.075,.018,.022),stone,10,4)
-    mesh('broad nose',[(-.035,-.256,8.10),(.035,-.256,8.10),
-        (-.045,-.31,8.01),(.045,-.31,8.01),(-.055,-.366,7.943),(.055,-.366,7.943),
-        (-.103,-.301,7.918),(.103,-.301,7.918),(0,-.379,7.935),(0,-.315,7.898)],
-        [(0,2,3,1),(2,4,8),(2,8,5,3),(4,6,9,8),(8,9,7,5),(0,6,4,2),(1,3,5,7),(6,7,9)],stone)
-    for sign in [-1,1]:
-        ellipsoid('nose wing',(sign*.077,-.30,7.927),(.044,.037,.032),stone,10,4)
-        ellipsoid('nostril recess',(sign*.068,-.323,7.906),(.021,.011,.009),dark,8,3)
-    mesh('closed upper lip',[(-.15,-.239,7.798),(-.083,-.279,7.815),(-.035,-.29,7.827),(0,-.298,7.817),(.035,-.29,7.827),(.083,-.279,7.815),(.15,-.239,7.798),(.075,-.291,7.79),(0,-.309,7.793),(-.075,-.291,7.79)],
-         [(0,1,9),(1,2,3,8,9),(3,4,5,7,8),(5,6,7)],stone)
-    mesh('quiet mouth line',[(-.145,-.244,7.797),(-.07,-.295,7.796),(0,-.312,7.798),(.07,-.295,7.796),(.145,-.244,7.797),(.07,-.294,7.785),(0,-.308,7.788),(-.07,-.294,7.785)],[(0,1,7),(1,2,6,7),(2,3,5,6),(3,4,5)],dark)
-    ellipsoid('full lower lip',(0,-.267,7.765),(.124,.039,.032),stone,14,4)
-    ellipsoid('small chin mole',(.029,-.269,7.707),(.009,.006,.009),stone,8,3)
-    # A receding front hairline with fuller swept-back sides, not a tall cap.
-    hair_vs=[];hair_faces=[];n=32
-    for k in range(5):
-        t=k/4
+        for upper in [True,False]:
+            points=[]
+            for j in range(25):
+                t=j/24;xx=sign*(.067+.142*t)
+                zz=8.068+( .013 if upper else -.008)*math.sin(math.pi*t)-.006*t
+                points.append((xx,facial_y(xx,zz)-.006,zz))
+            ridge('sculpted upper eyelid' if upper else 'sculpted lower eyelid',points,.006 if upper else .004,stone)
+        ear=ellipsoid('rounded ear',(sign*.319,.034,7.978),(.049,.064,.109),stone,24,16)
+        for poly in ear.data.polygons:poly.use_smooth=True
+        inner=ellipsoid('ear concha',(sign*.344,-.012,7.977),(.016,.018,.060),stone,20,12)
+        for poly in inner.data.polygons:poly.use_smooth=True
+    ellipsoid('chin mole',(.032,-.237,7.718),(.007,.005,.007),stone,12,8)
+    # Receding temples and broad swept-back mass, with restrained combed grooves.
+    hair_vs=[];hair_faces=[];n=128;rows=32
+    for k in range(rows+1):
+        t=k/rows
         for j in range(n):
-            a=math.tau*j/n
-            front=max(0,-math.sin(a))
-            bottom=8.015+.388*front**3
-            z=bottom+(8.454-bottom)*t
-            radius=math.sqrt(max(.003,1-((z-8.105)/.355)**2))
-            hair_vs.append((.345*radius*math.cos(a),.067+.278*radius*math.sin(a),z))
-    for k in range(4):
+            a=math.tau*j/n;front=max(0,-math.sin(a))
+            bottom=7.995+.365*front**.55+.018*math.cos(a)*front
+            z=bottom+(8.468-bottom)*math.sin(t*math.pi/2)
+            radius=math.sqrt(max(.00001,1-((z-8.005)/.464)**2))
+            groove=.0012*math.sin(35*a+8*t)*(math.sin(math.pi*t)**.5)
+            hair_vs.append((((.332+.012*math.sin(math.pi*t))*radius+groove)*math.cos(a),.045+((.285+.012*math.sin(math.pi*t))*radius+groove)*math.sin(a),z))
+    for k in range(rows):
         for j in range(n):hair_faces.append((k*n+j,k*n+(j+1)%n,(k+1)*n+(j+1)%n,(k+1)*n+j))
-    hair_faces.append(tuple(4*n+j for j in range(n)))
-    mesh('receding hairline swept side hair',hair_vs,hair_faces,dark)
+    hair_faces.append(tuple(rows*n+j for j in range(n)))
+    hair=mesh('swept back receding hair',hair_vs,hair_faces,stone)
+    for poly in hair.data.polygons:poly.use_smooth=True
     # Slight turn, without exaggerating the pose inferred from oblique photos.
     for obj in objects[head_start:]:
         for v in obj.data.vertices:
@@ -155,3 +200,55 @@ def build_statue(x=0, y=0):
         obj['landmark_id']='58';obj['landmark_name']='毛主席像';objects.append(obj)
     text('毛 泽 东',2.25,.29);text('1893.12—1976.9',2.03,.13)
     return objects
+
+# Keep the procedural study available; the published landmark uses the licensed scan.
+_build_statue_study = build_statue
+
+def build_statue(x=0, y=0):
+    import bmesh
+    from mathutils import Matrix
+    source = Path(__file__).resolve().parents[1] / 'assets/landmarks/sources/mao-sketchfab.glb'
+    if not source.exists():
+        raise FileNotFoundError(f'Missing licensed statue source: {source}')
+    old = _build_statue_study(x,y)
+    pedestal = []
+    for obj in old:
+        if max(v.co.z for v in obj.data.vertices) <= 3.241:
+            pedestal.append(obj)
+        else:
+            bpy.data.objects.remove(obj,do_unlink=True)
+    before=set(bpy.data.objects)
+    bpy.ops.import_scene.gltf(filepath=str(source))
+    imported=set(bpy.data.objects)-before
+    parts=[o for o in imported if o.type=='MESH']
+    empties=[o for o in imported if o.type=='EMPTY']
+    for obj in parts:
+        transform=obj.matrix_world.copy()
+        obj.parent=None;obj.matrix_world=Matrix.Identity(4)
+        obj.data.transform(transform)
+    bpy.ops.object.select_all(action='DESELECT')
+    for obj in parts:obj.select_set(True)
+    bpy.context.view_layer.objects.active=parts[0]
+    bpy.ops.object.join();figure=bpy.context.object
+    # Remove the scan's short plinth; the existing campus pedestal is retained.
+    cut=.95
+    bm=bmesh.new();bm.from_mesh(figure.data)
+    bmesh.ops.remove_doubles(bm,verts=list(bm.verts),dist=.0001)
+    bmesh.ops.bisect_plane(bm,geom=list(bm.verts)+list(bm.edges)+list(bm.faces),dist=.00001,plane_co=(0,0,cut),plane_no=(0,0,1),clear_inner=True,clear_outer=False)
+    boundary=[e for e in bm.edges if e.is_boundary and all(abs(v.co.z-cut)<.001 for v in e.verts)]
+    if boundary:bmesh.ops.holes_fill(bm,edges=boundary,sides=0)
+    bmesh.ops.recalc_face_normals(bm,faces=list(bm.faces));bm.to_mesh(figure.data);bm.free()
+    vs=figure.data.vertices
+    lo=[min(v.co[i] for v in vs) for i in range(3)];hi=[max(v.co[i] for v in vs) for i in range(3)]
+    factor=5.10/(hi[2]-cut)
+    for v in vs:
+        v.co=Vector(((v.co.x-(lo[0]+hi[0])/2)*factor,(v.co.y-(lo[1]+hi[1])/2)*factor,3.24+(v.co.z-cut)*factor))
+    figure.location=(x,y,0);figure.name='毛主席像 · Sketchfab 1821427398'
+    figure['landmark_id']='58';figure['landmark_name']='毛主席像'
+    figure['source']='https://sketchfab.com/3d-models/ef18c25e1e094cf99e2b377ad7377d05'
+    figure['author']='1821427398';figure['license']='CC BY 4.0'
+    figure['modifications']='Original plinth removed; scaled and placed on campus pedestal.'
+    figure.data.materials.clear();figure.data.materials.append(bpy.data.materials.get('58 · weathered grey stone'))
+    for poly in figure.data.polygons:poly.use_smooth=True
+    for obj in empties:bpy.data.objects.remove(obj,do_unlink=True)
+    return pedestal+[figure]
