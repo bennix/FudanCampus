@@ -50,7 +50,11 @@ export default function Home(){
  const labels:{data:Building;point:THREE.Vector3;button:HTMLButtonElement}[]=[];
  const abort=new AbortController();
  const manifestUrl='/campus-lod.json';
- const prepare=(group:THREE.Group)=>group.traverse(o=>{if(o instanceof THREE.Mesh){if(['shared-02','shared-03'].includes(group.userData.lodAssetId)&&['3','5','7'].includes(String(o.userData.building_id??'')))o.visible=false;o.castShadow=!mobile&&!o.name.includes('Continuous');o.receiveShadow=!mobile;}if(/Canop|Trunk|Tree bark/i.test(o.name)||o.userData.campusVegetation===true)o.visible=showTrees;});
+ const prepare=(group:THREE.Group)=>group.traverse(o=>{if(o instanceof THREE.Mesh){if(['shared-02','shared-03'].includes(group.userData.lodAssetId)&&['3','5','7'].includes(String(o.userData.building_id??'')))o.visible=false;// Separate coplanar base roads from the overlapping landscape terrain.
+ const road=group.userData.lodAssetId==='shared-00'&&/road|path/i.test(o.name);
+ const terrain=group.userData.lodAssetId==='shared-guanghua-landscape'&&o.userData.feature_id==='GROUND';
+ if(road||terrain){const adjust=(m:THREE.Material)=>{const c=m.clone();c.polygonOffset=true;c.polygonOffsetFactor=road?-2:2;c.polygonOffsetUnits=road?-4:4;return c;};o.material=Array.isArray(o.material)?o.material.map(adjust):adjust(o.material);}
+ o.castShadow=!mobile&&!o.name.includes('Continuous');o.receiveShadow=!mobile;}if(/Canop|Trunk|Tree bark/i.test(o.name)||o.userData.campusVegetation===true)o.visible=showTrees;});
  let lod:CampusLod|undefined;let lodReady=false,lastDetailCheck=0;
  Promise.all([fetch(manifestUrl,{signal:abort.signal}).then(r=>{if(!r.ok)throw Error('模型清单不可用');return r.json() as Promise<LodManifest>;}),fetch('/buildings.json',{signal:abort.signal}).then(r=>{if(!r.ok)throw Error('标签文件不可用');return r.json() as Promise<{buildings:Building[]}>;})]).then(async([manifest,data])=>{
   if(canceled)return;model=new THREE.Group();scene.add(model);

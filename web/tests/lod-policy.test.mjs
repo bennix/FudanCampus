@@ -12,12 +12,12 @@ test('hysteresis prevents boundary thrashing',()=>{
 test('budget is nearest-first and bounded across a tour',()=>{
  const items=Array.from({length:20},(_,i)=>item(String(i),i+1,[1000,80000,400000]));
  const selected=allocateTiers(items,true);
- assert.equal(selected.get('0'),1);assert.equal(selected.get('1'),1);assert.equal(selected.get('2'),0);
- assert.ok(items.reduce((sum,i)=>sum+i.triangles[selected.get(i.id)],0)<=220000);
+ assert.equal(selected.get('0'),1);assert.equal(selected.get('1'),1);assert.equal(selected.get('2'),1);
+ assert.ok(items.reduce((sum,i)=>sum+i.triangles[selected.get(i.id)],0)<=1800000);
  const departed=allocateTiers(items.map(i=>({...i,distance:1000,current:1})),true);
  assert.ok([...departed.values()].every(t=>t===0));
 });
-test('an oversized overview does not trigger more detail',()=>assert.equal(allocateTiers([item('large',0,[250000,300000,500000])],true).get('large'),0));
+test('an oversized overview does not trigger more detail',()=>assert.equal(allocateTiers([item('large',0,[1900000,2000000,2500000])],true).get('large'),0));
 
 test('large overlapping districts do not starve a nearby landmark',()=>{
  const districts=Array.from({length:3},(_,i)=>({...item('district'+i,0),priority:100}));

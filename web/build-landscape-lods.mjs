@@ -2,7 +2,7 @@ import fs from 'node:fs';
 import {createHash} from 'node:crypto';
 import {NodeIO} from '@gltf-transform/core';
 import {ALL_EXTENSIONS} from '@gltf-transform/extensions';
-import {prune,weld,simplify,dedup,instance,textureCompress,meshopt,getBounds,compactPrimitive,simplifyPrimitive} from '@gltf-transform/functions';
+import {prune,weld,simplify,dedup,instance,textureCompress,meshopt,getBounds,compactPrimitive,simplifyPrimitive,dequantize} from '@gltf-transform/functions';
 import {MeshoptDecoder,MeshoptEncoder,MeshoptSimplifier} from 'meshoptimizer';
 import sharp from 'sharp';
 import {SphereGeometry} from 'three';
@@ -14,6 +14,8 @@ const io=new NodeIO().registerExtensions(ALL_EXTENSIONS).registerDependencies({'
 const bytes=readModelBytes(new URL(asset.url,pub)),tiers=[];let bounds;
 for(const [level,ratio,size] of [['far',.01,128],['middle',.025,256],['near',.15,512]]){
  const doc=await io.readBinary(bytes);
+ await doc.transform(dequantize());
+ const sourceBounds=getBounds(doc.getRoot().listScenes()[0]);
  for(const ext of [...doc.getRoot().listExtensionsUsed()])if(['EXT_meshopt_compression','KHR_mesh_quantization'].includes(ext.extensionName))ext.dispose();
  for(const n of [...doc.getRoot().listNodes()]){const tag=n.getExtras().closeout_lod;if(tag&&tag!=='static'&&tag!==(level==='middle'?'far':level))n.dispose();}
  if(level==='far'){
@@ -63,12 +65,14 @@ for(const [level,ratio,size] of [['far',.01,128],['middle',.025,256],['near',.15
  for(const mesh of doc.getRoot().listMeshes()){for(const prim of [...mesh.listPrimitives()])if(!(prim.getIndices()?.getCount()??prim.getAttribute('POSITION')?.getCount())){mesh.removePrimitive(prim);prim.dispose();}if(!mesh.listPrimitives().length)mesh.dispose();}
  await doc.transform(prune(),dedup(),textureCompress({encoder:sharp,resize:[size,size]}));
  // The scene contains repeated leaf prototypes. Preserve GPU instancing in the derived delivery.
- bounds??=getBounds(doc.getRoot().listScenes()[0]);
+ const derivedBounds=getBounds(doc.getRoot().listScenes()[0]);
+ for(let i=0;i<3;i++)if(derivedBounds.min[i]<sourceBounds.min[i]-.2||derivedBounds.max[i]>sourceBounds.max[i]+.2)throw Error('LOD escaped source bounds; check normalized coordinates');
+ bounds??=sourceBounds;
  let triangles=0;for(const n of doc.getRoot().listNodes())if(n.getMesh())for(const p of n.getMesh().listPrimitives())triangles+=(p.getIndices()?.getCount()??p.getAttribute('POSITION').getCount())/3;
  const plants=new Set(doc.getRoot().listNodes().filter(n=>/Canop|Trunk|Tree bark/i.test(n.getName())||['near','middle','far'].includes(n.getExtras().closeout_lod)).map(n=>n.getMesh()));
  await doc.transform(instance({min:2}));
  for(const n of doc.getRoot().listNodes())if(plants.has(n.getMesh()))n.setExtras({...n.getExtras(),campusVegetation:true});
- await doc.transform(meshopt({encoder:MeshoptEncoder,level:'medium'}));
+ await doc.transform(meshopt({encoder:MeshoptEncoder,level:'medium',quantizePosition:16}));
  const out=await io.writeBinary(doc),url=`models/lod/shared-guanghua-landscape-${level}.glb`;
  fs.writeFileSync(new URL(url,pub),out);tiers.push({url,revision:createHash('sha256').update(out).digest('hex').slice(0,12),bytes:out.length,triangles:Math.round(triangles)});
  console.log('LANDSCAPE_LOD',level,out.length,triangles);

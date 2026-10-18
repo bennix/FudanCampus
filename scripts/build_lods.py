@@ -1,7 +1,7 @@
 """Build reproducible three-tier runtime assets from canonical modular GLBs.
 Run: blender -b --python scripts/build_lods.py
 """
-import bpy, json, hashlib, sys
+import bpy, json, hashlib, sys, math
 from pathlib import Path
 from mathutils import Vector
 ROOT=Path(__file__).resolve().parents[1]
@@ -29,7 +29,16 @@ def build_lods(only=None):
                 for obj in meshes:
                     obj.modifiers.clear()
                     if ratio<1 and len(obj.data.polygons)>24:
-                        mod=obj.modifiers.new('Runtime LOD','DECIMATE');mod.ratio=ratio
+                        mod=obj.modifiers.new('Runtime LOD','DECIMATE')
+                        if asset['id']=='58' and 'Sketchfab' in obj.name:
+                            mod.ratio=.15 if level=='far' else .5
+                        else:
+                            # Collapse destroys thin architectural shells and window frames.
+                            # Only dissolve coplanar faces, preserving material/UV boundaries.
+                            mod.decimate_type='DISSOLVE'
+                            mod.angle_limit=math.radians(.5 if level=='far' else .1)
+                            mod.delimit={'NORMAL','MATERIAL','SEAM','UV'}
+                            mod.use_dissolve_boundaries=False
                 path=PUBLIC/asset['url'] if level=='near' else PUBLIC/f'models/lod/{key}-{level}.glb'
                 path.parent.mkdir(exist_ok=True,parents=True)
                 if level!='near':

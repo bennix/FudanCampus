@@ -9,7 +9,7 @@ export function desiredTier(item:Candidate, mobile:boolean):Tier {
 /** All overview tiers remain available. Spend the remaining budget nearest-first. */
 export function allocateTiers(items:Candidate[],mobile:boolean):Map<string,Tier> {
  const result=new Map<string,Tier>(items.map(i=>[i.id,0]));
- let remaining=(mobile?220_000:2_000_000)-items.reduce((n,i)=>n+i.triangles[0],0);
+ let remaining=(mobile?1_800_000:3_000_000)-items.reduce((n,i)=>n+i.triangles[0],0);
  let slots=mobile?3:6;
  for(const item of [...items].sort((a,b)=>(a.priority??a.distance)-(b.priority??b.distance))) {
   if(!slots)break;

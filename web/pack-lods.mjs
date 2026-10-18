@@ -12,7 +12,7 @@ for(const a of lod.assets){
  if(a.id==='shared-guanghua-landscape'||(process.argv[2]&&a.id!==process.argv[2]))continue;
  for(let i=0;i<2;i++){
   const t=a.tiers[i],file=new URL(t.url,pub),doc=await io.read(file.pathname);
-  await doc.transform(textureCompress({encoder:sharp,resize:i===0?[128,128]:[512,512]}),meshopt({encoder:MeshoptEncoder,level:'medium'}));
+  await doc.transform(textureCompress({encoder:sharp,resize:i===0?[128,128]:[512,512]}),meshopt({encoder:MeshoptEncoder,level:'medium',quantizePosition:16}));
   const bytes=await io.writeBinary(doc);fs.writeFileSync(file,bytes);t.bytes=bytes.length;t.revision=createHash('sha256').update(bytes).digest('hex').slice(0,12);
  }
 }
