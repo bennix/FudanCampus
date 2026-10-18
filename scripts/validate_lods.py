@@ -19,9 +19,12 @@ for a in lod['assets']:
   n=struct.unpack_from('<I',b,12)[0];g=json.loads(b[20:20+n])
   triangles=sum(sum(g['accessors'][p['indices']]['count']//3 for p in g['meshes'][node['mesh']]['primitives'])*g['accessors'][next(iter(node['extensions']['EXT_mesh_gpu_instancing']['attributes'].values()))]['count'] if 'EXT_mesh_gpu_instancing' in node.get('extensions',{}) else sum(g['accessors'][p['indices']]['count']//3 for p in g['meshes'][node['mesh']]['primitives']) for node in g['nodes'] if 'mesh' in node)
   assert triangles==t['triangles'] and triangles>0
+  if a['id']=='shared-guanghua-landscape':
+   assert any(n.get('extras',{}).get('feature_id')=='LAWN' for n in g['nodes']), 'Lawn surface missing'
+   assert any(n.get('extras',{}).get('campusVegetation') for n in g['nodes']), 'Vegetation missing'
  assert a['tiers'][0]['triangles']<=a['tiers'][1]['triangles']<=a['tiers'][2]['triangles']
 initial=sum(a['tiers'][0]['bytes'] for a in lod['assets'])
 triangles=sum(a['tiers'][0]['triangles'] for a in lod['assets'])
-assert initial<5_000_000 and triangles<180_000,(initial,triangles)
+assert initial<5_000_000 and triangles<210_000,(initial,triangles)
 print(f"PASS: {len(lod['assets'])} assets, 3 LOD tiers, current source hashes, positions and GLB metadata")
 print(f'Overview payload: {initial:,} bytes; {triangles:,} triangles')

@@ -2,9 +2,10 @@ import fs from 'node:fs';
 import {createHash} from 'node:crypto';
 import {NodeIO} from '@gltf-transform/core';
 import {ALL_EXTENSIONS} from '@gltf-transform/extensions';
-import {prune,weld,simplify,dedup,instance,textureCompress,meshopt,getBounds,compactPrimitive} from '@gltf-transform/functions';
+import {prune,weld,simplify,dedup,instance,textureCompress,meshopt,getBounds,compactPrimitive,simplifyPrimitive} from '@gltf-transform/functions';
 import {MeshoptDecoder,MeshoptEncoder,MeshoptSimplifier} from 'meshoptimizer';
 import sharp from 'sharp';
+import {SphereGeometry} from 'three';
 import {readModelBytes} from './read-model-bytes.mjs';
 const pub=new URL('./public/',import.meta.url),manifest=JSON.parse(fs.readFileSync(new URL('campus-manifest.json',pub)));
 const asset=manifest.shared.find(a=>a.id==='guanghua-landscape');if(!asset)process.exit(0);
@@ -15,6 +16,27 @@ for(const [level,ratio,size] of [['far',.01,128],['middle',.025,256],['near',.15
  const doc=await io.readBinary(bytes);
  for(const ext of [...doc.getRoot().listExtensionsUsed()])if(['EXT_meshopt_compression','KHR_mesh_quantization'].includes(ext.extensionName))ext.dispose();
  for(const n of [...doc.getRoot().listNodes()]){const tag=n.getExtras().closeout_lod;if(tag&&tag!=='static'&&tag!==(level==='middle'?'far':level))n.dispose();}
+ if(level==='far'){
+  const proxies=new Map();
+  for(const node of doc.getRoot().listNodes()){
+   if(node.getExtras().closeout_lod!=='far'||!node.getMesh())continue;
+   const original=node.getMesh();let proxy=proxies.get(original);
+   if(!proxy){
+    const lo=[Infinity,Infinity,Infinity],hi=[-Infinity,-Infinity,-Infinity];
+    for(const p of original.listPrimitives()){const a=p.getAttribute('POSITION').getArray();for(let i=0;i<a.length;i++) {lo[i%3]=Math.min(lo[i%3],a[i]);hi[i%3]=Math.max(hi[i%3],a[i]);}}
+    const geo=new SphereGeometry(1,8,4),positions=geo.attributes.position.array.slice(),normals=geo.attributes.normal.array.slice();
+    const radius=hi.map((v,i)=>Math.max(.01,(v-lo[i])/2));
+    for(let i=0;i<positions.length;i++){positions[i]=positions[i]*radius[i%3]+(lo[i%3]+hi[i%3])/2;normals[i]/=radius[i%3];}
+    for(let i=0;i<normals.length;i+=3){const len=Math.hypot(normals[i],normals[i+1],normals[i+2]);for(let j=0;j<3;j++)normals[i+j]/=len;}
+    const buffer=doc.getRoot().listBuffers()[0];
+    const acc=(type,array)=>doc.createAccessor().setType(type).setArray(array).setBuffer(buffer);
+    const name=node.getName().toLowerCase(),color=/cherry|sakura|blossom/.test(name)?[.66,.34,.42,1]:/redhedge/.test(name)?[.3,.12,.09,1]:[.19,.30,.10,1];
+    const material=doc.createMaterial('Distant canopy').setBaseColorFactor(color).setRoughnessFactor(1);
+    proxy=doc.createMesh('Distant canopy').addPrimitive(doc.createPrimitive().setAttribute('POSITION',acc('VEC3',positions)).setAttribute('NORMAL',acc('VEC3',normals)).setIndices(acc('SCALAR',new Uint32Array(geo.index.array))).setMaterial(material));proxies.set(original,proxy);geo.dispose();
+   }
+   node.setMesh(proxy);
+  }
+ }
  await doc.transform(prune(),weld());
  const preserve=new Map();
  const sampled=new Set();
@@ -23,9 +45,9 @@ for(const [level,ratio,size] of [['far',.01,128],['middle',.025,256],['near',.15
   const foliage=['near','middle','far'].includes(node.getExtras().closeout_lod);
   const plant=foliage||/VEGETATION|CANOPY|FLOWER/.test(String(node.getExtras().feature_id));
   for(const prim of [...mesh.listPrimitives()]){
-   if(foliage&&!sampled.has(prim)){
+   if(foliage&&level!=='far'&&!sampled.has(prim)){
     sampled.add(prim);const src=prim.getIndices();if(!src)continue;
-    const a=src.getArray(),blades=Math.floor(a.length/6),keep=Math.max(4,Math.floor(blades*(level==='far'?.06:level==='middle'?.2:.3))),out=[];
+    const a=src.getArray(),blades=Math.floor(a.length/6),keep=Math.max(4,Math.floor(blades*(level==='middle'?1:.25))),out=[];
     for(let i=0;i<Math.min(keep,blades);i++){const offset=Math.floor(i*blades/Math.min(keep,blades))*6;for(let j=0;j<6;j++)out.push(a[offset+j]);}
     prim.setIndices(doc.createAccessor().setType('SCALAR').setArray(new Uint32Array(out)).setBuffer(src.getBuffer()));compactPrimitive(prim);
    }
@@ -34,9 +56,11 @@ for(const [level,ratio,size] of [['far',.01,128],['middle',.025,256],['near',.15
    }
   }
  }
- for(const [mesh,prims] of preserve)for(const prim of prims)mesh.removePrimitive(prim);
- await doc.transform(simplify({simplifier:level==='near'?MeshoptSimplifier:{...MeshoptSimplifier,simplify:(indices,positions,stride,count,error)=>MeshoptSimplifier.simplify(indices,positions,stride,count,error,['Permissive','Prune'])},ratio,error:1,lockBorder:false}));
- for(const [mesh,prims] of preserve)for(const prim of prims)mesh.addPrimitive(prim);
+ for(const mesh of doc.getRoot().listMeshes())for(const prim of mesh.listPrimitives()){
+  if(preserve.get(mesh)?.includes(prim))continue;
+  simplifyPrimitive(prim,{simplifier:level==='near'?MeshoptSimplifier:{...MeshoptSimplifier,simplify:(indices,positions,stride,count,error)=>MeshoptSimplifier.simplify(indices,positions,stride,count,error,['Permissive','Prune'])},ratio,error:1,lockBorder:false});
+ }
+ for(const mesh of doc.getRoot().listMeshes()){for(const prim of [...mesh.listPrimitives()])if(!(prim.getIndices()?.getCount()??prim.getAttribute('POSITION')?.getCount())){mesh.removePrimitive(prim);prim.dispose();}if(!mesh.listPrimitives().length)mesh.dispose();}
  await doc.transform(prune(),dedup(),textureCompress({encoder:sharp,resize:[size,size]}));
  // The scene contains repeated leaf prototypes. Preserve GPU instancing in the derived delivery.
  bounds??=getBounds(doc.getRoot().listScenes()[0]);

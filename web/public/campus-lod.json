@@ -1015,14 +1015,14 @@
       ],
       "bounds": {
         "min": [
-          57.86666691303253,
-          -2.66945937739178,
-          -207.12400993271103
+          -1879302.335480893,
+          -166153.9288015144,
+          -759395.8977266473
         ],
         "max": [
-          192.7347485284431,
-          14.329870268753982,
-          -116.80019421016412
+          1879551.061942055,
+          166171.5848568553,
+          759081.3025567953
         ]
       },
       "nearDistance": 80,
@@ -1030,21 +1030,21 @@
       "tiers": [
         {
           "url": "models/lod/shared-guanghua-landscape-far.glb",
-          "revision": "82cf3d756e49",
-          "bytes": 3584760,
-          "triangles": 84598
+          "revision": "c3fcbbb6212a",
+          "bytes": 3301836,
+          "triangles": 140132
         },
         {
           "url": "models/lod/shared-guanghua-landscape-middle.glb",
-          "revision": "edf386352364",
-          "bytes": 7146064,
-          "triangles": 111603
+          "revision": "958e486a8088",
+          "bytes": 10390756,
+          "triangles": 594979
         },
         {
           "url": "models/lod/shared-guanghua-landscape-near.glb",
-          "revision": "542b0e1fd630",
-          "bytes": 45319924,
-          "triangles": 779951
+          "revision": "ff96bf341413",
+          "bytes": 42638772,
+          "triangles": 1774575
         }
       ]
     }
