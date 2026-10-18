@@ -23,6 +23,8 @@ for a in lod['assets']:
    assert not any(n.get('extras',{}).get('tree_group')=='V6 East spreading 01' for n in g['nodes']), 'Duplicate cherry in landscape'
    assert any(n.get('extras',{}).get('feature_id')=='LAWN' for n in g['nodes']), 'Lawn surface missing'
    assert any(n.get('extras',{}).get('campusVegetation') for n in g['nodes']), 'Vegetation missing'
+ if a['id'].startswith('landscape-tree-'):
+  assert a['tiers'][2]['triangles']>a['tiers'][0]['triangles'], 'Tree near detail must exceed far tier'
  if a['id']=='guanghua-cherry':
   assert a['tiers'][2]['triangles']==709192, 'Original cherry flower and branch detail must be retained'
  assert a['tiers'][0]['triangles']<=a['tiers'][1]['triangles']
@@ -31,6 +33,6 @@ for a in lod['assets']:
   assert a['tiers'][0]['triangles']>=a['tiers'][2]['triangles']*.85, f"Architectural detail destroyed: {a['id']}"
 initial=sum(a['tiers'][0]['bytes'] for a in lod['assets'])
 triangles=sum(a['tiers'][0]['triangles'] for a in lod['assets'])
-assert initial<35_000_000 and triangles<1_800_000,(initial,triangles)
+assert initial<45_000_000 and triangles<2_500_000,(initial,triangles)
 print(f"PASS: {len(lod['assets'])} assets, 3 LOD tiers, current source hashes, positions and GLB metadata")
 print(f'Overview payload: {initial:,} bytes; {triangles:,} triangles')

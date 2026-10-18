@@ -9,13 +9,15 @@ export function desiredTier(item:Candidate, mobile:boolean):Tier {
 /** All overview tiers remain available. Spend the remaining budget nearest-first. */
 export function allocateTiers(items:Candidate[],mobile:boolean):Map<string,Tier> {
  const result=new Map<string,Tier>(items.map(i=>[i.id,0]));
- let remaining=(mobile?2_500_000:3_000_000)-items.reduce((n,i)=>n+i.triangles[0],0);
+ let remaining=(mobile?3_500_000:5_000_000)-items.reduce((n,i)=>n+i.triangles[0],0);
  let slots=mobile?3:6;
+ let treeSlots=mobile?16:32;
  for(const item of [...items].sort((a,b)=>(a.priority??a.distance)-(b.priority??b.distance))) {
-  if(!slots)break;
+  const tree=item.id.startsWith('landscape-tree-');
+  if(tree?!treeSlots:!slots)continue;
   let tier=desiredTier(item,mobile);
   while(tier>0 && (item.triangles[tier]-item.triangles[0]>remaining || (mobile && item.triangles[tier]>(item.id==='guanghua-cherry'?750_000:180_000))))tier=(tier-1) as Tier;
-  if(tier>0){result.set(item.id,tier);remaining-=item.triangles[tier]-item.triangles[0];slots--;}
+  if(tier>0){result.set(item.id,tier);remaining-=item.triangles[tier]-item.triangles[0];if(tree)treeSlots--;else slots--;}
  }
  return result;
 }
