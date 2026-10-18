@@ -2,7 +2,7 @@ import fs from 'node:fs';
 import {createHash} from 'node:crypto';
 import {NodeIO} from '@gltf-transform/core';
 import {ALL_EXTENSIONS} from '@gltf-transform/extensions';
-import {prune,weld,simplify,dedup,instance,textureCompress,meshopt,getBounds} from '@gltf-transform/functions';
+import {prune,weld,simplify,dedup,instance,textureCompress,meshopt,getBounds,compactPrimitive} from '@gltf-transform/functions';
 import {MeshoptDecoder,MeshoptEncoder,MeshoptSimplifier} from 'meshoptimizer';
 import sharp from 'sharp';
 import {readModelBytes} from './read-model-bytes.mjs';
@@ -14,8 +14,30 @@ const bytes=readModelBytes(new URL(asset.url,pub)),tiers=[];let bounds;
 for(const [level,ratio,size] of [['far',.01,128],['middle',.025,256],['near',.15,512]]){
  const doc=await io.readBinary(bytes);
  for(const ext of [...doc.getRoot().listExtensionsUsed()])if(['EXT_meshopt_compression','KHR_mesh_quantization'].includes(ext.extensionName))ext.dispose();
- for(const n of [...doc.getRoot().listNodes()]){const tag=n.getExtras().closeout_lod;if(tag&&tag!=='static'&&tag!==level)n.dispose();}
- await doc.transform(prune(),weld(),simplify({simplifier:level==='near'?MeshoptSimplifier:{...MeshoptSimplifier,simplify:(indices,positions,stride,count,error)=>MeshoptSimplifier.simplify(indices,positions,stride,count,error,['Permissive','Prune'])},ratio,error:1,lockBorder:false}),prune(),dedup(),textureCompress({encoder:sharp,resize:[size,size]}));
+ for(const n of [...doc.getRoot().listNodes()]){const tag=n.getExtras().closeout_lod;if(tag&&tag!=='static'&&tag!==(level==='middle'?'far':level))n.dispose();}
+ await doc.transform(prune(),weld());
+ const preserve=new Map();
+ const sampled=new Set();
+ for(const node of doc.getRoot().listNodes()){
+  const mesh=node.getMesh();if(!mesh)continue;
+  const foliage=['near','middle','far'].includes(node.getExtras().closeout_lod);
+  const plant=foliage||/VEGETATION|CANOPY|FLOWER/.test(String(node.getExtras().feature_id));
+  for(const prim of [...mesh.listPrimitives()]){
+   if(foliage&&!sampled.has(prim)){
+    sampled.add(prim);const src=prim.getIndices();if(!src)continue;
+    const a=src.getArray(),blades=Math.floor(a.length/6),keep=Math.max(4,Math.floor(blades*(level==='far'?.06:level==='middle'?.2:.3))),out=[];
+    for(let i=0;i<Math.min(keep,blades);i++){const offset=Math.floor(i*blades/Math.min(keep,blades))*6;for(let j=0;j<6;j++)out.push(a[offset+j]);}
+    prim.setIndices(doc.createAccessor().setType('SCALAR').setArray(new Uint32Array(out)).setBuffer(src.getBuffer()));compactPrimitive(prim);
+   }
+   if(foliage||(!plant&&(prim.getIndices()?.getCount()??0)/3<3000)){
+    const list=preserve.get(mesh)??[];if(!list.includes(prim))list.push(prim);preserve.set(mesh,list);
+   }
+  }
+ }
+ for(const [mesh,prims] of preserve)for(const prim of prims)mesh.removePrimitive(prim);
+ await doc.transform(simplify({simplifier:level==='near'?MeshoptSimplifier:{...MeshoptSimplifier,simplify:(indices,positions,stride,count,error)=>MeshoptSimplifier.simplify(indices,positions,stride,count,error,['Permissive','Prune'])},ratio,error:1,lockBorder:false}));
+ for(const [mesh,prims] of preserve)for(const prim of prims)mesh.addPrimitive(prim);
+ await doc.transform(prune(),dedup(),textureCompress({encoder:sharp,resize:[size,size]}));
  // The scene contains repeated leaf prototypes. Preserve GPU instancing in the derived delivery.
  bounds??=getBounds(doc.getRoot().listScenes()[0]);
  let triangles=0;for(const n of doc.getRoot().listNodes())if(n.getMesh())for(const p of n.getMesh().listPrimitives())triangles+=(p.getIndices()?.getCount()??p.getAttribute('POSITION').getCount())/3;

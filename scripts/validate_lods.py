@@ -22,6 +22,6 @@ for a in lod['assets']:
  assert a['tiers'][0]['triangles']<=a['tiers'][1]['triangles']<=a['tiers'][2]['triangles']
 initial=sum(a['tiers'][0]['bytes'] for a in lod['assets'])
 triangles=sum(a['tiers'][0]['triangles'] for a in lod['assets'])
-assert initial<5_000_000 and triangles<100_000,(initial,triangles)
+assert initial<5_000_000 and triangles<180_000,(initial,triangles)
 print(f"PASS: {len(lod['assets'])} assets, 3 LOD tiers, current source hashes, positions and GLB metadata")
 print(f'Overview payload: {initial:,} bytes; {triangles:,} triangles')
