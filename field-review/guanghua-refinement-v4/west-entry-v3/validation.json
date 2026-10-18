@@ -1,0 +1,268 @@
+{
+  "source_sha256": "3192f28200b368dc502448c3ee4fbfa8bfe0ad4b3500bb9b145a0685ae4b3083",
+  "protected_objects": 982,
+  "protected_geometry_unchanged": true,
+  "main_lawn_east_entry_statue_and_terraces_unchanged": true,
+  "west_axis": -27.0,
+  "entry_line": 77.8544821533358,
+  "urn_y": 79.06448215333579,
+  "urn_centres": [
+    [
+      -30.5,
+      79.06448215333579
+    ],
+    [
+      -23.5,
+      79.06448215333579
+    ]
+  ],
+  "urn_clear_width": 4.7,
+  "walk_width": 3.6,
+  "north_opening_translation_y": -9.145517846664205,
+  "original_west_urn_meshes_removed": 6,
+  "copied_urn_components": [
+    "W_ENTRY 0 pedestal core",
+    "W_ENTRY 0 plinth foot",
+    "W_ENTRY 0 rounded coping",
+    "W_ENTRY 0 panel joint",
+    "W_ENTRY 0 panel joint.001",
+    "W_ENTRY 0 panel joint.002",
+    "W_ENTRY 0 panel joint.003",
+    "W_ENTRY 0 fluted bowl",
+    "W_ENTRY 0 soil",
+    "W_ENTRY 0 broad leaves",
+    "W_ENTRY 0 red flowers",
+    "W_ENTRY 1 pedestal core",
+    "W_ENTRY 1 plinth foot",
+    "W_ENTRY 1 rounded coping",
+    "W_ENTRY 1 panel joint",
+    "W_ENTRY 1 panel joint.001",
+    "W_ENTRY 1 panel joint.002",
+    "W_ENTRY 1 panel joint.003",
+    "W_ENTRY 1 fluted bowl",
+    "W_ENTRY 1 soil",
+    "W_ENTRY 1 broad leaves",
+    "W_ENTRY 1 red flowers"
+  ],
+  "west_walk_south_and_east_vertices_unchanged": true,
+  "west_path_vertices_below_y75_unchanged": true,
+  "cameras": {
+    "west-oblique": "W3 west comparison",
+    "west-front": "W3 west front",
+    "west-top": "W3 west top",
+    "paired-top": "W3 paired entrances top",
+    "overall": "FINAL landscape"
+  },
+  "source_photos": [
+    4469,
+    4491,
+    4492
+  ],
+  "limits": [
+    "photo-proportion reconstruction, not measured",
+    "entrance tips aligned; whole gardens and original lawn curve are not mirrored"
+  ],
+  "source_asset_sha256": {
+    "C:\\Users\\Lumin\\source\\FudanCampus-course\\field-review\\guanghua-refinement-v4\\forecourt-v2\\forecourt-complete-v2.blend": "3192f28200b368dc502448c3ee4fbfa8bfe0ad4b3500bb9b145a0685ae4b3083",
+    "C:\\Users\\Lumin\\source\\FudanCampus-course\\field-review\\guanghua-refinement-v4\\west-entry-v3\\diagnostic-west-entry.blend": "726558ce0442ca7d7893b9aac158ae5dba5140bcd735bfdfe2abe80f8c8bc89e"
+  },
+  "path_join": [
+    {
+      "object": "WPATH__west-garden__stone",
+      "shared_section": [
+        -45.18132400512695,
+        -43.41506576538086,
+        75,
+        0.07800000160932541,
+        0.09399999678134918
+      ],
+      "boundary_edges": 0,
+      "south_vertices_unchanged": true
+    },
+    {
+      "object": "WPATH__curb-west-garden__pale",
+      "shared_section": [
+        -45.31134033203125,
+        -43.28535842895508,
+        75,
+        -0.014999999664723873,
+        0.07900000363588333
+      ],
+      "boundary_edges": 0,
+      "south_vertices_unchanged": true
+    }
+  ],
+  "path_surface_samples": [
+    [
+      -44.298194885253906,
+      74.8,
+      0.09399998188018799
+    ],
+    [
+      -44.298194885253906,
+      74.99,
+      0.09399992227554321
+    ],
+    [
+      -44.298194885253906,
+      75,
+      0.09400004148483276
+    ],
+    [
+      -44.298194885253906,
+      75.01,
+      0.09399992227554321
+    ]
+  ],
+  "old_hole_filled": true,
+  "new_hole_open": true,
+  "all_opening_components_and_leaf_skin_translated_once": true,
+  "four_urns_share_identical_meshes": true,
+  "solids": [
+    {
+      "name": "GROUND__terrain__FIN_garden_grass",
+      "nonmanifold_edges": 0,
+      "volume": 106331.71983482299
+    },
+    {
+      "name": "WPATH__west-garden__stone",
+      "nonmanifold_edges": 0,
+      "volume": 2.911909183848456
+    },
+    {
+      "name": "WPATH__curb-west-garden__pale",
+      "nonmanifold_edges": 0,
+      "volume": 19.651266021076957
+    },
+    {
+      "name": "FORECOURT photo grid plaza",
+      "nonmanifold_edges": 0,
+      "volume": 445.20774289417426
+    }
+  ],
+  "local_bench_clearance": [
+    {
+      "object": "FURNITURE__bench__rail",
+      "translated_vertices": 48,
+      "translation": [
+        -2.1,
+        0,
+        0
+      ],
+      "other_bench_vertices_unchanged": true,
+      "bounds": [
+        [
+          -47.89215850830078,
+          74.49933624267578,
+          -0.0005714520812034607
+        ],
+        [
+          -46.3067741394043,
+          75.49211883544922,
+          1.0505714416503906
+        ]
+      ]
+    },
+    {
+      "object": "FURNITURE__bench__benchwood",
+      "translated_vertices": 56,
+      "translation": [
+        -2.1,
+        0,
+        0
+      ],
+      "other_bench_vertices_unchanged": true,
+      "bounds": [
+        [
+          -48.096168518066406,
+          74.43781280517578,
+          0.4375
+        ],
+        [
+          -46.12092971801758,
+          75.60917663574219,
+          1.002500057220459
+        ]
+      ]
+    }
+  ],
+  "export_bytes": 200891228,
+  "embedded_images": 53,
+  "exported_meshes": 1000,
+  "feature_ids": [
+    "BOUNDARY",
+    "CONTEXT_GUANGHUA",
+    "DING",
+    "EDGE_PATHS",
+    "EOPEN",
+    "EOPEN_S",
+    "EPATH",
+    "ERAMP",
+    "ESKY",
+    "ETERR",
+    "E_ENTRY",
+    "E_FURNITURE",
+    "E_PLANTING",
+    "FLOWER",
+    "FORECOURT",
+    "FURNITURE",
+    "GROUND",
+    "LAWN",
+    "LAWN_EDGE",
+    "POET_DONKEY",
+    "POET_GARDEN",
+    "SIGN",
+    "VEGETATION",
+    "VEGETATION_PILOT",
+    "VEGETATION_V2",
+    "WB1",
+    "WB2",
+    "WGLASS",
+    "WGLASS2",
+    "WOPEN",
+    "WOPEN_S",
+    "WPATH",
+    "WSKY1",
+    "WSKY2",
+    "WTERR",
+    "W_ENTRY"
+  ],
+  "renders": [
+    {
+      "view": "west-oblique",
+      "camera": "W3 west comparison",
+      "sha256": "ce8b910286652108a3709887e0f52958210bf7cd5ac3d3b47a9631872156d51c"
+    },
+    {
+      "view": "west-front",
+      "camera": "W3 west front",
+      "sha256": "ad9b0c9ec15aa84e428a6677bbf19b627bd1018763f34ed658130ae6ea8f1b6c"
+    },
+    {
+      "view": "west-top",
+      "camera": "W3 west top",
+      "sha256": "5e2172ca9727331a7eccd538e538ac84a5834723136926482cdf765647dee688"
+    },
+    {
+      "view": "paired-top",
+      "camera": "W3 paired entrances top",
+      "sha256": "0c32dbc52939b165e74ab6ce697dcd727f97db24d00fc9a04ed8e7ec11afd65a"
+    },
+    {
+      "view": "overall",
+      "camera": "FINAL landscape",
+      "sha256": "a14680d0ace319ed98110b097314263454a601d8c1b9cbff47f3266e6aa49f0f"
+    },
+    {
+      "view": "path-join",
+      "camera": "W3 welded path seam",
+      "sha256": "046889a270b3361ebd8af2db6d0287b94f8a99988733c38abaee914102b1dc54"
+    }
+  ],
+  "checkpoint_reopened": true,
+  "source_unchanged": true,
+  "render_complete": true,
+  "final_blend_sha256": "becbeb75aa5f4cea4a80c34039a8825ace683eb5b4a9eac7a67300da067514b0",
+  "final_glb_sha256": "acaaadd9f5dd8712f0d314270b1bf8ecdf8dde15b1053bf930a6501f20450e5e",
+  "glb_reimports": true
+}

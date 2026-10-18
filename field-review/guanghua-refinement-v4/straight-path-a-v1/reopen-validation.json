@@ -1,0 +1,40 @@
+{
+  "checkpoint_reopens": true,
+  "source_unchanged": true,
+  "protected_meshes_materials_uv_transforms_unchanged": 1071,
+  "centerline_and_width_preserved": true,
+  "actual_bounds": [
+    63.50211715698242,
+    67.10211944580078,
+    14.0,
+    77.85448455810547
+  ],
+  "plaza_local_junction_cut_only": true,
+  "plaza_original_material_and_height_retained": true,
+  "entrance_urn_objects_preserved": 67,
+  "edited_closed_positive_solids": 200,
+  "zero_area_faces": 0,
+  "nonmanifold_edges": 0,
+  "finite_coordinates": true,
+  "interface_samples": 241,
+  "north_interface_coverage": true,
+  "maximum_stone_face_level_difference": 1.0728836059570312e-06,
+  "intentional_filled_joint_recess": 0.0025,
+  "projected_overlap_area_with_corridor": {
+    "FORECOURT photo grid plaza": 0.0,
+    "LAWN | satellite-fixed concave north edge": 0,
+    "EDGE_PATHS__south-walk__FIN_pavers": 0.0,
+    "LAWN_EDGE segmented granite 177": 0.0
+  },
+  "measured_mesh_groove_depth_range": [
+    0.01799999848008156,
+    0.01800002933282465
+  ],
+  "groove_depth_and_function": "推定；网格深度验证不代表现场测量或功能确认",
+  "output_sha256": "eedc2565ebb7262ac80b9c7842513fd56926cb72638f48fdef13bd8076b88180",
+  "limits": [
+    "相机人工近似，未摄影测量配准",
+    "全部尺度和标高为推定",
+    "检查范围为本通道及指定交界，不是全场景碰撞认证"
+  ]
+}

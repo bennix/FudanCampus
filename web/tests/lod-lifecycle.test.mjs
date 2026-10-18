@@ -5,7 +5,7 @@ import ts from 'typescript';
 import * as THREE from 'three';
 // Transpile the controller only, retaining real Three.js resource lifecycles.
 let source=await readFile(new URL('../lib/campus-lod.ts',import.meta.url),'utf8');
-source=source.replace("'three'",JSON.stringify(import.meta.resolve('three'))).replace("'three/addons/loaders/GLTFLoader.js'",JSON.stringify(import.meta.resolve('three/addons/loaders/GLTFLoader.js'))).replace("'./lod-policy'",JSON.stringify(new URL('../lib/lod-policy.ts',import.meta.url).href));
+source=source.replace("'three'",JSON.stringify(import.meta.resolve('three'))).replace("'three/addons/loaders/GLTFLoader.js'",JSON.stringify(import.meta.resolve('three/addons/loaders/GLTFLoader.js'))).replace("'three/addons/libs/meshopt_decoder.module.js'",JSON.stringify(import.meta.resolve('three/addons/libs/meshopt_decoder.module.js'))).replace("'./lod-policy'",JSON.stringify(new URL('../lib/lod-policy.ts',import.meta.url).href));
 const js=ts.transpileModule(source,{compilerOptions:{target:ts.ScriptTarget.ES2022,module:ts.ModuleKind.ESNext}}).outputText;
 const {CampusLod}=await import('data:text/javascript;base64,'+Buffer.from(js).toString('base64'));
 const tick=()=>new Promise(r=>setImmediate(r));

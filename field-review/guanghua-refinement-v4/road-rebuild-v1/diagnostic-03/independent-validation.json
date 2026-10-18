@@ -1,0 +1,84 @@
+{
+  "road": {
+    "vertices": 4763,
+    "triangles": 9182,
+    "components": 1,
+    "nonmanifold_edges": 0,
+    "degenerate_or_reversed_faces": 0,
+    "duplicate_faces": 0,
+    "boundary_edges": 342,
+    "coverage_error_area": 0.0,
+    "overlap_area": 2.1316282072803006e-14,
+    "internal_open_edges": 0,
+    "solid": {
+      "open_edges": 0,
+      "nonmanifold_edges": 0,
+      "signed_volume": 26.01681781700573
+    },
+    "precision_grid_boundary_change": 0.0
+  },
+  "terrain": {
+    "vertices": 8750,
+    "triangles": 16752,
+    "components": 4,
+    "nonmanifold_edges": 0,
+    "degenerate_or_reversed_faces": 0,
+    "duplicate_faces": 0,
+    "boundary_edges": 742,
+    "coverage_error_area": 0.0,
+    "overlap_area": -1.4210854715202004e-14,
+    "internal_open_edges": 0,
+    "solid": {
+      "open_edges": 0,
+      "nonmanifold_edges": 0,
+      "signed_volume": 21.87526976511911
+    },
+    "precision_grid_boundary_change": 6.9605000850364935e-06
+  },
+  "protected_files_checked": 336,
+  "road_terrain_overlap_area": 4.053395471648451e-05,
+  "road_terrain_overlap_outside_precision_band": 0.0,
+  "ports": {
+    "road_surface": {
+      "vertices": 4763,
+      "triangles": 9182,
+      "components": 1,
+      "nonmanifold_edges": 0,
+      "degenerate_or_reversed_faces": 0,
+      "duplicate_faces": 0,
+      "boundary_edges": 342,
+      "coverage_error_area": 0.0,
+      "overlap_area": 2.1316282072803006e-14,
+      "internal_open_edges": 0
+    },
+    "road_solid": {
+      "open_edges": 0,
+      "nonmanifold_edges": 0,
+      "signed_volume": 26.01681781700573
+    },
+    "terrain_surface": {
+      "vertices": 8750,
+      "triangles": 16752,
+      "components": 4,
+      "nonmanifold_edges": 0,
+      "degenerate_or_reversed_faces": 0,
+      "duplicate_faces": 0,
+      "boundary_edges": 742,
+      "coverage_error_area": 0.0,
+      "overlap_area": -1.4210854715202004e-14,
+      "internal_open_edges": 0
+    },
+    "terrain_solid": {
+      "open_edges": 0,
+      "nonmanifold_edges": 0,
+      "signed_volume": 21.87526976511911
+    },
+    "road_terrain_overlap_area": 3.4623499992236426e-06,
+    "protected_overlap_area": 0.0,
+    "status": "geometry_checks_passed_visual_pending",
+    "site_profile_status": "inferred_not_accepted",
+    "step_interface_error": 0.0,
+    "sidewalk_interface_error": 0.0
+  },
+  "status": "serialized_geometry_checks_passed; site profile is not accepted"
+}

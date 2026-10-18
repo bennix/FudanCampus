@@ -1,0 +1,725 @@
+{
+  "scene_sha256": "c8ceb97189ba180f5d3887ceec7651a9c6a34b6a32dfbdce53338eaaaccf6fdb",
+  "checkpoint_reopens": true,
+  "exact_saved_snapshot_matches": true,
+  "source_sha256_unchanged": true,
+  "protected_meshes": 1794,
+  "non_tree_geometry_uv_materials_transforms_visibility_properties_unchanged": true,
+  "labels_unchanged": {
+    "WB1__text__光华楼广场自行车库": {
+      "body": "光华楼广场自行车库",
+      "matrix": [
+        [
+          -4.371138828673793e-08,
+          -4.371138828673793e-08,
+          -1.0,
+          -74.64593505859375
+        ],
+        [
+          -1.0,
+          1.910685676922942e-15,
+          4.371138828673793e-08,
+          48.0
+        ],
+        [
+          0.0,
+          1.0,
+          -4.371138828673793e-08,
+          2.069999933242798
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "properties": {
+        "feature_id": "WB1",
+        "label": "自行车库南门",
+        "source_photos": [
+          4416,
+          4419
+        ],
+        "existence_confidence": "confirmed",
+        "geometry_confidence": "inferred",
+        "scale_status": "provisional metres; no measured control",
+        "note": "Photo facade confirmed; metric size and short apron slope inferred. Hidden garage omitted.",
+        "registration_note": "Facade placed outside west terrace wall; apron length ~5.9 m inferred to avoid overlap."
+      },
+      "settings": {
+        "id_type": "CURVE",
+        "use_fake_user": false,
+        "use_extra_user": false,
+        "is_embedded_data": false,
+        "is_missing": false,
+        "is_runtime_data": false,
+        "is_editable": true,
+        "tag": false,
+        "is_library_indirect": false,
+        "path_duration": 100,
+        "use_path": false,
+        "use_path_follow": false,
+        "use_path_clamp": false,
+        "use_stretch": false,
+        "use_deform_bounds": false,
+        "use_radius": true,
+        "bevel_mode": "ROUND",
+        "bevel_resolution": 4,
+        "offset": 0.0,
+        "extrude": 0.017999999225139618,
+        "bevel_depth": 0.006000000052154064,
+        "resolution_u": 12,
+        "resolution_v": 12,
+        "render_resolution_u": 0,
+        "render_resolution_v": 0,
+        "eval_time": 0.0,
+        "dimensions": "2D",
+        "fill_mode": "BOTH",
+        "twist_mode": "MINIMUM",
+        "taper_radius_mode": "OVERRIDE",
+        "bevel_factor_mapping_start": "RESOLUTION",
+        "bevel_factor_mapping_end": "RESOLUTION",
+        "twist_smooth": 0.0,
+        "use_fill_caps": false,
+        "use_map_taper": false,
+        "use_auto_texspace": true,
+        "texspace_location": [
+          -0.005538463592529297,
+          0.0009230747818946838,
+          0.0
+        ],
+        "texspace_size": [
+          2.1046154499053955,
+          0.22061538696289062,
+          1.0
+        ],
+        "bevel_factor_start": 0.0,
+        "bevel_factor_end": 1.0,
+        "is_editmode": false,
+        "align_x": "CENTER",
+        "align_y": "CENTER",
+        "overflow": "NONE",
+        "size": 0.47999998927116394,
+        "small_caps_scale": 0.75,
+        "space_line": 1.0,
+        "space_word": 1.0,
+        "space_character": 1.0,
+        "shear": 0.0,
+        "offset_x": 0.0,
+        "offset_y": 0.0,
+        "underline_position": 0.0,
+        "underline_height": 0.05000000074505806,
+        "active_textbox": 1,
+        "family": "",
+        "body": "光华楼广场自行车库",
+        "use_fast_edit": false,
+        "is_select_bold": false,
+        "is_select_italic": false,
+        "is_select_underline": false,
+        "is_select_smallcaps": false,
+        "has_selection": false
+      },
+      "fonts": [
+        "SimHei Regular",
+        "Bfont Regular",
+        "Bfont Regular",
+        "Bfont Regular"
+      ],
+      "visible": true
+    },
+    "WB2__text__光华楼广场自行车库": {
+      "body": "光华楼广场自行车库",
+      "matrix": [
+        [
+          -4.371138828673793e-08,
+          -4.371138828673793e-08,
+          -1.0,
+          -74.64593505859375
+        ],
+        [
+          -1.0,
+          1.910685676922942e-15,
+          4.371138828673793e-08,
+          70.0
+        ],
+        [
+          0.0,
+          1.0,
+          -4.371138828673793e-08,
+          2.069999933242798
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "properties": {
+        "feature_id": "WB2",
+        "label": "自行车库北门",
+        "source_photos": [
+          4421,
+          4424,
+          4434
+        ],
+        "existence_confidence": "confirmed",
+        "geometry_confidence": "inferred",
+        "scale_status": "provisional metres; no measured control",
+        "note": "Photo facade confirmed; metric size and short apron slope inferred. Hidden garage omitted.",
+        "registration_note": "Facade placed outside west terrace wall; apron length ~5.9 m inferred to avoid overlap."
+      },
+      "settings": {
+        "id_type": "CURVE",
+        "use_fake_user": false,
+        "use_extra_user": false,
+        "is_embedded_data": false,
+        "is_missing": false,
+        "is_runtime_data": false,
+        "is_editable": true,
+        "tag": false,
+        "is_library_indirect": false,
+        "path_duration": 100,
+        "use_path": false,
+        "use_path_follow": false,
+        "use_path_clamp": false,
+        "use_stretch": false,
+        "use_deform_bounds": false,
+        "use_radius": true,
+        "bevel_mode": "ROUND",
+        "bevel_resolution": 4,
+        "offset": 0.0,
+        "extrude": 0.017999999225139618,
+        "bevel_depth": 0.006000000052154064,
+        "resolution_u": 12,
+        "resolution_v": 12,
+        "render_resolution_u": 0,
+        "render_resolution_v": 0,
+        "eval_time": 0.0,
+        "dimensions": "2D",
+        "fill_mode": "BOTH",
+        "twist_mode": "MINIMUM",
+        "taper_radius_mode": "OVERRIDE",
+        "bevel_factor_mapping_start": "RESOLUTION",
+        "bevel_factor_mapping_end": "RESOLUTION",
+        "twist_smooth": 0.0,
+        "use_fill_caps": false,
+        "use_map_taper": false,
+        "use_auto_texspace": true,
+        "texspace_location": [
+          -0.005538463592529297,
+          0.0009230747818946838,
+          0.0
+        ],
+        "texspace_size": [
+          2.1046154499053955,
+          0.22061538696289062,
+          1.0
+        ],
+        "bevel_factor_start": 0.0,
+        "bevel_factor_end": 1.0,
+        "is_editmode": false,
+        "align_x": "CENTER",
+        "align_y": "CENTER",
+        "overflow": "NONE",
+        "size": 0.47999998927116394,
+        "small_caps_scale": 0.75,
+        "space_line": 1.0,
+        "space_word": 1.0,
+        "space_character": 1.0,
+        "shear": 0.0,
+        "offset_x": 0.0,
+        "offset_y": 0.0,
+        "underline_position": 0.0,
+        "underline_height": 0.05000000074505806,
+        "active_textbox": 1,
+        "family": "",
+        "body": "光华楼广场自行车库",
+        "use_fast_edit": false,
+        "is_select_bold": false,
+        "is_select_italic": false,
+        "is_select_underline": false,
+        "is_select_smallcaps": false,
+        "has_selection": false
+      },
+      "fonts": [
+        "SimHei Regular.001",
+        "Bfont Regular",
+        "Bfont Regular",
+        "Bfont Regular"
+      ],
+      "visible": true
+    },
+    "SIGN__text__FUDAN": {
+      "body": "FUDAN",
+      "matrix": [
+        [
+          1.4701998233795166,
+          0.0,
+          0.0,
+          24.549999237060547
+        ],
+        [
+          0.0,
+          -4.371138828673793e-08,
+          -1.0,
+          9.460000038146973
+        ],
+        [
+          0.0,
+          1.0,
+          -4.371138828673793e-08,
+          0.8320744037628174
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "properties": {
+        "feature_id": "SIGN",
+        "label": "南中央FUDAN装置",
+        "source_photos": [
+          4603,
+          4604,
+          4606
+        ],
+        "existence_confidence": "confirmed",
+        "geometry_confidence": "inferred",
+        "scale_status": "provisional metres; no measured control",
+        "note": "Blue extruded letters, heart and chair confirmed; font and proportions approximate."
+      },
+      "settings": {
+        "id_type": "CURVE",
+        "use_fake_user": false,
+        "use_extra_user": false,
+        "is_embedded_data": false,
+        "is_missing": false,
+        "is_runtime_data": false,
+        "is_editable": true,
+        "tag": false,
+        "is_library_indirect": false,
+        "path_duration": 100,
+        "use_path": false,
+        "use_path_follow": false,
+        "use_path_clamp": false,
+        "use_stretch": false,
+        "use_deform_bounds": false,
+        "use_radius": true,
+        "bevel_mode": "ROUND",
+        "bevel_resolution": 4,
+        "offset": 0.0,
+        "extrude": 0.17000000178813934,
+        "bevel_depth": 0.006000000052154064,
+        "resolution_u": 12,
+        "resolution_v": 12,
+        "render_resolution_u": 0,
+        "render_resolution_v": 0,
+        "eval_time": 0.0,
+        "dimensions": "2D",
+        "fill_mode": "BOTH",
+        "twist_mode": "MINIMUM",
+        "taper_radius_mode": "OVERRIDE",
+        "bevel_factor_mapping_start": "RESOLUTION",
+        "bevel_factor_mapping_end": "RESOLUTION",
+        "twist_smooth": 0.0,
+        "use_fill_caps": false,
+        "use_map_taper": false,
+        "use_auto_texspace": true,
+        "texspace_location": [
+          -0.003988981246948242,
+          0.006443813443183899,
+          0.0
+        ],
+        "texspace_size": [
+          2.1025569438934326,
+          0.4575178623199463,
+          1.0
+        ],
+        "bevel_factor_start": 0.0,
+        "bevel_factor_end": 1.0,
+        "is_editmode": false,
+        "align_x": "CENTER",
+        "align_y": "CENTER",
+        "overflow": "NONE",
+        "size": 1.7999999523162842,
+        "small_caps_scale": 0.75,
+        "space_line": 1.0,
+        "space_word": 1.0,
+        "space_character": 1.0,
+        "shear": 0.0,
+        "offset_x": 0.0,
+        "offset_y": 0.0,
+        "underline_position": 0.0,
+        "underline_height": 0.05000000074505806,
+        "active_textbox": 1,
+        "family": "",
+        "body": "FUDAN",
+        "use_fast_edit": false,
+        "is_select_bold": false,
+        "is_select_italic": false,
+        "is_select_underline": false,
+        "is_select_smallcaps": false,
+        "has_selection": false
+      },
+      "fonts": [
+        "Arial Bold",
+        "Bfont Regular",
+        "Bfont Regular",
+        "Bfont Regular"
+      ],
+      "visible": true
+    }
+  },
+  "cameras_unchanged": 62,
+  "all_required_feature_ids_retained": true,
+  "unique_meshes_finite": 1314,
+  "wood_meshes": [
+    {
+      "name": "V6 West mature 00 wood",
+      "nonmanifold": 0,
+      "volume": 2.0011214207659505,
+      "zero_area": 0
+    },
+    {
+      "name": "V6 West mature 01 wood",
+      "nonmanifold": 0,
+      "volume": 2.10344847918574,
+      "zero_area": 0
+    },
+    {
+      "name": "V6 West mature 02 wood",
+      "nonmanifold": 0,
+      "volume": 1.1792720752209993,
+      "zero_area": 0
+    },
+    {
+      "name": "V6 West mature 03 wood",
+      "nonmanifold": 0,
+      "volume": 1.29788393466236,
+      "zero_area": 0
+    },
+    {
+      "name": "V6 West mature 04 wood",
+      "nonmanifold": 0,
+      "volume": 1.1496581116163658,
+      "zero_area": 0
+    },
+    {
+      "name": "V6 West mature 05 wood",
+      "nonmanifold": 0,
+      "volume": 1.2122816051299634,
+      "zero_area": 0
+    },
+    {
+      "name": "V6 West mature 06 wood",
+      "nonmanifold": 0,
+      "volume": 0.9874709956856533,
+      "zero_area": 0
+    },
+    {
+      "name": "V6 West mature 07 wood",
+      "nonmanifold": 0,
+      "volume": 1.6632452256443713,
+      "zero_area": 0
+    },
+    {
+      "name": "V6 West mature 08 wood",
+      "nonmanifold": 0,
+      "volume": 0.7926704245166776,
+      "zero_area": 0
+    },
+    {
+      "name": "V6 East mature 09 wood",
+      "nonmanifold": 0,
+      "volume": 0.45568866824551485,
+      "zero_area": 0
+    },
+    {
+      "name": "V6 East mature 10 wood",
+      "nonmanifold": 0,
+      "volume": 0.5127520569834971,
+      "zero_area": 0
+    },
+    {
+      "name": "V6 East mature 11 wood",
+      "nonmanifold": 0,
+      "volume": 0.21129231161142295,
+      "zero_area": 0
+    },
+    {
+      "name": "V6 East mature 12 wood",
+      "nonmanifold": 0,
+      "volume": 0.6755632521723094,
+      "zero_area": 0
+    },
+    {
+      "name": "V6 West mature 13 wood",
+      "nonmanifold": 0,
+      "volume": 1.0931786524932074,
+      "zero_area": 0
+    },
+    {
+      "name": "V6 West mature 14 wood",
+      "nonmanifold": 0,
+      "volume": 1.1516438665419526,
+      "zero_area": 0
+    },
+    {
+      "name": "V6 West mature 15 wood",
+      "nonmanifold": 0,
+      "volume": 1.5417772713464872,
+      "zero_area": 0
+    },
+    {
+      "name": "V6 East mature 16 wood",
+      "nonmanifold": 0,
+      "volume": 0.7375387150481942,
+      "zero_area": 0
+    },
+    {
+      "name": "V6 East mature 17 wood",
+      "nonmanifold": 0,
+      "volume": 1.1593432730613764,
+      "zero_area": 0
+    },
+    {
+      "name": "V6 East spreading 00 wood",
+      "nonmanifold": 0,
+      "volume": 0.21179788484018772,
+      "zero_area": 0
+    },
+    {
+      "name": "V6 East spreading 01 wood",
+      "nonmanifold": 0,
+      "volume": 0.4694744328650736,
+      "zero_area": 0
+    },
+    {
+      "name": "V6 East spreading 02 wood",
+      "nonmanifold": 0,
+      "volume": 0.3682450273371831,
+      "zero_area": 0
+    },
+    {
+      "name": "V6 East spreading 03 wood",
+      "nonmanifold": 0,
+      "volume": 0.41376844287744935,
+      "zero_area": 0
+    },
+    {
+      "name": "V6 East spreading 04 wood",
+      "nonmanifold": 0,
+      "volume": 0.33469447673355307,
+      "zero_area": 0
+    },
+    {
+      "name": "V6 Garden backdrop 00 wood",
+      "nonmanifold": 0,
+      "volume": 1.1325992960433493,
+      "zero_area": 0
+    },
+    {
+      "name": "V6 Garden backdrop 01 wood",
+      "nonmanifold": 0,
+      "volume": 1.3010691030900703,
+      "zero_area": 0
+    },
+    {
+      "name": "V6 Garden backdrop 02 wood",
+      "nonmanifold": 0,
+      "volume": 0.9945078458792089,
+      "zero_area": 0
+    },
+    {
+      "name": "V6 Garden backdrop 03 wood",
+      "nonmanifold": 0,
+      "volume": 0.8345922575733014,
+      "zero_area": 0
+    },
+    {
+      "name": "V6 Garden backdrop 05 wood",
+      "nonmanifold": 0,
+      "volume": 2.083142867285278,
+      "zero_area": 0
+    },
+    {
+      "name": "V6 East ring-seat mature tree wood",
+      "nonmanifold": 0,
+      "volume": 2.3964302128258335,
+      "zero_area": 0
+    },
+    {
+      "name": "V6 south avenue 00 wood",
+      "nonmanifold": 0,
+      "volume": 2.199435639286257,
+      "zero_area": 0
+    },
+    {
+      "name": "V6 south avenue 01 wood",
+      "nonmanifold": 0,
+      "volume": 2.2887053875461185,
+      "zero_area": 0
+    },
+    {
+      "name": "V6 south avenue 02 wood",
+      "nonmanifold": 0,
+      "volume": 3.0399808963385904,
+      "zero_area": 0
+    },
+    {
+      "name": "V6 south avenue 03 wood",
+      "nonmanifold": 0,
+      "volume": 3.990931464326938,
+      "zero_area": 0
+    },
+    {
+      "name": "V6 south avenue 04 wood",
+      "nonmanifold": 0,
+      "volume": 1.776670171035207,
+      "zero_area": 0
+    },
+    {
+      "name": "V6 south avenue 05 wood",
+      "nonmanifold": 0,
+      "volume": 2.5827341392181085,
+      "zero_area": 0
+    },
+    {
+      "name": "V6 south avenue 06 wood",
+      "nonmanifold": 0,
+      "volume": 3.390874479833002,
+      "zero_area": 0
+    },
+    {
+      "name": "V6 south avenue 07 wood",
+      "nonmanifold": 0,
+      "volume": 3.056793103633872,
+      "zero_area": 0
+    },
+    {
+      "name": "V6 south avenue 08 wood",
+      "nonmanifold": 0,
+      "volume": 2.241570210299645,
+      "zero_area": 0
+    },
+    {
+      "name": "V6 south avenue 09 wood",
+      "nonmanifold": 0,
+      "volume": 2.775186728623322,
+      "zero_area": 0
+    },
+    {
+      "name": "V6 south avenue 10 wood",
+      "nonmanifold": 0,
+      "volume": 2.5130191553686796,
+      "zero_area": 0
+    },
+    {
+      "name": "V6 south avenue 11 wood",
+      "nonmanifold": 0,
+      "volume": 3.4094725066979974,
+      "zero_area": 0
+    },
+    {
+      "name": "V6 south avenue 12 wood",
+      "nonmanifold": 0,
+      "volume": 2.3548145965457405,
+      "zero_area": 0
+    },
+    {
+      "name": "V6 south avenue 13 wood",
+      "nonmanifold": 0,
+      "volume": 1.98883412069143,
+      "zero_area": 0
+    },
+    {
+      "name": "V6 south avenue 14 wood",
+      "nonmanifold": 0,
+      "volume": 2.8813386964863277,
+      "zero_area": 0
+    },
+    {
+      "name": "V6 south avenue 15 wood",
+      "nonmanifold": 0,
+      "volume": 4.215312944626336,
+      "zero_area": 0
+    },
+    {
+      "name": "V6 south conifer 01 wood",
+      "nonmanifold": 0,
+      "volume": 3.6795695946227567,
+      "zero_area": 0
+    },
+    {
+      "name": "V6 south conifer 02 wood",
+      "nonmanifold": 0,
+      "volume": 4.837776599127209,
+      "zero_area": 0
+    },
+    {
+      "name": "V6 south conifer 04 wood",
+      "nonmanifold": 0,
+      "volume": 4.5914932486319175,
+      "zero_area": 0
+    },
+    {
+      "name": "V6 south conifer 05 wood",
+      "nonmanifold": 0,
+      "volume": 3.927634285513613,
+      "zero_area": 0
+    }
+  ],
+  "leaf_count": 2273808,
+  "zero_area_leaf_faces": 0,
+  "packed_planter_textures": 4,
+  "all_used_images_packed": true,
+  "protected_path_solids": 200,
+  "unchanged_junction_validation": {
+    "samples": 241,
+    "maximum_stone_face_step": 1.0728836059570312e-06,
+    "reason": "All audited junction mesh geometry, world transforms and visibility equal v5"
+  },
+  "new_tree_count": 49,
+  "new_tree_ground_checks": [
+    {
+      "x": -20,
+      "y": 9.4,
+      "z": -0.005001068115234375,
+      "clearance": 0.75,
+      "passed": true
+    },
+    {
+      "x": 6,
+      "y": 9.4,
+      "z": -0.0050048828125,
+      "clearance": 0.75,
+      "passed": true
+    },
+    {
+      "x": 58,
+      "y": 9.4,
+      "z": -0.005001068115234375,
+      "clearance": 0.75,
+      "passed": true
+    },
+    {
+      "x": 87,
+      "y": 10.5,
+      "z": -0.005001068115234375,
+      "clearance": 0.75,
+      "passed": true
+    }
+  ],
+  "source_tree_root_positions_retained": true,
+  "limits": [
+    "Canopy/branch structure, dimensions and additional planting locations are photo-based inferences",
+    "Species represented as mature broadleaf and conifer types; no exact species identification",
+    "All new roots pass ground/clearance checks; normal crown/branch overlaps are intentional; no exhaustive pairwise canopy intersection test",
+    "Leaf blades are thin open surfaces, wood tube branch junctions intentionally overlap",
+    "Native scene stage only; no new GLB or campus webpage asset replacement"
+  ]
+}

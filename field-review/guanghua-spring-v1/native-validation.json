@@ -1,0 +1,40 @@
+{
+  "source": "C:\\Users\\Lumin\\source\\FudanCampus-course\\field-review\\guanghua-spring-v1\\guanghua-spring-branch-led-v2.blend",
+  "source_sha256": "a5622a6148ed86b2a2f0c4b825243d8114a92238503651521e45f8cafbeec655",
+  "baseline": "C:\\Users\\Lumin\\source\\FudanCampus-course\\field-review\\guanghua-refinement-v4\\closeout-final\\guanghua-closeout-final.blend",
+  "baseline_sha256": "8625e7b4813f9a864c5a03121f32f28e2cc1e5d7265518b921593a137f8b8714",
+  "target_tree": "V6 East spreading 01",
+  "root_native": [
+    67.9000015258789,
+    46.5,
+    0.13705936074256897
+  ],
+  "changed": [
+    "SIGN__continuous-heart__FIN_red",
+    "V6 East spreading 01 leaves",
+    "V6 East spreading 01 wood"
+  ],
+  "non_target_meshes_preserved": 1904,
+  "drift": [],
+  "blossom_cards": 9927,
+  "twig_anchor_sites": 4274,
+  "branch_paths": 708,
+  "fork_height_native": 1.55,
+  "trunk_base_diameter_native": 1.16,
+  "wood_batch_owner_counts": {
+    "V6 East mature 11 wood": 2150,
+    "V6 East mature 12 wood": 4148,
+    "V6 East spreading 01 wood": 3362,
+    "V6 East spreading 02 wood": 1834,
+    "V6 East spreading 03 wood": 2903
+  },
+  "wood_batch_ambiguities": 0,
+  "heart_translation_native": [
+    0,
+    0.32,
+    0
+  ],
+  "heart_clearance_native": 0.11499977111816406,
+  "heart_clearance_web": 0.07666651407877605,
+  "confidence": "Visible low fork, heavy lateral limbs, pale varying blossoms and whitewash photo-supported; depth and absolute scale inferred"
+}

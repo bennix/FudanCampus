@@ -1,0 +1,26 @@
+{
+  "hanbing": {
+    "bytes": 22768736,
+    "triangles": 135456,
+    "unique_mesh_triangles": 129172,
+    "meshes": 114,
+    "instances": 130,
+    "materials": 14,
+    "textures": 12,
+    "images": 12,
+    "extensions": [],
+    "all_images_embedded": true
+  },
+  "campus": {
+    "bytes": 85691680,
+    "triangles": 1192950,
+    "unique_mesh_triangles": 1186666,
+    "meshes": 522,
+    "instances": 538,
+    "materials": 77,
+    "textures": 12,
+    "images": 12,
+    "extensions": [],
+    "all_images_embedded": true
+  }
+}

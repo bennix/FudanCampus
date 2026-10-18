@@ -1,7 +1,13 @@
+from pathlib import Path
+import sys
+sys.path.insert(0, str(Path(__file__).resolve().parent))
+from asset_protection import assert_export_allowed
+assert_export_allowed()  # Before clearing the scene or writing any existing asset.
 import bpy, math, random, os, json
 from mathutils import Vector
 random.seed(21)
-OUT='/Users/zhipingxu/FudanCampus/output'
+ROOT=str(Path(__file__).resolve().parents[1])
+OUT=ROOT+'/output'
 bpy.ops.object.select_all(action='SELECT'); bpy.ops.object.delete(use_global=False)
 for c in list(bpy.data.collections):
  if c.name != 'Collection': bpy.data.collections.remove(c)
@@ -69,7 +75,6 @@ def building(name,x,y,w,d,floors=3,pitched=False,m=None):
  for i in range(3):box('Entry step',x,y-d/2-.5-i*.32,.14*(3-i),3.6,1.2,.2,pathmat,True)
  return ob
 # Map coordinates: supplied image displayed at 1888 x 1334.
-ROOT='/Users/zhipingxu/FudanCampus'
 S=.8
 records=json.load(open(ROOT+'/references/buildings.json'))
 def xy(x,y):return ((x-1200)*S,(1000-y)*S)
@@ -140,6 +145,15 @@ for r in records:
  elif id=='20':
   from physics_geometry import build_physics
   build_physics(x,y,mat,mesh,current,bpy)
+ elif id=='5':
+  from north_canteen_geometry import build_north_canteen
+  build_north_canteen(x,y,mat,mesh,current,bpy)
+ elif id=='3':
+  from north_gym_geometry import build_north_gym
+  build_north_gym(x,y,mat,mesh,current,bpy)
+ elif id=='7':
+  from north_warehouse_geometry import build_north_warehouse
+  build_north_warehouse(x,y,mat,mesh,current,bpy)
  elif form=='yifu':
   import sys
   sys.path.insert(0,ROOT+'/scripts')

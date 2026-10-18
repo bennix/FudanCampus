@@ -1,0 +1,450 @@
+{
+  "baseline_unchanged": true,
+  "original_geometry_and_transforms_unchanged": true,
+  "preserved_meshes": 312,
+  "trees": [
+    {
+      "x": -75,
+      "y": 10,
+      "z": -0.0049991607666015625,
+      "height": 9,
+      "origin": "existing"
+    },
+    {
+      "x": -76,
+      "y": 27,
+      "z": -0.0049991607666015625,
+      "height": 10,
+      "origin": "existing"
+    },
+    {
+      "x": -75,
+      "y": 81,
+      "z": -0.0049953460693359375,
+      "height": 10,
+      "origin": "existing"
+    },
+    {
+      "x": -46,
+      "y": 8,
+      "z": -0.005001068115234375,
+      "height": 8,
+      "origin": "existing"
+    },
+    {
+      "x": -44,
+      "y": 17,
+      "z": -0.005001068115234375,
+      "height": 9,
+      "origin": "existing"
+    },
+    {
+      "x": -50,
+      "y": 34,
+      "z": -0.00499725341796875,
+      "height": 9,
+      "origin": "existing"
+    },
+    {
+      "x": -40,
+      "y": 52,
+      "z": -0.00499725341796875,
+      "height": 8,
+      "origin": "existing"
+    },
+    {
+      "x": -44,
+      "y": 64,
+      "z": -0.0049991607666015625,
+      "height": 9,
+      "origin": "existing"
+    },
+    {
+      "x": -48,
+      "y": 78,
+      "z": -0.005001068115234375,
+      "height": 8,
+      "origin": "existing"
+    },
+    {
+      "x": -65,
+      "y": 77,
+      "z": -0.005001068115234375,
+      "height": 9,
+      "origin": "existing"
+    },
+    {
+      "x": -62,
+      "y": 38,
+      "z": -0.0049991607666015625,
+      "height": 8,
+      "origin": "existing"
+    },
+    {
+      "x": -26,
+      "y": 6,
+      "z": -0.005001068115234375,
+      "height": 9,
+      "origin": "existing"
+    },
+    {
+      "x": -13,
+      "y": 6,
+      "z": -0.005001068115234375,
+      "height": 9,
+      "origin": "existing"
+    },
+    {
+      "x": 1,
+      "y": 6,
+      "z": -0.005001068115234375,
+      "height": 9,
+      "origin": "existing"
+    },
+    {
+      "x": 13,
+      "y": 6,
+      "z": -0.005001068115234375,
+      "height": 9,
+      "origin": "existing"
+    },
+    {
+      "x": 52,
+      "y": 6,
+      "z": -0.005001068115234375,
+      "height": 9,
+      "origin": "existing"
+    },
+    {
+      "x": 64,
+      "y": 6,
+      "z": -0.005001068115234375,
+      "height": 9,
+      "origin": "existing"
+    },
+    {
+      "x": 78,
+      "y": 6,
+      "z": -0.0049991607666015625,
+      "height": 9,
+      "origin": "existing"
+    },
+    {
+      "x": 91,
+      "y": 6,
+      "z": -0.00499725341796875,
+      "height": 9,
+      "origin": "existing"
+    },
+    {
+      "x": 98.3021175619119,
+      "y": 64,
+      "z": -0.00499725341796875,
+      "height": 8,
+      "origin": "existing"
+    },
+    {
+      "x": 91.3021175619119,
+      "y": 73,
+      "z": -0.00499725341796875,
+      "height": 7,
+      "origin": "existing"
+    },
+    {
+      "x": 70.8021175619119,
+      "y": 57.5,
+      "z": 0.2417583465576172,
+      "height": 6,
+      "origin": "existing"
+    },
+    {
+      "x": 85.3021175619119,
+      "y": 81,
+      "z": -0.00499725341796875,
+      "height": 8,
+      "origin": "existing"
+    },
+    {
+      "x": -73,
+      "y": 18,
+      "z": -0.0049991607666015625,
+      "height": 8.5,
+      "origin": "infill"
+    },
+    {
+      "x": -62,
+      "y": 18,
+      "z": -0.00499725341796875,
+      "height": 9.5,
+      "origin": "infill"
+    },
+    {
+      "x": -40,
+      "y": 43,
+      "z": -0.00499725341796875,
+      "height": 9.5,
+      "origin": "infill"
+    },
+    {
+      "x": -37,
+      "y": 8,
+      "z": -0.005001068115234375,
+      "height": 10,
+      "origin": "south"
+    },
+    {
+      "x": -7,
+      "y": 8,
+      "z": -0.005001068115234375,
+      "height": 10,
+      "origin": "south"
+    },
+    {
+      "x": 33,
+      "y": 8,
+      "z": -0.005001068115234375,
+      "height": 11,
+      "origin": "south"
+    },
+    {
+      "x": 43,
+      "y": 8,
+      "z": -0.005001068115234375,
+      "height": 12,
+      "origin": "south"
+    },
+    {
+      "x": 73,
+      "y": 8,
+      "z": -0.0049991607666015625,
+      "height": 12,
+      "origin": "south"
+    },
+    {
+      "x": 83,
+      "y": 8,
+      "z": -0.0049991607666015625,
+      "height": 10,
+      "origin": "south"
+    },
+    {
+      "x": 97,
+      "y": 46,
+      "z": -0.00499725341796875,
+      "height": 9,
+      "origin": "east"
+    },
+    {
+      "x": 97,
+      "y": 77,
+      "z": -0.00499725341796875,
+      "height": 10,
+      "origin": "east"
+    }
+  ],
+  "skipped_blocked_positions": [
+    [
+      -77,
+      38,
+      "existing"
+    ],
+    [
+      -73,
+      91,
+      "existing"
+    ],
+    [
+      -40,
+      89,
+      "existing"
+    ],
+    [
+      96.5021175619119,
+      36.8,
+      "existing"
+    ],
+    [
+      80.3021175619119,
+      20,
+      "existing"
+    ],
+    [
+      94.3021175619119,
+      15,
+      "existing"
+    ],
+    [
+      97.3021175619119,
+      92,
+      "existing"
+    ],
+    [
+      -73,
+      43,
+      "infill"
+    ],
+    [
+      -73,
+      69,
+      "infill"
+    ],
+    [
+      -73,
+      88,
+      "infill"
+    ],
+    [
+      -62,
+      43,
+      "infill"
+    ],
+    [
+      -62,
+      69,
+      "infill"
+    ],
+    [
+      -62,
+      88,
+      "infill"
+    ],
+    [
+      -51,
+      18,
+      "infill"
+    ],
+    [
+      -51,
+      43,
+      "infill"
+    ],
+    [
+      -51,
+      69,
+      "infill"
+    ],
+    [
+      -51,
+      88,
+      "infill"
+    ],
+    [
+      -40,
+      69,
+      "infill"
+    ],
+    [
+      -40,
+      88,
+      "infill"
+    ],
+    [
+      -67,
+      8,
+      "south"
+    ],
+    [
+      -57,
+      8,
+      "south"
+    ],
+    [
+      23,
+      8,
+      "south"
+    ],
+    [
+      86,
+      24,
+      "east"
+    ],
+    [
+      86,
+      46,
+      "east"
+    ],
+    [
+      86,
+      87,
+      "east"
+    ],
+    [
+      97,
+      24,
+      "east"
+    ],
+    [
+      97,
+      87,
+      "east"
+    ]
+  ],
+  "hidden_old_tree_objects": [
+    "VEGETATION__tree-trunks__FIN_bark",
+    "VEGETATION__tree-branches__FIN_bark",
+    "VEGETATION__tree-canopies__FIN_leaf0",
+    "VEGETATION__tree-canopies__FIN_leaf1",
+    "VEGETATION__tree-canopies__FIN_leaf2",
+    "VEGETATION__tree-canopies__FIN_leaf3",
+    "VEGETATION__tree-canopies__FIN_leaf4"
+  ],
+  "planted_surface_sources": [
+    "WTERR__hedge__redhedge",
+    "WTERR__hedge__hedge.001",
+    "WTERR__hedge__hedge",
+    "WTERR__hedge-leaf-masses__hedge-green",
+    "WTERR__back-hedge-leaves__hedge-burgundy",
+    "ERAMP__vine-leaf-clusters__leaf-green",
+    "ERAMP__pergola-vines__leaf-green",
+    "ERAMP__hanging-vines__leaf-green",
+    "E_PLANTING__clipped-shrub__leaf-green",
+    "FURNITURE__urn-planting__hedge",
+    "WB1__hedge-leaf-clusters__FIN_hedge",
+    "WB1__hedge-leaf-clusters__FIN_redhedge",
+    "WB2__hedge-leaf-clusters__FIN_hedge",
+    "WB2__hedge-leaf-clusters__FIN_redhedge",
+    "WOPEN__hedge-leaf-clusters__FIN_hedge",
+    "WOPEN_S__hedge-leaf-clusters__FIN_hedge",
+    "EOPEN__hedge-leaf-clusters__FIN_hedge",
+    "ERAMP__extra-vines__FIN_leaf0",
+    "ERAMP__extra-vines__FIN_leaf1",
+    "ERAMP__extra-vines__FIN_leaf2",
+    "FLOWER__planted-backing__FIN_hedge",
+    "FLOWER__flower-stems__FIN_hedge",
+    "VEGETATION__shrub-stem__FIN_bark",
+    "VEGETATION__clipped-shrubs__FIN_hedge",
+    "VEGETATION__hedge-leaf-clusters__FIN_redhedge"
+  ],
+  "portable_materials": [
+    "FIN_bark",
+    "FIN_bronze",
+    "FIN_concrete",
+    "FIN_garden_grass",
+    "FIN_granite",
+    "FIN_grass",
+    "FIN_hedge",
+    "FIN_leaf0",
+    "FIN_leaf1",
+    "FIN_leaf2",
+    "FIN_leaf3",
+    "FIN_leaf4",
+    "FIN_pavers",
+    "FIN_ramp",
+    "FIN_redhedge",
+    "FIN_stone_pale"
+  ],
+  "grass_materials": [
+    "FIN_garden_grass",
+    "FIN_grass"
+  ],
+  "prototype_count": 4,
+  "glb_bytes": 161148064,
+  "scope": "All garden vegetation at accepted pilot detail; not measured reconstruction",
+  "material_count": 86,
+  "embedded_images": 35,
+  "untextured_white_materials": [],
+  "tree_count": 34,
+  "reopened": true,
+  "glb_reimport": true,
+  "original_geometry_verified_after_final": true
+}

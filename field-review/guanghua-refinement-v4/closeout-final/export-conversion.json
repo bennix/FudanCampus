@@ -1,0 +1,257 @@
+{
+  "source": "C:\\Users\\Lumin\\source\\FudanCampus-course\\field-review\\guanghua-refinement-v4\\closeout-final\\guanghua-closeout-final.blend",
+  "source_sha256": "8625e7b4813f9a864c5a03121f32f28e2cc1e5d7265518b921593a137f8b8714",
+  "scale": 0.6666666666666666,
+  "translation_blender": [
+    117.86666870117188,
+    122.80000305175781,
+    0.0
+  ],
+  "transform_confidence": "Inherited provisional campus registration, not surveyed",
+  "triangle_estimates": {
+    "near": 3503744,
+    "middle": 1585438,
+    "far": 301748,
+    "static": 1333802
+  },
+  "editable_text_export": [
+    {
+      "name": "WB1__text__光华楼广场自行车库",
+      "body": "光华楼广场自行车库",
+      "font": "C:\\Windows\\Fonts\\simhei.ttf",
+      "feature_id": "WB1",
+      "vertices": 48482,
+      "polygons": 44943,
+      "matrix": [
+        [
+          -3.4873561816084475e-08,
+          -2.91409261166109e-08,
+          -0.6666666865348816,
+          68.10270690917969
+        ],
+        [
+          -0.7978140711784363,
+          1.2737904865750007e-15,
+          2.91409261166109e-08,
+          154.8000030517578
+        ],
+        [
+          0.0,
+          0.6666666865348816,
+          -2.91409261166109e-08,
+          1.3799999952316284
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ]
+    },
+    {
+      "name": "WB2__text__光华楼广场自行车库",
+      "body": "光华楼广场自行车库",
+      "font": "C:\\Windows\\Fonts\\simhei.ttf",
+      "feature_id": "WB2",
+      "vertices": 48482,
+      "polygons": 44943,
+      "matrix": [
+        [
+          -3.4873561816084475e-08,
+          -2.91409261166109e-08,
+          -0.6666666865348816,
+          68.10270690917969
+        ],
+        [
+          -0.7978140711784363,
+          1.2737904865750007e-15,
+          2.91409261166109e-08,
+          169.4666748046875
+        ],
+        [
+          0.0,
+          0.6666666865348816,
+          -2.91409261166109e-08,
+          1.3799999952316284
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ]
+    },
+    {
+      "name": "SIGN__text__FUDAN",
+      "body": "FUDAN",
+      "font": "C:\\Windows\\Fonts\\arialbd.ttf",
+      "feature_id": "SIGN",
+      "vertices": 5642,
+      "polygons": 5227,
+      "matrix": [
+        [
+          0.9801332354545593,
+          0.0,
+          0.0,
+          134.23333740234375
+        ],
+        [
+          0.0,
+          5.033193417602888e-08,
+          -0.6666666865348816,
+          129.10667419433594
+        ],
+        [
+          0.0,
+          0.6666666865348816,
+          5.033193417602888e-08,
+          0.5547162890434265
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ]
+    }
+  ],
+  "font_expected": [
+    {
+      "name": "WB1__text__光华楼广场自行车库",
+      "body": "光华楼广场自行车库",
+      "matrix": [
+        [
+          -3.4873561816084475e-08,
+          -2.91409261166109e-08,
+          -0.6666666865348816,
+          68.10270690917969
+        ],
+        [
+          -0.7978140711784363,
+          1.2737904865750007e-15,
+          2.91409261166109e-08,
+          154.8000030517578
+        ],
+        [
+          0.0,
+          0.6666666865348816,
+          -2.91409261166109e-08,
+          1.3799999952316284
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ]
+    },
+    {
+      "name": "WB2__text__光华楼广场自行车库",
+      "body": "光华楼广场自行车库",
+      "matrix": [
+        [
+          -3.4873561816084475e-08,
+          -2.91409261166109e-08,
+          -0.6666666865348816,
+          68.10270690917969
+        ],
+        [
+          -0.7978140711784363,
+          1.2737904865750007e-15,
+          2.91409261166109e-08,
+          169.4666748046875
+        ],
+        [
+          0.0,
+          0.6666666865348816,
+          -2.91409261166109e-08,
+          1.3799999952316284
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ]
+    },
+    {
+      "name": "SIGN__text__FUDAN",
+      "body": "FUDAN",
+      "matrix": [
+        [
+          0.9801332354545593,
+          0.0,
+          0.0,
+          134.23333740234375
+        ],
+        [
+          0.0,
+          -2.91409261166109e-08,
+          -0.6666666865348816,
+          129.10667419433594
+        ],
+        [
+          0.0,
+          0.6666666865348816,
+          -2.91409261166109e-08,
+          0.5547162890434265
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ]
+    }
+  ],
+  "shared_canopy_prototypes": 64,
+  "raw_bytes": 479254140,
+  "feature_ids": [
+    "BOUNDARY",
+    "BUILDING_ENTRY",
+    "DING",
+    "EDGE_PATHS",
+    "EOPEN",
+    "EOPEN_S",
+    "EPATH",
+    "ERAMP",
+    "ESKY",
+    "ETERR",
+    "E_ENTRY",
+    "E_FURNITURE",
+    "E_PLANTING",
+    "E_WALK",
+    "FLOWER",
+    "FORECOURT",
+    "FURNITURE",
+    "GARDEN_VEGETATION_V3",
+    "GROUND",
+    "LAWN",
+    "LAWN_EDGE",
+    "POET_DONKEY",
+    "POET_GARDEN",
+    "SIGN",
+    "TREE_CANOPY_V6",
+    "VEGETATION",
+    "VEGETATION_V2",
+    "WB1",
+    "WB2",
+    "WGLASS",
+    "WGLASS2",
+    "WOPEN",
+    "WOPEN_S",
+    "WPATH",
+    "WSKY1",
+    "WSKY2",
+    "WTERR",
+    "W_ENTRY"
+  ],
+  "material_conversion": "Procedural color fallback recorded in WEB material extras; native microrelief does not transfer",
+  "native_source_unchanged": true
+}

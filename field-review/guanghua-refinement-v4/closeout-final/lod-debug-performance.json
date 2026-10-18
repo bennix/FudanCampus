@@ -1,0 +1,113 @@
+{
+  "tag": "lod-debug",
+  "browser": "154.0.8037.59",
+  "headless": true,
+  "loading": "Fresh browser context, local HTTP; operating-system cache unspecified",
+  "coldContextLocalLoadMs": 5312,
+  "network": "loopback; no public-network bandwidth claim",
+  "resolution": [
+    1920,
+    1080
+  ],
+  "pixelRatio": 1,
+  "measurementSeconds": 10,
+  "views": [
+    {
+      "triangles": 7968192,
+      "drawCalls": 2894,
+      "geometries": 1151,
+      "textures": 61,
+      "lodObjects": 990,
+      "lodVisible": {
+        "far": 330
+      },
+      "viewport": [
+        1920,
+        1080
+      ],
+      "pixelRatio": 1,
+      "camera": [
+        236,
+        114.99999999999996,
+        -47.00000000000003
+      ],
+      "target": [
+        127,
+        12,
+        -177
+      ],
+      "trees": true,
+      "gpu": "ANGLE (Intel, Intel(R) Arc(TM) Graphics (0x00007D55) Direct3D11 vs_5_0 ps_5_0, D3D11)",
+      "frameCount": 291,
+      "medianFrameMs": 34.10000002384186,
+      "p95FrameMs": 38.60000002384186,
+      "medianFps": 29.32551317597728
+    },
+    {
+      "triangles": 6444644,
+      "drawCalls": 2032,
+      "geometries": 1151,
+      "textures": 61,
+      "lodObjects": 990,
+      "lodVisible": {
+        "far": 330
+      },
+      "viewport": [
+        1920,
+        1080
+      ],
+      "pixelRatio": 1,
+      "camera": [
+        126,
+        205,
+        -159.99999999998846
+      ],
+      "target": [
+        126,
+        0,
+        -160.1
+      ],
+      "trees": true,
+      "gpu": "ANGLE (Intel, Intel(R) Arc(TM) Graphics (0x00007D55) Direct3D11 vs_5_0 ps_5_0, D3D11)",
+      "frameCount": 371,
+      "medianFrameMs": 27,
+      "p95FrameMs": 28.200000047683716,
+      "medianFps": 37.03703703703704
+    },
+    {
+      "triangles": 5424754,
+      "drawCalls": 663,
+      "geometries": 1244,
+      "textures": 61,
+      "lodObjects": 990,
+      "lodVisible": {
+        "middle": 316,
+        "near": 14
+      },
+      "viewport": [
+        1920,
+        1080
+      ],
+      "pixelRatio": 1,
+      "camera": [
+        131.2,
+        6.999999999999993,
+        -120.8
+      ],
+      "target": [
+        131.2,
+        35,
+        -224.8
+      ],
+      "trees": true,
+      "gpu": "ANGLE (Intel, Intel(R) Arc(TM) Graphics (0x00007D55) Direct3D11 vs_5_0 ps_5_0, D3D11)",
+      "frameCount": 356,
+      "medianFrameMs": 28.100000023841858,
+      "p95FrameMs": 29.5,
+      "medianFps": 35.587188581905174
+    }
+  ],
+  "errors": [],
+  "failed": [],
+  "narrowOverflow": false
+}

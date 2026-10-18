@@ -1,0 +1,98 @@
+{
+  "source_sha256": "75932ca5632abc2e83a3ab272342b3147065ca1557102c1de8768254b145a240",
+  "v7_sha256": "641a3ab8f02443ef98ce1bc2dcb2e8a6fdb63ba194dd6fffbec7a92aeeb146a2",
+  "affected_instances": 281,
+  "unique_meshes": 18,
+  "prototypes": [
+    {
+      "mesh": "C08 once West hedge WTERR__hedge__redhedge.001",
+      "leaf_fans": 77176,
+      "instances": 1
+    },
+    {
+      "mesh": "C08 once West hedge WTERR__hedge__hedge.002",
+      "leaf_fans": 9926,
+      "instances": 1
+    },
+    {
+      "mesh": "C08 once West hedge WTERR__hedge__hedge.003",
+      "leaf_fans": 71380,
+      "instances": 1
+    },
+    {
+      "mesh": "C08 once East hedge ESKY__planted-shrubs__leaf-green.001",
+      "leaf_fans": 17472,
+      "instances": 1
+    },
+    {
+      "mesh": "C08 once East hedge ETERR__hedge__leaf-green.001",
+      "leaf_fans": 110571,
+      "instances": 1
+    },
+    {
+      "mesh": "C08 once East hedge ETERR__hedge__leaf-bronze.001",
+      "leaf_fans": 103040,
+      "instances": 1
+    },
+    {
+      "mesh": "C08 once West hedge WOPEN__hedge-core__FIN_hedge.001",
+      "leaf_fans": 19580,
+      "instances": 1
+    },
+    {
+      "mesh": "C08 once West hedge WOPEN_S__hedge-core__FIN_hedge.001",
+      "leaf_fans": 19581,
+      "instances": 1
+    },
+    {
+      "mesh": "C08 once East hedge EOPEN__hedge-core__FIN_hedge.001",
+      "leaf_fans": 19580,
+      "instances": 1
+    },
+    {
+      "mesh": "C08 once East hedge EOPEN_S__hedge-core__FIN_hedge.001",
+      "leaf_fans": 19581,
+      "instances": 1
+    },
+    {
+      "mesh": "C08 once GV3 shrub prototype 4 foliage.001",
+      "leaf_fans": 3300,
+      "instances": 49
+    },
+    {
+      "mesh": "C08 once GV3 shrub prototype 5 foliage.001",
+      "leaf_fans": 3300,
+      "instances": 15
+    },
+    {
+      "mesh": "C08 once GV3 shrub prototype 2 foliage.001",
+      "leaf_fans": 3300,
+      "instances": 24
+    },
+    {
+      "mesh": "C08 once GV3 shrub prototype 3 foliage.001",
+      "leaf_fans": 4100,
+      "instances": 32
+    },
+    {
+      "mesh": "C08 once GV3 shrub prototype 0 foliage.001",
+      "leaf_fans": 4100,
+      "instances": 64
+    },
+    {
+      "mesh": "C08 once GV3 shrub prototype 1 foliage.001",
+      "leaf_fans": 3300,
+      "instances": 85
+    },
+    {
+      "mesh": "C08 once GV3 scattered fallen leaves.001",
+      "leaf_fans": 942,
+      "instances": 1
+    },
+    {
+      "mesh": "C08 once GV3 pergola fine vine leaves.001",
+      "leaf_fans": 65408,
+      "instances": 1
+    }
+  ]
+}

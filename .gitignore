@@ -12,3 +12,8 @@ web/tsconfig.tsbuildinfo
 output/*.log
 output/*.blend1
 scripts/__pycache__/
+.local/npm-cache/
+.local/model-tools/
+.local/tsconfig-campus-check.json
+
+web/*.tsbuildinfo

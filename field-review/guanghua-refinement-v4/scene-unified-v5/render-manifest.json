@@ -1,0 +1,217 @@
+[
+  {
+    "view": "overall",
+    "image": "overall.png",
+    "model": "C:\\Users\\Lumin\\source\\FudanCampus-course\\field-review\\guanghua-refinement-v4\\scene-unified-v5\\guanghua-unified-v5.blend",
+    "model_sha256": "ba1a1169e1ff4705db5b467ce2359fe8c086a2801f07548e8d5bb3f085fb310f",
+    "camera": "FINAL landscape",
+    "camera_matrix": [
+      [
+        0.8149095773696899,
+        -0.3552365005016327,
+        0.4579622149467468,
+        187.7962188720703
+      ],
+      [
+        0.5795881152153015,
+        0.49946779012680054,
+        -0.6439018249511719,
+        -197.3901824951172
+      ],
+      [
+        5.573146566462128e-08,
+        0.7901512384414673,
+        0.6129119396209717,
+        239.29119873046875
+      ],
+      [
+        0.0,
+        0.0,
+        0.0,
+        1.0
+      ]
+    ],
+    "camera_type": "ORTHO",
+    "lens": 42.0,
+    "ortho_scale": 219.0,
+    "width": 1800,
+    "height": 1350,
+    "samples": 40,
+    "exposure": 0.65,
+    "visibility_policy": "Exact checkpoint visibility; no scene meshes hidden for rendering",
+    "seconds": 48.4,
+    "image_sha256": "5e99063a44eab99c4ed9db8ec2d63ab0f1cd6d29227701c2482b487324086e98"
+  },
+  {
+    "view": "top",
+    "image": "top.png",
+    "model": "C:\\Users\\Lumin\\source\\FudanCampus-course\\field-review\\guanghua-refinement-v4\\scene-unified-v5\\guanghua-unified-v5.blend",
+    "model_sha256": "ba1a1169e1ff4705db5b467ce2359fe8c086a2801f07548e8d5bb3f085fb310f",
+    "camera": "UNIFIED full scene overhead",
+    "camera_matrix": [
+      [
+        1.0,
+        0.0,
+        0.0,
+        10.0
+      ],
+      [
+        0.0,
+        1.0,
+        0.0,
+        58.0
+      ],
+      [
+        0.0,
+        0.0,
+        1.0,
+        280.0
+      ],
+      [
+        0.0,
+        0.0,
+        0.0,
+        1.0
+      ]
+    ],
+    "camera_type": "ORTHO",
+    "lens": 50.0,
+    "ortho_scale": 280.0,
+    "width": 1800,
+    "height": 1350,
+    "samples": 28,
+    "exposure": 0.65,
+    "visibility_policy": "Exact checkpoint visibility; no scene meshes hidden for rendering",
+    "seconds": 31.4,
+    "image_sha256": "3911dfad4188b7c3ea7083cec19ebad4c57d3ea4ab4c081853ccb16145243be9"
+  },
+  {
+    "view": "entry-planters",
+    "image": "entry-planters.png",
+    "model": "C:\\Users\\Lumin\\source\\FudanCampus-course\\field-review\\guanghua-refinement-v4\\scene-unified-v5\\guanghua-unified-v5.blend",
+    "model_sha256": "ba1a1169e1ff4705db5b467ce2359fe8c086a2801f07548e8d5bb3f085fb310f",
+    "camera": "P5 paired planters overhead",
+    "camera_matrix": [
+      [
+        1.0,
+        0.0,
+        0.0,
+        20.0
+      ],
+      [
+        0.0,
+        1.0,
+        0.0,
+        111.0
+      ],
+      [
+        0.0,
+        0.0,
+        1.0,
+        180.0
+      ],
+      [
+        0.0,
+        0.0,
+        0.0,
+        1.0
+      ]
+    ],
+    "camera_type": "ORTHO",
+    "lens": 25.0,
+    "ortho_scale": 157.0,
+    "width": 1800,
+    "height": 756,
+    "samples": 32,
+    "exposure": 0.65,
+    "visibility_policy": "Exact checkpoint visibility; no scene meshes hidden for rendering",
+    "seconds": 25.9,
+    "image_sha256": "bc5c854b49a6ff3eabf7a1580138cc619710d20d3983c496207c0f341ee0233f"
+  },
+  {
+    "view": "east-straight-path",
+    "image": "east-straight-path.png",
+    "model": "C:\\Users\\Lumin\\source\\FudanCampus-course\\field-review\\guanghua-refinement-v4\\scene-unified-v5\\guanghua-unified-v5.blend",
+    "model_sha256": "ba1a1169e1ff4705db5b467ce2359fe8c086a2801f07548e8d5bb3f085fb310f",
+    "camera": "A approximate IMG4492",
+    "camera_matrix": [
+      [
+        -1.0,
+        -8.59096118688285e-08,
+        -8.889772828979403e-08,
+        65.4000015258789
+      ],
+      [
+        -8.742277657347586e-08,
+        -0.017018763348460197,
+        0.9998551607131958,
+        81.0
+      ],
+      [
+        -8.74101004910699e-08,
+        0.9998551607131958,
+        0.017018763348460197,
+        1.7000000476837158
+      ],
+      [
+        0.0,
+        0.0,
+        0.0,
+        1.0
+      ]
+    ],
+    "camera_type": "PERSP",
+    "lens": 26.0,
+    "ortho_scale": 6.0,
+    "width": 1800,
+    "height": 1350,
+    "samples": 32,
+    "exposure": 0.65,
+    "visibility_policy": "Exact checkpoint visibility; no scene meshes hidden for rendering",
+    "seconds": 44.1,
+    "image_sha256": "bf7b0a3168634519c046d961e4906fc1d64816715f6b1bdb02ef54b50f3827fd"
+  },
+  {
+    "view": "entry-material-detail",
+    "image": "entry-material-detail.png",
+    "model": "C:\\Users\\Lumin\\source\\FudanCampus-course\\field-review\\guanghua-refinement-v4\\scene-unified-v5\\guanghua-unified-v5.blend",
+    "model_sha256": "ba1a1169e1ff4705db5b467ce2359fe8c086a2801f07548e8d5bb3f085fb310f",
+    "camera": "P5 approximate IMG_4464",
+    "camera_matrix": [
+      [
+        0.9738411903381348,
+        -0.004277439322322607,
+        -0.22718939185142517,
+        -45.0
+      ],
+      [
+        -0.22722965478897095,
+        -0.018331924453377724,
+        -0.97366863489151,
+        84.0
+      ],
+      [
+        -1.002108795944423e-08,
+        0.9998227953910828,
+        -0.018824344500899315,
+        2.200000047683716
+      ],
+      [
+        0.0,
+        0.0,
+        0.0,
+        1.0
+      ]
+    ],
+    "camera_type": "PERSP",
+    "lens": 22.0,
+    "ortho_scale": 6.0,
+    "width": 1800,
+    "height": 1350,
+    "samples": 32,
+    "exposure": 0.65,
+    "visibility_policy": "Exact checkpoint visibility; no scene meshes hidden for rendering",
+    "seconds": 53.3,
+    "image_sha256": "9ed7a91624687749612278d379b9fc21f275acd7ab9b9181b8bd8a6749423a64"
+  }
+]

@@ -1,0 +1,37 @@
+{
+  "version": 1,
+  "baselineCommit": "2cdda07",
+  "buildings": {
+    "42": {
+      "source": "web/public/hanbing-final-v14/hanbing-only.glb",
+      "editableSource": "field-review/hanbing-2026-09-20/hanbing-side-swap-v14/FudanCampus-campus-hanbing-v14.blend",
+      "position": [
+        -258.4,
+        0,
+        -176.8
+      ]
+    }
+  },
+  "files": {
+    "field-review/hanbing-2026-09-20/hanbing-side-swap-v14/FudanCampus-campus-hanbing-v14.blend": "933362725459ea00ba324bddf875f6eea425e7ea73b9eeadcfab52f158533ef6",
+    "field-review/hanbing-2026-09-20/hanbing-side-swap-v14/build.py": "979b1a773764ea35fb789108c540398cce2418d6b19cad0b35d3e53d6fefb02c",
+    "field-review/hanbing-2026-09-20/hanbing-side-swap-v14/campus-aerial-v14.png": "fb3468b0dab7f64b5982a9b6427a59d313e891385a9203ac5a9c21cef2eaa1cc",
+    "field-review/hanbing-2026-09-20/hanbing-side-swap-v14/change-summary.json": "c8040dc67598989bd3a70af9cf781de7d83943ff9523ec1e892327a367d07a5a",
+    "web/hanbing-final.html": "2a4b4118d774887f1a74a0cbc162530b60efe0605d587a0d5be22ad66e720e0b",
+    "web/hanbing-final.ts": "7505852eb57e3091c32a0cc6c7bec033732c85c8d0d0eeaf7fa412e61d2c060e",
+    "web/public/hanbing-final-v14/buildings.json": "c33ba8de447f8492a731930e283634d7b2926eb6d85a8ae3d8a3db8cdc34afcf",
+    "web/public/hanbing-final-v14/campus.glb": "864bf8a473fa84df36248bd7b60e4a93219c385059b1b2d4105e969a8603df19",
+    "web/public/hanbing-final-v14/hanbing-only.glb": "470c9715efd1462189e919e123023fe6f4de71736e56954e0fc79ff6bfcb80f8",
+    "web/public/hanbing-final-v14/statistics.json": "bc52f17c1d8729a428774e269878061afde4d6a986c9ecb294c603ace20def86",
+    "web/vite.hanbing-final.config.ts": "0f9355a52e695abab520809d745380c625306dd73c00af5061082e4eda5257ae"
+  },
+  "textFiles": [
+    "field-review/hanbing-2026-09-20/hanbing-side-swap-v14/build.py",
+    "field-review/hanbing-2026-09-20/hanbing-side-swap-v14/change-summary.json",
+    "web/hanbing-final.html",
+    "web/hanbing-final.ts",
+    "web/public/hanbing-final-v14/buildings.json",
+    "web/public/hanbing-final-v14/statistics.json",
+    "web/vite.hanbing-final.config.ts"
+  ]
+}

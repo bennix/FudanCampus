@@ -1,0 +1,3376 @@
+[
+  {
+    "x": 83.67763592468344,
+    "y": 73.20000005415018,
+    "boundary_type": "road / planting ground",
+    "minimum_actual_height_difference": 0.0,
+    "road_height_range": [
+      0.0449981689453125,
+      0.04500389099121094
+    ],
+    "ground_height_range": [
+      0.04499244689941406,
+      0.045001983642578125
+    ]
+  },
+  {
+    "x": 83.11155863966863,
+    "y": 73.20000005607055,
+    "boundary_type": "road / planting ground",
+    "minimum_actual_height_difference": 1.9073486328125e-06,
+    "road_height_range": [
+      0.04503631591796875,
+      0.04504203796386719
+    ],
+    "ground_height_range": [
+      0.04503440856933594,
+      0.04503822326660156
+    ]
+  },
+  {
+    "x": 82.54548135465382,
+    "y": 73.20000005799092,
+    "boundary_type": "road / planting ground",
+    "minimum_actual_height_difference": 0.0,
+    "road_height_range": [
+      0.046108245849609375,
+      0.04611015319824219
+    ],
+    "ground_height_range": [
+      0.04610633850097656,
+      0.04611015319824219
+    ]
+  },
+  {
+    "x": 82.04893642284436,
+    "y": 73.29220441871065,
+    "boundary_type": "road / planting ground",
+    "minimum_actual_height_difference": 3.814697265625e-06,
+    "road_height_range": [
+      0.04753303527832031,
+      0.04753684997558594
+    ],
+    "ground_height_range": [
+      0.04752349853515625,
+      0.04752922058105469
+    ]
+  },
+  {
+    "x": 81.7219828833483,
+    "y": 72.99161768039785,
+    "boundary_type": "road / planting ground",
+    "minimum_actual_height_difference": 0.0,
+    "road_height_range": [
+      0.04980659484863281,
+      0.04981231689453125
+    ],
+    "ground_height_range": [
+      0.049800872802734375,
+      0.04981040954589844
+    ]
+  },
+  {
+    "x": 82.18196772121458,
+    "y": 72.66195425070353,
+    "boundary_type": "road / planting ground",
+    "minimum_actual_height_difference": 1.9073486328125e-06,
+    "road_height_range": [
+      0.050777435302734375,
+      0.05078125
+    ],
+    "ground_height_range": [
+      0.050769805908203125,
+      0.05077552795410156
+    ]
+  },
+  {
+    "x": 82.61994206558356,
+    "y": 72.30358723293801,
+    "boundary_type": "road / planting ground",
+    "minimum_actual_height_difference": 0.0,
+    "road_height_range": [
+      0.04822349548339844,
+      0.0482330322265625
+    ],
+    "ground_height_range": [
+      0.04821968078613281,
+      0.0482330322265625
+    ]
+  },
+  {
+    "x": 83.02416574056095,
+    "y": 71.9076512413147,
+    "boundary_type": "road / planting ground",
+    "minimum_actual_height_difference": 0.0,
+    "road_height_range": [
+      0.04584503173828125,
+      0.0458526611328125
+    ],
+    "ground_height_range": [
+      0.04583930969238281,
+      0.04584693908691406
+    ]
+  },
+  {
+    "x": 83.39081371021022,
+    "y": 71.47673036303112,
+    "boundary_type": "road / planting ground",
+    "minimum_actual_height_difference": 0.0,
+    "road_height_range": [
+      0.04501152038574219,
+      0.045017242431640625
+    ],
+    "ground_height_range": [
+      0.045009613037109375,
+      0.045017242431640625
+    ]
+  },
+  {
+    "x": 83.70477129671903,
+    "y": 71.00611822000926,
+    "boundary_type": "road / planting ground",
+    "minimum_actual_height_difference": 0.0,
+    "road_height_range": [
+      0.0449981689453125,
+      0.045001983642578125
+    ],
+    "ground_height_range": [
+      0.044994354248046875,
+      0.0449981689453125
+    ]
+  },
+  {
+    "x": 83.96265244319751,
+    "y": 70.50257943784047,
+    "boundary_type": "road / planting ground",
+    "minimum_actual_height_difference": 0.0,
+    "road_height_range": [
+      0.0449981689453125,
+      0.045001983642578125
+    ],
+    "ground_height_range": [
+      0.04499244689941406,
+      0.04500007629394531
+    ]
+  },
+  {
+    "x": 84.16346010439327,
+    "y": 69.97370739230642,
+    "boundary_type": "road / planting ground",
+    "minimum_actual_height_difference": 0.0,
+    "road_height_range": [
+      0.04500007629394531,
+      0.04500389099121094
+    ],
+    "ground_height_range": [
+      0.044994354248046875,
+      0.04500007629394531
+    ]
+  },
+  {
+    "x": 84.30997019578119,
+    "y": 69.42722944155511,
+    "boundary_type": "road / planting ground",
+    "minimum_actual_height_difference": 0.0,
+    "road_height_range": [
+      0.04499626159667969,
+      0.04500389099121094
+    ],
+    "ground_height_range": [
+      0.044994354248046875,
+      0.045001983642578125
+    ]
+  },
+  {
+    "x": 84.39681677662512,
+    "y": 68.86818846245977,
+    "boundary_type": "road / planting ground",
+    "minimum_actual_height_difference": 0.0,
+    "road_height_range": [
+      0.0449981689453125,
+      0.04500007629394531
+    ],
+    "ground_height_range": [
+      0.04500007629394531,
+      0.04500389099121094
+    ]
+  },
+  {
+    "x": 84.42571165107809,
+    "y": 68.30315955698758,
+    "boundary_type": "road / planting ground",
+    "minimum_actual_height_difference": 1.9073486328125e-06,
+    "road_height_range": [
+      0.04499626159667969,
+      0.04500389099121094
+    ],
+    "ground_height_range": [
+      0.0449981689453125,
+      0.045001983642578125
+    ]
+  },
+  {
+    "x": 84.39778094445406,
+    "y": 67.73808794589374,
+    "boundary_type": "road / planting ground",
+    "minimum_actual_height_difference": 0.0,
+    "road_height_range": [
+      0.24207305908203125,
+      0.24211502075195312
+    ],
+    "ground_height_range": [
+      0.24208641052246094,
+      0.24213027954101562
+    ]
+  },
+  {
+    "x": 84.76815202848113,
+    "y": 67.3288279297379,
+    "boundary_type": "road / planting ground",
+    "minimum_actual_height_difference": 0.0,
+    "road_height_range": [
+      0.3076133728027344,
+      0.30767059326171875
+    ],
+    "ground_height_range": [
+      0.3076152801513672,
+      0.3076744079589844
+    ]
+  },
+  {
+    "x": 85.1571036926785,
+    "y": 66.91759807778718,
+    "boundary_type": "road / planting ground",
+    "minimum_actual_height_difference": 0.0,
+    "road_height_range": [
+      0.3795051574707031,
+      0.37956809997558594
+    ],
+    "ground_height_range": [
+      0.3794994354248047,
+      0.37957000732421875
+    ]
+  },
+  {
+    "x": 85.5258038789471,
+    "y": 66.48814608127324,
+    "boundary_type": "road / planting ground",
+    "minimum_actual_height_difference": 0.0,
+    "road_height_range": [
+      0.4503211975097656,
+      0.4503803253173828
+    ],
+    "ground_height_range": [
+      0.4503211975097656,
+      0.4503803253173828
+    ]
+  },
+  {
+    "x": 85.86702530448001,
+    "y": 66.03661807317414,
+    "boundary_type": "road / planting ground",
+    "minimum_actual_height_difference": 0.0,
+    "road_height_range": [
+      0.5287895202636719,
+      0.5288619995117188
+    ],
+    "ground_height_range": [
+      0.5287914276123047,
+      0.5288619995117188
+    ]
+  },
+  {
+    "x": 86.19321593915521,
+    "y": 65.57403384666887,
+    "boundary_type": "road / planting ground",
+    "minimum_actual_height_difference": 0.0,
+    "road_height_range": [
+      0.6124458312988281,
+      0.6125221252441406
+    ],
+    "ground_height_range": [
+      0.6124439239501953,
+      0.6125164031982422
+    ]
+  },
+  {
+    "x": 86.50801940144643,
+    "y": 65.10361187959016,
+    "boundary_type": "road / planting ground",
+    "minimum_actual_height_difference": 0.0,
+    "road_height_range": [
+      0.6979198455810547,
+      0.6979961395263672
+    ],
+    "ground_height_range": [
+      0.6979217529296875,
+      0.697998046875
+    ]
+  },
+  {
+    "x": 86.81202466307602,
+    "y": 64.62613079803174,
+    "boundary_type": "road / planting ground",
+    "minimum_actual_height_difference": 0.0,
+    "road_height_range": [
+      0.7840900421142578,
+      0.7841587066650391
+    ],
+    "ground_height_range": [
+      0.7840862274169922,
+      0.7841625213623047
+    ]
+  },
+  {
+    "x": 87.10549908941339,
+    "y": 64.14207510336792,
+    "boundary_type": "road / planting ground",
+    "minimum_actual_height_difference": 0.0,
+    "road_height_range": [
+      0.8660717010498047,
+      0.8661422729492188
+    ],
+    "ground_height_range": [
+      0.8660659790039062,
+      0.8661460876464844
+    ]
+  },
+  {
+    "x": 87.38492877426785,
+    "y": 63.64977179865437,
+    "boundary_type": "road / planting ground",
+    "minimum_actual_height_difference": 0.0,
+    "road_height_range": [
+      0.9479484558105469,
+      0.9480190277099609
+    ],
+    "ground_height_range": [
+      0.9479465484619141,
+      0.9480171203613281
+    ]
+  },
+  {
+    "x": 87.6496557254717,
+    "y": 63.14946341902418,
+    "boundary_type": "road / planting ground",
+    "minimum_actual_height_difference": 0.0,
+    "road_height_range": [
+      1.0223865509033203,
+      1.0224552154541016
+    ],
+    "ground_height_range": [
+      1.0223827362060547,
+      1.022451400756836
+    ]
+  },
+  {
+    "x": 87.89357504738213,
+    "y": 62.63872612775474,
+    "boundary_type": "road / planting ground",
+    "minimum_actual_height_difference": 0.0,
+    "road_height_range": [
+      1.0903339385986328,
+      1.090383529663086
+    ],
+    "ground_height_range": [
+      1.0903282165527344,
+      1.0903816223144531
+    ]
+  },
+  {
+    "x": 88.10821383021154,
+    "y": 62.11511313805502,
+    "boundary_type": "road / planting ground",
+    "minimum_actual_height_difference": 0.0,
+    "road_height_range": [
+      1.1520748138427734,
+      1.1521263122558594
+    ],
+    "ground_height_range": [
+      1.1520748138427734,
+      1.1521263122558594
+    ]
+  },
+  {
+    "x": 88.26780422195156,
+    "y": 61.57260763947657,
+    "boundary_type": "road / planting ground",
+    "minimum_actual_height_difference": 0.0,
+    "road_height_range": [
+      1.2002754211425781,
+      1.2003135681152344
+    ],
+    "ground_height_range": [
+      1.2002696990966797,
+      1.2003116607666016
+    ]
+  },
+  {
+    "x": 88.35314331804683,
+    "y": 61.01357028591279,
+    "boundary_type": "road / planting ground",
+    "minimum_actual_height_difference": 0.0,
+    "road_height_range": [
+      1.241058349609375,
+      1.2410926818847656
+    ],
+    "ground_height_range": [
+      1.2410526275634766,
+      1.2410926818847656
+    ]
+  },
+  {
+    "x": 88.36991728287781,
+    "y": 60.44809712132305,
+    "boundary_type": "road / planting ground",
+    "minimum_actual_height_difference": 0.0,
+    "road_height_range": [
+      1.274465560913086,
+      1.2744903564453125
+    ],
+    "ground_height_range": [
+      1.2744598388671875,
+      1.2744922637939453
+    ]
+  },
+  {
+    "x": 88.32900101032185,
+    "y": 59.883720030288025,
+    "boundary_type": "road / planting ground",
+    "minimum_actual_height_difference": 0.0,
+    "road_height_range": [
+      1.3036956787109375,
+      1.3037185668945312
+    ],
+    "ground_height_range": [
+      1.3036937713623047,
+      1.3037185668945312
+    ]
+  },
+  {
+    "x": 88.25179941137188,
+    "y": 59.3230184775132,
+    "boundary_type": "road / planting ground",
+    "minimum_actual_height_difference": 0.0,
+    "road_height_range": [
+      1.3228111267089844,
+      1.3228206634521484
+    ],
+    "ground_height_range": [
+      1.3228015899658203,
+      1.3228187561035156
+    ]
+  },
+  {
+    "x": 88.05190417909526,
+    "y": 58.91639661284716,
+    "boundary_type": "road / planting ground",
+    "minimum_actual_height_difference": 0.0,
+    "road_height_range": [
+      1.3299980163574219,
+      1.3299999237060547
+    ],
+    "ground_height_range": [
+      1.3299942016601562,
+      1.3300018310546875
+    ]
+  },
+  {
+    "x": 87.48639454888787,
+    "y": 58.94174125236796,
+    "boundary_type": "road / planting ground",
+    "minimum_actual_height_difference": 0.0,
+    "road_height_range": [
+      1.3299980163574219,
+      1.3299999237060547
+    ],
+    "ground_height_range": [
+      1.3299942016601562,
+      1.3300018310546875
+    ]
+  },
+  {
+    "x": 86.92088491868047,
+    "y": 58.96708589188877,
+    "boundary_type": "road / planting ground",
+    "minimum_actual_height_difference": 0.0,
+    "road_height_range": [
+      1.329996109008789,
+      1.3300018310546875
+    ],
+    "ground_height_range": [
+      1.3299903869628906,
+      1.3299999237060547
+    ]
+  },
+  {
+    "x": 86.40567612537889,
+    "y": 59.03791386795615,
+    "boundary_type": "road / planting ground",
+    "minimum_actual_height_difference": 0.0,
+    "road_height_range": [
+      1.329925537109375,
+      1.3299293518066406
+    ],
+    "ground_height_range": [
+      1.3299083709716797,
+      1.3299274444580078
+    ]
+  },
+  {
+    "x": 86.47454289812946,
+    "y": 59.59943688305988,
+    "boundary_type": "road / planting ground",
+    "minimum_actual_height_difference": 0.0,
+    "road_height_range": [
+      1.3231315612792969,
+      1.3231487274169922
+    ],
+    "ground_height_range": [
+      1.3231220245361328,
+      1.3231449127197266
+    ]
+  },
+  {
+    "x": 86.54993744558529,
+    "y": 60.16042027001422,
+    "boundary_type": "road / planting ground",
+    "minimum_actual_height_difference": 0.0,
+    "road_height_range": [
+      1.2999610900878906,
+      1.2999935150146484
+    ],
+    "ground_height_range": [
+      1.2999610900878906,
+      1.29998779296875
+    ]
+  },
+  {
+    "x": 86.56863392106786,
+    "y": 60.725740780144775,
+    "boundary_type": "road / planting ground",
+    "minimum_actual_height_difference": 0.0,
+    "road_height_range": [
+      1.2551860809326172,
+      1.2552356719970703
+    ],
+    "ground_height_range": [
+      1.255178451538086,
+      1.2552318572998047
+    ]
+  },
+  {
+    "x": 86.48700701341946,
+    "y": 61.284588149558644,
+    "boundary_type": "road / planting ground",
+    "minimum_actual_height_difference": 0.0,
+    "road_height_range": [
+      1.180633544921875,
+      1.180685043334961
+    ],
+    "ground_height_range": [
+      1.1806316375732422,
+      1.180685043334961
+    ]
+  },
+  {
+    "x": 86.29067635470801,
+    "y": 61.81502919262574,
+    "boundary_type": "road / planting ground",
+    "minimum_actual_height_difference": 0.0,
+    "road_height_range": [
+      1.1053848266601562,
+      1.1054611206054688
+    ],
+    "ground_height_range": [
+      1.1053848266601562,
+      1.105459213256836
+    ]
+  },
+  {
+    "x": 86.04692575984723,
+    "y": 62.32583155704316,
+    "boundary_type": "road / planting ground",
+    "minimum_actual_height_difference": 0.0,
+    "road_height_range": [
+      1.0225639343261719,
+      1.0226402282714844
+    ],
+    "ground_height_range": [
+      1.022562026977539,
+      1.0226383209228516
+    ]
+  },
+  {
+    "x": 85.78202542362416,
+    "y": 62.82599368268967,
+    "boundary_type": "road / planting ground",
+    "minimum_actual_height_difference": 0.0,
+    "road_height_range": [
+      0.9381752014160156,
+      0.9382553100585938
+    ],
+    "ground_height_range": [
+      0.9381771087646484,
+      0.9382553100585938
+    ]
+  },
+  {
+    "x": 85.50116897199601,
+    "y": 63.3174053886187,
+    "boundary_type": "road / planting ground",
+    "minimum_actual_height_difference": 0.0,
+    "road_height_range": [
+      0.8514766693115234,
+      0.8515586853027344
+    ],
+    "ground_height_range": [
+      0.8514766693115234,
+      0.8515567779541016
+    ]
+  },
+  {
+    "x": 85.206323642996,
+    "y": 63.80061678759337,
+    "boundary_type": "road / planting ground",
+    "minimum_actual_height_difference": 0.0,
+    "road_height_range": [
+      0.7611846923828125,
+      0.7612648010253906
+    ],
+    "ground_height_range": [
+      0.7611827850341797,
+      0.7612648010253906
+    ]
+  },
+  {
+    "x": 84.89955126152023,
+    "y": 64.27635974196674,
+    "boundary_type": "road / planting ground",
+    "minimum_actual_height_difference": 0.0,
+    "road_height_range": [
+      0.6674880981445312,
+      0.6675662994384766
+    ],
+    "ground_height_range": [
+      0.6674919128417969,
+      0.6675682067871094
+    ]
+  },
+  {
+    "x": 84.57909609019302,
+    "y": 64.74296486391799,
+    "boundary_type": "road / planting ground",
+    "minimum_actual_height_difference": 0.0,
+    "road_height_range": [
+      0.5772647857666016,
+      0.5773487091064453
+    ],
+    "ground_height_range": [
+      0.5772628784179688,
+      0.5773487091064453
+    ]
+  },
+  {
+    "x": 84.24746178868668,
+    "y": 65.20164264502012,
+    "boundary_type": "road / planting ground",
+    "minimum_actual_height_difference": 0.0,
+    "road_height_range": [
+      0.48650550842285156,
+      0.4865856170654297
+    ],
+    "ground_height_range": [
+      0.48650550842285156,
+      0.4865894317626953
+    ]
+  },
+  {
+    "x": 83.88657458432375,
+    "y": 65.63755261657869,
+    "boundary_type": "road / planting ground",
+    "minimum_actual_height_difference": 0.0,
+    "road_height_range": [
+      0.39134979248046875,
+      0.39142799377441406
+    ],
+    "ground_height_range": [
+      0.39134979248046875,
+      0.39142608642578125
+    ]
+  },
+  {
+    "x": 83.59900476080016,
+    "y": 65.31886618117348,
+    "boundary_type": "road / planting ground",
+    "minimum_actual_height_difference": 1.9073486328125e-06,
+    "road_height_range": [
+      0.39214134216308594,
+      0.39218711853027344
+    ],
+    "ground_height_range": [
+      0.3921833038330078,
+      0.39222145080566406
+    ]
+  },
+  {
+    "x": 83.29894289332493,
+    "y": 64.83908632804317,
+    "boundary_type": "road / planting ground",
+    "minimum_actual_height_difference": 0.0,
+    "road_height_range": [
+      0.39261436462402344,
+      0.3926677703857422
+    ],
+    "ground_height_range": [
+      0.3926506042480469,
+      0.3927021026611328
+    ]
+  },
+  {
+    "x": 82.95979469022913,
+    "y": 64.38631560027828,
+    "boundary_type": "road / planting ground",
+    "minimum_actual_height_difference": 1.9073486328125e-06,
+    "road_height_range": [
+      0.3640422821044922,
+      0.3640880584716797
+    ],
+    "ground_height_range": [
+      0.3640766143798828,
+      0.36412811279296875
+    ]
+  },
+  {
+    "x": 82.57851369022399,
+    "y": 63.96848250607665,
+    "boundary_type": "road / planting ground",
+    "minimum_actual_height_difference": 0.0,
+    "road_height_range": [
+      0.3147621154785156,
+      0.31484031677246094
+    ],
+    "ground_height_range": [
+      0.3147850036621094,
+      0.3148517608642578
+    ]
+  },
+  {
+    "x": 82.16375134873732,
+    "y": 63.58344686098994,
+    "boundary_type": "road / planting ground",
+    "minimum_actual_height_difference": 0.0,
+    "road_height_range": [
+      0.24608421325683594,
+      0.24615478515625
+    ],
+    "ground_height_range": [
+      0.24609375,
+      0.24616432189941406
+    ]
+  },
+  {
+    "x": 81.72757064557146,
+    "y": 63.22265478429786,
+    "boundary_type": "road / planting ground",
+    "minimum_actual_height_difference": 0.0,
+    "road_height_range": [
+      0.17986488342285156,
+      0.1799297332763672
+    ],
+    "ground_height_range": [
+      0.17987442016601562,
+      0.1799335479736328
+    ]
+  },
+  {
+    "x": 81.27558992048114,
+    "y": 62.88183677310044,
+    "boundary_type": "road / planting ground",
+    "minimum_actual_height_difference": 0.0,
+    "road_height_range": [
+      0.11517906188964844,
+      0.11523056030273438
+    ],
+    "ground_height_range": [
+      0.11518287658691406,
+      0.11523628234863281
+    ]
+  },
+  {
+    "x": 80.81422258529987,
+    "y": 62.553902890885766,
+    "boundary_type": "road / planting ground",
+    "minimum_actual_height_difference": 0.0,
+    "road_height_range": [
+      0.0671844482421875,
+      0.06721687316894531
+    ],
+    "ground_height_range": [
+      0.06718826293945312,
+      0.06721687316894531
+    ]
+  },
+  {
+    "x": 80.34664671380061,
+    "y": 62.234877289971315,
+    "boundary_type": "road / planting ground",
+    "minimum_actual_height_difference": 0.0,
+    "road_height_range": [
+      0.045501708984375,
+      0.0455169677734375
+    ],
+    "ground_height_range": [
+      0.04549980163574219,
+      0.04551887512207031
+    ]
+  },
+  {
+    "x": 79.87467193460614,
+    "y": 61.9223600114031,
+    "boundary_type": "road / planting ground",
+    "minimum_actual_height_difference": 0.0,
+    "road_height_range": [
+      0.04500007629394531,
+      0.045001983642578125
+    ],
+    "ground_height_range": [
+      0.04499626159667969,
+      0.045001983642578125
+    ]
+  },
+  {
+    "x": 79.39957442981553,
+    "y": 61.61458686482248,
+    "boundary_type": "road / planting ground",
+    "minimum_actual_height_difference": 0.0,
+    "road_height_range": [
+      0.0449981689453125,
+      0.045001983642578125
+    ],
+    "ground_height_range": [
+      0.04499244689941406,
+      0.045001983642578125
+    ]
+  },
+  {
+    "x": 78.9224083738488,
+    "y": 61.31002808947216,
+    "boundary_type": "road / planting ground",
+    "minimum_actual_height_difference": 0.0,
+    "road_height_range": [
+      0.04500007629394531,
+      0.04500389099121094
+    ],
+    "ground_height_range": [
+      0.044994354248046875,
+      0.04500007629394531
+    ]
+  },
+  {
+    "x": 78.44524231788205,
+    "y": 61.00546931412184,
+    "boundary_type": "road / planting ground",
+    "minimum_actual_height_difference": 0.0,
+    "road_height_range": [
+      0.0449981689453125,
+      0.045001983642578125
+    ],
+    "ground_height_range": [
+      0.04499626159667969,
+      0.045001983642578125
+    ]
+  },
+  {
+    "x": 77.96807626191531,
+    "y": 60.700910538771524,
+    "boundary_type": "road / planting ground",
+    "minimum_actual_height_difference": 0.0,
+    "road_height_range": [
+      0.0449981689453125,
+      0.045001983642578125
+    ],
+    "ground_height_range": [
+      0.04499626159667969,
+      0.045001983642578125
+    ]
+  },
+  {
+    "x": 77.49203661368539,
+    "y": 60.3946142867685,
+    "boundary_type": "road / planting ground",
+    "minimum_actual_height_difference": 0.0,
+    "road_height_range": [
+      0.0449981689453125,
+      0.045001983642578125
+    ],
+    "ground_height_range": [
+      0.04499244689941406,
+      0.045001983642578125
+    ]
+  },
+  {
+    "x": 77.01956899909639,
+    "y": 60.082826395699655,
+    "boundary_type": "road / planting ground",
+    "minimum_actual_height_difference": 0.0,
+    "road_height_range": [
+      0.0449981689453125,
+      0.045001983642578125
+    ],
+    "ground_height_range": [
+      0.044994354248046875,
+      0.045001983642578125
+    ]
+  },
+  {
+    "x": 76.55296486193355,
+    "y": 59.762320433520706,
+    "boundary_type": "road / planting ground",
+    "minimum_actual_height_difference": 0.0,
+    "road_height_range": [
+      0.0449981689453125,
+      0.045001983642578125
+    ],
+    "ground_height_range": [
+      0.04499244689941406,
+      0.04500007629394531
+    ]
+  },
+  {
+    "x": 76.09528375015316,
+    "y": 59.429229202560904,
+    "boundary_type": "road / planting ground",
+    "minimum_actual_height_difference": 0.0,
+    "road_height_range": [
+      0.04499626159667969,
+      0.045001983642578125
+    ],
+    "ground_height_range": [
+      0.04499053955078125,
+      0.045001983642578125
+    ]
+  },
+  {
+    "x": 75.65142605785879,
+    "y": 59.07799581956631,
+    "boundary_type": "road / planting ground",
+    "minimum_actual_height_difference": 0.0,
+    "road_height_range": [
+      0.0449981689453125,
+      0.04500389099121094
+    ],
+    "ground_height_range": [
+      0.04499244689941406,
+      0.04500007629394531
+    ]
+  },
+  {
+    "x": 75.23647749422267,
+    "y": 58.69353378568406,
+    "boundary_type": "road / planting ground",
+    "minimum_actual_height_difference": 0.0,
+    "road_height_range": [
+      0.04499626159667969,
+      0.04500007629394531
+    ],
+    "ground_height_range": [
+      0.044994354248046875,
+      0.04500007629394531
+    ]
+  },
+  {
+    "x": 74.87816373537558,
+    "y": 58.25632958633095,
+    "boundary_type": "road / planting ground",
+    "minimum_actual_height_difference": 0.0,
+    "road_height_range": [
+      0.07256126403808594,
+      0.07262039184570312
+    ],
+    "ground_height_range": [
+      0.07257652282714844,
+      0.0726318359375
+    ]
+  },
+  {
+    "x": 74.60423175068654,
+    "y": 57.76210880490574,
+    "boundary_type": "road / planting ground",
+    "minimum_actual_height_difference": 0.0,
+    "road_height_range": [
+      0.1880512237548828,
+      0.1881732940673828
+    ],
+    "ground_height_range": [
+      0.18806076049804688,
+      0.1881847381591797
+    ]
+  },
+  {
+    "x": 74.45098162580334,
+    "y": 57.21901551057862,
+    "boundary_type": "road / planting ground",
+    "minimum_actual_height_difference": 0.0,
+    "road_height_range": [
+      0.35961151123046875,
+      0.3597831726074219
+    ],
+    "ground_height_range": [
+      0.35960960388183594,
+      0.3597850799560547
+    ]
+  },
+  {
+    "x": 74.42965365042991,
+    "y": 56.65457664510928,
+    "boundary_type": "road / planting ground",
+    "minimum_actual_height_difference": 0.0,
+    "road_height_range": [
+      0.5642986297607422,
+      0.5644798278808594
+    ],
+    "ground_height_range": [
+      0.5642948150634766,
+      0.5644798278808594
+    ]
+  },
+  {
+    "x": 74.5087339182127,
+    "y": 56.094427409662494,
+    "boundary_type": "road / planting ground",
+    "minimum_actual_height_difference": 1.9073486328125e-06,
+    "road_height_range": [
+      0.7734165191650391,
+      0.7735996246337891
+    ],
+    "ground_height_range": [
+      0.7734146118164062,
+      0.773590087890625
+    ]
+  },
+  {
+    "x": 74.63053876205494,
+    "y": 55.54165622303127,
+    "boundary_type": "road / planting ground",
+    "minimum_actual_height_difference": 0.0,
+    "road_height_range": [
+      0.9646244049072266,
+      0.9647769927978516
+    ],
+    "ground_height_range": [
+      0.9646129608154297,
+      0.9647693634033203
+    ]
+  },
+  {
+    "x": 74.75234771254749,
+    "y": 54.98887263469537,
+    "boundary_type": "road / planting ground",
+    "minimum_actual_height_difference": 0.0,
+    "road_height_range": [
+      1.1209220886230469,
+      1.1210479736328125
+    ],
+    "ground_height_range": [
+      1.120920181274414,
+      1.121042251586914
+    ]
+  },
+  {
+    "x": 74.85367937646396,
+    "y": 54.43205341088054,
+    "boundary_type": "road / planting ground",
+    "minimum_actual_height_difference": 0.0,
+    "road_height_range": [
+      1.2231941223144531,
+      1.2232437133789062
+    ],
+    "ground_height_range": [
+      1.2231006622314453,
+      1.2232322692871094
+    ]
+  },
+  {
+    "x": 75.06649621710092,
+    "y": 53.90929012784621,
+    "boundary_type": "road / planting ground",
+    "minimum_actual_height_difference": 0.0,
+    "road_height_range": [
+      1.2500057220458984,
+      1.250009536743164
+    ],
+    "ground_height_range": [
+      1.2500057220458984,
+      1.250009536743164
+    ]
+  },
+  {
+    "x": 75.36177921454009,
+    "y": 53.426554412876605,
+    "boundary_type": "road / planting ground",
+    "minimum_actual_height_difference": 0.0,
+    "road_height_range": [
+      1.2602424621582031,
+      1.2602615356445312
+    ],
+    "ground_height_range": [
+      1.2602462768554688,
+      1.2602710723876953
+    ]
+  },
+  {
+    "x": 75.66419557983698,
+    "y": 52.94807207150238,
+    "boundary_type": "road / planting ground",
+    "minimum_actual_height_difference": 0.0,
+    "road_height_range": [
+      1.2924156188964844,
+      1.292459487915039
+    ],
+    "ground_height_range": [
+      1.2924346923828125,
+      1.2924823760986328
+    ]
+  },
+  {
+    "x": 75.93258577859382,
+    "y": 52.449987064858526,
+    "boundary_type": "road / planting ground",
+    "minimum_actual_height_difference": 1.9073486328125e-06,
+    "road_height_range": [
+      1.3361072540283203,
+      1.3361682891845703
+    ],
+    "ground_height_range": [
+      1.3361339569091797,
+      1.3361949920654297
+    ]
+  },
+  {
+    "x": 76.14019405645556,
+    "y": 51.92398046573755,
+    "boundary_type": "road / planting ground",
+    "minimum_actual_height_difference": 1.9073486328125e-06,
+    "road_height_range": [
+      1.3771839141845703,
+      1.3772430419921875
+    ],
+    "ground_height_range": [
+      1.3772258758544922,
+      1.3772869110107422
+    ]
+  },
+  {
+    "x": 76.27566864986089,
+    "y": 51.37520725097581,
+    "boundary_type": "road / planting ground",
+    "minimum_actual_height_difference": 1.9073486328125e-06,
+    "road_height_range": [
+      1.4064464569091797,
+      1.4064998626708984
+    ],
+    "ground_height_range": [
+      1.4064979553222656,
+      1.4065494537353516
+    ]
+  },
+  {
+    "x": 76.34132648780682,
+    "y": 50.81334028375644,
+    "boundary_type": "road / planting ground",
+    "minimum_actual_height_difference": 0.0,
+    "road_height_range": [
+      1.421213150024414,
+      1.4212684631347656
+    ],
+    "ground_height_range": [
+      1.4212684631347656,
+      1.4213199615478516
+    ]
+  },
+  {
+    "x": 76.35945807366375,
+    "y": 50.24771136508118,
+    "boundary_type": "road / planting ground",
+    "minimum_actual_height_difference": 3.814697265625e-06,
+    "road_height_range": [
+      1.4253406524658203,
+      1.425394058227539
+    ],
+    "ground_height_range": [
+      1.4253978729248047,
+      1.4254512786865234
+    ]
+  },
+  {
+    "x": 76.34903806621783,
+    "y": 49.681785289344226,
+    "boundary_type": "road / planting ground",
+    "minimum_actual_height_difference": 0.0,
+    "road_height_range": [
+      1.4229621887207031,
+      1.4230175018310547
+    ],
+    "ground_height_range": [
+      1.4230175018310547,
+      1.4230728149414062
+    ]
+  },
+  {
+    "x": 76.31963071141809,
+    "y": 49.11650924067243,
+    "boundary_type": "road / planting ground",
+    "minimum_actual_height_difference": 0.0,
+    "road_height_range": [
+      1.4162960052490234,
+      1.4163532257080078
+    ],
+    "ground_height_range": [
+      1.4163532257080078,
+      1.4164047241210938
+    ]
+  },
+  {
+    "x": 76.3316164580063,
+    "y": 48.61926331695359,
+    "boundary_type": "road / planting ground",
+    "minimum_actual_height_difference": 0.0,
+    "road_height_range": [
+      1.4190959930419922,
+      1.4192047119140625
+    ],
+    "ground_height_range": [
+      1.4190940856933594,
+      1.4192047119140625
+    ]
+  },
+  {
+    "x": 76.89114656227635,
+    "y": 48.6967109298152,
+    "boundary_type": "road / planting ground",
+    "minimum_actual_height_difference": 0.0,
+    "road_height_range": [
+      1.5504131317138672,
+      1.5505294799804688
+    ],
+    "ground_height_range": [
+      1.5504150390625,
+      1.5505332946777344
+    ]
+  },
+  {
+    "x": 77.45686990238384,
+    "y": 48.68788079582079,
+    "boundary_type": "road / planting ground",
+    "minimum_actual_height_difference": 0.0,
+    "road_height_range": [
+      1.669912338256836,
+      1.6700115203857422
+    ],
+    "ground_height_range": [
+      1.669912338256836,
+      1.6700096130371094
+    ]
+  },
+  {
+    "x": 78.02077915563119,
+    "y": 48.638689440717904,
+    "boundary_type": "road / planting ground",
+    "minimum_actual_height_difference": 0.0,
+    "road_height_range": [
+      1.738555908203125,
+      1.7385902404785156
+    ],
+    "ground_height_range": [
+      1.738555908203125,
+      1.7385902404785156
+    ]
+  },
+  {
+    "x": 78.26815408129227,
+    "y": 48.31145947016542,
+    "boundary_type": "road / planting ground",
+    "minimum_actual_height_difference": 0.0,
+    "road_height_range": [
+      1.7499828338623047,
+      1.7499885559082031
+    ],
+    "ground_height_range": [
+      1.749979019165039,
+      1.7499885559082031
+    ]
+  },
+  {
+    "x": 78.25041370398739,
+    "y": 47.74566023755475,
+    "boundary_type": "road / planting ground",
+    "minimum_actual_height_difference": 0.0,
+    "road_height_range": [
+      1.7499885559082031,
+      1.7499980926513672
+    ],
+    "ground_height_range": [
+      1.7499866485595703,
+      1.7499980926513672
+    ]
+  },
+  {
+    "x": 78.23267332668252,
+    "y": 47.17986100494409,
+    "boundary_type": "road / planting ground",
+    "minimum_actual_height_difference": 0.0,
+    "road_height_range": [
+      1.7499313354492188,
+      1.74993896484375
+    ],
+    "ground_height_range": [
+      1.7499313354492188,
+      1.7499370574951172
+    ]
+  },
+  {
+    "x": 77.8609628886906,
+    "y": 47.007300621509394,
+    "boundary_type": "road / planting ground",
+    "minimum_actual_height_difference": 0.0,
+    "road_height_range": [
+      1.7267589569091797,
+      1.7268104553222656
+    ],
+    "ground_height_range": [
+      1.7267589569091797,
+      1.726806640625
+    ]
+  },
+  {
+    "x": 77.29689435499925,
+    "y": 47.054333784906184,
+    "boundary_type": "road / planting ground",
+    "minimum_actual_height_difference": 0.0,
+    "road_height_range": [
+      1.6394062042236328,
+      1.6395034790039062
+    ],
+    "ground_height_range": [
+      1.6394062042236328,
+      1.6395015716552734
+    ]
+  },
+  {
+    "x": 76.73372014710317,
+    "y": 47.02821631395332,
+    "boundary_type": "road / planting ground",
+    "minimum_actual_height_difference": 0.0,
+    "road_height_range": [
+      1.513406753540039,
+      1.5135211944580078
+    ],
+    "ground_height_range": [
+      1.5134124755859375,
+      1.513528823852539
+    ]
+  },
+  {
+    "x": 76.2686789955824,
+    "y": 46.713503593028705,
+    "boundary_type": "road / planting ground",
+    "minimum_actual_height_difference": 0.0,
+    "road_height_range": [
+      1.4049053192138672,
+      1.4050006866455078
+    ],
+    "ground_height_range": [
+      1.4049224853515625,
+      1.4050159454345703
+    ]
+  },
+  {
+    "x": 76.00438881168934,
+    "y": 46.23357868512844,
+    "boundary_type": "road / planting ground",
+    "minimum_actual_height_difference": 3.814697265625e-06,
+    "road_height_range": [
+      1.3495521545410156,
+      1.349599838256836
+    ],
+    "ground_height_range": [
+      1.3495960235595703,
+      1.349649429321289
+    ]
+  },
+  {
+    "x": 75.92826117910599,
+    "y": 45.67264368339741,
+    "boundary_type": "road / planting ground",
+    "minimum_actual_height_difference": 0.0,
+    "road_height_range": [
+      1.3351268768310547,
+      1.3351688385009766
+    ],
+    "ground_height_range": [
+      1.3351688385009766,
+      1.3352165222167969
+    ]
+  },
+  {
+    "x": 75.85125795175803,
+    "y": 45.11183468902714,
+    "boundary_type": "road / planting ground",
+    "minimum_actual_height_difference": 1.9073486328125e-06,
+    "road_height_range": [
+      1.3213768005371094,
+      1.3214187622070312
+    ],
+    "ground_height_range": [
+      1.3214168548583984,
+      1.3214607238769531
+    ]
+  },
+  {
+    "x": 75.75738183178885,
+    "y": 44.55365488042948,
+    "boundary_type": "road / planting ground",
+    "minimum_actual_height_difference": 1.9073486328125e-06,
+    "road_height_range": [
+      1.3058853149414062,
+      1.3059272766113281
+    ],
+    "ground_height_range": [
+      1.3059196472167969,
+      1.305959701538086
+    ]
+  },
+  {
+    "x": 75.68694649731555,
+    "y": 43.991995511570224,
+    "boundary_type": "road / planting ground",
+    "minimum_actual_height_difference": 0.0,
+    "road_height_range": [
+      1.295309066772461,
+      1.295339584350586
+    ],
+    "ground_height_range": [
+      1.295339584350586,
+      1.2953758239746094
+    ]
+  },
+  {
+    "x": 75.61305903416394,
+    "y": 43.430815742907264,
+    "boundary_type": "road / planting ground",
+    "minimum_actual_height_difference": 0.0,
+    "road_height_range": [
+      1.285207748413086,
+      1.2852344512939453
+    ],
+    "ground_height_range": [
+      1.2852344512939453,
+      1.2852706909179688
+    ]
+  },
+  {
+    "x": 75.51595784357669,
+    "y": 42.87323736721292,
+    "boundary_type": "road / planting ground",
+    "minimum_actual_height_difference": 0.0,
+    "road_height_range": [
+      1.2736492156982422,
+      1.2736797332763672
+    ],
+    "ground_height_range": [
+      1.2736740112304688,
+      1.2737007141113281
+    ]
+  },
+  {
+    "x": 75.37626791583227,
+    "y": 42.32487350976432,
+    "boundary_type": "road / planting ground",
+    "minimum_actual_height_difference": 0.0,
+    "road_height_range": [
+      1.2607002258300781,
+      1.260721206665039
+    ],
+    "ground_height_range": [
+      1.2607135772705078,
+      1.2607383728027344
+    ]
+  },
+  {
+    "x": 75.44171503394269,
+    "y": 41.885640449168356,
+    "boundary_type": "road / planting ground",
+    "minimum_actual_height_difference": 0.0,
+    "road_height_range": [
+      1.2683277130126953,
+      1.2683696746826172
+    ],
+    "ground_height_range": [
+      1.2683334350585938,
+      1.26837158203125
+    ]
+  },
+  {
+    "x": 75.94738820400887,
+    "y": 41.63173553525294,
+    "boundary_type": "road / planting ground",
+    "minimum_actual_height_difference": 0.0,
+    "road_height_range": [
+      1.340261459350586,
+      1.3403511047363281
+    ],
+    "ground_height_range": [
+      1.3402690887451172,
+      1.3403568267822266
+    ]
+  },
+  {
+    "x": 76.46377923863731,
+    "y": 41.39985404140221,
+    "boundary_type": "road / planting ground",
+    "minimum_actual_height_difference": 0.0,
+    "road_height_range": [
+      1.4494953155517578,
+      1.4496040344238281
+    ],
+    "ground_height_range": [
+      1.4495010375976562,
+      1.4496116638183594
+    ]
+  },
+  {
+    "x": 76.98159056531273,
+    "y": 41.17112948527327,
+    "boundary_type": "road / planting ground",
+    "minimum_actual_height_difference": 0.0,
+    "road_height_range": [
+      1.5714054107666016,
+      1.5715103149414062
+    ],
+    "ground_height_range": [
+      1.5714149475097656,
+      1.5715217590332031
+    ]
+  },
+  {
+    "x": 77.49652834744198,
+    "y": 40.93614451878452,
+    "boundary_type": "road / planting ground",
+    "minimum_actual_height_difference": 0.0,
+    "road_height_range": [
+      1.677042007446289,
+      1.6771202087402344
+    ],
+    "ground_height_range": [
+      1.677053451538086,
+      1.6771259307861328
+    ]
+  },
+  {
+    "x": 77.99985450540888,
+    "y": 40.6773301300508,
+    "boundary_type": "road / planting ground",
+    "minimum_actual_height_difference": 0.0,
+    "road_height_range": [
+      1.7400436401367188,
+      1.7400856018066406
+    ],
+    "ground_height_range": [
+      1.7400493621826172,
+      1.7400856018066406
+    ]
+  },
+  {
+    "x": 78.47701411862461,
+    "y": 40.37377877627971,
+    "boundary_type": "road / planting ground",
+    "minimum_actual_height_difference": 0.0,
+    "road_height_range": [
+      1.7283802032470703,
+      1.7284603118896484
+    ],
+    "ground_height_range": [
+      1.728363037109375,
+      1.7284431457519531
+    ]
+  },
+  {
+    "x": 78.90071366292243,
+    "y": 40.00017652104689,
+    "boundary_type": "road / planting ground",
+    "minimum_actual_height_difference": 0.0,
+    "road_height_range": [
+      1.6040058135986328,
+      1.604156494140625
+    ],
+    "ground_height_range": [
+      1.6039714813232422,
+      1.604135513305664
+    ]
+  },
+  {
+    "x": 79.21015487873804,
+    "y": 39.52907833031511,
+    "boundary_type": "road / planting ground",
+    "minimum_actual_height_difference": 0.0,
+    "road_height_range": [
+      1.3841228485107422,
+      1.3843498229980469
+    ],
+    "ground_height_range": [
+      1.384063720703125,
+      1.3843116760253906
+    ]
+  },
+  {
+    "x": 79.32415692231892,
+    "y": 38.97766889577431,
+    "boundary_type": "road / planting ground",
+    "minimum_actual_height_difference": 3.814697265625e-06,
+    "road_height_range": [
+      1.158416748046875,
+      1.1586494445800781
+    ],
+    "ground_height_range": [
+      1.1583118438720703,
+      1.158548355102539
+    ]
+  },
+  {
+    "x": 79.21686469252595,
+    "y": 38.424704902540476,
+    "boundary_type": "road / planting ground",
+    "minimum_actual_height_difference": 9.5367431640625e-06,
+    "road_height_range": [
+      1.0205135345458984,
+      1.0207138061523438
+    ],
+    "ground_height_range": [
+      1.0203876495361328,
+      1.0205669403076172
+    ]
+  },
+  {
+    "x": 78.9603273582498,
+    "y": 37.921722367882545,
+    "boundary_type": "road / planting ground",
+    "minimum_actual_height_difference": 7.62939453125e-06,
+    "road_height_range": [
+      0.9304389953613281,
+      0.9306259155273438
+    ],
+    "ground_height_range": [
+      0.9303226470947266,
+      0.9305076599121094
+    ]
+  },
+  {
+    "x": 78.62249229024553,
+    "y": 37.4682305675987,
+    "boundary_type": "road / planting ground",
+    "minimum_actual_height_difference": 1.9073486328125e-06,
+    "road_height_range": [
+      0.8161964416503906,
+      0.8163776397705078
+    ],
+    "ground_height_range": [
+      0.8161067962646484,
+      0.8162956237792969
+    ]
+  },
+  {
+    "x": 78.23868038857213,
+    "y": 37.0524513155877,
+    "boundary_type": "road / planting ground",
+    "minimum_actual_height_difference": 0.0,
+    "road_height_range": [
+      0.6388969421386719,
+      0.6391143798828125
+    ],
+    "ground_height_range": [
+      0.6388587951660156,
+      0.6390609741210938
+    ]
+  },
+  {
+    "x": 77.82946490606876,
+    "y": 36.66145501065636,
+    "boundary_type": "road / planting ground",
+    "minimum_actual_height_difference": 5.7220458984375e-06,
+    "road_height_range": [
+      0.4412670135498047,
+      0.4414558410644531
+    ],
+    "ground_height_range": [
+      0.4412193298339844,
+      0.4414081573486328
+    ]
+  },
+  {
+    "x": 77.40501232406173,
+    "y": 36.28699540901535,
+    "boundary_type": "road / planting ground",
+    "minimum_actual_height_difference": 0.0,
+    "road_height_range": [
+      0.26995086669921875,
+      0.2701072692871094
+    ],
+    "ground_height_range": [
+      0.2699165344238281,
+      0.27007102966308594
+    ]
+  },
+  {
+    "x": 76.97023769041381,
+    "y": 35.92452208026906,
+    "boundary_type": "road / planting ground",
+    "minimum_actual_height_difference": 0.0,
+    "road_height_range": [
+      0.13709640502929688,
+      0.13721084594726562
+    ],
+    "ground_height_range": [
+      0.13706398010253906,
+      0.13718032836914062
+    ]
+  },
+  {
+    "x": 76.52806300477957,
+    "y": 35.57109071933207,
+    "boundary_type": "road / planting ground",
+    "minimum_actual_height_difference": 0.0,
+    "road_height_range": [
+      0.053333282470703125,
+      0.05336570739746094
+    ],
+    "ground_height_range": [
+      0.053325653076171875,
+      0.05335044860839844
+    ]
+  },
+  {
+    "x": 76.08173917197317,
+    "y": 35.22289748436224,
+    "boundary_type": "road / planting ground",
+    "minimum_actual_height_difference": 0.0,
+    "road_height_range": [
+      0.0449981689453125,
+      0.045001983642578125
+    ],
+    "ground_height_range": [
+      0.04500007629394531,
+      0.045001983642578125
+    ]
+  },
+  {
+    "x": 76.29071068209345,
+    "y": 35.10002613588008,
+    "boundary_type": "road / planting ground",
+    "minimum_actual_height_difference": 0.0,
+    "road_height_range": [
+      0.0449981689453125,
+      0.045001983642578125
+    ],
+    "ground_height_range": [
+      0.04500007629394531,
+      0.045001983642578125
+    ]
+  },
+  {
+    "x": 74.38589713757689,
+    "y": 35.124421136994236,
+    "boundary_type": "road / planting ground",
+    "minimum_actual_height_difference": 0.0,
+    "road_height_range": [
+      0.04499626159667969,
+      0.045001983642578125
+    ],
+    "ground_height_range": [
+      0.04499626159667969,
+      0.04500007629394531
+    ]
+  },
+  {
+    "x": 74.00335695488093,
+    "y": 35.5416818483399,
+    "boundary_type": "road / planting ground",
+    "minimum_actual_height_difference": 0.0,
+    "road_height_range": [
+      0.045864105224609375,
+      0.045871734619140625
+    ],
+    "ground_height_range": [
+      0.04586029052734375,
+      0.04586982727050781
+    ]
+  },
+  {
+    "x": 74.30110539727231,
+    "y": 35.92085825406344,
+    "boundary_type": "road / planting ground",
+    "minimum_actual_height_difference": 0.0,
+    "road_height_range": [
+      0.10739517211914062,
+      0.10747909545898438
+    ],
+    "ground_height_range": [
+      0.10741996765136719,
+      0.10750961303710938
+    ]
+  },
+  {
+    "x": 74.74589605593202,
+    "y": 36.270977606611694,
+    "boundary_type": "road / planting ground",
+    "minimum_actual_height_difference": 1.9073486328125e-06,
+    "road_height_range": [
+      0.19791030883789062,
+      0.19801712036132812
+    ],
+    "ground_height_range": [
+      0.1979351043701172,
+      0.19804763793945312
+    ]
+  },
+  {
+    "x": 75.19155935542106,
+    "y": 36.620015879725536,
+    "boundary_type": "road / planting ground",
+    "minimum_actual_height_difference": 0.0,
+    "road_height_range": [
+      0.3059844970703125,
+      0.30611228942871094
+    ],
+    "ground_height_range": [
+      0.30602264404296875,
+      0.30614471435546875
+    ]
+  },
+  {
+    "x": 75.63659243910922,
+    "y": 36.969850567704405,
+    "boundary_type": "road / planting ground",
+    "minimum_actual_height_difference": 5.7220458984375e-06,
+    "road_height_range": [
+      0.43956565856933594,
+      0.43972206115722656
+    ],
+    "ground_height_range": [
+      0.43959808349609375,
+      0.43975257873535156
+    ]
+  },
+  {
+    "x": 76.07651554384567,
+    "y": 37.32607160274318,
+    "boundary_type": "road / planting ground",
+    "minimum_actual_height_difference": 1.9073486328125e-06,
+    "road_height_range": [
+      0.608184814453125,
+      0.6083717346191406
+    ],
+    "ground_height_range": [
+      0.60821533203125,
+      0.6083965301513672
+    ]
+  },
+  {
+    "x": 76.50832047164724,
+    "y": 37.692070058533375,
+    "boundary_type": "road / planting ground",
+    "minimum_actual_height_difference": 0.0,
+    "road_height_range": [
+      0.8119602203369141,
+      0.8121623992919922
+    ],
+    "ground_height_range": [
+      0.8119888305664062,
+      0.8121852874755859
+    ]
+  },
+  {
+    "x": 76.9254172895721,
+    "y": 38.07465162619114,
+    "boundary_type": "road / planting ground",
+    "minimum_actual_height_difference": 0.0,
+    "road_height_range": [
+      1.041494369506836,
+      1.041707992553711
+    ],
+    "ground_height_range": [
+      1.0415153503417969,
+      1.0417251586914062
+    ]
+  },
+  {
+    "x": 77.31801268826564,
+    "y": 38.48219141815875,
+    "boundary_type": "road / planting ground",
+    "minimum_actual_height_difference": 0.0,
+    "road_height_range": [
+      1.2798805236816406,
+      1.2800979614257812
+    ],
+    "ground_height_range": [
+      1.2798919677734375,
+      1.2801094055175781
+    ]
+  },
+  {
+    "x": 77.62961736978697,
+    "y": 38.93877809122234,
+    "boundary_type": "road / planting ground",
+    "minimum_actual_height_difference": 5.7220458984375e-06,
+    "road_height_range": [
+      1.5013275146484375,
+      1.501434326171875
+    ],
+    "ground_height_range": [
+      1.5012569427490234,
+      1.5013866424560547
+    ]
+  },
+  {
+    "x": 77.16233939045408,
+    "y": 39.25533360834786,
+    "boundary_type": "road / planting ground",
+    "minimum_actual_height_difference": 3.814697265625e-06,
+    "road_height_range": [
+      1.51397705078125,
+      1.5140647888183594
+    ],
+    "ground_height_range": [
+      1.5139045715332031,
+      1.5140018463134766
+    ]
+  },
+  {
+    "x": 76.65637141796812,
+    "y": 39.50893024878198,
+    "boundary_type": "road / planting ground",
+    "minimum_actual_height_difference": 0.0,
+    "road_height_range": [
+      1.4536781311035156,
+      1.4537715911865234
+    ],
+    "ground_height_range": [
+      1.4536170959472656,
+      1.4537239074707031
+    ]
+  },
+  {
+    "x": 76.13936398640757,
+    "y": 39.739403536925195,
+    "boundary_type": "road / planting ground",
+    "minimum_actual_height_difference": 1.9073486328125e-06,
+    "road_height_range": [
+      1.3666152954101562,
+      1.3666973114013672
+    ],
+    "ground_height_range": [
+      1.3665885925292969,
+      1.3666820526123047
+    ]
+  },
+  {
+    "x": 75.62153486601879,
+    "y": 39.96808780548583,
+    "boundary_type": "road / planting ground",
+    "minimum_actual_height_difference": 0.0,
+    "road_height_range": [
+      1.2880287170410156,
+      1.288095474243164
+    ],
+    "ground_height_range": [
+      1.2880115509033203,
+      1.2880840301513672
+    ]
+  },
+  {
+    "x": 75.10652049124427,
+    "y": 40.20299689051025,
+    "boundary_type": "road / planting ground",
+    "minimum_actual_height_difference": 0.0,
+    "road_height_range": [
+      1.250040054321289,
+      1.2500457763671875
+    ],
+    "ground_height_range": [
+      1.2500381469726562,
+      1.2500438690185547
+    ]
+  },
+  {
+    "x": 74.60370427779473,
+    "y": 40.46273988216698,
+    "boundary_type": "road / planting ground",
+    "minimum_actual_height_difference": 0.0,
+    "road_height_range": [
+      1.2499980926513672,
+      1.2500038146972656
+    ],
+    "ground_height_range": [
+      1.2499961853027344,
+      1.25
+    ]
+  },
+  {
+    "x": 74.16727854853514,
+    "y": 40.3975936392187,
+    "boundary_type": "road / planting ground",
+    "minimum_actual_height_difference": 0.0,
+    "road_height_range": [
+      1.2499980926513672,
+      1.2500019073486328
+    ],
+    "ground_height_range": [
+      1.2499961853027344,
+      1.25
+    ]
+  },
+  {
+    "x": 73.76455633536538,
+    "y": 40.00003525832905,
+    "boundary_type": "road / planting ground",
+    "minimum_actual_height_difference": 0.0,
+    "road_height_range": [
+      1.2495098114013672,
+      1.2495136260986328
+    ],
+    "ground_height_range": [
+      1.2495059967041016,
+      1.24951171875
+    ]
+  },
+  {
+    "x": 73.33698365793141,
+    "y": 39.62925914463955,
+    "boundary_type": "road / planting ground",
+    "minimum_actual_height_difference": 0.0,
+    "road_height_range": [
+      1.2293529510498047,
+      1.2293891906738281
+    ],
+    "ground_height_range": [
+      1.2293319702148438,
+      1.2293834686279297
+    ]
+  },
+  {
+    "x": 72.8862759003233,
+    "y": 39.2870172469646,
+    "boundary_type": "road / planting ground",
+    "minimum_actual_height_difference": 0.0,
+    "road_height_range": [
+      1.1800670623779297,
+      1.180135726928711
+    ],
+    "ground_height_range": [
+      1.1800403594970703,
+      1.1801185607910156
+    ]
+  },
+  {
+    "x": 72.41138458561619,
+    "y": 38.979294947845055,
+    "boundary_type": "road / planting ground",
+    "minimum_actual_height_difference": 1.9073486328125e-06,
+    "road_height_range": [
+      1.1142539978027344,
+      1.1143321990966797
+    ],
+    "ground_height_range": [
+      1.1142082214355469,
+      1.1142959594726562
+    ]
+  },
+  {
+    "x": 71.9080549766279,
+    "y": 38.72103495204312,
+    "boundary_type": "road / planting ground",
+    "minimum_actual_height_difference": 1.9073486328125e-06,
+    "road_height_range": [
+      1.0455780029296875,
+      1.0456771850585938
+    ],
+    "ground_height_range": [
+      1.045522689819336,
+      1.0456161499023438
+    ]
+  },
+  {
+    "x": 71.37150444398739,
+    "y": 38.54354601781162,
+    "boundary_type": "road / planting ground",
+    "minimum_actual_height_difference": 0.0,
+    "road_height_range": [
+      0.9925575256347656,
+      0.992645263671875
+    ],
+    "ground_height_range": [
+      0.9924831390380859,
+      0.992584228515625
+    ]
+  },
+  {
+    "x": 70.8091187693881,
+    "y": 38.49034649196297,
+    "boundary_type": "road / planting ground",
+    "minimum_actual_height_difference": 1.9073486328125e-06,
+    "road_height_range": [
+      0.975860595703125,
+      0.9759387969970703
+    ],
+    "ground_height_range": [
+      0.9757728576660156,
+      0.9758625030517578
+    ]
+  },
+  {
+    "x": 70.24591582566961,
+    "y": 38.53908733506676,
+    "boundary_type": "road / planting ground",
+    "minimum_actual_height_difference": 9.5367431640625e-06,
+    "road_height_range": [
+      0.9871368408203125,
+      0.9872074127197266
+    ],
+    "ground_height_range": [
+      0.9870433807373047,
+      0.9871273040771484
+    ]
+  },
+  {
+    "x": 69.69400511639752,
+    "y": 38.6632051082591,
+    "boundary_type": "road / planting ground",
+    "minimum_actual_height_difference": 0.0,
+    "road_height_range": [
+      0.9345111846923828,
+      0.9346599578857422
+    ],
+    "ground_height_range": [
+      0.9344482421875,
+      0.9346065521240234
+    ]
+  },
+  {
+    "x": 69.15047560906669,
+    "y": 38.821164645115715,
+    "boundary_type": "road / planting ground",
+    "minimum_actual_height_difference": 1.9073486328125e-06,
+    "road_height_range": [
+      0.767059326171875,
+      0.7672786712646484
+    ],
+    "ground_height_range": [
+      0.7670249938964844,
+      0.7672443389892578
+    ]
+  },
+  {
+    "x": 68.6048835268854,
+    "y": 38.971082647424566,
+    "boundary_type": "road / planting ground",
+    "minimum_actual_height_difference": 1.9073486328125e-06,
+    "road_height_range": [
+      0.5270023345947266,
+      0.5272350311279297
+    ],
+    "ground_height_range": [
+      0.5269775390625,
+      0.5272121429443359
+    ]
+  },
+  {
+    "x": 68.04046608424211,
+    "y": 39.007235157348426,
+    "boundary_type": "road / planting ground",
+    "minimum_actual_height_difference": 0.0,
+    "road_height_range": [
+      0.2420978546142578,
+      0.24236679077148438
+    ],
+    "ground_height_range": [
+      0.2420940399169922,
+      0.2423572540283203
+    ]
+  },
+  {
+    "x": 67.47463477708277,
+    "y": 38.9959417555861,
+    "boundary_type": "road / planting ground",
+    "minimum_actual_height_difference": 0.0,
+    "road_height_range": [
+      0.05799102783203125,
+      0.05803871154785156
+    ],
+    "ground_height_range": [
+      0.05799102783203125,
+      0.05804443359375
+    ]
+  },
+  {
+    "x": 67.11110581326733,
+    "y": 39.1852656471843,
+    "boundary_type": "road / planting ground",
+    "minimum_actual_height_difference": 0.0,
+    "road_height_range": [
+      0.04499626159667969,
+      0.04500389099121094
+    ],
+    "ground_height_range": [
+      0.0449981689453125,
+      0.04500007629394531
+    ]
+  },
+  {
+    "x": 67.10282987962803,
+    "y": 39.75128243274117,
+    "boundary_type": "road / planting ground",
+    "minimum_actual_height_difference": 0.0,
+    "road_height_range": [
+      0.0449981689453125,
+      0.04500389099121094
+    ],
+    "ground_height_range": [
+      0.04499626159667969,
+      0.045001983642578125
+    ]
+  },
+  {
+    "x": 67.10211759562605,
+    "y": 40.31735451049439,
+    "boundary_type": "west exterior / protected straight corridor",
+    "minimum_actual_height_difference": 0.0,
+    "road_height_range": [
+      0.0449981689453125,
+      0.04500579833984375
+    ],
+    "ground_height_range": [
+      0.045001983642578125,
+      0.045001983642578125
+    ]
+  },
+  {
+    "x": 67.36519793316572,
+    "y": 40.631873911490814,
+    "boundary_type": "road / planting ground",
+    "minimum_actual_height_difference": 0.0,
+    "road_height_range": [
+      0.04810333251953125,
+      0.048114776611328125
+    ],
+    "ground_height_range": [
+      0.04809761047363281,
+      0.0481109619140625
+    ]
+  },
+  {
+    "x": 67.93096158923404,
+    "y": 40.648742722120815,
+    "boundary_type": "road / planting ground",
+    "minimum_actual_height_difference": 0.0,
+    "road_height_range": [
+      0.20725631713867188,
+      0.2074756622314453
+    ],
+    "ground_height_range": [
+      0.20725440979003906,
+      0.20746803283691406
+    ]
+  },
+  {
+    "x": 68.49651451598947,
+    "y": 40.62905733472278,
+    "boundary_type": "road / planting ground",
+    "minimum_actual_height_difference": 0.0,
+    "road_height_range": [
+      0.5328464508056641,
+      0.5331172943115234
+    ],
+    "ground_height_range": [
+      0.5328483581542969,
+      0.5331249237060547
+    ]
+  },
+  {
+    "x": 69.05646514213345,
+    "y": 40.55163800736037,
+    "boundary_type": "road / planting ground",
+    "minimum_actual_height_difference": 1.9073486328125e-06,
+    "road_height_range": [
+      0.8438682556152344,
+      0.8441352844238281
+    ],
+    "ground_height_range": [
+      0.8438816070556641,
+      0.8441410064697266
+    ]
+  },
+  {
+    "x": 69.60178245454877,
+    "y": 40.40014353243972,
+    "boundary_type": "road / planting ground",
+    "minimum_actual_height_difference": 0.0,
+    "road_height_range": [
+      1.0960369110107422,
+      1.0962181091308594
+    ],
+    "ground_height_range": [
+      1.096038818359375,
+      1.096221923828125
+    ]
+  },
+  {
+    "x": 70.14411496383671,
+    "y": 40.23796316971859,
+    "boundary_type": "road / planting ground",
+    "minimum_actual_height_difference": 0.0,
+    "road_height_range": [
+      1.2407150268554688,
+      1.2407455444335938
+    ],
+    "ground_height_range": [
+      1.240713119506836,
+      1.2407455444335938
+    ]
+  },
+  {
+    "x": 70.69962167939758,
+    "y": 40.13330268573091,
+    "boundary_type": "road / planting ground",
+    "minimum_actual_height_difference": 0.0,
+    "road_height_range": [
+      1.2499980926513672,
+      1.2500038146972656
+    ],
+    "ground_height_range": [
+      1.249990463256836,
+      1.2500019073486328
+    ]
+  },
+  {
+    "x": 71.25149806522076,
+    "y": 40.2232448453353,
+    "boundary_type": "road / planting ground",
+    "minimum_actual_height_difference": 0.0,
+    "road_height_range": [
+      1.2499980926513672,
+      1.2500019073486328
+    ],
+    "ground_height_range": [
+      1.2499961853027344,
+      1.25
+    ]
+  },
+  {
+    "x": 71.74707065305908,
+    "y": 40.495625127813504,
+    "boundary_type": "road / planting ground",
+    "minimum_actual_height_difference": 0.0,
+    "road_height_range": [
+      1.25,
+      1.2500019073486328
+    ],
+    "ground_height_range": [
+      1.2499942779541016,
+      1.2500019073486328
+    ]
+  },
+  {
+    "x": 72.20713996700852,
+    "y": 40.8250616452082,
+    "boundary_type": "road / planting ground",
+    "minimum_actual_height_difference": 0.0,
+    "road_height_range": [
+      1.2499980926513672,
+      1.2500019073486328
+    ],
+    "ground_height_range": [
+      1.2499942779541016,
+      1.2500019073486328
+    ]
+  },
+  {
+    "x": 72.6381695889458,
+    "y": 41.19175085811994,
+    "boundary_type": "road / planting ground",
+    "minimum_actual_height_difference": 0.0,
+    "road_height_range": [
+      1.2499961853027344,
+      1.2500019073486328
+    ],
+    "ground_height_range": [
+      1.2499980926513672,
+      1.2500019073486328
+    ]
+  },
+  {
+    "x": 73.03985509708218,
+    "y": 41.59037428477099,
+    "boundary_type": "road / planting ground",
+    "minimum_actual_height_difference": 0.0,
+    "road_height_range": [
+      1.2499961853027344,
+      1.25
+    ],
+    "ground_height_range": [
+      1.2499942779541016,
+      1.25
+    ]
+  },
+  {
+    "x": 73.28941407722894,
+    "y": 42.04865873371628,
+    "boundary_type": "road / planting ground",
+    "minimum_actual_height_difference": 0.0,
+    "road_height_range": [
+      1.2499961853027344,
+      1.2500038146972656
+    ],
+    "ground_height_range": [
+      1.25,
+      1.2500038146972656
+    ]
+  },
+  {
+    "x": 74.15039433719907,
+    "y": 44.933529763233054,
+    "boundary_type": "road / planting ground",
+    "minimum_actual_height_difference": 1.9073486328125e-06,
+    "road_height_range": [
+      1.2499980926513672,
+      1.2500019073486328
+    ],
+    "ground_height_range": [
+      1.2499942779541016,
+      1.25
+    ]
+  },
+  {
+    "x": 74.23563895510493,
+    "y": 45.49306263763758,
+    "boundary_type": "road / planting ground",
+    "minimum_actual_height_difference": 0.0,
+    "road_height_range": [
+      1.2499980926513672,
+      1.2500019073486328
+    ],
+    "ground_height_range": [
+      1.2499942779541016,
+      1.2500019073486328
+    ]
+  },
+  {
+    "x": 74.27996176510277,
+    "y": 46.05684260451063,
+    "boundary_type": "road / planting ground",
+    "minimum_actual_height_difference": 0.0,
+    "road_height_range": [
+      1.25,
+      1.2500019073486328
+    ],
+    "ground_height_range": [
+      1.2499923706054688,
+      1.2500019073486328
+    ]
+  },
+  {
+    "x": 74.35115354935766,
+    "y": 46.61755874596996,
+    "boundary_type": "road / planting ground",
+    "minimum_actual_height_difference": 0.0,
+    "road_height_range": [
+      1.25,
+      1.2500038146972656
+    ],
+    "ground_height_range": [
+      1.249990463256836,
+      1.25
+    ]
+  },
+  {
+    "x": 74.46273180529042,
+    "y": 47.170289118440856,
+    "boundary_type": "road / planting ground",
+    "minimum_actual_height_difference": 0.0,
+    "road_height_range": [
+      1.2499980926513672,
+      1.2500019073486328
+    ],
+    "ground_height_range": [
+      1.2499961853027344,
+      1.25
+    ]
+  },
+  {
+    "x": 74.53188128902697,
+    "y": 47.73211747897245,
+    "boundary_type": "road / planting ground",
+    "minimum_actual_height_difference": 0.0,
+    "road_height_range": [
+      1.2499961853027344,
+      1.25
+    ],
+    "ground_height_range": [
+      1.2499923706054688,
+      1.2500019073486328
+    ]
+  },
+  {
+    "x": 74.5924111162127,
+    "y": 48.29494927678651,
+    "boundary_type": "road / planting ground",
+    "minimum_actual_height_difference": 0.0,
+    "road_height_range": [
+      1.2499961853027344,
+      1.2500019073486328
+    ],
+    "ground_height_range": [
+      1.249990463256836,
+      1.2499980926513672
+    ]
+  },
+  {
+    "x": 74.64601173030071,
+    "y": 48.85846280403872,
+    "boundary_type": "road / planting ground",
+    "minimum_actual_height_difference": 0.0,
+    "road_height_range": [
+      1.2499961853027344,
+      1.2500038146972656
+    ],
+    "ground_height_range": [
+      1.2499923706054688,
+      1.2500038146972656
+    ]
+  },
+  {
+    "x": 74.68498967699614,
+    "y": 49.423173104775266,
+    "boundary_type": "road / planting ground",
+    "minimum_actual_height_difference": 0.0,
+    "road_height_range": [
+      1.2499961853027344,
+      1.2500019073486328
+    ],
+    "ground_height_range": [
+      1.2499961853027344,
+      1.25
+    ]
+  },
+  {
+    "x": 74.70814802466992,
+    "y": 49.98874107147139,
+    "boundary_type": "road / planting ground",
+    "minimum_actual_height_difference": 0.0,
+    "road_height_range": [
+      1.2499961853027344,
+      1.25
+    ],
+    "ground_height_range": [
+      1.2499923706054688,
+      1.25
+    ]
+  },
+  {
+    "x": 74.70298568973156,
+    "y": 50.554698598299034,
+    "boundary_type": "road / planting ground",
+    "minimum_actual_height_difference": 0.0,
+    "road_height_range": [
+      1.2499980926513672,
+      1.2500019073486328
+    ],
+    "ground_height_range": [
+      1.2499942779541016,
+      1.2500019073486328
+    ]
+  },
+  {
+    "x": 74.64857568211686,
+    "y": 51.117647287194906,
+    "boundary_type": "road / planting ground",
+    "minimum_actual_height_difference": 0.0,
+    "road_height_range": [
+      1.2499980926513672,
+      1.2500038146972656
+    ],
+    "ground_height_range": [
+      1.2499942779541016,
+      1.25
+    ]
+  },
+  {
+    "x": 74.48117425078291,
+    "y": 51.65710806007298,
+    "boundary_type": "road / planting ground",
+    "minimum_actual_height_difference": 0.0,
+    "road_height_range": [
+      1.25,
+      1.2500038146972656
+    ],
+    "ground_height_range": [
+      1.2499923706054688,
+      1.25
+    ]
+  },
+  {
+    "x": 74.21489904823689,
+    "y": 52.15602086215156,
+    "boundary_type": "road / planting ground",
+    "minimum_actual_height_difference": 0.0,
+    "road_height_range": [
+      1.2499980926513672,
+      1.25
+    ],
+    "ground_height_range": [
+      1.2499942779541016,
+      1.2500019073486328
+    ]
+  },
+  {
+    "x": 73.91055726443204,
+    "y": 52.633302415864,
+    "boundary_type": "road / planting ground",
+    "minimum_actual_height_difference": 0.0,
+    "road_height_range": [
+      1.2499980926513672,
+      1.2500019073486328
+    ],
+    "ground_height_range": [
+      1.2499923706054688,
+      1.2499980926513672
+    ]
+  },
+  {
+    "x": 73.61909451538364,
+    "y": 53.11833215444843,
+    "boundary_type": "road / planting ground",
+    "minimum_actual_height_difference": 0.0,
+    "road_height_range": [
+      1.2499980926513672,
+      1.25
+    ],
+    "ground_height_range": [
+      1.249990463256836,
+      1.2500019073486328
+    ]
+  },
+  {
+    "x": 73.38028665275196,
+    "y": 53.63095314672153,
+    "boundary_type": "road / planting ground",
+    "minimum_actual_height_difference": 0.0,
+    "road_height_range": [
+      1.25,
+      1.2500019073486328
+    ],
+    "ground_height_range": [
+      1.2499942779541016,
+      1.25
+    ]
+  },
+  {
+    "x": 73.22252860921016,
+    "y": 54.17366857163675,
+    "boundary_type": "road / planting ground",
+    "minimum_actual_height_difference": 0.0,
+    "road_height_range": [
+      1.2438793182373047,
+      1.2439117431640625
+    ],
+    "ground_height_range": [
+      1.2438774108886719,
+      1.2439098358154297
+    ]
+  },
+  {
+    "x": 73.1210412897404,
+    "y": 54.730534697817795,
+    "boundary_type": "road / planting ground",
+    "minimum_actual_height_difference": 0.0,
+    "road_height_range": [
+      1.1760311126708984,
+      1.176126480102539
+    ],
+    "ground_height_range": [
+      1.176034927368164,
+      1.1761226654052734
+    ]
+  },
+  {
+    "x": 72.99730424744408,
+    "y": 55.282900313698434,
+    "boundary_type": "road / planting ground",
+    "minimum_actual_height_difference": 0.0,
+    "road_height_range": [
+      1.0430049896240234,
+      1.04315185546875
+    ],
+    "ground_height_range": [
+      1.043008804321289,
+      1.0431575775146484
+    ]
+  },
+  {
+    "x": 72.87788757773377,
+    "y": 55.836182070579596,
+    "boundary_type": "road / planting ground",
+    "minimum_actual_height_difference": 0.0,
+    "road_height_range": [
+      0.8659381866455078,
+      0.8661041259765625
+    ],
+    "ground_height_range": [
+      0.8659381866455078,
+      0.8661079406738281
+    ]
+  },
+  {
+    "x": 72.79756882214674,
+    "y": 56.3962761639942,
+    "boundary_type": "road / planting ground",
+    "minimum_actual_height_difference": 0.0,
+    "road_height_range": [
+      0.6612472534179688,
+      0.6614360809326172
+    ],
+    "ground_height_range": [
+      0.6612472534179688,
+      0.6614341735839844
+    ]
+  },
+  {
+    "x": 72.77534081713094,
+    "y": 56.96143105669669,
+    "boundary_type": "road / planting ground",
+    "minimum_actual_height_difference": 0.0,
+    "road_height_range": [
+      0.45116233825683594,
+      0.4513397216796875
+    ],
+    "ground_height_range": [
+      0.45116233825683594,
+      0.4513397216796875
+    ]
+  },
+  {
+    "x": 72.82750776604115,
+    "y": 57.524633278060165,
+    "boundary_type": "road / planting ground",
+    "minimum_actual_height_difference": 0.0,
+    "road_height_range": [
+      0.2587890625,
+      0.25894927978515625
+    ],
+    "ground_height_range": [
+      0.2587852478027344,
+      0.25894927978515625
+    ]
+  },
+  {
+    "x": 72.96179683418033,
+    "y": 58.073843847430574,
+    "boundary_type": "road / planting ground",
+    "minimum_actual_height_difference": 0.0,
+    "road_height_range": [
+      0.10951614379882812,
+      0.10961341857910156
+    ],
+    "ground_height_range": [
+      0.10950660705566406,
+      0.10960769653320312
+    ]
+  },
+  {
+    "x": 73.17403163935869,
+    "y": 58.59795435851002,
+    "boundary_type": "road / planting ground",
+    "minimum_actual_height_difference": 0.0,
+    "road_height_range": [
+      0.0449981689453125,
+      0.045001983642578125
+    ],
+    "ground_height_range": [
+      0.044994354248046875,
+      0.04500007629394531
+    ]
+  },
+  {
+    "x": 73.45264578884805,
+    "y": 59.090078526915654,
+    "boundary_type": "road / planting ground",
+    "minimum_actual_height_difference": 0.0,
+    "road_height_range": [
+      0.04500007629394531,
+      0.045001983642578125
+    ],
+    "ground_height_range": [
+      0.04499053955078125,
+      0.04500007629394531
+    ]
+  },
+  {
+    "x": 73.78420350830034,
+    "y": 59.54838971965823,
+    "boundary_type": "road / planting ground",
+    "minimum_actual_height_difference": 0.0,
+    "road_height_range": [
+      0.0449981689453125,
+      0.045001983642578125
+    ],
+    "ground_height_range": [
+      0.044994354248046875,
+      0.04500007629394531
+    ]
+  },
+  {
+    "x": 74.16925143028078,
+    "y": 59.9630703909299,
+    "boundary_type": "road / planting ground",
+    "minimum_actual_height_difference": 0.0,
+    "road_height_range": [
+      0.0449981689453125,
+      0.045001983642578125
+    ],
+    "ground_height_range": [
+      0.044994354248046875,
+      0.04500007629394531
+    ]
+  },
+  {
+    "x": 74.58993559589095,
+    "y": 60.34177506787648,
+    "boundary_type": "road / planting ground",
+    "minimum_actual_height_difference": 0.0,
+    "road_height_range": [
+      0.0449981689453125,
+      0.04500389099121094
+    ],
+    "ground_height_range": [
+      0.044994354248046875,
+      0.0449981689453125
+    ]
+  },
+  {
+    "x": 75.03228760553368,
+    "y": 60.695000480573206,
+    "boundary_type": "road / planting ground",
+    "minimum_actual_height_difference": 0.0,
+    "road_height_range": [
+      0.0449981689453125,
+      0.045001983642578125
+    ],
+    "ground_height_range": [
+      0.04499053955078125,
+      0.04500007629394531
+    ]
+  },
+  {
+    "x": 75.48886088718261,
+    "y": 61.02961331440156,
+    "boundary_type": "road / planting ground",
+    "minimum_actual_height_difference": 0.0,
+    "road_height_range": [
+      0.04499626159667969,
+      0.045001983642578125
+    ],
+    "ground_height_range": [
+      0.04499626159667969,
+      0.0449981689453125
+    ]
+  },
+  {
+    "x": 75.95377785632722,
+    "y": 61.3525003243295,
+    "boundary_type": "road / planting ground",
+    "minimum_actual_height_difference": 0.0,
+    "road_height_range": [
+      0.0449981689453125,
+      0.045001983642578125
+    ],
+    "ground_height_range": [
+      0.04499626159667969,
+      0.045001983642578125
+    ]
+  },
+  {
+    "x": 76.42438234818628,
+    "y": 61.667059305991614,
+    "boundary_type": "road / planting ground",
+    "minimum_actual_height_difference": 0.0,
+    "road_height_range": [
+      0.0449981689453125,
+      0.04500389099121094
+    ],
+    "ground_height_range": [
+      0.04499626159667969,
+      0.045001983642578125
+    ]
+  },
+  {
+    "x": 76.89880146829391,
+    "y": 61.975854543436995,
+    "boundary_type": "road / planting ground",
+    "minimum_actual_height_difference": 0.0,
+    "road_height_range": [
+      0.0449981689453125,
+      0.04500389099121094
+    ],
+    "ground_height_range": [
+      0.044994354248046875,
+      0.04500007629394531
+    ]
+  },
+  {
+    "x": 77.37596797934621,
+    "y": 62.280412605782914,
+    "boundary_type": "road / planting ground",
+    "minimum_actual_height_difference": 0.0,
+    "road_height_range": [
+      0.0449981689453125,
+      0.045001983642578125
+    ],
+    "ground_height_range": [
+      0.04499626159667969,
+      0.045001983642578125
+    ]
+  },
+  {
+    "x": 77.85313449039853,
+    "y": 62.58497066812885,
+    "boundary_type": "road / planting ground",
+    "minimum_actual_height_difference": 0.0,
+    "road_height_range": [
+      0.0449981689453125,
+      0.04500389099121094
+    ],
+    "ground_height_range": [
+      0.04499626159667969,
+      0.04500007629394531
+    ]
+  },
+  {
+    "x": 78.33030100145083,
+    "y": 62.88952873047477,
+    "boundary_type": "road / planting ground",
+    "minimum_actual_height_difference": 0.0,
+    "road_height_range": [
+      0.0449981689453125,
+      0.045001983642578125
+    ],
+    "ground_height_range": [
+      0.04499626159667969,
+      0.045001983642578125
+    ]
+  },
+  {
+    "x": 78.80623244005442,
+    "y": 63.1960060046479,
+    "boundary_type": "road / planting ground",
+    "minimum_actual_height_difference": 0.0,
+    "road_height_range": [
+      0.0449981689453125,
+      0.045001983642578125
+    ],
+    "ground_height_range": [
+      0.0449981689453125,
+      0.04500007629394531
+    ]
+  },
+  {
+    "x": 79.27979595675014,
+    "y": 63.50611349945824,
+    "boundary_type": "road / planting ground",
+    "minimum_actual_height_difference": 0.0,
+    "road_height_range": [
+      0.04604339599609375,
+      0.046051025390625
+    ],
+    "ground_height_range": [
+      0.04604148864746094,
+      0.046047210693359375
+    ]
+  },
+  {
+    "x": 79.74951294554312,
+    "y": 63.82202214834925,
+    "boundary_type": "road / planting ground",
+    "minimum_actual_height_difference": 0.0,
+    "road_height_range": [
+      0.05296134948730469,
+      0.05297279357910156
+    ],
+    "ground_height_range": [
+      0.05295562744140625,
+      0.05297088623046875
+    ]
+  },
+  {
+    "x": 80.21236737160518,
+    "y": 64.1479197900782,
+    "boundary_type": "road / planting ground",
+    "minimum_actual_height_difference": 0.0,
+    "road_height_range": [
+      0.06784439086914062,
+      0.06786155700683594
+    ],
+    "ground_height_range": [
+      0.06784439086914062,
+      0.06786346435546875
+    ]
+  },
+  {
+    "x": 80.66499143532734,
+    "y": 64.48784489072736,
+    "boundary_type": "road / planting ground",
+    "minimum_actual_height_difference": 0.0,
+    "road_height_range": [
+      0.09080696105957031,
+      0.09082984924316406
+    ],
+    "ground_height_range": [
+      0.09079933166503906,
+      0.09082221984863281
+    ]
+  },
+  {
+    "x": 81.10258860317423,
+    "y": 64.84682134530183,
+    "boundary_type": "road / planting ground",
+    "minimum_actual_height_difference": 0.0,
+    "road_height_range": [
+      0.11778450012207031,
+      0.11781692504882812
+    ],
+    "ground_height_range": [
+      0.11777687072753906,
+      0.11780929565429688
+    ]
+  },
+  {
+    "x": 81.51288509456849,
+    "y": 65.23639001308509,
+    "boundary_type": "road / planting ground",
+    "minimum_actual_height_difference": 0.0,
+    "road_height_range": [
+      0.14505577087402344,
+      0.14509010314941406
+    ],
+    "ground_height_range": [
+      0.14503860473632812,
+      0.14506912231445312
+    ]
+  },
+  {
+    "x": 81.86887474076546,
+    "y": 65.67577763990599,
+    "boundary_type": "road / planting ground",
+    "minimum_actual_height_difference": 0.0,
+    "road_height_range": [
+      0.16458702087402344,
+      0.16462135314941406
+    ],
+    "ground_height_range": [
+      0.1645679473876953,
+      0.1645984649658203
+    ]
+  },
+  {
+    "x": 82.17500594455278,
+    "y": 66.15152523362264,
+    "boundary_type": "road / planting ground",
+    "minimum_actual_height_difference": 1.9073486328125e-06,
+    "road_height_range": [
+      0.17267608642578125,
+      0.1727008819580078
+    ],
+    "ground_height_range": [
+      0.17264938354492188,
+      0.17267417907714844
+    ]
+  },
+  {
+    "x": 82.42562503392487,
+    "y": 66.65873611726097,
+    "boundary_type": "road / planting ground",
+    "minimum_actual_height_difference": 1.9073486328125e-06,
+    "road_height_range": [
+      0.1651287078857422,
+      0.16515541076660156
+    ],
+    "ground_height_range": [
+      0.16510581970214844,
+      0.1651325225830078
+    ]
+  },
+  {
+    "x": 82.36415645624788,
+    "y": 67.1232593202869,
+    "boundary_type": "road / planting ground",
+    "minimum_actual_height_difference": 0.0,
+    "road_height_range": [
+      0.13425064086914062,
+      0.13430023193359375
+    ],
+    "ground_height_range": [
+      0.13425064086914062,
+      0.13429641723632812
+    ]
+  },
+  {
+    "x": 81.9440707241193,
+    "y": 67.50269504642736,
+    "boundary_type": "road / planting ground",
+    "minimum_actual_height_difference": 0.0,
+    "road_height_range": [
+      0.09275245666503906,
+      0.09278488159179688
+    ],
+    "ground_height_range": [
+      0.09275054931640625,
+      0.09278488159179688
+    ]
+  },
+  {
+    "x": 81.57940231230916,
+    "y": 67.92906641895001,
+    "boundary_type": "road / planting ground",
+    "minimum_actual_height_difference": 0.0,
+    "road_height_range": [
+      0.079742431640625,
+      0.07975006103515625
+    ],
+    "ground_height_range": [
+      0.07974052429199219,
+      0.07974815368652344
+    ]
+  },
+  {
+    "x": 81.51291684517878,
+    "y": 68.48173916152948,
+    "boundary_type": "road / planting ground",
+    "minimum_actual_height_difference": 0.0,
+    "road_height_range": [
+      0.07974624633789062,
+      0.07975006103515625
+    ],
+    "ground_height_range": [
+      0.079742431640625,
+      0.07975006103515625
+    ]
+  },
+  {
+    "x": 81.78464050354619,
+    "y": 68.9673827782376,
+    "boundary_type": "road / planting ground",
+    "minimum_actual_height_difference": 0.0,
+    "road_height_range": [
+      0.07974433898925781,
+      0.07975006103515625
+    ],
+    "ground_height_range": [
+      0.079742431640625,
+      0.07974624633789062
+    ]
+  },
+  {
+    "x": 82.28978376928086,
+    "y": 69.200668264156,
+    "boundary_type": "road / planting ground",
+    "minimum_actual_height_difference": 0.0,
+    "road_height_range": [
+      0.07974433898925781,
+      0.07975006103515625
+    ],
+    "ground_height_range": [
+      0.07973098754882812,
+      0.07974624633789062
+    ]
+  },
+  {
+    "x": 82.60755409108856,
+    "y": 69.42151637230015,
+    "boundary_type": "road / planting ground",
+    "minimum_actual_height_difference": 0.0,
+    "road_height_range": [
+      0.06437873840332031,
+      0.06439018249511719
+    ],
+    "ground_height_range": [
+      0.06438827514648438,
+      0.06439781188964844
+    ]
+  },
+  {
+    "x": 82.40083087694553,
+    "y": 69.94771733123193,
+    "boundary_type": "road / planting ground",
+    "minimum_actual_height_difference": 0.0,
+    "road_height_range": [
+      0.07016181945800781,
+      0.07017898559570312
+    ],
+    "ground_height_range": [
+      0.07016944885253906,
+      0.07018470764160156
+    ]
+  },
+  {
+    "x": 82.1108325754766,
+    "y": 70.43282569744335,
+    "boundary_type": "road / planting ground",
+    "minimum_actual_height_difference": 0.0,
+    "road_height_range": [
+      0.07425308227539062,
+      0.07426261901855469
+    ],
+    "ground_height_range": [
+      0.07425689697265625,
+      0.0742645263671875
+    ]
+  },
+  {
+    "x": 81.7430591438702,
+    "y": 70.86251410025997,
+    "boundary_type": "road / planting ground",
+    "minimum_actual_height_difference": 0.0,
+    "road_height_range": [
+      0.07007598876953125,
+      0.0700836181640625
+    ],
+    "ground_height_range": [
+      0.07007598876953125,
+      0.0700836181640625
+    ]
+  },
+  {
+    "x": 81.32215811432118,
+    "y": 71.24062862249541,
+    "boundary_type": "road / planting ground",
+    "minimum_actual_height_difference": 0.0,
+    "road_height_range": [
+      0.06522941589355469,
+      0.06523704528808594
+    ],
+    "ground_height_range": [
+      0.06522941589355469,
+      0.06523895263671875
+    ]
+  },
+  {
+    "x": 80.86750183235223,
+    "y": 71.57744567523734,
+    "boundary_type": "road / planting ground",
+    "minimum_actual_height_difference": 0.0,
+    "road_height_range": [
+      0.0601959228515625,
+      0.06020355224609375
+    ],
+    "ground_height_range": [
+      0.060192108154296875,
+      0.06019783020019531
+    ]
+  },
+  {
+    "x": 80.3912765438852,
+    "y": 71.88326830068534,
+    "boundary_type": "road / planting ground",
+    "minimum_actual_height_difference": 0.0,
+    "road_height_range": [
+      0.05527496337890625,
+      0.05528450012207031
+    ],
+    "ground_height_range": [
+      0.05527496337890625,
+      0.0552825927734375
+    ]
+  },
+  {
+    "x": 79.89737516090159,
+    "y": 72.15973462380859,
+    "boundary_type": "road / planting ground",
+    "minimum_actual_height_difference": 0.0,
+    "road_height_range": [
+      0.050899505615234375,
+      0.05090522766113281
+    ],
+    "ground_height_range": [
+      0.05090141296386719,
+      0.05090904235839844
+    ]
+  },
+  {
+    "x": 79.3931025784379,
+    "y": 72.41681151378161,
+    "boundary_type": "road / planting ground",
+    "minimum_actual_height_difference": 0.0,
+    "road_height_range": [
+      0.04746818542480469,
+      0.0474700927734375
+    ],
+    "ground_height_range": [
+      0.047466278076171875,
+      0.04747200012207031
+    ]
+  },
+  {
+    "x": 78.88077935907205,
+    "y": 72.65751001541565,
+    "boundary_type": "road / planting ground",
+    "minimum_actual_height_difference": 0.0,
+    "road_height_range": [
+      0.04538154602050781,
+      0.04538536071777344
+    ],
+    "ground_height_range": [
+      0.045379638671875,
+      0.045383453369140625
+    ]
+  },
+  {
+    "x": 78.36158109360024,
+    "y": 72.8830317557537,
+    "boundary_type": "road / planting ground",
+    "minimum_actual_height_difference": 0.0,
+    "road_height_range": [
+      0.0449981689453125,
+      0.04500007629394531
+    ],
+    "ground_height_range": [
+      0.044994354248046875,
+      0.045001983642578125
+    ]
+  },
+  {
+    "x": 77.83780109110548,
+    "y": 73.09769689979372,
+    "boundary_type": "road / planting ground",
+    "minimum_actual_height_difference": 0.0,
+    "road_height_range": [
+      0.04499626159667969,
+      0.045001983642578125
+    ],
+    "ground_height_range": [
+      0.04499626159667969,
+      0.0449981689453125
+    ]
+  },
+  {
+    "x": 77.30917534396877,
+    "y": 73.3,
+    "boundary_type": "road / planting ground",
+    "minimum_actual_height_difference": 0.0,
+    "road_height_range": [
+      0.04499626159667969,
+      0.04500389099121094
+    ],
+    "ground_height_range": [
+      0.0449981689453125,
+      0.04500007629394531
+    ]
+  }
+]

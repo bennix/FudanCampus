@@ -1,0 +1,21 @@
+{
+  "schema_version": 1,
+  "main_y_range": [38, 56],
+  "lawn_connector_y_range": [37, 43],
+  "stair_foot_xy": [84.95, 47.8],
+  "connector_approach_xy": [83.9, 47.8],
+  "connector_width": 1.8,
+  "main_half_width": 0.825,
+  "ground_road_z": 0.095,
+  "sidewalk_interface_x": 73.80000188388888,
+  "sidewalk_interface_z": 0.04500000178813934,
+  "stair_foot_z": 1.75,
+  "junction_z": 1.20,
+  "flat_terminal_length": 1.0,
+  "shoulder_width": 1.8,
+  "shoulder_clip_bounds": [73.80000188388888, 37, 84.95, 57],
+  "protection_margin": 0.02,
+  "max_triangle_edge": 0.25,
+  "uv_scale": 0.30,
+  "site_profile_status": "Unmeasured hypothesis. Do not promote to site-accepted."
+}

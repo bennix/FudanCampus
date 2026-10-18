@@ -1,0 +1,142 @@
+{
+  "source_sha256": "becbeb75aa5f4cea4a80c34039a8825ace683eb5b4a9eac7a67300da067514b0",
+  "source_unchanged": true,
+  "checkpoints": [
+    {
+      "file": "stage00-v3-copy.blend",
+      "reopens": true,
+      "original_feature_ids_retained": true,
+      "protected_lawn_and_west_meshes": 631,
+      "protected_geometry_unchanged": true,
+      "building_body_unchanged": true,
+      "sha256": "d51411fc2ec3a6c99a093bb2a0d940f251928ad531d488810950a7d5e9b991c3"
+    },
+    {
+      "file": "stage01-building-entry.blend",
+      "reopens": true,
+      "original_feature_ids_retained": true,
+      "protected_lawn_and_west_meshes": 631,
+      "protected_geometry_unchanged": true,
+      "building_body_unchanged": true,
+      "sha256": "4e06e5e5c55645d6d4d81e0e9a1c4e204d5ba1e5fae881684113669ce68adbf4"
+    },
+    {
+      "file": "stage02-east-urn.blend",
+      "reopens": true,
+      "original_feature_ids_retained": true,
+      "protected_lawn_and_west_meshes": 631,
+      "protected_geometry_unchanged": true,
+      "building_body_unchanged": true,
+      "sha256": "745efd8c1cf2f55013bbd3263374551e02b82828906ff38452b244ad04166f9e"
+    },
+    {
+      "file": "stage03-straight-path.blend",
+      "reopens": true,
+      "original_feature_ids_retained": true,
+      "protected_lawn_and_west_meshes": 631,
+      "protected_geometry_unchanged": true,
+      "building_body_unchanged": true,
+      "sha256": "b5183c5059749cfdedd54cf32fa0de3789c133a9afd79e8a1ea2c9a27af8c2fc"
+    },
+    {
+      "file": "stage04-curve-repair.blend",
+      "reopens": true,
+      "original_feature_ids_retained": true,
+      "protected_lawn_and_west_meshes": 631,
+      "protected_geometry_unchanged": true,
+      "building_body_unchanged": true,
+      "sha256": "0a42b91e4366aa3dfc2918656292a4251bf2d9168fc73227affc11f275bb48b9"
+    },
+    {
+      "file": "forecourt-refined-v4.blend",
+      "reopens": true,
+      "original_feature_ids_retained": true,
+      "protected_lawn_and_west_meshes": 631,
+      "protected_geometry_unchanged": true,
+      "building_body_unchanged": true,
+      "sha256": "87fd8fd57c849864ed38cb6c2f5cf81b3717a39d619d46956987be4332854685"
+    }
+  ],
+  "protected_building_body_topology_and_vertices_unchanged": true,
+  "protected_lawn_and_west_meshes": 631,
+  "new_or_repaired_finite_meshes": 260,
+  "new_geometry_dimensions_labeled_inferred": true,
+  "continuous_retaining_wall_solids": [
+    {
+      "name": "BENTRY east outer retaining wall",
+      "nonmanifold": 0,
+      "zero_area": 0,
+      "volume": 37.98032647151721,
+      "finite": true
+    },
+    {
+      "name": "BENTRY east outer coping",
+      "nonmanifold": 0,
+      "zero_area": 0,
+      "volume": 3.112245851080232,
+      "finite": true
+    },
+    {
+      "name": "BENTRY east curved planter wall",
+      "nonmanifold": 0,
+      "zero_area": 0,
+      "volume": 98.91647620542805,
+      "finite": true
+    },
+    {
+      "name": "BENTRY east curved coping",
+      "nonmanifold": 0,
+      "zero_area": 0,
+      "volume": 7.066749836719055,
+      "finite": true
+    },
+    {
+      "name": "BENTRY west outer retaining wall",
+      "nonmanifold": 0,
+      "zero_area": 0,
+      "volume": 37.98032587201508,
+      "finite": true
+    },
+    {
+      "name": "BENTRY west outer coping",
+      "nonmanifold": 0,
+      "zero_area": 0,
+      "volume": 3.112245261040182,
+      "finite": true
+    },
+    {
+      "name": "BENTRY west curved planter wall",
+      "nonmanifold": 0,
+      "zero_area": 0,
+      "volume": 99.2333373533975,
+      "finite": true
+    },
+    {
+      "name": "BENTRY west curved coping",
+      "nonmanifold": 0,
+      "zero_area": 0,
+      "volume": 7.958542554636603,
+      "finite": true
+    }
+  ],
+  "curve_solid": {
+    "name": "EPATH continuous union surface",
+    "nonmanifold": 0,
+    "zero_area": 0,
+    "volume": 33.95929526240368,
+    "finite": true
+  },
+  "photos": [
+    4464,
+    4485,
+    4491,
+    4492,
+    4496
+  ],
+  "limits": [
+    "No measured dimensions or solved camera calibration",
+    "Building context is the protected older proportion model",
+    "Decorative foliage and inherited soil-fill meshes not audited as architectural solids",
+    "No exhaustive all-pairs scene intersection certification"
+  ]
+}

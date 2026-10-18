@@ -1,0 +1,202 @@
+[
+  {
+    "view": "west-platform",
+    "image": "canopy-before-west-platform.png",
+    "source": "C:\\Users\\Lumin\\source\\FudanCampus-course\\field-review\\guanghua-refinement-v4\\scene-closeout-v7\\guanghua-unified-closeout-v7.blend",
+    "source_sha256": "641a3ab8f02443ef98ce1bc2dcb2e8a6fdb63ba194dd6fffbec7a92aeeb146a2",
+    "camera": "GV3 west platform photo 4390",
+    "camera_matrix": [
+      [
+        1.0,
+        0.0,
+        0.0,
+        -69.5
+      ],
+      [
+        0.0,
+        0.026181522756814957,
+        -0.9996572136878967,
+        46.0
+      ],
+      [
+        0.0,
+        0.9996572136878967,
+        0.026181522756814957,
+        2.8499999046325684
+      ],
+      [
+        0.0,
+        0.0,
+        0.0,
+        1.0
+      ]
+    ],
+    "lens": 26.0,
+    "camera_type": "PERSP",
+    "ortho_scale": 6.0,
+    "primary_photo": 4390,
+    "pose_confidence": "approximate; photo anchors require review",
+    "resolution": [
+      900,
+      675
+    ],
+    "samples": 12,
+    "adaptive_sampling": false,
+    "adaptive_threshold": 0.03500000014901161,
+    "compute_device": "GPU",
+    "exposure": 0.6499999761581421,
+    "seconds": 25.77,
+    "hidden_objects": [],
+    "image_sha256": "50dec2c12f271f10e636f1a6c8b411cfddb5b83cd15a7749e126958dbf8881f6"
+  },
+  {
+    "view": "east-understory",
+    "image": "canopy-before-east-understory.png",
+    "source": "C:\\Users\\Lumin\\source\\FudanCampus-course\\field-review\\guanghua-refinement-v4\\scene-closeout-v7\\guanghua-unified-closeout-v7.blend",
+    "source_sha256": "641a3ab8f02443ef98ce1bc2dcb2e8a6fdb63ba194dd6fffbec7a92aeeb146a2",
+    "camera": "GV3 east understory photo 4582",
+    "camera_matrix": [
+      [
+        0.7772448658943176,
+        -0.1320599913597107,
+        -0.6151833534240723,
+        75.5
+      ],
+      [
+        -0.6291982531547546,
+        -0.16313289105892181,
+        -0.7599323987960815,
+        58.5
+      ],
+      [
+        1.9263698192162337e-08,
+        0.9777258634567261,
+        -0.2098861187696457,
+        1.899999976158142
+      ],
+      [
+        0.0,
+        0.0,
+        0.0,
+        1.0
+      ]
+    ],
+    "lens": 27.0,
+    "camera_type": "PERSP",
+    "ortho_scale": 6.0,
+    "primary_photo": 4582,
+    "pose_confidence": "approximate; photo anchors require review",
+    "resolution": [
+      900,
+      675
+    ],
+    "samples": 12,
+    "adaptive_sampling": false,
+    "adaptive_threshold": 0.03500000014901161,
+    "compute_device": "GPU",
+    "exposure": 0.6499999761581421,
+    "seconds": 8.53,
+    "hidden_objects": [],
+    "image_sha256": "f18dd9e90b30dc67fe81f1eff433e2cf8ec9b8af3deb23db64bcc383439601ab"
+  },
+  {
+    "view": "east-exit",
+    "image": "canopy-before-east-exit.png",
+    "source": "C:\\Users\\Lumin\\source\\FudanCampus-course\\field-review\\guanghua-refinement-v4\\scene-closeout-v7\\guanghua-unified-closeout-v7.blend",
+    "source_sha256": "641a3ab8f02443ef98ce1bc2dcb2e8a6fdb63ba194dd6fffbec7a92aeeb146a2",
+    "camera": "SHAPE exit approximate",
+    "camera_matrix": [
+      [
+        -0.2826298177242279,
+        -0.1318259835243225,
+        0.9501275420188904,
+        81.50212097167969
+      ],
+      [
+        0.959229052066803,
+        -0.03884146362543106,
+        0.2799481153488159,
+        47.79999923706055
+      ],
+      [
+        -9.231402486875595e-08,
+        0.9905115962028503,
+        0.13742905855178833,
+        3.819999933242798
+      ],
+      [
+        0.0,
+        0.0,
+        0.0,
+        1.0
+      ]
+    ],
+    "lens": 24.0,
+    "camera_type": "PERSP",
+    "ortho_scale": 6.0,
+    "primary_photo": 4568,
+    "pose_confidence": "approximate; photo anchors require review",
+    "resolution": [
+      900,
+      675
+    ],
+    "samples": 12,
+    "adaptive_sampling": false,
+    "adaptive_threshold": 0.03500000014901161,
+    "compute_device": "GPU",
+    "exposure": 0.6499999761581421,
+    "seconds": 8.66,
+    "hidden_objects": [],
+    "image_sha256": "614fa5d80194d1d2e038436053cd764be9aef174a0f4f7a5c8613d10af0595ba"
+  },
+  {
+    "view": "south-walk",
+    "image": "canopy-before-south-walk.png",
+    "source": "C:\\Users\\Lumin\\source\\FudanCampus-course\\field-review\\guanghua-refinement-v4\\scene-closeout-v7\\guanghua-unified-closeout-v7.blend",
+    "source_sha256": "641a3ab8f02443ef98ce1bc2dcb2e8a6fdb63ba194dd6fffbec7a92aeeb146a2",
+    "camera": "V6 south photo4597",
+    "camera_matrix": [
+      [
+        -4.371138828673793e-08,
+        0.020881490781903267,
+        0.9997819662094116,
+        59.0
+      ],
+      [
+        1.0,
+        9.127589795099311e-10,
+        4.3701859908651386e-08,
+        14.5
+      ],
+      [
+        0.0,
+        0.9997819662094116,
+        -0.020881490781903267,
+        1.75
+      ],
+      [
+        0.0,
+        0.0,
+        0.0,
+        1.0
+      ]
+    ],
+    "lens": 29.0,
+    "camera_type": "PERSP",
+    "ortho_scale": 6.0,
+    "primary_photo": 4597,
+    "pose_confidence": "approximate; photo anchors require review",
+    "resolution": [
+      900,
+      675
+    ],
+    "samples": 12,
+    "adaptive_sampling": false,
+    "adaptive_threshold": 0.03500000014901161,
+    "compute_device": "GPU",
+    "exposure": 0.6499999761581421,
+    "seconds": 8.61,
+    "hidden_objects": [],
+    "image_sha256": "cdbfbe6ed62c68b98414baefb379b1e4f4ae2aa48ca52896feea6a513b15f617"
+  }
+]

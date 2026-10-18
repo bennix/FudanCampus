@@ -1,17 +1,26 @@
-"""Export eight editable building scenes and shared district GLBs from the master scene."""
+"""Export modular building scenes and shared district GLBs from the master scene."""
 import bpy
 import json
 import hashlib
 from pathlib import Path
 from mathutils import Vector
+import sys
+sys.path.insert(0, str(Path(__file__).resolve().parent))
+from asset_protection import assert_export_allowed
 
 ROOT = Path(__file__).resolve().parents[1]
 PUBLIC = ROOT / 'web/public'
-IDS = ['14', '16', '20', '27', '51', '55', '56', '65']
+IDS = ['3', '5', '7', '14', '16', '20', '27', '51', '55', '56', '65']
+
+
+def read_json(path):
+    return json.loads(path.read_text(encoding='utf-8-sig'))
+
 
 def export_modular(only_bid=None):
-    records = {r['id']: r for r in json.loads((ROOT / 'references/buildings.json').read_text())}
-    labels = {r['id']: r for r in json.loads((PUBLIC / 'buildings.json').read_text())['buildings']}
+    assert_export_allowed(only_bid)
+    records = {r['id']: r for r in json.loads((ROOT / 'references/buildings.json').read_text(encoding='utf-8-sig'))}
+    labels = {r['id']: r for r in json.loads((PUBLIC / 'buildings.json').read_text(encoding='utf-8-sig'))['buildings']}
     original = bpy.context.scene
     manifest = {'version': 1, 'coordinates': 'Three.js Y-up; south +Z', 'shared': [], 'buildings': []}
     meshes = [o for o in original.objects if o.type == 'MESH']
@@ -43,7 +52,7 @@ def export_modular(only_bid=None):
         bpy.data.scenes.remove(scene)
         return {'url': relative, 'revision': hashlib.sha256(path.read_bytes()).hexdigest()[:12], 'bytes': path.stat().st_size}
     if only_bid:
-        manifest = json.loads((PUBLIC / 'campus-manifest.json').read_text())
+        manifest = json.loads((PUBLIC / 'campus-manifest.json').read_text(encoding='utf-8-sig'))
     for bid in ([only_bid] if only_bid else IDS):
         objects = [o for o in meshes if identity(o) == bid]
         if not objects: raise RuntimeError('Missing building ' + bid)
@@ -53,21 +62,13 @@ def export_modular(only_bid=None):
         corners = [o.matrix_world @ Vector(c) for o in objects for c in o.bound_box]
         low = [min(v[i] for v in corners) for i in range(3)]
         high = [max(v[i] for v in corners) for i in range(3)]
-        # Simplified overview per material group, retaining the building silhouette.
-        proxies = []
-        for obj in objects:
-            # Material groups already contain entire wings; use a decimated copy for faithful silhouettes.
-            copy = obj.copy(); copy.data = obj.data.copy(); original.collection.objects.link(copy)
-            modifier = copy.modifiers.new('Overview simplification', 'DECIMATE'); modifier.ratio = .025
-            bpy.context.view_layer.objects.active = copy
-            bpy.ops.object.modifier_apply(modifier=modifier.name)
-            proxies.append(copy)
-        overview = save(proxies, f'models/overview/{bid}.glb', (x,y,0))
-        for obj in proxies:
-            data = obj.data; bpy.data.objects.remove(obj, do_unlink=True); bpy.data.meshes.remove(data)
+        # These material batches contain many disconnected boxes and thin surfaces.
+        # A global collapse ratio destroys walls/roofs, even if bounds still match.
+        # Reuse intact geometry until a separately reviewed LOD is available.
+        overview = dict(asset)
         manifest['buildings'] = [entry for entry in manifest['buildings'] if entry['id'] != bid]
         manifest['buildings'].append({'id':bid, 'name':labels[bid]['name'], **asset,
-            'overview':overview, 'position':[x,0,-y], 'rotation':[0,0,0],
+            'overview':overview, 'overviewMode':'full', 'position':[x,0,-y], 'rotation':[0,0,0],
             'orientationBaked': True, 'bounds':{'min':[low[0]-x,low[2],y-high[1]],'max':[high[0]-x,high[2],y-low[1]]},
             'labelPosition':labels[bid]['position'], 'loadDistance':240})
     if not only_bid:
@@ -80,7 +81,7 @@ def export_modular(only_bid=None):
             key = collection.name[:2]
             manifest['shared'].append({'id':key,'name':collection.name, **save(objects,f'models/shared/{key}.glb')})
     manifest['buildings'].sort(key=lambda entry: int(entry['id']))
-    (PUBLIC / 'campus-manifest.json').write_text(json.dumps(manifest,ensure_ascii=False,indent=2)+'\n')
+    (PUBLIC / 'campus-manifest.json').write_text(json.dumps(manifest,ensure_ascii=False,indent=2)+'\n', encoding='utf-8')
     print('MODULAR_EXPORT_COMPLETE',len(manifest['buildings']),len(manifest['shared']))
 
 if __name__ == '__main__':
@@ -88,9 +89,10 @@ if __name__ == '__main__':
     args = sys.argv[sys.argv.index('--')+1:] if '--' in sys.argv else []
     if args:
         if len(args) != 2 or args[0] != '--building' or args[1] not in IDS:
-            raise ValueError('Expected -- --building ID (14,16,20,27,51,55,56,65)')
+            raise ValueError('Expected -- --building ID (3,5,7,14,16,20,27,51,55,56,65)')
         bid = args[1]
-        manifest = json.loads((PUBLIC / 'campus-manifest.json').read_text())
+        assert_export_allowed(bid)
+        manifest = json.loads((PUBLIC / 'campus-manifest.json').read_text(encoding='utf-8-sig'))
         entry = next(item for item in manifest['buildings'] if item['id'] == bid)
         x,z,minus_y = entry['position']
         for obj in bpy.context.scene.objects:

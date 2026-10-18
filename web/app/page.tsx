@@ -5,10 +5,15 @@ import { OrbitControls } from 'three/addons/controls/OrbitControls.js';
 import {CampusLod,type LodManifest} from '../lib/campus-lod';
 type LabelMode='auto'|'full'|'off';
 type Building={id:string;name:string;position:[number,number,number];source:string;category:string};
-const views:{name:string;p:number[];t:number[];fov?:number}[]=[
+const views:{name:string;p:number[];t:number[];fov?:number;key?:string}[]=[
  {name:'全校鸟瞰',p:[-650,950,880],t:[-20,0,-260]},
- {name:'毛主席像',p:[-34,5,-50],t:[-40,4.5,-66.4],fov:38},
+ {name:'北区食堂',p:[-351.2,22,-438.4],t:[-351.2,7,-514.4],fov:45,key:'canteen'},
+ {name:'北区体育馆',p:[-505.8,55,-429.6],t:[-460.8,5,-509.6],fov:45,key:'gym'},
+ {name:'仓库',p:[-394.8,23,-217],t:[-364.8,5,-272],fov:43,key:'warehouse'},
+ {name:'毛主席像',p:[-34,5,-50],t:[-40,4.5,-66.4],fov:38,key:'statue'},
  {name:'光华楼',p:[131.2,7,-120.8],t:[131.2,35,-224.8],fov:55},
+ {name:'光华楼草坪',p:[236,115,-47],t:[127,12,-177],fov:50},
+ {name:'草坪俯视',p:[126,205,-160],t:[126,0,-160.1],fov:48},
  {name:'理科图书馆',p:[-93.8,3.5,-58.8],t:[-93.8,5.5,-89.5],fov:52},
  {name:'恒隆物理楼',p:[-48,7,-173.4],t:[-40,9,-202.4],fov:85},
  {name:'化学楼',p:[-46.8,3,-158.8],t:[-64.8,6,-160.8],fov:68},
@@ -17,10 +22,14 @@ const views:{name:string;p:number[];t:number[];fov?:number}[]=[
  {name:'校门背面',p:[-38,3,-28.4],t:[-40,4.1,-6.4],fov:55},
  {name:'逸夫楼',p:[-89,9,-186.2],t:[-120,11,-255.2]},
  {name:'逸夫科技楼',p:[-190,8,-153.4],t:[-208,14,-198.4]},
+ {name:'寒冰馆',p:[-216.4,26,-128.8],t:[-258.4,5,-176.8]},
  {name:'主校区',p:[-380,500,460],t:[30,0,-160]},
  {name:'地图俯视',p:[-20,1150,-319],t:[-20,0,-320]},
  {name:'光华楼与东区',p:[580,410,250],t:[190,20,-200]},
  {name:'北区宿舍',p:[-650,380,-50],t:[-385,0,-520]},
+ {name:'东花园春樱',key:'cherry',p:[161.5,2.6,-137.3],t:[163.13,3.3,-153.8],fov:52},
+ {name:'春樱俯视',key:'cherry-top',p:[163.13,20,-153.5],t:[163.13,3.3,-153.8],fov:52},
+ {name:'爱心长椅',key:'heart',p:[137.37,1.33,-126.27],t:[137.37,1.03,-129.8],fov:40},
 ];
 export default function Home(){
  const [quality,setQuality]=useState<'auto'|'battery'|'detail'>('auto');
@@ -41,7 +50,7 @@ export default function Home(){
  const labels:{data:Building;point:THREE.Vector3;button:HTMLButtonElement}[]=[];
  const abort=new AbortController();
  const manifestUrl='/campus-lod.json';
- const prepare=(group:THREE.Group)=>group.traverse(o=>{if(o instanceof THREE.Mesh){o.castShadow=!mobile&&!o.name.includes('Continuous');o.receiveShadow=!mobile;}if(/Canopy|Trunk/.test(o.name))o.visible=showTrees;});
+ const prepare=(group:THREE.Group)=>group.traverse(o=>{if(o instanceof THREE.Mesh){if(['shared-02','shared-03'].includes(group.userData.lodAssetId)&&['3','5','7'].includes(String(o.userData.building_id??'')))o.visible=false;o.castShadow=!mobile&&!o.name.includes('Continuous');o.receiveShadow=!mobile;}if(/Canop|Trunk|Tree bark/i.test(o.name)||o.userData.campusVegetation===true)o.visible=showTrees;});
  let lod:CampusLod|undefined;let lodReady=false,lastDetailCheck=0;
  Promise.all([fetch(manifestUrl,{signal:abort.signal}).then(r=>{if(!r.ok)throw Error('模型清单不可用');return r.json() as Promise<LodManifest>;}),fetch('/buildings.json',{signal:abort.signal}).then(r=>{if(!r.ok)throw Error('标签文件不可用');return r.json() as Promise<{buildings:Building[]}>;})]).then(async([manifest,data])=>{
   if(canceled)return;model=new THREE.Group();scene.add(model);
@@ -52,13 +61,13 @@ export default function Home(){
    const button=document.createElement('button');button.className='building-label';button.dataset.buildingId=item.id;button.dataset.category=item.category;button.title=`${item.id} · ${item.name}`;button.setAttribute('aria-label',`${item.id} ${item.name}，点击靠近`);
    const badge=document.createElement('span');badge.className='label-id';badge.textContent=item.id;
    const name=document.createElement('span');name.className='label-name';name.textContent=item.name;button.appendChild(badge);button.appendChild(name);layer.appendChild(button);
-   const point=new THREE.Vector3(...item.position);
+   const point=new THREE.Vector3(...(manifest.assets.find(a=>a.id==='buildings-'+item.id)?.labelPosition??item.position));
    button.onclick=()=>{transition={p:point.clone().add(new THREE.Vector3(-75,95,115)),t:point.clone().add(new THREE.Vector3(0,-8,0))};setStatus(`${item.id} · ${item.name}`);};
    labels.push({data:item,point,button});
   }
   setStatus(`已载入 ${data.buildings.filter(b=>b.category==='building').length} 栋建筑 · 点击标签靠近`);
  }).catch(e=>{if(!canceled){console.error(e);setStatus('校园或标签载入失败，请刷新页面重试');}});
- api.current={view(n){needsRender=true;camera.fov=views[n].fov??43;camera.updateProjectionMatrix();transition={p:new THREE.Vector3(...views[n].p as [number,number,number]),t:new THREE.Vector3(...views[n].t as [number,number,number])};if(n===0&&camera.aspect<.8)transition.p.sub(transition.t).multiplyScalar(1.7).add(transition.t);},trees(v){needsRender=true;showTrees=v;model?.traverse(o=>{if(/Canopy|Trunk/.test(o.name))o.visible=v;});renderer.shadowMap.needsUpdate=true;},rotate(v){needsRender=true;controls.autoRotate=v;},labels(v){mode=v;needsRender=true;}};
+ api.current={view(n){needsRender=true;camera.fov=views[n].fov??43;camera.updateProjectionMatrix();transition={p:new THREE.Vector3(...views[n].p as [number,number,number]),t:new THREE.Vector3(...views[n].t as [number,number,number])};if(n===0&&camera.aspect<.8)transition.p.sub(transition.t).multiplyScalar(1.7).add(transition.t);},trees(v){needsRender=true;showTrees=v;model?.traverse(o=>{if(/Canop|Trunk|Tree bark/i.test(o.name)||o.userData.campusVegetation===true)o.visible=v;});renderer.shadowMap.needsUpdate=true;},rotate(v){needsRender=true;controls.autoRotate=v;},labels(v){mode=v;needsRender=true;}};
  const stopTransition=()=>{transition=undefined;};controls.addEventListener('start',stopTransition);
  const resize=()=>{needsRender=true;camera.aspect=el.clientWidth/el.clientHeight;camera.updateProjectionMatrix();renderer.setSize(el.clientWidth,el.clientHeight);};const observer=new ResizeObserver(resize);observer.observe(el);resize();
  const projected=new THREE.Vector3();let lastFrame=performance.now();

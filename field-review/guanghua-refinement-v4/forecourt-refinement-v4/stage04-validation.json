@@ -1,0 +1,78 @@
+{
+  "protected_meshes_unchanged": 1346,
+  "source_road_meshes": [
+    "EPATH__main-curve__pink-path",
+    "EPATH__lawn-connection__pink-path",
+    "EPATH__north-exit-path__pink-path",
+    "E_ENTRY northern curve within garden"
+  ],
+  "source_projected_area": 185.53214758986724,
+  "union_projected_area": 177.43207054974482,
+  "removed_overlap_area": 8.100077040122414,
+  "upper_envelope": "source road heights, no extra clearance lift",
+  "northern_folded_quads_removed": true,
+  "precision_degenerate_faces_removed": 2,
+  "solid": {
+    "name": "EPATH continuous union surface",
+    "nonmanifold": 0,
+    "zero_area": 0,
+    "volume": 33.95929526240368,
+    "finite": true
+  },
+  "ray_probes": [
+    {
+      "xy": [
+        74.5,
+        31
+      ],
+      "hit": [
+        74.5,
+        31.0,
+        0.0950002670288086
+      ],
+      "normal": [
+        -0.0,
+        0.0,
+        1.0
+      ]
+    },
+    {
+      "xy": [
+        76.8,
+        65.5
+      ],
+      "hit": null,
+      "normal": null
+    },
+    {
+      "xy": [
+        82.6,
+        70.05
+      ],
+      "hit": [
+        82.5999984741211,
+        70.05000305175781,
+        0.08505725860595703
+      ],
+      "normal": [
+        -0.09764173626899719,
+        0.01081220805644989,
+        0.9951629042625427
+      ]
+    }
+  ],
+  "views": [
+    "top",
+    "4496",
+    "junction"
+  ],
+  "limits": [
+    "Old independent elevated road/terrain at east terrace retained",
+    "Site route, heights and camera remain inferred"
+  ],
+  "baseline_unchanged": true,
+  "dimensions": "推定：照片比例，未实测",
+  "inherited_texture_black_wedges_confirmed": true,
+  "independent_path_texture_replaced": true,
+  "finish_change_geometry_unchanged": true
+}

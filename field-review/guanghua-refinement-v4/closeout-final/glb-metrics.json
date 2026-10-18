@@ -1,0 +1,454 @@
+{
+  "source": "guanghua-closeout-raw.glb",
+  "bytes": 121353204,
+  "sha256": "e45cc1abf18449507abd402b4db7ea0995e8a9b22cdcc6b32d8f84604e687bd2",
+  "meshCount": 340,
+  "nodeCount": 1077,
+  "sharedMeshCount": 117,
+  "trianglesByLod": {
+    "static": 1523728,
+    "near": 3503744,
+    "middle": 1793622,
+    "far": 337950
+  },
+  "glassFallbacks": [
+    "WEB CLOSEOUT neutral glass.001",
+    "WEB CLOSEOUT neutral glass-east",
+    "WEB CLOSEOUT neutral glass"
+  ],
+  "materialLimits": "Thin web glass uses alpha blending; native transmission and procedural mineral microrelief remain in the editable source",
+  "textures": [
+    {
+      "name": "FC_plaque-normal",
+      "size": [
+        512,
+        512
+      ],
+      "bytes": 462838
+    },
+    {
+      "name": "FC_engraving-normal",
+      "size": [
+        512,
+        512
+      ],
+      "bytes": 462496
+    },
+    {
+      "name": "leaf-olive",
+      "size": [
+        128,
+        128
+      ],
+      "bytes": 8949
+    },
+    {
+      "name": "leaf-sage",
+      "size": [
+        128,
+        128
+      ],
+      "bytes": 8610
+    },
+    {
+      "name": "leaf-red",
+      "size": [
+        128,
+        128
+      ],
+      "bytes": 6491
+    },
+    {
+      "name": "leaf-conifer",
+      "size": [
+        128,
+        128
+      ],
+      "bytes": 7358
+    },
+    {
+      "name": "aged-timber",
+      "size": [
+        512,
+        512
+      ],
+      "bytes": 266017
+    },
+    {
+      "name": "charcoal-band",
+      "size": [
+        512,
+        512
+      ],
+      "bytes": 319365
+    },
+    {
+      "name": "walkway-pavers",
+      "size": [
+        512,
+        512
+      ],
+      "bytes": 396596
+    },
+    {
+      "name": "granite-grey",
+      "size": [
+        512,
+        512
+      ],
+      "bytes": 401290
+    },
+    {
+      "name": "granite-warm",
+      "size": [
+        512,
+        512
+      ],
+      "bytes": 408781
+    },
+    {
+      "name": "aged-render",
+      "size": [
+        512,
+        512
+      ],
+      "bytes": 408376
+    },
+    {
+      "name": "stone-chip-7",
+      "size": [
+        512,
+        512
+      ],
+      "bytes": 354215
+    },
+    {
+      "name": "stone-chip-6",
+      "size": [
+        512,
+        512
+      ],
+      "bytes": 414888
+    },
+    {
+      "name": "stone-chip-5",
+      "size": [
+        512,
+        512
+      ],
+      "bytes": 387383
+    },
+    {
+      "name": "stone-chip-4",
+      "size": [
+        512,
+        512
+      ],
+      "bytes": 405575
+    },
+    {
+      "name": "stone-chip-3",
+      "size": [
+        512,
+        512
+      ],
+      "bytes": 407891
+    },
+    {
+      "name": "stone-chip-2",
+      "size": [
+        512,
+        512
+      ],
+      "bytes": 382116
+    },
+    {
+      "name": "stone-chip-1",
+      "size": [
+        512,
+        512
+      ],
+      "bytes": 364047
+    },
+    {
+      "name": "stone-chip-0",
+      "size": [
+        512,
+        512
+      ],
+      "bytes": 349600
+    },
+    {
+      "name": "seat-timber",
+      "size": [
+        512,
+        512
+      ],
+      "bytes": 346738
+    },
+    {
+      "name": "warm-granite",
+      "size": [
+        512,
+        512
+      ],
+      "bytes": 391834
+    },
+    {
+      "name": "grey-granite",
+      "size": [
+        512,
+        512
+      ],
+      "bytes": 394060
+    },
+    {
+      "name": "ramp-worn-ochre",
+      "size": [
+        512,
+        512
+      ],
+      "bytes": 385082
+    },
+    {
+      "name": "aged-wall",
+      "size": [
+        512,
+        512
+      ],
+      "bytes": 403053
+    },
+    {
+      "name": "dark-wood",
+      "size": [
+        512,
+        512
+      ],
+      "bytes": 286116
+    },
+    {
+      "name": "V2_FIN_pavers",
+      "size": [
+        512,
+        512
+      ],
+      "bytes": 288024
+    },
+    {
+      "name": "seat-orange",
+      "size": [
+        512,
+        512
+      ],
+      "bytes": 368361
+    },
+    {
+      "name": "V2_FIN_concrete",
+      "size": [
+        512,
+        512
+      ],
+      "bytes": 374828
+    },
+    {
+      "name": "dark-paving",
+      "size": [
+        512,
+        512
+      ],
+      "bytes": 351803
+    },
+    {
+      "name": "pale-inlay",
+      "size": [
+        512,
+        512
+      ],
+      "bytes": 405217
+    },
+    {
+      "name": "warm-impressed-paving",
+      "size": [
+        512,
+        512
+      ],
+      "bytes": 403359
+    },
+    {
+      "name": "V2_FIN_garden_grass",
+      "size": [
+        2048,
+        2048
+      ],
+      "bytes": 4884964
+    },
+    {
+      "name": "FC_plaza_grid-normal",
+      "size": [
+        512,
+        512
+      ],
+      "bytes": 462457
+    },
+    {
+      "name": "FC_plaza_grid",
+      "size": [
+        2048,
+        2048
+      ],
+      "bytes": 5532259
+    },
+    {
+      "name": "V2_FIN_ramp",
+      "size": [
+        512,
+        512
+      ],
+      "bytes": 374058
+    },
+    {
+      "name": "V2_FIN_stone_pale",
+      "size": [
+        512,
+        512
+      ],
+      "bytes": 374681
+    },
+    {
+      "name": "V2_FIN_granite",
+      "size": [
+        512,
+        512
+      ],
+      "bytes": 374390
+    },
+    {
+      "name": "FC_warm_granite-normal",
+      "size": [
+        512,
+        512
+      ],
+      "bytes": 462290
+    },
+    {
+      "name": "FC_warm_granite",
+      "size": [
+        512,
+        512
+      ],
+      "bytes": 354335
+    },
+    {
+      "name": "FC_plaque",
+      "size": [
+        512,
+        512
+      ],
+      "bytes": 344786
+    },
+    {
+      "name": "FC_red_begonia-normal",
+      "size": [
+        512,
+        512
+      ],
+      "bytes": 461793
+    },
+    {
+      "name": "FC_red_begonia",
+      "size": [
+        512,
+        512
+      ],
+      "bytes": 376592
+    },
+    {
+      "name": "FC_fluted_white",
+      "size": [
+        512,
+        512
+      ],
+      "bytes": 354159
+    },
+    {
+      "name": "FC_patinated_bronze-normal",
+      "size": [
+        512,
+        512
+      ],
+      "bytes": 462254
+    },
+    {
+      "name": "FC_patinated_bronze",
+      "size": [
+        512,
+        512
+      ],
+      "bytes": 344075
+    },
+    {
+      "name": "FC_plinth_rock",
+      "size": [
+        512,
+        512
+      ],
+      "bytes": 325624
+    },
+    {
+      "name": "FC_light_band",
+      "size": [
+        512,
+        512
+      ],
+      "bytes": 356544
+    },
+    {
+      "name": "V4 calibrated plaza granite",
+      "size": [
+        1536,
+        1536
+      ],
+      "bytes": 2854826
+    },
+    {
+      "name": "foliage-red-height",
+      "size": [
+        1024,
+        1024
+      ],
+      "bytes": 950863
+    },
+    {
+      "name": "foliage-red-albedo",
+      "size": [
+        1024,
+        1024
+      ],
+      "bytes": 1096708
+    },
+    {
+      "name": "foliage-green-height",
+      "size": [
+        1024,
+        1024
+      ],
+      "bytes": 947009
+    },
+    {
+      "name": "foliage-green-albedo",
+      "size": [
+        1024,
+        1024
+      ],
+      "bytes": 1172116
+    },
+    {
+      "name": "V4 clean irregular garden stone",
+      "size": [
+        768,
+        768
+      ],
+      "bytes": 723928
+    }
+  ]
+}

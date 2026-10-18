@@ -1,0 +1,126 @@
+{
+  "source": "C:\\Users\\Lumin\\source\\FudanCampus-course\\field-review\\guanghua-spring-v1\\guanghua-spring-branch-led-v2.blend",
+  "source_sha256": "a5622a6148ed86b2a2f0c4b825243d8114a92238503651521e45f8cafbeec655",
+  "scale": 0.6666666666666666,
+  "translation_blender": [
+    117.86666870117188,
+    122.80000305175781,
+    0
+  ],
+  "baselines": {
+    "models/shared/00-guanghua-v3.glb": "a1a8a53da36af0ab10255b31b2295fd063a186a687a76e06cb15f212d53e3dc8",
+    "models/shared/01-hanbing-v14.glb": "f0ebd998b5244d1a5488b4adbdef3153432b90a79544ae5847832050d6aa7147",
+    "models/shared/02.glb": "7fa75aab7af1f9814016fab428f6c40cef6b39fa285cb7baa5dfea7fb13a47b5",
+    "models/shared/03.glb": "d537da09f0675300853f64c37e9e098019a164052b9086e780b07030e22891ec",
+    "models/shared/04.glb": "88235469b10d1e6ab9e9cc6987896854d7fb20e9baf7c79c773afdd125726636",
+    "models/shared/05-guanghua-v3.glb": "ff5885e88797c200907ffad8716a47db4a53915ea3ca5f6822a5c4c9c28bec28",
+    "models/landscape/guanghua-complete-v3.glb": "274e05364a185482da38d97b3050857aa55f5a68eff2aa9e7f422dc73c83f4f9",
+    "models/buildings/14.glb": "0b6bffa0e4fad9955816fe7c2a8e19669fceb96d8cdc0aed87609deb19af94e0",
+    "models/buildings/16.glb": "31da9550a24f72051cf914da4505f2d0037f8966a2fab061a8801e34b25953fc",
+    "models/buildings/20.glb": "0c39e38a472a4c65413a7ba350af2abf8a42bb698b0489d9bb1de16b7765d119",
+    "models/buildings/27.glb": "fca1d0c77446ed7db491864d24d2412828c0cd70da9c71222997a3c71196479a",
+    "models/buildings/42.glb": "94ab3ba507e601cc370da8a8ec1726af332cdf3b3585d43124e008248d23fc8b",
+    "models/buildings/51.glb": "e17cd179569f740d3be3e155ba50b68f315ceb1a9bcf961c59e02668729cf451",
+    "models/buildings/55.glb": "95a895241e1ca7d5dfb425794eb8cb55aae0fdd4ecec759d76066beb35e8dd0a",
+    "models/buildings/56.glb": "966a98308aa546df2528e070d94ea1f325de4fdff7f49b1ad4bad5a098e9ad13",
+    "models/buildings/65.glb": "36581b572da434f2f71b5c4d48ad6d3861dfe67b18786e6c23e77bd7cdef9327",
+    "models/overview/42.glb": "8d9f53a24348fade636b29974ea528c77376c21b6c7a838e9384eeddf0940081"
+  },
+  "feature_ids": [
+    "BOUNDARY",
+    "BUILDING_ENTRY",
+    "DING",
+    "EDGE_PATHS",
+    "EOPEN",
+    "EOPEN_S",
+    "EPATH",
+    "ERAMP",
+    "ESKY",
+    "ETERR",
+    "E_ENTRY",
+    "E_FURNITURE",
+    "E_PLANTING",
+    "E_WALK",
+    "FLOWER",
+    "FORECOURT",
+    "FURNITURE",
+    "GARDEN_VEGETATION_V3",
+    "GROUND",
+    "LAWN",
+    "LAWN_EDGE",
+    "POET_DONKEY",
+    "POET_GARDEN",
+    "SIGN",
+    "TREE_CANOPY_V6",
+    "VEGETATION",
+    "VEGETATION_V2",
+    "WB1",
+    "WB2",
+    "WGLASS",
+    "WGLASS2",
+    "WOPEN",
+    "WOPEN_S",
+    "WPATH",
+    "WSKY1",
+    "WSKY2",
+    "WTERR",
+    "W_ENTRY"
+  ],
+  "landscape": {
+    "url": "models/landscape/guanghua-spring-branch-led-v2.glb",
+    "revision": "4eea4be30cc4",
+    "bytes": 128809132
+  },
+  "building": {
+    "url": "models/buildings/27-closeout.glb",
+    "revision": "7729b2cea51e",
+    "bytes": 3178560
+  },
+  "building_bounds": {
+    "min": [
+      -62.849992752075195,
+      0,
+      -16
+    ],
+    "max": [
+      62.85000419616699,
+      79.55000305175781,
+      20.049999237060547
+    ]
+  },
+  "terrain_reused": {
+    "id": "00",
+    "name": "00 Terrain and roads",
+    "url": "models/shared/00-guanghua-v3.glb",
+    "revision": "a1a8a53da36a",
+    "bytes": 3435320
+  },
+  "vegetation_reused": {
+    "id": "05",
+    "name": "05 Landscape",
+    "url": "models/shared/05-guanghua-closeout.glb",
+    "revision": "39c56a008f4e",
+    "bytes": 4803248
+  },
+  "inherited_footprint": [
+    -90,
+    112.3021175619119,
+    -9,
+    124
+  ],
+  "registration": "Inherited provisional 2/3 scale; native landscape envelope preserved",
+  "replacement": "Building 27 and Guanghua landscape switch to new local assets; old shared forest triangles protruding into the replacement envelope are removed in a new derivative; retained outside vegetation triangles remain exact",
+  "validation_status": "Local branch-led derivative awaiting visual review",
+  "derivation": {
+    "baseline_glb": "models/landscape/guanghua-closeout.glb",
+    "baseline_glb_sha256": "e45cc1abf18449507abd402b4db7ea0995e8a9b22cdcc6b32d8f84604e687bd2",
+    "baseline_native_sha256": "8625e7b4813f9a864c5a03121f32f28e2cc1e5d7265518b921593a137f8b8714",
+    "target_tree": "V6 East spreading 01",
+    "flower_lods": 3,
+    "old_wood_triangles_removed": 3362,
+    "old_wood_surface_assignment_ambiguities": 0,
+    "heart_clearance_web": 0.07666651407877605,
+    "blossom_anchor_sites": 4274,
+    "method": "Replace target tree meshes; preserve other source accessor arrays and transforms; source-surface attribution removes old wood from shared batch"
+  }
+}

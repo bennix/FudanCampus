@@ -1,0 +1,15 @@
+{
+  "extends": "./tsconfig.json",
+  "include": [
+    "app/**/*.tsx",
+    "lib/**/*.ts",
+    "static-entry.tsx"
+  ],
+  "exclude": [
+    "node_modules",
+    "hanbing-final.ts"
+  ],
+  "compilerOptions": {
+    "incremental": false
+  }
+}

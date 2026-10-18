@@ -1,0 +1,1237 @@
+{
+  "source_sha256": "ea7e5875e9e7afe5fe0d1bc16a43bfe906c5564aea88950553282bfc36d6ff34",
+  "changed": [
+    "BENTRY east inner red flowers",
+    "BENTRY east outer red flowers",
+    "BENTRY west inner red flowers",
+    "BENTRY west outer red flowers",
+    "GV3 shrub 000 GV3 shrub prototype 4 foliage",
+    "GV3 shrub 000 GV3 shrub prototype 4 twigs",
+    "GV3 shrub 001 GV3 shrub prototype 5 foliage",
+    "GV3 shrub 001 GV3 shrub prototype 5 twigs",
+    "GV3 shrub 002 GV3 shrub prototype 2 foliage",
+    "GV3 shrub 002 GV3 shrub prototype 2 twigs",
+    "GV3 shrub 003 GV3 shrub prototype 3 foliage",
+    "GV3 shrub 003 GV3 shrub prototype 3 twigs",
+    "GV3 shrub 004 GV3 shrub prototype 0 foliage",
+    "GV3 shrub 004 GV3 shrub prototype 0 twigs",
+    "GV3 shrub 005 GV3 shrub prototype 2 foliage",
+    "GV3 shrub 005 GV3 shrub prototype 2 twigs",
+    "GV3 shrub 006 GV3 shrub prototype 4 foliage",
+    "GV3 shrub 006 GV3 shrub prototype 4 twigs",
+    "GV3 shrub 007 GV3 shrub prototype 4 foliage",
+    "GV3 shrub 007 GV3 shrub prototype 4 twigs",
+    "GV3 shrub 008 GV3 shrub prototype 4 foliage",
+    "GV3 shrub 008 GV3 shrub prototype 4 twigs",
+    "GV3 shrub 009 GV3 shrub prototype 4 foliage",
+    "GV3 shrub 009 GV3 shrub prototype 4 twigs",
+    "GV3 shrub 010 GV3 shrub prototype 3 foliage",
+    "GV3 shrub 010 GV3 shrub prototype 3 twigs",
+    "GV3 shrub 011 GV3 shrub prototype 1 foliage",
+    "GV3 shrub 011 GV3 shrub prototype 1 twigs",
+    "GV3 shrub 012 GV3 shrub prototype 0 foliage",
+    "GV3 shrub 012 GV3 shrub prototype 0 twigs",
+    "GV3 shrub 013 GV3 shrub prototype 0 foliage",
+    "GV3 shrub 013 GV3 shrub prototype 0 twigs",
+    "GV3 shrub 014 GV3 shrub prototype 3 foliage",
+    "GV3 shrub 014 GV3 shrub prototype 3 twigs",
+    "GV3 shrub 015 GV3 shrub prototype 1 foliage",
+    "GV3 shrub 015 GV3 shrub prototype 1 twigs",
+    "GV3 shrub 016 GV3 shrub prototype 1 foliage",
+    "GV3 shrub 016 GV3 shrub prototype 1 twigs",
+    "GV3 shrub 017 GV3 shrub prototype 1 foliage",
+    "GV3 shrub 017 GV3 shrub prototype 1 twigs",
+    "GV3 shrub 018 GV3 shrub prototype 3 foliage",
+    "GV3 shrub 018 GV3 shrub prototype 3 twigs",
+    "GV3 shrub 019 GV3 shrub prototype 1 foliage",
+    "GV3 shrub 019 GV3 shrub prototype 1 twigs",
+    "GV3 shrub 020 GV3 shrub prototype 1 foliage",
+    "GV3 shrub 020 GV3 shrub prototype 1 twigs",
+    "GV3 shrub 021 GV3 shrub prototype 5 foliage",
+    "GV3 shrub 021 GV3 shrub prototype 5 twigs",
+    "GV3 shrub 022 GV3 shrub prototype 3 foliage",
+    "GV3 shrub 022 GV3 shrub prototype 3 twigs",
+    "GV3 shrub 023 GV3 shrub prototype 3 foliage",
+    "GV3 shrub 023 GV3 shrub prototype 3 twigs",
+    "GV3 shrub 024 GV3 shrub prototype 3 foliage",
+    "GV3 shrub 024 GV3 shrub prototype 3 twigs",
+    "GV3 shrub 025 GV3 shrub prototype 3 foliage",
+    "GV3 shrub 025 GV3 shrub prototype 3 twigs",
+    "GV3 shrub 026 GV3 shrub prototype 0 foliage",
+    "GV3 shrub 026 GV3 shrub prototype 0 twigs",
+    "GV3 shrub 027 GV3 shrub prototype 1 foliage",
+    "GV3 shrub 027 GV3 shrub prototype 1 twigs",
+    "GV3 shrub 028 GV3 shrub prototype 3 foliage",
+    "GV3 shrub 028 GV3 shrub prototype 3 twigs",
+    "GV3 shrub 029 GV3 shrub prototype 0 foliage",
+    "GV3 shrub 029 GV3 shrub prototype 0 twigs",
+    "GV3 shrub 030 GV3 shrub prototype 0 foliage",
+    "GV3 shrub 030 GV3 shrub prototype 0 twigs",
+    "GV3 shrub 031 GV3 shrub prototype 0 foliage",
+    "GV3 shrub 031 GV3 shrub prototype 0 twigs",
+    "GV3 shrub 032 GV3 shrub prototype 1 foliage",
+    "GV3 shrub 032 GV3 shrub prototype 1 twigs",
+    "GV3 shrub 033 GV3 shrub prototype 3 foliage",
+    "GV3 shrub 033 GV3 shrub prototype 3 twigs",
+    "GV3 shrub 034 GV3 shrub prototype 0 foliage",
+    "GV3 shrub 034 GV3 shrub prototype 0 twigs",
+    "GV3 shrub 035 GV3 shrub prototype 4 foliage",
+    "GV3 shrub 035 GV3 shrub prototype 4 twigs",
+    "GV3 shrub 036 GV3 shrub prototype 1 foliage",
+    "GV3 shrub 036 GV3 shrub prototype 1 twigs",
+    "GV3 shrub 037 GV3 shrub prototype 2 foliage",
+    "GV3 shrub 037 GV3 shrub prototype 2 twigs",
+    "GV3 shrub 038 GV3 shrub prototype 4 foliage",
+    "GV3 shrub 038 GV3 shrub prototype 4 twigs",
+    "GV3 shrub 039 GV3 shrub prototype 4 foliage",
+    "GV3 shrub 039 GV3 shrub prototype 4 twigs",
+    "GV3 shrub 040 GV3 shrub prototype 3 foliage",
+    "GV3 shrub 040 GV3 shrub prototype 3 twigs",
+    "GV3 shrub 041 GV3 shrub prototype 0 foliage",
+    "GV3 shrub 041 GV3 shrub prototype 0 twigs",
+    "GV3 shrub 042 GV3 shrub prototype 0 foliage",
+    "GV3 shrub 042 GV3 shrub prototype 0 twigs",
+    "GV3 shrub 043 GV3 shrub prototype 0 foliage",
+    "GV3 shrub 043 GV3 shrub prototype 0 twigs",
+    "GV3 shrub 044 GV3 shrub prototype 0 foliage",
+    "GV3 shrub 044 GV3 shrub prototype 0 twigs",
+    "GV3 shrub 045 GV3 shrub prototype 0 foliage",
+    "GV3 shrub 045 GV3 shrub prototype 0 twigs",
+    "GV3 shrub 046 GV3 shrub prototype 0 foliage",
+    "GV3 shrub 046 GV3 shrub prototype 0 twigs",
+    "GV3 shrub 047 GV3 shrub prototype 2 foliage",
+    "GV3 shrub 047 GV3 shrub prototype 2 twigs",
+    "GV3 shrub 048 GV3 shrub prototype 1 foliage",
+    "GV3 shrub 048 GV3 shrub prototype 1 twigs",
+    "GV3 shrub 049 GV3 shrub prototype 1 foliage",
+    "GV3 shrub 049 GV3 shrub prototype 1 twigs",
+    "GV3 shrub 050 GV3 shrub prototype 0 foliage",
+    "GV3 shrub 050 GV3 shrub prototype 0 twigs",
+    "GV3 shrub 051 GV3 shrub prototype 1 foliage",
+    "GV3 shrub 051 GV3 shrub prototype 1 twigs",
+    "GV3 shrub 052 GV3 shrub prototype 4 foliage",
+    "GV3 shrub 052 GV3 shrub prototype 4 twigs",
+    "GV3 shrub 053 GV3 shrub prototype 0 foliage",
+    "GV3 shrub 053 GV3 shrub prototype 0 twigs",
+    "GV3 shrub 054 GV3 shrub prototype 3 foliage",
+    "GV3 shrub 054 GV3 shrub prototype 3 twigs",
+    "GV3 shrub 055 GV3 shrub prototype 4 foliage",
+    "GV3 shrub 055 GV3 shrub prototype 4 twigs",
+    "GV3 shrub 056 GV3 shrub prototype 4 foliage",
+    "GV3 shrub 056 GV3 shrub prototype 4 twigs",
+    "GV3 shrub 057 GV3 shrub prototype 2 foliage",
+    "GV3 shrub 057 GV3 shrub prototype 2 twigs",
+    "GV3 shrub 058 GV3 shrub prototype 3 foliage",
+    "GV3 shrub 058 GV3 shrub prototype 3 twigs",
+    "GV3 shrub 059 GV3 shrub prototype 1 foliage",
+    "GV3 shrub 059 GV3 shrub prototype 1 twigs",
+    "GV3 shrub 060 GV3 shrub prototype 2 foliage",
+    "GV3 shrub 060 GV3 shrub prototype 2 twigs",
+    "GV3 shrub 061 GV3 shrub prototype 1 foliage",
+    "GV3 shrub 061 GV3 shrub prototype 1 twigs",
+    "GV3 shrub 062 GV3 shrub prototype 3 foliage",
+    "GV3 shrub 062 GV3 shrub prototype 3 twigs",
+    "GV3 shrub 063 GV3 shrub prototype 1 foliage",
+    "GV3 shrub 063 GV3 shrub prototype 1 twigs",
+    "GV3 shrub 064 GV3 shrub prototype 4 foliage",
+    "GV3 shrub 064 GV3 shrub prototype 4 twigs",
+    "GV3 shrub 065 GV3 shrub prototype 5 foliage",
+    "GV3 shrub 065 GV3 shrub prototype 5 twigs",
+    "GV3 shrub 066 GV3 shrub prototype 0 foliage",
+    "GV3 shrub 066 GV3 shrub prototype 0 twigs",
+    "GV3 shrub 067 GV3 shrub prototype 5 foliage",
+    "GV3 shrub 067 GV3 shrub prototype 5 twigs",
+    "GV3 shrub 068 GV3 shrub prototype 1 foliage",
+    "GV3 shrub 068 GV3 shrub prototype 1 twigs",
+    "GV3 shrub 069 GV3 shrub prototype 0 foliage",
+    "GV3 shrub 069 GV3 shrub prototype 0 twigs",
+    "GV3 shrub 070 GV3 shrub prototype 3 foliage",
+    "GV3 shrub 070 GV3 shrub prototype 3 twigs",
+    "GV3 shrub 071 GV3 shrub prototype 5 foliage",
+    "GV3 shrub 071 GV3 shrub prototype 5 twigs",
+    "GV3 shrub 072 GV3 shrub prototype 1 foliage",
+    "GV3 shrub 072 GV3 shrub prototype 1 twigs",
+    "GV3 shrub 073 GV3 shrub prototype 2 foliage",
+    "GV3 shrub 073 GV3 shrub prototype 2 twigs",
+    "GV3 shrub 074 GV3 shrub prototype 1 foliage",
+    "GV3 shrub 074 GV3 shrub prototype 1 twigs",
+    "GV3 shrub 075 GV3 shrub prototype 1 foliage",
+    "GV3 shrub 075 GV3 shrub prototype 1 twigs",
+    "GV3 shrub 076 GV3 shrub prototype 5 foliage",
+    "GV3 shrub 076 GV3 shrub prototype 5 twigs",
+    "GV3 shrub 077 GV3 shrub prototype 3 foliage",
+    "GV3 shrub 077 GV3 shrub prototype 3 twigs",
+    "GV3 shrub 078 GV3 shrub prototype 0 foliage",
+    "GV3 shrub 078 GV3 shrub prototype 0 twigs",
+    "GV3 shrub 079 GV3 shrub prototype 2 foliage",
+    "GV3 shrub 079 GV3 shrub prototype 2 twigs",
+    "GV3 shrub 080 GV3 shrub prototype 5 foliage",
+    "GV3 shrub 080 GV3 shrub prototype 5 twigs",
+    "GV3 shrub 081 GV3 shrub prototype 0 foliage",
+    "GV3 shrub 081 GV3 shrub prototype 0 twigs",
+    "GV3 shrub 082 GV3 shrub prototype 0 foliage",
+    "GV3 shrub 082 GV3 shrub prototype 0 twigs",
+    "GV3 shrub 083 GV3 shrub prototype 0 foliage",
+    "GV3 shrub 083 GV3 shrub prototype 0 twigs",
+    "GV3 shrub 084 GV3 shrub prototype 4 foliage",
+    "GV3 shrub 084 GV3 shrub prototype 4 twigs",
+    "GV3 shrub 085 GV3 shrub prototype 3 foliage",
+    "GV3 shrub 085 GV3 shrub prototype 3 twigs",
+    "GV3 shrub 086 GV3 shrub prototype 1 foliage",
+    "GV3 shrub 086 GV3 shrub prototype 1 twigs",
+    "GV3 shrub 087 GV3 shrub prototype 1 foliage",
+    "GV3 shrub 087 GV3 shrub prototype 1 twigs",
+    "GV3 shrub 088 GV3 shrub prototype 1 foliage",
+    "GV3 shrub 088 GV3 shrub prototype 1 twigs",
+    "GV3 shrub 089 GV3 shrub prototype 0 foliage",
+    "GV3 shrub 089 GV3 shrub prototype 0 twigs",
+    "GV3 shrub 090 GV3 shrub prototype 1 foliage",
+    "GV3 shrub 090 GV3 shrub prototype 1 twigs",
+    "GV3 shrub 091 GV3 shrub prototype 1 foliage",
+    "GV3 shrub 091 GV3 shrub prototype 1 twigs",
+    "GV3 shrub 092 GV3 shrub prototype 1 foliage",
+    "GV3 shrub 092 GV3 shrub prototype 1 twigs",
+    "GV3 shrub 093 GV3 shrub prototype 1 foliage",
+    "GV3 shrub 093 GV3 shrub prototype 1 twigs",
+    "GV3 shrub 094 GV3 shrub prototype 2 foliage",
+    "GV3 shrub 094 GV3 shrub prototype 2 twigs",
+    "GV3 shrub 095 GV3 shrub prototype 1 foliage",
+    "GV3 shrub 095 GV3 shrub prototype 1 twigs",
+    "GV3 shrub 096 GV3 shrub prototype 3 foliage",
+    "GV3 shrub 096 GV3 shrub prototype 3 twigs",
+    "GV3 shrub 097 GV3 shrub prototype 0 foliage",
+    "GV3 shrub 097 GV3 shrub prototype 0 twigs",
+    "GV3 shrub 098 GV3 shrub prototype 0 foliage",
+    "GV3 shrub 098 GV3 shrub prototype 0 twigs",
+    "GV3 shrub 099 GV3 shrub prototype 3 foliage",
+    "GV3 shrub 099 GV3 shrub prototype 3 twigs",
+    "GV3 shrub 100 GV3 shrub prototype 3 foliage",
+    "GV3 shrub 100 GV3 shrub prototype 3 twigs",
+    "GV3 shrub 101 GV3 shrub prototype 1 foliage",
+    "GV3 shrub 101 GV3 shrub prototype 1 twigs",
+    "GV3 shrub 102 GV3 shrub prototype 0 foliage",
+    "GV3 shrub 102 GV3 shrub prototype 0 twigs",
+    "GV3 shrub 103 GV3 shrub prototype 1 foliage",
+    "GV3 shrub 103 GV3 shrub prototype 1 twigs",
+    "GV3 shrub 104 GV3 shrub prototype 0 foliage",
+    "GV3 shrub 104 GV3 shrub prototype 0 twigs",
+    "GV3 shrub 105 GV3 shrub prototype 2 foliage",
+    "GV3 shrub 105 GV3 shrub prototype 2 twigs",
+    "GV3 shrub 106 GV3 shrub prototype 2 foliage",
+    "GV3 shrub 106 GV3 shrub prototype 2 twigs",
+    "GV3 shrub 107 GV3 shrub prototype 3 foliage",
+    "GV3 shrub 107 GV3 shrub prototype 3 twigs",
+    "GV3 shrub 108 GV3 shrub prototype 0 foliage",
+    "GV3 shrub 108 GV3 shrub prototype 0 twigs",
+    "GV3 shrub 109 GV3 shrub prototype 5 foliage",
+    "GV3 shrub 109 GV3 shrub prototype 5 twigs",
+    "GV3 shrub 110 GV3 shrub prototype 0 foliage",
+    "GV3 shrub 110 GV3 shrub prototype 0 twigs",
+    "GV3 shrub 111 GV3 shrub prototype 2 foliage",
+    "GV3 shrub 111 GV3 shrub prototype 2 twigs",
+    "GV3 shrub 112 GV3 shrub prototype 5 foliage",
+    "GV3 shrub 112 GV3 shrub prototype 5 twigs",
+    "GV3 shrub 113 GV3 shrub prototype 1 foliage",
+    "GV3 shrub 113 GV3 shrub prototype 1 twigs",
+    "GV3 shrub 114 GV3 shrub prototype 0 foliage",
+    "GV3 shrub 114 GV3 shrub prototype 0 twigs",
+    "GV3 shrub 115 GV3 shrub prototype 5 foliage",
+    "GV3 shrub 115 GV3 shrub prototype 5 twigs",
+    "GV3 shrub 116 GV3 shrub prototype 4 foliage",
+    "GV3 shrub 116 GV3 shrub prototype 4 twigs",
+    "GV3 shrub 117 GV3 shrub prototype 0 foliage",
+    "GV3 shrub 117 GV3 shrub prototype 0 twigs",
+    "GV3 shrub 118 GV3 shrub prototype 1 foliage",
+    "GV3 shrub 118 GV3 shrub prototype 1 twigs",
+    "GV3 shrub 119 GV3 shrub prototype 5 foliage",
+    "GV3 shrub 119 GV3 shrub prototype 5 twigs",
+    "GV3 shrub 120 GV3 shrub prototype 4 foliage",
+    "GV3 shrub 120 GV3 shrub prototype 4 twigs",
+    "GV3 shrub 121 GV3 shrub prototype 1 foliage",
+    "GV3 shrub 121 GV3 shrub prototype 1 twigs",
+    "GV3 shrub 122 GV3 shrub prototype 1 foliage",
+    "GV3 shrub 122 GV3 shrub prototype 1 twigs",
+    "GV3 shrub 123 GV3 shrub prototype 1 foliage",
+    "GV3 shrub 123 GV3 shrub prototype 1 twigs",
+    "GV3 shrub 124 GV3 shrub prototype 2 foliage",
+    "GV3 shrub 124 GV3 shrub prototype 2 twigs",
+    "GV3 shrub 125 GV3 shrub prototype 1 foliage",
+    "GV3 shrub 125 GV3 shrub prototype 1 twigs",
+    "GV3 shrub 126 GV3 shrub prototype 1 foliage",
+    "GV3 shrub 126 GV3 shrub prototype 1 twigs",
+    "GV3 shrub 127 GV3 shrub prototype 4 foliage",
+    "GV3 shrub 127 GV3 shrub prototype 4 twigs",
+    "GV3 shrub 128 GV3 shrub prototype 2 foliage",
+    "GV3 shrub 128 GV3 shrub prototype 2 twigs",
+    "GV3 shrub 129 GV3 shrub prototype 5 foliage",
+    "GV3 shrub 129 GV3 shrub prototype 5 twigs",
+    "GV3 shrub 130 GV3 shrub prototype 1 foliage",
+    "GV3 shrub 130 GV3 shrub prototype 1 twigs",
+    "GV3 shrub 131 GV3 shrub prototype 3 foliage",
+    "GV3 shrub 131 GV3 shrub prototype 3 twigs",
+    "GV3 shrub 132 GV3 shrub prototype 1 foliage",
+    "GV3 shrub 132 GV3 shrub prototype 1 twigs",
+    "GV3 shrub 133 GV3 shrub prototype 0 foliage",
+    "GV3 shrub 133 GV3 shrub prototype 0 twigs",
+    "GV3 shrub 134 GV3 shrub prototype 1 foliage",
+    "GV3 shrub 134 GV3 shrub prototype 1 twigs",
+    "GV3 shrub 135 GV3 shrub prototype 4 foliage",
+    "GV3 shrub 135 GV3 shrub prototype 4 twigs",
+    "GV3 shrub 136 GV3 shrub prototype 3 foliage",
+    "GV3 shrub 136 GV3 shrub prototype 3 twigs",
+    "GV3 shrub 137 GV3 shrub prototype 2 foliage",
+    "GV3 shrub 137 GV3 shrub prototype 2 twigs",
+    "GV3 shrub 138 GV3 shrub prototype 1 foliage",
+    "GV3 shrub 138 GV3 shrub prototype 1 twigs",
+    "GV3 shrub 139 GV3 shrub prototype 1 foliage",
+    "GV3 shrub 139 GV3 shrub prototype 1 twigs",
+    "GV3 shrub 140 GV3 shrub prototype 1 foliage",
+    "GV3 shrub 140 GV3 shrub prototype 1 twigs",
+    "GV3 shrub 141 GV3 shrub prototype 1 foliage",
+    "GV3 shrub 141 GV3 shrub prototype 1 twigs",
+    "GV3 shrub 142 GV3 shrub prototype 4 foliage",
+    "GV3 shrub 142 GV3 shrub prototype 4 twigs",
+    "GV3 shrub 143 GV3 shrub prototype 1 foliage",
+    "GV3 shrub 143 GV3 shrub prototype 1 twigs",
+    "GV3 shrub 144 GV3 shrub prototype 4 foliage",
+    "GV3 shrub 144 GV3 shrub prototype 4 twigs",
+    "GV3 shrub 145 GV3 shrub prototype 0 foliage",
+    "GV3 shrub 145 GV3 shrub prototype 0 twigs",
+    "GV3 shrub 146 GV3 shrub prototype 0 foliage",
+    "GV3 shrub 146 GV3 shrub prototype 0 twigs",
+    "GV3 shrub 147 GV3 shrub prototype 0 foliage",
+    "GV3 shrub 147 GV3 shrub prototype 0 twigs",
+    "GV3 shrub 148 GV3 shrub prototype 0 foliage",
+    "GV3 shrub 148 GV3 shrub prototype 0 twigs",
+    "GV3 shrub 149 GV3 shrub prototype 0 foliage",
+    "GV3 shrub 149 GV3 shrub prototype 0 twigs",
+    "GV3 shrub 150 GV3 shrub prototype 2 foliage",
+    "GV3 shrub 150 GV3 shrub prototype 2 twigs",
+    "GV3 shrub 151 GV3 shrub prototype 3 foliage",
+    "GV3 shrub 151 GV3 shrub prototype 3 twigs",
+    "GV3 shrub 152 GV3 shrub prototype 1 foliage",
+    "GV3 shrub 152 GV3 shrub prototype 1 twigs",
+    "GV3 shrub 153 GV3 shrub prototype 3 foliage",
+    "GV3 shrub 153 GV3 shrub prototype 3 twigs",
+    "GV3 shrub 154 GV3 shrub prototype 5 foliage",
+    "GV3 shrub 154 GV3 shrub prototype 5 twigs",
+    "GV3 shrub 155 GV3 shrub prototype 3 foliage",
+    "GV3 shrub 155 GV3 shrub prototype 3 twigs",
+    "GV3 shrub 156 GV3 shrub prototype 1 foliage",
+    "GV3 shrub 156 GV3 shrub prototype 1 twigs",
+    "GV3 shrub 157 GV3 shrub prototype 3 foliage",
+    "GV3 shrub 157 GV3 shrub prototype 3 twigs",
+    "GV3 shrub 158 GV3 shrub prototype 0 foliage",
+    "GV3 shrub 158 GV3 shrub prototype 0 twigs",
+    "GV3 shrub 159 GV3 shrub prototype 1 foliage",
+    "GV3 shrub 159 GV3 shrub prototype 1 twigs",
+    "GV3 shrub 160 GV3 shrub prototype 0 foliage",
+    "GV3 shrub 160 GV3 shrub prototype 0 twigs",
+    "GV3 shrub 161 GV3 shrub prototype 0 foliage",
+    "GV3 shrub 161 GV3 shrub prototype 0 twigs",
+    "GV3 shrub 162 GV3 shrub prototype 1 foliage",
+    "GV3 shrub 162 GV3 shrub prototype 1 twigs",
+    "GV3 shrub 163 GV3 shrub prototype 1 foliage",
+    "GV3 shrub 163 GV3 shrub prototype 1 twigs",
+    "GV3 shrub 164 GV3 shrub prototype 1 foliage",
+    "GV3 shrub 164 GV3 shrub prototype 1 twigs",
+    "GV3 shrub 165 GV3 shrub prototype 1 foliage",
+    "GV3 shrub 165 GV3 shrub prototype 1 twigs",
+    "GV3 shrub 166 GV3 shrub prototype 5 foliage",
+    "GV3 shrub 166 GV3 shrub prototype 5 twigs",
+    "GV3 shrub 167 GV3 shrub prototype 1 foliage",
+    "GV3 shrub 167 GV3 shrub prototype 1 twigs",
+    "GV3 shrub 168 GV3 shrub prototype 3 foliage",
+    "GV3 shrub 168 GV3 shrub prototype 3 twigs",
+    "GV3 shrub 169 GV3 shrub prototype 0 foliage",
+    "GV3 shrub 169 GV3 shrub prototype 0 twigs",
+    "GV3 shrub 170 GV3 shrub prototype 1 foliage",
+    "GV3 shrub 170 GV3 shrub prototype 1 twigs",
+    "GV3 shrub 171 GV3 shrub prototype 2 foliage",
+    "GV3 shrub 171 GV3 shrub prototype 2 twigs",
+    "GV3 shrub 172 GV3 shrub prototype 2 foliage",
+    "GV3 shrub 172 GV3 shrub prototype 2 twigs",
+    "GV3 shrub 173 GV3 shrub prototype 1 foliage",
+    "GV3 shrub 173 GV3 shrub prototype 1 twigs",
+    "GV3 shrub 174 GV3 shrub prototype 5 foliage",
+    "GV3 shrub 174 GV3 shrub prototype 5 twigs",
+    "GV3 shrub 175 GV3 shrub prototype 0 foliage",
+    "GV3 shrub 175 GV3 shrub prototype 0 twigs",
+    "GV3 shrub 176 GV3 shrub prototype 0 foliage",
+    "GV3 shrub 176 GV3 shrub prototype 0 twigs",
+    "GV3 shrub 177 GV3 shrub prototype 0 foliage",
+    "GV3 shrub 177 GV3 shrub prototype 0 twigs",
+    "GV3 shrub 178 GV3 shrub prototype 1 foliage",
+    "GV3 shrub 178 GV3 shrub prototype 1 twigs",
+    "GV3 shrub 179 GV3 shrub prototype 4 foliage",
+    "GV3 shrub 179 GV3 shrub prototype 4 twigs",
+    "GV3 shrub 180 GV3 shrub prototype 4 foliage",
+    "GV3 shrub 180 GV3 shrub prototype 4 twigs",
+    "GV3 shrub 181 GV3 shrub prototype 3 foliage",
+    "GV3 shrub 181 GV3 shrub prototype 3 twigs",
+    "GV3 shrub 182 GV3 shrub prototype 3 foliage",
+    "GV3 shrub 182 GV3 shrub prototype 3 twigs",
+    "GV3 shrub 183 GV3 shrub prototype 0 foliage",
+    "GV3 shrub 183 GV3 shrub prototype 0 twigs",
+    "GV3 shrub 184 GV3 shrub prototype 0 foliage",
+    "GV3 shrub 184 GV3 shrub prototype 0 twigs",
+    "GV3 shrub 185 GV3 shrub prototype 1 foliage",
+    "GV3 shrub 185 GV3 shrub prototype 1 twigs",
+    "GV3 shrub 186 GV3 shrub prototype 3 foliage",
+    "GV3 shrub 186 GV3 shrub prototype 3 twigs",
+    "GV3 shrub 187 GV3 shrub prototype 1 foliage",
+    "GV3 shrub 187 GV3 shrub prototype 1 twigs",
+    "GV3 shrub 188 GV3 shrub prototype 1 foliage",
+    "GV3 shrub 188 GV3 shrub prototype 1 twigs",
+    "GV3 shrub 189 GV3 shrub prototype 0 foliage",
+    "GV3 shrub 189 GV3 shrub prototype 0 twigs",
+    "GV3 shrub 190 GV3 shrub prototype 3 foliage",
+    "GV3 shrub 190 GV3 shrub prototype 3 twigs",
+    "GV3 shrub 191 GV3 shrub prototype 1 foliage",
+    "GV3 shrub 191 GV3 shrub prototype 1 twigs",
+    "GV3 shrub 192 GV3 shrub prototype 2 foliage",
+    "GV3 shrub 192 GV3 shrub prototype 2 twigs",
+    "GV3 shrub 193 GV3 shrub prototype 4 foliage",
+    "GV3 shrub 193 GV3 shrub prototype 4 twigs",
+    "GV3 shrub 194 GV3 shrub prototype 2 foliage",
+    "GV3 shrub 194 GV3 shrub prototype 2 twigs",
+    "GV3 shrub 195 GV3 shrub prototype 0 foliage",
+    "GV3 shrub 195 GV3 shrub prototype 0 twigs",
+    "GV3 shrub 196 GV3 shrub prototype 0 foliage",
+    "GV3 shrub 196 GV3 shrub prototype 0 twigs",
+    "GV3 shrub 197 GV3 shrub prototype 0 foliage",
+    "GV3 shrub 197 GV3 shrub prototype 0 twigs",
+    "GV3 shrub 198 GV3 shrub prototype 0 foliage",
+    "GV3 shrub 198 GV3 shrub prototype 0 twigs",
+    "GV3 shrub 199 GV3 shrub prototype 1 foliage",
+    "GV3 shrub 199 GV3 shrub prototype 1 twigs",
+    "GV3 shrub 200 GV3 shrub prototype 1 foliage",
+    "GV3 shrub 200 GV3 shrub prototype 1 twigs",
+    "GV3 shrub 201 GV3 shrub prototype 1 foliage",
+    "GV3 shrub 201 GV3 shrub prototype 1 twigs",
+    "GV3 shrub 202 GV3 shrub prototype 1 foliage",
+    "GV3 shrub 202 GV3 shrub prototype 1 twigs",
+    "GV3 shrub 203 GV3 shrub prototype 4 foliage",
+    "GV3 shrub 203 GV3 shrub prototype 4 twigs",
+    "GV3 shrub 204 GV3 shrub prototype 4 foliage",
+    "GV3 shrub 204 GV3 shrub prototype 4 twigs",
+    "GV3 shrub 205 GV3 shrub prototype 1 foliage",
+    "GV3 shrub 205 GV3 shrub prototype 1 twigs",
+    "GV3 shrub 206 GV3 shrub prototype 1 foliage",
+    "GV3 shrub 206 GV3 shrub prototype 1 twigs",
+    "GV3 shrub 207 GV3 shrub prototype 4 foliage",
+    "GV3 shrub 207 GV3 shrub prototype 4 twigs",
+    "GV3 shrub 208 GV3 shrub prototype 0 foliage",
+    "GV3 shrub 208 GV3 shrub prototype 0 twigs",
+    "GV3 shrub 209 GV3 shrub prototype 1 foliage",
+    "GV3 shrub 209 GV3 shrub prototype 1 twigs",
+    "GV3 shrub 210 GV3 shrub prototype 1 foliage",
+    "GV3 shrub 210 GV3 shrub prototype 1 twigs",
+    "GV3 shrub 211 GV3 shrub prototype 1 foliage",
+    "GV3 shrub 211 GV3 shrub prototype 1 twigs",
+    "GV3 shrub 212 GV3 shrub prototype 4 foliage",
+    "GV3 shrub 212 GV3 shrub prototype 4 twigs",
+    "GV3 shrub 213 GV3 shrub prototype 4 foliage",
+    "GV3 shrub 213 GV3 shrub prototype 4 twigs",
+    "GV3 shrub 214 GV3 shrub prototype 4 foliage",
+    "GV3 shrub 214 GV3 shrub prototype 4 twigs",
+    "GV3 shrub 215 GV3 shrub prototype 1 foliage",
+    "GV3 shrub 215 GV3 shrub prototype 1 twigs",
+    "GV3 shrub 216 GV3 shrub prototype 4 foliage",
+    "GV3 shrub 216 GV3 shrub prototype 4 twigs",
+    "GV3 shrub 217 GV3 shrub prototype 0 foliage",
+    "GV3 shrub 217 GV3 shrub prototype 0 twigs",
+    "GV3 shrub 218 GV3 shrub prototype 1 foliage",
+    "GV3 shrub 218 GV3 shrub prototype 1 twigs",
+    "GV3 shrub 219 GV3 shrub prototype 4 foliage",
+    "GV3 shrub 219 GV3 shrub prototype 4 twigs",
+    "GV3 shrub 220 GV3 shrub prototype 0 foliage",
+    "GV3 shrub 220 GV3 shrub prototype 0 twigs",
+    "GV3 shrub 221 GV3 shrub prototype 0 foliage",
+    "GV3 shrub 221 GV3 shrub prototype 0 twigs",
+    "GV3 shrub 222 GV3 shrub prototype 0 foliage",
+    "GV3 shrub 222 GV3 shrub prototype 0 twigs",
+    "GV3 shrub 223 GV3 shrub prototype 1 foliage",
+    "GV3 shrub 223 GV3 shrub prototype 1 twigs",
+    "GV3 shrub 224 GV3 shrub prototype 1 foliage",
+    "GV3 shrub 224 GV3 shrub prototype 1 twigs",
+    "GV3 shrub 225 GV3 shrub prototype 4 foliage",
+    "GV3 shrub 225 GV3 shrub prototype 4 twigs",
+    "GV3 shrub 226 GV3 shrub prototype 4 foliage",
+    "GV3 shrub 226 GV3 shrub prototype 4 twigs",
+    "GV3 shrub 227 GV3 shrub prototype 4 foliage",
+    "GV3 shrub 227 GV3 shrub prototype 4 twigs",
+    "GV3 shrub 228 GV3 shrub prototype 1 foliage",
+    "GV3 shrub 228 GV3 shrub prototype 1 twigs",
+    "GV3 shrub 229 GV3 shrub prototype 1 foliage",
+    "GV3 shrub 229 GV3 shrub prototype 1 twigs",
+    "GV3 shrub 230 GV3 shrub prototype 1 foliage",
+    "GV3 shrub 230 GV3 shrub prototype 1 twigs",
+    "GV3 shrub 231 GV3 shrub prototype 4 foliage",
+    "GV3 shrub 231 GV3 shrub prototype 4 twigs",
+    "GV3 shrub 232 GV3 shrub prototype 0 foliage",
+    "GV3 shrub 232 GV3 shrub prototype 0 twigs",
+    "GV3 shrub 233 GV3 shrub prototype 4 foliage",
+    "GV3 shrub 233 GV3 shrub prototype 4 twigs",
+    "GV3 shrub 234 GV3 shrub prototype 4 foliage",
+    "GV3 shrub 234 GV3 shrub prototype 4 twigs",
+    "GV3 shrub 235 GV3 shrub prototype 4 foliage",
+    "GV3 shrub 235 GV3 shrub prototype 4 twigs",
+    "GV3 shrub 236 GV3 shrub prototype 4 foliage",
+    "GV3 shrub 236 GV3 shrub prototype 4 twigs",
+    "GV3 shrub 237 GV3 shrub prototype 4 foliage",
+    "GV3 shrub 237 GV3 shrub prototype 4 twigs",
+    "GV3 shrub 238 GV3 shrub prototype 1 foliage",
+    "GV3 shrub 238 GV3 shrub prototype 1 twigs",
+    "GV3 shrub 239 GV3 shrub prototype 0 foliage",
+    "GV3 shrub 239 GV3 shrub prototype 0 twigs",
+    "GV3 shrub 240 GV3 shrub prototype 4 foliage",
+    "GV3 shrub 240 GV3 shrub prototype 4 twigs",
+    "GV3 shrub 241 GV3 shrub prototype 1 foliage",
+    "GV3 shrub 241 GV3 shrub prototype 1 twigs",
+    "GV3 shrub 242 GV3 shrub prototype 1 foliage",
+    "GV3 shrub 242 GV3 shrub prototype 1 twigs",
+    "GV3 shrub 243 GV3 shrub prototype 1 foliage",
+    "GV3 shrub 243 GV3 shrub prototype 1 twigs",
+    "GV3 shrub 244 GV3 shrub prototype 1 foliage",
+    "GV3 shrub 244 GV3 shrub prototype 1 twigs",
+    "GV3 shrub 245 GV3 shrub prototype 4 foliage",
+    "GV3 shrub 245 GV3 shrub prototype 4 twigs",
+    "GV3 shrub 246 GV3 shrub prototype 0 foliage",
+    "GV3 shrub 246 GV3 shrub prototype 0 twigs",
+    "GV3 shrub 247 GV3 shrub prototype 1 foliage",
+    "GV3 shrub 247 GV3 shrub prototype 1 twigs",
+    "GV3 shrub 248 GV3 shrub prototype 0 foliage",
+    "GV3 shrub 248 GV3 shrub prototype 0 twigs",
+    "GV3 shrub 249 GV3 shrub prototype 4 foliage",
+    "GV3 shrub 249 GV3 shrub prototype 4 twigs",
+    "GV3 shrub 250 GV3 shrub prototype 0 foliage",
+    "GV3 shrub 250 GV3 shrub prototype 0 twigs",
+    "GV3 shrub 251 GV3 shrub prototype 1 foliage",
+    "GV3 shrub 251 GV3 shrub prototype 1 twigs",
+    "GV3 shrub 252 GV3 shrub prototype 0 foliage",
+    "GV3 shrub 252 GV3 shrub prototype 0 twigs",
+    "GV3 shrub 253 GV3 shrub prototype 4 foliage",
+    "GV3 shrub 253 GV3 shrub prototype 4 twigs",
+    "GV3 shrub 254 GV3 shrub prototype 4 foliage",
+    "GV3 shrub 254 GV3 shrub prototype 4 twigs",
+    "GV3 shrub 255 GV3 shrub prototype 1 foliage",
+    "GV3 shrub 255 GV3 shrub prototype 1 twigs",
+    "GV3 shrub 256 GV3 shrub prototype 1 foliage",
+    "GV3 shrub 256 GV3 shrub prototype 1 twigs",
+    "GV3 shrub 257 GV3 shrub prototype 4 foliage",
+    "GV3 shrub 257 GV3 shrub prototype 4 twigs",
+    "GV3 shrub 258 GV3 shrub prototype 1 foliage",
+    "GV3 shrub 258 GV3 shrub prototype 1 twigs",
+    "GV3 shrub 259 GV3 shrub prototype 4 foliage",
+    "GV3 shrub 259 GV3 shrub prototype 4 twigs",
+    "GV3 shrub 260 GV3 shrub prototype 0 foliage",
+    "GV3 shrub 260 GV3 shrub prototype 0 twigs",
+    "GV3 shrub 261 GV3 shrub prototype 4 foliage",
+    "GV3 shrub 261 GV3 shrub prototype 4 twigs",
+    "V6 East mature 09 leaves",
+    "V6 East mature 10 leaves",
+    "V6 East mature 11 leaves",
+    "V6 East mature 12 leaves",
+    "V6 East mature 16 leaves",
+    "V6 East mature 17 leaves",
+    "V6 East ring-seat mature tree leaves",
+    "V6 East spreading 00 leaves",
+    "V6 East spreading 01 leaves",
+    "V6 East spreading 02 leaves",
+    "V6 East spreading 03 leaves",
+    "V6 East spreading 04 leaves",
+    "V6 Garden backdrop 00 leaves",
+    "V6 Garden backdrop 01 leaves",
+    "V6 Garden backdrop 02 leaves",
+    "V6 Garden backdrop 03 leaves",
+    "V6 Garden backdrop 05 leaves",
+    "V6 West mature 00 leaves",
+    "V6 West mature 01 leaves",
+    "V6 West mature 02 leaves",
+    "V6 West mature 03 leaves",
+    "V6 West mature 04 leaves",
+    "V6 West mature 05 leaves",
+    "V6 West mature 06 leaves",
+    "V6 West mature 07 leaves",
+    "V6 West mature 08 leaves",
+    "V6 West mature 13 leaves",
+    "V6 West mature 14 leaves",
+    "V6 West mature 15 leaves",
+    "V6 south avenue 00 leaves",
+    "V6 south avenue 01 leaves",
+    "V6 south avenue 02 leaves",
+    "V6 south avenue 03 leaves",
+    "V6 south avenue 04 leaves",
+    "V6 south avenue 05 leaves",
+    "V6 south avenue 06 leaves",
+    "V6 south avenue 07 leaves",
+    "V6 south avenue 08 leaves",
+    "V6 south avenue 09 leaves",
+    "V6 south avenue 10 leaves",
+    "V6 south avenue 11 leaves",
+    "V6 south avenue 12 leaves",
+    "V6 south avenue 13 leaves",
+    "V6 south avenue 14 leaves",
+    "V6 south avenue 15 leaves",
+    "V6 south conifer 01 needles",
+    "V6 south conifer 02 needles",
+    "V6 south conifer 04 needles",
+    "V6 south conifer 05 needles"
+  ],
+  "shared_shrub_meshes_edited_once": 12,
+  "root_reprojections": [
+    {
+      "group": "GV3 shrub 126",
+      "before": [
+        70.32378387451172,
+        36.56045150756836,
+        0.261474609375
+      ],
+      "after": [
+        70.32378387451172,
+        36.56045150756836,
+        0.23861096799373627
+      ],
+      "road_collision_repaired": false,
+      "horizontal_scale": 1.0
+    },
+    {
+      "group": "GV3 shrub 129",
+      "before": [
+        74.60514068603516,
+        38.04023742675781,
+        0.7975196838378906
+      ],
+      "after": [
+        74.60514068603516,
+        38.04023742675781,
+        0.7755200862884521
+      ],
+      "road_collision_repaired": false,
+      "horizontal_scale": 1.0
+    },
+    {
+      "group": "GV3 shrub 131",
+      "before": [
+        77.19866943359375,
+        38.56930923461914,
+        1.2704315185546875
+      ],
+      "after": [
+        77.19866943359375,
+        38.56930923461914,
+        1.2977559566497803
+      ],
+      "road_collision_repaired": false,
+      "horizontal_scale": 1.0
+    },
+    {
+      "group": "GV3 shrub 132",
+      "before": [
+        77.08560943603516,
+        40.9907112121582,
+        1.5699882507324219
+      ],
+      "after": [
+        77.77842712402344,
+        41.39071273803711,
+        1.7018353939056396
+      ],
+      "road_collision_repaired": true,
+      "horizontal_scale": 0.6
+    },
+    {
+      "group": "GV3 shrub 133",
+      "before": [
+        77.10821533203125,
+        44.90681457519531,
+        1.5750312805175781
+      ],
+      "after": [
+        77.10821533203125,
+        44.90681457519531,
+        1.5531423091888428
+      ],
+      "road_collision_repaired": false,
+      "horizontal_scale": 1.0
+    },
+    {
+      "group": "GV3 shrub 134",
+      "before": [
+        77.17552185058594,
+        56.99324417114258,
+        0.5435142517089844
+      ],
+      "after": [
+        77.17552185058594,
+        56.99324417114258,
+        0.5210855007171631
+      ],
+      "road_collision_repaired": false,
+      "horizontal_scale": 1.0
+    },
+    {
+      "group": "GV3 shrub 135",
+      "before": [
+        77.29935455322266,
+        58.45208740234375,
+        0.0265350341796875
+      ],
+      "after": [
+        77.29935455322266,
+        58.45208740234375,
+        0.008889892138540745
+      ],
+      "road_collision_repaired": false,
+      "horizontal_scale": 1.0
+    },
+    {
+      "group": "GV3 shrub 136",
+      "before": [
+        76.8431396484375,
+        67.44877624511719,
+        -0.005001068115234375
+      ],
+      "after": [
+        76.8431396484375,
+        67.44877624511719,
+        -0.0016749114729464054
+      ],
+      "road_collision_repaired": false,
+      "horizontal_scale": 1.0
+    },
+    {
+      "group": "GV3 shrub 137",
+      "before": [
+        77.11923217773438,
+        70.04801177978516,
+        -0.00499725341796875
+      ],
+      "after": [
+        77.11923217773438,
+        70.04801177978516,
+        -0.0015032500959932804
+      ],
+      "road_collision_repaired": false,
+      "horizontal_scale": 1.0
+    },
+    {
+      "group": "GV3 shrub 138",
+      "before": [
+        76.45443725585938,
+        72.0347900390625,
+        -0.004993438720703125
+      ],
+      "after": [
+        76.45443725585938,
+        72.0347900390625,
+        -0.001997253391891718
+      ],
+      "road_collision_repaired": false,
+      "horizontal_scale": 1.0
+    },
+    {
+      "group": "GV3 shrub 139",
+      "before": [
+        76.60807800292969,
+        73.9525375366211,
+        -0.005001068115234375
+      ],
+      "after": [
+        75.6888427734375,
+        73.0333023071289,
+        0.01592419482767582
+      ],
+      "road_collision_repaired": true,
+      "horizontal_scale": 0.6
+    },
+    {
+      "group": "GV3 shrub 144",
+      "before": [
+        79.70067596435547,
+        36.71200942993164,
+        0.20928192138671875
+      ],
+      "after": [
+        79.70067596435547,
+        36.71200942993164,
+        0.18760083615779877
+      ],
+      "road_collision_repaired": false,
+      "horizontal_scale": 1.0
+    },
+    {
+      "group": "GV3 shrub 145",
+      "before": [
+        79.51068115234375,
+        38.23123550415039,
+        0.7548484802246094
+      ],
+      "after": [
+        79.51068115234375,
+        38.23123550415039,
+        0.7731702327728271
+      ],
+      "road_collision_repaired": false,
+      "horizontal_scale": 1.0
+    },
+    {
+      "group": "GV3 shrub 146",
+      "before": [
+        78.87395477294922,
+        40.64374923706055,
+        1.617034912109375
+      ],
+      "after": [
+        78.87395477294922,
+        40.64374923706055,
+        1.62973952293396
+      ],
+      "road_collision_repaired": false,
+      "horizontal_scale": 1.0
+    },
+    {
+      "group": "GV3 shrub 147",
+      "before": [
+        79.7139663696289,
+        56.13557434082031,
+        0.9821586608886719
+      ],
+      "after": [
+        79.7139663696289,
+        56.13557434082031,
+        -0.001997253391891718
+      ],
+      "road_collision_repaired": false,
+      "horizontal_scale": 1.0
+    },
+    {
+      "group": "GV3 shrub 148",
+      "before": [
+        79.57469940185547,
+        58.24143981933594,
+        0.07504653930664062
+      ],
+      "after": [
+        79.57469940185547,
+        58.24143981933594,
+        -0.0019991607405245304
+      ],
+      "road_collision_repaired": false,
+      "horizontal_scale": 1.0
+    },
+    {
+      "group": "GV3 shrub 149",
+      "before": [
+        79.2501449584961,
+        61.238277435302734,
+        -0.005001068115234375
+      ],
+      "after": [
+        79.2501449584961,
+        61.238277435302734,
+        0.04150555282831192
+      ],
+      "road_collision_repaired": false,
+      "horizontal_scale": 1.0
+    },
+    {
+      "group": "GV3 shrub 150",
+      "before": [
+        79.76092529296875,
+        70.1712646484375,
+        0.04351806640625
+      ],
+      "after": [
+        79.76092529296875,
+        70.1712646484375,
+        0.01716778613626957
+      ],
+      "road_collision_repaired": false,
+      "horizontal_scale": 1.0
+    },
+    {
+      "group": "GV3 shrub 151",
+      "before": [
+        78.84330749511719,
+        72.57949829101562,
+        -0.005001068115234375
+      ],
+      "after": [
+        78.84330749511719,
+        72.57949829101562,
+        0.04715702682733536
+      ],
+      "road_collision_repaired": false,
+      "horizontal_scale": 1.0
+    },
+    {
+      "group": "GV3 shrub 156",
+      "before": [
+        81.31072998046875,
+        38.82246017456055,
+        0.17587661743164062
+      ],
+      "after": [
+        81.31072998046875,
+        38.82246017456055,
+        0.15510152280330658
+      ],
+      "road_collision_repaired": false,
+      "horizontal_scale": 1.0
+    },
+    {
+      "group": "GV3 shrub 157",
+      "before": [
+        81.18768310546875,
+        56.990882873535156,
+        0.4755287170410156
+      ],
+      "after": [
+        81.18768310546875,
+        56.990882873535156,
+        -0.001997253391891718
+      ],
+      "road_collision_repaired": false,
+      "horizontal_scale": 1.0
+    },
+    {
+      "group": "GV3 shrub 158",
+      "before": [
+        81.63545227050781,
+        58.60057067871094,
+        -0.004886627197265625
+      ],
+      "after": [
+        81.63545227050781,
+        58.60057067871094,
+        -0.001997253391891718
+      ],
+      "road_collision_repaired": false,
+      "horizontal_scale": 1.0
+    },
+    {
+      "group": "GV3 shrub 159",
+      "before": [
+        81.40885925292969,
+        62.89944076538086,
+        -0.00499725341796875
+      ],
+      "after": [
+        81.40885925292969,
+        62.89944076538086,
+        0.13121961057186127
+      ],
+      "road_collision_repaired": false,
+      "horizontal_scale": 1.0
+    },
+    {
+      "group": "GV3 shrub 162",
+      "before": [
+        85.98703002929688,
+        70.37916564941406,
+        0.058135986328125
+      ],
+      "after": [
+        85.98703002929688,
+        70.37916564941406,
+        -0.001997253391891718
+      ],
+      "road_collision_repaired": false,
+      "horizontal_scale": 1.0
+    },
+    {
+      "group": "GV3 shrub 163",
+      "before": [
+        85.74087524414062,
+        71.85627746582031,
+        -0.00499725341796875
+      ],
+      "after": [
+        85.74087524414062,
+        71.85627746582031,
+        -0.001997253391891718
+      ],
+      "road_collision_repaired": false,
+      "horizontal_scale": 1.0
+    },
+    {
+      "group": "GV3 shrub 164",
+      "before": [
+        86.46514129638672,
+        74.81257629394531,
+        -0.005001068115234375
+      ],
+      "after": [
+        86.46514129638672,
+        74.81257629394531,
+        -0.001997253391891718
+      ],
+      "road_collision_repaired": false,
+      "horizontal_scale": 1.0
+    },
+    {
+      "group": "GV3 shrub 165",
+      "before": [
+        86.42628479003906,
+        76.68680572509766,
+        -0.005001068115234375
+      ],
+      "after": [
+        86.42628479003906,
+        76.68680572509766,
+        -0.001997253391891718
+      ],
+      "road_collision_repaired": false,
+      "horizontal_scale": 1.0
+    },
+    {
+      "group": "GV3 shrub 167",
+      "before": [
+        88.2706298828125,
+        70.32718658447266,
+        -0.005001068115234375
+      ],
+      "after": [
+        88.2706298828125,
+        70.32718658447266,
+        -0.001997253391891718
+      ],
+      "road_collision_repaired": false,
+      "horizontal_scale": 1.0
+    },
+    {
+      "group": "GV3 shrub 168",
+      "before": [
+        88.47441864013672,
+        71.88345336914062,
+        -0.005001068115234375
+      ],
+      "after": [
+        88.47441864013672,
+        71.88345336914062,
+        -0.001997253391891718
+      ],
+      "road_collision_repaired": false,
+      "horizontal_scale": 1.0
+    },
+    {
+      "group": "GV3 shrub 169",
+      "before": [
+        88.72105407714844,
+        74.32269287109375,
+        -0.00499725341796875
+      ],
+      "after": [
+        88.72105407714844,
+        74.32269287109375,
+        -0.001997253391891718
+      ],
+      "road_collision_repaired": false,
+      "horizontal_scale": 1.0
+    },
+    {
+      "group": "GV3 shrub 170",
+      "before": [
+        87.9623031616211,
+        76.27195739746094,
+        -0.005001068115234375
+      ],
+      "after": [
+        87.9623031616211,
+        76.27195739746094,
+        -0.001997253391891718
+      ],
+      "road_collision_repaired": false,
+      "horizontal_scale": 1.0
+    },
+    {
+      "group": "GV3 shrub 173",
+      "before": [
+        90.60307312011719,
+        70.46712493896484,
+        -0.005001068115234375
+      ],
+      "after": [
+        90.60307312011719,
+        70.46712493896484,
+        -0.001997253391891718
+      ],
+      "road_collision_repaired": false,
+      "horizontal_scale": 1.0
+    },
+    {
+      "group": "GV3 shrub 174",
+      "before": [
+        90.7575454711914,
+        71.86339569091797,
+        -0.005001068115234375
+      ],
+      "after": [
+        90.7575454711914,
+        71.86339569091797,
+        -0.002001068089157343
+      ],
+      "road_collision_repaired": false,
+      "horizontal_scale": 1.0
+    },
+    {
+      "group": "GV3 shrub 175",
+      "before": [
+        90.30718994140625,
+        74.22032165527344,
+        -0.005001068115234375
+      ],
+      "after": [
+        90.30718994140625,
+        74.22032165527344,
+        -0.001997253391891718
+      ],
+      "road_collision_repaired": false,
+      "horizontal_scale": 1.0
+    },
+    {
+      "group": "GV3 shrub 176",
+      "before": [
+        90.12550354003906,
+        76.35862731933594,
+        -0.005001068115234375
+      ],
+      "after": [
+        90.12550354003906,
+        76.35862731933594,
+        -0.001997253391891718
+      ],
+      "road_collision_repaired": false,
+      "horizontal_scale": 1.0
+    },
+    {
+      "group": "GV3 shrub 195",
+      "before": [
+        77.5999984741211,
+        44.900001525878906,
+        1.6692008972167969
+      ],
+      "after": [
+        77.5999984741211,
+        44.900001525878906,
+        1.646747350692749
+      ],
+      "road_collision_repaired": false,
+      "horizontal_scale": 1.0
+    },
+    {
+      "group": "GV3 shrub 196",
+      "before": [
+        76.19999694824219,
+        42.29999923706055,
+        1.3651275634765625
+      ],
+      "after": [
+        76.19999694824219,
+        42.29999923706055,
+        1.3647305965423584
+      ],
+      "road_collision_repaired": false,
+      "horizontal_scale": 1.0
+    },
+    {
+      "group": "GV3 shrub 197",
+      "before": [
+        78.0,
+        50.400001525878906,
+        1.7158432006835938
+      ],
+      "after": [
+        78.0,
+        50.400001525878906,
+        1.6913621425628662
+      ],
+      "road_collision_repaired": false,
+      "horizontal_scale": 1.0
+    },
+    {
+      "group": "GV3 shrub 198",
+      "before": [
+        68.5999984741211,
+        42.70000076293945,
+        0.5650749206542969
+      ],
+      "after": [
+        68.5999984741211,
+        42.70000076293945,
+        0.5432813167572021
+      ],
+      "road_collision_repaired": false,
+      "horizontal_scale": 1.0
+    },
+    {
+      "group": "GV3 shrub 255",
+      "before": [
+        81.30211639404297,
+        68.0,
+        0.13622283935546875
+      ],
+      "after": [
+        81.30211639404297,
+        68.0,
+        0.07748005539178848
+      ],
+      "road_collision_repaired": false,
+      "horizontal_scale": 1.0
+    },
+    {
+      "group": "GV3 shrub 256",
+      "before": [
+        79.30211639404297,
+        73.0,
+        -0.005001068115234375
+      ],
+      "after": [
+        78.17628479003906,
+        72.3499984741211,
+        0.02680371142923832
+      ],
+      "road_collision_repaired": true,
+      "horizontal_scale": 0.6
+    },
+    {
+      "group": "GV3 shrub 258",
+      "before": [
+        71.30211639404297,
+        36.0,
+        0.10238265991210938
+      ],
+      "after": [
+        71.30211639404297,
+        36.0,
+        0.07958386093378067
+      ],
+      "road_collision_repaired": false,
+      "horizontal_scale": 1.0
+    },
+    {
+      "group": "GV3 shrub 261",
+      "before": [
+        78.30211639404297,
+        70.0,
+        -0.005001068115234375
+      ],
+      "after": [
+        78.30211639404297,
+        70.0,
+        0.005262115504592657
+      ],
+      "road_collision_repaired": false,
+      "horizontal_scale": 1.0
+    }
+  ],
+  "blossom_color_changes": [
+    "BENTRY east outer red flowers",
+    "BENTRY east inner red flowers",
+    "BENTRY west outer red flowers",
+    "BENTRY west inner red flowers"
+  ],
+  "confidence": "Photo-supported crown fullness and asymmetric clumps; precise tree/shrub positions and terrain levels inferred"
+}

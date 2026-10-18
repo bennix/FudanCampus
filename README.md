@@ -68,9 +68,24 @@ npm run dev -- --host 127.0.0.1 --port 5173
 
 按用户照片建立红砖墙、白色平檐、砖柱、红色校名、白色花格及打开的黑色铁门；暂放置于地图 65 号正门位置。校名使用字体近似表达，并非原题字描摹。网页可切换「复旦校门」近景和校门实景对照。造型脚本：`scripts/gate_geometry.py`；渲染：`output/fudan_gate_detail.png`。
 
+## 北区体育馆、北区食堂与仓库（3 / 5 / 7）
+
+三栋位于北区公共分区 `03`，地图 footprint 与标签编号不变。造型数据在 `scripts/north_buildings_specs.json`，Blender 完整重建时由 `scripts/north_buildings_common.py` 生成；无照片处按典型校园体育馆、食堂与仓储库房推断立面。
+
+在无 Blender 时可从仓库根目录生成／更新 GLB 与清单：
+
+```powershell
+powershell -ExecutionPolicy Bypass -File scripts/generate_north_modules.ps1
+powershell -ExecutionPolicy Bypass -File scripts/strip_modular_from_shared.ps1
+```
+
+（macOS / Linux 可用 `python3 scripts/generate_north_modules.py`。）生成后请运行 `scripts/strip_modular_from_shared.ps1`，从 `models/shared/03.glb` 去掉对应简易体块，避免与分栋模型重叠。有 Blender 4.4 时仍建议 `RENDER_VIEWS=none blender -b --python scripts/build_campus.py` 做正式导出并写入 `assets/buildings/<编号>.blend`。
+
 ## 多人协作：分栋模型
 
-网页读取 `web/public/campus-manifest.json`，首屏加载 6 个公共／分区 GLB 和 8 个简化建筑模型，距建筑 240 米内加载完整单体。完整单体加载成功后替换简化模型；失败时保留简化模型。标签沿用原建筑编号。正门朝外仍为正南。
+网页读取 `web/public/campus-manifest.json`。原八栋地标的远景网格曾因 2.5% 全局减面而缺墙、碎裂，现首屏直接复用完整单体，不再二次加载同一文件；寒冰馆保留独立验收的远景模型，240 米内加载完整单体。标签沿用原建筑编号。正门朝外仍为正南。
+
+光华楼前庭当前使用独立交付模型。东花园采光顶前的大树依实拍重建低分叉、横向粗枝及枝梢粉白花簇，保留冠层透空；爱心雕塑完整移至蓝色椅背后，网页间距约 7.7 厘米。可用 `?view=cherry` 或 `?view=heart` 直达预览。当前可编辑源为 [春樱场景](field-review/guanghua-spring-v1/guanghua-spring-branch-led-v2.blend)，目标与保护说明见 [修正记录](field-review/guanghua-spring-v1/edit-contract.md)。
 
 | 编号 | 建筑 | 独立造型脚本 |
 |---|---|---|
@@ -78,12 +93,16 @@ npm run dev -- --host 127.0.0.1 --port 5173
 | 16 | 逸夫楼 | `scripts/yifu_geometry.py` |
 | 20 | 恒隆物理楼 | `scripts/physics_geometry.py` |
 | 27 | 光华楼 | `scripts/guanghua_geometry.py` |
+| 42 | 寒冰馆（本地 v14） | `web/integrate-hanbing.mjs`，从受保护成品派生 |
 | 51 | 综合办公楼 | `scripts/office_geometry.py` |
 | 55 | 化学楼 | `scripts/chemistry_geometry.py` |
 | 56 | 理科图书馆 | `scripts/library_geometry.py` |
 | 65 | 复旦正门 | `scripts/gate_geometry.py` |
+| 3 | 北区体育馆 | `scripts/north_buildings_common.py`（规格 `north_buildings_specs.json`） |
+| 5 | 北区食堂 | 同上 |
+| 7 | 仓库 | 同上 |
 
-每栋可编辑文件是 `assets/buildings/<编号>.blend`，完整 GLB 是 `web/public/models/buildings/<编号>.glb`，简化模型是 `web/public/models/overview/<编号>.glb`。模型使用本地坐标，朝向已烘焙；清单中的 `position` 将其放回校园，`rotation` 为零，不要再次应用地图角度。公共地形、道路、树木和普通楼栋按区域保存在 `web/public/models/shared/`。
+原有八栋的可编辑文件是 `assets/buildings/<编号>.blend`，完整 GLB 是 `web/public/models/buildings/<编号>.glb`，简化模型是 `web/public/models/overview/<编号>.glb`。42 号的可编辑源保留在 `field-review/hanbing-2026-09-20/hanbing-side-swap-v14/FudanCampus-campus-hanbing-v14.blend`，该文件包含校园上下文，不可当作局部坐标单体直接运行通用导出。模型使用本地坐标，朝向已烘焙；清单中的 `position` 将其放回校园，`rotation` 为零，不要再次应用地图角度。公共地形、道路、树木和普通楼栋按区域保存在 `web/public/models/shared/`。
 
 协作者可直接编辑并保存自己的单栋 Blender 文件，然后只导出这一栋，例如：
 
@@ -93,19 +112,19 @@ npm run dev -- --host 127.0.0.1 --port 5173
 
 提交该栋 `.blend`、完整／简化 GLB 与清单里该编号的变化即可。清单的内容哈希用于缓存更新；GLB 二进制不做文本合并，同一栋建筑尽量指定一位负责人。标签与实景图片仍在现有网页逻辑中维护。
 
-程序化建模者可以修改对应造型脚本，再运行完整重建：
+完整重建仅适用于尚无已完成单体的独立暂存副本：
 
 ```sh
 RENDER_VIEWS=none /Applications/Blender.app/Contents/MacOS/Blender -b -t 8 --python scripts/build_campus.py
 ```
 
-**完整重建会重新生成八栋 `.blend`、所有模块和清单，覆盖手工编辑的单栋文件。** 合并手工造型前不要运行完整重建；需先决定以脚本还是手工 `.blend` 为该栋的造型来源。`output/FudanCampus.blend` 是完整重建的组合场景；单栋导出不会同步修改它。原 `campus.glb` 保留为历史兼容文件，网页不再请求它；仅设置 `EXPORT_LEGACY=1` 完整重建时才更新。
+**当前仓库禁止全量重建覆盖已完成单体。** `build_campus.py` 在清空 Blender 场景前检查，`export_modular.py` 在写文件前检查：发现已有单体或受保护建筑即中止全量导出。不要删除保护配置或已有模型来绕过检查；确需全量重建，应使用独立暂存仓库，之后逐栋审核。非保护编号仍可用 `--building ID` 单独导出。`output/FudanCampus.blend` 是远程原组合场景；本次单栋接入不修改它。原 `campus.glb` 保留为历史兼容文件，网页不再请求它。
 
 验证：`python3 scripts/validate_modular.py`、`node web/validate-models.mjs`，以及在 `web/` 下运行 `npx tsc --noEmit` 和 `npm run build:pages`。
 
 ## 浏览器分级显示（LOD）
 
-桌面与移动浏览器统一使用远、中、近三档模型。首屏仅加载 15 个轻量总览资源（约 2.51 MB、40,280 个三角面）；靠近后按距离和面数预算加载细节，远离时恢复总览并释放细节几何、材质与贴图。切换边界保留 25% 缓冲区，快速跳转取消过期请求；失败保留现有模型并延迟重试。
+桌面与移动浏览器统一使用远、中、近三档模型。首屏仅加载 20 个轻量总览资源（约 2.61 MB、66,969 个三角面）；靠近后按距离、覆盖范围和面数预算加载细节，远离时恢复总览并释放细节几何、材质与贴图。切换边界保留 25% 缓冲区，快速跳转取消过期请求；失败保留现有模型并延迟重试。
 
 自动适配根据粗指针和 CPU 核数选择省电档，也可手动选择省电或高画质。省电档总可见几何预算 22 万三角面、单个细节不超过 10 万面、最多 3 个细节和 1 个并发请求，像素比最高 1.25、30 FPS 上限、关闭阴影。桌面高画质预算 200 万面、最多 6 个细节和 2 个并发请求，60 FPS 上限、2048 阴影。静止时不重复渲染，后台标签页暂停渲染。预算不包含升级过程中短暂共存的旧模型和解析缓冲；这不是实际手机帧率保证。
 
@@ -120,3 +139,19 @@ cd web && npm run test:lod && npm run build:pages
 ```
 
 运行时清单：`web/public/campus-lod.json`；源模型清单仍为 `campus-manifest.json`。原始精度资源保留，LOD 是可重复生成的派生资源。
+### 本地寒冰馆 v14 的保护和接入
+
+`assets/protected-buildings.json` 记录本地提交 `2cdda07` 的 11 个已验收文件及 SHA-256（二进制逐字节校验，列入 `textFiles` 的文本统一换行为 LF 后校验，兼容 Windows Git 换行转换）。原始 `.blend`、两个 GLB、独立展示入口和参考信息保持原样。构建前检查这些文件，一旦变化即报错，不能通过更新哈希来掩盖非预期覆盖。此保护针对导出与构建，不代替 Git 合并时的人工审核。
+
+在 `web/` 下运行 `npm ci` 后，使用 `npm run integrate:hanbing` 可重复生成接入产物：
+
+- `models/buildings/42.glb`：原模型增加逆平移父节点，二进制几何和贴图保持完全相同；清单恢复其校园位置。
+- `models/overview/42.glb`：仅远景使用简化几何和材质颜色，约 3.3 MB；240 米内切换到完整贴图模型。
+- `models/shared/01-hanbing-v14.glb`：从远程 `01.glb` 派生，移除旧 42 号主体、独立屋顶，以及按材质合批、没有编号的旧窗框/玻璃/台阶/屋顶细节，共 1,056 个细节三角面。其他建筑的顶点和面保留；原 `01.glb` 不变。
+- `models/shared/00-hanbing-v14.glb`：从远程 `00.glb` 派生，仅用本地 v14 已修整的两段道路替换穿楼路段，并恢复入口铺地。铺地沿原范围和高度重采样为连续网格，消除折叠、重叠面，地形接触处保留 15mm 间距防止闪烁；原 `00.glb` 不变。
+
+脚本拒绝覆盖与清单哈希不符的已有接入产物。清单最后写入；其他八栋、另外四个公共模型和本地旧独立展示页不受影响。主页面增加「寒冰馆」视角，标签高度使用新建筑的包围盒。照片未确认的几何继续沿用原 `inferred` 元数据。`web/validate-hanbing-context.mjs` 额外验证非目标几何不变、旧细节清除、道路不穿入建筑以及铺地无折叠和内部裂缝。
+
+验证：`python3 scripts/validate_modular.py`、`python3 scripts/validate_hanbing_integration.py`、`node web/validate-models.mjs`，以及在 `web/` 下运行 `npx tsc --noEmit` 和 `npm run build:pages`。Pages 构建自动先校验原文件哈希及九栋模型。已有 `hanbing-final.ts` 在全项目类型检查中存在类型错误，需与此次主校园入口的检查结果区分；原文件未作修改。
+
+光华楼约 149 MB 的原始分片资源保留为源文件，运行时改用独立档位（约 1.31 / 4.50 / 37.16 MB），保留材质贴图和重复植被 GPU 实例化。`build_lods.py` 会自动调用 `web/build-landscape-lods.mjs` 与 `web/pack-lods.mjs`，需先在 `web` 安装依赖。原始寒冰馆受保护文件与光华楼源资产不变。主入口类型检查使用 `web/tsconfig.campus.json`；历史独立寒冰馆入口原有类型错误不在本次修改范围。

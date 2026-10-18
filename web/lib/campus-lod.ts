@@ -1,7 +1,8 @@
 import * as THREE from 'three';
 import {GLTFLoader} from 'three/addons/loaders/GLTFLoader.js';
+import {MeshoptDecoder} from 'three/addons/libs/meshopt_decoder.module.js';
 import {allocateTiers,type Tier} from './lod-policy';
-export type LodAsset={id:string;name:string;position:[number,number,number];rotation:[number,number,number];bounds:{min:[number,number,number];max:[number,number,number]};nearDistance:number;mediumDistance:number;tiers:{url:string;revision:string;bytes:number;triangles:number}[]};
+export type LodAsset={id:string;name:string;labelPosition?:[number,number,number];position:[number,number,number];rotation:[number,number,number];bounds:{min:[number,number,number];max:[number,number,number]};nearDistance:number;mediumDistance:number;tiers:{url:string;revision:string;bytes:number;triangles:number}[]};
 export type LodManifest={version:number;assets:LodAsset[]};
 export function disposeGroup(group:THREE.Object3D){
  const geometries=new Set<THREE.BufferGeometry>(),materials=new Set<THREE.Material>(),textures=new Set<THREE.Texture>();
@@ -9,7 +10,7 @@ export function disposeGroup(group:THREE.Object3D){
  geometries.forEach(g=>g.dispose());textures.forEach(t=>t.dispose());materials.forEach(m=>m.dispose());
 }
 export class CampusLod {
- private loader=new GLTFLoader();
+ private loader=new GLTFLoader().setMeshoptDecoder(MeshoptDecoder);
  private stopped=false;
  private active=0;
  private entries:{asset:LodAsset;box:THREE.Box3;far:THREE.Group;detail?:THREE.Group;current:Tier;wanted:Tier;request?:AbortController;retryAt:number;failures:number}[]=[];
@@ -21,7 +22,7 @@ export class CampusLod {
   const data=await response.arrayBuffer();if(signal.aborted)throw new DOMException('Aborted','AbortError');
   const gltf=await this.loader.parseAsync(data,new URL('.',url).href);const g=gltf.scene;
   if(this.stopped||signal.aborted){disposeGroup(g);throw new DOMException('Aborted','AbortError');}
-  g.position.fromArray(asset.position);g.rotation.fromArray(asset.rotation);this.prepare(g);return g;
+  g.userData.lodAssetId=asset.id;g.position.fromArray(asset.position);g.rotation.fromArray(asset.rotation);this.prepare(g);return g;
  }
  async initialize(manifest:LodManifest){
   const queue=[...manifest.assets];

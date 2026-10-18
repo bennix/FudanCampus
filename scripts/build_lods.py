@@ -14,6 +14,7 @@ def build_lods(only=None):
     for category in ['shared','buildings']:
         for asset in source[category]:
             key=category+'-'+asset['id']
+            if asset['id']=='guanghua-landscape':continue
             if only and key!=only:continue
             bpy.ops.object.select_all(action='SELECT');bpy.ops.object.delete(use_global=False)
             bpy.ops.import_scene.gltf(filepath=str(PUBLIC/asset['url']))
@@ -39,7 +40,7 @@ def build_lods(only=None):
                 triangles=sum(gltf['accessors'][p['indices']]['count']//3 for m in gltf.get('meshes',[]) for p in m['primitives'] if 'indices' in p)
                 tiers.append({'url':str(path.relative_to(PUBLIC)),'revision':hashlib.sha256(data).hexdigest()[:12],'bytes':len(data),'triangles':triangles})
             result['assets']=[a for a in result['assets'] if a['id']!=key]
-            result['assets'].append({'id':key,'name':asset['name'],'sourceRevision':asset['revision'],'position':position,'rotation':asset.get('rotation',[0,0,0]),'bounds':bounds,'nearDistance':0 if key=='shared-00' else 35 if asset['id']=='58' else 100,'mediumDistance':0 if key=='shared-00' else 140 if asset['id']=='58' else 340,'tiers':tiers})
+            result['assets'].append({'id':key,'name':asset['name'],'sourceRevision':asset['revision'],'labelPosition':asset.get('labelPosition'),'position':position,'rotation':asset.get('rotation',[0,0,0]),'bounds':bounds,'nearDistance':0 if key=='shared-00' else 35 if asset['id']=='58' else 100,'mediumDistance':0 if key=='shared-00' else 140 if asset['id']=='58' else 340,'tiers':tiers})
             print('LOD_ASSET',key,[(t['bytes'],t['triangles']) for t in tiers],flush=True)
     output.write_text(json.dumps(result,ensure_ascii=False,indent=2)+'\n')
     print('LOD_COMPLETE',len(result['assets']),sum(a['tiers'][0]['bytes'] for a in result['assets']),flush=True)
@@ -47,3 +48,9 @@ def build_lods(only=None):
 if __name__=='__main__':
     args=sys.argv[sys.argv.index('--')+1:] if '--' in sys.argv else []
     build_lods(args[0] if args else None)
+    if not args or args[0]=='shared-guanghua-landscape':
+        import subprocess
+        subprocess.run(['node',str(ROOT/'web/build-landscape-lods.mjs')],check=True)
+
+    import subprocess
+    subprocess.run(['node',str(ROOT/'web/pack-lods.mjs'),*args],check=True)

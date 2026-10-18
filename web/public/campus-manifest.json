@@ -5,16 +5,16 @@
     {
       "id": "00",
       "name": "00 Terrain and roads",
-      "url": "models/shared/00.glb",
-      "revision": "a04df4d240cf",
-      "bytes": 182848
+      "url": "models/shared/00-guanghua-merged.glb",
+      "revision": "3e1fd09514ba",
+      "bytes": 3431968
     },
     {
       "id": "01",
       "name": "01 Historic courtyards",
-      "url": "models/shared/01.glb",
-      "revision": "de995099bca1",
-      "bytes": 2271144
+      "url": "models/shared/01-hanbing-v14.glb",
+      "revision": "f0ebd998b524",
+      "bytes": 2492436
     },
     {
       "id": "02",
@@ -40,19 +40,153 @@
     {
       "id": "05",
       "name": "05 Landscape",
-      "url": "models/shared/05.glb",
-      "revision": "fa3be380e707",
-      "bytes": 4609656
+      "url": "models/shared/05-guanghua-closeout.glb",
+      "revision": "39c56a008f4e",
+      "bytes": 4803248
+    },
+    {
+      "id": "guanghua-landscape",
+      "name": "Guanghua branch-led spring cherry and corrected heart chair",
+      "url": "models/landscape/guanghua-spring-volume-v4.glb.parts.json",
+      "revision": "588b6b5b8370",
+      "bytes": 149252900,
+      "closeoutReport": "field-review/guanghua-spring-v1/volume-v4-integration.json"
     },
     {
       "id": "58",
       "name": "毛主席像",
       "url": "models/shared/58.glb",
       "bytes": 8947332,
-      "revision": "8f49e6afda91"
+      "revision": "8f49e6afda91",
+      "sourceModel": "https://sketchfab.com/3d-models/ef18c25e1e094cf99e2b377ad7377d05",
+      "author": "1821427398",
+      "license": "CC BY 4.0"
     }
   ],
   "buildings": [
+    {
+      "id": "3",
+      "name": "北区体育馆",
+      "url": "models/buildings/3.glb",
+      "revision": "e3cce82d50b8",
+      "bytes": 60580,
+      "overview": {
+        "url": "models/overview/3.glb",
+        "revision": "60963d53e0bf",
+        "bytes": 16468
+      },
+      "position": [
+        -460.8,
+        0,
+        -509.6
+      ],
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "orientationBaked": true,
+      "bounds": {
+        "min": [
+          -20.08000488281249,
+          0,
+          -34.07999267578123
+        ],
+        "max": [
+          20.079998779296886,
+          15.149999618530273,
+          24.300012207031273
+        ]
+      },
+      "labelPosition": [
+        -460.8,
+        11.5,
+        -509.6
+      ],
+      "loadDistance": 240
+    },
+    {
+      "id": "5",
+      "name": "北区食堂",
+      "url": "models/buildings/5.glb",
+      "revision": "799648b03a15",
+      "bytes": 118684,
+      "overview": {
+        "url": "models/overview/5.glb",
+        "revision": "03df7518bb63",
+        "bytes": 22436
+      },
+      "position": [
+        -351.20000000000005,
+        0,
+        -514.4
+      ],
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "orientationBaked": true,
+      "bounds": {
+        "min": [
+          -24.90800170898433,
+          0.10000000149011612,
+          -18.800012207031273
+        ],
+        "max": [
+          24.908007812500045,
+          16.075000762939453,
+          27.880010986328102
+        ]
+      },
+      "labelPosition": [
+        -351.20000000000005,
+        11.5,
+        -514.4
+      ],
+      "loadDistance": 240
+    },
+    {
+      "id": "7",
+      "name": "仓库",
+      "url": "models/buildings/7.glb",
+      "revision": "832b487d4596",
+      "bytes": 23104,
+      "overview": {
+        "url": "models/overview/7.glb",
+        "revision": "d1fd65fcdedc",
+        "bytes": 7696
+      },
+      "position": [
+        -364.8,
+        0,
+        -272
+      ],
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "orientationBaked": true,
+      "bounds": {
+        "min": [
+          -12.400012207031239,
+          0,
+          -12.399993896484375
+        ],
+        "max": [
+          12.400006103515636,
+          11.729999542236328,
+          12.399993896484375
+        ]
+      },
+      "labelPosition": [
+        -364.8,
+        11.5,
+        -272
+      ],
+      "loadDistance": 240
+    },
     {
       "id": "14",
       "name": "逸夫科技楼",
@@ -60,12 +194,12 @@
       "revision": "0b6bffa0e4fa",
       "bytes": 256728,
       "overview": {
-        "url": "models/overview/14.glb",
-        "revision": "e21fbbdbbaa4",
-        "bytes": 38668
+        "url": "models/buildings/14.glb",
+        "revision": "0b6bffa0e4fa",
+        "bytes": 256728
       },
       "position": [
-        -208.0,
+        -208,
         0,
         -198.4
       ],
@@ -78,21 +212,22 @@
       "bounds": {
         "min": [
           -22.5,
-          0.0,
+          0,
           -10.299996948242182
         ],
         "max": [
-          24.0,
+          24,
           33.400001525878906,
           11.150000000000006
         ]
       },
       "labelPosition": [
-        -208.0,
+        -208,
         37.5,
         -198.4
       ],
-      "loadDistance": 240
+      "loadDistance": 240,
+      "overviewMode": "full"
     },
     {
       "id": "16",
@@ -101,12 +236,12 @@
       "revision": "31da9550a24f",
       "bytes": 1963724,
       "overview": {
-        "url": "models/overview/16.glb",
-        "revision": "8654747407ac",
-        "bytes": 129068
+        "url": "models/buildings/16.glb",
+        "revision": "31da9550a24f",
+        "bytes": 1963724
       },
       "position": [
-        -120.0,
+        -120,
         0,
         -255.20000000000002
       ],
@@ -119,7 +254,7 @@
       "bounds": {
         "min": [
           -15.003005981445312,
-          0.0,
+          0,
           -11.000012207031233
         ],
         "max": [
@@ -129,11 +264,12 @@
         ]
       },
       "labelPosition": [
-        -120.0,
+        -120,
         24.5,
         -255.20000000000002
       ],
-      "loadDistance": 240
+      "loadDistance": 240,
+      "overviewMode": "full"
     },
     {
       "id": "20",
@@ -142,12 +278,12 @@
       "revision": "0c39e38a472a",
       "bytes": 556192,
       "overview": {
-        "url": "models/overview/20.glb",
-        "revision": "82e746cb4271",
-        "bytes": 70992
+        "url": "models/buildings/20.glb",
+        "revision": "0c39e38a472a",
+        "bytes": 556192
       },
       "position": [
-        -40.0,
+        -40,
         0,
         -202.4
       ],
@@ -160,7 +296,7 @@
       "bounds": {
         "min": [
           -46.400001525878906,
-          0.0,
+          0,
           -7.249993896484369
         ],
         "max": [
@@ -170,22 +306,23 @@
         ]
       },
       "labelPosition": [
-        -40.0,
+        -40,
         21.25,
         -202.4
       ],
-      "loadDistance": 240
+      "loadDistance": 240,
+      "overviewMode": "full"
     },
     {
       "id": "27",
       "name": "光华楼",
-      "url": "models/buildings/27.glb",
-      "revision": "fca1d0c77446",
-      "bytes": 1235336,
+      "url": "models/buildings/27-closeout.glb",
+      "revision": "7729b2cea51e",
+      "bytes": 3178560,
       "overview": {
-        "url": "models/overview/27.glb",
-        "revision": "4a9e26f53650",
-        "bytes": 160380
+        "url": "models/buildings/27-closeout.glb",
+        "revision": "7729b2cea51e",
+        "bytes": 3178560
       },
       "position": [
         131.20000000000002,
@@ -200,14 +337,14 @@
       "orientationBaked": true,
       "bounds": {
         "min": [
-          -62.85000152587892,
-          0.0,
-          -16.0000030517578
+          -62.849992752075195,
+          0,
+          -16
         ],
         "max": [
-          62.850003051757795,
+          62.85000419616699,
           79.55000305175781,
-          29.329998779296886
+          20.049999237060547
         ]
       },
       "labelPosition": [
@@ -215,7 +352,52 @@
         81.6,
         -224.8
       ],
-      "loadDistance": 240
+      "loadDistance": 240,
+      "overviewMode": "full"
+    },
+    {
+      "id": "42",
+      "name": "寒冰馆（500号）",
+      "url": "models/buildings/42.glb",
+      "revision": "94ab3ba507e6",
+      "bytes": 22768852,
+      "overview": {
+        "url": "models/overview/42.glb",
+        "revision": "8d9f53a24348",
+        "bytes": 3306248
+      },
+      "position": [
+        -258.4,
+        0,
+        -176.8
+      ],
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "orientationBaked": true,
+      "bounds": {
+        "min": [
+          -19.65998802185061,
+          0,
+          -6.554002952575672
+        ],
+        "max": [
+          19.660000228881813,
+          12.957160949707031,
+          8.169981765747082
+        ]
+      },
+      "labelPosition": [
+        -258.4,
+        14.957160949707031,
+        -176.8
+      ],
+      "loadDistance": 240,
+      "source": "web/public/hanbing-final-v14/hanbing-only.glb",
+      "editableSource": "field-review/hanbing-2026-09-20/hanbing-side-swap-v14/FudanCampus-campus-hanbing-v14.blend",
+      "protected": true
     },
     {
       "id": "51",
@@ -224,9 +406,9 @@
       "revision": "e17cd179569f",
       "bytes": 670052,
       "overview": {
-        "url": "models/overview/51.glb",
-        "revision": "07b0721416d4",
-        "bytes": 45380
+        "url": "models/buildings/51.glb",
+        "revision": "e17cd179569f",
+        "bytes": 670052
       },
       "position": [
         -165.60000000000002,
@@ -242,7 +424,7 @@
       "bounds": {
         "min": [
           -21.000006103515602,
-          0.0,
+          0,
           -11.349996948242179
         ],
         "max": [
@@ -256,7 +438,8 @@
         21.25,
         -65.60000000000001
       ],
-      "loadDistance": 240
+      "loadDistance": 240,
+      "overviewMode": "full"
     },
     {
       "id": "55",
@@ -265,9 +448,9 @@
       "revision": "95a895241e1c",
       "bytes": 1007380,
       "overview": {
-        "url": "models/overview/55.glb",
-        "revision": "96f27adba8f5",
-        "bytes": 89660
+        "url": "models/buildings/55.glb",
+        "revision": "95a895241e1c",
+        "bytes": 1007380
       },
       "position": [
         -97.60000000000001,
@@ -283,7 +466,7 @@
       "bounds": {
         "min": [
           -32.79999389648437,
-          0.0,
+          0,
           -16.399996948242176
         ],
         "max": [
@@ -297,7 +480,8 @@
         21.25,
         -160.8
       ],
-      "loadDistance": 240
+      "loadDistance": 240,
+      "overviewMode": "full"
     },
     {
       "id": "56",
@@ -306,9 +490,9 @@
       "revision": "966a98308aa5",
       "bytes": 27602000,
       "overview": {
-        "url": "models/overview/56.glb",
-        "revision": "4733f99a4544",
-        "bytes": 3196104
+        "url": "models/buildings/56.glb",
+        "revision": "966a98308aa5",
+        "bytes": 27602000
       },
       "position": [
         -96.80000000000001,
@@ -324,7 +508,7 @@
       "bounds": {
         "min": [
           -32.0000030517578,
-          0.0,
+          0,
           -19.649996948242176
         ],
         "max": [
@@ -338,7 +522,8 @@
         21.25,
         -80.80000000000001
       ],
-      "loadDistance": 240
+      "loadDistance": 240,
+      "overviewMode": "full"
     },
     {
       "id": "65",
@@ -347,12 +532,12 @@
       "revision": "36581b572da4",
       "bytes": 2467960,
       "overview": {
-        "url": "models/overview/65.glb",
-        "revision": "61a257a14385",
-        "bytes": 271408
+        "url": "models/buildings/65.glb",
+        "revision": "36581b572da4",
+        "bytes": 2467960
       },
       "position": [
-        -40.0,
+        -40,
         0,
         -6.4
       ],
@@ -365,7 +550,7 @@
       "bounds": {
         "min": [
           -19.025001525878906,
-          0.0,
+          0,
           -2.9900003433227536
         ],
         "max": [
@@ -375,11 +560,12 @@
         ]
       },
       "labelPosition": [
-        -40.0,
+        -40,
         10,
         -2.4000000000000004
       ],
-      "loadDistance": 240
+      "loadDistance": 240,
+      "overviewMode": "full"
     }
   ]
 }

@@ -1,0 +1,28 @@
+{
+  "baseline_unchanged": true,
+  "checkpoint_reopened": true,
+  "west_urn_vertices_unchanged": true,
+  "changed_meshes": [
+    "FURNITURE__urn-plinth__concrete",
+    "FURNITURE__plinth-cap__pale",
+    "FURNITURE__geometry__pale",
+    "FURNITURE__urn-planting__hedge",
+    "FURNITURE__urn-flowers__flower",
+    "V2 leaves FURNITURE"
+  ],
+  "translation_x": -7.197882438088101,
+  "walk_axis": 65.3021175619119,
+  "centres": [
+    [
+      61.8021175619119,
+      89
+    ],
+    [
+      68.8021175619119,
+      89
+    ]
+  ],
+  "clear_width": 4.85,
+  "walk_width": 3.6,
+  "scope": "Only two east urns translated; no material or sculpture changes; no production export"
+}

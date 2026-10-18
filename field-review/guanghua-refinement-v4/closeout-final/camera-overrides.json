@@ -1,0 +1,97 @@
+{
+  "P5 approximate IMG_4464": {
+    "location": [
+      -51.0,
+      82.0,
+      1.8
+    ],
+    "target": [
+      -47.26661965972665,
+      109.52759766285399,
+      -1.7061714371798529
+    ],
+    "lens": 37.14249394104125,
+    "roll": 0.02339764331271189,
+    "primary_photo": 4464,
+    "anchors": [
+      {
+        "world": [
+          -53.6,
+          99.52,
+          0.915
+        ],
+        "photo_normalized": [
+          0.2012061403508772,
+          0.4027777777777778
+        ],
+        "model_normalized": [
+          0.2023969550012426,
+          0.38929182598762624
+        ]
+      },
+      {
+        "world": [
+          -46.0,
+          99.45,
+          0.915
+        ],
+        "photo_normalized": [
+          0.6524122807017544,
+          0.4057017543859649
+        ],
+        "model_normalized": [
+          0.6519351262974526,
+          0.39951313072810585
+        ]
+      },
+      {
+        "world": [
+          -53.6,
+          99.52,
+          0.035
+        ],
+        "photo_normalized": [
+          0.2012061403508772,
+          0.4466374269005848
+        ],
+        "model_normalized": [
+          0.20308237462835427,
+          0.46022754078316686
+        ]
+      },
+      {
+        "world": [
+          -46.0,
+          99.45,
+          0.035
+        ],
+        "photo_normalized": [
+          0.6524122807017544,
+          0.4605263157894737
+        ],
+        "model_normalized": [
+          0.6498392453459398,
+          0.46667308932095797
+        ]
+      }
+    ],
+    "maximum_anchor_axis_error": 0.013590113882582078,
+    "confidence": "Relative fit to four approximate visible plinth anchors; pose/scale inferred. Other facade anchors not certified."
+  },
+  "GV3 west platform photo 4390": {
+    "location": [
+      -69.5,
+      46,
+      2.85
+    ],
+    "target": [
+      -69.5,
+      67,
+      2.3
+    ],
+    "lens": 26,
+    "roll": 0,
+    "primary_photo": 4390,
+    "confidence": "Manual hardscape orientation: glass island on the right, north-facing view within the terrace. Camera position inferred; no metric correspondence claim."
+  }
+}

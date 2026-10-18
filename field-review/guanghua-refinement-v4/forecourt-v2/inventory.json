@@ -1,0 +1,502 @@
+[
+  {
+    "name": "EPATH__main-curve__pink-path",
+    "fid": "EPATH",
+    "bounds": [
+      [
+        66.17169189453125,
+        14.683454513549805,
+        0.02500000037252903
+      ],
+      [
+        99.919921875,
+        86.31462860107422,
+        0.0949999988079071
+      ]
+    ],
+    "materials": [
+      "pink-path"
+    ],
+    "hidden": false
+  },
+  {
+    "name": "EPATH__lawn-connection__pink-path",
+    "fid": "EPATH",
+    "bounds": [
+      [
+        66.04877471923828,
+        26.294082641601562,
+        0.026000000536441803
+      ],
+      [
+        78.0753402709961,
+        68.73860168457031,
+        0.0949999988079071
+      ]
+    ],
+    "materials": [
+      "pink-path"
+    ],
+    "hidden": false
+  },
+  {
+    "name": "EPATH__north-exit-path__pink-path",
+    "fid": "EPATH",
+    "bounds": [
+      [
+        81.6678695678711,
+        58.895233154296875,
+        -0.029999999329447746
+      ],
+      [
+        88.37818908691406,
+        70.85466003417969,
+        1.3300000429153442
+      ]
+    ],
+    "materials": [
+      "pink-path"
+    ],
+    "hidden": false
+  },
+  {
+    "name": "EPATH__north-exit-path-terrain__turf",
+    "fid": "EPATH",
+    "bounds": [
+      [
+        79.01751708984375,
+        58.73093032836914,
+        -0.03999999910593033
+      ],
+      [
+        91.07721710205078,
+        73.32488250732422,
+        1.315000057220459
+      ]
+    ],
+    "materials": [
+      "FIN_garden_grass"
+    ],
+    "hidden": false
+  },
+  {
+    "name": "EPATH__photo_shape_road",
+    "fid": "EPATH",
+    "bounds": [
+      [
+        67.10211944580078,
+        39.113460540771484,
+        -0.09000000357627869
+      ],
+      [
+        78.25211334228516,
+        48.70132064819336,
+        1.75
+      ]
+    ],
+    "materials": [
+      "pink-path"
+    ],
+    "hidden": false
+  },
+  {
+    "name": "EPATH__photo_shape_ground",
+    "fid": "EPATH",
+    "bounds": [
+      [
+        67.10211944580078,
+        35.0,
+        -0.09000000357627869
+      ],
+      [
+        88.80211639404297,
+        59.0,
+        1.725000023841858
+      ]
+    ],
+    "materials": [
+      "FIN_garden_grass"
+    ],
+    "hidden": false
+  },
+  {
+    "name": "EDGE_PATHS__grass-curb__FIN_stone_pale",
+    "fid": "EDGE_PATHS",
+    "bounds": [
+      [
+        -25.08998680114746,
+        15.713875770568848,
+        0.03999999910593033
+      ],
+      [
+        63.87654495239258,
+        78.3309326171875,
+        0.17000000178813934
+      ]
+    ],
+    "materials": [
+      "FIN_stone_pale"
+    ],
+    "hidden": false
+  },
+  {
+    "name": "EDGE_PATHS__edge-walk__FIN_pavers",
+    "fid": "EDGE_PATHS",
+    "bounds": [
+      [
+        -28.799999237060547,
+        14.0,
+        -0.019999999552965164
+      ],
+      [
+        67.10211944580078,
+        87.0,
+        0.04500000178813934
+      ]
+    ],
+    "materials": [
+      "FIN_pavers"
+    ],
+    "hidden": false
+  },
+  {
+    "name": "EDGE_PATHS__south-walk__FIN_pavers",
+    "fid": "EDGE_PATHS",
+    "bounds": [
+      [
+        -28.0,
+        11.90000057220459,
+        -0.019999999552965164
+      ],
+      [
+        67.30211639404297,
+        15.699999809265137,
+        0.05000000074505806
+      ]
+    ],
+    "materials": [
+      "FIN_pavers"
+    ],
+    "hidden": false
+  },
+  {
+    "name": "PLAZA__concave-forecourt__FIN_pavers",
+    "fid": "PLAZA",
+    "bounds": [
+      [
+        -80.0,
+        67.94995880126953,
+        -0.03500000014901161
+      ],
+      [
+        102.30211639404297,
+        113.0,
+        0.03500000014901161
+      ]
+    ],
+    "materials": [
+      "FIN_pavers"
+    ],
+    "hidden": false
+  },
+  {
+    "name": "EOPEN__side-wall__FIN_concrete",
+    "fid": "EOPEN",
+    "bounds": [
+      [
+        70.40211486816406,
+        75.75,
+        -1.4850000143051147
+      ],
+      [
+        74.20211791992188,
+        80.25,
+        0.16500000655651093
+      ]
+    ],
+    "materials": [
+      "FIN_concrete"
+    ],
+    "hidden": false
+  },
+  {
+    "name": "EOPEN__coping__FIN_stone_pale",
+    "fid": "EOPEN",
+    "bounds": [
+      [
+        70.35211944580078,
+        75.7249984741211,
+        0.1550000011920929
+      ],
+      [
+        74.25212097167969,
+        80.2750015258789,
+        0.24500000476837158
+      ]
+    ],
+    "materials": [
+      "FIN_stone_pale"
+    ],
+    "hidden": false
+  },
+  {
+    "name": "EOPEN__end-wall__FIN_concrete",
+    "fid": "EOPEN",
+    "bounds": [
+      [
+        70.70211791992188,
+        75.5999984741211,
+        -1.4850000143051147
+      ],
+      [
+        73.90211486816406,
+        75.9000015258789,
+        0.16500000655651093
+      ]
+    ],
+    "materials": [
+      "FIN_concrete"
+    ],
+    "hidden": false
+  },
+  {
+    "name": "EOPEN__descending-steps__FIN_concrete",
+    "fid": "EOPEN",
+    "bounds": [
+      [
+        70.82711791992188,
+        75.9000015258789,
+        -1.7699999809265137
+      ],
+      [
+        73.77711486816406,
+        80.0999984741211,
+        0.054999999701976776
+      ]
+    ],
+    "materials": [
+      "FIN_concrete"
+    ],
+    "hidden": false
+  },
+  {
+    "name": "EOPEN__tread__FIN_granite",
+    "fid": "EOPEN",
+    "bounds": [
+      [
+        70.82711791992188,
+        75.9000015258789,
+        -1.4850000143051147
+      ],
+      [
+        73.77711486816406,
+        80.0999984741211,
+        0.08299999684095383
+      ]
+    ],
+    "materials": [
+      "FIN_granite"
+    ],
+    "hidden": false
+  },
+  {
+    "name": "EOPEN__step-edge__FIN_stone_pale",
+    "fid": "EOPEN",
+    "bounds": [
+      [
+        70.85211944580078,
+        76.2074966430664,
+        -1.4579999446868896
+      ],
+      [
+        73.75212097167969,
+        80.09249877929688,
+        0.09200000017881393
+      ]
+    ],
+    "materials": [
+      "FIN_stone_pale"
+    ],
+    "hidden": false
+  },
+  {
+    "name": "EOPEN__rail-post__FIN_green_metal",
+    "fid": "EOPEN",
+    "bounds": [
+      [
+        70.44961547851562,
+        75.56749725341797,
+        0.23999999463558197
+      ],
+      [
+        74.15461730957031,
+        80.13249969482422,
+        1.2699999809265137
+      ]
+    ],
+    "materials": [
+      "FIN_green_metal"
+    ],
+    "hidden": false
+  },
+  {
+    "name": "EOPEN__rail-bar__FIN_green_metal",
+    "fid": "EOPEN",
+    "bounds": [
+      [
+        70.45462036132812,
+        75.57250213623047,
+        0.612500011920929
+      ],
+      [
+        74.14961242675781,
+        80.0999984741211,
+        1.2975000143051147
+      ]
+    ],
+    "materials": [
+      "FIN_green_metal"
+    ],
+    "hidden": false
+  },
+  {
+    "name": "EOPEN__middle-rail__FIN_green_metal",
+    "fid": "EOPEN",
+    "bounds": [
+      [
+        70.45462036132812,
+        75.69999694824219,
+        0.9125000238418579
+      ],
+      [
+        74.14961242675781,
+        80.0999984741211,
+        0.9674999713897705
+      ]
+    ],
+    "materials": [
+      "FIN_green_metal"
+    ],
+    "hidden": false
+  },
+  {
+    "name": "EOPEN__sloping-handrail__FIN_stainless",
+    "fid": "EOPEN",
+    "bounds": [
+      [
+        70.9891128540039,
+        76.04155731201172,
+        -0.6313925981521606
+      ],
+      [
+        73.61511993408203,
+        79.95844268798828,
+        0.9513925909996033
+      ]
+    ],
+    "materials": [
+      "FIN_stainless"
+    ],
+    "hidden": false
+  },
+  {
+    "name": "EOPEN__handrail-post__FIN_stainless",
+    "fid": "EOPEN",
+    "bounds": [
+      [
+        70.99311828613281,
+        76.3810043334961,
+        -1.4249999523162842
+      ],
+      [
+        73.61111450195312,
+        79.718994140625,
+        0.7649999856948853
+      ]
+    ],
+    "materials": [
+      "FIN_stainless"
+    ],
+    "hidden": false
+  },
+  {
+    "name": "EOPEN__hedge-core__FIN_hedge",
+    "fid": "EOPEN",
+    "bounds": [
+      [
+        69.47711944580078,
+        74.72660064697266,
+        0.009999999776482582
+      ],
+      [
+        75.12712097167969,
+        79.5999984741211,
+        0.614799976348877
+      ]
+    ],
+    "materials": [
+      "FIN_hedge"
+    ],
+    "hidden": false
+  },
+  {
+    "name": "EOPEN__hedge-leaf-clusters__FIN_hedge",
+    "fid": "EOPEN",
+    "bounds": [
+      [
+        69.36795043945312,
+        74.52517700195312,
+        0.37720000743865967
+      ],
+      [
+        75.24231719970703,
+        79.99778747558594,
+        0.765999972820282
+      ]
+    ],
+    "materials": [
+      "FIN_hedge"
+    ],
+    "hidden": false
+  },
+  {
+    "name": "EOPEN__entry-stepping-stones__FIN_granite",
+    "fid": "EOPEN",
+    "bounds": [
+      [
+        71.47711944580078,
+        80.30999755859375,
+        0.0
+      ],
+      [
+        73.12712097167969,
+        82.27999877929688,
+        0.10999999940395355
+      ]
+    ],
+    "materials": [
+      "FIN_granite"
+    ],
+    "hidden": false
+  },
+  {
+    "name": "EOPEN__lower-visibility-limit__FIN_black",
+    "fid": "EOPEN",
+    "bounds": [
+      [
+        70.75212097167969,
+        75.88999938964844,
+        -1.7200000286102295
+      ],
+      [
+        73.85211944580078,
+        75.94999694824219,
+        -1.3600000143051147
+      ]
+    ],
+    "materials": [
+      "FIN_black"
+    ],
+    "hidden": false
+  }
+]

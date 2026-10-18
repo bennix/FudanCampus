@@ -1,0 +1,130 @@
+{
+  "4464": {
+    "name": "P5 approximate IMG_4464",
+    "location": [
+      -45.0,
+      84.0,
+      2.200000047683716
+    ],
+    "rotation": [
+      1.5896217823028564,
+      1.002108795944423e-08,
+      -0.22923196852207184
+    ],
+    "type": "PERSP",
+    "lens": 22.0,
+    "ortho_scale": 6.0
+  },
+  "4485": {
+    "name": "P5 approximate IMG_4485",
+    "location": [
+      107.0,
+      90.0,
+      2.200000047683716
+    ],
+    "rotation": [
+      1.5679479837417603,
+      -7.648363720136331e-08,
+      1.2670620679855347
+    ],
+    "type": "PERSP",
+    "lens": 24.0,
+    "ortho_scale": 6.0
+  },
+  "pair-top": {
+    "name": "P5 paired planters overhead",
+    "location": [
+      20.0,
+      111.0,
+      180.0
+    ],
+    "rotation": [
+      0.0,
+      -0.0,
+      0.0
+    ],
+    "type": "ORTHO",
+    "lens": 25.0,
+    "ortho_scale": 157.0
+  },
+  "west-top": {
+    "name": "P5 left planter overhead",
+    "location": [
+      -34.5,
+      108.19999694824219,
+      110.0
+    ],
+    "rotation": [
+      0.0,
+      -0.0,
+      0.0
+    ],
+    "type": "ORTHO",
+    "lens": 25.0,
+    "ortho_scale": 44.0
+  },
+  "east-top": {
+    "name": "P5 right planter overhead",
+    "location": [
+      74.4000015258789,
+      108.5999984741211,
+      110.0
+    ],
+    "rotation": [
+      0.0,
+      -0.0,
+      0.0
+    ],
+    "type": "ORTHO",
+    "lens": 25.0,
+    "ortho_scale": 44.0
+  },
+  "west-junction": {
+    "name": "P5 left wall plinth connection",
+    "location": [
+      -41.70000076293945,
+      94.0,
+      3.549999952316284
+    ],
+    "rotation": [
+      1.244317650794983,
+      -6.428608401165548e-08,
+      0.6102940440177917
+    ],
+    "type": "PERSP",
+    "lens": 38.0,
+    "ortho_scale": 6.0
+  },
+  "east-junction": {
+    "name": "P5 right wall plinth connection",
+    "location": [
+      81.0999984741211,
+      94.4000015258789,
+      3.5
+    ],
+    "rotation": [
+      1.2714353799819946,
+      1.2580636976622372e-08,
+      -0.6496743559837341
+    ],
+    "type": "PERSP",
+    "lens": 38.0,
+    "ortho_scale": 6.0
+  },
+  "stair-side": {
+    "name": "P5 stepped wall and entrance landing",
+    "location": [
+      -9.0,
+      99.0,
+      7.699999809265137
+    ],
+    "rotation": [
+      1.3267314434051514,
+      -3.095486533766234e-08,
+      0.7197486758232117
+    ],
+    "type": "PERSP",
+    "lens": 40.0,
+    "ortho_scale": 6.0
+  }
+}

@@ -1,0 +1,1334 @@
+[
+  {
+    "name": "LAWN | satellite-fixed concave north edge",
+    "fid": "LAWN",
+    "bounds": [
+      [
+        -25.0,
+        15.78772258758545,
+        -0.125
+      ],
+      [
+        63.78654479980469,
+        78.24093627929688,
+        0.054999999701976776
+      ]
+    ],
+    "vertices": 262,
+    "materials": [
+      "FIN_grass"
+    ]
+  },
+  {
+    "name": "WPATH__curb-west-garden__pale",
+    "fid": "WPATH",
+    "bounds": [
+      [
+        -79.26325988769531,
+        11.061213493347168,
+        -0.014999999664723873
+      ],
+      [
+        -37.02614974975586,
+        88.76961517333984,
+        0.07900000363588333
+      ]
+    ],
+    "vertices": 224,
+    "materials": [
+      "pale"
+    ]
+  },
+  {
+    "name": "WPATH__west-garden__stone",
+    "fid": "WPATH",
+    "bounds": [
+      [
+        -79.22950744628906,
+        11.181571006774902,
+        0.07800000160932541
+      ],
+      [
+        -37.151004791259766,
+        88.67095184326172,
+        0.09399999678134918
+      ]
+    ],
+    "vertices": 224,
+    "materials": [
+      "stone"
+    ]
+  },
+  {
+    "name": "FURNITURE__bench__rail",
+    "fid": "FURNITURE",
+    "bounds": [
+      [
+        -69.75199890136719,
+        4.739999771118164,
+        -0.0005714520812034607
+      ],
+      [
+        105.26000213623047,
+        75.49211883544922,
+        1.8505713939666748
+      ]
+    ],
+    "vertices": 432,
+    "materials": [
+      "FIN_green_metal"
+    ]
+  },
+  {
+    "name": "FURNITURE__bench__benchwood",
+    "fid": "FURNITURE",
+    "bounds": [
+      [
+        -69.94999694824219,
+        4.747500419616699,
+        0.4375
+      ],
+      [
+        105.25249481201172,
+        75.60917663574219,
+        1.8025000095367432
+      ]
+    ],
+    "vertices": 504,
+    "materials": [
+      "benchwood"
+    ]
+  },
+  {
+    "name": "FURNITURE__urn-plinth__concrete",
+    "fid": "FURNITURE",
+    "bounds": [
+      [
+        -31.0,
+        88.0,
+        0.0
+      ],
+      [
+        -22.0,
+        90.0,
+        0.8999999761581421
+      ]
+    ],
+    "vertices": 16,
+    "materials": [
+      "FIN_concrete"
+    ],
+    "urn_region": {
+      "vertices": 16,
+      "bounds": [
+        [
+          -31.0,
+          88.0,
+          0.0
+        ],
+        [
+          -22.0,
+          90.0,
+          0.8999999761581421
+        ]
+      ]
+    }
+  },
+  {
+    "name": "FURNITURE__plinth-cap__pale",
+    "fid": "FURNITURE",
+    "bounds": [
+      [
+        -31.075000762939453,
+        87.92500305175781,
+        0.8999999761581421
+      ],
+      [
+        -21.924999237060547,
+        90.07499694824219,
+        1.0199999809265137
+      ]
+    ],
+    "vertices": 16,
+    "materials": [
+      "pale"
+    ],
+    "urn_region": {
+      "vertices": 16,
+      "bounds": [
+        [
+          -31.075000762939453,
+          87.92500305175781,
+          0.8999999761581421
+        ],
+        [
+          -21.924999237060547,
+          90.07499694824219,
+          1.0199999809265137
+        ]
+      ]
+    }
+  },
+  {
+    "name": "FURNITURE__geometry__pale",
+    "fid": "FURNITURE",
+    "bounds": [
+      [
+        -30.950000762939453,
+        88.05000305175781,
+        1.0199999809265137
+      ],
+      [
+        -22.049999237060547,
+        89.94999694824219,
+        1.9199999570846558
+      ]
+    ],
+    "vertices": 192,
+    "materials": [
+      "pale"
+    ],
+    "urn_region": {
+      "vertices": 192,
+      "bounds": [
+        [
+          -30.950000762939453,
+          88.05000305175781,
+          1.0199999809265137
+        ],
+        [
+          -22.049999237060547,
+          89.94999694824219,
+          1.9199999570846558
+        ]
+      ]
+    }
+  },
+  {
+    "name": "FURNITURE__urn-planting__hedge",
+    "fid": "FURNITURE",
+    "bounds": [
+      [
+        -30.81999969482422,
+        88.18000030517578,
+        1.7100000381469727
+      ],
+      [
+        -22.18000030517578,
+        89.81999969482422,
+        2.369999885559082
+      ]
+    ],
+    "vertices": 124,
+    "materials": [
+      "FIN_hedge"
+    ],
+    "urn_region": {
+      "vertices": 124,
+      "bounds": [
+        [
+          -30.81999969482422,
+          88.18000030517578,
+          1.7100000381469727
+        ],
+        [
+          -22.18000030517578,
+          89.81999969482422,
+          2.369999885559082
+        ]
+      ]
+    }
+  },
+  {
+    "name": "FURNITURE__urn-flowers__flower",
+    "fid": "FURNITURE",
+    "bounds": [
+      [
+        -30.809999465942383,
+        88.19000244140625,
+        1.9700000286102295
+      ],
+      [
+        -22.190000534057617,
+        89.80999755859375,
+        2.2699999809265137
+      ]
+    ],
+    "vertices": 992,
+    "materials": [
+      "flower"
+    ],
+    "urn_region": {
+      "vertices": 992,
+      "bounds": [
+        [
+          -30.809999465942383,
+          88.19000244140625,
+          1.9700000286102295
+        ],
+        [
+          -22.190000534057617,
+          89.80999755859375,
+          2.2699999809265137
+        ]
+      ]
+    }
+  },
+  {
+    "name": "FURNITURE__geometry__concrete",
+    "fid": "FURNITURE",
+    "bounds": [
+      [
+        -84.4000015258789,
+        1.600000023841858,
+        0.03999999910593033
+      ],
+      [
+        111.4000015258789,
+        100.4000015258789,
+        0.14000000059604645
+      ]
+    ],
+    "vertices": 288,
+    "materials": [
+      "FIN_concrete"
+    ]
+  },
+  {
+    "name": "FURNITURE__stone-bollard__pale",
+    "fid": "FURNITURE",
+    "bounds": [
+      [
+        -84.37999725341797,
+        1.6200000047683716,
+        0.14000000059604645
+      ],
+      [
+        111.37999725341797,
+        100.37999725341797,
+        0.8999999761581421
+      ]
+    ],
+    "vertices": 558,
+    "materials": [
+      "pale"
+    ]
+  },
+  {
+    "name": "GROUND__terrain__FIN_garden_grass",
+    "fid": "GROUND",
+    "bounds": [
+      [
+        -90.0,
+        -9.0,
+        -4.005000114440918
+      ],
+      [
+        112.30211639404297,
+        124.0,
+        -0.004999999888241291
+      ]
+    ],
+    "vertices": 213,
+    "materials": [
+      "FIN_garden_grass"
+    ]
+  },
+  {
+    "name": "EDGE_PATHS__edge-walk__FIN_pavers",
+    "fid": "EDGE_PATHS",
+    "bounds": [
+      [
+        -28.799999237060547,
+        14.0,
+        -0.019999999552965164
+      ],
+      [
+        67.10211944580078,
+        87.0,
+        0.04500000178813934
+      ]
+    ],
+    "vertices": 16,
+    "materials": [
+      "FC_plaza_grid"
+    ],
+    "western_end_vertices": [
+      [
+        -25.200000762939453,
+        87.0,
+        -0.019999999552965164
+      ],
+      [
+        -28.799999237060547,
+        87.0,
+        -0.019999999552965164
+      ],
+      [
+        -25.200000762939453,
+        87.0,
+        0.04500000178813934
+      ],
+      [
+        -28.799999237060547,
+        87.0,
+        0.04500000178813934
+      ]
+    ]
+  },
+  {
+    "name": "WOPEN__side-wall__FIN_concrete",
+    "fid": "WOPEN",
+    "bounds": [
+      [
+        -33.900001525878906,
+        78.75,
+        -1.4850000143051147
+      ],
+      [
+        -30.100000381469727,
+        83.25,
+        0.16500000655651093
+      ]
+    ],
+    "vertices": 16,
+    "materials": [
+      "FIN_concrete"
+    ]
+  },
+  {
+    "name": "WOPEN__coping__FIN_stone_pale",
+    "fid": "WOPEN",
+    "bounds": [
+      [
+        -33.95000076293945,
+        78.7249984741211,
+        0.1550000011920929
+      ],
+      [
+        -30.049999237060547,
+        83.2750015258789,
+        0.24500000476837158
+      ]
+    ],
+    "vertices": 16,
+    "materials": [
+      "FIN_stone_pale"
+    ]
+  },
+  {
+    "name": "WOPEN__end-wall__FIN_concrete",
+    "fid": "WOPEN",
+    "bounds": [
+      [
+        -33.599998474121094,
+        78.5999984741211,
+        -1.4850000143051147
+      ],
+      [
+        -30.399999618530273,
+        78.9000015258789,
+        0.16500000655651093
+      ]
+    ],
+    "vertices": 8,
+    "materials": [
+      "FIN_concrete"
+    ]
+  },
+  {
+    "name": "WOPEN__descending-steps__FIN_concrete",
+    "fid": "WOPEN",
+    "bounds": [
+      [
+        -33.474998474121094,
+        78.9000015258789,
+        -1.7699999809265137
+      ],
+      [
+        -30.524999618530273,
+        83.0999984741211,
+        0.054999999701976776
+      ]
+    ],
+    "vertices": 96,
+    "materials": [
+      "FIN_concrete"
+    ]
+  },
+  {
+    "name": "WOPEN__tread__FIN_granite",
+    "fid": "WOPEN",
+    "bounds": [
+      [
+        -33.474998474121094,
+        78.9000015258789,
+        -1.4850000143051147
+      ],
+      [
+        -30.524999618530273,
+        83.0999984741211,
+        0.08299999684095383
+      ]
+    ],
+    "vertices": 96,
+    "materials": [
+      "FIN_granite"
+    ]
+  },
+  {
+    "name": "WOPEN__step-edge__FIN_stone_pale",
+    "fid": "WOPEN",
+    "bounds": [
+      [
+        -33.45000076293945,
+        79.2074966430664,
+        -1.4579999446868896
+      ],
+      [
+        -30.549999237060547,
+        83.09249877929688,
+        0.09200000017881393
+      ]
+    ],
+    "vertices": 96,
+    "materials": [
+      "FIN_stone_pale"
+    ]
+  },
+  {
+    "name": "WOPEN__rail-post__FIN_green_metal",
+    "fid": "WOPEN",
+    "bounds": [
+      [
+        -33.852500915527344,
+        78.56749725341797,
+        0.23999999463558197
+      ],
+      [
+        -30.14750099182129,
+        83.13249969482422,
+        1.2699999809265137
+      ]
+    ],
+    "vertices": 56,
+    "materials": [
+      "FIN_green_metal"
+    ]
+  },
+  {
+    "name": "WOPEN__rail-bar__FIN_green_metal",
+    "fid": "WOPEN",
+    "bounds": [
+      [
+        -33.84749984741211,
+        78.57250213623047,
+        0.612500011920929
+      ],
+      [
+        -30.15250015258789,
+        83.0999984741211,
+        1.2975000143051147
+      ]
+    ],
+    "vertices": 96,
+    "materials": [
+      "FIN_green_metal"
+    ]
+  },
+  {
+    "name": "WOPEN__middle-rail__FIN_green_metal",
+    "fid": "WOPEN",
+    "bounds": [
+      [
+        -33.84749984741211,
+        78.69999694824219,
+        0.9125000238418579
+      ],
+      [
+        -30.15250015258789,
+        83.0999984741211,
+        0.9674999713897705
+      ]
+    ],
+    "vertices": 16,
+    "materials": [
+      "FIN_green_metal"
+    ]
+  },
+  {
+    "name": "WOPEN__sloping-handrail__FIN_stainless",
+    "fid": "WOPEN",
+    "bounds": [
+      [
+        -33.3129997253418,
+        79.04155731201172,
+        -0.6313925981521606
+      ],
+      [
+        -30.68699836730957,
+        82.95844268798828,
+        0.9513925909996033
+      ]
+    ],
+    "vertices": 16,
+    "materials": [
+      "FIN_stainless"
+    ]
+  },
+  {
+    "name": "WOPEN__handrail-post__FIN_stainless",
+    "fid": "WOPEN",
+    "bounds": [
+      [
+        -33.30900192260742,
+        79.3810043334961,
+        -1.4249999523162842
+      ],
+      [
+        -30.69099998474121,
+        82.718994140625,
+        0.7649999856948853
+      ]
+    ],
+    "vertices": 48,
+    "materials": [
+      "FIN_stainless"
+    ]
+  },
+  {
+    "name": "WOPEN__hedge-core__FIN_hedge",
+    "fid": "WOPEN",
+    "bounds": [
+      [
+        -34.82500076293945,
+        77.72660064697266,
+        0.009999999776482582
+      ],
+      [
+        -29.174999237060547,
+        82.5999984741211,
+        0.614799976348877
+      ]
+    ],
+    "vertices": 16,
+    "materials": [
+      "FIN_hedge"
+    ]
+  },
+  {
+    "name": "WOPEN__hedge-leaf-clusters__FIN_hedge",
+    "fid": "WOPEN",
+    "bounds": [
+      [
+        -34.94217300415039,
+        77.53005981445312,
+        0.37720000743865967
+      ],
+      [
+        -29.07714080810547,
+        83.00975036621094,
+        0.765999972820282
+      ]
+    ],
+    "vertices": 1564,
+    "materials": [
+      "FIN_hedge"
+    ]
+  },
+  {
+    "name": "WOPEN__entry-stepping-stones__FIN_granite",
+    "fid": "WOPEN",
+    "bounds": [
+      [
+        -32.82500076293945,
+        83.30999755859375,
+        0.0
+      ],
+      [
+        -31.174999237060547,
+        85.27999877929688,
+        0.10999999940395355
+      ]
+    ],
+    "vertices": 32,
+    "materials": [
+      "FIN_granite"
+    ]
+  },
+  {
+    "name": "WOPEN__lower-visibility-limit__FIN_black",
+    "fid": "WOPEN",
+    "bounds": [
+      [
+        -33.54999923706055,
+        78.88999938964844,
+        -1.7200000286102295
+      ],
+      [
+        -30.450000762939453,
+        78.94999694824219,
+        -1.3600000143051147
+      ]
+    ],
+    "vertices": 8,
+    "materials": [
+      "FIN_black"
+    ]
+  },
+  {
+    "name": "V2 tree 02 V2 prototype 2 branches",
+    "fid": "VEGETATION_V2",
+    "bounds": [
+      [
+        -80.50137329101562,
+        75.80445098876953,
+        -0.037618789821863174
+      ],
+      [
+        -69.34049987792969,
+        85.45612335205078,
+        9.330171585083008
+      ]
+    ],
+    "vertices": 1400,
+    "materials": [
+      "VEG1 olive",
+      "VEG1 grey-green",
+      "VEG1 deep-green",
+      "VEG1 young-green",
+      "VEG1 autumn",
+      "VEG1 bark"
+    ]
+  },
+  {
+    "name": "V2 tree 02 V2 prototype 2 leaves",
+    "fid": "VEGETATION_V2",
+    "bounds": [
+      [
+        -81.85930633544922,
+        74.87652587890625,
+        3.9520089626312256
+      ],
+      [
+        -68.12218475341797,
+        86.32376098632812,
+        9.73795223236084
+      ]
+    ],
+    "vertices": 46620,
+    "materials": [
+      "VEG1 olive",
+      "VEG1 grey-green",
+      "VEG1 deep-green",
+      "VEG1 young-green",
+      "VEG1 autumn",
+      "VEG1 bark"
+    ]
+  },
+  {
+    "name": "V2 tree 07 V2 prototype 3 leaves",
+    "fid": "VEGETATION_V2",
+    "bounds": [
+      [
+        -50.214927673339844,
+        58.04697036743164,
+        4.0867767333984375
+      ],
+      [
+        -38.2475471496582,
+        70.25741577148438,
+        8.942129135131836
+      ]
+    ],
+    "vertices": 49980,
+    "materials": [
+      "VEG1 olive",
+      "VEG1 grey-green",
+      "VEG1 deep-green",
+      "VEG1 young-green",
+      "VEG1 autumn",
+      "VEG1 bark"
+    ]
+  },
+  {
+    "name": "V2 tree 08 V2 prototype 0 branches",
+    "fid": "VEGETATION_V2",
+    "bounds": [
+      [
+        -52.28462219238281,
+        73.81159973144531,
+        -0.031099824234843254
+      ],
+      [
+        -43.62971115112305,
+        82.3953628540039,
+        7.158288478851318
+      ]
+    ],
+    "vertices": 1400,
+    "materials": [
+      "VEG1 olive",
+      "VEG1 grey-green",
+      "VEG1 deep-green",
+      "VEG1 young-green",
+      "VEG1 autumn",
+      "VEG1 bark"
+    ]
+  },
+  {
+    "name": "V2 tree 08 V2 prototype 0 leaves",
+    "fid": "VEGETATION_V2",
+    "bounds": [
+      [
+        -52.82851028442383,
+        73.14794921875,
+        2.8480002880096436
+      ],
+      [
+        -43.271095275878906,
+        82.88577270507812,
+        7.658347129821777
+      ]
+    ],
+    "vertices": 39900,
+    "materials": [
+      "VEG1 olive",
+      "VEG1 grey-green",
+      "VEG1 deep-green",
+      "VEG1 young-green",
+      "VEG1 autumn",
+      "VEG1 bark"
+    ]
+  },
+  {
+    "name": "V2 tree 09 V2 prototype 1 branches",
+    "fid": "VEGETATION_V2",
+    "bounds": [
+      [
+        -70.42359924316406,
+        72.21641540527344,
+        -0.03436216711997986
+      ],
+      [
+        -60.503379821777344,
+        81.64147186279297,
+        8.446352005004883
+      ]
+    ],
+    "vertices": 1400,
+    "materials": [
+      "VEG1 olive",
+      "VEG1 grey-green",
+      "VEG1 deep-green",
+      "VEG1 young-green",
+      "VEG1 autumn",
+      "VEG1 bark"
+    ]
+  },
+  {
+    "name": "V2 tree 09 V2 prototype 1 leaves",
+    "fid": "VEGETATION_V2",
+    "bounds": [
+      [
+        -71.15339660644531,
+        71.16674041748047,
+        4.1272292137146
+      ],
+      [
+        -59.54704284667969,
+        82.2396469116211,
+        8.841655731201172
+      ]
+    ],
+    "vertices": 43260,
+    "materials": [
+      "VEG1 olive",
+      "VEG1 grey-green",
+      "VEG1 deep-green",
+      "VEG1 young-green",
+      "VEG1 autumn",
+      "VEG1 bark"
+    ]
+  },
+  {
+    "name": "V2 leaves WTERR",
+    "fid": "VEGETATION_V2",
+    "bounds": [
+      [
+        -73.88143157958984,
+        43.65026092529297,
+        0.941713809967041
+      ],
+      [
+        -47.424251556396484,
+        70.33570861816406,
+        2.4038543701171875
+      ]
+    ],
+    "vertices": 183465,
+    "materials": [
+      "VEG1 olive",
+      "VEG1 grey-green",
+      "VEG1 deep-green",
+      "VEG1 young-green",
+      "VEG1 autumn",
+      "VEG1 bark"
+    ]
+  },
+  {
+    "name": "V2 leaves FURNITURE",
+    "fid": "VEGETATION_V2",
+    "bounds": [
+      [
+        -30.899503707885742,
+        88.10356140136719,
+        2.027279853820801
+      ],
+      [
+        -22.114425659179688,
+        89.87064361572266,
+        2.450345516204834
+      ]
+    ],
+    "vertices": 4830,
+    "materials": [
+      "VEG1 olive",
+      "VEG1 grey-green",
+      "VEG1 deep-green",
+      "VEG1 young-green",
+      "VEG1 autumn",
+      "VEG1 bark"
+    ],
+    "urn_region": {
+      "vertices": 4830,
+      "bounds": [
+        [
+          -30.899503707885742,
+          88.10356140136719,
+          2.027279853820801
+        ],
+        [
+          -22.114425659179688,
+          89.87064361572266,
+          2.450345516204834
+        ]
+      ]
+    }
+  },
+  {
+    "name": "V2 leaves WB2",
+    "fid": "VEGETATION_V2",
+    "bounds": [
+      [
+        -78.31649017333984,
+        65.53678894042969,
+        0.8532963395118713
+      ],
+      [
+        -73.58342742919922,
+        74.47071075439453,
+        2.663383960723877
+      ]
+    ],
+    "vertices": 58290,
+    "materials": [
+      "VEG1 olive",
+      "VEG1 grey-green",
+      "VEG1 deep-green",
+      "VEG1 young-green",
+      "VEG1 autumn",
+      "VEG1 bark"
+    ]
+  },
+  {
+    "name": "V2 leaves WOPEN",
+    "fid": "VEGETATION_V2",
+    "bounds": [
+      [
+        -35.04313278198242,
+        77.42764282226562,
+        0.47609803080558777
+      ],
+      [
+        -28.990074157714844,
+        83.07524871826172,
+        0.8627830743789673
+      ]
+    ],
+    "vertices": 33840,
+    "materials": [
+      "VEG1 olive",
+      "VEG1 grey-green",
+      "VEG1 deep-green",
+      "VEG1 young-green",
+      "VEG1 autumn",
+      "VEG1 bark"
+    ]
+  },
+  {
+    "name": "V2 leaves VEGETATION",
+    "fid": "VEGETATION_V2",
+    "bounds": [
+      [
+        -72.62104034423828,
+        3.3234968185424805,
+        -0.016786102205514908
+      ],
+      [
+        64.39439392089844,
+        87.13174438476562,
+        1.7809737920761108
+      ]
+    ],
+    "vertices": 96420,
+    "materials": [
+      "VEG1 olive",
+      "VEG1 grey-green",
+      "VEG1 deep-green",
+      "VEG1 young-green",
+      "VEG1 autumn",
+      "VEG1 bark"
+    ]
+  },
+  {
+    "name": "FORECOURT photo grid plaza",
+    "fid": "FORECOURT",
+    "bounds": [
+      [
+        -80.0,
+        67.94995880126953,
+        -0.03500000014901161
+      ],
+      [
+        102.30211639404297,
+        113.0,
+        0.03500000014901161
+      ]
+    ],
+    "vertices": 280,
+    "materials": [
+      "FC_plaza_grid"
+    ]
+  },
+  {
+    "name": "LAWN_EDGE segmented granite 278",
+    "fid": "LAWN_EDGE",
+    "bounds": [
+      [
+        -19.511648178100586,
+        78.07882690429688,
+        0.01600000075995922
+      ],
+      [
+        -18.662105560302734,
+        78.35064697265625,
+        0.15000000596046448
+      ]
+    ],
+    "vertices": 8,
+    "materials": [
+      "FC_warm_granite"
+    ]
+  },
+  {
+    "name": "LAWN_EDGE segmented granite 279",
+    "fid": "LAWN_EDGE",
+    "bounds": [
+      [
+        -20.362228393554688,
+        78.0279541015625,
+        0.01600000075995922
+      ],
+      [
+        -19.509061813354492,
+        78.31671905517578,
+        0.15000000596046448
+      ]
+    ],
+    "vertices": 8,
+    "materials": [
+      "FC_warm_granite"
+    ]
+  },
+  {
+    "name": "LAWN_EDGE segmented granite 280",
+    "fid": "LAWN_EDGE",
+    "bounds": [
+      [
+        -21.21123504638672,
+        77.96569061279297,
+        0.01600000075995922
+      ],
+      [
+        -20.355993270874023,
+        78.2650146484375,
+        0.15000000596046448
+      ]
+    ],
+    "vertices": 8,
+    "materials": [
+      "FC_warm_granite"
+    ]
+  },
+  {
+    "name": "LAWN_EDGE segmented granite 281",
+    "fid": "LAWN_EDGE",
+    "bounds": [
+      [
+        -22.05917739868164,
+        77.89605712890625,
+        0.01600000075995922
+      ],
+      [
+        -21.20268440246582,
+        78.20216369628906,
+        0.15000000596046448
+      ]
+    ],
+    "vertices": 8,
+    "materials": [
+      "FC_warm_granite"
+    ]
+  },
+  {
+    "name": "LAWN_EDGE segmented granite 282",
+    "fid": "LAWN_EDGE",
+    "bounds": [
+      [
+        -22.906381607055664,
+        77.82225036621094,
+        0.01600000075995922
+      ],
+      [
+        -22.049213409423828,
+        78.13214874267578,
+        0.15000000596046448
+      ]
+    ],
+    "vertices": 8,
+    "materials": [
+      "FC_warm_granite"
+    ]
+  },
+  {
+    "name": "LAWN_EDGE segmented granite 283",
+    "fid": "LAWN_EDGE",
+    "bounds": [
+      [
+        -23.752979278564453,
+        77.75053405761719,
+        0.01600000075995922
+      ],
+      [
+        -22.896196365356445,
+        78.05826568603516,
+        0.15000000596046448
+      ]
+    ],
+    "vertices": 8,
+    "materials": [
+      "FC_warm_granite"
+    ]
+  },
+  {
+    "name": "LAWN_EDGE segmented granite 284",
+    "fid": "LAWN_EDGE",
+    "bounds": [
+      [
+        -24.05122947692871,
+        77.16075134277344,
+        0.01600000075995922
+      ],
+      [
+        -23.64005470275879,
+        77.89645385742188,
+        0.15000000596046448
+      ]
+    ],
+    "vertices": 8,
+    "materials": [
+      "FC_warm_granite"
+    ]
+  },
+  {
+    "name": "LAWN_EDGE segmented granite 285",
+    "fid": "LAWN_EDGE",
+    "bounds": [
+      [
+        -24.073734283447266,
+        76.33728790283203,
+        0.01600000075995922
+      ],
+      [
+        -23.81966209411621,
+        77.18275451660156,
+        0.15000000596046448
+      ]
+    ],
+    "vertices": 8,
+    "materials": [
+      "FC_warm_granite"
+    ]
+  },
+  {
+    "name": "LAWN_EDGE segmented granite 286",
+    "fid": "LAWN_EDGE",
+    "bounds": [
+      [
+        -24.088464736938477,
+        75.48749542236328,
+        0.01600000075995922
+      ],
+      [
+        -23.834392547607422,
+        76.33296203613281,
+        0.15000000596046448
+      ]
+    ],
+    "vertices": 8,
+    "materials": [
+      "FC_warm_granite"
+    ]
+  },
+  {
+    "name": "LAWN_EDGE segmented granite 287",
+    "fid": "LAWN_EDGE",
+    "bounds": [
+      [
+        -24.10319709777832,
+        74.63770294189453,
+        0.01600000075995922
+      ],
+      [
+        -23.849124908447266,
+        75.4831771850586,
+        0.15000000596046448
+      ]
+    ],
+    "vertices": 8,
+    "materials": [
+      "FC_warm_granite"
+    ]
+  },
+  {
+    "name": "LAWN_EDGE segmented granite 288",
+    "fid": "LAWN_EDGE",
+    "bounds": [
+      [
+        -24.117929458618164,
+        73.78791046142578,
+        0.01600000075995922
+      ],
+      [
+        -23.86385726928711,
+        74.63338470458984,
+        0.15000000596046448
+      ]
+    ],
+    "vertices": 8,
+    "materials": [
+      "FC_warm_granite"
+    ]
+  },
+  {
+    "name": "LAWN_EDGE segmented granite 289",
+    "fid": "LAWN_EDGE",
+    "bounds": [
+      [
+        -24.132659912109375,
+        72.93812561035156,
+        0.01600000075995922
+      ],
+      [
+        -23.87858772277832,
+        73.7835922241211,
+        0.15000000596046448
+      ]
+    ],
+    "vertices": 8,
+    "materials": [
+      "FC_warm_granite"
+    ]
+  },
+  {
+    "name": "LAWN_EDGE segmented granite 290",
+    "fid": "LAWN_EDGE",
+    "bounds": [
+      [
+        -24.14739227294922,
+        72.08833312988281,
+        0.01600000075995922
+      ],
+      [
+        -23.893320083618164,
+        72.93379974365234,
+        0.15000000596046448
+      ]
+    ],
+    "vertices": 8,
+    "materials": [
+      "FC_warm_granite"
+    ]
+  },
+  {
+    "name": "LAWN_EDGE segmented granite 291",
+    "fid": "LAWN_EDGE",
+    "bounds": [
+      [
+        -24.16212272644043,
+        71.23854064941406,
+        0.01600000075995922
+      ],
+      [
+        -23.908050537109375,
+        72.0840072631836,
+        0.15000000596046448
+      ]
+    ],
+    "vertices": 8,
+    "materials": [
+      "FC_warm_granite"
+    ]
+  },
+  {
+    "name": "LAWN_EDGE segmented granite 292",
+    "fid": "LAWN_EDGE",
+    "bounds": [
+      [
+        -24.17685317993164,
+        70.38875579833984,
+        0.01600000075995922
+      ],
+      [
+        -23.92278289794922,
+        71.23422241210938,
+        0.15000000596046448
+      ]
+    ],
+    "vertices": 8,
+    "materials": [
+      "FC_warm_granite"
+    ]
+  },
+  {
+    "name": "LAWN_EDGE segmented granite 293",
+    "fid": "LAWN_EDGE",
+    "bounds": [
+      [
+        -24.191585540771484,
+        69.53895568847656,
+        0.01600000075995922
+      ],
+      [
+        -23.937515258789062,
+        70.38442993164062,
+        0.15000000596046448
+      ]
+    ],
+    "vertices": 8,
+    "materials": [
+      "FC_warm_granite"
+    ]
+  }
+]

@@ -1,0 +1,40 @@
+{
+  "road_surface": {
+    "vertices": 4918,
+    "triangles": 9481,
+    "components": 1,
+    "nonmanifold_edges": 0,
+    "degenerate_or_reversed_faces": 0,
+    "duplicate_faces": 0,
+    "boundary_edges": 353,
+    "coverage_error_area": 0.0,
+    "overlap_area": 9.237055564881302e-14,
+    "internal_open_edges": 0
+  },
+  "road_solid": {
+    "open_edges": 0,
+    "nonmanifold_edges": 0,
+    "signed_volume": 26.574911118633732
+  },
+  "terrain_surface": {
+    "vertices": 9949,
+    "triangles": 19096,
+    "components": 3,
+    "nonmanifold_edges": 0,
+    "degenerate_or_reversed_faces": 0,
+    "duplicate_faces": 0,
+    "boundary_edges": 798,
+    "coverage_error_area": 0.0,
+    "overlap_area": -7.105427357601002e-14,
+    "internal_open_edges": 0
+  },
+  "terrain_solid": {
+    "open_edges": 0,
+    "nonmanifold_edges": 0,
+    "signed_volume": 23.314449429427953
+  },
+  "road_terrain_overlap_area": 3.4623499992236426e-06,
+  "protected_overlap_area": 0.0,
+  "status": "geometry_checks_passed_visual_pending",
+  "site_profile_status": "inferred_not_accepted"
+}

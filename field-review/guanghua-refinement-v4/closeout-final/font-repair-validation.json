@@ -1,0 +1,16 @@
+{
+  "fonts": [
+    {
+      "name": "WB1__text__光华楼广场自行车库",
+      "body": "光华楼广场自行车库",
+      "width": 5.120002746582031
+    },
+    {
+      "name": "WB2__text__光华楼广场自行车库",
+      "body": "光华楼广场自行车库",
+      "width": 5.1199951171875
+    }
+  ],
+  "source_sha256": "e8a480e818d3be5612535f723ae41a410d245126e84c483518c1869e756111e0",
+  "reason": "World-axis glyph width corrected; leaf fan center restored to blade plane"
+}

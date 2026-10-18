@@ -1,0 +1,148 @@
+{
+  "remote_commit": "afc24ddf719a399f38306cca7250c7745045af70",
+  "terrain": {
+    "id": "00",
+    "name": "00 Terrain and roads",
+    "url": "models/shared/00-guanghua-merged.glb",
+    "revision": "3e1fd09514ba",
+    "bytes": 3431968
+  },
+  "statue": {
+    "id": "58",
+    "name": "毛主席像",
+    "url": "models/shared/58.glb",
+    "bytes": 463584,
+    "revision": "44bd055f433c"
+  },
+  "buildings": [
+    {
+      "id": "3",
+      "name": "北区体育馆",
+      "url": "models/buildings/3.glb",
+      "revision": "e3cce82d50b8",
+      "bytes": 60580,
+      "overview": {
+        "url": "models/overview/3.glb",
+        "revision": "60963d53e0bf",
+        "bytes": 16468
+      },
+      "position": [
+        -460.8,
+        0,
+        -509.6
+      ],
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "orientationBaked": true,
+      "bounds": {
+        "min": [
+          -20.08000488281249,
+          0,
+          -34.07999267578123
+        ],
+        "max": [
+          20.079998779296886,
+          15.149999618530273,
+          24.300012207031273
+        ]
+      },
+      "labelPosition": [
+        -460.8,
+        11.5,
+        -509.6
+      ],
+      "loadDistance": 240
+    },
+    {
+      "id": "5",
+      "name": "北区食堂",
+      "url": "models/buildings/5.glb",
+      "revision": "799648b03a15",
+      "bytes": 118684,
+      "overview": {
+        "url": "models/overview/5.glb",
+        "revision": "03df7518bb63",
+        "bytes": 22436
+      },
+      "position": [
+        -351.20000000000005,
+        0,
+        -514.4
+      ],
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "orientationBaked": true,
+      "bounds": {
+        "min": [
+          -24.90800170898433,
+          0.10000000149011612,
+          -18.800012207031273
+        ],
+        "max": [
+          24.908007812500045,
+          16.075000762939453,
+          27.880010986328102
+        ]
+      },
+      "labelPosition": [
+        -351.20000000000005,
+        11.5,
+        -514.4
+      ],
+      "loadDistance": 240
+    },
+    {
+      "id": "7",
+      "name": "仓库",
+      "url": "models/buildings/7.glb",
+      "revision": "832b487d4596",
+      "bytes": 23104,
+      "overview": {
+        "url": "models/overview/7.glb",
+        "revision": "d1fd65fcdedc",
+        "bytes": 7696
+      },
+      "position": [
+        -364.8,
+        0,
+        -272
+      ],
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "orientationBaked": true,
+      "bounds": {
+        "min": [
+          -12.400012207031239,
+          0,
+          -12.399993896484375
+        ],
+        "max": [
+          12.400006103515636,
+          11.729999542236328,
+          12.399993896484375
+        ]
+      },
+      "labelPosition": [
+        -364.8,
+        11.5,
+        -272
+      ],
+      "loadDistance": 240
+    }
+  ],
+  "legacy_statue_nodes_removed": [
+    "Statue plinth.001",
+    "Statue abstract body.001",
+    "Statue head.001"
+  ],
+  "non_target_terrain_nodes_preserved": 133
+}

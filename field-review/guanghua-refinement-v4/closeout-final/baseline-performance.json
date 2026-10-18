@@ -1,0 +1,100 @@
+{
+  "tag": "baseline",
+  "browser": "154.0.8037.59",
+  "headless": true,
+  "loading": "Fresh browser context, local HTTP; operating-system cache unspecified",
+  "coldContextLocalLoadMs": 1803,
+  "network": "loopback; no public-network bandwidth claim",
+  "resolution": [
+    1920,
+    1080
+  ],
+  "pixelRatio": 1,
+  "measurementSeconds": 10,
+  "views": [
+    {
+      "triangles": 3221680,
+      "drawCalls": 1596,
+      "geometries": 917,
+      "textures": 36,
+      "viewport": [
+        1920,
+        1080
+      ],
+      "pixelRatio": 1,
+      "camera": [
+        236,
+        114.99999999999996,
+        -47.00000000000003
+      ],
+      "target": [
+        127,
+        12,
+        -177
+      ],
+      "trees": true,
+      "gpu": "ANGLE (Intel, Intel(R) Arc(TM) Graphics (0x00007D55) Direct3D11 vs_5_0 ps_5_0, D3D11)",
+      "frameCount": 564,
+      "medianFrameMs": 17.600000023841858,
+      "p95FrameMs": 19,
+      "medianFps": 56.81818174121301
+    },
+    {
+      "triangles": 1698132,
+      "drawCalls": 734,
+      "geometries": 917,
+      "textures": 36,
+      "viewport": [
+        1920,
+        1080
+      ],
+      "pixelRatio": 1,
+      "camera": [
+        126.00000000000001,
+        205,
+        -159.99999999998846
+      ],
+      "target": [
+        126.00000000000001,
+        0,
+        -160.1
+      ],
+      "trees": true,
+      "gpu": "ANGLE (Intel, Intel(R) Arc(TM) Graphics (0x00007D55) Direct3D11 vs_5_0 ps_5_0, D3D11)",
+      "frameCount": 601,
+      "medianFrameMs": 16.699999928474426,
+      "p95FrameMs": 16.800000071525574,
+      "medianFps": 59.88023977742326
+    },
+    {
+      "triangles": 580854,
+      "drawCalls": 161,
+      "geometries": 917,
+      "textures": 36,
+      "viewport": [
+        1920,
+        1080
+      ],
+      "pixelRatio": 1,
+      "camera": [
+        131.2,
+        6.999999999999993,
+        -120.8
+      ],
+      "target": [
+        131.2,
+        35,
+        -224.8
+      ],
+      "trees": true,
+      "gpu": "ANGLE (Intel, Intel(R) Arc(TM) Graphics (0x00007D55) Direct3D11 vs_5_0 ps_5_0, D3D11)",
+      "frameCount": 601,
+      "medianFrameMs": 16.699999928474426,
+      "p95FrameMs": 16.800000071525574,
+      "medianFps": 59.88023977742326
+    }
+  ],
+  "errors": [],
+  "failed": [],
+  "narrowOverflow": false
+}

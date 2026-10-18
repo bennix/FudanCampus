@@ -20,7 +20,7 @@ def entry(path):
     data=path.read_bytes()
     return dict(url=str(path.relative_to(public)),bytes=len(data),revision=hashlib.sha256(data).hexdigest()[:12])
 manifest['shared']=[a for a in manifest['shared'] if a['id']!='58']
-manifest['shared'].append(dict(id='58',name='毛主席像',**entry(target)))
+manifest['shared'].append(dict(id='58',name='毛主席像',sourceModel='https://sketchfab.com/3d-models/ef18c25e1e094cf99e2b377ad7377d05',author='1821427398',license='CC BY 4.0',**entry(target)))
 for obj in objects:obj.location-=Vector((-40,66.4,0))
 # One-time migration. Keep all other shared geometry unchanged in world space.
 temporary=bpy.data.scenes.new('Remove old statue placeholder');original=bpy.context.scene;bpy.context.window.scene=temporary

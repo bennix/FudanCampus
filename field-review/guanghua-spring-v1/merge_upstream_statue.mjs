@@ -1,0 +1,24 @@
+import fs from 'node:fs';
+import assert from 'node:assert/strict';
+import {createHash} from 'node:crypto';
+import {NodeIO} from '../../.local/model-tools/node_modules/@gltf-transform/core/dist/index.js';
+const pub='web/public/',out='field-review/guanghua-spring-v1/',sha=p=>createHash('sha256').update(fs.readFileSync(p)).digest('hex');
+const oldPath=pub+'models/shared/00-guanghua-v3.glb',io=new NodeIO(),doc=await io.read(oldPath);
+const legacy=['Statue plinth.001','Statue abstract body.001','Statue head.001'];
+const signature=n=>({matrix:n.getWorldMatrix(),extras:n.getExtras(),primitives:n.getMesh()?.listPrimitives().map(p=>({material:p.getMaterial()?.getName(),attributes:p.listSemantics().map(s=>[s,Array.from(p.getAttribute(s).getArray())]),indices:Array.from(p.getIndices().getArray())}))});
+const protectedNodes=new Map(doc.getRoot().listNodes().filter(n=>!legacy.includes(n.getName())).map(n=>[n.getName(),signature(n)]));
+for(const name of legacy){const nodes=doc.getRoot().listNodes().filter(n=>n.getName()===name);assert.equal(nodes.length,1);nodes[0].dispose();}
+assert.equal(protectedNodes.size,doc.getRoot().listNodes().length);
+const dest=pub+'models/shared/00-guanghua-merged.glb';await io.write(dest,doc);
+const check=await io.read(dest);for(const n of check.getRoot().listNodes())assert.deepEqual(signature(n),protectedNodes.get(n.getName()),n.getName());
+const manifestPath=pub+'campus-manifest.json',before=JSON.parse(fs.readFileSync(out+'manifest-local-before-merge.json'));
+const merged=JSON.parse(fs.readFileSync(manifestPath)),remote=JSON.parse(fs.readFileSync(out+'manifest-remote.json'));
+const terrain={...before.shared.find(a=>a.id==='00'),url:'models/shared/00-guanghua-merged.glb',bytes:fs.statSync(dest).size,revision:sha(dest).slice(0,12)};
+const statue=remote.shared.find(a=>a.id==='58');assert.equal(sha(pub+statue.url).slice(0,12),statue.revision);
+merged.shared=before.shared.map(a=>a.id==='00'?terrain:a);merged.shared.push(statue);
+merged.buildings=before.buildings;fs.writeFileSync(manifestPath,JSON.stringify(merged,null,2)+'\n');
+const reportPath=out+'integration.json',report=JSON.parse(fs.readFileSync(reportPath));report.terrain_reused=terrain;
+report.upstream_merge={remote_commit:'9bd34510',preserved_terrain_baseline_sha256:sha(oldPath),terrain,statue,legacy_statue_nodes_removed:legacy,non_target_terrain_nodes_preserved:protectedNodes.size,manifest_allowed_changes:['00','58']};
+report.validation_status='Merged local candidate; native and GLB checks passed, viewer review pending';fs.writeFileSync(reportPath,JSON.stringify(report,null,2));
+fs.writeFileSync(out+'upstream-merge.json',JSON.stringify(report.upstream_merge,null,2)+'\n');
+console.log('UPSTREAM_STATUE_SEMANTIC_MERGE',JSON.stringify(report.upstream_merge));

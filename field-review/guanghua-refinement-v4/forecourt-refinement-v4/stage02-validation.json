@@ -1,0 +1,81 @@
+{
+  "protected_meshes_unchanged": 1145,
+  "west_urns_unchanged": true,
+  "east_shared_data_detached": true,
+  "details": [
+    {
+      "center": [
+        61.944332122802734,
+        79.06448364257812
+      ],
+      "foot_radius": 0.74,
+      "bowl_radius": 1.15,
+      "foot_to_bowl_diameter_ratio": 0.6434782608695653,
+      "coping_thickness": 0.085,
+      "coping_top": 0.92,
+      "bowl_foot_bottom": 0.92
+    },
+    {
+      "center": [
+        68.94432830810547,
+        79.06448364257812
+      ],
+      "foot_radius": 0.74,
+      "bowl_radius": 1.15,
+      "foot_to_bowl_diameter_ratio": 0.6434782608695653,
+      "coping_thickness": 0.085,
+      "coping_top": 0.92,
+      "bowl_foot_bottom": 0.92
+    }
+  ],
+  "solids": [
+    {
+      "name": "E_ENTRY 0 fluted bowl",
+      "nonmanifold": 0,
+      "zero_area": 0,
+      "volume": 1.0674373025672959,
+      "finite": true
+    },
+    {
+      "name": "E_ENTRY 0 rounded coping",
+      "nonmanifold": 0,
+      "zero_area": 0,
+      "volume": 0.4496513950361365,
+      "finite": true
+    },
+    {
+      "name": "E_ENTRY 0 pedestal core",
+      "nonmanifold": 0,
+      "zero_area": 0,
+      "volume": 3.7442301965076936,
+      "finite": true
+    },
+    {
+      "name": "E_ENTRY 1 fluted bowl",
+      "nonmanifold": 0,
+      "zero_area": 0,
+      "volume": 1.0674377442873295,
+      "finite": true
+    },
+    {
+      "name": "E_ENTRY 1 rounded coping",
+      "nonmanifold": 0,
+      "zero_area": 0,
+      "volume": 0.44964990348685774,
+      "finite": true
+    },
+    {
+      "name": "E_ENTRY 1 pedestal core",
+      "nonmanifold": 0,
+      "zero_area": 0,
+      "volume": 3.7442301965076936,
+      "finite": true
+    }
+  ],
+  "views": [
+    "top",
+    "4491"
+  ],
+  "baseline_unchanged": true,
+  "dimensions": "推定：照片比例，未实测"
+}

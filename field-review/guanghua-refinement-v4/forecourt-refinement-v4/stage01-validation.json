@@ -1,0 +1,367 @@
+{
+  "protected_meshes_unchanged": 1089,
+  "building_mesh_exceptions": [
+    "光华楼 · Guanghua rose grey stone",
+    "光华楼 · Guanghua light stone edges"
+  ],
+  "remaining_building_components_unchanged": true,
+  "connections": [
+    {
+      "side": "east",
+      "wall_and_round_plinth": "Boolean union: no shared open edge",
+      "coping_and_round_cap": "Boolean union",
+      "urn_foot_z": 0.915,
+      "cap_top_z": 0.915,
+      "landing_z": 3.45,
+      "ramp_end_z": 3.45
+    },
+    {
+      "side": "west",
+      "wall_and_round_plinth": "Boolean union: no shared open edge",
+      "coping_and_round_cap": "Boolean union",
+      "urn_foot_z": 0.915,
+      "cap_top_z": 0.915,
+      "landing_z": 3.45,
+      "ramp_end_z": 3.45
+    }
+  ],
+  "solids": [
+    {
+      "name": "BENTRY upper platform",
+      "nonmanifold": 0,
+      "zero_area": 0,
+      "volume": 3711.25130165834,
+      "finite": true
+    },
+    {
+      "name": "BENTRY continuous main stair",
+      "nonmanifold": 0,
+      "zero_area": 0,
+      "volume": 1057.8600048630374,
+      "finite": true
+    },
+    {
+      "name": "BENTRY stair nose 00",
+      "nonmanifold": 0,
+      "zero_area": 0,
+      "volume": 0.04492972276057117,
+      "finite": true
+    },
+    {
+      "name": "BENTRY stair nose 01",
+      "nonmanifold": 0,
+      "zero_area": 0,
+      "volume": 0.044923075174666614,
+      "finite": true
+    },
+    {
+      "name": "BENTRY stair nose 02",
+      "nonmanifold": 0,
+      "zero_area": 0,
+      "volume": 0.044923186742380494,
+      "finite": true
+    },
+    {
+      "name": "BENTRY stair nose 03",
+      "nonmanifold": 0,
+      "zero_area": 0,
+      "volume": 0.044923186742380494,
+      "finite": true
+    },
+    {
+      "name": "BENTRY stair nose 04",
+      "nonmanifold": 0,
+      "zero_area": 0,
+      "volume": 0.04492977855261415,
+      "finite": true
+    },
+    {
+      "name": "BENTRY stair nose 05",
+      "nonmanifold": 0,
+      "zero_area": 0,
+      "volume": 0.04492977855261415,
+      "finite": true
+    },
+    {
+      "name": "BENTRY stair nose 06",
+      "nonmanifold": 0,
+      "zero_area": 0,
+      "volume": 0.044930001720786095,
+      "finite": true
+    },
+    {
+      "name": "BENTRY stair nose 07",
+      "nonmanifold": 0,
+      "zero_area": 0,
+      "volume": 0.044930001720786095,
+      "finite": true
+    },
+    {
+      "name": "BENTRY stair nose 08",
+      "nonmanifold": 0,
+      "zero_area": 0,
+      "volume": 0.04492955538444221,
+      "finite": true
+    },
+    {
+      "name": "BENTRY stair nose 09",
+      "nonmanifold": 0,
+      "zero_area": 0,
+      "volume": 0.04492955538444221,
+      "finite": true
+    },
+    {
+      "name": "BENTRY stair nose 10",
+      "nonmanifold": 0,
+      "zero_area": 0,
+      "volume": 0.044930001720786095,
+      "finite": true
+    },
+    {
+      "name": "BENTRY stair nose 11",
+      "nonmanifold": 0,
+      "zero_area": 0,
+      "volume": 0.04492955538444221,
+      "finite": true
+    },
+    {
+      "name": "BENTRY stair nose 12",
+      "nonmanifold": 0,
+      "zero_area": 0,
+      "volume": 0.044930001720786095,
+      "finite": true
+    },
+    {
+      "name": "BENTRY stair nose 13",
+      "nonmanifold": 0,
+      "zero_area": 0,
+      "volume": 0.044922517336090095,
+      "finite": true
+    },
+    {
+      "name": "BENTRY stair nose 14",
+      "nonmanifold": 0,
+      "zero_area": 0,
+      "volume": 0.04492340987780826,
+      "finite": true
+    },
+    {
+      "name": "BENTRY stair nose 15",
+      "nonmanifold": 0,
+      "zero_area": 0,
+      "volume": 0.044922517336090095,
+      "finite": true
+    },
+    {
+      "name": "BENTRY stair nose 16",
+      "nonmanifold": 0,
+      "zero_area": 0,
+      "volume": 0.044930001720786095,
+      "finite": true
+    },
+    {
+      "name": "BENTRY stair nose 17",
+      "nonmanifold": 0,
+      "zero_area": 0,
+      "volume": 0.044930001720786095,
+      "finite": true
+    },
+    {
+      "name": "BENTRY stair nose 18",
+      "nonmanifold": 0,
+      "zero_area": 0,
+      "volume": 0.044929109048098326,
+      "finite": true
+    },
+    {
+      "name": "BENTRY stair nose 19",
+      "nonmanifold": 0,
+      "zero_area": 0,
+      "volume": 0.044930001720786095,
+      "finite": true
+    },
+    {
+      "name": "BENTRY stair nose 20",
+      "nonmanifold": 0,
+      "zero_area": 0,
+      "volume": 0.044930001720786095,
+      "finite": true
+    },
+    {
+      "name": "BENTRY stair nose 21",
+      "nonmanifold": 0,
+      "zero_area": 0,
+      "volume": 0.044929109048098326,
+      "finite": true
+    },
+    {
+      "name": "BENTRY east sloping ramp",
+      "nonmanifold": 0,
+      "zero_area": 0,
+      "volume": 195.5250026471913,
+      "finite": true
+    },
+    {
+      "name": "BENTRY east upper landing wing",
+      "nonmanifold": 0,
+      "zero_area": 0,
+      "volume": 75.13000104576344,
+      "finite": true
+    },
+    {
+      "name": "BENTRY east outer retaining wall",
+      "nonmanifold": 0,
+      "zero_area": 0,
+      "volume": 37.98032647151721,
+      "finite": true
+    },
+    {
+      "name": "BENTRY east outer coping",
+      "nonmanifold": 0,
+      "zero_area": 0,
+      "volume": 3.112245851080232,
+      "finite": true
+    },
+    {
+      "name": "BENTRY east curved planter wall",
+      "nonmanifold": 0,
+      "zero_area": 0,
+      "volume": 98.91647620542805,
+      "finite": true
+    },
+    {
+      "name": "BENTRY east curved coping",
+      "nonmanifold": 0,
+      "zero_area": 0,
+      "volume": 7.066749836719055,
+      "finite": true
+    },
+    {
+      "name": "BENTRY east outer urn",
+      "nonmanifold": 0,
+      "zero_area": 0,
+      "volume": 0.740554229727314,
+      "finite": true
+    },
+    {
+      "name": "BENTRY east inner urn",
+      "nonmanifold": 0,
+      "zero_area": 0,
+      "volume": 0.7405542297273006,
+      "finite": true
+    },
+    {
+      "name": "BENTRY east burgundy planting",
+      "nonmanifold": 0,
+      "zero_area": 0,
+      "volume": 76.56220593549986,
+      "finite": true
+    },
+    {
+      "name": "BENTRY east clipped green planting",
+      "nonmanifold": 0,
+      "zero_area": 0,
+      "volume": 26.86500072479248,
+      "finite": true
+    },
+    {
+      "name": "BENTRY east platform apron",
+      "nonmanifold": 0,
+      "zero_area": 0,
+      "volume": 5.390000022947788,
+      "finite": true
+    },
+    {
+      "name": "BENTRY west sloping ramp",
+      "nonmanifold": 0,
+      "zero_area": 0,
+      "volume": 195.5250026471915,
+      "finite": true
+    },
+    {
+      "name": "BENTRY west upper landing wing",
+      "nonmanifold": 0,
+      "zero_area": 0,
+      "volume": 75.13000104576341,
+      "finite": true
+    },
+    {
+      "name": "BENTRY west outer retaining wall",
+      "nonmanifold": 0,
+      "zero_area": 0,
+      "volume": 37.98032587201508,
+      "finite": true
+    },
+    {
+      "name": "BENTRY west outer coping",
+      "nonmanifold": 0,
+      "zero_area": 0,
+      "volume": 3.112245261040182,
+      "finite": true
+    },
+    {
+      "name": "BENTRY west curved planter wall",
+      "nonmanifold": 0,
+      "zero_area": 0,
+      "volume": 99.2333373533975,
+      "finite": true
+    },
+    {
+      "name": "BENTRY west curved coping",
+      "nonmanifold": 0,
+      "zero_area": 0,
+      "volume": 7.958542554636603,
+      "finite": true
+    },
+    {
+      "name": "BENTRY west outer urn",
+      "nonmanifold": 0,
+      "zero_area": 0,
+      "volume": 0.7405554611965035,
+      "finite": true
+    },
+    {
+      "name": "BENTRY west inner urn",
+      "nonmanifold": 0,
+      "zero_area": 0,
+      "volume": 0.7405554611965192,
+      "finite": true
+    },
+    {
+      "name": "BENTRY west burgundy planting",
+      "nonmanifold": 0,
+      "zero_area": 0,
+      "volume": 76.56220593550027,
+      "finite": true
+    },
+    {
+      "name": "BENTRY west clipped green planting",
+      "nonmanifold": 0,
+      "zero_area": 0,
+      "volume": 26.865000724792523,
+      "finite": true
+    },
+    {
+      "name": "BENTRY west platform apron",
+      "nonmanifold": 0,
+      "zero_area": 0,
+      "volume": 5.390000022947788,
+      "finite": true
+    }
+  ],
+  "step_count": 22,
+  "inferred": {
+    "stair_rise": 0.15522727272727274,
+    "stair_tread": 0.3600000000000001,
+    "landing_height": 3.45,
+    "ramp_run": 25.61,
+    "symmetry": "Unseen mirrored plan inferred"
+  },
+  "views": [
+    "top",
+    "4464",
+    "4485"
+  ],
+  "baseline_unchanged": true,
+  "dimensions": "推定：照片比例，未实测"
+}

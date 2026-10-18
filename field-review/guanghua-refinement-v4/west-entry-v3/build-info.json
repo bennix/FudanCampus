@@ -1,0 +1,65 @@
+{
+  "source_sha256": "3192f28200b368dc502448c3ee4fbfa8bfe0ad4b3500bb9b145a0685ae4b3083",
+  "protected_objects": 984,
+  "protected_geometry_unchanged": true,
+  "main_lawn_east_entry_statue_and_terraces_unchanged": true,
+  "west_axis": -27.0,
+  "entry_line": 77.8544821533358,
+  "urn_y": 79.06448215333579,
+  "urn_centres": [
+    [
+      -30.5,
+      79.06448215333579
+    ],
+    [
+      -23.5,
+      79.06448215333579
+    ]
+  ],
+  "urn_clear_width": 4.7,
+  "walk_width": 3.6,
+  "north_opening_translation_y": -9.145517846664205,
+  "original_west_urn_meshes_removed": 6,
+  "copied_urn_components": [
+    "W_ENTRY 0 pedestal core",
+    "W_ENTRY 0 plinth foot",
+    "W_ENTRY 0 rounded coping",
+    "W_ENTRY 0 panel joint",
+    "W_ENTRY 0 panel joint.001",
+    "W_ENTRY 0 panel joint.002",
+    "W_ENTRY 0 panel joint.003",
+    "W_ENTRY 0 fluted bowl",
+    "W_ENTRY 0 soil",
+    "W_ENTRY 0 broad leaves",
+    "W_ENTRY 0 red flowers",
+    "W_ENTRY 1 pedestal core",
+    "W_ENTRY 1 plinth foot",
+    "W_ENTRY 1 rounded coping",
+    "W_ENTRY 1 panel joint",
+    "W_ENTRY 1 panel joint.001",
+    "W_ENTRY 1 panel joint.002",
+    "W_ENTRY 1 panel joint.003",
+    "W_ENTRY 1 fluted bowl",
+    "W_ENTRY 1 soil",
+    "W_ENTRY 1 broad leaves",
+    "W_ENTRY 1 red flowers"
+  ],
+  "west_walk_south_and_east_vertices_unchanged": true,
+  "west_path_vertices_below_y75_unchanged": true,
+  "cameras": {
+    "west-oblique": "W3 west comparison",
+    "west-front": "W3 west front",
+    "west-top": "W3 west top",
+    "paired-top": "W3 paired entrances top",
+    "overall": "FINAL landscape"
+  },
+  "source_photos": [
+    4469,
+    4491,
+    4492
+  ],
+  "limits": [
+    "photo-proportion reconstruction, not measured",
+    "entrance tips aligned; whole gardens and original lawn curve are not mirrored"
+  ]
+}

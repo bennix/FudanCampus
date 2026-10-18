@@ -1,0 +1,194 @@
+[
+  {
+    "name": "C03 west retaining wall",
+    "nonmanifold": 0,
+    "zero_area": 0,
+    "volume": 73.02231136356957,
+    "finite": true,
+    "faces": 6056
+  },
+  {
+    "name": "C03 west flower plinth wall",
+    "nonmanifold": 0,
+    "zero_area": 0,
+    "volume": 4.8587350318122375,
+    "finite": true,
+    "faces": 2252
+  },
+  {
+    "name": "C03 west retaining coping",
+    "nonmanifold": 0,
+    "zero_area": 0,
+    "volume": 6.161100518720732,
+    "finite": true,
+    "faces": 6304
+  },
+  {
+    "name": "C03 west flower plinth coping",
+    "nonmanifold": 0,
+    "zero_area": 0,
+    "volume": 0.9796016174525061,
+    "finite": true,
+    "faces": 2804
+  },
+  {
+    "name": "C03 west outer rail wall",
+    "nonmanifold": 0,
+    "zero_area": 0,
+    "volume": 31.19593891204541,
+    "finite": true,
+    "faces": 1764
+  },
+  {
+    "name": "C03 west outer flower plinth wall",
+    "nonmanifold": 0,
+    "zero_area": 0,
+    "volume": 4.672191142402267,
+    "finite": true,
+    "faces": 2552
+  },
+  {
+    "name": "C03 west outer rail coping",
+    "nonmanifold": 0,
+    "zero_area": 0,
+    "volume": 1.9676858346078099,
+    "finite": true,
+    "faces": 1896
+  },
+  {
+    "name": "C03 west outer flower plinth coping",
+    "nonmanifold": 0,
+    "zero_area": 0,
+    "volume": 0.9485501670740262,
+    "finite": true,
+    "faces": 3208
+  },
+  {
+    "name": "C03 west planting surface",
+    "nonmanifold": 0,
+    "zero_area": 0,
+    "volume": 596.7896201072857,
+    "finite": true,
+    "faces": 138908
+  },
+  {
+    "name": "C03 west burgundy shrubs",
+    "nonmanifold": 0,
+    "zero_area": 0,
+    "volume": 61.95808066428053,
+    "finite": true,
+    "faces": 21084
+  },
+  {
+    "name": "C03 west green shrubs",
+    "nonmanifold": 0,
+    "zero_area": 0,
+    "volume": 115.39836113373585,
+    "finite": true,
+    "faces": 58728
+  },
+  {
+    "name": "C03 east retaining wall",
+    "nonmanifold": 0,
+    "zero_area": 0,
+    "volume": 72.30301209194,
+    "finite": true,
+    "faces": 5768
+  },
+  {
+    "name": "C03 east flower plinth wall",
+    "nonmanifold": 0,
+    "zero_area": 0,
+    "volume": 4.858767536742469,
+    "finite": true,
+    "faces": 2732
+  },
+  {
+    "name": "C03 east retaining coping",
+    "nonmanifold": 0,
+    "zero_area": 0,
+    "volume": 6.033301238337007,
+    "finite": true,
+    "faces": 5836
+  },
+  {
+    "name": "C03 east flower plinth coping",
+    "nonmanifold": 0,
+    "zero_area": 0,
+    "volume": 0.9796097686182084,
+    "finite": true,
+    "faces": 3264
+  },
+  {
+    "name": "C03 east outer rail wall",
+    "nonmanifold": 0,
+    "zero_area": 0,
+    "volume": 31.033694833215932,
+    "finite": true,
+    "faces": 1764
+  },
+  {
+    "name": "C03 east outer flower plinth wall",
+    "nonmanifold": 0,
+    "zero_area": 0,
+    "volume": 4.672146443130857,
+    "finite": true,
+    "faces": 2516
+  },
+  {
+    "name": "C03 east outer rail coping",
+    "nonmanifold": 0,
+    "zero_area": 0,
+    "volume": 1.9375125855700321,
+    "finite": true,
+    "faces": 1904
+  },
+  {
+    "name": "C03 east outer flower plinth coping",
+    "nonmanifold": 0,
+    "zero_area": 0,
+    "volume": 0.9485588871281109,
+    "finite": true,
+    "faces": 1996
+  },
+  {
+    "name": "C03 east planting surface",
+    "nonmanifold": 0,
+    "zero_area": 0,
+    "volume": 579.0113550940179,
+    "finite": true,
+    "faces": 130048
+  },
+  {
+    "name": "C03 east burgundy shrubs",
+    "nonmanifold": 0,
+    "zero_area": 0,
+    "volume": 47.02542822504554,
+    "finite": true,
+    "faces": 17476
+  },
+  {
+    "name": "C03 east green shrubs",
+    "nonmanifold": 0,
+    "zero_area": 0,
+    "volume": 112.04906007744907,
+    "finite": true,
+    "faces": 58072
+  },
+  {
+    "name": "C04 continuous road",
+    "nonmanifold": 0,
+    "zero_area": 0,
+    "volume": 117.94408317011828,
+    "finite": true,
+    "faces": 36692
+  },
+  {
+    "name": "C04 continuous ground",
+    "nonmanifold": 0,
+    "zero_area": 0,
+    "volume": 277.14381840734313,
+    "finite": true,
+    "faces": 120416
+  }
+]

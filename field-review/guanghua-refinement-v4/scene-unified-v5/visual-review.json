@@ -1,0 +1,20 @@
+{
+  "date": "2026-09-30",
+  "scene_sha256": "ba1a1169e1ff4705db5b467ce2359fe8c086a2801f07548e8d5bb3f085fb310f",
+  "diagnostic_batch_reviewed": true,
+  "formal_images_reviewed": [
+    "overall.png",
+    "top.png",
+    "entry-planters.png",
+    "east-straight-path.png",
+    "entry-material-detail.png"
+  ],
+  "observations": [
+    "整体与俯视覆盖东西花园、楼前左右坛体和草坪东侧直通道，未发现合并引起的成果遗漏。",
+    "统一整体图与独立植被版保持同一相机及曝光，园内树冠、灌木层次与已完成硬景保持。",
+    "双坛图与近似 IMG_4464 机位可见继承的红绿叶片纹理；本轮未改坛体几何。",
+    "东直通道图可见独立矩形错缝、两侧齐平弧槽和连续接口，未发现明显新增黑面或断口。"
+  ],
+  "scope": "成果合并的视觉完整性核验；没有新增与现场照片的测量配准，也不作为全场景碰撞认证。",
+  "passed": true
+}

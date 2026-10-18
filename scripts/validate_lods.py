@@ -17,11 +17,11 @@ for a in lod['assets']:
   assert len(b)==t['bytes'] and hashlib.sha256(b).hexdigest()[:12]==t['revision']
   magic,version,size=struct.unpack_from('<III',b);assert magic==0x46546c67 and version==2 and size==len(b)
   n=struct.unpack_from('<I',b,12)[0];g=json.loads(b[20:20+n])
-  triangles=sum(g['accessors'][p['indices']]['count']//3 for mesh in g['meshes'] for p in mesh['primitives'])
+  triangles=sum(sum(g['accessors'][p['indices']]['count']//3 for p in g['meshes'][node['mesh']]['primitives'])*g['accessors'][next(iter(node['extensions']['EXT_mesh_gpu_instancing']['attributes'].values()))]['count'] if 'EXT_mesh_gpu_instancing' in node.get('extensions',{}) else sum(g['accessors'][p['indices']]['count']//3 for p in g['meshes'][node['mesh']]['primitives']) for node in g['nodes'] if 'mesh' in node)
   assert triangles==t['triangles'] and triangles>0
  assert a['tiers'][0]['triangles']<=a['tiers'][1]['triangles']<=a['tiers'][2]['triangles']
 initial=sum(a['tiers'][0]['bytes'] for a in lod['assets'])
 triangles=sum(a['tiers'][0]['triangles'] for a in lod['assets'])
 assert initial<5_000_000 and triangles<100_000,(initial,triangles)
-print('PASS: 15 assets, 3 LOD tiers, current source hashes, positions and GLB metadata')
+print(f"PASS: {len(lod['assets'])} assets, 3 LOD tiers, current source hashes, positions and GLB metadata")
 print(f'Overview payload: {initial:,} bytes; {triangles:,} triangles')

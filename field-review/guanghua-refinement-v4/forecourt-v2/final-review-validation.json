@@ -1,0 +1,93 @@
+{
+  "reviewed_at_utc": "2026-09-30T08:34:59.441329+00:00",
+  "mode": "resume finished checkpoint; inspect and render only",
+  "source_asset_sha256": {
+    "forecourt-entry-v1.blend": "ebfe4435b753600420082c50d81c738c3a3b6f4f5d225c63d1ebdeee2aa2e98f",
+    "forecourt-complete-v2.blend": "3192f28200b368dc502448c3ee4fbfa8bfe0ad4b3500bb9b145a0685ae4b3083",
+    "forecourt-complete-v2.glb": "f067beb97afbb4712827a81a769766ee3464f82ea629e21f299457f6d701ad09",
+    "poet-donkey.glb": "a920f362573923d968bbda89486fd9f40344bda79d558ec1c33c35bf90bd0a2a"
+  },
+  "checkpoint_reopened": true,
+  "protected_geometry_matches_build_info": true,
+  "protected_object_count": 74,
+  "inscription": "驢背詩思",
+  "inscription_is_exportable_mesh": true,
+  "inscription_inside_plate": true,
+  "inscription_in_front_of_plate_model_units": 0.0037027597427368164,
+  "plate_bounds_in_landmark_coordinates": {
+    "min": [
+      -0.5649980902671814,
+      -1.0724964141845703,
+      0.23499999940395355
+    ],
+    "max": [
+      0.565001904964447,
+      -1.0374964475631714,
+      0.7049999833106995
+    ]
+  },
+  "inscription_bounds_in_landmark_coordinates": {
+    "min": [
+      -0.4478701055049896,
+      -1.0777992010116577,
+      0.36769944429397583
+    ],
+    "max": [
+      0.43658971786499023,
+      -1.0761991739273071,
+      0.5716626048088074
+    ]
+  },
+  "rough_stone_clearance_lower_bound_model_units": 0.06494659185409546,
+  "pedestal_support_rays": 45,
+  "pedestal_support_distance_range_model_units": [
+    0.07826510071754456,
+    0.2024955302476883
+  ],
+  "exports": {
+    "forecourt-complete-v2.glb": {
+      "bytes": 200730084,
+      "embedded_images": 53,
+      "plaque_and_inscription_match_checkpoint": true
+    },
+    "poet-donkey.glb": {
+      "bytes": 17938472,
+      "embedded_images": 10,
+      "plaque_and_inscription_match_checkpoint": true
+    }
+  },
+  "render_complete": true,
+  "renders": [
+    {
+      "path": "final-plaque-front.png",
+      "resolution": [
+        1600,
+        1000
+      ],
+      "samples": 64,
+      "camera": "REVIEW ONLY plaque front",
+      "sha256": "e66fd3fe2f7a3a87f6b4afe8db102402cd184f4239c9108ad00956afa9c7009b"
+    },
+    {
+      "path": "final-plaque-oblique.png",
+      "resolution": [
+        1600,
+        1000
+      ],
+      "samples": 64,
+      "camera": "REVIEW ONLY plaque oblique",
+      "sha256": "eeef4786cc4a49073c550dd51f67d3290cbc44339a59ae2f3ed44b1bb4b69f81"
+    },
+    {
+      "path": "final-statue.png",
+      "resolution": [
+        1800,
+        1350
+      ],
+      "samples": 64,
+      "camera": "FC statue photo4468",
+      "sha256": "5856cfc7b10132cca9923f6134164e46aff3e6ad2276443d5dcb8361e4401dc7"
+    }
+  ],
+  "all_source_assets_unchanged": true
+}

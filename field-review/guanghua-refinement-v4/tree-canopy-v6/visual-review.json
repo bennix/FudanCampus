@@ -1,0 +1,21 @@
+{
+  "scene_sha256": "c8ceb97189ba180f5d3887ceec7651a9c6a34b6a32dfbdce53338eaaaccf6fdb",
+  "render_inspection_completed": true,
+  "user_visual_acceptance": false,
+  "images_reviewed": ["west-platform.png", "east-understory.png", "south-walk.png", "south-elevation.png", "overall.png", "top.png", "east-exit.png"],
+  "observations": [
+    "The dense filled spherical canopy envelope from diagnostic1 has been removed. Final foliage follows unequal branch sprays with breaks, different spans and irregular tops.",
+    "Two trial background broadleaf trees were withdrawn; the original 29 garden and 16 southern broadleaf root positions remain, with four inferred conifers added.",
+    "Final leaf count lies between the overfilled first and overthinned second trials. Open east-front crowns retain visible branches.",
+    "Southern avenue combines broadleaf spreading crowns and upright narrow conifers; trunks remain above the grass planting strip, with the central lawn open.",
+    "Top and overall show preserved plaza, planters, east corridor, garden paths, garage roofs and low shrubs.",
+    "No solid ball crown surfaces or artificial opaque cones were used. Thin leaf meshes and deliberately overlapping branches form the new trees."
+  ],
+  "remaining_limits": [
+    "This is a procedural visual revision, not a measured or individual-tree replica; branch detail and exact species remain inferred.",
+    "The approximate photo cameras do not reproduce all photo foreground framing and depth.",
+    "Branch subdivision, bark appearance and leaf silhouettes remain simplified; the result is submitted for visual review, not declared a photorealistic match.",
+    "Previously accepted low shrubs and their large foreground leaf blades were protected and not changed in this tree-only iteration.",
+    "Garage sign sizing/export and campus webpage switching remain separate work."
+  ]
+}
