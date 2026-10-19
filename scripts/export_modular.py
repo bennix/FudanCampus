@@ -10,7 +10,7 @@ from asset_protection import assert_export_allowed
 
 ROOT = Path(__file__).resolve().parents[1]
 PUBLIC = ROOT / 'web/public'
-IDS = ['3', '5', '7', '14', '16', '20', '27', '51', '55', '56', '65']
+IDS = ['3', '5', '7', '14', '16', '17', '20', '27', '51', '55', '56', '65']
 
 
 def read_json(path):
@@ -89,7 +89,7 @@ if __name__ == '__main__':
     args = sys.argv[sys.argv.index('--')+1:] if '--' in sys.argv else []
     if args:
         if len(args) != 2 or args[0] != '--building' or args[1] not in IDS:
-            raise ValueError('Expected -- --building ID (3,5,7,14,16,20,27,51,55,56,65)')
+            raise ValueError('Expected -- --building ID (' + ','.join(IDS) + ')')
         bid = args[1]
         assert_export_allowed(bid)
         manifest = json.loads((PUBLIC / 'campus-manifest.json').read_text(encoding='utf-8-sig'))

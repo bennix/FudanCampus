@@ -102,56 +102,6 @@
       ]
     },
     {
-      "id": "shared-02",
-      "name": "02 West academic blocks",
-      "sourceRevision": "7fa75aab7af1",
-      "labelPosition": null,
-      "position": [
-        0,
-        0,
-        0
-      ],
-      "rotation": [
-        0,
-        0,
-        0
-      ],
-      "bounds": {
-        "min": [
-          -393.5249938964844,
-          0,
-          -327.92498779296875
-        ],
-        "max": [
-          285.92498779296875,
-          19.15404510498047,
-          -5.860000133514404
-        ]
-      },
-      "nearDistance": 100,
-      "mediumDistance": 340,
-      "tiers": [
-        {
-          "url": "models/lod/shared-02-far.glb",
-          "revision": "97b5e8348fa0",
-          "bytes": 1872092,
-          "triangles": 151968
-        },
-        {
-          "url": "models/lod/shared-02-medium.glb",
-          "revision": "97b5e8348fa0",
-          "bytes": 1872092,
-          "triangles": 151968
-        },
-        {
-          "url": "models/shared/02.glb",
-          "revision": "7fa75aab7af1",
-          "bytes": 9096152,
-          "triangles": 151968
-        }
-      ]
-    },
-    {
       "id": "shared-03",
       "name": "03 North campus",
       "sourceRevision": "d537da09f067",
@@ -6645,6 +6595,110 @@
           "bytes": 23980,
           "triangles": 768,
           "revision": "5bb4613ed709"
+        }
+      ]
+    },
+    {
+      "id": "shared-02",
+      "name": "02 West academic blocks",
+      "sourceRevision": "54f117e80e32",
+      "labelPosition": null,
+      "position": [
+        0,
+        0,
+        0
+      ],
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "bounds": {
+        "min": [
+          -393.5249938964844,
+          0,
+          -327.92498779296875
+        ],
+        "max": [
+          285.92498779296875,
+          19.15404510498047,
+          -5.860000133514404
+        ]
+      },
+      "nearDistance": 100,
+      "mediumDistance": 340,
+      "tiers": [
+        {
+          "url": "models/lod/shared-02-far.glb",
+          "revision": "188ba3a4fd07",
+          "bytes": 1838484,
+          "triangles": 149326
+        },
+        {
+          "url": "models/lod/shared-02-medium.glb",
+          "revision": "188ba3a4fd07",
+          "bytes": 1838484,
+          "triangles": 149326
+        },
+        {
+          "url": "models/shared/02-teaching4.glb",
+          "revision": "54f117e80e32",
+          "bytes": 10880744,
+          "triangles": 149326
+        }
+      ]
+    },
+    {
+      "id": "buildings-17",
+      "name": "第四教学楼",
+      "sourceRevision": "28e8ce4db2af",
+      "labelPosition": [
+        -154.4,
+        22,
+        -204
+      ],
+      "position": [
+        -154.4,
+        0,
+        -204
+      ],
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "bounds": {
+        "min": [
+          -175.15,
+          0.1599999964237213,
+          -212.85000038146973
+        ],
+        "max": [
+          -133.65,
+          21.130001068115234,
+          -190.98622703552246
+        ]
+      },
+      "nearDistance": 100,
+      "mediumDistance": 340,
+      "tiers": [
+        {
+          "url": "models/lod/buildings-17-far.glb",
+          "revision": "c834a4507853",
+          "bytes": 1045540,
+          "triangles": 62680
+        },
+        {
+          "url": "models/lod/buildings-17-medium.glb",
+          "revision": "e30b9cea982e",
+          "bytes": 1081144,
+          "triangles": 68266
+        },
+        {
+          "url": "models/buildings/17.glb",
+          "revision": "28e8ce4db2af",
+          "bytes": 3969200,
+          "triangles": 70316
         }
       ]
     }

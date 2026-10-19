@@ -232,10 +232,10 @@
       "name": "第四教学楼",
       "position": [
         -154.4,
-        14.75,
-        -204.0
+        22,
+        -204
       ],
-      "source": "map",
+      "source": "user photographs; approximate dimensions",
       "category": "building",
       "mapPixel": [
         1007.0,

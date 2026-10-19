@@ -19,9 +19,9 @@
     {
       "id": "02",
       "name": "02 West academic blocks",
-      "url": "models/shared/02.glb",
-      "revision": "7fa75aab7af1",
-      "bytes": 9096152
+      "url": "models/shared/02-teaching4.glb",
+      "revision": "54f117e80e32",
+      "bytes": 10880744
     },
     {
       "id": "03",
@@ -270,6 +270,49 @@
       ],
       "loadDistance": 240,
       "overviewMode": "full"
+    },
+    {
+      "id": "17",
+      "name": "第四教学楼",
+      "url": "models/buildings/17.glb",
+      "bytes": 3969200,
+      "revision": "28e8ce4db2af",
+      "overview": {
+        "url": "models/buildings/17.glb",
+        "bytes": 3969200,
+        "revision": "28e8ce4db2af"
+      },
+      "overviewMode": "full",
+      "position": [
+        -154.4,
+        0,
+        -204
+      ],
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "orientationBaked": true,
+      "bounds": {
+        "min": [
+          -20.75,
+          0.1599999964237213,
+          -8.850000381469727
+        ],
+        "max": [
+          20.75,
+          21.130001068115234,
+          13.013772964477539
+        ]
+      },
+      "labelPosition": [
+        -154.4,
+        22,
+        -204
+      ],
+      "loadDistance": 240,
+      "source": "Eight user photographs; map footprint; dimensions inferred"
     },
     {
       "id": "20",

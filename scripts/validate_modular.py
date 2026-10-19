@@ -6,7 +6,7 @@ root = Path(__file__).resolve().parents[1]
 public = root / 'web/public'
 m = json.loads((public / 'campus-manifest.json').read_text(encoding='utf-8'))
 verify_protected_sources()
-ids = {'3','5','7','14','16','20','27','42','51','55','56','65'}
+ids = {'3','5','7','14','16','17','20','27','42','51','55','56','65'}
 assert {b['id'] for b in m['buildings']} == ids
 
 def read(asset):
@@ -33,7 +33,7 @@ for asset in m['shared']:
     for node in gltf['nodes']:
         extras = node.get('extras',{})
         node_id = str(extras.get('building_id',extras.get('landmark_id','')))
-        assert node_id not in ids or (asset['url'] == 'models/shared/03.glb' and node_id in {'3', '5'}) or (asset['url'] == 'models/shared/02.glb' and node_id == '7')  # Hidden legacy north blocks
+        assert node_id not in ids or (asset['url'] == 'models/shared/03.glb' and node_id in {'3', '5'}) or (asset['url'] in {'models/shared/02.glb', 'models/shared/02-teaching4.glb'} and node_id == '7')  # Hidden legacy north blocks
 blend_optional = {'3', '5', '7'}
 for b in m['buildings']:
     assert b['id'] in blend_optional or (root / b.get('editableSource', f"assets/buildings/{b['id']}.blend")).exists()

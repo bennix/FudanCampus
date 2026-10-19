@@ -1,5 +1,23 @@
 # 校园场景复原
 
+## 第四教学楼（17 号）照片复原
+
+依据用户提供的八张照片，将原三层占位楼替换为六层灰白教学楼，包含正面五层挑出阳台、入口文字与台阶、竖向分缝塔、背面四列窄窗楼梯间、红褐色墙脚，以及门前弧形花坛、错位叠书雕塑和钟面。地图 footprint 和位置保留；层高、进深、花坛尺度及未拍到的部分按比例推定，雕塑基座模糊铭文未臆造。
+
+可编辑源：`assets/buildings/17.blend`；造型：`scripts/teaching4_geometry.py`；参考原图：`references/teaching4/`。渲染见 `output/teaching4-front.png`、`output/teaching4-rear.png` 和 `output/teaching4-sculpture.png`。网页支持 `?view=teaching4`、`?view=teaching4-books`、`?view=teaching4-rear`。
+
+单独重建（先备份手工修改过的 17.blend）：
+
+```sh
+blender -b -t 8 --python scripts/update_teaching4.py
+python3 scripts/integrate_teaching4.py
+blender -b -t 8 --python scripts/build_lods.py -- buildings-17
+blender -b -t 8 --python scripts/build_lods.py -- shared-02
+node web/validate-teaching4.mjs
+```
+
+公共区域从原 `02.glb` 派生为 `02-teaching4.glb`，仅移除旧四教主体和 2,630 个旧细节三角面。原文件保留，专项验证逐面比对其他建筑及原二进制缓冲。
+
 ## 毛主席像（58 号）
 
 人物已替换为 [1821427398 的「毛主席雕塑像」](https://sketchfab.com/3d-models/ef18c25e1e094cf99e2b377ad7377d05)（CC BY 4.0）。保留现有基座、铭牌和地图位置，裁去下载模型自带的小基座并统一缩放、调整石材材质。该模型源自重庆大学雕像，作为外形近似替代；网页提供模型署名链接。原文件及许可说明位于 `assets/landmarks/sources/`。
