@@ -1,0 +1,11 @@
+{
+  "objects": 105,
+  "triangles": 1323270,
+  "dimensions": "approximate metres",
+  "source": "user photographs",
+  "renders": [
+    "overview.png",
+    "pond.png",
+    "pavilion.png"
+  ]
+}

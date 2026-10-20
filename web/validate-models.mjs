@@ -39,3 +39,5 @@ console.log(`PASS: ${manifest.buildings.length} detail and overview GLBs load in
 await import('./validate-hanbing-context.mjs');
 if(manifest.buildings.some(a=>a.id==='17'))await import('./validate-teaching4.mjs');
 if(manifest.shared.some(a=>a.id==='guanghua-landscape'))await import('./validate-guanghua-integration.mjs');
+
+if(manifest.shared.some(a=>a.id==='photo-teaching3'))await import('./validate-photo-integration.mjs');

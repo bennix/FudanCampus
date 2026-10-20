@@ -1,0 +1,50 @@
+[
+  {
+    "model": "xiyuan",
+    "blend_reopened": true,
+    "finite_vertices": true,
+    "no_zero_area_faces": true,
+    "required_features": [
+      "bridge X bracing",
+      "pond water",
+      "pavilion",
+      "lotus",
+      "flag pole"
+    ],
+    "glb_reimported_meshes": 105,
+    "bytes": 95879560,
+    "sha256": "f07875f35e9bf489220883cd69b64063816cd7d2988a622fb15660cf04e119db"
+  },
+  {
+    "model": "yeyaozhen",
+    "blend_reopened": true,
+    "finite_vertices": true,
+    "no_zero_area_faces": true,
+    "required_features": [
+      "curved ceramic facade",
+      "round ceramic shop columns",
+      "side exterior staircase",
+      "叶",
+      "学生"
+    ],
+    "glb_reimported_meshes": 47,
+    "bytes": 14191332,
+    "sha256": "76bae11b26dd2ddce052c929dcf0bf9cd0b7433d6b99b91617fc2ce6204c87b0"
+  },
+  {
+    "model": "teaching3",
+    "blend_reopened": true,
+    "finite_vertices": true,
+    "no_zero_area_faces": true,
+    "required_features": [
+      "exposed return stair treads",
+      "gallery ceiling grid",
+      "central entry stairs",
+      "metal sphere sculpture",
+      "第三教学楼"
+    ],
+    "glb_reimported_meshes": 84,
+    "bytes": 16128144,
+    "sha256": "fbe082cc12f614be9a2a46e08325689d727281af0848561d2458826e81d28185"
+  }
+]

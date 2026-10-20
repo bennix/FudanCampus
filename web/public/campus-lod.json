@@ -4,7 +4,7 @@
     {
       "id": "shared-00",
       "name": "00 Terrain and roads",
-      "sourceRevision": "3e1fd09514ba",
+      "sourceRevision": "30a1761b99cd",
       "labelPosition": null,
       "position": [
         0,
@@ -32,22 +32,22 @@
       "mediumDistance": 0,
       "tiers": [
         {
-          "url": "models/lod/shared-00-far.glb",
-          "revision": "820c1dc63b30",
-          "bytes": 147664,
-          "triangles": 2654
+          "url": "models/lod/shared-00-far-photo.glb",
+          "revision": "b7e65d8f3d0e",
+          "bytes": 147332,
+          "triangles": 2278
         },
         {
-          "url": "models/lod/shared-00-medium.glb",
-          "revision": "cf1e9a5b50a5",
-          "bytes": 701864,
-          "triangles": 2662
+          "url": "models/lod/shared-00-medium-photo.glb",
+          "revision": "aedde5ccd618",
+          "bytes": 701528,
+          "triangles": 2286
         },
         {
-          "url": "models/shared/00-guanghua-merged.glb",
-          "revision": "3e1fd09514ba",
-          "bytes": 3431968,
-          "triangles": 4716
+          "url": "models/shared/00-guanghua-merged-photo.glb",
+          "revision": "30a1761b99cd",
+          "bytes": 3431884,
+          "triangles": 4340
         }
       ]
     },
@@ -204,7 +204,7 @@
     {
       "id": "shared-05",
       "name": "05 Landscape",
-      "sourceRevision": "39c56a008f4e",
+      "sourceRevision": "22814ea822d5",
       "labelPosition": null,
       "position": [
         0,
@@ -232,22 +232,22 @@
       "mediumDistance": 340,
       "tiers": [
         {
-          "url": "models/lod/shared-05-trunks.glb",
-          "bytes": 69428,
-          "revision": "51db98ad41d2",
-          "triangles": 6456
+          "url": "models/lod/shared-05-trunks-photo.glb",
+          "bytes": 89344,
+          "revision": "5763f35fa404",
+          "triangles": 6334
         },
         {
-          "url": "models/lod/shared-05-trunks.glb",
-          "bytes": 69428,
-          "revision": "51db98ad41d2",
-          "triangles": 6456
+          "url": "models/lod/shared-05-trunks-photo.glb",
+          "bytes": 89344,
+          "revision": "5763f35fa404",
+          "triangles": 6334
         },
         {
-          "url": "models/lod/shared-05-trunks.glb",
-          "bytes": 69428,
-          "revision": "51db98ad41d2",
-          "triangles": 6456
+          "url": "models/lod/shared-05-trunks-photo.glb",
+          "bytes": 89344,
+          "revision": "5763f35fa404",
+          "triangles": 6334
         }
       ]
     },
@@ -4202,7 +4202,7 @@
       "id": "campus-tree--5_-4",
       "sourceId": "shared-05",
       "name": "校园树木 -5_-4",
-      "sourceRevision": "39c56a008f4e",
+      "sourceRevision": "22814ea822d5",
       "position": [
         0,
         0,
@@ -4252,7 +4252,7 @@
       "id": "campus-tree--4_-4",
       "sourceId": "shared-05",
       "name": "校园树木 -4_-4",
-      "sourceRevision": "39c56a008f4e",
+      "sourceRevision": "22814ea822d5",
       "position": [
         0,
         0,
@@ -4302,7 +4302,7 @@
       "id": "campus-tree--3_-4",
       "sourceId": "shared-05",
       "name": "校园树木 -3_-4",
-      "sourceRevision": "39c56a008f4e",
+      "sourceRevision": "22814ea822d5",
       "position": [
         0,
         0,
@@ -4352,7 +4352,7 @@
       "id": "campus-tree--2_-4",
       "sourceId": "shared-05",
       "name": "校园树木 -2_-4",
-      "sourceRevision": "39c56a008f4e",
+      "sourceRevision": "22814ea822d5",
       "position": [
         0,
         0,
@@ -4402,7 +4402,7 @@
       "id": "campus-tree--1_-4",
       "sourceId": "shared-05",
       "name": "校园树木 -1_-4",
-      "sourceRevision": "39c56a008f4e",
+      "sourceRevision": "22814ea822d5",
       "position": [
         0,
         0,
@@ -4452,7 +4452,7 @@
       "id": "campus-tree-0_-4",
       "sourceId": "shared-05",
       "name": "校园树木 0_-4",
-      "sourceRevision": "39c56a008f4e",
+      "sourceRevision": "22814ea822d5",
       "position": [
         0,
         0,
@@ -4502,7 +4502,7 @@
       "id": "campus-tree-1_-4",
       "sourceId": "shared-05",
       "name": "校园树木 1_-4",
-      "sourceRevision": "39c56a008f4e",
+      "sourceRevision": "22814ea822d5",
       "position": [
         0,
         0,
@@ -4552,7 +4552,7 @@
       "id": "campus-tree-2_-4",
       "sourceId": "shared-05",
       "name": "校园树木 2_-4",
-      "sourceRevision": "39c56a008f4e",
+      "sourceRevision": "22814ea822d5",
       "position": [
         0,
         0,
@@ -4602,7 +4602,7 @@
       "id": "campus-tree-3_-4",
       "sourceId": "shared-05",
       "name": "校园树木 3_-4",
-      "sourceRevision": "39c56a008f4e",
+      "sourceRevision": "22814ea822d5",
       "position": [
         0,
         0,
@@ -4652,7 +4652,7 @@
       "id": "campus-tree--5_-3",
       "sourceId": "shared-05",
       "name": "校园树木 -5_-3",
-      "sourceRevision": "39c56a008f4e",
+      "sourceRevision": "22814ea822d5",
       "position": [
         0,
         0,
@@ -4702,7 +4702,7 @@
       "id": "campus-tree--4_-3",
       "sourceId": "shared-05",
       "name": "校园树木 -4_-3",
-      "sourceRevision": "39c56a008f4e",
+      "sourceRevision": "22814ea822d5",
       "position": [
         0,
         0,
@@ -4752,7 +4752,7 @@
       "id": "campus-tree--2_-3",
       "sourceId": "shared-05",
       "name": "校园树木 -2_-3",
-      "sourceRevision": "39c56a008f4e",
+      "sourceRevision": "22814ea822d5",
       "position": [
         0,
         0,
@@ -4802,7 +4802,7 @@
       "id": "campus-tree-2_-3",
       "sourceId": "shared-05",
       "name": "校园树木 2_-3",
-      "sourceRevision": "39c56a008f4e",
+      "sourceRevision": "22814ea822d5",
       "position": [
         0,
         0,
@@ -4852,7 +4852,7 @@
       "id": "campus-tree-3_-3",
       "sourceId": "shared-05",
       "name": "校园树木 3_-3",
-      "sourceRevision": "39c56a008f4e",
+      "sourceRevision": "22814ea822d5",
       "position": [
         0,
         0,
@@ -4902,7 +4902,7 @@
       "id": "campus-tree--5_-1",
       "sourceId": "shared-05",
       "name": "校园树木 -5_-1",
-      "sourceRevision": "39c56a008f4e",
+      "sourceRevision": "22814ea822d5",
       "position": [
         0,
         0,
@@ -4952,7 +4952,7 @@
       "id": "campus-tree--4_-1",
       "sourceId": "shared-05",
       "name": "校园树木 -4_-1",
-      "sourceRevision": "39c56a008f4e",
+      "sourceRevision": "22814ea822d5",
       "position": [
         0,
         0,
@@ -5002,7 +5002,7 @@
       "id": "campus-tree--3_-1",
       "sourceId": "shared-05",
       "name": "校园树木 -3_-1",
-      "sourceRevision": "39c56a008f4e",
+      "sourceRevision": "22814ea822d5",
       "position": [
         0,
         0,
@@ -5052,7 +5052,7 @@
       "id": "campus-tree--1_-1",
       "sourceId": "shared-05",
       "name": "校园树木 -1_-1",
-      "sourceRevision": "39c56a008f4e",
+      "sourceRevision": "22814ea822d5",
       "position": [
         0,
         0,
@@ -5079,22 +5079,22 @@
       "mediumDistance": 200,
       "tiers": [
         {
-          "url": "models/lod/campus-tree--1_-1-far.glb",
-          "bytes": 110356,
-          "triangles": 4864,
-          "revision": "a03e15846651"
+          "url": "models/lod/campus-tree--1_-1-far-photo.glb",
+          "bytes": 127708,
+          "triangles": 4805,
+          "revision": "23546bccec98"
         },
         {
-          "url": "models/lod/campus-tree--1_-1-middle.glb",
-          "bytes": 238716,
-          "triangles": 10944,
-          "revision": "ef95ba254385"
+          "url": "models/lod/campus-tree--1_-1-middle-photo.glb",
+          "bytes": 277340,
+          "triangles": 10808,
+          "revision": "731e1dd6d9ff"
         },
         {
-          "url": "models/lod/campus-tree--1_-1-near.glb",
-          "bytes": 418872,
-          "triangles": 19456,
-          "revision": "e7fb87eb68b1"
+          "url": "models/lod/campus-tree--1_-1-near-photo.glb",
+          "bytes": 487256,
+          "triangles": 19210,
+          "revision": "36eaec8ccd95"
         }
       ]
     },
@@ -5102,7 +5102,7 @@
       "id": "campus-tree-0_-1",
       "sourceId": "shared-05",
       "name": "校园树木 0_-1",
-      "sourceRevision": "39c56a008f4e",
+      "sourceRevision": "22814ea822d5",
       "position": [
         0,
         0,
@@ -5129,22 +5129,22 @@
       "mediumDistance": 200,
       "tiers": [
         {
-          "url": "models/lod/campus-tree-0_-1-far.glb",
-          "bytes": 164300,
-          "triangles": 7424,
-          "revision": "90a5741cdc40"
+          "url": "models/lod/campus-tree-0_-1-far-photo.glb",
+          "bytes": 186416,
+          "triangles": 6074,
+          "revision": "cd98004d219a"
         },
         {
-          "url": "models/lod/campus-tree-0_-1-middle.glb",
-          "bytes": 360776,
-          "triangles": 16704,
-          "revision": "b5921ad3b08b"
+          "url": "models/lod/campus-tree-0_-1-middle-photo.glb",
+          "bytes": 410128,
+          "triangles": 13673,
+          "revision": "211202ea682b"
         },
         {
-          "url": "models/lod/campus-tree-0_-1-near.glb",
-          "bytes": 635596,
-          "triangles": 29696,
-          "revision": "8b84448bc984"
+          "url": "models/lod/campus-tree-0_-1-near-photo.glb",
+          "bytes": 723068,
+          "triangles": 24307,
+          "revision": "12f144075a9c"
         }
       ]
     },
@@ -5152,7 +5152,7 @@
       "id": "campus-tree-1_-1",
       "sourceId": "shared-05",
       "name": "校园树木 1_-1",
-      "sourceRevision": "39c56a008f4e",
+      "sourceRevision": "22814ea822d5",
       "position": [
         0,
         0,
@@ -5202,7 +5202,7 @@
       "id": "campus-tree-2_-1",
       "sourceId": "shared-05",
       "name": "校园树木 2_-1",
-      "sourceRevision": "39c56a008f4e",
+      "sourceRevision": "22814ea822d5",
       "position": [
         0,
         0,
@@ -5252,7 +5252,7 @@
       "id": "campus-tree-3_-1",
       "sourceId": "shared-05",
       "name": "校园树木 3_-1",
-      "sourceRevision": "39c56a008f4e",
+      "sourceRevision": "22814ea822d5",
       "position": [
         0,
         0,
@@ -5302,7 +5302,7 @@
       "id": "campus-tree--2_-1",
       "sourceId": "shared-05",
       "name": "校园树木 -2_-1",
-      "sourceRevision": "39c56a008f4e",
+      "sourceRevision": "22814ea822d5",
       "position": [
         0,
         0,
@@ -5352,7 +5352,7 @@
       "id": "campus-tree-0_-3",
       "sourceId": "shared-05",
       "name": "校园树木 0_-3",
-      "sourceRevision": "39c56a008f4e",
+      "sourceRevision": "22814ea822d5",
       "position": [
         0,
         0,
@@ -5402,7 +5402,7 @@
       "id": "campus-tree-0_-2",
       "sourceId": "shared-05",
       "name": "校园树木 0_-2",
-      "sourceRevision": "39c56a008f4e",
+      "sourceRevision": "22814ea822d5",
       "position": [
         0,
         0,
@@ -5429,22 +5429,22 @@
       "mediumDistance": 200,
       "tiers": [
         {
-          "url": "models/lod/campus-tree-0_-2-far.glb",
-          "bytes": 94656,
-          "triangles": 4096,
-          "revision": "c410654ad78c"
+          "url": "models/lod/campus-tree-0_-2-far-photo.glb",
+          "bytes": 105100,
+          "triangles": 2425,
+          "revision": "2a5736897663"
         },
         {
-          "url": "models/lod/campus-tree-0_-2-middle.glb",
-          "bytes": 202100,
-          "triangles": 9216,
-          "revision": "8b1f2ef6bfb8"
+          "url": "models/lod/campus-tree-0_-2-middle-photo.glb",
+          "bytes": 225028,
+          "triangles": 5442,
+          "revision": "cd0d520aec8e"
         },
         {
-          "url": "models/lod/campus-tree-0_-2-near.glb",
-          "bytes": 353920,
-          "triangles": 16384,
-          "revision": "d9256fea13ee"
+          "url": "models/lod/campus-tree-0_-2-near-photo.glb",
+          "bytes": 394232,
+          "triangles": 9636,
+          "revision": "cb0761d890d0"
         }
       ]
     },
@@ -5452,7 +5452,7 @@
       "id": "campus-tree-2_-2",
       "sourceId": "shared-05",
       "name": "校园树木 2_-2",
-      "sourceRevision": "39c56a008f4e",
+      "sourceRevision": "22814ea822d5",
       "position": [
         0,
         0,
@@ -5502,7 +5502,7 @@
       "id": "campus-tree-3_-2",
       "sourceId": "shared-05",
       "name": "校园树木 3_-2",
-      "sourceRevision": "39c56a008f4e",
+      "sourceRevision": "22814ea822d5",
       "position": [
         0,
         0,
@@ -5552,7 +5552,7 @@
       "id": "campus-tree--1_-2",
       "sourceId": "shared-05",
       "name": "校园树木 -1_-2",
-      "sourceRevision": "39c56a008f4e",
+      "sourceRevision": "22814ea822d5",
       "position": [
         0,
         0,
@@ -5579,22 +5579,22 @@
       "mediumDistance": 200,
       "tiers": [
         {
-          "url": "models/lod/campus-tree--1_-2-far.glb",
-          "bytes": 106412,
-          "triangles": 4736,
-          "revision": "132159016c9c"
+          "url": "models/lod/campus-tree--1_-2-far-photo.glb",
+          "bytes": 121296,
+          "triangles": 4423,
+          "revision": "d250598c3a6b"
         },
         {
-          "url": "models/lod/campus-tree--1_-2-middle.glb",
-          "bytes": 231312,
-          "triangles": 10656,
-          "revision": "ce5728271353"
+          "url": "models/lod/campus-tree--1_-2-middle-photo.glb",
+          "bytes": 264396,
+          "triangles": 9962,
+          "revision": "c9685b7ef7b9"
         },
         {
-          "url": "models/lod/campus-tree--1_-2-near.glb",
-          "bytes": 406024,
-          "triangles": 18944,
-          "revision": "bd502eac90d4"
+          "url": "models/lod/campus-tree--1_-2-near-photo.glb",
+          "bytes": 464540,
+          "triangles": 17711,
+          "revision": "3830fe8ec932"
         }
       ]
     },
@@ -5602,7 +5602,7 @@
       "id": "campus-tree-5_-3",
       "sourceId": "shared-05",
       "name": "校园树木 5_-3",
-      "sourceRevision": "39c56a008f4e",
+      "sourceRevision": "22814ea822d5",
       "position": [
         0,
         0,
@@ -5652,7 +5652,7 @@
       "id": "campus-tree-5_-4",
       "sourceId": "shared-05",
       "name": "校园树木 5_-4",
-      "sourceRevision": "39c56a008f4e",
+      "sourceRevision": "22814ea822d5",
       "position": [
         0,
         0,
@@ -5702,7 +5702,7 @@
       "id": "campus-tree--2_-2",
       "sourceId": "shared-05",
       "name": "校园树木 -2_-2",
-      "sourceRevision": "39c56a008f4e",
+      "sourceRevision": "22814ea822d5",
       "position": [
         0,
         0,
@@ -5752,7 +5752,7 @@
       "id": "campus-tree--4_-2",
       "sourceId": "shared-05",
       "name": "校园树木 -4_-2",
-      "sourceRevision": "39c56a008f4e",
+      "sourceRevision": "22814ea822d5",
       "position": [
         0,
         0,
@@ -5802,7 +5802,7 @@
       "id": "campus-tree-4_-3",
       "sourceId": "shared-05",
       "name": "校园树木 4_-3",
-      "sourceRevision": "39c56a008f4e",
+      "sourceRevision": "22814ea822d5",
       "position": [
         0,
         0,
@@ -5852,7 +5852,7 @@
       "id": "campus-tree-5_-2",
       "sourceId": "shared-05",
       "name": "校园树木 5_-2",
-      "sourceRevision": "39c56a008f4e",
+      "sourceRevision": "22814ea822d5",
       "position": [
         0,
         0,
@@ -5902,7 +5902,7 @@
       "id": "campus-tree-4_-4",
       "sourceId": "shared-05",
       "name": "校园树木 4_-4",
-      "sourceRevision": "39c56a008f4e",
+      "sourceRevision": "22814ea822d5",
       "position": [
         0,
         0,
@@ -5952,7 +5952,7 @@
       "id": "campus-tree-5_-1",
       "sourceId": "shared-05",
       "name": "校园树木 5_-1",
-      "sourceRevision": "39c56a008f4e",
+      "sourceRevision": "22814ea822d5",
       "position": [
         0,
         0,
@@ -6002,7 +6002,7 @@
       "id": "campus-tree--1_-3",
       "sourceId": "shared-05",
       "name": "校园树木 -1_-3",
-      "sourceRevision": "39c56a008f4e",
+      "sourceRevision": "22814ea822d5",
       "position": [
         0,
         0,
@@ -6052,7 +6052,7 @@
       "id": "campus-tree-4_-2",
       "sourceId": "shared-05",
       "name": "校园树木 4_-2",
-      "sourceRevision": "39c56a008f4e",
+      "sourceRevision": "22814ea822d5",
       "position": [
         0,
         0,
@@ -6102,7 +6102,7 @@
       "id": "campus-tree--3_-3",
       "sourceId": "shared-05",
       "name": "校园树木 -3_-3",
-      "sourceRevision": "39c56a008f4e",
+      "sourceRevision": "22814ea822d5",
       "position": [
         0,
         0,
@@ -6152,7 +6152,7 @@
       "id": "campus-tree--5_-2",
       "sourceId": "shared-05",
       "name": "校园树木 -5_-2",
-      "sourceRevision": "39c56a008f4e",
+      "sourceRevision": "22814ea822d5",
       "position": [
         0,
         0,
@@ -6202,7 +6202,7 @@
       "id": "campus-tree-1_-2",
       "sourceId": "shared-05",
       "name": "校园树木 1_-2",
-      "sourceRevision": "39c56a008f4e",
+      "sourceRevision": "22814ea822d5",
       "position": [
         0,
         0,
@@ -6252,7 +6252,7 @@
       "id": "campus-tree-4_-1",
       "sourceId": "shared-05",
       "name": "校园树木 4_-1",
-      "sourceRevision": "39c56a008f4e",
+      "sourceRevision": "22814ea822d5",
       "position": [
         0,
         0,
@@ -6302,7 +6302,7 @@
       "id": "campus-tree--7_-8",
       "sourceId": "shared-05",
       "name": "校园树木 -7_-8",
-      "sourceRevision": "39c56a008f4e",
+      "sourceRevision": "22814ea822d5",
       "position": [
         0,
         0,
@@ -6352,7 +6352,7 @@
       "id": "campus-tree--7_-7",
       "sourceId": "shared-05",
       "name": "校园树木 -7_-7",
-      "sourceRevision": "39c56a008f4e",
+      "sourceRevision": "22814ea822d5",
       "position": [
         0,
         0,
@@ -6402,7 +6402,7 @@
       "id": "campus-tree--6_-6",
       "sourceId": "shared-05",
       "name": "校园树木 -6_-6",
-      "sourceRevision": "39c56a008f4e",
+      "sourceRevision": "22814ea822d5",
       "position": [
         0,
         0,
@@ -6452,7 +6452,7 @@
       "id": "campus-tree--6_-5",
       "sourceId": "shared-05",
       "name": "校园树木 -6_-5",
-      "sourceRevision": "39c56a008f4e",
+      "sourceRevision": "22814ea822d5",
       "position": [
         0,
         0,
@@ -6502,7 +6502,7 @@
       "id": "campus-tree--3_-2",
       "sourceId": "shared-05",
       "name": "校园树木 -3_-2",
-      "sourceRevision": "39c56a008f4e",
+      "sourceRevision": "22814ea822d5",
       "position": [
         0,
         0,
@@ -6552,7 +6552,7 @@
       "id": "campus-tree-6_-1",
       "sourceId": "shared-05",
       "name": "校园树木 6_-1",
-      "sourceRevision": "39c56a008f4e",
+      "sourceRevision": "22814ea822d5",
       "position": [
         0,
         0,
@@ -6601,7 +6601,7 @@
     {
       "id": "shared-02",
       "name": "02 West academic blocks",
-      "sourceRevision": "54f117e80e32",
+      "sourceRevision": "0a37d6323683",
       "labelPosition": null,
       "position": [
         0,
@@ -6629,22 +6629,22 @@
       "mediumDistance": 340,
       "tiers": [
         {
-          "url": "models/lod/shared-02-far.glb",
-          "revision": "188ba3a4fd07",
-          "bytes": 1838484,
-          "triangles": 149326
+          "url": "models/lod/shared-02-far-photo.glb",
+          "revision": "34d068aefeae",
+          "bytes": 2372288,
+          "triangles": 143246
         },
         {
-          "url": "models/lod/shared-02-medium.glb",
-          "revision": "188ba3a4fd07",
-          "bytes": 1838484,
-          "triangles": 149326
+          "url": "models/lod/shared-02-medium-photo.glb",
+          "revision": "34d068aefeae",
+          "bytes": 2372288,
+          "triangles": 143246
         },
         {
-          "url": "models/shared/02-teaching4.glb",
-          "revision": "54f117e80e32",
-          "bytes": 10880744,
-          "triangles": 149326
+          "url": "models/shared/02-teaching4-photo.glb",
+          "revision": "0a37d6323683",
+          "bytes": 12587972,
+          "triangles": 143246
         }
       ]
     },
@@ -6699,6 +6699,3356 @@
           "revision": "28e8ce4db2af",
           "bytes": 3969200,
           "triangles": 70316
+        }
+      ]
+    },
+    {
+      "id": "photo-xiyuan-structure",
+      "sourceId": "shared-photo-xiyuan",
+      "name": "曦园 · 实景模型 structure",
+      "sourceRevision": "3947464eea00",
+      "position": [
+        0,
+        0,
+        0
+      ],
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "bounds": {
+        "min": [
+          6.450000762939453,
+          -0.22290566563606262,
+          -49.37999725341797
+        ],
+        "max": [
+          41.54999923706055,
+          10.720000267028809,
+          -16.619998931884766
+        ]
+      },
+      "nearDistance": 55,
+      "mediumDistance": 160,
+      "tiers": [
+        {
+          "url": "models/photo/xiyuan-structure-far.glb",
+          "bytes": 685464,
+          "revision": "a5740f26f3fb",
+          "triangles": 41274
+        },
+        {
+          "url": "models/photo/xiyuan-structure-medium.glb",
+          "bytes": 685464,
+          "revision": "a5740f26f3fb",
+          "triangles": 41274
+        },
+        {
+          "url": "models/photo/xiyuan-structure-near.glb",
+          "bytes": 685464,
+          "revision": "a5740f26f3fb",
+          "triangles": 41274
+        }
+      ]
+    },
+    {
+      "id": "photo-xiyuan-surface",
+      "sourceId": "shared-photo-xiyuan",
+      "name": "曦园 · 实景模型 surface",
+      "sourceRevision": "3947464eea00",
+      "position": [
+        0,
+        0,
+        0
+      ],
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "bounds": {
+        "min": [
+          15.292162895202637,
+          0.23051992058753967,
+          -38.47380065917969
+        ],
+        "max": [
+          39.29832458496094,
+          0.2789323925971985,
+          -20.90591812133789
+        ]
+      },
+      "nearDistance": 55,
+      "mediumDistance": 160,
+      "tiers": [
+        {
+          "url": "models/photo/xiyuan-surface-far.glb",
+          "bytes": 249836,
+          "revision": "2d4cd8aa73cd",
+          "triangles": 9984
+        },
+        {
+          "url": "models/photo/xiyuan-surface-medium.glb",
+          "bytes": 1686668,
+          "revision": "4c8352240a1b",
+          "triangles": 74678
+        },
+        {
+          "url": "models/photo/xiyuan-surface-near.glb",
+          "bytes": 4487680,
+          "revision": "9d84f00200cc",
+          "triangles": 339456
+        }
+      ]
+    },
+    {
+      "id": "landscape-tree-xiyuan-vegetation-00",
+      "sourceId": "shared-photo-xiyuan",
+      "name": "曦园 · 实景模型 vegetation-00",
+      "sourceRevision": "3947464eea00",
+      "position": [
+        0,
+        0,
+        0
+      ],
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "bounds": {
+        "min": [
+          21.36297035217285,
+          0.44999998807907104,
+          -32.73127746582031
+        ],
+        "max": [
+          33.701866149902344,
+          1.4654252529144287,
+          -28.83095359802246
+        ]
+      },
+      "nearDistance": 55,
+      "mediumDistance": 160,
+      "tiers": [
+        {
+          "url": "models/photo/xiyuan-vegetation-00-far.glb",
+          "bytes": 7388,
+          "revision": "5fdea33e1256",
+          "triangles": 242
+        },
+        {
+          "url": "models/photo/xiyuan-vegetation-00-medium.glb",
+          "bytes": 19608,
+          "revision": "b2ea57d0cecb",
+          "triangles": 744
+        },
+        {
+          "url": "models/photo/xiyuan-vegetation-00-near.glb",
+          "bytes": 38996,
+          "revision": "f65d9c9fdf4c",
+          "triangles": 3388
+        }
+      ]
+    },
+    {
+      "id": "landscape-tree-xiyuan-vegetation-01",
+      "sourceId": "shared-photo-xiyuan",
+      "name": "曦园 · 实景模型 vegetation-01",
+      "sourceRevision": "3947464eea00",
+      "position": [
+        0,
+        0,
+        0
+      ],
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "bounds": {
+        "min": [
+          20.953174591064453,
+          0.4399999976158142,
+          -33.043296813964844
+        ],
+        "max": [
+          33.14031219482422,
+          1.5254251956939697,
+          -28.574565887451172
+        ]
+      },
+      "nearDistance": 55,
+      "mediumDistance": 160,
+      "tiers": [
+        {
+          "url": "models/photo/xiyuan-vegetation-01-far.glb",
+          "bytes": 2720,
+          "revision": "43101071e23c",
+          "triangles": 21
+        },
+        {
+          "url": "models/photo/xiyuan-vegetation-01-medium.glb",
+          "bytes": 7380,
+          "revision": "95aef88fbdc5",
+          "triangles": 190
+        },
+        {
+          "url": "models/photo/xiyuan-vegetation-01-near.glb",
+          "bytes": 24080,
+          "revision": "daf84e10c29f",
+          "triangles": 864
+        }
+      ]
+    },
+    {
+      "id": "landscape-tree-xiyuan-vegetation-02",
+      "sourceId": "shared-photo-xiyuan",
+      "name": "曦园 · 实景模型 vegetation-02",
+      "sourceRevision": "3947464eea00",
+      "position": [
+        0,
+        0,
+        0
+      ],
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "bounds": {
+        "min": [
+          21.57160186767578,
+          0.4399999976158142,
+          -32.797733306884766
+        ],
+        "max": [
+          32.71229553222656,
+          1.3992050886154175,
+          -28.546634674072266
+        ]
+      },
+      "nearDistance": 55,
+      "mediumDistance": 160,
+      "tiers": [
+        {
+          "url": "models/photo/xiyuan-vegetation-02-far.glb",
+          "bytes": 2552,
+          "revision": "65a137c03d21",
+          "triangles": 15
+        },
+        {
+          "url": "models/photo/xiyuan-vegetation-02-medium.glb",
+          "bytes": 5940,
+          "revision": "d23e11fe873d",
+          "triangles": 137
+        },
+        {
+          "url": "models/photo/xiyuan-vegetation-02-near.glb",
+          "bytes": 18148,
+          "revision": "52842472d679",
+          "triangles": 624
+        }
+      ]
+    },
+    {
+      "id": "landscape-tree-xiyuan-vegetation-03",
+      "sourceId": "shared-photo-xiyuan",
+      "name": "曦园 · 实景模型 vegetation-03",
+      "sourceRevision": "3947464eea00",
+      "position": [
+        0,
+        0,
+        0
+      ],
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "bounds": {
+        "min": [
+          22.125120162963867,
+          0.4399999976158142,
+          -32.787010192871094
+        ],
+        "max": [
+          33.91065979003906,
+          1.4856789112091064,
+          -29.02429962158203
+        ]
+      },
+      "nearDistance": 55,
+      "mediumDistance": 160,
+      "tiers": [
+        {
+          "url": "models/photo/xiyuan-vegetation-03-far.glb",
+          "bytes": 2576,
+          "revision": "e33289dc2180",
+          "triangles": 14
+        },
+        {
+          "url": "models/photo/xiyuan-vegetation-03-medium.glb",
+          "bytes": 5628,
+          "revision": "1f3beaeee745",
+          "triangles": 126
+        },
+        {
+          "url": "models/photo/xiyuan-vegetation-03-near.glb",
+          "bytes": 16844,
+          "revision": "b5f7ef0a489e",
+          "triangles": 576
+        }
+      ]
+    },
+    {
+      "id": "landscape-tree-xiyuan-vegetation-04",
+      "sourceId": "shared-photo-xiyuan",
+      "name": "曦园 · 实景模型 vegetation-04",
+      "sourceRevision": "3947464eea00",
+      "position": [
+        0,
+        0,
+        0
+      ],
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "bounds": {
+        "min": [
+          21.63619041442871,
+          0.4399999976158142,
+          -32.848514556884766
+        ],
+        "max": [
+          33.501930236816406,
+          1.482653021812439,
+          -28.56043815612793
+        ]
+      },
+      "nearDistance": 55,
+      "mediumDistance": 160,
+      "tiers": [
+        {
+          "url": "models/photo/xiyuan-vegetation-04-far.glb",
+          "bytes": 2748,
+          "revision": "5cd8ba453eba",
+          "triangles": 21
+        },
+        {
+          "url": "models/photo/xiyuan-vegetation-04-medium.glb",
+          "bytes": 7224,
+          "revision": "40c704c05884",
+          "triangles": 184
+        },
+        {
+          "url": "models/photo/xiyuan-vegetation-04-near.glb",
+          "bytes": 23576,
+          "revision": "48e55d1b280f",
+          "triangles": 840
+        }
+      ]
+    },
+    {
+      "id": "landscape-tree-xiyuan-vegetation-05",
+      "sourceId": "shared-photo-xiyuan",
+      "name": "曦园 · 实景模型 vegetation-05",
+      "sourceRevision": "3947464eea00",
+      "position": [
+        0,
+        0,
+        0
+      ],
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "bounds": {
+        "min": [
+          31.200000762939453,
+          0.6000000238418579,
+          -37.619998931884766
+        ],
+        "max": [
+          38.400001525878906,
+          0.6000000238418579,
+          -35.099998474121094
+        ]
+      },
+      "nearDistance": 55,
+      "mediumDistance": 160,
+      "tiers": [
+        {
+          "url": "models/photo/xiyuan-vegetation-05-far.glb",
+          "bytes": 2148,
+          "revision": "598bccff773c",
+          "triangles": 2
+        },
+        {
+          "url": "models/photo/xiyuan-vegetation-05-medium.glb",
+          "bytes": 2268,
+          "revision": "03c5817ddf0d",
+          "triangles": 21
+        },
+        {
+          "url": "models/photo/xiyuan-vegetation-05-near.glb",
+          "bytes": 2600,
+          "revision": "a7b1315540ae",
+          "triangles": 96
+        }
+      ]
+    },
+    {
+      "id": "landscape-tree-xiyuan-vegetation-06",
+      "sourceId": "shared-photo-xiyuan",
+      "name": "曦园 · 实景模型 vegetation-06",
+      "sourceRevision": "3947464eea00",
+      "position": [
+        0,
+        0,
+        0
+      ],
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "bounds": {
+        "min": [
+          31.020000457763672,
+          0.3199999928474426,
+          -37.78799819946289
+        ],
+        "max": [
+          38.58000183105469,
+          0.6800000071525574,
+          -34.93199920654297
+        ]
+      },
+      "nearDistance": 55,
+      "mediumDistance": 160,
+      "tiers": [
+        {
+          "url": "models/photo/xiyuan-vegetation-06-far.glb",
+          "bytes": 7128,
+          "revision": "7360e78052d1",
+          "triangles": 192
+        },
+        {
+          "url": "models/photo/xiyuan-vegetation-06-medium.glb",
+          "bytes": 7396,
+          "revision": "33cb7313c093",
+          "triangles": 252
+        },
+        {
+          "url": "models/photo/xiyuan-vegetation-06-near.glb",
+          "bytes": 19680,
+          "revision": "f39d6d73fc91",
+          "triangles": 1152
+        }
+      ]
+    },
+    {
+      "id": "landscape-tree-xiyuan-vegetation-07",
+      "sourceId": "shared-photo-xiyuan",
+      "name": "曦园 · 实景模型 vegetation-07",
+      "sourceRevision": "3947464eea00",
+      "position": [
+        0,
+        0,
+        0
+      ],
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "bounds": {
+        "min": [
+          31.492351531982422,
+          0.7716925144195557,
+          -37.561058044433594
+        ],
+        "max": [
+          38.305660247802734,
+          1.0491669178009033,
+          -35.127227783203125
+        ]
+      },
+      "nearDistance": 55,
+      "mediumDistance": 160,
+      "tiers": [
+        {
+          "url": "models/photo/xiyuan-vegetation-07-far.glb",
+          "bytes": 6100,
+          "revision": "6b324a4d4edc",
+          "triangles": 150
+        },
+        {
+          "url": "models/photo/xiyuan-vegetation-07-medium.glb",
+          "bytes": 36152,
+          "revision": "8c08b012c3cf",
+          "triangles": 1320
+        },
+        {
+          "url": "models/photo/xiyuan-vegetation-07-near.glb",
+          "bytes": 149248,
+          "revision": "d3abce14bcd1",
+          "triangles": 6000
+        }
+      ]
+    },
+    {
+      "id": "photo-xiyuan-vegetation-08",
+      "sourceId": "shared-photo-xiyuan",
+      "name": "曦园 · 实景模型 vegetation-08",
+      "sourceRevision": "3947464eea00",
+      "position": [
+        0,
+        0,
+        0
+      ],
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "bounds": {
+        "min": [
+          14.726947784423828,
+          0.2087632715702057,
+          -37.45500564575195
+        ],
+        "max": [
+          36.03826904296875,
+          11.222299575805664,
+          -26.864994049072266
+        ]
+      },
+      "nearDistance": 55,
+      "mediumDistance": 160,
+      "tiers": [
+        {
+          "url": "models/photo/xiyuan-vegetation-08-far.glb",
+          "bytes": 3328,
+          "revision": "667ac98f1694",
+          "triangles": 84
+        },
+        {
+          "url": "models/photo/xiyuan-vegetation-08-medium.glb",
+          "bytes": 3328,
+          "revision": "667ac98f1694",
+          "triangles": 84
+        },
+        {
+          "url": "models/photo/xiyuan-vegetation-08-near.glb",
+          "bytes": 3328,
+          "revision": "667ac98f1694",
+          "triangles": 84
+        }
+      ]
+    },
+    {
+      "id": "landscape-tree-xiyuan-vegetation-09",
+      "sourceId": "shared-photo-xiyuan",
+      "name": "曦园 · 实景模型 vegetation-09",
+      "sourceRevision": "3947464eea00",
+      "position": [
+        0,
+        0,
+        0
+      ],
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "bounds": {
+        "min": [
+          11.721470832824707,
+          4.580873489379883,
+          -39.23057556152344
+        ],
+        "max": [
+          38.85810470581055,
+          10.501233100891113,
+          -24.40138053894043
+        ]
+      },
+      "nearDistance": 55,
+      "mediumDistance": 160,
+      "tiers": [
+        {
+          "url": "models/photo/xiyuan-vegetation-09-far.glb",
+          "bytes": 6380,
+          "revision": "15aa175a03cf",
+          "triangles": 144
+        },
+        {
+          "url": "models/photo/xiyuan-vegetation-09-medium.glb",
+          "bytes": 13212,
+          "revision": "21a27e11e930",
+          "triangles": 442
+        },
+        {
+          "url": "models/photo/xiyuan-vegetation-09-near.glb",
+          "bytes": 30680,
+          "revision": "a0c47c6ec870",
+          "triangles": 2016
+        }
+      ]
+    },
+    {
+      "id": "landscape-tree-xiyuan-vegetation-10",
+      "sourceId": "shared-photo-xiyuan",
+      "name": "曦园 · 实景模型 vegetation-10",
+      "sourceRevision": "3947464eea00",
+      "position": [
+        0,
+        0,
+        0
+      ],
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "bounds": {
+        "min": [
+          11.234142303466797,
+          1.5817574262619019,
+          -39.749168395996094
+        ],
+        "max": [
+          39.6146354675293,
+          10.48080825805664,
+          -23.819438934326172
+        ]
+      },
+      "nearDistance": 55,
+      "mediumDistance": 160,
+      "tiers": [
+        {
+          "url": "models/photo/xiyuan-vegetation-10-far.glb",
+          "bytes": 28116,
+          "revision": "877570039a11",
+          "triangles": 1008
+        },
+        {
+          "url": "models/photo/xiyuan-vegetation-10-medium.glb",
+          "bytes": 82376,
+          "revision": "28ecb22a19c0",
+          "triangles": 3104
+        },
+        {
+          "url": "models/photo/xiyuan-vegetation-10-near.glb",
+          "bytes": 182884,
+          "revision": "f509c0055d74",
+          "triangles": 14112
+        }
+      ]
+    },
+    {
+      "id": "landscape-tree-xiyuan-vegetation-11",
+      "sourceId": "shared-photo-xiyuan",
+      "name": "曦园 · 实景模型 vegetation-11",
+      "sourceRevision": "3947464eea00",
+      "position": [
+        0,
+        0,
+        0
+      ],
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "bounds": {
+        "min": [
+          11.072776794433594,
+          1.6603950262069702,
+          -39.90065002441406
+        ],
+        "max": [
+          39.73991394042969,
+          10.563141822814941,
+          -23.543058395385742
+        ]
+      },
+      "nearDistance": 55,
+      "mediumDistance": 160,
+      "tiers": [
+        {
+          "url": "models/photo/xiyuan-vegetation-11-far.glb",
+          "bytes": 21120,
+          "revision": "7b00d6ca0373",
+          "triangles": 746
+        },
+        {
+          "url": "models/photo/xiyuan-vegetation-11-medium.glb",
+          "bytes": 165348,
+          "revision": "9ad4f0540083",
+          "triangles": 6570
+        },
+        {
+          "url": "models/photo/xiyuan-vegetation-11-near.glb",
+          "bytes": 718848,
+          "revision": "7dfb006837cd",
+          "triangles": 29868
+        }
+      ]
+    },
+    {
+      "id": "landscape-tree-xiyuan-vegetation-12",
+      "sourceId": "shared-photo-xiyuan",
+      "name": "曦园 · 实景模型 vegetation-12",
+      "sourceRevision": "3947464eea00",
+      "position": [
+        0,
+        0,
+        0
+      ],
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "bounds": {
+        "min": [
+          11.01977252960205,
+          1.5990965366363525,
+          -39.92274856567383
+        ],
+        "max": [
+          39.83099365234375,
+          10.501493453979492,
+          -23.611783981323242
+        ]
+      },
+      "nearDistance": 55,
+      "mediumDistance": 160,
+      "tiers": [
+        {
+          "url": "models/photo/xiyuan-vegetation-12-far.glb",
+          "bytes": 21380,
+          "revision": "ad7392b60e61",
+          "triangles": 754
+        },
+        {
+          "url": "models/photo/xiyuan-vegetation-12-medium.glb",
+          "bytes": 167128,
+          "revision": "1048b8401dc5",
+          "triangles": 6642
+        },
+        {
+          "url": "models/photo/xiyuan-vegetation-12-near.glb",
+          "bytes": 726140,
+          "revision": "f1ad8df74aea",
+          "triangles": 30192
+        }
+      ]
+    },
+    {
+      "id": "landscape-tree-xiyuan-vegetation-13",
+      "sourceId": "shared-photo-xiyuan",
+      "name": "曦园 · 实景模型 vegetation-13",
+      "sourceRevision": "3947464eea00",
+      "position": [
+        0,
+        0,
+        0
+      ],
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "bounds": {
+        "min": [
+          10.909436225891113,
+          1.7620958089828491,
+          -39.92719268798828
+        ],
+        "max": [
+          39.831260681152344,
+          10.513924598693848,
+          -23.565095901489258
+        ]
+      },
+      "nearDistance": 55,
+      "mediumDistance": 160,
+      "tiers": [
+        {
+          "url": "models/photo/xiyuan-vegetation-13-far.glb",
+          "bytes": 21576,
+          "revision": "3077c7d0a1a2",
+          "triangles": 763
+        },
+        {
+          "url": "models/photo/xiyuan-vegetation-13-medium.glb",
+          "bytes": 168936,
+          "revision": "bbe4d49e63cc",
+          "triangles": 6718
+        },
+        {
+          "url": "models/photo/xiyuan-vegetation-13-near.glb",
+          "bytes": 734504,
+          "revision": "8368c4ff9d07",
+          "triangles": 30540
+        }
+      ]
+    },
+    {
+      "id": "landscape-tree-xiyuan-vegetation-14",
+      "sourceId": "shared-photo-xiyuan",
+      "name": "曦园 · 实景模型 vegetation-14",
+      "sourceRevision": "3947464eea00",
+      "position": [
+        0,
+        0,
+        0
+      ],
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "bounds": {
+        "min": [
+          11.074889183044434,
+          1.611576795578003,
+          -39.944149017333984
+        ],
+        "max": [
+          39.887237548828125,
+          10.4601411819458,
+          -23.64174461364746
+        ]
+      },
+      "nearDistance": 55,
+      "mediumDistance": 160,
+      "tiers": [
+        {
+          "url": "models/photo/xiyuan-vegetation-14-far.glb",
+          "bytes": 21368,
+          "revision": "1fa82e8d3f47",
+          "triangles": 753
+        },
+        {
+          "url": "models/photo/xiyuan-vegetation-14-medium.glb",
+          "bytes": 166920,
+          "revision": "d7f0547ca58e",
+          "triangles": 6631
+        },
+        {
+          "url": "models/photo/xiyuan-vegetation-14-near.glb",
+          "bytes": 725188,
+          "revision": "3aee03f70c89",
+          "triangles": 30144
+        }
+      ]
+    },
+    {
+      "id": "landscape-tree-xiyuan-vegetation-15",
+      "sourceId": "shared-photo-xiyuan",
+      "name": "曦园 · 实景模型 vegetation-15",
+      "sourceRevision": "3947464eea00",
+      "position": [
+        0,
+        0,
+        0
+      ],
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "bounds": {
+        "min": [
+          10.934038162231445,
+          1.6855970621109009,
+          -39.9169807434082
+        ],
+        "max": [
+          39.90739440917969,
+          10.56540584564209,
+          -23.53863525390625
+        ]
+      },
+      "nearDistance": 55,
+      "mediumDistance": 160,
+      "tiers": [
+        {
+          "url": "models/photo/xiyuan-vegetation-15-far.glb",
+          "bytes": 21560,
+          "revision": "6ca86fdfc69d",
+          "triangles": 761
+        },
+        {
+          "url": "models/photo/xiyuan-vegetation-15-medium.glb",
+          "bytes": 168344,
+          "revision": "b8bd79b32e6a",
+          "triangles": 6700
+        },
+        {
+          "url": "models/photo/xiyuan-vegetation-15-near.glb",
+          "bytes": 732136,
+          "revision": "15661882702a",
+          "triangles": 30456
+        }
+      ]
+    },
+    {
+      "id": "photo-xiyuan-vegetation-16",
+      "sourceId": "shared-photo-xiyuan",
+      "name": "曦园 · 实景模型 vegetation-16",
+      "sourceRevision": "3947464eea00",
+      "position": [
+        0,
+        0,
+        0
+      ],
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "bounds": {
+        "min": [
+          9.326891899108887,
+          0.20988579094409943,
+          -39.975006103515625
+        ],
+        "max": [
+          38.7382698059082,
+          11.222299575805664,
+          -34.42499542236328
+        ]
+      },
+      "nearDistance": 55,
+      "mediumDistance": 160,
+      "tiers": [
+        {
+          "url": "models/photo/xiyuan-vegetation-16-far.glb",
+          "bytes": 2912,
+          "revision": "266c55c49f18",
+          "triangles": 56
+        },
+        {
+          "url": "models/photo/xiyuan-vegetation-16-medium.glb",
+          "bytes": 2912,
+          "revision": "266c55c49f18",
+          "triangles": 56
+        },
+        {
+          "url": "models/photo/xiyuan-vegetation-16-near.glb",
+          "bytes": 2912,
+          "revision": "266c55c49f18",
+          "triangles": 56
+        }
+      ]
+    },
+    {
+      "id": "landscape-tree-xiyuan-vegetation-17",
+      "sourceId": "shared-photo-xiyuan",
+      "name": "曦园 · 实景模型 vegetation-17",
+      "sourceRevision": "3947464eea00",
+      "position": [
+        0,
+        0,
+        0
+      ],
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "bounds": {
+        "min": [
+          7.436248779296875,
+          5.576307773590088,
+          -42.27193832397461
+        ],
+        "max": [
+          41.366729736328125,
+          10.259998321533203,
+          -32.369022369384766
+        ]
+      },
+      "nearDistance": 55,
+      "mediumDistance": 160,
+      "tiers": [
+        {
+          "url": "models/photo/xiyuan-vegetation-17-far.glb",
+          "bytes": 3964,
+          "revision": "c560ce357753",
+          "triangles": 64
+        },
+        {
+          "url": "models/photo/xiyuan-vegetation-17-medium.glb",
+          "bytes": 6904,
+          "revision": "a1050fa2e960",
+          "triangles": 196
+        },
+        {
+          "url": "models/photo/xiyuan-vegetation-17-near.glb",
+          "bytes": 14632,
+          "revision": "9ca5fed8d863",
+          "triangles": 896
+        }
+      ]
+    },
+    {
+      "id": "landscape-tree-xiyuan-vegetation-18",
+      "sourceId": "shared-photo-xiyuan",
+      "name": "曦园 · 实景模型 vegetation-18",
+      "sourceRevision": "3947464eea00",
+      "position": [
+        0,
+        0,
+        0
+      ],
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "bounds": {
+        "min": [
+          6.08607292175293,
+          5.680051803588867,
+          -43.40362548828125
+        ],
+        "max": [
+          42.71726989746094,
+          11.020625114440918,
+          -31.10710906982422
+        ]
+      },
+      "nearDistance": 55,
+      "mediumDistance": 160,
+      "tiers": [
+        {
+          "url": "models/photo/xiyuan-vegetation-18-far.glb",
+          "bytes": 10860,
+          "revision": "69debd90b2eb",
+          "triangles": 332
+        },
+        {
+          "url": "models/photo/xiyuan-vegetation-18-medium.glb",
+          "bytes": 76916,
+          "revision": "78ea050872cc",
+          "triangles": 2921
+        },
+        {
+          "url": "models/photo/xiyuan-vegetation-18-near.glb",
+          "bytes": 324296,
+          "revision": "19bf03ff078f",
+          "triangles": 13280
+        }
+      ]
+    },
+    {
+      "id": "landscape-tree-xiyuan-vegetation-19",
+      "sourceId": "shared-photo-xiyuan",
+      "name": "曦园 · 实景模型 vegetation-19",
+      "sourceRevision": "3947464eea00",
+      "position": [
+        0,
+        0,
+        0
+      ],
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "bounds": {
+        "min": [
+          6.142705917358398,
+          5.723147392272949,
+          -43.458351135253906
+        ],
+        "max": [
+          42.597679138183594,
+          11.029422760009766,
+          -31.079744338989258
+        ]
+      },
+      "nearDistance": 55,
+      "mediumDistance": 160,
+      "tiers": [
+        {
+          "url": "models/photo/xiyuan-vegetation-19-far.glb",
+          "bytes": 10860,
+          "revision": "2fc6dd0479e1",
+          "triangles": 332
+        },
+        {
+          "url": "models/photo/xiyuan-vegetation-19-medium.glb",
+          "bytes": 77152,
+          "revision": "805ec12c4f77",
+          "triangles": 2927
+        },
+        {
+          "url": "models/photo/xiyuan-vegetation-19-near.glb",
+          "bytes": 324960,
+          "revision": "2dd07e630781",
+          "triangles": 13308
+        }
+      ]
+    },
+    {
+      "id": "landscape-tree-xiyuan-vegetation-20",
+      "sourceId": "shared-photo-xiyuan",
+      "name": "曦园 · 实景模型 vegetation-20",
+      "sourceRevision": "3947464eea00",
+      "position": [
+        0,
+        0,
+        0
+      ],
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "bounds": {
+        "min": [
+          6.167264938354492,
+          5.701843738555908,
+          -43.38813018798828
+        ],
+        "max": [
+          42.58461380004883,
+          10.987340927124023,
+          -31.159976959228516
+        ]
+      },
+      "nearDistance": 55,
+      "mediumDistance": 160,
+      "tiers": [
+        {
+          "url": "models/photo/xiyuan-vegetation-20-far.glb",
+          "bytes": 10844,
+          "revision": "f54bf8e93b9d",
+          "triangles": 332
+        },
+        {
+          "url": "models/photo/xiyuan-vegetation-20-medium.glb",
+          "bytes": 76884,
+          "revision": "a7a7c4b5a729",
+          "triangles": 2922
+        },
+        {
+          "url": "models/photo/xiyuan-vegetation-20-near.glb",
+          "bytes": 324548,
+          "revision": "32f0841930ce",
+          "triangles": 13284
+        }
+      ]
+    },
+    {
+      "id": "landscape-tree-xiyuan-vegetation-21",
+      "sourceId": "shared-photo-xiyuan",
+      "name": "曦园 · 实景模型 vegetation-21",
+      "sourceRevision": "3947464eea00",
+      "position": [
+        0,
+        0,
+        0
+      ],
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "bounds": {
+        "min": [
+          6.258918762207031,
+          5.691107273101807,
+          -43.549400329589844
+        ],
+        "max": [
+          42.78217315673828,
+          11.065122604370117,
+          -31.135374069213867
+        ]
+      },
+      "nearDistance": 55,
+      "mediumDistance": 160,
+      "tiers": [
+        {
+          "url": "models/photo/xiyuan-vegetation-21-far.glb",
+          "bytes": 10864,
+          "revision": "0a4f46039f51",
+          "triangles": 333
+        },
+        {
+          "url": "models/photo/xiyuan-vegetation-21-medium.glb",
+          "bytes": 77240,
+          "revision": "1eba82d8c8c9",
+          "triangles": 2933
+        },
+        {
+          "url": "models/photo/xiyuan-vegetation-21-near.glb",
+          "bytes": 325776,
+          "revision": "49e62a56f020",
+          "triangles": 13336
+        }
+      ]
+    },
+    {
+      "id": "landscape-tree-xiyuan-vegetation-22",
+      "sourceId": "shared-photo-xiyuan",
+      "name": "曦园 · 实景模型 vegetation-22",
+      "sourceRevision": "3947464eea00",
+      "position": [
+        0,
+        0,
+        0
+      ],
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "bounds": {
+        "min": [
+          6.201955795288086,
+          5.716501712799072,
+          -43.46571350097656
+        ],
+        "max": [
+          42.65076446533203,
+          11.022992134094238,
+          -31.19044303894043
+        ]
+      },
+      "nearDistance": 55,
+      "mediumDistance": 160,
+      "tiers": [
+        {
+          "url": "models/photo/xiyuan-vegetation-22-far.glb",
+          "bytes": 10876,
+          "revision": "aaf4c119a0ad",
+          "triangles": 333
+        },
+        {
+          "url": "models/photo/xiyuan-vegetation-22-medium.glb",
+          "bytes": 77376,
+          "revision": "8896520a4270",
+          "triangles": 2937
+        },
+        {
+          "url": "models/photo/xiyuan-vegetation-22-near.glb",
+          "bytes": 326076,
+          "revision": "107c8dbe1a28",
+          "triangles": 13352
+        }
+      ]
+    },
+    {
+      "id": "landscape-tree-xiyuan-vegetation-23",
+      "sourceId": "shared-photo-xiyuan",
+      "name": "曦园 · 实景模型 vegetation-23",
+      "sourceRevision": "3947464eea00",
+      "position": [
+        0,
+        0,
+        0
+      ],
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "bounds": {
+        "min": [
+          8.51223373413086,
+          0.21335406601428986,
+          -48.13389587402344
+        ],
+        "max": [
+          37.38828659057617,
+          14.197318077087402,
+          -44.58468246459961
+        ]
+      },
+      "nearDistance": 55,
+      "mediumDistance": 160,
+      "tiers": [
+        {
+          "url": "models/photo/xiyuan-vegetation-23-far.glb",
+          "bytes": 2928,
+          "revision": "f104005c7b0a",
+          "triangles": 34
+        },
+        {
+          "url": "models/photo/xiyuan-vegetation-23-medium.glb",
+          "bytes": 4496,
+          "revision": "a4b0266db1a7",
+          "triangles": 104
+        },
+        {
+          "url": "models/photo/xiyuan-vegetation-23-near.glb",
+          "bytes": 8588,
+          "revision": "7e1fd8f4d356",
+          "triangles": 476
+        }
+      ]
+    },
+    {
+      "id": "landscape-tree-xiyuan-vegetation-24",
+      "sourceId": "shared-photo-xiyuan",
+      "name": "曦园 · 实景模型 vegetation-24",
+      "sourceRevision": "3947464eea00",
+      "position": [
+        0,
+        0,
+        0
+      ],
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "bounds": {
+        "min": [
+          5.718086242675781,
+          2.9938271045684814,
+          -50.8062629699707
+        ],
+        "max": [
+          41.92350769042969,
+          13.50694465637207,
+          -41.3216552734375
+        ]
+      },
+      "nearDistance": 55,
+      "mediumDistance": 160,
+      "tiers": [
+        {
+          "url": "models/photo/xiyuan-vegetation-24-far.glb",
+          "bytes": 17064,
+          "revision": "e3dbeb687120",
+          "triangles": 544
+        },
+        {
+          "url": "models/photo/xiyuan-vegetation-24-medium.glb",
+          "bytes": 41856,
+          "revision": "c756f7475dce",
+          "triangles": 1674
+        },
+        {
+          "url": "models/photo/xiyuan-vegetation-24-near.glb",
+          "bytes": 107204,
+          "revision": "26541913e3d5",
+          "triangles": 7616
+        }
+      ]
+    },
+    {
+      "id": "landscape-tree-xiyuan-vegetation-25",
+      "sourceId": "shared-photo-xiyuan",
+      "name": "曦园 · 实景模型 vegetation-25",
+      "sourceRevision": "3947464eea00",
+      "position": [
+        0,
+        0,
+        0
+      ],
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "bounds": {
+        "min": [
+          4.435638427734375,
+          3.146062135696411,
+          -51.955902099609375
+        ],
+        "max": [
+          43.21807861328125,
+          14.263456344604492,
+          -40.078495025634766
+        ]
+      },
+      "nearDistance": 55,
+      "mediumDistance": 160,
+      "tiers": [
+        {
+          "url": "models/photo/xiyuan-vegetation-25-far.glb",
+          "bytes": 74856,
+          "revision": "a280bbb00155",
+          "triangles": 2813
+        },
+        {
+          "url": "models/photo/xiyuan-vegetation-25-medium.glb",
+          "bytes": 624772,
+          "revision": "02ece68bd248",
+          "triangles": 24758
+        },
+        {
+          "url": "models/photo/xiyuan-vegetation-25-near.glb",
+          "bytes": 2716008,
+          "revision": "a1b2a3ac0c91",
+          "triangles": 112540
+        }
+      ]
+    },
+    {
+      "id": "landscape-tree-xiyuan-vegetation-26",
+      "sourceId": "shared-photo-xiyuan",
+      "name": "曦园 · 实景模型 vegetation-26",
+      "sourceRevision": "3947464eea00",
+      "position": [
+        0,
+        0,
+        0
+      ],
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "bounds": {
+        "min": [
+          4.426517486572266,
+          3.1271588802337646,
+          -52.095855712890625
+        ],
+        "max": [
+          43.08978271484375,
+          14.32470989227295,
+          -40.077030181884766
+        ]
+      },
+      "nearDistance": 55,
+      "mediumDistance": 160,
+      "tiers": [
+        {
+          "url": "models/photo/xiyuan-vegetation-26-far.glb",
+          "bytes": 75128,
+          "revision": "aeb0eebe1118",
+          "triangles": 2818
+        },
+        {
+          "url": "models/photo/xiyuan-vegetation-26-medium.glb",
+          "bytes": 625848,
+          "revision": "183a74cb2848",
+          "triangles": 24805
+        },
+        {
+          "url": "models/photo/xiyuan-vegetation-26-near.glb",
+          "bytes": 2721632,
+          "revision": "eceb860cbfbb",
+          "triangles": 112752
+        }
+      ]
+    },
+    {
+      "id": "landscape-tree-xiyuan-vegetation-27",
+      "sourceId": "shared-photo-xiyuan",
+      "name": "曦园 · 实景模型 vegetation-27",
+      "sourceRevision": "3947464eea00",
+      "position": [
+        0,
+        0,
+        0
+      ],
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "bounds": {
+        "min": [
+          4.509189605712891,
+          3.1472392082214355,
+          -51.98955535888672
+        ],
+        "max": [
+          43.131256103515625,
+          14.296150207519531,
+          -40.274269104003906
+        ]
+      },
+      "nearDistance": 55,
+      "mediumDistance": 160,
+      "tiers": [
+        {
+          "url": "models/photo/xiyuan-vegetation-27-far.glb",
+          "bytes": 76100,
+          "revision": "b43cceab3142",
+          "triangles": 2856
+        },
+        {
+          "url": "models/photo/xiyuan-vegetation-27-medium.glb",
+          "bytes": 634308,
+          "revision": "44c129510c05",
+          "triangles": 25133
+        },
+        {
+          "url": "models/photo/xiyuan-vegetation-27-near.glb",
+          "bytes": 2757756,
+          "revision": "09db2ae72117",
+          "triangles": 114244
+        }
+      ]
+    },
+    {
+      "id": "landscape-tree-xiyuan-vegetation-28",
+      "sourceId": "shared-photo-xiyuan",
+      "name": "曦园 · 实景模型 vegetation-28",
+      "sourceRevision": "3947464eea00",
+      "position": [
+        0,
+        0,
+        0
+      ],
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "bounds": {
+        "min": [
+          4.411470413208008,
+          3.1273820400238037,
+          -51.917503356933594
+        ],
+        "max": [
+          43.18621826171875,
+          14.242542266845703,
+          -40.14377212524414
+        ]
+      },
+      "nearDistance": 55,
+      "mediumDistance": 160,
+      "tiers": [
+        {
+          "url": "models/photo/xiyuan-vegetation-28-far.glb",
+          "bytes": 75052,
+          "revision": "9b864af355d2",
+          "triangles": 2817
+        },
+        {
+          "url": "models/photo/xiyuan-vegetation-28-medium.glb",
+          "bytes": 625460,
+          "revision": "a205a51b21da",
+          "triangles": 24797
+        },
+        {
+          "url": "models/photo/xiyuan-vegetation-28-near.glb",
+          "bytes": 2720208,
+          "revision": "7d767afe6fc2",
+          "triangles": 112716
+        }
+      ]
+    },
+    {
+      "id": "landscape-tree-xiyuan-vegetation-29",
+      "sourceId": "shared-photo-xiyuan",
+      "name": "曦园 · 实景模型 vegetation-29",
+      "sourceRevision": "3947464eea00",
+      "position": [
+        0,
+        0,
+        0
+      ],
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "bounds": {
+        "min": [
+          4.363203048706055,
+          3.0591299533843994,
+          -52.103172302246094
+        ],
+        "max": [
+          43.133262634277344,
+          14.2861967086792,
+          -40.143890380859375
+        ]
+      },
+      "nearDistance": 55,
+      "mediumDistance": 160,
+      "tiers": [
+        {
+          "url": "models/photo/xiyuan-vegetation-29-far.glb",
+          "bytes": 75544,
+          "revision": "fcb6e3556987",
+          "triangles": 2837
+        },
+        {
+          "url": "models/photo/xiyuan-vegetation-29-medium.glb",
+          "bytes": 629760,
+          "revision": "a4ded63ac0a1",
+          "triangles": 24971
+        },
+        {
+          "url": "models/photo/xiyuan-vegetation-29-near.glb",
+          "bytes": 2739764,
+          "revision": "6197f9e9cc47",
+          "triangles": 113508
+        }
+      ]
+    },
+    {
+      "id": "landscape-tree-xiyuan-vegetation-30",
+      "sourceId": "shared-photo-xiyuan",
+      "name": "曦园 · 实景模型 vegetation-30",
+      "sourceRevision": "3947464eea00",
+      "position": [
+        0,
+        0,
+        0
+      ],
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "bounds": {
+        "min": [
+          35.02497100830078,
+          0.2642905116081238,
+          -46.66872787475586
+        ],
+        "max": [
+          40.16082763671875,
+          1.4886341094970703,
+          -38.88640594482422
+        ]
+      },
+      "nearDistance": 55,
+      "mediumDistance": 160,
+      "tiers": [
+        {
+          "url": "models/photo/xiyuan-vegetation-30-far.glb",
+          "bytes": 4464,
+          "revision": "73b6dd126285",
+          "triangles": 83
+        },
+        {
+          "url": "models/photo/xiyuan-vegetation-30-medium.glb",
+          "bytes": 22504,
+          "revision": "1f37cb1d2998",
+          "triangles": 732
+        },
+        {
+          "url": "models/photo/xiyuan-vegetation-30-near.glb",
+          "bytes": 88440,
+          "revision": "c9935a7ffed1",
+          "triangles": 3328
+        }
+      ]
+    },
+    {
+      "id": "landscape-tree-xiyuan-vegetation-31",
+      "sourceId": "shared-photo-xiyuan",
+      "name": "曦园 · 实景模型 vegetation-31",
+      "sourceRevision": "3947464eea00",
+      "position": [
+        0,
+        0,
+        0
+      ],
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "bounds": {
+        "min": [
+          34.963348388671875,
+          0.2823032736778259,
+          -46.57838439941406
+        ],
+        "max": [
+          40.05133819580078,
+          1.485794186592102,
+          -38.810306549072266
+        ]
+      },
+      "nearDistance": 55,
+      "mediumDistance": 160,
+      "tiers": [
+        {
+          "url": "models/photo/xiyuan-vegetation-31-far.glb",
+          "bytes": 4504,
+          "revision": "0f5518b765e2",
+          "triangles": 84
+        },
+        {
+          "url": "models/photo/xiyuan-vegetation-31-medium.glb",
+          "bytes": 22716,
+          "revision": "26dfde6e1a96",
+          "triangles": 739
+        },
+        {
+          "url": "models/photo/xiyuan-vegetation-31-near.glb",
+          "bytes": 89332,
+          "revision": "831d1f284d3c",
+          "triangles": 3360
+        }
+      ]
+    },
+    {
+      "id": "landscape-tree-xiyuan-vegetation-32",
+      "sourceId": "shared-photo-xiyuan",
+      "name": "曦园 · 实景模型 vegetation-32",
+      "sourceRevision": "3947464eea00",
+      "position": [
+        0,
+        0,
+        0
+      ],
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "bounds": {
+        "min": [
+          35.00752258300781,
+          0.25518694519996643,
+          -46.68224334716797
+        ],
+        "max": [
+          40.248565673828125,
+          1.4759670495986938,
+          -38.88542938232422
+        ]
+      },
+      "nearDistance": 55,
+      "mediumDistance": 160,
+      "tiers": [
+        {
+          "url": "models/photo/xiyuan-vegetation-32-far.glb",
+          "bytes": 4576,
+          "revision": "7b70aa9e340a",
+          "triangles": 86
+        },
+        {
+          "url": "models/photo/xiyuan-vegetation-32-medium.glb",
+          "bytes": 23228,
+          "revision": "3bb9e601d208",
+          "triangles": 759
+        },
+        {
+          "url": "models/photo/xiyuan-vegetation-32-near.glb",
+          "bytes": 91732,
+          "revision": "180bdbfa2436",
+          "triangles": 3452
+        }
+      ]
+    },
+    {
+      "id": "landscape-tree-xiyuan-vegetation-33",
+      "sourceId": "shared-photo-xiyuan",
+      "name": "曦园 · 实景模型 vegetation-33",
+      "sourceRevision": "3947464eea00",
+      "position": [
+        0,
+        0,
+        0
+      ],
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "bounds": {
+        "min": [
+          34.87601852416992,
+          0.285949170589447,
+          -46.552494049072266
+        ],
+        "max": [
+          40.013526916503906,
+          1.4941924810409546,
+          -38.83660125732422
+        ]
+      },
+      "nearDistance": 55,
+      "mediumDistance": 160,
+      "tiers": [
+        {
+          "url": "models/photo/xiyuan-vegetation-33-far.glb",
+          "bytes": 4480,
+          "revision": "284948da4d6e",
+          "triangles": 83
+        },
+        {
+          "url": "models/photo/xiyuan-vegetation-33-medium.glb",
+          "bytes": 22524,
+          "revision": "1feaa7fd1f1d",
+          "triangles": 736
+        },
+        {
+          "url": "models/photo/xiyuan-vegetation-33-near.glb",
+          "bytes": 89076,
+          "revision": "a83f33102318",
+          "triangles": 3348
+        }
+      ]
+    },
+    {
+      "id": "landscape-tree-xiyuan-vegetation-34",
+      "sourceId": "shared-photo-xiyuan",
+      "name": "曦园 · 实景模型 vegetation-34",
+      "sourceRevision": "3947464eea00",
+      "position": [
+        0,
+        0,
+        0
+      ],
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "bounds": {
+        "min": [
+          34.98713302612305,
+          0.29145824909210205,
+          -46.494293212890625
+        ],
+        "max": [
+          40.233150482177734,
+          1.4921116828918457,
+          -38.82892608642578
+        ]
+      },
+      "nearDistance": 55,
+      "mediumDistance": 160,
+      "tiers": [
+        {
+          "url": "models/photo/xiyuan-vegetation-34-far.glb",
+          "bytes": 4452,
+          "revision": "23a5b92d91d8",
+          "triangles": 82
+        },
+        {
+          "url": "models/photo/xiyuan-vegetation-34-medium.glb",
+          "bytes": 22432,
+          "revision": "97348388f84a",
+          "triangles": 728
+        },
+        {
+          "url": "models/photo/xiyuan-vegetation-34-near.glb",
+          "bytes": 88088,
+          "revision": "aff648f6082e",
+          "triangles": 3312
+        }
+      ]
+    },
+    {
+      "id": "landscape-tree-xiyuan-vegetation-35",
+      "sourceId": "shared-photo-xiyuan",
+      "name": "曦园 · 实景模型 vegetation-35",
+      "sourceRevision": "3947464eea00",
+      "position": [
+        0,
+        0,
+        0
+      ],
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "bounds": {
+        "min": [
+          7.683574676513672,
+          0.25,
+          -48.39396667480469
+        ],
+        "max": [
+          40.615665435791016,
+          0.725279688835144,
+          -18.750404357910156
+        ]
+      },
+      "nearDistance": 55,
+      "mediumDistance": 160,
+      "tiers": [
+        {
+          "url": "models/photo/xiyuan-vegetation-35-far.glb",
+          "bytes": 12120,
+          "revision": "e16260c03726",
+          "triangles": 409
+        },
+        {
+          "url": "models/photo/xiyuan-vegetation-35-medium.glb",
+          "bytes": 90800,
+          "revision": "2cf92d08cb41",
+          "triangles": 3604
+        },
+        {
+          "url": "models/photo/xiyuan-vegetation-35-near.glb",
+          "bytes": 231412,
+          "revision": "60155c6da4fe",
+          "triangles": 16384
+        }
+      ]
+    },
+    {
+      "id": "landscape-tree-xiyuan-vegetation-36",
+      "sourceId": "shared-photo-xiyuan",
+      "name": "曦园 · 实景模型 vegetation-36",
+      "sourceRevision": "3947464eea00",
+      "position": [
+        0,
+        0,
+        0
+      ],
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "bounds": {
+        "min": [
+          7.495538711547852,
+          0.25,
+          -48.400936126708984
+        ],
+        "max": [
+          40.440399169921875,
+          0.7253067493438721,
+          -18.54174041748047
+        ]
+      },
+      "nearDistance": 55,
+      "mediumDistance": 160,
+      "tiers": [
+        {
+          "url": "models/photo/xiyuan-vegetation-36-far.glb",
+          "bytes": 16160,
+          "revision": "d2592ec7c5c1",
+          "triangles": 576
+        },
+        {
+          "url": "models/photo/xiyuan-vegetation-36-medium.glb",
+          "bytes": 126900,
+          "revision": "aaa8cd228ae0",
+          "triangles": 5068
+        },
+        {
+          "url": "models/photo/xiyuan-vegetation-36-near.glb",
+          "bytes": 324604,
+          "revision": "9945e4f725a1",
+          "triangles": 23040
+        }
+      ]
+    },
+    {
+      "id": "landscape-tree-xiyuan-vegetation-37",
+      "sourceId": "shared-photo-xiyuan",
+      "name": "曦园 · 实景模型 vegetation-37",
+      "sourceRevision": "3947464eea00",
+      "position": [
+        0,
+        0,
+        0
+      ],
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "bounds": {
+        "min": [
+          8.184734344482422,
+          0.25,
+          -48.42013931274414
+        ],
+        "max": [
+          40.455108642578125,
+          0.7254238128662109,
+          -18.77307891845703
+        ]
+      },
+      "nearDistance": 55,
+      "mediumDistance": 160,
+      "tiers": [
+        {
+          "url": "models/photo/xiyuan-vegetation-37-far.glb",
+          "bytes": 13852,
+          "revision": "9bd93f3ad82b",
+          "triangles": 480
+        },
+        {
+          "url": "models/photo/xiyuan-vegetation-37-medium.glb",
+          "bytes": 106132,
+          "revision": "23fcdcb1acf0",
+          "triangles": 4223
+        },
+        {
+          "url": "models/photo/xiyuan-vegetation-37-near.glb",
+          "bytes": 271284,
+          "revision": "6392588d2d46",
+          "triangles": 19200
+        }
+      ]
+    },
+    {
+      "id": "landscape-tree-xiyuan-vegetation-38",
+      "sourceId": "shared-photo-xiyuan",
+      "name": "曦园 · 实景模型 vegetation-38",
+      "sourceRevision": "3947464eea00",
+      "position": [
+        0,
+        0,
+        0
+      ],
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "bounds": {
+        "min": [
+          8.271586418151855,
+          0.25,
+          -48.16313171386719
+        ],
+        "max": [
+          39.79151916503906,
+          0.7254865169525146,
+          -18.35555648803711
+        ]
+      },
+      "nearDistance": 55,
+      "mediumDistance": 160,
+      "tiers": [
+        {
+          "url": "models/photo/xiyuan-vegetation-38-far.glb",
+          "bytes": 16728,
+          "revision": "713e31f21177",
+          "triangles": 595
+        },
+        {
+          "url": "models/photo/xiyuan-vegetation-38-medium.glb",
+          "bytes": 131312,
+          "revision": "f89c9b824bc5",
+          "triangles": 5237
+        },
+        {
+          "url": "models/photo/xiyuan-vegetation-38-near.glb",
+          "bytes": 335944,
+          "revision": "36b4d50cdd84",
+          "triangles": 23808
+        }
+      ]
+    },
+    {
+      "id": "landscape-tree-xiyuan-vegetation-39",
+      "sourceId": "shared-photo-xiyuan",
+      "name": "曦园 · 实景模型 vegetation-39",
+      "sourceRevision": "3947464eea00",
+      "position": [
+        0,
+        0,
+        0
+      ],
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "bounds": {
+        "min": [
+          7.634983062744141,
+          0.25,
+          -48.316104888916016
+        ],
+        "max": [
+          40.31233215332031,
+          0.7252815961837769,
+          -18.656005859375
+        ]
+      },
+      "nearDistance": 55,
+      "mediumDistance": 160,
+      "tiers": [
+        {
+          "url": "models/photo/xiyuan-vegetation-39-far.glb",
+          "bytes": 14932,
+          "revision": "7a36f36329f8",
+          "triangles": 524
+        },
+        {
+          "url": "models/photo/xiyuan-vegetation-39-medium.glb",
+          "bytes": 115908,
+          "revision": "804f4a5cc7ed",
+          "triangles": 4618
+        },
+        {
+          "url": "models/photo/xiyuan-vegetation-39-near.glb",
+          "bytes": 296052,
+          "revision": "7b2675ee8a90",
+          "triangles": 20992
+        }
+      ]
+    },
+    {
+      "id": "photo-yeyaozhen-structure",
+      "sourceId": "shared-photo-yeyaozhen",
+      "name": "叶耀珍楼 · 实景模型 structure",
+      "sourceRevision": "9629e3d5344a",
+      "position": [
+        0,
+        0,
+        0
+      ],
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "bounds": {
+        "min": [
+          64.01600646972656,
+          0.2199999988079071,
+          -26.024002075195312
+        ],
+        "max": [
+          84.08000183105469,
+          12.4350004196167,
+          -11.767999649047852
+        ]
+      },
+      "nearDistance": 55,
+      "mediumDistance": 160,
+      "tiers": [
+        {
+          "url": "models/photo/yeyaozhen-structure-far.glb",
+          "bytes": 1241180,
+          "revision": "f4f644c57475",
+          "triangles": 92254
+        },
+        {
+          "url": "models/photo/yeyaozhen-structure-medium.glb",
+          "bytes": 1241180,
+          "revision": "f4f644c57475",
+          "triangles": 92254
+        },
+        {
+          "url": "models/photo/yeyaozhen-structure-near.glb",
+          "bytes": 1241180,
+          "revision": "f4f644c57475",
+          "triangles": 92254
+        }
+      ]
+    },
+    {
+      "id": "photo-yeyaozhen-surface",
+      "sourceId": "shared-photo-yeyaozhen",
+      "name": "叶耀珍楼 · 实景模型 surface",
+      "sourceRevision": "9629e3d5344a",
+      "position": [
+        0,
+        0,
+        0
+      ],
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "bounds": {
+        "min": [
+          59.995201110839844,
+          0.19599999487400055,
+          -23.23040008544922
+        ],
+        "max": [
+          85.60000610351562,
+          11.695000648498535,
+          -10.88960075378418
+        ]
+      },
+      "nearDistance": 55,
+      "mediumDistance": 160,
+      "tiers": [
+        {
+          "url": "models/photo/yeyaozhen-surface-far.glb",
+          "bytes": 599740,
+          "revision": "63f3ee59a5f3",
+          "triangles": 28684
+        },
+        {
+          "url": "models/photo/yeyaozhen-surface-medium.glb",
+          "bytes": 763272,
+          "revision": "6a868c00d73d",
+          "triangles": 37998
+        },
+        {
+          "url": "models/photo/yeyaozhen-surface-near.glb",
+          "bytes": 2244196,
+          "revision": "d24eeca66cf1",
+          "triangles": 172744
+        }
+      ]
+    },
+    {
+      "id": "photo-teaching3-structure",
+      "sourceId": "shared-photo-teaching3",
+      "name": "第三教学楼 · 实景模型 structure",
+      "sourceRevision": "25507c2f7f1e",
+      "position": [
+        0,
+        0,
+        0
+      ],
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "bounds": {
+        "min": [
+          -7.274999618530273,
+          -0.004075080156326294,
+          -113.55000305175781
+        ],
+        "max": [
+          52.72999954223633,
+          14.820000648498535,
+          -75.80000305175781
+        ]
+      },
+      "nearDistance": 55,
+      "mediumDistance": 160,
+      "tiers": [
+        {
+          "url": "models/photo/teaching3-structure-far.glb",
+          "bytes": 924816,
+          "revision": "74192536547c",
+          "triangles": 74672
+        },
+        {
+          "url": "models/photo/teaching3-structure-medium.glb",
+          "bytes": 962872,
+          "revision": "4b1361442982",
+          "triangles": 74672
+        },
+        {
+          "url": "models/photo/teaching3-structure-near.glb",
+          "bytes": 962872,
+          "revision": "4b1361442982",
+          "triangles": 74672
+        }
+      ]
+    },
+    {
+      "id": "photo-teaching3-surface",
+      "sourceId": "shared-photo-teaching3",
+      "name": "第三教学楼 · 实景模型 surface",
+      "sourceRevision": "25507c2f7f1e",
+      "position": [
+        0,
+        0,
+        0
+      ],
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "bounds": {
+        "min": [
+          -9.627349853515625,
+          0.21449999511241913,
+          -107.4885025024414
+        ],
+        "max": [
+          52.82735061645508,
+          13.765000343322754,
+          -78.3115005493164
+        ]
+      },
+      "nearDistance": 55,
+      "mediumDistance": 160,
+      "tiers": [
+        {
+          "url": "models/photo/teaching3-surface-far.glb",
+          "bytes": 207388,
+          "revision": "e9e9417988a5",
+          "triangles": 13792
+        },
+        {
+          "url": "models/photo/teaching3-surface-medium.glb",
+          "bytes": 301396,
+          "revision": "8aaaea20aa3f",
+          "triangles": 18202
+        },
+        {
+          "url": "models/photo/teaching3-surface-near.glb",
+          "bytes": 958068,
+          "revision": "25c2451e8bdc",
+          "triangles": 82752
+        }
+      ]
+    },
+    {
+      "id": "landscape-tree-teaching3-vegetation-00",
+      "sourceId": "shared-photo-teaching3",
+      "name": "第三教学楼 · 实景模型 vegetation-00",
+      "sourceRevision": "25507c2f7f1e",
+      "position": [
+        0,
+        0,
+        0
+      ],
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "bounds": {
+        "min": [
+          23.963031768798828,
+          0.2824673056602478,
+          -97.61680603027344
+        ],
+        "max": [
+          35.81488800048828,
+          1.8625797033309937,
+          -92.08655548095703
+        ]
+      },
+      "nearDistance": 55,
+      "mediumDistance": 160,
+      "tiers": [
+        {
+          "url": "models/photo/teaching3-vegetation-00-far.glb",
+          "bytes": 3716,
+          "revision": "ba84d5ae82e9",
+          "triangles": 58
+        },
+        {
+          "url": "models/photo/teaching3-vegetation-00-medium.glb",
+          "bytes": 16304,
+          "revision": "8a9b604b8084",
+          "triangles": 513
+        },
+        {
+          "url": "models/photo/teaching3-vegetation-00-near.glb",
+          "bytes": 61972,
+          "revision": "fa4eebdcd270",
+          "triangles": 2332
+        }
+      ]
+    },
+    {
+      "id": "landscape-tree-teaching3-vegetation-01",
+      "sourceId": "shared-photo-teaching3",
+      "name": "第三教学楼 · 实景模型 vegetation-01",
+      "sourceRevision": "25507c2f7f1e",
+      "position": [
+        0,
+        0,
+        0
+      ],
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "bounds": {
+        "min": [
+          23.889883041381836,
+          0.3672044277191162,
+          -97.64470672607422
+        ],
+        "max": [
+          35.6550178527832,
+          1.8841071128845215,
+          -92.03836822509766
+        ]
+      },
+      "nearDistance": 55,
+      "mediumDistance": 160,
+      "tiers": [
+        {
+          "url": "models/photo/teaching3-vegetation-01-far.glb",
+          "bytes": 3816,
+          "revision": "eb547d5f405d",
+          "triangles": 60
+        },
+        {
+          "url": "models/photo/teaching3-vegetation-01-medium.glb",
+          "bytes": 16764,
+          "revision": "840ca833692c",
+          "triangles": 532
+        },
+        {
+          "url": "models/photo/teaching3-vegetation-01-near.glb",
+          "bytes": 64180,
+          "revision": "02ecb510b63a",
+          "triangles": 2420
+        }
+      ]
+    },
+    {
+      "id": "landscape-tree-teaching3-vegetation-02",
+      "sourceId": "shared-photo-teaching3",
+      "name": "第三教学楼 · 实景模型 vegetation-02",
+      "sourceRevision": "25507c2f7f1e",
+      "position": [
+        0,
+        0,
+        0
+      ],
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "bounds": {
+        "min": [
+          23.972824096679688,
+          0.322066992521286,
+          -97.63121795654297
+        ],
+        "max": [
+          35.75026321411133,
+          1.9087163209915161,
+          -92.01664733886719
+        ]
+      },
+      "nearDistance": 55,
+      "mediumDistance": 160,
+      "tiers": [
+        {
+          "url": "models/photo/teaching3-vegetation-02-far.glb",
+          "bytes": 3760,
+          "revision": "7b49b188026f",
+          "triangles": 59
+        },
+        {
+          "url": "models/photo/teaching3-vegetation-02-medium.glb",
+          "bytes": 16636,
+          "revision": "dddd629b26de",
+          "triangles": 525
+        },
+        {
+          "url": "models/photo/teaching3-vegetation-02-near.glb",
+          "bytes": 63436,
+          "revision": "b8beb3894bda",
+          "triangles": 2388
+        }
+      ]
+    },
+    {
+      "id": "landscape-tree-teaching3-vegetation-03",
+      "sourceId": "shared-photo-teaching3",
+      "name": "第三教学楼 · 实景模型 vegetation-03",
+      "sourceRevision": "25507c2f7f1e",
+      "position": [
+        0,
+        0,
+        0
+      ],
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "bounds": {
+        "min": [
+          23.85446548461914,
+          0.3768858015537262,
+          -97.62619018554688
+        ],
+        "max": [
+          35.76969528198242,
+          1.89247465133667,
+          -92.09561920166016
+        ]
+      },
+      "nearDistance": 55,
+      "mediumDistance": 160,
+      "tiers": [
+        {
+          "url": "models/photo/teaching3-vegetation-03-far.glb",
+          "bytes": 3824,
+          "revision": "5d9d1edc2faa",
+          "triangles": 61
+        },
+        {
+          "url": "models/photo/teaching3-vegetation-03-medium.glb",
+          "bytes": 17108,
+          "revision": "83126155519f",
+          "triangles": 541
+        },
+        {
+          "url": "models/photo/teaching3-vegetation-03-near.glb",
+          "bytes": 65304,
+          "revision": "ea19c8c9d6c4",
+          "triangles": 2460
+        }
+      ]
+    },
+    {
+      "id": "photo-teaching3-vegetation-04",
+      "sourceId": "shared-photo-teaching3",
+      "name": "第三教学楼 · 实景模型 vegetation-04",
+      "sourceRevision": "25507c2f7f1e",
+      "position": [
+        0,
+        0,
+        0
+      ],
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "bounds": {
+        "min": [
+          11.470498085021973,
+          0.21420449018478394,
+          -86.50871276855469
+        ],
+        "max": [
+          12.113455772399902,
+          12.222107887268066,
+          -86.09129333496094
+        ]
+      },
+      "nearDistance": 55,
+      "mediumDistance": 160,
+      "tiers": [
+        {
+          "url": "models/photo/teaching3-vegetation-04-far.glb",
+          "bytes": 2504,
+          "revision": "141f0570ea3b",
+          "triangles": 28
+        },
+        {
+          "url": "models/photo/teaching3-vegetation-04-medium.glb",
+          "bytes": 2504,
+          "revision": "141f0570ea3b",
+          "triangles": 28
+        },
+        {
+          "url": "models/photo/teaching3-vegetation-04-near.glb",
+          "bytes": 2504,
+          "revision": "141f0570ea3b",
+          "triangles": 28
+        }
+      ]
+    },
+    {
+      "id": "landscape-tree-teaching3-vegetation-05",
+      "sourceId": "shared-photo-teaching3",
+      "name": "第三教学楼 · 实景模型 vegetation-05",
+      "sourceRevision": "25507c2f7f1e",
+      "position": [
+        0,
+        0,
+        0
+      ],
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "bounds": {
+        "min": [
+          7.8693037033081055,
+          3.5312869548797607,
+          -89.33509826660156
+        ],
+        "max": [
+          16.85207748413086,
+          11.6290283203125,
+          -82.20674133300781
+        ]
+      },
+      "nearDistance": 55,
+      "mediumDistance": 160,
+      "tiers": [
+        {
+          "url": "models/photo/teaching3-vegetation-05-far.glb",
+          "bytes": 3108,
+          "revision": "73f529da8dd8",
+          "triangles": 32
+        },
+        {
+          "url": "models/photo/teaching3-vegetation-05-medium.glb",
+          "bytes": 4692,
+          "revision": "d6031942bf8f",
+          "triangles": 98
+        },
+        {
+          "url": "models/photo/teaching3-vegetation-05-near.glb",
+          "bytes": 8792,
+          "revision": "4352e628cf2a",
+          "triangles": 448
+        }
+      ]
+    },
+    {
+      "id": "landscape-tree-teaching3-vegetation-06",
+      "sourceId": "shared-photo-teaching3",
+      "name": "第三教学楼 · 实景模型 vegetation-06",
+      "sourceRevision": "25507c2f7f1e",
+      "position": [
+        0,
+        0,
+        0
+      ],
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "bounds": {
+        "min": [
+          6.301701545715332,
+          3.632571220397949,
+          -90.76718139648438
+        ],
+        "max": [
+          18.558574676513672,
+          12.394306182861328,
+          -80.75534057617188
+        ]
+      },
+      "nearDistance": 55,
+      "mediumDistance": 160,
+      "tiers": [
+        {
+          "url": "models/photo/teaching3-vegetation-06-far.glb",
+          "bytes": 7876,
+          "revision": "50850c19eda3",
+          "triangles": 207
+        },
+        {
+          "url": "models/photo/teaching3-vegetation-06-medium.glb",
+          "bytes": 51108,
+          "revision": "54269b05f65d",
+          "triangles": 1826
+        },
+        {
+          "url": "models/photo/teaching3-vegetation-06-near.glb",
+          "bytes": 215600,
+          "revision": "7085ab8cb3ab",
+          "triangles": 8300
+        }
+      ]
+    },
+    {
+      "id": "landscape-tree-teaching3-vegetation-07",
+      "sourceId": "shared-photo-teaching3",
+      "name": "第三教学楼 · 实景模型 vegetation-07",
+      "sourceRevision": "25507c2f7f1e",
+      "position": [
+        0,
+        0,
+        0
+      ],
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "bounds": {
+        "min": [
+          6.334288597106934,
+          3.6573307514190674,
+          -90.72002410888672
+        ],
+        "max": [
+          18.349048614501953,
+          12.410813331604004,
+          -80.77725219726562
+        ]
+      },
+      "nearDistance": 55,
+      "mediumDistance": 160,
+      "tiers": [
+        {
+          "url": "models/photo/teaching3-vegetation-07-far.glb",
+          "bytes": 7640,
+          "revision": "029441e03a96",
+          "triangles": 199
+        },
+        {
+          "url": "models/photo/teaching3-vegetation-07-medium.glb",
+          "bytes": 49180,
+          "revision": "419420a2c5d0",
+          "triangles": 1753
+        },
+        {
+          "url": "models/photo/teaching3-vegetation-07-near.glb",
+          "bytes": 207320,
+          "revision": "a400aded49c4",
+          "triangles": 7972
+        }
+      ]
+    },
+    {
+      "id": "landscape-tree-teaching3-vegetation-08",
+      "sourceId": "shared-photo-teaching3",
+      "name": "第三教学楼 · 实景模型 vegetation-08",
+      "sourceRevision": "25507c2f7f1e",
+      "position": [
+        0,
+        0,
+        0
+      ],
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "bounds": {
+        "min": [
+          6.2831525802612305,
+          3.6078221797943115,
+          -90.80583190917969
+        ],
+        "max": [
+          18.420495986938477,
+          12.38247299194336,
+          -80.75837707519531
+        ]
+      },
+      "nearDistance": 55,
+      "mediumDistance": 160,
+      "tiers": [
+        {
+          "url": "models/photo/teaching3-vegetation-08-far.glb",
+          "bytes": 8016,
+          "revision": "696ddab4569f",
+          "triangles": 212
+        },
+        {
+          "url": "models/photo/teaching3-vegetation-08-medium.glb",
+          "bytes": 52328,
+          "revision": "cb5234275f19",
+          "triangles": 1870
+        },
+        {
+          "url": "models/photo/teaching3-vegetation-08-near.glb",
+          "bytes": 220912,
+          "revision": "53b9232efa92",
+          "triangles": 8500
+        }
+      ]
+    },
+    {
+      "id": "landscape-tree-teaching3-vegetation-09",
+      "sourceId": "shared-photo-teaching3",
+      "name": "第三教学楼 · 实景模型 vegetation-09",
+      "sourceRevision": "25507c2f7f1e",
+      "position": [
+        0,
+        0,
+        0
+      ],
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "bounds": {
+        "min": [
+          6.400477409362793,
+          3.64823055267334,
+          -90.815673828125
+        ],
+        "max": [
+          18.329072952270508,
+          12.41635513305664,
+          -80.75173950195312
+        ]
+      },
+      "nearDistance": 55,
+      "mediumDistance": 160,
+      "tiers": [
+        {
+          "url": "models/photo/teaching3-vegetation-09-far.glb",
+          "bytes": 8036,
+          "revision": "cf56096098bc",
+          "triangles": 212
+        },
+        {
+          "url": "models/photo/teaching3-vegetation-09-medium.glb",
+          "bytes": 52408,
+          "revision": "d6d51bd9990c",
+          "triangles": 1871
+        },
+        {
+          "url": "models/photo/teaching3-vegetation-09-near.glb",
+          "bytes": 220892,
+          "revision": "8a6a320d44f3",
+          "triangles": 8508
+        }
+      ]
+    },
+    {
+      "id": "landscape-tree-teaching3-vegetation-10",
+      "sourceId": "shared-photo-teaching3",
+      "name": "第三教学楼 · 实景模型 vegetation-10",
+      "sourceRevision": "25507c2f7f1e",
+      "position": [
+        0,
+        0,
+        0
+      ],
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "bounds": {
+        "min": [
+          4.7664031982421875,
+          0.20315787196159363,
+          -93.60358428955078
+        ],
+        "max": [
+          40.713417053222656,
+          8.223159790039062,
+          -83.99642181396484
+        ]
+      },
+      "nearDistance": 55,
+      "mediumDistance": 160,
+      "tiers": [
+        {
+          "url": "models/photo/teaching3-vegetation-10-far.glb",
+          "bytes": 2364,
+          "revision": "9cf207cbb451",
+          "triangles": 10
+        },
+        {
+          "url": "models/photo/teaching3-vegetation-10-medium.glb",
+          "bytes": 2852,
+          "revision": "8c95e3f86a32",
+          "triangles": 30
+        },
+        {
+          "url": "models/photo/teaching3-vegetation-10-near.glb",
+          "bytes": 4080,
+          "revision": "c203fc5b1edc",
+          "triangles": 140
+        }
+      ]
+    },
+    {
+      "id": "landscape-tree-teaching3-vegetation-11",
+      "sourceId": "shared-photo-teaching3",
+      "name": "第三教学楼 · 实景模型 vegetation-11",
+      "sourceRevision": "25507c2f7f1e",
+      "position": [
+        0,
+        0,
+        0
+      ],
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "bounds": {
+        "min": [
+          4.8470001220703125,
+          0.2199999988079071,
+          -93.52999877929688
+        ],
+        "max": [
+          40.553001403808594,
+          8.142143249511719,
+          -84.07000732421875
+        ]
+      },
+      "nearDistance": 55,
+      "mediumDistance": 160,
+      "tiers": [
+        {
+          "url": "models/photo/teaching3-vegetation-11-far.glb",
+          "bytes": 83904,
+          "revision": "6b641a991eaf",
+          "triangles": 3856
+        },
+        {
+          "url": "models/photo/teaching3-vegetation-11-medium.glb",
+          "bytes": 93024,
+          "revision": "3b262e7ecb3e",
+          "triangles": 5088
+        },
+        {
+          "url": "models/photo/teaching3-vegetation-11-near.glb",
+          "bytes": 296796,
+          "revision": "5117cba38e6d",
+          "triangles": 23136
+        }
+      ]
+    },
+    {
+      "id": "landscape-tree-teaching3-vegetation-12",
+      "sourceId": "shared-photo-teaching3",
+      "name": "第三教学楼 · 实景模型 vegetation-12",
+      "sourceRevision": "25507c2f7f1e",
+      "position": [
+        0,
+        0,
+        0
+      ],
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "bounds": {
+        "min": [
+          3.798269271850586,
+          5.826883792877197,
+          -94.50249481201172
+        ],
+        "max": [
+          41.63495635986328,
+          9.022672653198242,
+          -83.09644317626953
+        ]
+      },
+      "nearDistance": 55,
+      "mediumDistance": 160,
+      "tiers": [
+        {
+          "url": "models/photo/teaching3-vegetation-12-far.glb",
+          "bytes": 6164,
+          "revision": "a36e0beefa55",
+          "triangles": 150
+        },
+        {
+          "url": "models/photo/teaching3-vegetation-12-medium.glb",
+          "bytes": 12152,
+          "revision": "8c21597c113e",
+          "triangles": 462
+        },
+        {
+          "url": "models/photo/teaching3-vegetation-12-near.glb",
+          "bytes": 30316,
+          "revision": "bef6a980b7ec",
+          "triangles": 2100
+        }
+      ]
+    },
+    {
+      "id": "landscape-tree-teaching3-vegetation-13",
+      "sourceId": "shared-photo-teaching3",
+      "name": "第三教学楼 · 实景模型 vegetation-13",
+      "sourceRevision": "25507c2f7f1e",
+      "position": [
+        0,
+        0,
+        0
+      ],
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "bounds": {
+        "min": [
+          2.512237548828125,
+          5.588531017303467,
+          -95.69635009765625
+        ],
+        "max": [
+          42.87607192993164,
+          9.00098705291748,
+          -81.9329605102539
+        ]
+      },
+      "nearDistance": 55,
+      "mediumDistance": 160,
+      "tiers": [
+        {
+          "url": "models/photo/teaching3-vegetation-13-far.glb",
+          "bytes": 2376,
+          "revision": "fa06eed0f6a0",
+          "triangles": 10
+        },
+        {
+          "url": "models/photo/teaching3-vegetation-13-medium.glb",
+          "bytes": 4420,
+          "revision": "59236fdb6c45",
+          "triangles": 90
+        },
+        {
+          "url": "models/photo/teaching3-vegetation-13-near.glb",
+          "bytes": 12388,
+          "revision": "fa30e364011d",
+          "triangles": 413
+        }
+      ]
+    },
+    {
+      "id": "landscape-tree-teaching3-vegetation-14",
+      "sourceId": "shared-photo-teaching3",
+      "name": "第三教学楼 · 实景模型 vegetation-14",
+      "sourceRevision": "25507c2f7f1e",
+      "position": [
+        0,
+        0,
+        0
+      ],
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "bounds": {
+        "min": [
+          2.4862308502197266,
+          5.583125114440918,
+          -95.6425552368164
+        ],
+        "max": [
+          42.93742370605469,
+          9.00098705291748,
+          -81.90916442871094
+        ]
+      },
+      "nearDistance": 55,
+      "mediumDistance": 160,
+      "tiers": [
+        {
+          "url": "models/photo/teaching3-vegetation-14-far.glb",
+          "bytes": 2396,
+          "revision": "29014ef9ca2e",
+          "triangles": 10
+        },
+        {
+          "url": "models/photo/teaching3-vegetation-14-medium.glb",
+          "bytes": 4460,
+          "revision": "7cf3707593aa",
+          "triangles": 91
+        },
+        {
+          "url": "models/photo/teaching3-vegetation-14-near.glb",
+          "bytes": 12552,
+          "revision": "1d02ce56e765",
+          "triangles": 418
+        }
+      ]
+    },
+    {
+      "id": "landscape-tree-teaching3-vegetation-15",
+      "sourceId": "shared-photo-teaching3",
+      "name": "第三教学楼 · 实景模型 vegetation-15",
+      "sourceRevision": "25507c2f7f1e",
+      "position": [
+        0,
+        0,
+        0
+      ],
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "bounds": {
+        "min": [
+          2.4893798828125,
+          5.557044982910156,
+          -95.60445404052734
+        ],
+        "max": [
+          42.934295654296875,
+          9.00098705291748,
+          -81.96834564208984
+        ]
+      },
+      "nearDistance": 55,
+      "mediumDistance": 160,
+      "tiers": [
+        {
+          "url": "models/photo/teaching3-vegetation-15-far.glb",
+          "bytes": 2384,
+          "revision": "e500d947b30a",
+          "triangles": 9
+        },
+        {
+          "url": "models/photo/teaching3-vegetation-15-medium.glb",
+          "bytes": 4284,
+          "revision": "3e009f90126f",
+          "triangles": 82
+        },
+        {
+          "url": "models/photo/teaching3-vegetation-15-near.glb",
+          "bytes": 11452,
+          "revision": "38c93550870b",
+          "triangles": 373
+        }
+      ]
+    },
+    {
+      "id": "landscape-tree-teaching3-vegetation-16",
+      "sourceId": "shared-photo-teaching3",
+      "name": "第三教学楼 · 实景模型 vegetation-16",
+      "sourceRevision": "25507c2f7f1e",
+      "position": [
+        0,
+        0,
+        0
+      ],
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "bounds": {
+        "min": [
+          2.5018844604492188,
+          5.562775611877441,
+          -95.6923599243164
+        ],
+        "max": [
+          42.943260192871094,
+          9.00098705291748,
+          -81.90406036376953
+        ]
+      },
+      "nearDistance": 55,
+      "mediumDistance": 160,
+      "tiers": [
+        {
+          "url": "models/photo/teaching3-vegetation-16-far.glb",
+          "bytes": 2440,
+          "revision": "89992bb51f6f",
+          "triangles": 11
+        },
+        {
+          "url": "models/photo/teaching3-vegetation-16-medium.glb",
+          "bytes": 4696,
+          "revision": "958ba6199e8f",
+          "triangles": 98
+        },
+        {
+          "url": "models/photo/teaching3-vegetation-16-near.glb",
+          "bytes": 13176,
+          "revision": "ea0aa10d6c45",
+          "triangles": 446
+        }
+      ]
+    },
+    {
+      "id": "landscape-tree-teaching3-vegetation-17",
+      "sourceId": "shared-photo-teaching3",
+      "name": "第三教学楼 · 实景模型 vegetation-17",
+      "sourceRevision": "25507c2f7f1e",
+      "position": [
+        0,
+        0,
+        0
+      ],
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "bounds": {
+        "min": [
+          5.404644012451172,
+          0.25,
+          -92.03543853759766
+        ],
+        "max": [
+          16.844009399414062,
+          0.7255192995071411,
+          -80.71884155273438
+        ]
+      },
+      "nearDistance": 55,
+      "mediumDistance": 160,
+      "tiers": [
+        {
+          "url": "models/photo/teaching3-vegetation-17-far.glb",
+          "bytes": 9024,
+          "revision": "015822252aa5",
+          "triangles": 256
+        },
+        {
+          "url": "models/photo/teaching3-vegetation-17-medium.glb",
+          "bytes": 61476,
+          "revision": "2ccafff90659",
+          "triangles": 2252
+        },
+        {
+          "url": "models/photo/teaching3-vegetation-17-near.glb",
+          "bytes": 155296,
+          "revision": "9fc8097aeffe",
+          "triangles": 10240
+        }
+      ]
+    },
+    {
+      "id": "landscape-tree-teaching3-vegetation-18",
+      "sourceId": "shared-photo-teaching3",
+      "name": "第三教学楼 · 实景模型 vegetation-18",
+      "sourceRevision": "25507c2f7f1e",
+      "position": [
+        0,
+        0,
+        0
+      ],
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "bounds": {
+        "min": [
+          4.926433563232422,
+          0.25,
+          -91.83235931396484
+        ],
+        "max": [
+          17.886024475097656,
+          0.7253997325897217,
+          -81.08573913574219
+        ]
+      },
+      "nearDistance": 55,
+      "mediumDistance": 160,
+      "tiers": [
+        {
+          "url": "models/photo/teaching3-vegetation-18-far.glb",
+          "bytes": 9172,
+          "revision": "8ebc58dc6517",
+          "triangles": 262
+        },
+        {
+          "url": "models/photo/teaching3-vegetation-18-medium.glb",
+          "bytes": 62328,
+          "revision": "c7fe192d4b74",
+          "triangles": 2309
+        },
+        {
+          "url": "models/photo/teaching3-vegetation-18-near.glb",
+          "bytes": 158004,
+          "revision": "e3ff30efed3a",
+          "triangles": 10496
+        }
+      ]
+    },
+    {
+      "id": "landscape-tree-teaching3-vegetation-19",
+      "sourceId": "shared-photo-teaching3",
+      "name": "第三教学楼 · 实景模型 vegetation-19",
+      "sourceRevision": "25507c2f7f1e",
+      "position": [
+        0,
+        0,
+        0
+      ],
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "bounds": {
+        "min": [
+          4.787403106689453,
+          0.25,
+          -91.64625549316406
+        ],
+        "max": [
+          18.489151000976562,
+          0.7254457473754883,
+          -80.65872192382812
+        ]
+      },
+      "nearDistance": 55,
+      "mediumDistance": 160,
+      "tiers": [
+        {
+          "url": "models/photo/teaching3-vegetation-19-far.glb",
+          "bytes": 9728,
+          "revision": "8c7934b3b2cc",
+          "triangles": 288
+        },
+        {
+          "url": "models/photo/teaching3-vegetation-19-medium.glb",
+          "bytes": 68020,
+          "revision": "368f51fc0449",
+          "triangles": 2534
+        },
+        {
+          "url": "models/photo/teaching3-vegetation-19-near.glb",
+          "bytes": 172844,
+          "revision": "bf15c091a3fa",
+          "triangles": 11520
+        }
+      ]
+    },
+    {
+      "id": "landscape-tree-teaching3-vegetation-20",
+      "sourceId": "shared-photo-teaching3",
+      "name": "第三教学楼 · 实景模型 vegetation-20",
+      "sourceRevision": "25507c2f7f1e",
+      "position": [
+        0,
+        0,
+        0
+      ],
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "bounds": {
+        "min": [
+          4.822765350341797,
+          0.25,
+          -92.08073425292969
+        ],
+        "max": [
+          17.722688674926758,
+          0.7246720790863037,
+          -81.2188949584961
+        ]
+      },
+      "nearDistance": 55,
+      "mediumDistance": 160,
+      "tiers": [
+        {
+          "url": "models/photo/teaching3-vegetation-20-far.glb",
+          "bytes": 7912,
+          "revision": "e333239f5654",
+          "triangles": 217
+        },
+        {
+          "url": "models/photo/teaching3-vegetation-20-medium.glb",
+          "bytes": 52028,
+          "revision": "9002ddac3ed6",
+          "triangles": 1914
+        },
+        {
+          "url": "models/photo/teaching3-vegetation-20-near.glb",
+          "bytes": 131452,
+          "revision": "7309dee8c811",
+          "triangles": 8704
         }
       ]
     }

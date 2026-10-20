@@ -9,13 +9,14 @@
     "dev": "vinext dev",
     "build": "vinext build",
     "build:pages": "vite build --config vite.pages.config.ts",
-    "prebuild:pages": "node validate-models.mjs && python3 ../scripts/validate_lods.py",
+    "prebuild:pages": "node validate-models.mjs && python3 ../scripts/validate_lods.py && node validate-walk.mjs",
     "integrate:hanbing": "node integrate-hanbing.mjs",
     "validate:models": "node validate-models.mjs",
     "start": "wrangler dev --config dist/server/wrangler.json",
     "lint": "oxlint",
     "format": "oxfmt",
-    "test:lod": "node --experimental-strip-types --test tests/lod-*.test.mjs"
+    "test:lod": "node --experimental-strip-types --test tests/lod-*.test.mjs",
+    "test:walk": "node --experimental-strip-types --test tests/walk.test.mjs"
   },
   "dependencies": {
     "@base-ui/react": "1.7.0",

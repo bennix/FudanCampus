@@ -1,5 +1,16 @@
 # 校园场景复原
 
+## 实景校园与室外步行漫游（2026-10-20）
+
+[进入校园](https://bennix.github.io/FudanCampus/) · [曦园](https://bennix.github.io/FudanCampus/?view=xiyuan) · [叶耀珍楼](https://bennix.github.io/FudanCampus/?view=yeyaozhen) · [第三教学楼](https://bennix.github.io/FudanCampus/?view=teaching3)
+
+三处照片模型已并入完整校园。三教雕塑为完整金属球体，用户确认不存在的附楼外置楼梯已删除。保留原有精修模型和鸟瞰入口，不添加遮挡场景的更新卡片。
+
+点击「步行漫游」进入室外人眼视角：WASD／方向键移动，拖动画面调整视线，Shift 快走，Esc 或「退出步行」返回原视角；触屏可使用方向按钮。道路、草坪、广场、庭院等空旷区域均可通行，不限定路线。建筑内部封闭，建筑、树干、池岸和其他实体使用独立碰撞数据阻挡；视觉 LOD 切换不会删除碰撞。模型尺寸和碰撞轮廓均基于近似复原。
+
+碰撞来自 `web/build-walk-collision.mjs` 导出的固定三角面，`scripts/union_walk_interiors.py` 使用 Shapely 合并建筑投影并保留开放庭院孔洞。生成资源随仓库提交，线上无需 Blender 或 Python。每次更新模型后重建碰撞，并运行 `npm --prefix web run test:walk`、`npm --prefix web run build:pages`；构建检查碰撞源版本是否过期。
+
+
 ## 第四教学楼（17 号）照片复原
 
 依据用户提供的八张照片，将原三层占位楼替换为六层灰白教学楼，包含正面五层挑出阳台、入口文字与台阶、竖向分缝塔、背面四列窄窗楼梯间、红褐色墙脚，以及门前弧形花坛、错位叠书雕塑和钟面。地图 footprint 和位置保留；层高、进深、花坛尺度及未拍到的部分按比例推定，雕塑基座模糊铭文未臆造。

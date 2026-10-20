@@ -5,9 +5,9 @@
     {
       "id": "00",
       "name": "00 Terrain and roads",
-      "url": "models/shared/00-guanghua-merged.glb",
-      "revision": "3e1fd09514ba",
-      "bytes": 3431968
+      "url": "models/shared/00-guanghua-merged-photo.glb",
+      "revision": "30a1761b99cd",
+      "bytes": 3431884
     },
     {
       "id": "01",
@@ -19,9 +19,9 @@
     {
       "id": "02",
       "name": "02 West academic blocks",
-      "url": "models/shared/02-teaching4.glb",
-      "revision": "54f117e80e32",
-      "bytes": 10880744
+      "url": "models/shared/02-teaching4-photo.glb",
+      "revision": "0a37d6323683",
+      "bytes": 12587972
     },
     {
       "id": "03",
@@ -40,9 +40,9 @@
     {
       "id": "05",
       "name": "05 Landscape",
-      "url": "models/shared/05-guanghua-closeout.glb",
-      "revision": "39c56a008f4e",
-      "bytes": 4803248
+      "url": "models/shared/05-guanghua-closeout-photo.glb",
+      "revision": "22814ea822d5",
+      "bytes": 5511748
     },
     {
       "id": "guanghua-landscape",
@@ -61,6 +61,33 @@
       "sourceModel": "https://sketchfab.com/3d-models/ef18c25e1e094cf99e2b377ad7377d05",
       "author": "1821427398",
       "license": "CC BY 4.0"
+    },
+    {
+      "url": "models/photo/xiyuan.glb",
+      "bytes": 95885680,
+      "revision": "3947464eea00",
+      "id": "photo-xiyuan",
+      "name": "曦园 · 实景模型",
+      "source": "User field photographs; approximate map registration",
+      "editableSource": "field-review/xiyuan-photo-v1/xiyuan.blend"
+    },
+    {
+      "url": "models/photo/yeyaozhen.glb",
+      "bytes": 15505732,
+      "revision": "9629e3d5344a",
+      "id": "photo-yeyaozhen",
+      "name": "叶耀珍楼 · 实景模型",
+      "source": "User field photographs; approximate map registration",
+      "editableSource": "field-review/yeyaozhen-photo-v1/yeyaozhen.blend"
+    },
+    {
+      "url": "models/photo/teaching3.glb",
+      "bytes": 16023248,
+      "revision": "25507c2f7f1e",
+      "id": "photo-teaching3",
+      "name": "第三教学楼 · 实景模型",
+      "source": "User field photographs; approximate map registration",
+      "editableSource": "field-review/teaching3-photo-v1/teaching3.blend"
     }
   ],
   "buildings": [

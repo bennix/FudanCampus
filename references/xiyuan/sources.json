@@ -1,0 +1,70 @@
+{
+  "source": "User-provided photographs, 2026-10-20",
+  "images": [
+    {
+      "file": "photo-01.jpg",
+      "attachment": "codex-clipboard-f631c17b-5989-4e68-b9f4-a6d8c5b3c59e.jpg",
+      "sha256": "b96efb62e9a2a4f2de5dbb418278b86e4c760a42a5cc23f6b54d56a85e328880"
+    },
+    {
+      "file": "photo-02.jpg",
+      "attachment": "codex-clipboard-23dc5d02-f40d-4005-99c6-91efd3180586.jpg",
+      "sha256": "6a5811c2eab90dda1e970ae36efb58110e051f6fdd8e9ddb887c4e7d52099fe3"
+    },
+    {
+      "file": "photo-03.jpg",
+      "attachment": "codex-clipboard-8785d092-f674-4d9a-b773-545d0845892f.jpg",
+      "sha256": "0d56e4dc7621abf3bd79ccc168fa74367fb0823de234d3194ea4d655be82cd8e"
+    },
+    {
+      "file": "photo-04.jpg",
+      "attachment": "codex-clipboard-6f1f74d4-9604-490c-a8ac-26b9773afd7e.jpg",
+      "sha256": "4a6ace1e1fe178966782dac405fb8b20cd4b22cd6e1762abe10ba5dc64875649"
+    },
+    {
+      "file": "photo-05.jpg",
+      "attachment": "codex-clipboard-928f6ce4-776a-4651-9bbe-1957fb0f614a.jpg",
+      "sha256": "f3a3c63c8875c68f7ee7ca5d840cffac3a0945467354a82a27a173e0f61b8be9"
+    },
+    {
+      "file": "photo-06.jpg",
+      "attachment": "codex-clipboard-6d0c0a1b-ed86-4f74-8e97-6807ea23b2a6.jpg",
+      "sha256": "6242b2ef818017b69806a758110586bd3557d075d0c6c419cb34a1b7fe5eefab"
+    },
+    {
+      "file": "photo-07.jpg",
+      "attachment": "codex-clipboard-532a9e02-2987-4dd0-8d1a-c5c548a42c6b.jpg",
+      "sha256": "7b61fa86bee5e9112c1de8157661226be9eda7195bbe03b992baf5d641d70489"
+    },
+    {
+      "file": "photo-08.jpg",
+      "attachment": "codex-clipboard-9f97b084-d24c-4a0f-8a2f-d70413d83059.jpg",
+      "sha256": "7b61fa86bee5e9112c1de8157661226be9eda7195bbe03b992baf5d641d70489"
+    },
+    {
+      "file": "photo-09.jpg",
+      "attachment": "codex-clipboard-85045817-d912-4358-ae72-73c01fcd33e1.jpg",
+      "sha256": "91b26b2267ce1428174c06ce46b303710f1fb058b0b42684754a4e33e76a19ae"
+    },
+    {
+      "file": "photo-10.jpg",
+      "attachment": "codex-clipboard-6614e117-808a-41f6-86e4-d7eb03bd4c94.jpg",
+      "sha256": "382b162a1aea1ffa0d3df6a89bfa7280cf8563d021ea8b506f0a8ca3353d37a1"
+    },
+    {
+      "file": "photo-11.jpg",
+      "attachment": "codex-clipboard-6c6dec04-af17-453b-ba92-8e372d79f5b1.jpg",
+      "sha256": "86d6ef7863433db146f1c40ffe7d688bb99e30c4922ed18d4e16c29f363556a7"
+    },
+    {
+      "file": "photo-12.jpg",
+      "attachment": "codex-clipboard-6c84200f-3aff-4386-8db5-80d5dc72e0d2.jpg",
+      "sha256": "d2d13aeedbc350502b603b33ec44d54578fb68e8961f270a3bf8994985afcb83"
+    },
+    {
+      "file": "photo-13.jpg",
+      "attachment": "codex-clipboard-1b15a571-5e44-472b-8772-7eb0e59c6b14.jpg",
+      "sha256": "e24e447ea43b1b24a432e9bf30a1018f840ee8ca069be35bdf7c625362078648"
+    }
+  ]
+}

@@ -1,0 +1,81 @@
+{
+  "source": "User-provided photographs, 2026-10-20",
+  "images": [
+    {
+      "file": "photo-01.jpg",
+      "attachment": "codex-clipboard-5bac3255-2647-4e39-bae3-379d8467ff42.jpg",
+      "sha256": "46bfc436aa9dffa277e07bdd803057bbc20386f6ca0f6e9b1b341e289629a7c2"
+    },
+    {
+      "file": "photo-02.jpg",
+      "attachment": "codex-clipboard-fe008a00-a91d-4a72-9390-6866c4e6e08d.jpg",
+      "sha256": "ce49d840b45d941a14366b7475084e3d07b13e439070e419ce0e6ce9423e94a0"
+    },
+    {
+      "file": "photo-03.jpg",
+      "attachment": "codex-clipboard-49f9f89c-12f0-4b81-bf85-f0c0d5d6bead.jpg",
+      "sha256": "e8f07c9e95ff3f1f7f1440dc30217a62fe6b58fde8241381b2799be658ab9218"
+    },
+    {
+      "file": "photo-04.jpg",
+      "attachment": "codex-clipboard-ac062576-d57f-4268-9a53-032656c6878b.jpg",
+      "sha256": "eaa20257b0569904df8f022b2a27a9ffd15d57a87de6832ae5ccb1c2075ff9b6"
+    },
+    {
+      "file": "photo-05.jpg",
+      "attachment": "codex-clipboard-a610c408-bdd6-4b83-aaec-b4e118b9a05b.jpg",
+      "sha256": "6613f2a86727b96ad26abc0518dcc9c69bb2e11a1dfba4cf76d3290adef0dfd3"
+    },
+    {
+      "file": "photo-06.jpg",
+      "attachment": "codex-clipboard-94876e17-04f6-4b08-a79c-b8a388a329d9.jpg",
+      "sha256": "2d757117915122d26250af4f2e31130c2a26ff6c470701289deb65911ea0f0eb"
+    },
+    {
+      "file": "photo-07.jpg",
+      "attachment": "codex-clipboard-f045d55b-05ed-40c1-a95d-459c9e5abf78.jpg",
+      "sha256": "319953dc37f0c48ab4ca23ddb505d2ebfcb68471a7aa15f617ec44d9ac7b0f22"
+    },
+    {
+      "file": "photo-08.jpg",
+      "attachment": "codex-clipboard-6dd8132f-63f5-4256-b86a-25fcb6845791.jpg",
+      "sha256": "319953dc37f0c48ab4ca23ddb505d2ebfcb68471a7aa15f617ec44d9ac7b0f22"
+    },
+    {
+      "file": "photo-09.jpg",
+      "attachment": "codex-clipboard-4b3e2ea3-b0b7-4783-aaa6-d256035983e2.jpg",
+      "sha256": "60c1ae7287ebcc901a3a67b60def75ab48d3c9e75b5efe84488b590606368b9e"
+    },
+    {
+      "file": "photo-10.jpg",
+      "attachment": "codex-clipboard-abd3837e-b336-4b35-bdc2-82a194d8b261.jpg",
+      "sha256": "82f5e18e8049196b8d1a067e62650325ea096fa911428daac4d01c07f7d2bcc6"
+    },
+    {
+      "file": "photo-11.jpg",
+      "attachment": "codex-clipboard-647707a5-a68c-403e-a952-5660e1dde6bc.jpg",
+      "sha256": "db9a593c6ef895bf49bfd7406b9aa4bbfcb7ab9cd0c3a3b8b5541f9ef4733522"
+    },
+    {
+      "file": "photo-12.jpg",
+      "attachment": "codex-clipboard-0c1ebb93-bf25-498b-8ef9-a4f131e54a24.jpg",
+      "sha256": "a52591ca98e650e4249928951b62b30524c6ac0d706520095d7a2058d73bee1c"
+    },
+    {
+      "file": "photo-13.jpg",
+      "attachment": "codex-clipboard-32018cc3-5770-4140-af76-e029ade2f660.jpg",
+      "sha256": "8d35d7222ea95d1bdff9d23e0bdb118355fe27ef786bafffa29a51af0afd8174"
+    },
+    {
+      "file": "photo-14.jpg",
+      "attachment": "codex-clipboard-310b71ce-f0da-4b3b-a08a-beedb9c1a3be.jpg",
+      "sha256": "bf6a67a9882295c82bb3840e5441993def9b0808daa7c7be361fe04fa433214f"
+    },
+    {
+      "file": "sphere-closeup.png",
+      "attachment": "codex-clipboard-1b59852b-b87b-4cf1-ae80-f7325a24dfaf.png",
+      "sha256": "02c1b26ffd91725fe6534e396101af5d4f6e21b4fe04a916b8c178357d8d531b",
+      "note": "User confirms sculpture is a sphere, not a disc"
+    }
+  ]
+}

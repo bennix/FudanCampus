@@ -1,0 +1,29 @@
+{
+  "modular_validation": "passed",
+  "existing_model_validation": "passed",
+  "photo_integration_validation": "passed",
+  "lod_validation": "passed",
+  "typescript": "passed",
+  "lod_tests_passed": 14,
+  "production_build": "passed",
+  "browser_console_errors": [],
+  "browser_views_checked": [
+    "teaching3",
+    "yeyaozhen",
+    "xiyuan",
+    "campus-overview"
+  ],
+  "removed_user_rejected_geometry": [
+    "annex exterior stairs",
+    "annex stair rail"
+  ],
+  "sphere_equal_diameters": true,
+  "overview_bytes": 41482760,
+  "overview_triangles": 2385148,
+  "walk_tests_passed": 5,
+  "walk_browser_checks": [
+    "xiyuan: enter, WASD, drag look, Escape exit",
+    "teaching3: courtyard movement and entrance approach"
+  ],
+  "walk_collision": 448394
+}

@@ -1,12 +1,18 @@
 'use client';
 import { useEffect, useRef, useState } from 'react';
 import * as THREE from 'three';
+import { RoomEnvironment } from 'three/addons/environments/RoomEnvironment.js';
 import { OrbitControls } from 'three/addons/controls/OrbitControls.js';
+import {WalkWorld,Walker,type Interior} from '../lib/campus-walk';
 import {CampusLod,type LodManifest} from '../lib/campus-lod';
 type LabelMode='auto'|'full'|'off';
 type Building={id:string;name:string;position:[number,number,number];source:string;category:string};
 const views:{name:string;p:number[];t:number[];fov?:number;key?:string}[]=[
  {name:'全校鸟瞰',p:[-650,950,880],t:[-20,0,-260]},
+ {name:'第三教学楼',key:'teaching3',p:[-10,26,-66],t:[21,6,-102],fov:50},
+ {name:'三教金属球',key:'teaching3-sphere',p:[35,5,-87],t:[30.4,2.8,-94.7],fov:43},
+ {name:'叶耀珍楼',key:'yeyaozhen',p:[58,13,9],t:[73,5,-18],fov:48},
+ {name:'曦园',key:'xiyuan',p:[-3,27,0],t:[24,2,-33],fov:48},
  {name:'第四教学楼',key:'teaching4',p:[-186.4,18,-157],t:[-154.4,9,-204],fov:48},
  {name:'四教书本雕塑',key:'teaching4-books',p:[-135,7,-179],t:[-142.7,3.5,-193.2],fov:48},
  {name:'四教背面',key:'teaching4-rear',p:[-123,20,-251],t:[-154.4,10,-204],fov:48},
@@ -35,10 +41,11 @@ const views:{name:string;p:number[];t:number[];fov?:number;key?:string}[]=[
  {name:'爱心长椅',key:'heart',p:[137.37,1.33,-126.27],t:[137.37,1.03,-129.8],fov:40},
 ];
 export default function Home(){
+ const [walking,setWalking]=useState(false);const [walkLoading,setWalkLoading]=useState(false);const [walkMessage,setWalkMessage]=useState('');
  const [quality,setQuality]=useState<'auto'|'battery'|'detail'>('auto');
  const mount=useRef<HTMLDivElement>(null);
  const compass=useRef<SVGSVGElement>(null);
- const api=useRef<{view:(n:number)=>void;trees:(v:boolean)=>void;rotate:(v:boolean)=>void;labels:(v:LabelMode)=>void}|null>(null);
+ const api=useRef<{walk:(v:boolean)=>void;move:(key:string,down:boolean)=>void;view:(n:number)=>void;trees:(v:boolean)=>void;rotate:(v:boolean)=>void;labels:(v:LabelMode)=>void}|null>(null);
  const [status,setStatus]=useState('正在载入校园…');const [active,setActive]=useState(0);const [trees,setTrees]=useState(true);const [rotate,setRotate]=useState(false);const [reference,setReference]=useState<'map'|'photo'|'yifu'|'science'|'guanghua'|'library'|'gate'|'physics'|'chemistry'|'office'|null>(null);const [labelMode,setLabelMode]=useState<LabelMode>('auto');
  useEffect(()=>{if(!mount.current)return;const el=mount.current;
  let needsRender=true;
@@ -46,18 +53,42 @@ export default function Home(){
  const scene=new THREE.Scene();scene.background=new THREE.Color('#cdd6d6');scene.fog=new THREE.Fog('#cdd6d6',1800,3400);
  const camera=new THREE.PerspectiveCamera(43,1,1,4500);camera.position.set(-650,950,880);if(el.clientWidth/el.clientHeight<.8)camera.position.sub(new THREE.Vector3(-20,0,-260)).multiplyScalar(1.7).add(new THREE.Vector3(-20,0,-260));
  const renderer=new THREE.WebGLRenderer({antialias:!mobile,powerPreference:mobile?'low-power':'high-performance'});renderer.setPixelRatio(Math.min(devicePixelRatio,mobile?1.25:1.7));renderer.shadowMap.enabled=!mobile;renderer.shadowMap.type=THREE.PCFShadowMap;renderer.toneMapping=THREE.ACESFilmicToneMapping;renderer.toneMappingExposure=1.2;el.appendChild(renderer.domElement);
+ const pmrem=new THREE.PMREMGenerator(renderer),room=new RoomEnvironment();const metalEnvironment=pmrem.fromScene(room,.04);room.dispose();pmrem.dispose();
  const layer=document.createElement('div');layer.className='building-labels';layer.setAttribute('aria-label','建筑浮动标签');el.appendChild(layer);
  const controls=new OrbitControls(camera,renderer.domElement);controls.target.set(-20,0,-260);controls.enableDamping=true;controls.dampingFactor=.09;controls.zoomSpeed=.55;controls.rotateSpeed=.65;controls.minDistance=3;controls.maxDistance=2200;controls.maxPolarAngle=Math.PI*.85;controls.autoRotateSpeed=.35;controls.addEventListener('change',()=>{needsRender=true;});
  scene.add(new THREE.HemisphereLight(0xe8f0ff,0x73715b,2.3));const sun=new THREE.DirectionalLight(0xfff1d5,3);sun.position.set(-340,650,320);sun.castShadow=!mobile;sun.shadow.mapSize.set(2048,2048);Object.assign(sun.shadow.camera,{left:-800,right:800,top:800,bottom:-800,near:1,far:1800});sun.shadow.bias=-.0003;scene.add(sun);sun.target.position.set(0,0,-280);scene.add(sun.target);
  let model:THREE.Group|undefined;let canceled=false;let transition:{p:THREE.Vector3;t:THREE.Vector3}|undefined;let mode:LabelMode=labelMode;let showTrees=trees;controls.autoRotate=rotate;
  const labels:{data:Building;point:THREE.Vector3;button:HTMLButtonElement}[]=[];
  const abort=new AbortController();
+ let walker:Walker|undefined,walkWorld:WalkWorld|undefined,walkRequested=false,yaw=0,pitch=0,drag:number|undefined;
+ const keys=new Set<string>(),previousPosition=camera.position.clone(),previousTarget=controls.target.clone();
+ const updateLook=()=>{if(!walker)return;camera.position.copy(walker.eye());camera.rotation.set(pitch,yaw,0,'YXZ');needsRender=true;};
+ const endWalk=()=>{walkRequested=false;walker=undefined;keys.clear();drag=undefined;setWalking(false);setWalkLoading(false);setWalkMessage('');controls.enabled=true;camera.near=1;camera.fov=43;camera.updateProjectionMatrix();camera.position.copy(previousPosition);controls.target.copy(previousTarget);needsRender=true;};
+ const startWalk=async()=>{if(walkRequested)return;walkRequested=true;setWalkLoading(true);setWalkMessage('正在准备室外碰撞，请稍候…');
+  try{if(!walkWorld){const responses=await Promise.all([fetch('/walk-collision.bin',{signal:abort.signal}),fetch('/walk-interiors.json',{signal:abort.signal})]);if(responses.some(r=>!r.ok))throw Error('碰撞数据加载失败');const [buffer,interiors]=await Promise.all([responses[0].arrayBuffer(),responses[1].json() as Promise<Interior[]>]);if(canceled)return;walkWorld=new WalkWorld(new Float32Array(buffer),interiors);}
+   if(!walkRequested||canceled)return;previousPosition.copy(camera.position);previousTarget.copy(controls.target);transition=undefined;
+   const start=camera.position.y<7?camera.position.clone():controls.target.clone().add(camera.position.clone().sub(controls.target).setY(0).normalize().multiplyScalar(18));
+   if(camera.position.y>100)start.set(-40,0,14);
+   walker=new Walker(walkWorld,start);yaw=Math.atan2(walker.eye().x-controls.target.x,walker.eye().z-controls.target.z);pitch=0;controls.enabled=false;controls.autoRotate=false;setRotate(false);camera.near=.08;camera.fov=65;camera.updateProjectionMatrix();renderer.domElement.focus();setWalking(true);setWalkMessage('室外自由行走 · 建筑内部不开放');updateLook();
+  }catch(e){if(!canceled){walkRequested=false;setWalkMessage(e instanceof Error?e.message:'步行模式准备失败');}}finally{if(!canceled)setWalkLoading(false);}
+ };
+ const keyDown=(e:KeyboardEvent)=>{if(!walker)return;if(e.code==='Escape'){endWalk();return;}if((e.target as HTMLElement)?.closest('input,select,textarea,button'))return;if(['KeyW','KeyA','KeyS','KeyD','ArrowUp','ArrowDown','ArrowLeft','ArrowRight','ShiftLeft','ShiftRight'].includes(e.code)){e.preventDefault();keys.add(e.code);}};
+ const keyUp=(e:KeyboardEvent)=>keys.delete(e.code);const clearKeys=()=>{keys.clear();drag=undefined;};
+ const lookDown=(e:PointerEvent)=>{if(!walker)return;drag=e.pointerId;renderer.domElement.setPointerCapture(e.pointerId);renderer.domElement.focus();};
+ const lookMove=(e:PointerEvent)=>{if(!walker||drag!==e.pointerId)return;yaw-=e.movementX*.004;pitch=THREE.MathUtils.clamp(pitch-e.movementY*.004,-1.2,1.2);updateLook();};
+ const lookUp=()=>{drag=undefined;};renderer.domElement.tabIndex=0;renderer.domElement.setAttribute('aria-label','校园三维场景，步行时拖动调整视线');renderer.domElement.style.touchAction='none';
+ window.addEventListener('keydown',keyDown);window.addEventListener('keyup',keyUp);window.addEventListener('blur',clearKeys);window.addEventListener('pointerup',clearKeys);document.addEventListener('visibilitychange',clearKeys);renderer.domElement.addEventListener('pointerdown',lookDown);renderer.domElement.addEventListener('pointermove',lookMove);renderer.domElement.addEventListener('pointerup',lookUp);
+
  const manifestUrl='/campus-lod.json';
  const prepare=(group:THREE.Group)=>group.traverse(o=>{if(o instanceof THREE.Mesh){if(['shared-02','shared-03'].includes(group.userData.lodAssetId)&&['3','5','7'].includes(String(o.userData.building_id??'')))o.visible=false;// Separate coplanar base roads from the overlapping landscape terrain.
  const road=group.userData.lodAssetId==='shared-00'&&/road|path/i.test(o.name);
  const terrain=group.userData.lodAssetId==='shared-guanghua-landscape'&&o.userData.feature_id==='GROUND';
  if(road||terrain){const adjust=(m:THREE.Material)=>{const c=m.clone();c.polygonOffset=true;c.polygonOffsetFactor=road?-2:2;c.polygonOffsetUnits=road?-4:4;return c;};o.material=Array.isArray(o.material)?o.material.map(adjust):adjust(o.material);}
- o.castShadow=!mobile&&!o.name.includes('Continuous');o.receiveShadow=!mobile;}if(/Canop|Trunk|Tree bark/i.test(o.name)||o.userData.campusVegetation===true)o.visible=showTrees;});
+ if(o.name.replaceAll('_',' ')==='metal sphere sculpture'){const material=(o.material as THREE.MeshStandardMaterial).clone();material.envMap=metalEnvironment.texture.clone();material.envMapIntensity=1.1;o.material=material;}
+ o.castShadow=!mobile&&!o.name.includes('Continuous');o.receiveShadow=!mobile;
+ // Campus-wide shadow texels are too coarse for the new flat water/lawn surfaces.
+ if(o.userData.photoStudy&&/^(ground|pond[ _]water|planted[ _]island[ _]lawn)$/.test(o.name)){o.castShadow=false;o.receiveShadow=false;}
+ }if(/Canop|Trunk|Tree bark/i.test(o.name)||o.userData.campusVegetation===true)o.visible=showTrees;});
  let lod:CampusLod|undefined;let lodReady=false,lastDetailCheck=0;
  Promise.all([fetch(manifestUrl,{signal:abort.signal}).then(r=>{if(!r.ok)throw Error('模型清单不可用');return r.json() as Promise<LodManifest>;}),fetch('/buildings.json',{signal:abort.signal}).then(r=>{if(!r.ok)throw Error('标签文件不可用');return r.json() as Promise<{buildings:Building[]}>;})]).then(async([manifest,data])=>{
   if(canceled)return;model=new THREE.Group();scene.add(model);
@@ -69,12 +100,13 @@ export default function Home(){
    const badge=document.createElement('span');badge.className='label-id';badge.textContent=item.id;
    const name=document.createElement('span');name.className='label-name';name.textContent=item.name;button.appendChild(badge);button.appendChild(name);layer.appendChild(button);
    const point=new THREE.Vector3(...(manifest.assets.find(a=>a.id==='buildings-'+item.id)?.labelPosition??item.position));
-   button.onclick=()=>{transition={p:point.clone().add(new THREE.Vector3(-75,95,115)),t:point.clone().add(new THREE.Vector3(0,-8,0))};setStatus(`${item.id} · ${item.name}`);};
+   button.onclick=()=>{if(walker||walkRequested)endWalk();transition={p:point.clone().add(new THREE.Vector3(-75,95,115)),t:point.clone().add(new THREE.Vector3(0,-8,0))};setStatus(`${item.id} · ${item.name}`);};
    labels.push({data:item,point,button});
   }
   setStatus(`已载入 ${data.buildings.filter(b=>b.category==='building').length} 栋建筑 · 点击标签靠近`);
  }).catch(e=>{if(!canceled){console.error(e);setStatus('校园或标签载入失败，请刷新页面重试');}});
- api.current={view(n){needsRender=true;camera.fov=views[n].fov??43;camera.updateProjectionMatrix();transition={p:new THREE.Vector3(...views[n].p as [number,number,number]),t:new THREE.Vector3(...views[n].t as [number,number,number])};if(n===0&&camera.aspect<.8)transition.p.sub(transition.t).multiplyScalar(1.7).add(transition.t);},trees(v){needsRender=true;showTrees=v;model?.traverse(o=>{if(/Canop|Trunk|Tree bark/i.test(o.name)||o.userData.campusVegetation===true)o.visible=v;});renderer.shadowMap.needsUpdate=true;},rotate(v){needsRender=true;controls.autoRotate=v;},labels(v){mode=v;needsRender=true;}};
+ api.current={walk(v){if(v)void startWalk();else endWalk();},move(key,down){if(down)keys.add(key);else keys.delete(key);},view(n){if(walker||walkRequested)endWalk();needsRender=true;camera.fov=views[n].fov??43;camera.updateProjectionMatrix();transition={p:new THREE.Vector3(...views[n].p as [number,number,number]),t:new THREE.Vector3(...views[n].t as [number,number,number])};if(n===0&&camera.aspect<.8)transition.p.sub(transition.t).multiplyScalar(1.7).add(transition.t);},trees(v){needsRender=true;showTrees=v;model?.traverse(o=>{if(/Canop|Trunk|Tree bark/i.test(o.name)||o.userData.campusVegetation===true)o.visible=v;});renderer.shadowMap.needsUpdate=true;},rotate(v){needsRender=true;controls.autoRotate=v;},labels(v){mode=v;needsRender=true;}};
+ const requestedView=new URLSearchParams(location.search).get('view');const initialView=views.findIndex(v=>v.key===requestedView);if(initialView>=0){setActive(initialView);api.current?.view(initialView);}
  const stopTransition=()=>{transition=undefined;};controls.addEventListener('start',stopTransition);
  const resize=()=>{needsRender=true;camera.aspect=el.clientWidth/el.clientHeight;camera.updateProjectionMatrix();renderer.setSize(el.clientWidth,el.clientHeight);};const observer=new ResizeObserver(resize);observer.observe(el);resize();
  const projected=new THREE.Vector3();let lastFrame=performance.now();
@@ -84,7 +116,8 @@ export default function Home(){
  const compassMarks=Array.from(compass.current?.querySelectorAll('g[data-direction]')??[]);
  renderer.setAnimationLoop(()=>{
   const now=performance.now();if(document.hidden || now-lastFrame<1000/(mobile?30:60))return;const dt=Math.min((now-lastFrame)/1000,.05);lastFrame=now;
-  if(transition){needsRender=true;const alpha=1-Math.exp(-8*dt);camera.position.lerp(transition.p,alpha);controls.target.lerp(transition.t,alpha);camera.lookAt(controls.target);if(camera.position.distanceTo(transition.p)<.03&&controls.target.distanceTo(transition.t)<.03){camera.position.copy(transition.p);controls.target.copy(transition.t);transition=undefined;}}
+  if(walker){const forward=Number(keys.has('KeyW')||keys.has('ArrowUp'))-Number(keys.has('KeyS')||keys.has('ArrowDown')),side=Number(keys.has('KeyD')||keys.has('ArrowRight'))-Number(keys.has('KeyA')||keys.has('ArrowLeft'));const direction=new THREE.Vector3(side,0,-forward).normalize().applyAxisAngle(new THREE.Vector3(0,1,0),yaw);walker.move(direction,dt,keys.has('ShiftLeft')||keys.has('ShiftRight')?4.5:2.5);updateLook();}
+  else if(transition){needsRender=true;const alpha=1-Math.exp(-8*dt);camera.position.lerp(transition.p,alpha);controls.target.lerp(transition.t,alpha);camera.lookAt(controls.target);if(camera.position.distanceTo(transition.p)<.03&&controls.target.distanceTo(transition.t)<.03){camera.position.copy(transition.p);controls.target.copy(transition.t);transition=undefined;}}
   else controls.update(dt);
   if(lodReady&&now-lastDetailCheck>250){lastDetailCheck=now;lod?.update(camera);}
   if(!needsRender)return;needsRender=false;
@@ -102,18 +135,19 @@ export default function Home(){
    projected.copy(item.point).project(camera);
    const distance=camera.position.distanceTo(item.point);
    const important=['27','65','57','3','58'].includes(item.data.id);
-   const visible=(mode!=='auto'||important||distance<(mobile?200:350))&&mode!=='off'&&projected.z>-1&&projected.z<1&&Math.abs(projected.x)<1.08&&Math.abs(projected.y)<1.08;
+   const visible=(!walker||distance<65)&&(mode!=='auto'||important||distance<(mobile?200:350))&&mode!=='off'&&projected.z>-1&&projected.z<1&&Math.abs(projected.x)<1.08&&Math.abs(projected.y)<1.08;
    item.button.hidden=!visible;if(!visible)continue;
    item.button.style.transform=`translate3d(${(projected.x*.5+.5)*el.clientWidth}px,${(-projected.y*.5+.5)*el.clientHeight}px,0) translate(-50%,-100%)`;
    item.button.classList.toggle('expanded',mode==='full'||distance<310||['27','65','57','3'].includes(item.data.id));
    item.button.style.zIndex=String(Math.max(1,Math.round(2200-distance)));
   }
  });
- return()=>{canceled=true;abort.abort();api.current=null;observer.disconnect();renderer.setAnimationLoop(null);controls.dispose();lod?.dispose();scene.traverse(o=>{if(o instanceof THREE.Mesh){o.geometry.dispose();for(const m of Array.isArray(o.material)?o.material:[o.material])m.dispose();}});renderer.dispose();el.removeChild(renderer.domElement);el.removeChild(layer);};
+ return()=>{canceled=true;window.removeEventListener('keydown',keyDown);window.removeEventListener('keyup',keyUp);window.removeEventListener('blur',clearKeys);window.removeEventListener('pointerup',clearKeys);document.removeEventListener('visibilitychange',clearKeys);renderer.domElement.removeEventListener('pointerdown',lookDown);renderer.domElement.removeEventListener('pointermove',lookMove);renderer.domElement.removeEventListener('pointerup',lookUp);abort.abort();api.current=null;observer.disconnect();renderer.setAnimationLoop(null);controls.dispose();lod?.dispose();scene.traverse(o=>{if(o instanceof THREE.Mesh){o.geometry.dispose();for(const m of Array.isArray(o.material)?o.material:[o.material])m.dispose();}});metalEnvironment.dispose();renderer.dispose();el.removeChild(renderer.domElement);el.removeChild(layer);};
  },[quality]);
- return <main><div className="viewport" ref={mount}/><header><span className="mark">复</span><div><h1>复旦 · 校园空间</h1><p>邯郸校区 · 轻量三维漫游</p></div><span className="local">自适应 3D</span></header>
- <nav aria-label="视角">{views.map((v,i)=><button key={v.name} className={active===i?'active':''} onClick={()=>{setActive(i);api.current?.view(i);}}><span>0{i+1}</span>{v.name}</button>)}</nav>
- <aside><label className="label-control">画质<select aria-label="画质" value={quality} onChange={e=>{setQuality(e.target.value as typeof quality);setActive(0);setStatus('正在载入校园…');}}><option value="auto">自动适配</option><option value="battery">省电</option><option value="detail">高画质</option></select></label><label className="label-control">建筑标签<select aria-label="建筑标签显示" value={labelMode} onChange={e=>{const v=e.target.value as LabelMode;setLabelMode(v);api.current?.labels(v);}}><option value="auto">自动详略</option><option value="full">全部名称</option><option value="off">关闭</option></select></label><button className={trees?'selected':''} onClick={()=>{setTrees(!trees);api.current?.trees(!trees);}}>树木 {trees?'开':'关'}</button><button className={rotate?'selected':''} onClick={()=>{setRotate(!rotate);api.current?.rotate(!rotate);}}>环绕 {rotate?'开':'关'}</button><button className={reference?'selected':''} onClick={()=>setReference(reference?null:'map')}>地图对照</button></aside>
+ return <main className={walking?'walking':''}><div className="viewport" ref={mount}/><header><span className="mark">复</span><div><h1>复旦 · 校园空间</h1><p>邯郸校区 · 轻量三维漫游</p></div><span className="local">自适应 3D</span></header>
+ <nav aria-label="视角">{views.map((v,i)=><button key={v.name} className={active===i?'active':''} onClick={()=>{setActive(i);api.current?.view(i);}}><span>{String(i+1).padStart(2,'0')}</span>{v.name}</button>)}</nav>
+ <aside><button disabled={walkLoading} className={walking?'selected':''} onClick={()=>api.current?.walk(!walking)}>{walkLoading?'准备步行…':walking?'退出步行':'步行漫游'}</button><label className="label-control">画质<select aria-label="画质" value={quality} onChange={e=>{setWalking(false);setWalkLoading(false);setWalkMessage('');setQuality(e.target.value as typeof quality);setActive(0);setStatus('正在载入校园…');}}><option value="auto">自动适配</option><option value="battery">省电</option><option value="detail">高画质</option></select></label><label className="label-control">建筑标签<select aria-label="建筑标签显示" value={labelMode} onChange={e=>{const v=e.target.value as LabelMode;setLabelMode(v);api.current?.labels(v);}}><option value="auto">自动详略</option><option value="full">全部名称</option><option value="off">关闭</option></select></label><button className={trees?'selected':''} onClick={()=>{setTrees(!trees);api.current?.trees(!trees);}}>树木 {trees?'开':'关'}</button><button disabled={walking} className={rotate?'selected':''} onClick={()=>{setRotate(!rotate);api.current?.rotate(!rotate);}}>环绕 {rotate?'开':'关'}</button><button className={reference?'selected':''} onClick={()=>setReference(reference?null:'map')}>地图对照</button></aside>
+ {(walking||walkLoading||walkMessage)&&<section className="walk-panel" aria-label="步行控制"><p role="status">{walkMessage}</p>{walking&&<><p>WASD / 方向键行走 · 拖动看向 · Shift 快走 · Esc 退出</p><div className="walk-pad">{[['KeyW','前进','↑'],['KeyA','左移','←'],['KeyS','后退','↓'],['KeyD','右移','→']].map(([key,label,symbol])=><button key={key} aria-label={label} onPointerDown={e=>{e.preventDefault();e.currentTarget.setPointerCapture(e.pointerId);api.current?.move(key,true);}} onPointerUp={()=>api.current?.move(key,false)} onPointerCancel={()=>api.current?.move(key,false)} onLostPointerCapture={()=>api.current?.move(key,false)}>{symbol}</button>)}</div></>}</section>}
  {reference&&<div className="reference"><div className="reference-tabs"><button className={reference==='map'?'selected':''} onClick={()=>setReference('map')}>校园地图</button><button className={reference==='photo'?'selected':''} onClick={()=>setReference('photo')}>原始照片</button><button className={reference==='yifu'?'selected':''} onClick={()=>setReference('yifu')}>逸夫楼实景</button><button className={reference==='science'?'selected':''} onClick={()=>setReference('science')}>科技楼实景</button><button className={reference==='guanghua'?'selected':''} onClick={()=>setReference('guanghua')}>光华楼实景</button><button className={reference==='library'?'selected':''} onClick={()=>setReference('library')}>图书馆实景</button><button className={reference==='gate'?'selected':''} onClick={()=>setReference('gate')}>校门实景</button><button onClick={()=>setReference('physics')}>恒隆物理楼实景</button><button onClick={()=>setReference('chemistry')}>化学楼实景</button><button onClick={()=>setReference('office')}>综合办公楼实景</button><button onClick={()=>setReference(null)} aria-label="关闭参考图片">×</button></div><a href={reference==='office'?'/office-building.jpg':reference==='chemistry'?'/chemistry-building.jpg':reference==='physics'?'/physics-building.jpg':reference==='map'?'/campus-map.png':reference==='yifu'?'/yifu-overall.jpg':reference==='science'?'/yifu-science-building.png':reference==='guanghua'?'/guanghua-building.png':reference==='library'?'/library-entry.jpg':reference==='gate'?'/gate-front.jpg':'/reference.jpg'} target="_blank" rel="noreferrer"><img src={reference==='office'?'/office-building.jpg':reference==='chemistry'?'/chemistry-building.jpg':reference==='physics'?'/physics-building.jpg':reference==='map'?'/campus-map.png':reference==='yifu'?'/yifu-overall.jpg':reference==='science'?'/yifu-science-building.png':reference==='guanghua'?'/guanghua-building.png':reference==='library'?'/library-entry.jpg':reference==='gate'?'/gate-front.jpg':'/reference.jpg'} alt={reference==='office'?'综合办公楼实景':reference==='chemistry'?'化学楼一侧入口':reference==='physics'?'恒隆物理楼实景':reference==='map'?'复旦大学校园地图':reference==='yifu'?'逸夫楼实景照片':reference==='science'?'逸夫科技楼实景照片':reference==='guanghua'?'光华楼实景照片':reference==='library'?'理科图书馆局部立面照片':reference==='gate'?'复旦校门参考照片':'校园沙盘原始参考照片'}/></a>{reference==='yifu'&&<a href="/yifu-entrance.jpg" target="_blank" rel="noreferrer"><img src="/yifu-entrance.jpg" alt="逸夫楼入口雨棚与面砖近景"/></a>}{reference==='library'&&<><a href="/library-street.jpg" target="_blank" rel="noreferrer"><img src="/library-street.jpg" alt="理科图书馆沿街立面"/></a><a href="/library-side.jpg" target="_blank" rel="noreferrer"><img src="/library-side.jpg" alt="理科图书馆侧向细节"/></a></>}{reference==='gate'&&<><a href="/gate-front-wide.jpg" target="_blank" rel="noreferrer"><img src="/gate-front-wide.jpg" alt="校门正面全景"/></a><a href="/gate-rear.jpg" target="_blank" rel="noreferrer"><img src="/gate-rear.jpg" alt="校门背面（校内看向校外）"/></a></>}<p>名称与位置依据所附地图；N / A 为无法辨清原编号的楼栋。点击图片可放大。</p></div>}
  <div className="label-hint">标签跟随建筑 · 悬停显示名称 · 点击靠近</div>
  <div className="campus-compass" role="img" aria-label="校园方向：正门朝外为正南，方向随视角旋转">
@@ -124,5 +158,5 @@ export default function Home(){
   </svg>
   <span>正门朝外 · 正南</span>
  </div>
- <footer><span><i/>{status}</span><span>拖动旋转 · 双指缩放 / 滚轮缩放</span><span className="note">地图时期名称 · 高度与外观近似 · <a href="./model-credits.html" target="_blank" rel="noreferrer">模型署名</a></span></footer></main>
+ <footer><span><i/>{status}</span><span>{walking?'WASD 行走 · 拖动看向 · Esc 退出':'拖动旋转 · 双指缩放 / 滚轮缩放'}</span><span className="note">地图时期名称 · 高度与外观近似 · <a href="./model-credits.html" target="_blank" rel="noreferrer">模型署名</a></span></footer></main>
 }

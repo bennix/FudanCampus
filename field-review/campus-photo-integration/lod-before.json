@@ -1,0 +1,6706 @@
+{
+  "version": 1,
+  "assets": [
+    {
+      "id": "shared-00",
+      "name": "00 Terrain and roads",
+      "sourceRevision": "3e1fd09514ba",
+      "labelPosition": null,
+      "position": [
+        0,
+        0,
+        0
+      ],
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "bounds": {
+        "min": [
+          -1600,
+          -0.8999999761581421,
+          -1900
+        ],
+        "max": [
+          1600,
+          5.375,
+          1300
+        ]
+      },
+      "nearDistance": 0,
+      "mediumDistance": 0,
+      "tiers": [
+        {
+          "url": "models/lod/shared-00-far.glb",
+          "revision": "820c1dc63b30",
+          "bytes": 147664,
+          "triangles": 2654
+        },
+        {
+          "url": "models/lod/shared-00-medium.glb",
+          "revision": "cf1e9a5b50a5",
+          "bytes": 701864,
+          "triangles": 2662
+        },
+        {
+          "url": "models/shared/00-guanghua-merged.glb",
+          "revision": "3e1fd09514ba",
+          "bytes": 3431968,
+          "triangles": 4716
+        }
+      ]
+    },
+    {
+      "id": "shared-01",
+      "name": "01 Historic courtyards",
+      "sourceRevision": "f0ebd998b524",
+      "labelPosition": null,
+      "position": [
+        0,
+        0,
+        0
+      ],
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "bounds": {
+        "min": [
+          -375.5249938964844,
+          0,
+          -183.4499969482422
+        ],
+        "max": [
+          -130.14999389648438,
+          14.702174186706543,
+          -18.260000228881836
+        ]
+      },
+      "nearDistance": 100,
+      "mediumDistance": 340,
+      "tiers": [
+        {
+          "url": "models/lod/shared-01-far.glb",
+          "revision": "57b951ecef7f",
+          "bytes": 548444,
+          "triangles": 40368
+        },
+        {
+          "url": "models/lod/shared-01-medium.glb",
+          "revision": "57b951ecef7f",
+          "bytes": 548444,
+          "triangles": 40368
+        },
+        {
+          "url": "models/shared/01-hanbing-v14.glb",
+          "revision": "f0ebd998b524",
+          "bytes": 2492436,
+          "triangles": 40368
+        }
+      ]
+    },
+    {
+      "id": "shared-03",
+      "name": "03 North campus",
+      "sourceRevision": "d537da09f067",
+      "labelPosition": null,
+      "position": [
+        0,
+        0,
+        0
+      ],
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "bounds": {
+        "min": [
+          -520.3719482421875,
+          0,
+          -649.125
+        ],
+        "max": [
+          -229.17906188964844,
+          32.143714904785156,
+          -351.8599853515625
+        ]
+      },
+      "nearDistance": 100,
+      "mediumDistance": 340,
+      "tiers": [
+        {
+          "url": "models/lod/shared-03-far.glb",
+          "revision": "2de1db5ac6a0",
+          "bytes": 2111372,
+          "triangles": 146772
+        },
+        {
+          "url": "models/lod/shared-03-medium.glb",
+          "revision": "2de1db5ac6a0",
+          "bytes": 2111372,
+          "triangles": 146772
+        },
+        {
+          "url": "models/shared/03.glb",
+          "revision": "d537da09f067",
+          "bytes": 8794420,
+          "triangles": 146772
+        }
+      ]
+    },
+    {
+      "id": "shared-04",
+      "name": "04 East campus",
+      "sourceRevision": "88235469b10d",
+      "labelPosition": null,
+      "position": [
+        0,
+        0,
+        0
+      ],
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "bounds": {
+        "min": [
+          287.67498779296875,
+          0,
+          -299.125
+        ],
+        "max": [
+          480.32501220703125,
+          22.351186752319336,
+          -21.459999084472656
+        ]
+      },
+      "nearDistance": 100,
+      "mediumDistance": 340,
+      "tiers": [
+        {
+          "url": "models/lod/shared-04-far.glb",
+          "revision": "fcf63fe1ba04",
+          "bytes": 903388,
+          "triangles": 69414
+        },
+        {
+          "url": "models/lod/shared-04-medium.glb",
+          "revision": "fcf63fe1ba04",
+          "bytes": 903388,
+          "triangles": 69414
+        },
+        {
+          "url": "models/shared/04.glb",
+          "revision": "88235469b10d",
+          "bytes": 3978856,
+          "triangles": 69414
+        }
+      ]
+    },
+    {
+      "id": "shared-05",
+      "name": "05 Landscape",
+      "sourceRevision": "39c56a008f4e",
+      "labelPosition": null,
+      "position": [
+        0,
+        0,
+        0
+      ],
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "bounds": {
+        "min": [
+          -515.8928833007812,
+          0,
+          -603.5739135742188
+        ],
+        "max": [
+          482.33563232421875,
+          8.07368278503418,
+          -10.75412368774414
+        ]
+      },
+      "nearDistance": 100,
+      "mediumDistance": 340,
+      "tiers": [
+        {
+          "url": "models/lod/shared-05-trunks.glb",
+          "bytes": 69428,
+          "revision": "51db98ad41d2",
+          "triangles": 6456
+        },
+        {
+          "url": "models/lod/shared-05-trunks.glb",
+          "bytes": 69428,
+          "revision": "51db98ad41d2",
+          "triangles": 6456
+        },
+        {
+          "url": "models/lod/shared-05-trunks.glb",
+          "bytes": 69428,
+          "revision": "51db98ad41d2",
+          "triangles": 6456
+        }
+      ]
+    },
+    {
+      "id": "shared-58",
+      "name": "毛主席像",
+      "sourceRevision": "8f49e6afda91",
+      "labelPosition": null,
+      "position": [
+        0,
+        0,
+        0
+      ],
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "bounds": {
+        "min": [
+          -42.150001525878906,
+          0,
+          -68.30000305175781
+        ],
+        "max": [
+          -37.849998474121094,
+          8.34000015258789,
+          -64.5
+        ]
+      },
+      "nearDistance": 35,
+      "mediumDistance": 140,
+      "tiers": [
+        {
+          "url": "models/lod/shared-58-far.glb",
+          "revision": "53c3486952bc",
+          "bytes": 385284,
+          "triangles": 59222
+        },
+        {
+          "url": "models/lod/shared-58-medium.glb",
+          "revision": "c0ee6ffb9830",
+          "bytes": 1117100,
+          "triangles": 187038
+        },
+        {
+          "url": "models/shared/58.glb",
+          "revision": "8f49e6afda91",
+          "bytes": 8947332,
+          "triangles": 369548
+        }
+      ]
+    },
+    {
+      "id": "buildings-3",
+      "name": "北区体育馆",
+      "sourceRevision": "e3cce82d50b8",
+      "labelPosition": [
+        -460.8,
+        11.5,
+        -509.6
+      ],
+      "position": [
+        -460.8,
+        0,
+        -509.6
+      ],
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "bounds": {
+        "min": [
+          -480.88001708984376,
+          0,
+          -543.6799865722656
+        ],
+        "max": [
+          -440.7200134277344,
+          15.149999618530273,
+          -485.29998168945315
+        ]
+      },
+      "nearDistance": 100,
+      "mediumDistance": 340,
+      "tiers": [
+        {
+          "url": "models/lod/buildings-3-far.glb",
+          "revision": "3abdbc594262",
+          "bytes": 22808,
+          "triangles": 948
+        },
+        {
+          "url": "models/lod/buildings-3-medium.glb",
+          "revision": "3abdbc594262",
+          "bytes": 22808,
+          "triangles": 948
+        },
+        {
+          "url": "models/buildings/3.glb",
+          "revision": "e3cce82d50b8",
+          "bytes": 60580,
+          "triangles": 948
+        }
+      ]
+    },
+    {
+      "id": "buildings-5",
+      "name": "北区食堂",
+      "sourceRevision": "799648b03a15",
+      "labelPosition": [
+        -351.20000000000005,
+        11.5,
+        -514.4
+      ],
+      "position": [
+        -351.20000000000005,
+        0,
+        -514.4
+      ],
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "bounds": {
+        "min": [
+          -376.10798950195317,
+          0.10000000149011612,
+          -533.1999877929687
+        ],
+        "max": [
+          -326.2919799804688,
+          16.075000762939453,
+          -486.51996459960935
+        ]
+      },
+      "nearDistance": 100,
+      "mediumDistance": 340,
+      "tiers": [
+        {
+          "url": "models/lod/buildings-5-far.glb",
+          "revision": "e98c3e9e1461",
+          "bytes": 37876,
+          "triangles": 2028
+        },
+        {
+          "url": "models/lod/buildings-5-medium.glb",
+          "revision": "e98c3e9e1461",
+          "bytes": 37876,
+          "triangles": 2028
+        },
+        {
+          "url": "models/buildings/5.glb",
+          "revision": "799648b03a15",
+          "bytes": 118684,
+          "triangles": 2028
+        }
+      ]
+    },
+    {
+      "id": "buildings-7",
+      "name": "仓库",
+      "sourceRevision": "832b487d4596",
+      "labelPosition": [
+        -364.8,
+        11.5,
+        -272
+      ],
+      "position": [
+        -364.8,
+        0,
+        -272
+      ],
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "bounds": {
+        "min": [
+          -377.2000244140625,
+          0,
+          -284.3999938964844
+        ],
+        "max": [
+          -352.40000610351564,
+          11.729999542236328,
+          -259.6000061035156
+        ]
+      },
+      "nearDistance": 100,
+      "mediumDistance": 340,
+      "tiers": [
+        {
+          "url": "models/lod/buildings-7-far.glb",
+          "revision": "0cff03508a0c",
+          "bytes": 11968,
+          "triangles": 324
+        },
+        {
+          "url": "models/lod/buildings-7-medium.glb",
+          "revision": "0cff03508a0c",
+          "bytes": 11968,
+          "triangles": 324
+        },
+        {
+          "url": "models/buildings/7.glb",
+          "revision": "832b487d4596",
+          "bytes": 23104,
+          "triangles": 324
+        }
+      ]
+    },
+    {
+      "id": "buildings-14",
+      "name": "逸夫科技楼",
+      "sourceRevision": "0b6bffa0e4fa",
+      "labelPosition": [
+        -208,
+        37.5,
+        -198.4
+      ],
+      "position": [
+        -208,
+        0,
+        -198.4
+      ],
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "bounds": {
+        "min": [
+          -230.5,
+          0,
+          -208.70000305175782
+        ],
+        "max": [
+          -184,
+          33.400001525878906,
+          -187.25000610351563
+        ]
+      },
+      "nearDistance": 100,
+      "mediumDistance": 340,
+      "tiers": [
+        {
+          "url": "models/lod/buildings-14-far.glb",
+          "revision": "f2c98abbec82",
+          "bytes": 70812,
+          "triangles": 4612
+        },
+        {
+          "url": "models/lod/buildings-14-medium.glb",
+          "revision": "f2c98abbec82",
+          "bytes": 70812,
+          "triangles": 4612
+        },
+        {
+          "url": "models/buildings/14.glb",
+          "revision": "0b6bffa0e4fa",
+          "bytes": 256728,
+          "triangles": 4612
+        }
+      ]
+    },
+    {
+      "id": "buildings-16",
+      "name": "逸夫楼",
+      "sourceRevision": "31da9550a24f",
+      "labelPosition": [
+        -120,
+        24.5,
+        -255.20000000000002
+      ],
+      "position": [
+        -120,
+        0,
+        -255.20000000000002
+      ],
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "bounds": {
+        "min": [
+          -135.0030059814453,
+          0,
+          -266.2000152587891
+        ],
+        "max": [
+          -103.80000305175781,
+          24.200000762939453,
+          -243.00000305175783
+        ]
+      },
+      "nearDistance": 100,
+      "mediumDistance": 340,
+      "tiers": [
+        {
+          "url": "models/lod/buildings-16-far.glb",
+          "revision": "25ee8a29325c",
+          "bytes": 471964,
+          "triangles": 36283
+        },
+        {
+          "url": "models/lod/buildings-16-medium.glb",
+          "revision": "2af70172908a",
+          "bytes": 472996,
+          "triangles": 36386
+        },
+        {
+          "url": "models/buildings/16.glb",
+          "revision": "31da9550a24f",
+          "bytes": 1963724,
+          "triangles": 36456
+        }
+      ]
+    },
+    {
+      "id": "buildings-20",
+      "name": "恒隆物理楼",
+      "sourceRevision": "0c39e38a472a",
+      "labelPosition": [
+        -40,
+        21.25,
+        -202.4
+      ],
+      "position": [
+        -40,
+        0,
+        -202.4
+      ],
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "bounds": {
+        "min": [
+          -86.4000015258789,
+          0,
+          -209.65
+        ],
+        "max": [
+          6.400001525878906,
+          20.299999237060547,
+          -188.00000610351563
+        ]
+      },
+      "nearDistance": 100,
+      "mediumDistance": 340,
+      "tiers": [
+        {
+          "url": "models/lod/buildings-20-far.glb",
+          "revision": "f91dd1354cc1",
+          "bytes": 129812,
+          "triangles": 10192
+        },
+        {
+          "url": "models/lod/buildings-20-medium.glb",
+          "revision": "f91dd1354cc1",
+          "bytes": 129812,
+          "triangles": 10192
+        },
+        {
+          "url": "models/buildings/20.glb",
+          "revision": "0c39e38a472a",
+          "bytes": 556192,
+          "triangles": 10192
+        }
+      ]
+    },
+    {
+      "id": "buildings-27",
+      "name": "光华楼",
+      "sourceRevision": "7729b2cea51e",
+      "labelPosition": [
+        131.20000000000002,
+        81.6,
+        -224.8
+      ],
+      "position": [
+        131.20000000000002,
+        0,
+        -224.8
+      ],
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "bounds": {
+        "min": [
+          68.35000915527345,
+          0,
+          -240.8
+        ],
+        "max": [
+          194.05000610351564,
+          79.55000305175781,
+          -204.75000076293946
+        ]
+      },
+      "nearDistance": 100,
+      "mediumDistance": 340,
+      "tiers": [
+        {
+          "url": "models/lod/buildings-27-far.glb",
+          "revision": "2fba4901629f",
+          "bytes": 968888,
+          "triangles": 52492
+        },
+        {
+          "url": "models/lod/buildings-27-medium.glb",
+          "revision": "2fba4901629f",
+          "bytes": 968888,
+          "triangles": 52492
+        },
+        {
+          "url": "models/buildings/27-closeout.glb",
+          "revision": "7729b2cea51e",
+          "bytes": 3178560,
+          "triangles": 52492
+        }
+      ]
+    },
+    {
+      "id": "buildings-42",
+      "name": "寒冰馆（500号）",
+      "sourceRevision": "94ab3ba507e6",
+      "labelPosition": [
+        -258.4,
+        14.957160949707031,
+        -176.8
+      ],
+      "position": [
+        -258.4,
+        0,
+        -176.8
+      ],
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "bounds": {
+        "min": [
+          -278.0599941253662,
+          0,
+          -183.35399990081788
+        ],
+        "max": [
+          -238.74000587463377,
+          12.957160949707031,
+          -168.63001518249513
+        ]
+      },
+      "nearDistance": 100,
+      "mediumDistance": 340,
+      "tiers": [
+        {
+          "url": "models/lod/buildings-42-far.glb",
+          "revision": "86ff347ff0f0",
+          "bytes": 3580116,
+          "triangles": 135348
+        },
+        {
+          "url": "models/lod/buildings-42-medium.glb",
+          "revision": "8b31b65d230c",
+          "bytes": 5432740,
+          "triangles": 135434
+        },
+        {
+          "url": "models/buildings/42.glb",
+          "revision": "94ab3ba507e6",
+          "bytes": 22768852,
+          "triangles": 135456
+        }
+      ]
+    },
+    {
+      "id": "buildings-51",
+      "name": "综合办公楼",
+      "sourceRevision": "e17cd179569f",
+      "labelPosition": [
+        -165.60000000000002,
+        21.25,
+        -65.60000000000001
+      ],
+      "position": [
+        -165.60000000000002,
+        0,
+        -65.60000000000001
+      ],
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "bounds": {
+        "min": [
+          -186.60000000000002,
+          0,
+          -76.9499984741211
+        ],
+        "max": [
+          -144.60000000000002,
+          18.424999237060547,
+          -53.90000305175782
+        ]
+      },
+      "nearDistance": 100,
+      "mediumDistance": 340,
+      "tiers": [
+        {
+          "url": "models/lod/buildings-51-far.glb",
+          "revision": "ade8660d5e95",
+          "bytes": 146728,
+          "triangles": 15062
+        },
+        {
+          "url": "models/lod/buildings-51-medium.glb",
+          "revision": "c41cbff7a20a",
+          "bytes": 152656,
+          "triangles": 15942
+        },
+        {
+          "url": "models/buildings/51.glb",
+          "revision": "e17cd179569f",
+          "bytes": 670052,
+          "triangles": 16032
+        }
+      ]
+    },
+    {
+      "id": "buildings-55",
+      "name": "化学楼",
+      "sourceRevision": "95a895241e1c",
+      "labelPosition": [
+        -97.60000000000001,
+        21.25,
+        -160.8
+      ],
+      "position": [
+        -97.60000000000001,
+        0,
+        -160.8
+      ],
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "bounds": {
+        "min": [
+          -130.3999954223633,
+          0,
+          -177.1999938964844
+        ],
+        "max": [
+          -58.80000076293946,
+          12.600000381469727,
+          -144.0799987792969
+        ]
+      },
+      "nearDistance": 100,
+      "mediumDistance": 340,
+      "tiers": [
+        {
+          "url": "models/lod/buildings-55-far.glb",
+          "revision": "a90b1c2c2d80",
+          "bytes": 218440,
+          "triangles": 21063
+        },
+        {
+          "url": "models/lod/buildings-55-medium.glb",
+          "revision": "e247d316485b",
+          "bytes": 222876,
+          "triangles": 21759
+        },
+        {
+          "url": "models/buildings/55.glb",
+          "revision": "95a895241e1c",
+          "bytes": 1007380,
+          "triangles": 21820
+        }
+      ]
+    },
+    {
+      "id": "buildings-56",
+      "name": "理科图书馆",
+      "sourceRevision": "966a98308aa5",
+      "labelPosition": [
+        -96.80000000000001,
+        21.25,
+        -80.80000000000001
+      ],
+      "position": [
+        -96.80000000000001,
+        0,
+        -80.80000000000001
+      ],
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "bounds": {
+        "min": [
+          -128.8,
+          0,
+          -100.44999389648439
+        ],
+        "max": [
+          -64.80000000000001,
+          11.34000015258789,
+          -84.08208160400392
+        ]
+      },
+      "nearDistance": 100,
+      "mediumDistance": 340,
+      "tiers": [
+        {
+          "url": "models/lod/buildings-56-far.glb",
+          "revision": "9270c7aec6c5",
+          "bytes": 5331848,
+          "triangles": 463080
+        },
+        {
+          "url": "models/lod/buildings-56-medium.glb",
+          "revision": "f3490cc1ecb0",
+          "bytes": 5337824,
+          "triangles": 463947
+        },
+        {
+          "url": "models/buildings/56.glb",
+          "revision": "966a98308aa5",
+          "bytes": 27602000,
+          "triangles": 464068
+        }
+      ]
+    },
+    {
+      "id": "buildings-65",
+      "name": "复旦正门",
+      "sourceRevision": "36581b572da4",
+      "labelPosition": [
+        -40,
+        10,
+        -2.4000000000000004
+      ],
+      "position": [
+        -40,
+        0,
+        -6.4
+      ],
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "bounds": {
+        "min": [
+          -59.025001525878906,
+          0,
+          -9.390000247955323
+        ],
+        "max": [
+          -20.975000381469727,
+          8.369999885559082,
+          -1.599999809265137
+        ]
+      },
+      "nearDistance": 100,
+      "mediumDistance": 340,
+      "tiers": [
+        {
+          "url": "models/lod/buildings-65-far.glb",
+          "revision": "6ebda68631da",
+          "bytes": 527072,
+          "triangles": 42748
+        },
+        {
+          "url": "models/lod/buildings-65-medium.glb",
+          "revision": "46335efa6507",
+          "bytes": 527212,
+          "triangles": 42766
+        },
+        {
+          "url": "models/buildings/65.glb",
+          "revision": "36581b572da4",
+          "bytes": 2467960,
+          "triangles": 42768
+        }
+      ]
+    },
+    {
+      "id": "shared-guanghua-landscape",
+      "name": "Guanghua branch-led spring cherry and corrected heart chair",
+      "sourceRevision": "588b6b5b8370",
+      "position": [
+        0,
+        0,
+        0
+      ],
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "bounds": {
+        "min": [
+          57.86666691303253,
+          -2.6776913217995366,
+          -207.80045262725494
+        ],
+        "max": [
+          192.7347485284431,
+          14.329870329397192,
+          -116.80019261857862
+        ]
+      },
+      "nearDistance": 80,
+      "mediumDistance": 250,
+      "tiers": [
+        {
+          "url": "models/lod/shared-guanghua-landscape-far.glb",
+          "revision": "b0c90a4958f5",
+          "bytes": 3565812,
+          "triangles": 125845
+        },
+        {
+          "url": "models/lod/shared-guanghua-landscape-middle.glb",
+          "revision": "6dfe87a7abb9",
+          "bytes": 6569056,
+          "triangles": 147201
+        },
+        {
+          "url": "models/lod/shared-guanghua-landscape-near.glb",
+          "revision": "5cf83b7e6154",
+          "bytes": 29911112,
+          "triangles": 775535
+        }
+      ]
+    },
+    {
+      "id": "guanghua-cherry",
+      "sourceId": "shared-guanghua-landscape",
+      "name": "东花园春樱",
+      "sourceRevision": "588b6b5b8370",
+      "position": [
+        0,
+        0,
+        0
+      ],
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "bounds": {
+        "min": [
+          157.5274837286655,
+          0.010876042336955827,
+          -157.94405582728237
+        ],
+        "max": [
+          168.29153839434457,
+          5.841868464442996,
+          -149.71513511754375
+        ]
+      },
+      "nearDistance": 45,
+      "mediumDistance": 140,
+      "tiers": [
+        {
+          "url": "models/lod/guanghua-cherry-far.glb",
+          "bytes": 2838784,
+          "triangles": 155514,
+          "revision": "886fe7b18fef"
+        },
+        {
+          "url": "models/lod/guanghua-cherry-middle.glb",
+          "bytes": 4870968,
+          "triangles": 354590,
+          "revision": "3e4c51e1d964"
+        },
+        {
+          "url": "models/lod/guanghua-cherry-near.glb",
+          "bytes": 9396460,
+          "triangles": 709192,
+          "revision": "d5a6e837c32d"
+        }
+      ]
+    },
+    {
+      "id": "landscape-tree-00",
+      "sourceId": "shared-guanghua-landscape",
+      "name": "V6 West mature 00",
+      "sourceRevision": "588b6b5b8370",
+      "position": [
+        0,
+        0,
+        0
+      ],
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "bounds": {
+        "min": [
+          61.66316015908609,
+          4.273043365135623,
+          -144.8465625357619
+        ],
+        "max": [
+          72.68875710632682,
+          10.118793230199781,
+          -136.21640061605933
+        ]
+      },
+      "nearDistance": 65,
+      "mediumDistance": 180,
+      "tiers": [
+        {
+          "url": "models/lod/landscape-tree-00-far.glb",
+          "bytes": 100500,
+          "triangles": 4692,
+          "revision": "da412f69a4f2"
+        },
+        {
+          "url": "models/lod/landscape-tree-00-middle.glb",
+          "bytes": 551056,
+          "triangles": 26984,
+          "revision": "ccb59adfb43f"
+        },
+        {
+          "url": "models/lod/landscape-tree-00-near.glb",
+          "bytes": 1244928,
+          "triangles": 61010,
+          "revision": "9222ff2c71c9"
+        }
+      ]
+    },
+    {
+      "id": "landscape-tree-01",
+      "sourceId": "shared-guanghua-landscape",
+      "name": "V6 West mature 01",
+      "sourceRevision": "588b6b5b8370",
+      "position": [
+        0,
+        0,
+        0
+      ],
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "bounds": {
+        "min": [
+          63.85108382625708,
+          4.741017121047386,
+          -182.07427294873008
+        ],
+        "max": [
+          71.95141403957359,
+          10.52807112564826,
+          -171.5261060414544
+        ]
+      },
+      "nearDistance": 65,
+      "mediumDistance": 180,
+      "tiers": [
+        {
+          "url": "models/lod/landscape-tree-01-far.glb",
+          "bytes": 101376,
+          "triangles": 4692,
+          "revision": "28ba35d1fd13"
+        },
+        {
+          "url": "models/lod/landscape-tree-01-middle.glb",
+          "bytes": 551812,
+          "triangles": 26984,
+          "revision": "4121f1a056a7"
+        },
+        {
+          "url": "models/lod/landscape-tree-01-near.glb",
+          "bytes": 1245136,
+          "triangles": 61010,
+          "revision": "7434963979eb"
+        }
+      ]
+    },
+    {
+      "id": "landscape-tree-02",
+      "sourceId": "shared-guanghua-landscape",
+      "name": "V6 West mature 02",
+      "sourceRevision": "588b6b5b8370",
+      "position": [
+        0,
+        0,
+        0
+      ],
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "bounds": {
+        "min": [
+          84.20804551267761,
+          3.6070810855623905,
+          -137.8389752282948
+        ],
+        "max": [
+          93.90159368619106,
+          9.104243031561447,
+          -130.04201002022089
+        ]
+      },
+      "nearDistance": 65,
+      "mediumDistance": 180,
+      "tiers": [
+        {
+          "url": "models/lod/landscape-tree-02-far.glb",
+          "bytes": 91140,
+          "triangles": 4156,
+          "revision": "5100bf4d195b"
+        },
+        {
+          "url": "models/lod/landscape-tree-02-middle.glb",
+          "bytes": 488084,
+          "triangles": 23906,
+          "revision": "725f90976a35"
+        },
+        {
+          "url": "models/lod/landscape-tree-02-near.glb",
+          "bytes": 1100420,
+          "triangles": 54048,
+          "revision": "62aed87f8dd9"
+        }
+      ]
+    },
+    {
+      "id": "landscape-tree-03",
+      "sourceId": "shared-guanghua-landscape",
+      "name": "V6 West mature 03",
+      "sourceRevision": "588b6b5b8370",
+      "position": [
+        0,
+        0,
+        0
+      ],
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "bounds": {
+        "min": [
+          79.65771215531367,
+          3.5847833684462582,
+          -149.27022706292468
+        ],
+        "max": [
+          89.08939375150385,
+          8.802474576599687,
+          -142.25612075087025
+        ]
+      },
+      "nearDistance": 65,
+      "mediumDistance": 180,
+      "tiers": [
+        {
+          "url": "models/lod/landscape-tree-03-far.glb",
+          "bytes": 91740,
+          "triangles": 4156,
+          "revision": "887d57c4aa58"
+        },
+        {
+          "url": "models/lod/landscape-tree-03-middle.glb",
+          "bytes": 487604,
+          "triangles": 23906,
+          "revision": "4624d7ec24e4"
+        },
+        {
+          "url": "models/lod/landscape-tree-03-near.glb",
+          "bytes": 1100096,
+          "triangles": 54048,
+          "revision": "115016f54dfb"
+        }
+      ]
+    },
+    {
+      "id": "landscape-tree-04",
+      "sourceId": "shared-guanghua-landscape",
+      "name": "V6 West mature 04",
+      "sourceRevision": "588b6b5b8370",
+      "position": [
+        0,
+        0,
+        0
+      ],
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "bounds": {
+        "min": [
+          87.10599824277229,
+          3.293489818454142,
+          -161.70604623077426
+        ],
+        "max": [
+          95.21093570454074,
+          8.2530412491192,
+          -153.17983328441258
+        ]
+      },
+      "nearDistance": 65,
+      "mediumDistance": 180,
+      "tiers": [
+        {
+          "url": "models/lod/landscape-tree-04-far.glb",
+          "bytes": 81092,
+          "triangles": 3630,
+          "revision": "a0bd91f21ec4"
+        },
+        {
+          "url": "models/lod/landscape-tree-04-middle.glb",
+          "bytes": 426516,
+          "triangles": 20876,
+          "revision": "b43ec1503ccc"
+        },
+        {
+          "url": "models/lod/landscape-tree-04-near.glb",
+          "bytes": 960596,
+          "triangles": 47200,
+          "revision": "f20094889c5d"
+        }
+      ]
+    },
+    {
+      "id": "landscape-tree-05",
+      "sourceId": "shared-guanghua-landscape",
+      "name": "V6 West mature 05",
+      "sourceRevision": "588b6b5b8370",
+      "position": [
+        0,
+        0,
+        0
+      ],
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "bounds": {
+        "min": [
+          83.78072978796752,
+          3.816539759439106,
+          -169.4005840719837
+        ],
+        "max": [
+          93.35698237489609,
+          8.88742072002157,
+          -161.58749341123502
+        ]
+      },
+      "nearDistance": 65,
+      "mediumDistance": 180,
+      "tiers": [
+        {
+          "url": "models/lod/landscape-tree-05-far.glb",
+          "bytes": 100500,
+          "triangles": 4692,
+          "revision": "d09d3ac4e44b"
+        },
+        {
+          "url": "models/lod/landscape-tree-05-middle.glb",
+          "bytes": 551056,
+          "triangles": 26984,
+          "revision": "0ab87d3dcb3e"
+        },
+        {
+          "url": "models/lod/landscape-tree-05-near.glb",
+          "bytes": 1101636,
+          "triangles": 54048,
+          "revision": "4358911cebdb"
+        }
+      ]
+    },
+    {
+      "id": "landscape-tree-06",
+      "sourceId": "shared-guanghua-landscape",
+      "name": "V6 West mature 06",
+      "sourceRevision": "588b6b5b8370",
+      "position": [
+        0,
+        0,
+        0
+      ],
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "bounds": {
+        "min": [
+          82.31675691348968,
+          3.571864106525392,
+          -178.8452505681489
+        ],
+        "max": [
+          89.51581793382817,
+          8.4599069584248,
+          -171.26591576534247
+        ]
+      },
+      "nearDistance": 65,
+      "mediumDistance": 180,
+      "tiers": [
+        {
+          "url": "models/lod/landscape-tree-06-far.glb",
+          "bytes": 101376,
+          "triangles": 4692,
+          "revision": "8f538b25d8c3"
+        },
+        {
+          "url": "models/lod/landscape-tree-06-middle.glb",
+          "bytes": 551812,
+          "triangles": 26984,
+          "revision": "3e7deae6cfc4"
+        },
+        {
+          "url": "models/lod/landscape-tree-06-near.glb",
+          "bytes": 962264,
+          "triangles": 47200,
+          "revision": "c07723bcf8be"
+        }
+      ]
+    },
+    {
+      "id": "landscape-tree-07",
+      "sourceId": "shared-guanghua-landscape",
+      "name": "V6 West mature 07",
+      "sourceRevision": "588b6b5b8370",
+      "position": [
+        0,
+        0,
+        0
+      ],
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "bounds": {
+        "min": [
+          69.17184495841997,
+          3.7859725584192985,
+          -178.37053935803513
+        ],
+        "max": [
+          79.67918665645084,
+          9.090148392839499,
+          -169.74071087893068
+        ]
+      },
+      "nearDistance": 65,
+      "mediumDistance": 180,
+      "tiers": [
+        {
+          "url": "models/lod/landscape-tree-07-far.glb",
+          "bytes": 91136,
+          "triangles": 4156,
+          "revision": "aa5fd9164514"
+        },
+        {
+          "url": "models/lod/landscape-tree-07-middle.glb",
+          "bytes": 488084,
+          "triangles": 23906,
+          "revision": "fe21d28c9912"
+        },
+        {
+          "url": "models/lod/landscape-tree-07-near.glb",
+          "bytes": 1100036,
+          "triangles": 54048,
+          "revision": "86f2fb4c981c"
+        }
+      ]
+    },
+    {
+      "id": "landscape-tree-08",
+      "sourceId": "shared-guanghua-landscape",
+      "name": "V6 West mature 08",
+      "sourceRevision": "588b6b5b8370",
+      "position": [
+        0,
+        0,
+        0
+      ],
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "bounds": {
+        "min": [
+          72.70865683283381,
+          3.3444608463592336,
+          -151.07623419027792
+        ],
+        "max": [
+          80.8053482057258,
+          8.131014806959307,
+          -145.52762715171107
+        ]
+      },
+      "nearDistance": 65,
+      "mediumDistance": 180,
+      "tiers": [
+        {
+          "url": "models/lod/landscape-tree-08-far.glb",
+          "bytes": 91744,
+          "triangles": 4156,
+          "revision": "ff36c3bcc4f7"
+        },
+        {
+          "url": "models/lod/landscape-tree-08-middle.glb",
+          "bytes": 487604,
+          "triangles": 23906,
+          "revision": "a5de636dd455"
+        },
+        {
+          "url": "models/lod/landscape-tree-08-near.glb",
+          "bytes": 959488,
+          "triangles": 47200,
+          "revision": "022489e3b05d"
+        }
+      ]
+    },
+    {
+      "id": "landscape-tree-09",
+      "sourceId": "shared-guanghua-landscape",
+      "name": "V6 East mature 09",
+      "sourceRevision": "588b6b5b8370",
+      "position": [
+        0,
+        0,
+        0
+      ],
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "bounds": {
+        "min": [
+          180.95770376509273,
+          2.7049715025822234,
+          -169.00057326358257
+        ],
+        "max": [
+          186.33311653016148,
+          5.920265901371353,
+          -162.52949960220332
+        ]
+      },
+      "nearDistance": 65,
+      "mediumDistance": 180,
+      "tiers": [
+        {
+          "url": "models/lod/landscape-tree-09-far.glb",
+          "bytes": 91140,
+          "triangles": 4156,
+          "revision": "86132faa1318"
+        },
+        {
+          "url": "models/lod/landscape-tree-09-middle.glb",
+          "bytes": 488084,
+          "triangles": 23906,
+          "revision": "502337f87b53"
+        },
+        {
+          "url": "models/lod/landscape-tree-09-near.glb",
+          "bytes": 214920,
+          "triangles": 10402,
+          "revision": "9deda6cdf4fa"
+        }
+      ]
+    },
+    {
+      "id": "landscape-tree-10",
+      "sourceId": "shared-guanghua-landscape",
+      "name": "V6 East mature 10",
+      "sourceRevision": "588b6b5b8370",
+      "position": [
+        0,
+        0,
+        0
+      ],
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "bounds": {
+        "min": [
+          175.5174003278015,
+          2.8857985207026973,
+          -174.20971073643142
+        ],
+        "max": [
+          182.22686269359156,
+          6.311070331866413,
+          -168.7730538270123
+        ]
+      },
+      "nearDistance": 65,
+      "mediumDistance": 180,
+      "tiers": [
+        {
+          "url": "models/lod/landscape-tree-10-far.glb",
+          "bytes": 81088,
+          "triangles": 3630,
+          "revision": "c985db56691b"
+        },
+        {
+          "url": "models/lod/landscape-tree-10-middle.glb",
+          "bytes": 426516,
+          "triangles": 20876,
+          "revision": "cfb409c558d4"
+        },
+        {
+          "url": "models/lod/landscape-tree-10-near.glb",
+          "bytes": 677332,
+          "triangles": 33350,
+          "revision": "f04285c5dec7"
+        }
+      ]
+    },
+    {
+      "id": "landscape-tree-11",
+      "sourceId": "shared-guanghua-landscape",
+      "name": "V6 East mature 11",
+      "sourceRevision": "588b6b5b8370",
+      "position": [
+        0,
+        0,
+        0
+      ],
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "bounds": {
+        "min": [
+          163.19285692170413,
+          2.1189853252539015,
+          -163.60735757571535
+        ],
+        "max": [
+          167.41320232564723,
+          4.996465796809091,
+          -158.61681056470115
+        ]
+      },
+      "nearDistance": 65,
+      "mediumDistance": 180,
+      "tiers": [
+        {
+          "url": "models/lod/landscape-tree-11-far.glb",
+          "bytes": 100504,
+          "triangles": 4692,
+          "revision": "11d35d0d20e1"
+        },
+        {
+          "url": "models/lod/landscape-tree-11-middle.glb",
+          "bytes": 551060,
+          "triangles": 26984,
+          "revision": "383cf480b567"
+        },
+        {
+          "url": "models/lod/landscape-tree-11-near.glb",
+          "bytes": 156484,
+          "triangles": 7472,
+          "revision": "d67b0a940ea7"
+        }
+      ]
+    },
+    {
+      "id": "landscape-tree-12",
+      "sourceId": "shared-guanghua-landscape",
+      "name": "V6 East mature 12",
+      "sourceRevision": "588b6b5b8370",
+      "position": [
+        0,
+        0,
+        0
+      ],
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "bounds": {
+        "min": [
+          171.01529682518708,
+          3.0050402006883967,
+          -179.89309182102977
+        ],
+        "max": [
+          178.3838320865956,
+          7.4722159326743185,
+          -173.5533673088139
+        ]
+      },
+      "nearDistance": 65,
+      "mediumDistance": 180,
+      "tiers": [
+        {
+          "url": "models/lod/landscape-tree-12-far.glb",
+          "bytes": 101376,
+          "triangles": 4692,
+          "revision": "7b72ad968032"
+        },
+        {
+          "url": "models/lod/landscape-tree-12-middle.glb",
+          "bytes": 551812,
+          "triangles": 26984,
+          "revision": "dbb5d5aac57e"
+        },
+        {
+          "url": "models/lod/landscape-tree-12-near.glb",
+          "bytes": 790124,
+          "triangles": 38886,
+          "revision": "9ca6f69aa1c7"
+        }
+      ]
+    },
+    {
+      "id": "landscape-tree-13",
+      "sourceId": "shared-guanghua-landscape",
+      "name": "V6 West mature 13",
+      "sourceRevision": "588b6b5b8370",
+      "position": [
+        0,
+        0,
+        0
+      ],
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "bounds": {
+        "min": [
+          65.20431156966035,
+          3.574403114783229,
+          -138.05601463190533
+        ],
+        "max": [
+          74.20687849343463,
+          8.353041698733557,
+          -131.44125594913936
+        ]
+      },
+      "nearDistance": 65,
+      "mediumDistance": 180,
+      "tiers": [
+        {
+          "url": "models/lod/landscape-tree-13-far.glb",
+          "bytes": 81088,
+          "triangles": 3630,
+          "revision": "ef2beb331982"
+        },
+        {
+          "url": "models/lod/landscape-tree-13-middle.glb",
+          "bytes": 426516,
+          "triangles": 20876,
+          "revision": "7bd44f766da8"
+        },
+        {
+          "url": "models/lod/landscape-tree-13-near.glb",
+          "bytes": 1029660,
+          "triangles": 50610,
+          "revision": "17b9ba30a7f0"
+        }
+      ]
+    },
+    {
+      "id": "landscape-tree-14",
+      "sourceId": "shared-guanghua-landscape",
+      "name": "V6 West mature 14",
+      "sourceRevision": "588b6b5b8370",
+      "position": [
+        0,
+        0,
+        0
+      ],
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "bounds": {
+        "min": [
+          72.96596538387777,
+          4.0508837721061095,
+          -139.72227238383698
+        ],
+        "max": [
+          81.29533092400283,
+          9.39589333649432,
+          -130.0181540017769
+        ]
+      },
+      "nearDistance": 65,
+      "mediumDistance": 180,
+      "tiers": [
+        {
+          "url": "models/lod/landscape-tree-14-far.glb",
+          "bytes": 100496,
+          "triangles": 4692,
+          "revision": "3f1b172dff3b"
+        },
+        {
+          "url": "models/lod/landscape-tree-14-middle.glb",
+          "bytes": 551056,
+          "triangles": 26984,
+          "revision": "c8e9ffa79bf8"
+        },
+        {
+          "url": "models/lod/landscape-tree-14-near.glb",
+          "bytes": 1172884,
+          "triangles": 57516,
+          "revision": "a1e1d1c1e565"
+        }
+      ]
+    },
+    {
+      "id": "landscape-tree-15",
+      "sourceId": "shared-guanghua-landscape",
+      "name": "V6 West mature 15",
+      "sourceRevision": "588b6b5b8370",
+      "position": [
+        0,
+        0,
+        0
+      ],
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "bounds": {
+        "min": [
+          85.5358001292488,
+          3.854430589908862,
+          -155.7531875205585
+        ],
+        "max": [
+          96.98704291742183,
+          9.56345209339197,
+          -147.58246547859338
+        ]
+      },
+      "nearDistance": 65,
+      "mediumDistance": 180,
+      "tiers": [
+        {
+          "url": "models/lod/landscape-tree-15-far.glb",
+          "bytes": 101376,
+          "triangles": 4692,
+          "revision": "9233508684d7"
+        },
+        {
+          "url": "models/lod/landscape-tree-15-middle.glb",
+          "bytes": 551816,
+          "triangles": 26984,
+          "revision": "193d47c1e980"
+        },
+        {
+          "url": "models/lod/landscape-tree-15-near.glb",
+          "bytes": 1169972,
+          "triangles": 57516,
+          "revision": "2f431585b698"
+        }
+      ]
+    },
+    {
+      "id": "landscape-tree-16",
+      "sourceId": "shared-guanghua-landscape",
+      "name": "V6 East mature 16",
+      "sourceRevision": "588b6b5b8370",
+      "position": [
+        0,
+        0,
+        0
+      ],
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "bounds": {
+        "min": [
+          179.29416879193292,
+          3.602044787475334,
+          -156.8631796259633
+        ],
+        "max": [
+          185.77129363834894,
+          7.39376509516717,
+          -149.597064538709
+        ]
+      },
+      "nearDistance": 65,
+      "mediumDistance": 180,
+      "tiers": [
+        {
+          "url": "models/lod/landscape-tree-16-far.glb",
+          "bytes": 100500,
+          "triangles": 4692,
+          "revision": "0d486c79392d"
+        },
+        {
+          "url": "models/lod/landscape-tree-16-middle.glb",
+          "bytes": 551060,
+          "triangles": 26984,
+          "revision": "b94dc47ecd79"
+        },
+        {
+          "url": "models/lod/landscape-tree-16-near.glb",
+          "bytes": 246304,
+          "triangles": 11912,
+          "revision": "f190eb41dda0"
+        }
+      ]
+    },
+    {
+      "id": "landscape-tree-17",
+      "sourceId": "shared-guanghua-landscape",
+      "name": "V6 East mature 17",
+      "sourceRevision": "588b6b5b8370",
+      "position": [
+        0,
+        0,
+        0
+      ],
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "bounds": {
+        "min": [
+          178.0505833879285,
+          3.984262475166793,
+          -178.17533422349715
+        ],
+        "max": [
+          187.4617927748497,
+          9.423847907122585,
+          -170.73413985063246
+        ]
+      },
+      "nearDistance": 65,
+      "mediumDistance": 180,
+      "tiers": [
+        {
+          "url": "models/lod/landscape-tree-17-far.glb",
+          "bytes": 101376,
+          "triangles": 4692,
+          "revision": "3b087e5aa628"
+        },
+        {
+          "url": "models/lod/landscape-tree-17-middle.glb",
+          "bytes": 551816,
+          "triangles": 26984,
+          "revision": "f1a8f5ef3646"
+        },
+        {
+          "url": "models/lod/landscape-tree-17-near.glb",
+          "bytes": 1025312,
+          "triangles": 50262,
+          "revision": "154f52717446"
+        }
+      ]
+    },
+    {
+      "id": "landscape-tree-18",
+      "sourceId": "shared-guanghua-landscape",
+      "name": "V6 East spreading 00",
+      "sourceRevision": "588b6b5b8370",
+      "position": [
+        0,
+        0,
+        0
+      ],
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "bounds": {
+        "min": [
+          161.59301751831208,
+          2.165256200802248,
+          -152.09040857095465
+        ],
+        "max": [
+          165.51379924755673,
+          4.273482494020796,
+          -148.7935152760424
+        ]
+      },
+      "nearDistance": 65,
+      "mediumDistance": 180,
+      "tiers": [
+        {
+          "url": "models/lod/landscape-tree-18-far.glb",
+          "bytes": 101388,
+          "triangles": 4692,
+          "revision": "59326eb947d0"
+        },
+        {
+          "url": "models/lod/landscape-tree-18-middle.glb",
+          "bytes": 551824,
+          "triangles": 26984,
+          "revision": "c48e7642ef38"
+        },
+        {
+          "url": "models/lod/landscape-tree-18-near.glb",
+          "bytes": 142512,
+          "triangles": 6760,
+          "revision": "f1cc877b900d"
+        }
+      ]
+    },
+    {
+      "id": "landscape-tree-19",
+      "sourceId": "shared-guanghua-landscape",
+      "name": "V6 East spreading 02",
+      "sourceRevision": "588b6b5b8370",
+      "position": [
+        0,
+        0,
+        0
+      ],
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "bounds": {
+        "min": [
+          165.00355803778402,
+          3.87536033835922,
+          -159.8795317868113
+        ],
+        "max": [
+          173.39929943281268,
+          7.148897430961833,
+          -153.41496220118069
+        ]
+      },
+      "nearDistance": 65,
+      "mediumDistance": 180,
+      "tiers": [
+        {
+          "url": "models/lod/landscape-tree-19-far.glb",
+          "bytes": 91752,
+          "triangles": 4156,
+          "revision": "68f26f45af1d"
+        },
+        {
+          "url": "models/lod/landscape-tree-19-middle.glb",
+          "bytes": 487612,
+          "triangles": 23906,
+          "revision": "8573c4f572d2"
+        },
+        {
+          "url": "models/lod/landscape-tree-19-near.glb",
+          "bytes": 253412,
+          "triangles": 12260,
+          "revision": "34dec4d6adde"
+        }
+      ]
+    },
+    {
+      "id": "landscape-tree-20",
+      "sourceId": "shared-guanghua-landscape",
+      "name": "V6 East spreading 03",
+      "sourceRevision": "588b6b5b8370",
+      "position": [
+        0,
+        0,
+        0
+      ],
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "bounds": {
+        "min": [
+          169.27405639458485,
+          3.310772688111027,
+          -165.3152158314548
+        ],
+        "max": [
+          173.79229007989395,
+          6.439294553189515,
+          -160.10148995026395
+        ]
+      },
+      "nearDistance": 65,
+      "mediumDistance": 180,
+      "tiers": [
+        {
+          "url": "models/lod/landscape-tree-20-far.glb",
+          "bytes": 81100,
+          "triangles": 3630,
+          "revision": "f6a7e939f249"
+        },
+        {
+          "url": "models/lod/landscape-tree-20-middle.glb",
+          "bytes": 426524,
+          "triangles": 20876,
+          "revision": "83bdb93443e9"
+        },
+        {
+          "url": "models/lod/landscape-tree-20-near.glb",
+          "bytes": 183368,
+          "triangles": 8728,
+          "revision": "e7d0b3ab3c83"
+        }
+      ]
+    },
+    {
+      "id": "landscape-tree-21",
+      "sourceId": "shared-guanghua-landscape",
+      "name": "V6 East spreading 04",
+      "sourceRevision": "588b6b5b8370",
+      "position": [
+        0,
+        0,
+        0
+      ],
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "bounds": {
+        "min": [
+          167.48031369885751,
+          2.2212092122597418,
+          -149.1652541462751
+        ],
+        "max": [
+          172.57206208821327,
+          5.587634029195394,
+          -144.50751731769807
+        ]
+      },
+      "nearDistance": 65,
+      "mediumDistance": 180,
+      "tiers": [
+        {
+          "url": "models/lod/landscape-tree-21-far.glb",
+          "bytes": 100512,
+          "triangles": 4692,
+          "revision": "561273fb74f3"
+        },
+        {
+          "url": "models/lod/landscape-tree-21-middle.glb",
+          "bytes": 551068,
+          "triangles": 26984,
+          "revision": "06ba165f2912"
+        },
+        {
+          "url": "models/lod/landscape-tree-21-near.glb",
+          "bytes": 169088,
+          "triangles": 8104,
+          "revision": "290a0823117a"
+        }
+      ]
+    },
+    {
+      "id": "landscape-tree-22",
+      "sourceId": "shared-guanghua-landscape",
+      "name": "V6 Garden backdrop 00",
+      "sourceRevision": "588b6b5b8370",
+      "position": [
+        0,
+        0,
+        0
+      ],
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "bounds": {
+        "min": [
+          63.48742885254106,
+          3.8376368902451783,
+          -151.4552209127763
+        ],
+        "max": [
+          72.94507677590076,
+          8.896801749865702,
+          -144.2720034608586
+        ]
+      },
+      "nearDistance": 65,
+      "mediumDistance": 180,
+      "tiers": [
+        {
+          "url": "models/lod/landscape-tree-22-far.glb",
+          "bytes": 91752,
+          "triangles": 4156,
+          "revision": "20e44fa2e180"
+        },
+        {
+          "url": "models/lod/landscape-tree-22-middle.glb",
+          "bytes": 487612,
+          "triangles": 23906,
+          "revision": "5fec220e5557"
+        },
+        {
+          "url": "models/lod/landscape-tree-22-near.glb",
+          "bytes": 1119408,
+          "triangles": 55006,
+          "revision": "d6581c210c2a"
+        }
+      ]
+    },
+    {
+      "id": "landscape-tree-23",
+      "sourceId": "shared-guanghua-landscape",
+      "name": "V6 Garden backdrop 01",
+      "sourceRevision": "588b6b5b8370",
+      "position": [
+        0,
+        0,
+        0
+      ],
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "bounds": {
+        "min": [
+          63.118567111918075,
+          3.7764316194316936,
+          -167.1508141661924
+        ],
+        "max": [
+          70.82552657871867,
+          8.817957399854546,
+          -159.20374762228346
+        ]
+      },
+      "nearDistance": 65,
+      "mediumDistance": 180,
+      "tiers": [
+        {
+          "url": "models/lod/landscape-tree-23-far.glb",
+          "bytes": 81100,
+          "triangles": 3630,
+          "revision": "66f6e3da47ee"
+        },
+        {
+          "url": "models/lod/landscape-tree-23-middle.glb",
+          "bytes": 426528,
+          "triangles": 20876,
+          "revision": "2e89923b886d"
+        },
+        {
+          "url": "models/lod/landscape-tree-23-near.glb",
+          "bytes": 991064,
+          "triangles": 48588,
+          "revision": "ed45443cf575"
+        }
+      ]
+    },
+    {
+      "id": "landscape-tree-24",
+      "sourceId": "shared-guanghua-landscape",
+      "name": "V6 Garden backdrop 02",
+      "sourceRevision": "588b6b5b8370",
+      "position": [
+        0,
+        0,
+        0
+      ],
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "bounds": {
+        "min": [
+          78.27936604855557,
+          3.021025679759416,
+          -175.6054451526177
+        ],
+        "max": [
+          86.99358095110202,
+          7.869200373346191,
+          -168.7775771591997
+        ]
+      },
+      "nearDistance": 65,
+      "mediumDistance": 180,
+      "tiers": [
+        {
+          "url": "models/lod/landscape-tree-24-far.glb",
+          "bytes": 100508,
+          "triangles": 4692,
+          "revision": "fd47d70bcdd7"
+        },
+        {
+          "url": "models/lod/landscape-tree-24-middle.glb",
+          "bytes": 551068,
+          "triangles": 26984,
+          "revision": "98451455f939"
+        },
+        {
+          "url": "models/lod/landscape-tree-24-near.glb",
+          "bytes": 936112,
+          "triangles": 46056,
+          "revision": "d7456ed4ce62"
+        }
+      ]
+    },
+    {
+      "id": "landscape-tree-25",
+      "sourceId": "shared-guanghua-landscape",
+      "name": "V6 Garden backdrop 03",
+      "sourceRevision": "588b6b5b8370",
+      "position": [
+        0,
+        0,
+        0
+      ],
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "bounds": {
+        "min": [
+          68.11451771316653,
+          3.976598062732142,
+          -180.17386702817288
+        ],
+        "max": [
+          75.89452789594132,
+          8.72150049857762,
+          -172.3195491289959
+        ]
+      },
+      "nearDistance": 65,
+      "mediumDistance": 180,
+      "tiers": [
+        {
+          "url": "models/lod/landscape-tree-25-far.glb",
+          "bytes": 101388,
+          "triangles": 4692,
+          "revision": "e8605e2deea4"
+        },
+        {
+          "url": "models/lod/landscape-tree-25-middle.glb",
+          "bytes": 551824,
+          "triangles": 26984,
+          "revision": "7e26222b6e75"
+        },
+        {
+          "url": "models/lod/landscape-tree-25-near.glb",
+          "bytes": 1025488,
+          "triangles": 50256,
+          "revision": "4b0eef739baa"
+        }
+      ]
+    },
+    {
+      "id": "landscape-tree-26",
+      "sourceId": "shared-guanghua-landscape",
+      "name": "V6 Garden backdrop 05",
+      "sourceRevision": "588b6b5b8370",
+      "position": [
+        0,
+        0,
+        0
+      ],
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "bounds": {
+        "min": [
+          172.82426532976615,
+          4.188027992775689,
+          -153.64432240533802
+        ],
+        "max": [
+          183.372542227483,
+          10.24845029181108,
+          -145.15825015902215
+        ]
+      },
+      "nearDistance": 65,
+      "mediumDistance": 180,
+      "tiers": [
+        {
+          "url": "models/lod/landscape-tree-26-far.glb",
+          "bytes": 91752,
+          "triangles": 4156,
+          "revision": "59d5528888fc"
+        },
+        {
+          "url": "models/lod/landscape-tree-26-middle.glb",
+          "bytes": 487616,
+          "triangles": 23906,
+          "revision": "9384695a79d9"
+        },
+        {
+          "url": "models/lod/landscape-tree-26-near.glb",
+          "bytes": 1124464,
+          "triangles": 55042,
+          "revision": "951b7fcd9009"
+        }
+      ]
+    },
+    {
+      "id": "landscape-tree-27",
+      "sourceId": "shared-guanghua-landscape",
+      "name": "V6 East ring-seat mature tree",
+      "sourceRevision": "588b6b5b8370",
+      "position": [
+        0,
+        0,
+        0
+      ],
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "bounds": {
+        "min": [
+          177.6971024124529,
+          4.596527833789073,
+          -150.72650520806368
+        ],
+        "max": [
+          187.0614933826549,
+          10.54290317285402,
+          -143.62812143821478
+        ]
+      },
+      "nearDistance": 65,
+      "mediumDistance": 180,
+      "tiers": [
+        {
+          "url": "models/lod/landscape-tree-27-far.glb",
+          "bytes": 91172,
+          "triangles": 4156,
+          "revision": "751c910d3852"
+        },
+        {
+          "url": "models/lod/landscape-tree-27-middle.glb",
+          "bytes": 488120,
+          "triangles": 23906,
+          "revision": "311290953286"
+        },
+        {
+          "url": "models/lod/landscape-tree-27-near.glb",
+          "bytes": 1055732,
+          "triangles": 51674,
+          "revision": "d73f468f1ae9"
+        }
+      ]
+    },
+    {
+      "id": "landscape-tree-28",
+      "sourceId": "shared-guanghua-landscape",
+      "name": "V6 south avenue 00",
+      "sourceRevision": "588b6b5b8370",
+      "position": [
+        0,
+        0,
+        0
+      ],
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "bounds": {
+        "min": [
+          63.36389178526073,
+          4.340808937283516,
+          -133.0385973109601
+        ],
+        "max": [
+          73.15174976840856,
+          11.023866724622064,
+          -125.62399684041496
+        ]
+      },
+      "nearDistance": 65,
+      "mediumDistance": 180,
+      "tiers": [
+        {
+          "url": "models/lod/landscape-tree-28-far.glb",
+          "bytes": 85688,
+          "triangles": 3968,
+          "revision": "5fd8845dc82b"
+        },
+        {
+          "url": "models/lod/landscape-tree-28-middle.glb",
+          "bytes": 470528,
+          "triangles": 22820,
+          "revision": "bcab3eac8b0e"
+        },
+        {
+          "url": "models/lod/landscape-tree-28-near.glb",
+          "bytes": 1062020,
+          "triangles": 51592,
+          "revision": "ff7283d5c893"
+        }
+      ]
+    },
+    {
+      "id": "landscape-tree-29",
+      "sourceId": "shared-guanghua-landscape",
+      "name": "V6 south avenue 01",
+      "sourceRevision": "588b6b5b8370",
+      "position": [
+        0,
+        0,
+        0
+      ],
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "bounds": {
+        "min": [
+          83.76002601289932,
+          5.823191651599932,
+          -132.57686532865566
+        ],
+        "max": [
+          91.06093499818164,
+          12.02530754283833,
+          -124.31334579527422
+        ]
+      },
+      "nearDistance": 65,
+      "mediumDistance": 180,
+      "tiers": [
+        {
+          "url": "models/lod/landscape-tree-29-far.glb",
+          "bytes": 93156,
+          "triangles": 4266,
+          "revision": "0117cbf06fd2"
+        },
+        {
+          "url": "models/lod/landscape-tree-29-middle.glb",
+          "bytes": 509320,
+          "triangles": 24528,
+          "revision": "fea7fb9c7d80"
+        },
+        {
+          "url": "models/lod/landscape-tree-29-near.glb",
+          "bytes": 1151780,
+          "triangles": 55458,
+          "revision": "c93ec366348e"
+        }
+      ]
+    },
+    {
+      "id": "landscape-tree-30",
+      "sourceId": "shared-guanghua-landscape",
+      "name": "V6 south avenue 02",
+      "sourceRevision": "588b6b5b8370",
+      "position": [
+        0,
+        0,
+        0
+      ],
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "bounds": {
+        "min": [
+          94.89125807159917,
+          5.446189282629022,
+          -131.6044090386094
+        ],
+        "max": [
+          105.9122087174319,
+          12.37620021559654,
+          -122.12020924106463
+        ]
+      },
+      "nearDistance": 65,
+      "mediumDistance": 180,
+      "tiers": [
+        {
+          "url": "models/lod/landscape-tree-30-far.glb",
+          "bytes": 97792,
+          "triangles": 4564,
+          "revision": "a3bf42ce7f82"
+        },
+        {
+          "url": "models/lod/landscape-tree-30-middle.glb",
+          "bytes": 543464,
+          "triangles": 26254,
+          "revision": "764b22fa94f5"
+        },
+        {
+          "url": "models/lod/landscape-tree-30-near.glb",
+          "bytes": 1223936,
+          "triangles": 59356,
+          "revision": "a1028f320cf0"
+        }
+      ]
+    },
+    {
+      "id": "landscape-tree-31",
+      "sourceId": "shared-guanghua-landscape",
+      "name": "V6 south avenue 03",
+      "sourceRevision": "588b6b5b8370",
+      "position": [
+        0,
+        0,
+        0
+      ],
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "bounds": {
+        "min": [
+          104.51479421004026,
+          5.346040569306345,
+          -129.96523486807828
+        ],
+        "max": [
+          113.74508648748443,
+          12.888417626095654,
+          -123.23047625573706
+        ]
+      },
+      "nearDistance": 65,
+      "mediumDistance": 180,
+      "tiers": [
+        {
+          "url": "models/lod/landscape-tree-31-far.glb",
+          "bytes": 87148,
+          "triangles": 3968,
+          "revision": "ac8a45a4b96d"
+        },
+        {
+          "url": "models/lod/landscape-tree-31-middle.glb",
+          "bytes": 475008,
+          "triangles": 22820,
+          "revision": "a5a2eb0e29b5"
+        },
+        {
+          "url": "models/lod/landscape-tree-31-near.glb",
+          "bytes": 1072536,
+          "triangles": 51592,
+          "revision": "6aa5c44cf1aa"
+        }
+      ]
+    },
+    {
+      "id": "landscape-tree-32",
+      "sourceId": "shared-guanghua-landscape",
+      "name": "V6 south avenue 04",
+      "sourceRevision": "588b6b5b8370",
+      "position": [
+        0,
+        0,
+        0
+      ],
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "bounds": {
+        "min": [
+          114.16803910347977,
+          4.112222016089954,
+          -131.4139764889272
+        ],
+        "max": [
+          123.05260458041008,
+          10.569904149005826,
+          -122.17264066256993
+        ]
+      },
+      "nearDistance": 65,
+      "mediumDistance": 180,
+      "tiers": [
+        {
+          "url": "models/lod/landscape-tree-32-far.glb",
+          "bytes": 92092,
+          "triangles": 4266,
+          "revision": "e1c11c11b685"
+        },
+        {
+          "url": "models/lod/landscape-tree-32-middle.glb",
+          "bytes": 506452,
+          "triangles": 24528,
+          "revision": "6eb683957c0b"
+        },
+        {
+          "url": "models/lod/landscape-tree-32-near.glb",
+          "bytes": 1141692,
+          "triangles": 55458,
+          "revision": "1f7b8057f2c2"
+        }
+      ]
+    },
+    {
+      "id": "landscape-tree-33",
+      "sourceId": "shared-guanghua-landscape",
+      "name": "V6 south avenue 05",
+      "sourceRevision": "588b6b5b8370",
+      "position": [
+        0,
+        0,
+        0
+      ],
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "bounds": {
+        "min": [
+          121.14933379340175,
+          5.023115180048247,
+          -131.06455740253588
+        ],
+        "max": [
+          132.2159171208516,
+          11.510678762297776,
+          -123.35675463620284
+        ]
+      },
+      "nearDistance": 65,
+      "mediumDistance": 180,
+      "tiers": [
+        {
+          "url": "models/lod/landscape-tree-33-far.glb",
+          "bytes": 85684,
+          "triangles": 3968,
+          "revision": "c80bf666194b"
+        },
+        {
+          "url": "models/lod/landscape-tree-33-middle.glb",
+          "bytes": 470528,
+          "triangles": 22820,
+          "revision": "d1ca520ea175"
+        },
+        {
+          "url": "models/lod/landscape-tree-33-near.glb",
+          "bytes": 1219828,
+          "triangles": 59356,
+          "revision": "ca1b160d9b4c"
+        }
+      ]
+    },
+    {
+      "id": "landscape-tree-34",
+      "sourceId": "shared-guanghua-landscape",
+      "name": "V6 south avenue 06",
+      "sourceRevision": "588b6b5b8370",
+      "position": [
+        0,
+        0,
+        0
+      ],
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "bounds": {
+        "min": [
+          148.57458090092456,
+          5.7263673251897504,
+          -131.2791444205982
+        ],
+        "max": [
+          156.20982797789048,
+          13.081901464705714,
+          -122.2135160986636
+        ]
+      },
+      "nearDistance": 65,
+      "mediumDistance": 180,
+      "tiers": [
+        {
+          "url": "models/lod/landscape-tree-34-far.glb",
+          "bytes": 93156,
+          "triangles": 4266,
+          "revision": "8479f3acd0cb"
+        },
+        {
+          "url": "models/lod/landscape-tree-34-middle.glb",
+          "bytes": 509320,
+          "triangles": 24528,
+          "revision": "9182ef823b3b"
+        },
+        {
+          "url": "models/lod/landscape-tree-34-near.glb",
+          "bytes": 1073224,
+          "triangles": 51592,
+          "revision": "f4641bf77233"
+        }
+      ]
+    },
+    {
+      "id": "landscape-tree-35",
+      "sourceId": "shared-guanghua-landscape",
+      "name": "V6 south avenue 07",
+      "sourceRevision": "588b6b5b8370",
+      "position": [
+        0,
+        0,
+        0
+      ],
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "bounds": {
+        "min": [
+          155.78749356431223,
+          5.839738830023695,
+          -130.17697189226084
+        ],
+        "max": [
+          166.05303272166924,
+          12.715491545958567,
+          -122.53992699957237
+        ]
+      },
+      "nearDistance": 65,
+      "mediumDistance": 180,
+      "tiers": [
+        {
+          "url": "models/lod/landscape-tree-35-far.glb",
+          "bytes": 97792,
+          "triangles": 4564,
+          "revision": "abfa9425cad9"
+        },
+        {
+          "url": "models/lod/landscape-tree-35-middle.glb",
+          "bytes": 543464,
+          "triangles": 26254,
+          "revision": "af797375e632"
+        },
+        {
+          "url": "models/lod/landscape-tree-35-near.glb",
+          "bytes": 1147620,
+          "triangles": 55458,
+          "revision": "e644377fa490"
+        }
+      ]
+    },
+    {
+      "id": "landscape-tree-36",
+      "sourceId": "shared-guanghua-landscape",
+      "name": "V6 south avenue 08",
+      "sourceRevision": "588b6b5b8370",
+      "position": [
+        0,
+        0,
+        0
+      ],
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "bounds": {
+        "min": [
+          164.6391476026916,
+          4.614027111472636,
+          -130.7016450297448
+        ],
+        "max": [
+          174.80044125319836,
+          10.848739043061672,
+          -123.0850936894026
+        ]
+      },
+      "nearDistance": 65,
+      "mediumDistance": 180,
+      "tiers": [
+        {
+          "url": "models/lod/landscape-tree-36-far.glb",
+          "bytes": 87148,
+          "triangles": 3968,
+          "revision": "cb5a887df3b1"
+        },
+        {
+          "url": "models/lod/landscape-tree-36-middle.glb",
+          "bytes": 475012,
+          "triangles": 22820,
+          "revision": "d67ccb5d8dc9"
+        },
+        {
+          "url": "models/lod/landscape-tree-36-near.glb",
+          "bytes": 1220488,
+          "triangles": 59356,
+          "revision": "2bf96d4559fb"
+        }
+      ]
+    },
+    {
+      "id": "landscape-tree-37",
+      "sourceId": "shared-guanghua-landscape",
+      "name": "V6 south avenue 09",
+      "sourceRevision": "588b6b5b8370",
+      "position": [
+        0,
+        0,
+        0
+      ],
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "bounds": {
+        "min": [
+          174.5829373982837,
+          5.045514252706122,
+          -131.55118765685512
+        ],
+        "max": [
+          182.58579270475352,
+          11.464073845000334,
+          -122.69238046484324
+        ]
+      },
+      "nearDistance": 65,
+      "mediumDistance": 180,
+      "tiers": [
+        {
+          "url": "models/lod/landscape-tree-37-far.glb",
+          "bytes": 92092,
+          "triangles": 4266,
+          "revision": "05df91994d86"
+        },
+        {
+          "url": "models/lod/landscape-tree-37-middle.glb",
+          "bytes": 506452,
+          "triangles": 24528,
+          "revision": "f2ca2b2194d9"
+        },
+        {
+          "url": "models/lod/landscape-tree-37-near.glb",
+          "bytes": 1067012,
+          "triangles": 51592,
+          "revision": "002101049aad"
+        }
+      ]
+    },
+    {
+      "id": "landscape-tree-38",
+      "sourceId": "shared-guanghua-landscape",
+      "name": "V6 south avenue 10",
+      "sourceRevision": "588b6b5b8370",
+      "position": [
+        0,
+        0,
+        0
+      ],
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "bounds": {
+        "min": [
+          88.22424301577348,
+          5.303006945997339,
+          -131.77636062371886
+        ],
+        "max": [
+          98.4703129113808,
+          12.687606891958495,
+          -124.54529401557464
+        ]
+      },
+      "nearDistance": 65,
+      "mediumDistance": 180,
+      "tiers": [
+        {
+          "url": "models/lod/landscape-tree-38-far.glb",
+          "bytes": 93156,
+          "triangles": 4266,
+          "revision": "74457723217d"
+        },
+        {
+          "url": "models/lod/landscape-tree-38-middle.glb",
+          "bytes": 509320,
+          "triangles": 24528,
+          "revision": "bbb2bec90d1d"
+        },
+        {
+          "url": "models/lod/landscape-tree-38-near.glb",
+          "bytes": 1146600,
+          "triangles": 55458,
+          "revision": "4185548be238"
+        }
+      ]
+    },
+    {
+      "id": "landscape-tree-39",
+      "sourceId": "shared-guanghua-landscape",
+      "name": "V6 south avenue 11",
+      "sourceRevision": "588b6b5b8370",
+      "position": [
+        0,
+        0,
+        0
+      ],
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "bounds": {
+        "min": [
+          108.66330267902649,
+          6.087061936604297,
+          -133.21411624791577
+        ],
+        "max": [
+          117.53188265829377,
+          13.620151099035244,
+          -122.75271653988119
+        ]
+      },
+      "nearDistance": 65,
+      "mediumDistance": 180,
+      "tiers": [
+        {
+          "url": "models/lod/landscape-tree-39-far.glb",
+          "bytes": 97792,
+          "triangles": 4564,
+          "revision": "50fa85049412"
+        },
+        {
+          "url": "models/lod/landscape-tree-39-middle.glb",
+          "bytes": 543464,
+          "triangles": 26254,
+          "revision": "c12f73acbe2c"
+        },
+        {
+          "url": "models/lod/landscape-tree-39-near.glb",
+          "bytes": 1230944,
+          "triangles": 59356,
+          "revision": "95fe9a2e8b71"
+        }
+      ]
+    },
+    {
+      "id": "landscape-tree-40",
+      "sourceId": "shared-guanghua-landscape",
+      "name": "V6 south avenue 12",
+      "sourceRevision": "588b6b5b8370",
+      "position": [
+        0,
+        0,
+        0
+      ],
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "bounds": {
+        "min": [
+          135.15327375987982,
+          4.705344282325747,
+          -132.18738138901904
+        ],
+        "max": [
+          144.53893643634325,
+          10.617965437136768,
+          -124.15885452440386
+        ]
+      },
+      "nearDistance": 65,
+      "mediumDistance": 180,
+      "tiers": [
+        {
+          "url": "models/lod/landscape-tree-40-far.glb",
+          "bytes": 87148,
+          "triangles": 3968,
+          "revision": "f784c8ef7464"
+        },
+        {
+          "url": "models/lod/landscape-tree-40-middle.glb",
+          "bytes": 475012,
+          "triangles": 22820,
+          "revision": "0ff99616ae17"
+        },
+        {
+          "url": "models/lod/landscape-tree-40-near.glb",
+          "bytes": 1062308,
+          "triangles": 51592,
+          "revision": "09d81f80ad90"
+        }
+      ]
+    },
+    {
+      "id": "landscape-tree-41",
+      "sourceId": "shared-guanghua-landscape",
+      "name": "V6 south avenue 13",
+      "sourceRevision": "588b6b5b8370",
+      "position": [
+        0,
+        0,
+        0
+      ],
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "bounds": {
+        "min": [
+          142.46384544960176,
+          4.922326961336441,
+          -131.51488428381228
+        ],
+        "max": [
+          151.16759123308213,
+          11.490444752976568,
+          -124.37035943854451
+        ]
+      },
+      "nearDistance": 65,
+      "mediumDistance": 180,
+      "tiers": [
+        {
+          "url": "models/lod/landscape-tree-41-far.glb",
+          "bytes": 92092,
+          "triangles": 4266,
+          "revision": "2a340afa29d6"
+        },
+        {
+          "url": "models/lod/landscape-tree-41-middle.glb",
+          "bytes": 506452,
+          "triangles": 24528,
+          "revision": "be951b232510"
+        },
+        {
+          "url": "models/lod/landscape-tree-41-near.glb",
+          "bytes": 1145160,
+          "triangles": 55458,
+          "revision": "3d4d56ab06f6"
+        }
+      ]
+    },
+    {
+      "id": "landscape-tree-42",
+      "sourceId": "shared-guanghua-landscape",
+      "name": "V6 south avenue 14",
+      "sourceRevision": "588b6b5b8370",
+      "position": [
+        0,
+        0,
+        0
+      ],
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "bounds": {
+        "min": [
+          162.25925113942048,
+          4.971725773351139,
+          -133.31351677120284
+        ],
+        "max": [
+          171.0838411514303,
+          12.589425936680541,
+          -123.6939241357821
+        ]
+      },
+      "nearDistance": 65,
+      "mediumDistance": 180,
+      "tiers": [
+        {
+          "url": "models/lod/landscape-tree-42-far.glb",
+          "bytes": 85688,
+          "triangles": 3968,
+          "revision": "5a82595e1711"
+        },
+        {
+          "url": "models/lod/landscape-tree-42-middle.glb",
+          "bytes": 470528,
+          "triangles": 22820,
+          "revision": "22daefd94e83"
+        },
+        {
+          "url": "models/lod/landscape-tree-42-near.glb",
+          "bytes": 1230376,
+          "triangles": 59356,
+          "revision": "b32edc9c52c9"
+        }
+      ]
+    },
+    {
+      "id": "landscape-tree-43",
+      "sourceId": "shared-guanghua-landscape",
+      "name": "V6 south avenue 15",
+      "sourceRevision": "588b6b5b8370",
+      "position": [
+        0,
+        0,
+        0
+      ],
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "bounds": {
+        "min": [
+          168.41110819213873,
+          5.69690397397742,
+          -132.14425958153896
+        ],
+        "max": [
+          177.66889203992127,
+          13.293671746651647,
+          -124.3525433911197
+        ]
+      },
+      "nearDistance": 65,
+      "mediumDistance": 180,
+      "tiers": [
+        {
+          "url": "models/lod/landscape-tree-43-far.glb",
+          "bytes": 93160,
+          "triangles": 4266,
+          "revision": "ca368028cc2f"
+        },
+        {
+          "url": "models/lod/landscape-tree-43-middle.glb",
+          "bytes": 509320,
+          "triangles": 24528,
+          "revision": "03914caaa19d"
+        },
+        {
+          "url": "models/lod/landscape-tree-43-near.glb",
+          "bytes": 1076588,
+          "triangles": 51592,
+          "revision": "fd4d0762c316"
+        }
+      ]
+    },
+    {
+      "id": "landscape-tree-44",
+      "sourceId": "shared-guanghua-landscape",
+      "name": "V6 south conifer 01",
+      "sourceRevision": "588b6b5b8370",
+      "position": [
+        0,
+        0,
+        0
+      ],
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "bounds": {
+        "min": [
+          101.54395164442076,
+          3.0806427921049817,
+          -131.72088853687146
+        ],
+        "max": [
+          107.87184114908544,
+          12.461964025059274,
+          -126.00425774460385
+        ]
+      },
+      "nearDistance": 65,
+      "mediumDistance": 180,
+      "tiers": [
+        {
+          "url": "models/lod/landscape-tree-44-far.glb",
+          "bytes": 132796,
+          "triangles": 6142,
+          "revision": "ea3bb129421b"
+        },
+        {
+          "url": "models/lod/landscape-tree-44-middle.glb",
+          "bytes": 741392,
+          "triangles": 35322,
+          "revision": "fad5bfba74c3"
+        },
+        {
+          "url": "models/lod/landscape-tree-44-near.glb",
+          "bytes": 1679920,
+          "triangles": 79858,
+          "revision": "68eff490d70f"
+        }
+      ]
+    },
+    {
+      "id": "landscape-tree-45",
+      "sourceId": "shared-guanghua-landscape",
+      "name": "V6 south conifer 02",
+      "sourceRevision": "588b6b5b8370",
+      "position": [
+        0,
+        0,
+        0
+      ],
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "bounds": {
+        "min": [
+          118.92355947280198,
+          3.726901483365907,
+          -131.7755664828639
+        ],
+        "max": [
+          124.75170106929043,
+          13.947984475355838,
+          -126.7450355959893
+        ]
+      },
+      "nearDistance": 65,
+      "mediumDistance": 180,
+      "tiers": [
+        {
+          "url": "models/lod/landscape-tree-45-far.glb",
+          "bytes": 135412,
+          "triangles": 6274,
+          "revision": "6eda9fd756a0"
+        },
+        {
+          "url": "models/lod/landscape-tree-45-middle.glb",
+          "bytes": 759792,
+          "triangles": 36084,
+          "revision": "6487d4ada9ee"
+        },
+        {
+          "url": "models/lod/landscape-tree-45-near.glb",
+          "bytes": 1722532,
+          "triangles": 81580,
+          "revision": "b6770752457b"
+        }
+      ]
+    },
+    {
+      "id": "landscape-tree-46",
+      "sourceId": "shared-guanghua-landscape",
+      "name": "V6 south conifer 04",
+      "sourceRevision": "588b6b5b8370",
+      "position": [
+        0,
+        0,
+        0
+      ],
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "bounds": {
+        "min": [
+          153.96775550086187,
+          3.5725044680388294,
+          -132.000412627601
+        ],
+        "max": [
+          159.46271275135354,
+          13.283067463429802,
+          -126.08996994710776
+        ]
+      },
+      "nearDistance": 65,
+      "mediumDistance": 180,
+      "tiers": [
+        {
+          "url": "models/lod/landscape-tree-46-far.glb",
+          "bytes": 144664,
+          "triangles": 6680,
+          "revision": "7fb085f0644e"
+        },
+        {
+          "url": "models/lod/landscape-tree-46-middle.glb",
+          "bytes": 809152,
+          "triangles": 38416,
+          "revision": "31250e2ee556"
+        },
+        {
+          "url": "models/lod/landscape-tree-46-near.glb",
+          "bytes": 1831856,
+          "triangles": 86854,
+          "revision": "ac95dbc402d1"
+        }
+      ]
+    },
+    {
+      "id": "landscape-tree-47",
+      "sourceId": "shared-guanghua-landscape",
+      "name": "V6 south conifer 05",
+      "sourceRevision": "588b6b5b8370",
+      "position": [
+        0,
+        0,
+        0
+      ],
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "bounds": {
+        "min": [
+          173.4505838178804,
+          3.3363260628678404,
+          -132.57422359808675
+        ],
+        "max": [
+          178.8810173428325,
+          12.737161380266002,
+          -127.05915506756037
+        ]
+      },
+      "nearDistance": 65,
+      "mediumDistance": 180,
+      "tiers": [
+        {
+          "url": "models/lod/landscape-tree-47-far.glb",
+          "bytes": 134680,
+          "triangles": 6204,
+          "revision": "9f712878e0d1"
+        },
+        {
+          "url": "models/lod/landscape-tree-47-middle.glb",
+          "bytes": 748532,
+          "triangles": 35674,
+          "revision": "bebf89aad544"
+        },
+        {
+          "url": "models/lod/landscape-tree-47-near.glb",
+          "bytes": 1701344,
+          "triangles": 80658,
+          "revision": "814b0aa57ee3"
+        }
+      ]
+    },
+    {
+      "id": "landscape-shrub-48",
+      "sourceId": "shared-guanghua-landscape",
+      "name": "Shrubs 4 -11",
+      "sourceRevision": "588b6b5b8370",
+      "position": [
+        0,
+        0,
+        0
+      ],
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "bounds": {
+        "min": [
+          67.99717376767524,
+          -0.09355511032261465,
+          -176.64368931013658
+        ],
+        "max": [
+          80.9749398642158,
+          2.669213353207933,
+          -152.01087630823397
+        ]
+      },
+      "nearDistance": 50,
+      "mediumDistance": 130,
+      "tiers": [
+        {
+          "url": "models/lod/landscape-shrub-48-far.glb",
+          "bytes": 436248,
+          "triangles": 21628,
+          "revision": "1134fe472f58"
+        },
+        {
+          "url": "models/lod/landscape-shrub-48-middle.glb",
+          "bytes": 1727676,
+          "triangles": 194652,
+          "revision": "373cb0b38639"
+        },
+        {
+          "url": "models/lod/landscape-shrub-48-near.glb",
+          "bytes": 4181280,
+          "triangles": 410936,
+          "revision": "406cc1027004"
+        }
+      ]
+    },
+    {
+      "id": "landscape-shrub-49",
+      "sourceId": "shared-guanghua-landscape",
+      "name": "Shrubs 5 -10",
+      "sourceRevision": "588b6b5b8370",
+      "position": [
+        0,
+        0,
+        0
+      ],
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "bounds": {
+        "min": [
+          80.35605306891448,
+          -0.04663176601869168,
+          -160.09592491024347
+        ],
+        "max": [
+          94.07983857780728,
+          1.1293577280668106,
+          -143.02665227239964
+        ]
+      },
+      "nearDistance": 50,
+      "mediumDistance": 130,
+      "tiers": [
+        {
+          "url": "models/lod/landscape-shrub-49-far.glb",
+          "bytes": 163572,
+          "triangles": 9426,
+          "revision": "18b6dc84aab8"
+        },
+        {
+          "url": "models/lod/landscape-shrub-49-middle.glb",
+          "bytes": 524072,
+          "triangles": 84832,
+          "revision": "bd047682f726"
+        },
+        {
+          "url": "models/lod/landscape-shrub-49-near.glb",
+          "bytes": 1578748,
+          "triangles": 179092,
+          "revision": "11573b808216"
+        }
+      ]
+    },
+    {
+      "id": "landscape-shrub-50",
+      "sourceId": "shared-guanghua-landscape",
+      "name": "Shrubs 10 -10",
+      "sourceRevision": "588b6b5b8370",
+      "position": [
+        0,
+        0,
+        0
+      ],
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "bounds": {
+        "min": [
+          162.97007367807825,
+          -0.03075273111915361,
+          -157.1603317392442
+        ],
+        "max": [
+          179.38628301157829,
+          2.196881546499426,
+          -143.18431572330022
+        ]
+      },
+      "nearDistance": 50,
+      "mediumDistance": 130,
+      "tiers": [
+        {
+          "url": "models/lod/landscape-shrub-50-far.glb",
+          "bytes": 370192,
+          "triangles": 16796,
+          "revision": "f117c4fb373e"
+        },
+        {
+          "url": "models/lod/landscape-shrub-50-middle.glb",
+          "bytes": 1507152,
+          "triangles": 151188,
+          "revision": "decabc5257a0"
+        },
+        {
+          "url": "models/lod/landscape-shrub-50-near.glb",
+          "bytes": 3645792,
+          "triangles": 319184,
+          "revision": "f6fac1909afe"
+        }
+      ]
+    },
+    {
+      "id": "landscape-shrub-51",
+      "sourceId": "shared-guanghua-landscape",
+      "name": "Shrubs 11 -10",
+      "sourceRevision": "588b6b5b8370",
+      "position": [
+        0,
+        0,
+        0
+      ],
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "bounds": {
+        "min": [
+          173.0192230742373,
+          0.36084158176835435,
+          -161.96607894823418
+        ],
+        "max": [
+          183.02030785450435,
+          1.8331613088997631,
+          -152.6496003318047
+        ]
+      },
+      "nearDistance": 50,
+      "mediumDistance": 130,
+      "tiers": [
+        {
+          "url": "models/lod/landscape-shrub-51-far.glb",
+          "bytes": 205640,
+          "triangles": 8844,
+          "revision": "a2d5673cb90b"
+        },
+        {
+          "url": "models/lod/landscape-shrub-51-middle.glb",
+          "bytes": 921960,
+          "triangles": 79608,
+          "revision": "1b8eda055f1c"
+        },
+        {
+          "url": "models/lod/landscape-shrub-51-near.glb",
+          "bytes": 1963988,
+          "triangles": 168064,
+          "revision": "3cc01cf2f7d1"
+        }
+      ]
+    },
+    {
+      "id": "landscape-shrub-52",
+      "sourceId": "shared-guanghua-landscape",
+      "name": "Shrubs 6 -11",
+      "sourceRevision": "588b6b5b8370",
+      "position": [
+        0,
+        0,
+        0
+      ],
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "bounds": {
+        "min": [
+          94.54062611784586,
+          -0.02511028424970735,
+          -171.8878854290412
+        ],
+        "max": [
+          98.52529913374809,
+          0.4860337789585668,
+          -168.4007483858706
+        ]
+      },
+      "nearDistance": 50,
+      "mediumDistance": 130,
+      "tiers": [
+        {
+          "url": "models/lod/landscape-shrub-52-far.glb",
+          "bytes": 44628,
+          "triangles": 1566,
+          "revision": "f599e692dcc6"
+        },
+        {
+          "url": "models/lod/landscape-shrub-52-middle.glb",
+          "bytes": 170292,
+          "triangles": 14096,
+          "revision": "f37b3ceb5e41"
+        },
+        {
+          "url": "models/lod/landscape-shrub-52-near.glb",
+          "bytes": 354620,
+          "triangles": 29760,
+          "revision": "963651b01299"
+        }
+      ]
+    },
+    {
+      "id": "landscape-shrub-53",
+      "sourceId": "shared-guanghua-landscape",
+      "name": "Shrubs 6 -10",
+      "sourceRevision": "588b6b5b8370",
+      "position": [
+        0,
+        0,
+        0
+      ],
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "bounds": {
+        "min": [
+          94.53824909102971,
+          -0.02878256867658638,
+          -155.98275004566045
+        ],
+        "max": [
+          98.52796059914247,
+          0.4899728195491583,
+          -152.49036326236273
+        ]
+      },
+      "nearDistance": 50,
+      "mediumDistance": 130,
+      "tiers": [
+        {
+          "url": "models/lod/landscape-shrub-53-far.glb",
+          "bytes": 43856,
+          "triangles": 1566,
+          "revision": "7bbec2ac2a24"
+        },
+        {
+          "url": "models/lod/landscape-shrub-53-middle.glb",
+          "bytes": 165964,
+          "triangles": 14096,
+          "revision": "93a647985efc"
+        },
+        {
+          "url": "models/lod/landscape-shrub-53-near.glb",
+          "bytes": 346652,
+          "triangles": 29760,
+          "revision": "f9f9994cd3d5"
+        }
+      ]
+    },
+    {
+      "id": "landscape-shrub-54",
+      "sourceId": "shared-guanghua-landscape",
+      "name": "Shrubs 10 -11",
+      "sourceRevision": "588b6b5b8370",
+      "position": [
+        0,
+        0,
+        0
+      ],
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "bounds": {
+        "min": [
+          164.07133404386673,
+          -0.03790043821602512,
+          -176.4452133266331
+        ],
+        "max": [
+          176.2313925120471,
+          1.2390261377989515,
+          -159.36466387241217
+        ]
+      },
+      "nearDistance": 50,
+      "mediumDistance": 130,
+      "tiers": [
+        {
+          "url": "models/lod/landscape-shrub-54-far.glb",
+          "bytes": 171048,
+          "triangles": 8414,
+          "revision": "75d38d54b0e8"
+        },
+        {
+          "url": "models/lod/landscape-shrub-54-middle.glb",
+          "bytes": 572744,
+          "triangles": 75728,
+          "revision": "56eb6bdb052a"
+        },
+        {
+          "url": "models/lod/landscape-shrub-54-near.glb",
+          "bytes": 1555392,
+          "triangles": 159872,
+          "revision": "8a2d80340449"
+        }
+      ]
+    },
+    {
+      "id": "landscape-shrub-55",
+      "sourceId": "shared-guanghua-landscape",
+      "name": "Shrubs 4 -9",
+      "sourceRevision": "588b6b5b8370",
+      "position": [
+        0,
+        0,
+        0
+      ],
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "bounds": {
+        "min": [
+          67.14009901366921,
+          -0.056126840726013594,
+          -144.6696037244277
+        ],
+        "max": [
+          80.61967871327352,
+          1.106196657714467,
+          -133.88175530155277
+        ]
+      },
+      "nearDistance": 50,
+      "mediumDistance": 130,
+      "tiers": [
+        {
+          "url": "models/lod/landscape-shrub-55-far.glb",
+          "bytes": 166500,
+          "triangles": 9744,
+          "revision": "085efa5f68af"
+        },
+        {
+          "url": "models/lod/landscape-shrub-55-middle.glb",
+          "bytes": 503064,
+          "triangles": 87696,
+          "revision": "40fe8a47ff39"
+        },
+        {
+          "url": "models/lod/landscape-shrub-55-near.glb",
+          "bytes": 1825864,
+          "triangles": 185136,
+          "revision": "8ec45c47e805"
+        }
+      ]
+    },
+    {
+      "id": "landscape-shrub-56",
+      "sourceId": "shared-guanghua-landscape",
+      "name": "Shrubs 4 -10",
+      "sourceRevision": "588b6b5b8370",
+      "position": [
+        0,
+        0,
+        0
+      ],
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "bounds": {
+        "min": [
+          67.70589444516122,
+          -0.048952555154822386,
+          -149.296210459487
+        ],
+        "max": [
+          77.1826168848787,
+          0.9083108867558952,
+          -143.16611314246552
+        ]
+      },
+      "nearDistance": 50,
+      "mediumDistance": 130,
+      "tiers": [
+        {
+          "url": "models/lod/landscape-shrub-56-far.glb",
+          "bytes": 117188,
+          "triangles": 3816,
+          "revision": "ae05cd7b3ce1"
+        },
+        {
+          "url": "models/lod/landscape-shrub-56-middle.glb",
+          "bytes": 367008,
+          "triangles": 34344,
+          "revision": "571ef0564199"
+        },
+        {
+          "url": "models/lod/landscape-shrub-56-near.glb",
+          "bytes": 708704,
+          "triangles": 72504,
+          "revision": "492d32fb510b"
+        }
+      ]
+    },
+    {
+      "id": "landscape-shrub-57",
+      "sourceId": "shared-guanghua-landscape",
+      "name": "Shrubs 4 -12",
+      "sourceRevision": "588b6b5b8370",
+      "position": [
+        0,
+        0,
+        0
+      ],
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "bounds": {
+        "min": [
+          67.44157209971003,
+          -0.053632246154980856,
+          -180.8671588351103
+        ],
+        "max": [
+          76.18680996621858,
+          2.642389301755495,
+          -174.92600991040376
+        ]
+      },
+      "nearDistance": 50,
+      "mediumDistance": 130,
+      "tiers": [
+        {
+          "url": "models/lod/landscape-shrub-57-far.glb",
+          "bytes": 113656,
+          "triangles": 5064,
+          "revision": "623899ab0961"
+        },
+        {
+          "url": "models/lod/landscape-shrub-57-middle.glb",
+          "bytes": 366240,
+          "triangles": 45576,
+          "revision": "98bc8172daf9"
+        },
+        {
+          "url": "models/lod/landscape-shrub-57-near.glb",
+          "bytes": 1026724,
+          "triangles": 96216,
+          "revision": "67fb35f65f5f"
+        }
+      ]
+    },
+    {
+      "id": "landscape-shrub-58",
+      "sourceId": "shared-guanghua-landscape",
+      "name": "Shrubs 5 -9",
+      "sourceRevision": "588b6b5b8370",
+      "position": [
+        0,
+        0,
+        0
+      ],
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "bounds": {
+        "min": [
+          79.56350161274034,
+          -0.05288524453729615,
+          -144.59274810173915
+        ],
+        "max": [
+          93.47703140044817,
+          1.1427643179579277,
+          -135.58845143412202
+        ]
+      },
+      "nearDistance": 50,
+      "mediumDistance": 130,
+      "tiers": [
+        {
+          "url": "models/lod/landscape-shrub-58-far.glb",
+          "bytes": 134272,
+          "triangles": 8232,
+          "revision": "f3b845e465cc"
+        },
+        {
+          "url": "models/lod/landscape-shrub-58-middle.glb",
+          "bytes": 409768,
+          "triangles": 74088,
+          "revision": "6f4f705787af"
+        },
+        {
+          "url": "models/lod/landscape-shrub-58-near.glb",
+          "bytes": 1622980,
+          "triangles": 156408,
+          "revision": "0d07243b3b1d"
+        }
+      ]
+    },
+    {
+      "id": "landscape-shrub-59",
+      "sourceId": "shared-guanghua-landscape",
+      "name": "Shrubs 5 -11",
+      "sourceRevision": "588b6b5b8370",
+      "position": [
+        0,
+        0,
+        0
+      ],
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "bounds": {
+        "min": [
+          84.28080117255244,
+          -0.05257202511823611,
+          -176.3620001845792
+        ],
+        "max": [
+          94.64153427396852,
+          1.136140756229846,
+          -159.5533249620835
+        ]
+      },
+      "nearDistance": 50,
+      "mediumDistance": 130,
+      "tiers": [
+        {
+          "url": "models/lod/landscape-shrub-59-far.glb",
+          "bytes": 131652,
+          "triangles": 7440,
+          "revision": "a5046e73ab3c"
+        },
+        {
+          "url": "models/lod/landscape-shrub-59-middle.glb",
+          "bytes": 409480,
+          "triangles": 66960,
+          "revision": "28ecc93678dd"
+        },
+        {
+          "url": "models/lod/landscape-shrub-59-near.glb",
+          "bytes": 1445208,
+          "triangles": 141360,
+          "revision": "bdbb4545c3b2"
+        }
+      ]
+    },
+    {
+      "id": "landscape-shrub-60",
+      "sourceId": "shared-guanghua-landscape",
+      "name": "Shrubs 10 -9",
+      "sourceRevision": "588b6b5b8370",
+      "position": [
+        0,
+        0,
+        0
+      ],
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "bounds": {
+        "min": [
+          163.66549981854595,
+          -0.05713492382966601,
+          -143.36068617533076
+        ],
+        "max": [
+          174.33029467333054,
+          1.2622364600304756,
+          -135.58048234876233
+        ]
+      },
+      "nearDistance": 50,
+      "mediumDistance": 130,
+      "tiers": [
+        {
+          "url": "models/lod/landscape-shrub-60-far.glb",
+          "bytes": 97600,
+          "triangles": 3096,
+          "revision": "18719db9f8da"
+        },
+        {
+          "url": "models/lod/landscape-shrub-60-middle.glb",
+          "bytes": 295384,
+          "triangles": 27864,
+          "revision": "89552043012f"
+        },
+        {
+          "url": "models/lod/landscape-shrub-60-near.glb",
+          "bytes": 679292,
+          "triangles": 58824,
+          "revision": "807065d3a7d9"
+        }
+      ]
+    },
+    {
+      "id": "landscape-shrub-61",
+      "sourceId": "shared-guanghua-landscape",
+      "name": "Shrubs 11 -11",
+      "sourceRevision": "588b6b5b8370",
+      "position": [
+        0,
+        0,
+        0
+      ],
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "bounds": {
+        "min": [
+          175.44778721639025,
+          -0.051031432526567166,
+          -176.7124883243144
+        ],
+        "max": [
+          183.87926538922892,
+          2.6078154117769903,
+          -162.37984123623377
+        ]
+      },
+      "nearDistance": 50,
+      "mediumDistance": 130,
+      "tiers": [
+        {
+          "url": "models/lod/landscape-shrub-61-far.glb",
+          "bytes": 160492,
+          "triangles": 6648,
+          "revision": "7df02b52a85a"
+        },
+        {
+          "url": "models/lod/landscape-shrub-61-middle.glb",
+          "bytes": 500788,
+          "triangles": 59832,
+          "revision": "03a8347f15ad"
+        },
+        {
+          "url": "models/lod/landscape-shrub-61-near.glb",
+          "bytes": 1324584,
+          "triangles": 126312,
+          "revision": "2875d84a8177"
+        }
+      ]
+    },
+    {
+      "id": "landscape-shrub-62",
+      "sourceId": "shared-guanghua-landscape",
+      "name": "Shrubs 11 -12",
+      "sourceRevision": "588b6b5b8370",
+      "position": [
+        0,
+        0,
+        0
+      ],
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "bounds": {
+        "min": [
+          176.44456981591077,
+          -0.04595195325282764,
+          -179.64305157947115
+        ],
+        "max": [
+          182.9441887394631,
+          1.9936800530105292,
+          -175.72786164918628
+        ]
+      },
+      "nearDistance": 50,
+      "mediumDistance": 130,
+      "tiers": [
+        {
+          "url": "models/lod/landscape-shrub-62-far.glb",
+          "bytes": 83824,
+          "triangles": 2304,
+          "revision": "4f0b3a966d5f"
+        },
+        {
+          "url": "models/lod/landscape-shrub-62-middle.glb",
+          "bytes": 261792,
+          "triangles": 20736,
+          "revision": "44e6efb42dd5"
+        },
+        {
+          "url": "models/lod/landscape-shrub-62-near.glb",
+          "bytes": 506172,
+          "triangles": 43776,
+          "revision": "2ce3e396577a"
+        }
+      ]
+    },
+    {
+      "id": "campus-tree--5_-4",
+      "sourceId": "shared-05",
+      "name": "校园树木 -5_-4",
+      "sourceRevision": "39c56a008f4e",
+      "position": [
+        0,
+        0,
+        0
+      ],
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "bounds": {
+        "min": [
+          -390.0634460449219,
+          0.5295801758766174,
+          -314.9607849121094
+        ],
+        "max": [
+          -317.5004577636719,
+          8.135566711425781,
+          -242.70423889160156
+        ]
+      },
+      "nearDistance": 80,
+      "mediumDistance": 200,
+      "tiers": [
+        {
+          "url": "models/lod/campus-tree--5_-4-far.glb",
+          "bytes": 66144,
+          "triangles": 2816,
+          "revision": "266737b7db59"
+        },
+        {
+          "url": "models/lod/campus-tree--5_-4-middle.glb",
+          "bytes": 140556,
+          "triangles": 6336,
+          "revision": "89b6da4624b9"
+        },
+        {
+          "url": "models/lod/campus-tree--5_-4-near.glb",
+          "bytes": 244860,
+          "triangles": 11264,
+          "revision": "e4c6585a2e3e"
+        }
+      ]
+    },
+    {
+      "id": "campus-tree--4_-4",
+      "sourceId": "shared-05",
+      "name": "校园树木 -4_-4",
+      "sourceRevision": "39c56a008f4e",
+      "position": [
+        0,
+        0,
+        0
+      ],
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "bounds": {
+        "min": [
+          -321.4702453613281,
+          0.7654193639755249,
+          -315.3091735839844
+        ],
+        "max": [
+          -238.5916290283203,
+          7.882558345794678,
+          -268.9447021484375
+        ]
+      },
+      "nearDistance": 80,
+      "mediumDistance": 200,
+      "tiers": [
+        {
+          "url": "models/lod/campus-tree--4_-4-far.glb",
+          "bytes": 102376,
+          "triangles": 4544,
+          "revision": "02e55c3288eb"
+        },
+        {
+          "url": "models/lod/campus-tree--4_-4-middle.glb",
+          "bytes": 222420,
+          "triangles": 10224,
+          "revision": "2b1b408c26db"
+        },
+        {
+          "url": "models/lod/campus-tree--4_-4-near.glb",
+          "bytes": 390072,
+          "triangles": 18176,
+          "revision": "998c0e76ded6"
+        }
+      ]
+    },
+    {
+      "id": "campus-tree--3_-4",
+      "sourceId": "shared-05",
+      "name": "校园树木 -3_-4",
+      "sourceRevision": "39c56a008f4e",
+      "position": [
+        0,
+        0,
+        0
+      ],
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "bounds": {
+        "min": [
+          -233.28805541992188,
+          0.4111086428165436,
+          -315.1007385253906
+        ],
+        "max": [
+          -160.47828674316406,
+          8.245675086975098,
+          -258.43218994140625
+        ]
+      },
+      "nearDistance": 80,
+      "mediumDistance": 200,
+      "tiers": [
+        {
+          "url": "models/lod/campus-tree--3_-4-far.glb",
+          "bytes": 74312,
+          "triangles": 3200,
+          "revision": "64e5c564ab86"
+        },
+        {
+          "url": "models/lod/campus-tree--3_-4-middle.glb",
+          "bytes": 158820,
+          "triangles": 7200,
+          "revision": "fa5cca6ac168"
+        },
+        {
+          "url": "models/lod/campus-tree--3_-4-near.glb",
+          "bytes": 277316,
+          "triangles": 12800,
+          "revision": "acd1686f27cf"
+        }
+      ]
+    },
+    {
+      "id": "campus-tree--2_-4",
+      "sourceId": "shared-05",
+      "name": "校园树木 -2_-4",
+      "sourceRevision": "39c56a008f4e",
+      "position": [
+        0,
+        0,
+        0
+      ],
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "bounds": {
+        "min": [
+          -154.32855224609375,
+          0.4497978091239929,
+          -315.2203674316406
+        ],
+        "max": [
+          -82.6313705444336,
+          8.331341743469238,
+          -266.8587646484375
+        ]
+      },
+      "nearDistance": 80,
+      "mediumDistance": 200,
+      "tiers": [
+        {
+          "url": "models/lod/campus-tree--2_-4-far.glb",
+          "bytes": 67512,
+          "triangles": 2880,
+          "revision": "d88253b6aabd"
+        },
+        {
+          "url": "models/lod/campus-tree--2_-4-middle.glb",
+          "bytes": 143676,
+          "triangles": 6480,
+          "revision": "d4baf46074b7"
+        },
+        {
+          "url": "models/lod/campus-tree--2_-4-near.glb",
+          "bytes": 250248,
+          "triangles": 11520,
+          "revision": "e0f983fa8398"
+        }
+      ]
+    },
+    {
+      "id": "campus-tree--1_-4",
+      "sourceId": "shared-05",
+      "name": "校园树木 -1_-4",
+      "sourceRevision": "39c56a008f4e",
+      "position": [
+        0,
+        0,
+        0
+      ],
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "bounds": {
+        "min": [
+          -76.46736907958984,
+          0.684795618057251,
+          -315.1207580566406
+        ],
+        "max": [
+          -3.3206300735473633,
+          7.761682510375977,
+          -238.08880615234375
+        ]
+      },
+      "nearDistance": 80,
+      "mediumDistance": 200,
+      "tiers": [
+        {
+          "url": "models/lod/campus-tree--1_-4-far.glb",
+          "bytes": 59140,
+          "triangles": 2496,
+          "revision": "fd7ea8659981"
+        },
+        {
+          "url": "models/lod/campus-tree--1_-4-middle.glb",
+          "bytes": 125168,
+          "triangles": 5616,
+          "revision": "a7c840ee605c"
+        },
+        {
+          "url": "models/lod/campus-tree--1_-4-near.glb",
+          "bytes": 217500,
+          "triangles": 9984,
+          "revision": "8d2590c8cbc3"
+        }
+      ]
+    },
+    {
+      "id": "campus-tree-0_-4",
+      "sourceId": "shared-05",
+      "name": "校园树木 0_-4",
+      "sourceRevision": "39c56a008f4e",
+      "position": [
+        0,
+        0,
+        0
+      ],
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "bounds": {
+        "min": [
+          1.779577374458313,
+          0.5629021525382996,
+          -318.60760498046875
+        ],
+        "max": [
+          74.94469451904297,
+          7.787446022033691,
+          -257.08074951171875
+        ]
+      },
+      "nearDistance": 80,
+      "mediumDistance": 200,
+      "tiers": [
+        {
+          "url": "models/lod/campus-tree-0_-4-far.glb",
+          "bytes": 87856,
+          "triangles": 3840,
+          "revision": "06fdb0763948"
+        },
+        {
+          "url": "models/lod/campus-tree-0_-4-middle.glb",
+          "bytes": 189496,
+          "triangles": 8640,
+          "revision": "ea6cc5907c0f"
+        },
+        {
+          "url": "models/lod/campus-tree-0_-4-near.glb",
+          "bytes": 331636,
+          "triangles": 15360,
+          "revision": "f91eac1a9514"
+        }
+      ]
+    },
+    {
+      "id": "campus-tree-1_-4",
+      "sourceId": "shared-05",
+      "name": "校园树木 1_-4",
+      "sourceRevision": "39c56a008f4e",
+      "position": [
+        0,
+        0,
+        0
+      ],
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "bounds": {
+        "min": [
+          80.37224578857422,
+          0.628110408782959,
+          -315.18841552734375
+        ],
+        "max": [
+          153.9227294921875,
+          8.163104057312012,
+          -249.40065002441406
+        ]
+      },
+      "nearDistance": 80,
+      "mediumDistance": 200,
+      "tiers": [
+        {
+          "url": "models/lod/campus-tree-1_-4-far.glb",
+          "bytes": 74208,
+          "triangles": 3200,
+          "revision": "f3206c7c6212"
+        },
+        {
+          "url": "models/lod/campus-tree-1_-4-middle.glb",
+          "bytes": 158820,
+          "triangles": 7200,
+          "revision": "565907f9e6aa"
+        },
+        {
+          "url": "models/lod/campus-tree-1_-4-near.glb",
+          "bytes": 277256,
+          "triangles": 12800,
+          "revision": "b9e224885206"
+        }
+      ]
+    },
+    {
+      "id": "campus-tree-2_-4",
+      "sourceId": "shared-05",
+      "name": "校园树木 2_-4",
+      "sourceRevision": "39c56a008f4e",
+      "position": [
+        0,
+        0,
+        0
+      ],
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "bounds": {
+        "min": [
+          159.18768310546875,
+          0.37553873658180237,
+          -318.5157470703125
+        ],
+        "max": [
+          241.5338897705078,
+          8.011038780212402,
+          -239.67454528808594
+        ]
+      },
+      "nearDistance": 80,
+      "mediumDistance": 200,
+      "tiers": [
+        {
+          "url": "models/lod/campus-tree-2_-4-far.glb",
+          "bytes": 152880,
+          "triangles": 6912,
+          "revision": "dd96fa074951"
+        },
+        {
+          "url": "models/lod/campus-tree-2_-4-middle.glb",
+          "bytes": 335416,
+          "triangles": 15552,
+          "revision": "e08c48644e4f"
+        },
+        {
+          "url": "models/lod/campus-tree-2_-4-near.glb",
+          "bytes": 590532,
+          "triangles": 27648,
+          "revision": "f655daed2b90"
+        }
+      ]
+    },
+    {
+      "id": "campus-tree-3_-4",
+      "sourceId": "shared-05",
+      "name": "校园树木 3_-4",
+      "sourceRevision": "39c56a008f4e",
+      "position": [
+        0,
+        0,
+        0
+      ],
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "bounds": {
+        "min": [
+          238.0117645263672,
+          0.18658660352230072,
+          -318.9092102050781
+        ],
+        "max": [
+          317.35498046875,
+          8.286794662475586,
+          -245.5648651123047
+        ]
+      },
+      "nearDistance": 80,
+      "mediumDistance": 200,
+      "tiers": [
+        {
+          "url": "models/lod/campus-tree-3_-4-far.glb",
+          "bytes": 165024,
+          "triangles": 7488,
+          "revision": "853cc6fc471a"
+        },
+        {
+          "url": "models/lod/campus-tree-3_-4-middle.glb",
+          "bytes": 362952,
+          "triangles": 16848,
+          "revision": "29b9233d54a5"
+        },
+        {
+          "url": "models/lod/campus-tree-3_-4-near.glb",
+          "bytes": 639400,
+          "triangles": 29952,
+          "revision": "394223cd4aa9"
+        }
+      ]
+    },
+    {
+      "id": "campus-tree--5_-3",
+      "sourceId": "shared-05",
+      "name": "校园树木 -5_-3",
+      "sourceRevision": "39c56a008f4e",
+      "position": [
+        0,
+        0,
+        0
+      ],
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "bounds": {
+        "min": [
+          -390.0489196777344,
+          0.4264998733997345,
+          -235.4656524658203
+        ],
+        "max": [
+          -318.2341613769531,
+          8.431824684143066,
+          -162.9216766357422
+        ]
+      },
+      "nearDistance": 80,
+      "mediumDistance": 200,
+      "tiers": [
+        {
+          "url": "models/lod/campus-tree--5_-3-far.glb",
+          "bytes": 83824,
+          "triangles": 3648,
+          "revision": "0006ae5d7cf3"
+        },
+        {
+          "url": "models/lod/campus-tree--5_-3-middle.glb",
+          "bytes": 180292,
+          "triangles": 8208,
+          "revision": "40459b66a415"
+        },
+        {
+          "url": "models/lod/campus-tree--5_-3-near.glb",
+          "bytes": 315180,
+          "triangles": 14592,
+          "revision": "4241c032be08"
+        }
+      ]
+    },
+    {
+      "id": "campus-tree--4_-3",
+      "sourceId": "shared-05",
+      "name": "校园树木 -4_-3",
+      "sourceRevision": "39c56a008f4e",
+      "position": [
+        0,
+        0,
+        0
+      ],
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "bounds": {
+        "min": [
+          -321.5403137207031,
+          0.6125902533531189,
+          -240.01499938964844
+        ],
+        "max": [
+          -238.34024047851562,
+          7.927333831787109,
+          -168.3865966796875
+        ]
+      },
+      "nearDistance": 80,
+      "mediumDistance": 200,
+      "tiers": [
+        {
+          "url": "models/lod/campus-tree--4_-3-far.glb",
+          "bytes": 98392,
+          "triangles": 4352,
+          "revision": "680c568e9b66"
+        },
+        {
+          "url": "models/lod/campus-tree--4_-3-middle.glb",
+          "bytes": 213324,
+          "triangles": 9792,
+          "revision": "0463241afb42"
+        },
+        {
+          "url": "models/lod/campus-tree--4_-3-near.glb",
+          "bytes": 373868,
+          "triangles": 17408,
+          "revision": "2f45fadd7296"
+        }
+      ]
+    },
+    {
+      "id": "campus-tree--2_-3",
+      "sourceId": "shared-05",
+      "name": "校园树木 -2_-3",
+      "sourceRevision": "39c56a008f4e",
+      "position": [
+        0,
+        0,
+        0
+      ],
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "bounds": {
+        "min": [
+          -161.78749084472656,
+          0.7235499024391174,
+          -232.36439514160156
+        ],
+        "max": [
+          -79.8278579711914,
+          8.225227355957031,
+          -180.39041137695312
+        ]
+      },
+      "nearDistance": 80,
+      "mediumDistance": 200,
+      "tiers": [
+        {
+          "url": "models/lod/campus-tree--2_-3-far.glb",
+          "bytes": 113196,
+          "triangles": 5056,
+          "revision": "2c14df328533"
+        },
+        {
+          "url": "models/lod/campus-tree--2_-3-middle.glb",
+          "bytes": 246592,
+          "triangles": 11376,
+          "revision": "b36c18ffa0b9"
+        },
+        {
+          "url": "models/lod/campus-tree--2_-3-near.glb",
+          "bytes": 432928,
+          "triangles": 20224,
+          "revision": "eafa75ae9ed3"
+        }
+      ]
+    },
+    {
+      "id": "campus-tree-2_-3",
+      "sourceId": "shared-05",
+      "name": "校园树木 2_-3",
+      "sourceRevision": "39c56a008f4e",
+      "position": [
+        0,
+        0,
+        0
+      ],
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "bounds": {
+        "min": [
+          194.25669860839844,
+          1.0276492834091187,
+          -237.27200317382812
+        ],
+        "max": [
+          241.19004821777344,
+          7.499307155609131,
+          -176.62667846679688
+        ]
+      },
+      "nearDistance": 80,
+      "mediumDistance": 200,
+      "tiers": [
+        {
+          "url": "models/lod/campus-tree-2_-3-far.glb",
+          "bytes": 43720,
+          "triangles": 1728,
+          "revision": "73f61d3bc864"
+        },
+        {
+          "url": "models/lod/campus-tree-2_-3-middle.glb",
+          "bytes": 89076,
+          "triangles": 3888,
+          "revision": "0b5b52ba9429"
+        },
+        {
+          "url": "models/lod/campus-tree-2_-3-near.glb",
+          "bytes": 153328,
+          "triangles": 6912,
+          "revision": "31fbbb8ff0be"
+        }
+      ]
+    },
+    {
+      "id": "campus-tree-3_-3",
+      "sourceId": "shared-05",
+      "name": "校园树木 3_-3",
+      "sourceRevision": "39c56a008f4e",
+      "position": [
+        0,
+        0,
+        0
+      ],
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "bounds": {
+        "min": [
+          238.0854034423828,
+          0.48847946524620056,
+          -240.7394256591797
+        ],
+        "max": [
+          318.6320495605469,
+          8.088499069213867,
+          -158.60496520996094
+        ]
+      },
+      "nearDistance": 80,
+      "mediumDistance": 200,
+      "tiers": [
+        {
+          "url": "models/lod/campus-tree-3_-3-far.glb",
+          "bytes": 165000,
+          "triangles": 7488,
+          "revision": "6a4c7e1d883d"
+        },
+        {
+          "url": "models/lod/campus-tree-3_-3-middle.glb",
+          "bytes": 362648,
+          "triangles": 16848,
+          "revision": "1a1e434952a3"
+        },
+        {
+          "url": "models/lod/campus-tree-3_-3-near.glb",
+          "bytes": 639024,
+          "triangles": 29952,
+          "revision": "58b816064cc5"
+        }
+      ]
+    },
+    {
+      "id": "campus-tree--5_-1",
+      "sourceId": "shared-05",
+      "name": "校园树木 -5_-1",
+      "sourceRevision": "39c56a008f4e",
+      "position": [
+        0,
+        0,
+        0
+      ],
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "bounds": {
+        "min": [
+          -390.503662109375,
+          0.7299058437347412,
+          -81.7588882446289
+        ],
+        "max": [
+          -318.2072448730469,
+          8.395848274230957,
+          -10.345236778259277
+        ]
+      },
+      "nearDistance": 80,
+      "mediumDistance": 200,
+      "tiers": [
+        {
+          "url": "models/lod/campus-tree--5_-1-far.glb",
+          "bytes": 144144,
+          "triangles": 6464,
+          "revision": "d496135bbc40"
+        },
+        {
+          "url": "models/lod/campus-tree--5_-1-middle.glb",
+          "bytes": 314980,
+          "triangles": 14544,
+          "revision": "0c07d74942b9"
+        },
+        {
+          "url": "models/lod/campus-tree--5_-1-near.glb",
+          "bytes": 554244,
+          "triangles": 25856,
+          "revision": "9132feb71adb"
+        }
+      ]
+    },
+    {
+      "id": "campus-tree--4_-1",
+      "sourceId": "shared-05",
+      "name": "校园树木 -4_-1",
+      "sourceRevision": "39c56a008f4e",
+      "position": [
+        0,
+        0,
+        0
+      ],
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "bounds": {
+        "min": [
+          -322.1380615234375,
+          0.5078425407409668,
+          -66.42919921875
+        ],
+        "max": [
+          -238.88851928710938,
+          8.460905075073242,
+          -10.319583892822266
+        ]
+      },
+      "nearDistance": 80,
+      "mediumDistance": 200,
+      "tiers": [
+        {
+          "url": "models/lod/campus-tree--4_-1-far.glb",
+          "bytes": 117180,
+          "triangles": 5248,
+          "revision": "1c2d2adf03bf"
+        },
+        {
+          "url": "models/lod/campus-tree--4_-1-middle.glb",
+          "bytes": 255648,
+          "triangles": 11808,
+          "revision": "d8be87f76f76"
+        },
+        {
+          "url": "models/lod/campus-tree--4_-1-near.glb",
+          "bytes": 449268,
+          "triangles": 20992,
+          "revision": "718bdad3d173"
+        }
+      ]
+    },
+    {
+      "id": "campus-tree--3_-1",
+      "sourceId": "shared-05",
+      "name": "校园树木 -3_-1",
+      "sourceRevision": "39c56a008f4e",
+      "position": [
+        0,
+        0,
+        0
+      ],
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "bounds": {
+        "min": [
+          -239.92318725585938,
+          0.5856725573539734,
+          -59.58006286621094
+        ],
+        "max": [
+          -160.42347717285156,
+          7.584183692932129,
+          -10.537333488464355
+        ]
+      },
+      "nearDistance": 80,
+      "mediumDistance": 200,
+      "tiers": [
+        {
+          "url": "models/lod/campus-tree--3_-1-far.glb",
+          "bytes": 107868,
+          "triangles": 4800,
+          "revision": "aa786674d32c"
+        },
+        {
+          "url": "models/lod/campus-tree--3_-1-middle.glb",
+          "bytes": 234616,
+          "triangles": 10800,
+          "revision": "529af2d42e44"
+        },
+        {
+          "url": "models/lod/campus-tree--3_-1-near.glb",
+          "bytes": 411752,
+          "triangles": 19200,
+          "revision": "31a91469fded"
+        }
+      ]
+    },
+    {
+      "id": "campus-tree--1_-1",
+      "sourceId": "shared-05",
+      "name": "校园树木 -1_-1",
+      "sourceRevision": "39c56a008f4e",
+      "position": [
+        0,
+        0,
+        0
+      ],
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "bounds": {
+        "min": [
+          -65.08895874023438,
+          0.1877581924200058,
+          -81.22283935546875
+        ],
+        "max": [
+          -1.4199692010879517,
+          8.19001579284668,
+          -11.35946273803711
+        ]
+      },
+      "nearDistance": 80,
+      "mediumDistance": 200,
+      "tiers": [
+        {
+          "url": "models/lod/campus-tree--1_-1-far.glb",
+          "bytes": 110356,
+          "triangles": 4864,
+          "revision": "a03e15846651"
+        },
+        {
+          "url": "models/lod/campus-tree--1_-1-middle.glb",
+          "bytes": 238716,
+          "triangles": 10944,
+          "revision": "ef95ba254385"
+        },
+        {
+          "url": "models/lod/campus-tree--1_-1-near.glb",
+          "bytes": 418872,
+          "triangles": 19456,
+          "revision": "e7fb87eb68b1"
+        }
+      ]
+    },
+    {
+      "id": "campus-tree-0_-1",
+      "sourceId": "shared-05",
+      "name": "校园树木 0_-1",
+      "sourceRevision": "39c56a008f4e",
+      "position": [
+        0,
+        0,
+        0
+      ],
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "bounds": {
+        "min": [
+          1.544647216796875,
+          0.6718764901161194,
+          -81.96440124511719
+        ],
+        "max": [
+          75.20223999023438,
+          8.409486770629883,
+          -10.493261337280273
+        ]
+      },
+      "nearDistance": 80,
+      "mediumDistance": 200,
+      "tiers": [
+        {
+          "url": "models/lod/campus-tree-0_-1-far.glb",
+          "bytes": 164300,
+          "triangles": 7424,
+          "revision": "90a5741cdc40"
+        },
+        {
+          "url": "models/lod/campus-tree-0_-1-middle.glb",
+          "bytes": 360776,
+          "triangles": 16704,
+          "revision": "b5921ad3b08b"
+        },
+        {
+          "url": "models/lod/campus-tree-0_-1-near.glb",
+          "bytes": 635596,
+          "triangles": 29696,
+          "revision": "8b84448bc984"
+        }
+      ]
+    },
+    {
+      "id": "campus-tree-1_-1",
+      "sourceId": "shared-05",
+      "name": "校园树木 1_-1",
+      "sourceRevision": "39c56a008f4e",
+      "position": [
+        0,
+        0,
+        0
+      ],
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "bounds": {
+        "min": [
+          81.07194519042969,
+          0.4622596800327301,
+          -70.1741943359375
+        ],
+        "max": [
+          153.98648071289062,
+          8.377670288085938,
+          -10.561312675476074
+        ]
+      },
+      "nearDistance": 80,
+      "mediumDistance": 200,
+      "tiers": [
+        {
+          "url": "models/lod/campus-tree-1_-1-far.glb",
+          "bytes": 108396,
+          "triangles": 4800,
+          "revision": "c9dda014d23b"
+        },
+        {
+          "url": "models/lod/campus-tree-1_-1-middle.glb",
+          "bytes": 235512,
+          "triangles": 10800,
+          "revision": "1c049dc6cb54"
+        },
+        {
+          "url": "models/lod/campus-tree-1_-1-near.glb",
+          "bytes": 413372,
+          "triangles": 19200,
+          "revision": "6e4ccf0aaf2c"
+        }
+      ]
+    },
+    {
+      "id": "campus-tree-2_-1",
+      "sourceId": "shared-05",
+      "name": "校园树木 2_-1",
+      "sourceRevision": "39c56a008f4e",
+      "position": [
+        0,
+        0,
+        0
+      ],
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "bounds": {
+        "min": [
+          158.4573974609375,
+          0.9162905216217041,
+          -81.51282501220703
+        ],
+        "max": [
+          242.1780242919922,
+          8.415773391723633,
+          -10.277244567871094
+        ]
+      },
+      "nearDistance": 80,
+      "mediumDistance": 200,
+      "tiers": [
+        {
+          "url": "models/lod/campus-tree-2_-1-far.glb",
+          "bytes": 162272,
+          "triangles": 7360,
+          "revision": "6d139807da08"
+        },
+        {
+          "url": "models/lod/campus-tree-2_-1-middle.glb",
+          "bytes": 356696,
+          "triangles": 16560,
+          "revision": "f9b5f69574b9"
+        },
+        {
+          "url": "models/lod/campus-tree-2_-1-near.glb",
+          "bytes": 628488,
+          "triangles": 29440,
+          "revision": "f253597830f0"
+        }
+      ]
+    },
+    {
+      "id": "campus-tree-3_-1",
+      "sourceId": "shared-05",
+      "name": "校园树木 3_-1",
+      "sourceRevision": "39c56a008f4e",
+      "position": [
+        0,
+        0,
+        0
+      ],
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "bounds": {
+        "min": [
+          238.06192016601562,
+          0.2478325217962265,
+          -81.52005004882812
+        ],
+        "max": [
+          320.6092529296875,
+          8.192655563354492,
+          -10.585951805114746
+        ]
+      },
+      "nearDistance": 80,
+      "mediumDistance": 200,
+      "tiers": [
+        {
+          "url": "models/lod/campus-tree-3_-1-far.glb",
+          "bytes": 141800,
+          "triangles": 6400,
+          "revision": "dd1acae908bd"
+        },
+        {
+          "url": "models/lod/campus-tree-3_-1-middle.glb",
+          "bytes": 310600,
+          "triangles": 14400,
+          "revision": "96fddde41ffe"
+        },
+        {
+          "url": "models/lod/campus-tree-3_-1-near.glb",
+          "bytes": 546476,
+          "triangles": 25600,
+          "revision": "4052252da0fa"
+        }
+      ]
+    },
+    {
+      "id": "campus-tree--2_-1",
+      "sourceId": "shared-05",
+      "name": "校园树木 -2_-1",
+      "sourceRevision": "39c56a008f4e",
+      "position": [
+        0,
+        0,
+        0
+      ],
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "bounds": {
+        "min": [
+          -155.29449462890625,
+          0.26296964287757874,
+          -24.722143173217773
+        ],
+        "max": [
+          -115.9107437133789,
+          7.846246242523193,
+          -10.530980110168457
+        ]
+      },
+      "nearDistance": 80,
+      "mediumDistance": 200,
+      "tiers": [
+        {
+          "url": "models/lod/campus-tree--2_-1-far.glb",
+          "bytes": 49936,
+          "triangles": 1920,
+          "revision": "5b88fabce2ff"
+        },
+        {
+          "url": "models/lod/campus-tree--2_-1-middle.glb",
+          "bytes": 103536,
+          "triangles": 4320,
+          "revision": "126727b0faee"
+        },
+        {
+          "url": "models/lod/campus-tree--2_-1-near.glb",
+          "bytes": 175292,
+          "triangles": 7680,
+          "revision": "2371aedd460d"
+        }
+      ]
+    },
+    {
+      "id": "campus-tree-0_-3",
+      "sourceId": "shared-05",
+      "name": "校园树木 0_-3",
+      "sourceRevision": "39c56a008f4e",
+      "position": [
+        0,
+        0,
+        0
+      ],
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "bounds": {
+        "min": [
+          19.488832473754883,
+          0.8728505969047546,
+          -229.81976318359375
+        ],
+        "max": [
+          52.026065826416016,
+          6.988000392913818,
+          -178.6123504638672
+        ]
+      },
+      "nearDistance": 80,
+      "mediumDistance": 200,
+      "tiers": [
+        {
+          "url": "models/lod/campus-tree-0_-3-far.glb",
+          "bytes": 41864,
+          "triangles": 1600,
+          "revision": "ce1c97a21aa0"
+        },
+        {
+          "url": "models/lod/campus-tree-0_-3-middle.glb",
+          "bytes": 84256,
+          "triangles": 3600,
+          "revision": "1eb3d6087a20"
+        },
+        {
+          "url": "models/lod/campus-tree-0_-3-near.glb",
+          "bytes": 143124,
+          "triangles": 6400,
+          "revision": "7d04f46eebdf"
+        }
+      ]
+    },
+    {
+      "id": "campus-tree-0_-2",
+      "sourceId": "shared-05",
+      "name": "校园树木 0_-2",
+      "sourceRevision": "39c56a008f4e",
+      "position": [
+        0,
+        0,
+        0
+      ],
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "bounds": {
+        "min": [
+          5.288547515869141,
+          0.11947444081306458,
+          -142.46694946289062
+        ],
+        "max": [
+          58.11384201049805,
+          7.763576984405518,
+          -77.85667419433594
+        ]
+      },
+      "nearDistance": 80,
+      "mediumDistance": 200,
+      "tiers": [
+        {
+          "url": "models/lod/campus-tree-0_-2-far.glb",
+          "bytes": 94656,
+          "triangles": 4096,
+          "revision": "c410654ad78c"
+        },
+        {
+          "url": "models/lod/campus-tree-0_-2-middle.glb",
+          "bytes": 202100,
+          "triangles": 9216,
+          "revision": "8b1f2ef6bfb8"
+        },
+        {
+          "url": "models/lod/campus-tree-0_-2-near.glb",
+          "bytes": 353920,
+          "triangles": 16384,
+          "revision": "d9256fea13ee"
+        }
+      ]
+    },
+    {
+      "id": "campus-tree-2_-2",
+      "sourceId": "shared-05",
+      "name": "校园树木 2_-2",
+      "sourceRevision": "39c56a008f4e",
+      "position": [
+        0,
+        0,
+        0
+      ],
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "bounds": {
+        "min": [
+          163.25234985351562,
+          0.47621700167655945,
+          -160.27244567871094
+        ],
+        "max": [
+          239.54034423828125,
+          7.9322896003723145,
+          -78.34146881103516
+        ]
+      },
+      "nearDistance": 80,
+      "mediumDistance": 200,
+      "tiers": [
+        {
+          "url": "models/lod/campus-tree-2_-2-far.glb",
+          "bytes": 99656,
+          "triangles": 4416,
+          "revision": "9af93bb8ccf1"
+        },
+        {
+          "url": "models/lod/campus-tree-2_-2-middle.glb",
+          "bytes": 216240,
+          "triangles": 9936,
+          "revision": "d38765a6d678"
+        },
+        {
+          "url": "models/lod/campus-tree-2_-2-near.glb",
+          "bytes": 379180,
+          "triangles": 17664,
+          "revision": "a4c556d662ef"
+        }
+      ]
+    },
+    {
+      "id": "campus-tree-3_-2",
+      "sourceId": "shared-05",
+      "name": "校园树木 3_-2",
+      "sourceRevision": "39c56a008f4e",
+      "position": [
+        0,
+        0,
+        0
+      ],
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "bounds": {
+        "min": [
+          249.81503295898438,
+          0.683013379573822,
+          -161.7395782470703
+        ],
+        "max": [
+          311.4844665527344,
+          7.685811996459961,
+          -77.8933334350586
+        ]
+      },
+      "nearDistance": 80,
+      "mediumDistance": 200,
+      "tiers": [
+        {
+          "url": "models/lod/campus-tree-3_-2-far.glb",
+          "bytes": 178516,
+          "triangles": 8128,
+          "revision": "8a54681c7cd6"
+        },
+        {
+          "url": "models/lod/campus-tree-3_-2-middle.glb",
+          "bytes": 392728,
+          "triangles": 18288,
+          "revision": "94cd5c4a9abb"
+        },
+        {
+          "url": "models/lod/campus-tree-3_-2-near.glb",
+          "bytes": 692352,
+          "triangles": 32512,
+          "revision": "8243a7fb9ae5"
+        }
+      ]
+    },
+    {
+      "id": "campus-tree--1_-2",
+      "sourceId": "shared-05",
+      "name": "校园树木 -1_-2",
+      "sourceRevision": "39c56a008f4e",
+      "position": [
+        0,
+        0,
+        0
+      ],
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "bounds": {
+        "min": [
+          -81.03600311279297,
+          0.3802080750465393,
+          -160.6927490234375
+        ],
+        "max": [
+          -0.6907449960708618,
+          7.404634475708008,
+          -78.3426742553711
+        ]
+      },
+      "nearDistance": 80,
+      "mediumDistance": 200,
+      "tiers": [
+        {
+          "url": "models/lod/campus-tree--1_-2-far.glb",
+          "bytes": 106412,
+          "triangles": 4736,
+          "revision": "132159016c9c"
+        },
+        {
+          "url": "models/lod/campus-tree--1_-2-middle.glb",
+          "bytes": 231312,
+          "triangles": 10656,
+          "revision": "ce5728271353"
+        },
+        {
+          "url": "models/lod/campus-tree--1_-2-near.glb",
+          "bytes": 406024,
+          "triangles": 18944,
+          "revision": "bd502eac90d4"
+        }
+      ]
+    },
+    {
+      "id": "campus-tree-5_-3",
+      "sourceId": "shared-05",
+      "name": "校园树木 5_-3",
+      "sourceRevision": "39c56a008f4e",
+      "position": [
+        0,
+        0,
+        0
+      ],
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "bounds": {
+        "min": [
+          405.76220703125,
+          0.1865803301334381,
+          -239.64431762695312
+        ],
+        "max": [
+          476.5881042480469,
+          7.579717636108398,
+          -158.56637573242188
+        ]
+      },
+      "nearDistance": 80,
+      "mediumDistance": 200,
+      "tiers": [
+        {
+          "url": "models/lod/campus-tree-5_-3-far.glb",
+          "bytes": 134960,
+          "triangles": 6080,
+          "revision": "f4746ffb78d8"
+        },
+        {
+          "url": "models/lod/campus-tree-5_-3-middle.glb",
+          "bytes": 295328,
+          "triangles": 13680,
+          "revision": "888637807e9b"
+        },
+        {
+          "url": "models/lod/campus-tree-5_-3-near.glb",
+          "bytes": 519512,
+          "triangles": 24320,
+          "revision": "64da6d76cd53"
+        }
+      ]
+    },
+    {
+      "id": "campus-tree-5_-4",
+      "sourceId": "shared-05",
+      "name": "校园树木 5_-4",
+      "sourceRevision": "39c56a008f4e",
+      "position": [
+        0,
+        0,
+        0
+      ],
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "bounds": {
+        "min": [
+          399.76495361328125,
+          0.026155738160014153,
+          -267.09625244140625
+        ],
+        "max": [
+          450.9869689941406,
+          7.67202091217041,
+          -250.7305145263672
+        ]
+      },
+      "nearDistance": 80,
+      "mediumDistance": 200,
+      "tiers": [
+        {
+          "url": "models/lod/campus-tree-5_-4-far.glb",
+          "bytes": 41820,
+          "triangles": 1600,
+          "revision": "dd98a9cc8834"
+        },
+        {
+          "url": "models/lod/campus-tree-5_-4-middle.glb",
+          "bytes": 84048,
+          "triangles": 3600,
+          "revision": "e6b0b4a66edd"
+        },
+        {
+          "url": "models/lod/campus-tree-5_-4-near.glb",
+          "bytes": 142656,
+          "triangles": 6400,
+          "revision": "ee9f4f463617"
+        }
+      ]
+    },
+    {
+      "id": "campus-tree--2_-2",
+      "sourceId": "shared-05",
+      "name": "校园树木 -2_-2",
+      "sourceRevision": "39c56a008f4e",
+      "position": [
+        0,
+        0,
+        0
+      ],
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "bounds": {
+        "min": [
+          -145.4617919921875,
+          0.5595217347145081,
+          -150.55824279785156
+        ],
+        "max": [
+          -107.89160919189453,
+          7.329443454742432,
+          -102.22708892822266
+        ]
+      },
+      "nearDistance": 80,
+      "mediumDistance": 200,
+      "tiers": [
+        {
+          "url": "models/lod/campus-tree--2_-2-far.glb",
+          "bytes": 63636,
+          "triangles": 2560,
+          "revision": "4e7ea319614a"
+        },
+        {
+          "url": "models/lod/campus-tree--2_-2-middle.glb",
+          "bytes": 132064,
+          "triangles": 5760,
+          "revision": "54a6dac243fd"
+        },
+        {
+          "url": "models/lod/campus-tree--2_-2-near.glb",
+          "bytes": 225584,
+          "triangles": 10240,
+          "revision": "dace4d0f3397"
+        }
+      ]
+    },
+    {
+      "id": "campus-tree--4_-2",
+      "sourceId": "shared-05",
+      "name": "校园树木 -4_-2",
+      "sourceRevision": "39c56a008f4e",
+      "position": [
+        0,
+        0,
+        0
+      ],
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "bounds": {
+        "min": [
+          -321.04852294921875,
+          0.803871750831604,
+          -161.42489624023438
+        ],
+        "max": [
+          -242.31004333496094,
+          7.904747009277344,
+          -90.18077087402344
+        ]
+      },
+      "nearDistance": 80,
+      "mediumDistance": 200,
+      "tiers": [
+        {
+          "url": "models/lod/campus-tree--4_-2-far.glb",
+          "bytes": 80732,
+          "triangles": 3520,
+          "revision": "7432fda8d7b4"
+        },
+        {
+          "url": "models/lod/campus-tree--4_-2-middle.glb",
+          "bytes": 173680,
+          "triangles": 7920,
+          "revision": "dcacc0f89a77"
+        },
+        {
+          "url": "models/lod/campus-tree--4_-2-near.glb",
+          "bytes": 303456,
+          "triangles": 14080,
+          "revision": "40804ede001c"
+        }
+      ]
+    },
+    {
+      "id": "campus-tree-4_-3",
+      "sourceId": "shared-05",
+      "name": "校园树木 4_-3",
+      "sourceRevision": "39c56a008f4e",
+      "position": [
+        0,
+        0,
+        0
+      ],
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "bounds": {
+        "min": [
+          322.6764831542969,
+          0.32804885506629944,
+          -207.6726837158203
+        ],
+        "max": [
+          382.08709716796875,
+          6.760486125946045,
+          -161.4474334716797
+        ]
+      },
+      "nearDistance": 80,
+      "mediumDistance": 200,
+      "tiers": [
+        {
+          "url": "models/lod/campus-tree-4_-3-far.glb",
+          "bytes": 33952,
+          "triangles": 1280,
+          "revision": "a589d34b4318"
+        },
+        {
+          "url": "models/lod/campus-tree-4_-3-middle.glb",
+          "bytes": 67356,
+          "triangles": 2880,
+          "revision": "413239fd55ff"
+        },
+        {
+          "url": "models/lod/campus-tree-4_-3-near.glb",
+          "bytes": 114960,
+          "triangles": 5120,
+          "revision": "e31fa57e575a"
+        }
+      ]
+    },
+    {
+      "id": "campus-tree-5_-2",
+      "sourceId": "shared-05",
+      "name": "校园树木 5_-2",
+      "sourceRevision": "39c56a008f4e",
+      "position": [
+        0,
+        0,
+        0
+      ],
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "bounds": {
+        "min": [
+          398.4410400390625,
+          -0.0005562988808378577,
+          -161.448974609375
+        ],
+        "max": [
+          466.8039855957031,
+          6.754162788391113,
+          -88.3117446899414
+        ]
+      },
+      "nearDistance": 80,
+      "mediumDistance": 200,
+      "tiers": [
+        {
+          "url": "models/lod/campus-tree-5_-2-far.glb",
+          "bytes": 90544,
+          "triangles": 3968,
+          "revision": "d9abaf8d4541"
+        },
+        {
+          "url": "models/lod/campus-tree-5_-2-middle.glb",
+          "bytes": 195100,
+          "triangles": 8928,
+          "revision": "6a4d655527dd"
+        },
+        {
+          "url": "models/lod/campus-tree-5_-2-near.glb",
+          "bytes": 341568,
+          "triangles": 15872,
+          "revision": "c8696306a7cd"
+        }
+      ]
+    },
+    {
+      "id": "campus-tree-4_-4",
+      "sourceId": "shared-05",
+      "name": "校园树木 4_-4",
+      "sourceRevision": "39c56a008f4e",
+      "position": [
+        0,
+        0,
+        0
+      ],
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "bounds": {
+        "min": [
+          327.7406005859375,
+          0.5966801047325134,
+          -280.4662170410156
+        ],
+        "max": [
+          379.1741027832031,
+          7.265885829925537,
+          -258.0339050292969
+        ]
+      },
+      "nearDistance": 80,
+      "mediumDistance": 200,
+      "tiers": [
+        {
+          "url": "models/lod/campus-tree-4_-4-far.glb",
+          "bytes": 41692,
+          "triangles": 1600,
+          "revision": "21ae364080dd"
+        },
+        {
+          "url": "models/lod/campus-tree-4_-4-middle.glb",
+          "bytes": 83988,
+          "triangles": 3600,
+          "revision": "7a68573c20f9"
+        },
+        {
+          "url": "models/lod/campus-tree-4_-4-near.glb",
+          "bytes": 142760,
+          "triangles": 6400,
+          "revision": "acbbd6c4ab1c"
+        }
+      ]
+    },
+    {
+      "id": "campus-tree-5_-1",
+      "sourceId": "shared-05",
+      "name": "校园树木 5_-1",
+      "sourceRevision": "39c56a008f4e",
+      "position": [
+        0,
+        0,
+        0
+      ],
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "bounds": {
+        "min": [
+          407.55029296875,
+          0.37162989377975464,
+          -69.70360565185547
+        ],
+        "max": [
+          481.34796142578125,
+          7.709832191467285,
+          -16.723718643188477
+        ]
+      },
+      "nearDistance": 80,
+      "mediumDistance": 200,
+      "tiers": [
+        {
+          "url": "models/lod/campus-tree-5_-1-far.glb",
+          "bytes": 70112,
+          "triangles": 3008,
+          "revision": "a125359c1c17"
+        },
+        {
+          "url": "models/lod/campus-tree-5_-1-middle.glb",
+          "bytes": 149656,
+          "triangles": 6768,
+          "revision": "aa688da784ef"
+        },
+        {
+          "url": "models/lod/campus-tree-5_-1-near.glb",
+          "bytes": 260864,
+          "triangles": 12032,
+          "revision": "de7107667dfe"
+        }
+      ]
+    },
+    {
+      "id": "campus-tree--1_-3",
+      "sourceId": "shared-05",
+      "name": "校园树木 -1_-3",
+      "sourceRevision": "39c56a008f4e",
+      "position": [
+        0,
+        0,
+        0
+      ],
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "bounds": {
+        "min": [
+          -81.38382720947266,
+          0.40071821212768555,
+          -242.11871337890625
+        ],
+        "max": [
+          -12.753671646118164,
+          7.703492164611816,
+          -168.8771209716797
+        ]
+      },
+      "nearDistance": 80,
+      "mediumDistance": 200,
+      "tiers": [
+        {
+          "url": "models/lod/campus-tree--1_-3-far.glb",
+          "bytes": 89184,
+          "triangles": 3904,
+          "revision": "bdc2af9d547c"
+        },
+        {
+          "url": "models/lod/campus-tree--1_-3-middle.glb",
+          "bytes": 192168,
+          "triangles": 8784,
+          "revision": "95991dcc1fb0"
+        },
+        {
+          "url": "models/lod/campus-tree--1_-3-near.glb",
+          "bytes": 336256,
+          "triangles": 15616,
+          "revision": "7d5d034d96cd"
+        }
+      ]
+    },
+    {
+      "id": "campus-tree-4_-2",
+      "sourceId": "shared-05",
+      "name": "校园树木 4_-2",
+      "sourceRevision": "39c56a008f4e",
+      "position": [
+        0,
+        0,
+        0
+      ],
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "bounds": {
+        "min": [
+          319.5299987792969,
+          0.4093116521835327,
+          -155.7678985595703
+        ],
+        "max": [
+          401.8999328613281,
+          6.993214130401611,
+          -81.06593322753906
+        ]
+      },
+      "nearDistance": 80,
+      "mediumDistance": 200,
+      "tiers": [
+        {
+          "url": "models/lod/campus-tree-4_-2-far.glb",
+          "bytes": 77892,
+          "triangles": 3392,
+          "revision": "017e32bc56fe"
+        },
+        {
+          "url": "models/lod/campus-tree-4_-2-middle.glb",
+          "bytes": 167348,
+          "triangles": 7632,
+          "revision": "43af29ce7337"
+        },
+        {
+          "url": "models/lod/campus-tree-4_-2-near.glb",
+          "bytes": 292384,
+          "triangles": 13568,
+          "revision": "6feee80ef340"
+        }
+      ]
+    },
+    {
+      "id": "campus-tree--3_-3",
+      "sourceId": "shared-05",
+      "name": "校园树木 -3_-3",
+      "sourceRevision": "39c56a008f4e",
+      "position": [
+        0,
+        0,
+        0
+      ],
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "bounds": {
+        "min": [
+          -233.358642578125,
+          0.5741155743598938,
+          -241.03651428222656
+        ],
+        "max": [
+          -158.09669494628906,
+          6.985826015472412,
+          -170.85601806640625
+        ]
+      },
+      "nearDistance": 80,
+      "mediumDistance": 200,
+      "tiers": [
+        {
+          "url": "models/lod/campus-tree--3_-3-far.glb",
+          "bytes": 48152,
+          "triangles": 1984,
+          "revision": "52cc9f684398"
+        },
+        {
+          "url": "models/lod/campus-tree--3_-3-middle.glb",
+          "bytes": 100488,
+          "triangles": 4464,
+          "revision": "fcae527d9c1f"
+        },
+        {
+          "url": "models/lod/campus-tree--3_-3-near.glb",
+          "bytes": 173664,
+          "triangles": 7936,
+          "revision": "c89d8fd5133a"
+        }
+      ]
+    },
+    {
+      "id": "campus-tree--5_-2",
+      "sourceId": "shared-05",
+      "name": "校园树木 -5_-2",
+      "sourceRevision": "39c56a008f4e",
+      "position": [
+        0,
+        0,
+        0
+      ],
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "bounds": {
+        "min": [
+          -385.450439453125,
+          0.5479463934898376,
+          -145.12271118164062
+        ],
+        "max": [
+          -329.86737060546875,
+          7.022793292999268,
+          -78.69879913330078
+        ]
+      },
+      "nearDistance": 80,
+      "mediumDistance": 200,
+      "tiers": [
+        {
+          "url": "models/lod/campus-tree--5_-2-far.glb",
+          "bytes": 43104,
+          "triangles": 1728,
+          "revision": "963a38c6e688"
+        },
+        {
+          "url": "models/lod/campus-tree--5_-2-middle.glb",
+          "bytes": 88684,
+          "triangles": 3888,
+          "revision": "90e47eb6f16a"
+        },
+        {
+          "url": "models/lod/campus-tree--5_-2-near.glb",
+          "bytes": 152628,
+          "triangles": 6912,
+          "revision": "52f06cb7f9bb"
+        }
+      ]
+    },
+    {
+      "id": "campus-tree-1_-2",
+      "sourceId": "shared-05",
+      "name": "校园树木 1_-2",
+      "sourceRevision": "39c56a008f4e",
+      "position": [
+        0,
+        0,
+        0
+      ],
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "bounds": {
+        "min": [
+          84.49076843261719,
+          1.4064451456069946,
+          -115.5419921875
+        ],
+        "max": [
+          141.00653076171875,
+          6.931604385375977,
+          -79.93339538574219
+        ]
+      },
+      "nearDistance": 80,
+      "mediumDistance": 200,
+      "tiers": [
+        {
+          "url": "models/lod/campus-tree-1_-2-far.glb",
+          "bytes": 27096,
+          "triangles": 960,
+          "revision": "39a5bb4d7fb7"
+        },
+        {
+          "url": "models/lod/campus-tree-1_-2-middle.glb",
+          "bytes": 52132,
+          "triangles": 2160,
+          "revision": "39590e33cd15"
+        },
+        {
+          "url": "models/lod/campus-tree-1_-2-near.glb",
+          "bytes": 87676,
+          "triangles": 3840,
+          "revision": "c1bcb9c435f4"
+        }
+      ]
+    },
+    {
+      "id": "campus-tree-4_-1",
+      "sourceId": "shared-05",
+      "name": "校园树木 4_-1",
+      "sourceRevision": "39c56a008f4e",
+      "position": [
+        0,
+        0,
+        0
+      ],
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "bounds": {
+        "min": [
+          318.9480895996094,
+          0.383445143699646,
+          -48.129642486572266
+        ],
+        "max": [
+          368.6903076171875,
+          6.555445194244385,
+          -17.042348861694336
+        ]
+      },
+      "nearDistance": 80,
+      "mediumDistance": 200,
+      "tiers": [
+        {
+          "url": "models/lod/campus-tree-4_-1-far.glb",
+          "bytes": 27508,
+          "triangles": 960,
+          "revision": "4c010ba0256c"
+        },
+        {
+          "url": "models/lod/campus-tree-4_-1-middle.glb",
+          "bytes": 53132,
+          "triangles": 2160,
+          "revision": "994a85a4aa9d"
+        },
+        {
+          "url": "models/lod/campus-tree-4_-1-near.glb",
+          "bytes": 88208,
+          "triangles": 3840,
+          "revision": "33a6cc6fbfd8"
+        }
+      ]
+    },
+    {
+      "id": "campus-tree--7_-8",
+      "sourceId": "shared-05",
+      "name": "校园树木 -7_-8",
+      "sourceRevision": "39c56a008f4e",
+      "position": [
+        0,
+        0,
+        0
+      ],
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "bounds": {
+        "min": [
+          -516.2805786132812,
+          0.4249066114425659,
+          -604.0657958984375
+        ],
+        "max": [
+          -494.34649658203125,
+          7.618215560913086,
+          -558.5059204101562
+        ]
+      },
+      "nearDistance": 80,
+      "mediumDistance": 200,
+      "tiers": [
+        {
+          "url": "models/lod/campus-tree--7_-8-far.glb",
+          "bytes": 24824,
+          "triangles": 832,
+          "revision": "8a4f56fbed1f"
+        },
+        {
+          "url": "models/lod/campus-tree--7_-8-middle.glb",
+          "bytes": 47396,
+          "triangles": 1872,
+          "revision": "4ca27b9b9e8f"
+        },
+        {
+          "url": "models/lod/campus-tree--7_-8-near.glb",
+          "bytes": 77908,
+          "triangles": 3328,
+          "revision": "017654a101fe"
+        }
+      ]
+    },
+    {
+      "id": "campus-tree--7_-7",
+      "sourceId": "shared-05",
+      "name": "校园树木 -7_-7",
+      "sourceRevision": "39c56a008f4e",
+      "position": [
+        0,
+        0,
+        0
+      ],
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "bounds": {
+        "min": [
+          -499.47021484375,
+          1.0127346515655518,
+          -561.2247924804688
+        ],
+        "max": [
+          -494.0463562011719,
+          6.42246675491333,
+          -556.9744873046875
+        ]
+      },
+      "nearDistance": 80,
+      "mediumDistance": 200,
+      "tiers": [
+        {
+          "url": "models/lod/campus-tree--7_-7-far.glb",
+          "bytes": 8908,
+          "triangles": 128,
+          "revision": "2ad3d42ad5c0"
+        },
+        {
+          "url": "models/lod/campus-tree--7_-7-middle.glb",
+          "bytes": 12672,
+          "triangles": 288,
+          "revision": "7311e103b669"
+        },
+        {
+          "url": "models/lod/campus-tree--7_-7-near.glb",
+          "bytes": 17960,
+          "triangles": 512,
+          "revision": "c23a61c98819"
+        }
+      ]
+    },
+    {
+      "id": "campus-tree--6_-6",
+      "sourceId": "shared-05",
+      "name": "校园树木 -6_-6",
+      "sourceRevision": "39c56a008f4e",
+      "position": [
+        0,
+        0,
+        0
+      ],
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "bounds": {
+        "min": [
+          -466.9137268066406,
+          1.3647563457489014,
+          -479.9933776855469
+        ],
+        "max": [
+          -435.6875,
+          8.100500106811523,
+          -411.2935485839844
+        ]
+      },
+      "nearDistance": 80,
+      "mediumDistance": 200,
+      "tiers": [
+        {
+          "url": "models/lod/campus-tree--6_-6-far.glb",
+          "bytes": 33452,
+          "triangles": 1280,
+          "revision": "2c9ee7b77fe3"
+        },
+        {
+          "url": "models/lod/campus-tree--6_-6-middle.glb",
+          "bytes": 67348,
+          "triangles": 2880,
+          "revision": "a8dc4982772a"
+        },
+        {
+          "url": "models/lod/campus-tree--6_-6-near.glb",
+          "bytes": 114964,
+          "triangles": 5120,
+          "revision": "24cc157abb23"
+        }
+      ]
+    },
+    {
+      "id": "campus-tree--6_-5",
+      "sourceId": "shared-05",
+      "name": "校园树木 -6_-5",
+      "sourceRevision": "39c56a008f4e",
+      "position": [
+        0,
+        0,
+        0
+      ],
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "bounds": {
+        "min": [
+          -425.54559326171875,
+          0.752913773059845,
+          -376.1561584472656
+        ],
+        "max": [
+          -415.1752014160156,
+          7.256011486053467,
+          -359.6372985839844
+        ]
+      },
+      "nearDistance": 80,
+      "mediumDistance": 200,
+      "tiers": [
+        {
+          "url": "models/lod/campus-tree--6_-5-far.glb",
+          "bytes": 20940,
+          "triangles": 640,
+          "revision": "59f15e16dae3"
+        },
+        {
+          "url": "models/lod/campus-tree--6_-5-middle.glb",
+          "bytes": 39700,
+          "triangles": 1440,
+          "revision": "d437bc4beb2f"
+        },
+        {
+          "url": "models/lod/campus-tree--6_-5-near.glb",
+          "bytes": 65756,
+          "triangles": 2560,
+          "revision": "6844bd2ee3cc"
+        }
+      ]
+    },
+    {
+      "id": "campus-tree--3_-2",
+      "sourceId": "shared-05",
+      "name": "校园树木 -3_-2",
+      "sourceRevision": "39c56a008f4e",
+      "position": [
+        0,
+        0,
+        0
+      ],
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "bounds": {
+        "min": [
+          -219.06106567382812,
+          0.4999505877494812,
+          -129.8242950439453
+        ],
+        "max": [
+          -198.90194702148438,
+          7.05781888961792,
+          -95.2200698852539
+        ]
+      },
+      "nearDistance": 80,
+      "mediumDistance": 200,
+      "tiers": [
+        {
+          "url": "models/lod/campus-tree--3_-2-far.glb",
+          "bytes": 20632,
+          "triangles": 640,
+          "revision": "fce31ee5f6e4"
+        },
+        {
+          "url": "models/lod/campus-tree--3_-2-middle.glb",
+          "bytes": 38704,
+          "triangles": 1440,
+          "revision": "2d4ba624a9f4"
+        },
+        {
+          "url": "models/lod/campus-tree--3_-2-near.glb",
+          "bytes": 63360,
+          "triangles": 2560,
+          "revision": "76ab719e3eae"
+        }
+      ]
+    },
+    {
+      "id": "campus-tree-6_-1",
+      "sourceId": "shared-05",
+      "name": "校园树木 6_-1",
+      "sourceRevision": "39c56a008f4e",
+      "position": [
+        0,
+        0,
+        0
+      ],
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "bounds": {
+        "min": [
+          478.0279846191406,
+          0.6639488935470581,
+          -63.67450714111328
+        ],
+        "max": [
+          482.89263916015625,
+          5.5507025718688965,
+          -59.788570404052734
+        ]
+      },
+      "nearDistance": 80,
+      "mediumDistance": 200,
+      "tiers": [
+        {
+          "url": "models/lod/campus-tree-6_-1-far.glb",
+          "bytes": 10396,
+          "triangles": 192,
+          "revision": "501a5d61614c"
+        },
+        {
+          "url": "models/lod/campus-tree-6_-1-middle.glb",
+          "bytes": 16068,
+          "triangles": 432,
+          "revision": "0ee27e5544dd"
+        },
+        {
+          "url": "models/lod/campus-tree-6_-1-near.glb",
+          "bytes": 23980,
+          "triangles": 768,
+          "revision": "5bb4613ed709"
+        }
+      ]
+    },
+    {
+      "id": "shared-02",
+      "name": "02 West academic blocks",
+      "sourceRevision": "54f117e80e32",
+      "labelPosition": null,
+      "position": [
+        0,
+        0,
+        0
+      ],
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "bounds": {
+        "min": [
+          -393.5249938964844,
+          0,
+          -327.92498779296875
+        ],
+        "max": [
+          285.92498779296875,
+          19.15404510498047,
+          -5.860000133514404
+        ]
+      },
+      "nearDistance": 100,
+      "mediumDistance": 340,
+      "tiers": [
+        {
+          "url": "models/lod/shared-02-far.glb",
+          "revision": "188ba3a4fd07",
+          "bytes": 1838484,
+          "triangles": 149326
+        },
+        {
+          "url": "models/lod/shared-02-medium.glb",
+          "revision": "188ba3a4fd07",
+          "bytes": 1838484,
+          "triangles": 149326
+        },
+        {
+          "url": "models/shared/02-teaching4.glb",
+          "revision": "54f117e80e32",
+          "bytes": 10880744,
+          "triangles": 149326
+        }
+      ]
+    },
+    {
+      "id": "buildings-17",
+      "name": "第四教学楼",
+      "sourceRevision": "28e8ce4db2af",
+      "labelPosition": [
+        -154.4,
+        22,
+        -204
+      ],
+      "position": [
+        -154.4,
+        0,
+        -204
+      ],
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "bounds": {
+        "min": [
+          -175.15,
+          0.1599999964237213,
+          -212.85000038146973
+        ],
+        "max": [
+          -133.65,
+          21.130001068115234,
+          -190.98622703552246
+        ]
+      },
+      "nearDistance": 100,
+      "mediumDistance": 340,
+      "tiers": [
+        {
+          "url": "models/lod/buildings-17-far.glb",
+          "revision": "c834a4507853",
+          "bytes": 1045540,
+          "triangles": 62680
+        },
+        {
+          "url": "models/lod/buildings-17-medium.glb",
+          "revision": "e30b9cea982e",
+          "bytes": 1081144,
+          "triangles": 68266
+        },
+        {
+          "url": "models/buildings/17.glb",
+          "revision": "28e8ce4db2af",
+          "bytes": 3969200,
+          "triangles": 70316
+        }
+      ]
+    }
+  ]
+}

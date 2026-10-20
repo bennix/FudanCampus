@@ -25,7 +25,7 @@ jobs:
           cache-dependency-path: web/package-lock.json
       - run: npm ci
         working-directory: web
-      - run: npm run test:lod && npx tsc --noEmit -p tsconfig.campus.json
+      - run: npm run test:lod && npm run test:walk && npx tsc --noEmit -p tsconfig.campus.json
         working-directory: web
       - run: npm run build:pages
         working-directory: web

@@ -26,6 +26,6 @@ for(const node of original.g.nodes){
 }
 assert.equal(removed,2630);
 const m=JSON.parse(fs.readFileSync(new URL('campus-manifest.json',pub))),a=m.buildings.find(b=>b.id==='17');
-assert.deepEqual(a.position,[-154.4,0,-204]);assert.equal(m.shared.find(a=>a.id==='02').url,'models/shared/02-teaching4.glb');
+assert.deepEqual(a.position,[-154.4,0,-204]);assert(['models/shared/02-teaching4.glb','models/shared/02-teaching4-photo.glb'].includes(m.shared.find(a=>a.id==='02').url));
 const model=read(a.url);for(const word of ['six storey','balcony','rear stair','flowerbed','book','clock','lettering'])assert(model.g.nodes.some(n=>n.name.includes(word)),`Missing ${word}`);
 console.log('PASS: teaching4 six-storey facade, garden, books and clock present; 2630 old detail triangles removed; all other district triangles and source buffers unchanged');

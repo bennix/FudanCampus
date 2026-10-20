@@ -1,0 +1,11 @@
+{
+  "url": "http://127.0.0.1:8771/field-review/campus-photos-2026-10-20/index.html",
+  "observed_models": {
+    "xiyuan": 105,
+    "yeyaozhen": 47,
+    "teaching3": 86
+  },
+  "model_switching": "passed by UI observation",
+  "teaching3_close_view": "visually checked",
+  "screenshot": "preview.png"
+}

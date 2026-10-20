@@ -1,0 +1,25 @@
+{
+  "source": "User-provided photographs, 2026-10-20",
+  "images": [
+    {
+      "file": "photo-01.jpg",
+      "attachment": "codex-clipboard-fd0c4112-77e1-4255-a1f7-320a60a82e58.jpg",
+      "sha256": "380fc24575270139b115db957775d589b835b3335e7d596d1c7abff13aae54d8"
+    },
+    {
+      "file": "photo-02.jpg",
+      "attachment": "codex-clipboard-43ccc9fa-f846-461a-aeac-91c4e82f5e87.jpg",
+      "sha256": "96a26e8cc53f099429c55291e6aead65184f8f657ee585eb68f16151cd2c699c"
+    },
+    {
+      "file": "photo-03.jpg",
+      "attachment": "codex-clipboard-ae36a778-d0a4-4062-9e09-bff50a8c6e1d.jpg",
+      "sha256": "35066a1a5f617bf6b5b72bb8687ba3bfd3d7b35b49f75711bf57e3b6a9de10ab"
+    },
+    {
+      "file": "photo-04.jpg",
+      "attachment": "codex-clipboard-e6d59e58-3174-4371-863a-06bd435758d0.jpg",
+      "sha256": "4ff4f1d1bcc1d3a80f8a3e6fb273be738ad26cba07d2eec20264d1fbb8dcda88"
+    }
+  ]
+}

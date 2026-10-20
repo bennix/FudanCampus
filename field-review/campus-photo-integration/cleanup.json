@@ -1,0 +1,392 @@
+[
+  {
+    "before": {
+      "id": "00",
+      "name": "00 Terrain and roads",
+      "url": "models/shared/00-guanghua-merged.glb",
+      "revision": "3e1fd09514ba",
+      "bytes": 3431968
+    },
+    "after": {
+      "id": "00",
+      "name": "00 Terrain and roads",
+      "url": "models/shared/00-guanghua-merged-photo.glb",
+      "revision": "30a1761b99cd",
+      "bytes": 3431884
+    },
+    "removedTriangles": 0,
+    "removedNodes": 2
+  },
+  {
+    "before": {
+      "url": "models/lod/shared-00-far.glb",
+      "revision": "820c1dc63b30",
+      "bytes": 147664,
+      "triangles": 2654
+    },
+    "after": {
+      "url": "models/lod/shared-00-far-photo.glb",
+      "revision": "b7e65d8f3d0e",
+      "bytes": 147332,
+      "triangles": 2278
+    },
+    "removedTriangles": 0,
+    "removedNodes": 2
+  },
+  {
+    "before": {
+      "url": "models/lod/shared-00-medium.glb",
+      "revision": "cf1e9a5b50a5",
+      "bytes": 701864,
+      "triangles": 2662
+    },
+    "after": {
+      "url": "models/lod/shared-00-medium-photo.glb",
+      "revision": "aedde5ccd618",
+      "bytes": 701528,
+      "triangles": 2286
+    },
+    "removedTriangles": 0,
+    "removedNodes": 2
+  },
+  {
+    "before": {
+      "url": "models/shared/00-guanghua-merged.glb",
+      "revision": "3e1fd09514ba",
+      "bytes": 3431968,
+      "triangles": 4716
+    },
+    "after": {
+      "url": "models/shared/00-guanghua-merged-photo.glb",
+      "revision": "30a1761b99cd",
+      "bytes": 3431884,
+      "triangles": 4340
+    },
+    "removedTriangles": 0,
+    "removedNodes": 2
+  },
+  {
+    "before": {
+      "id": "02",
+      "name": "02 West academic blocks",
+      "url": "models/shared/02-teaching4.glb",
+      "revision": "54f117e80e32",
+      "bytes": 10880744
+    },
+    "after": {
+      "id": "02",
+      "name": "02 West academic blocks",
+      "url": "models/shared/02-teaching4-photo.glb",
+      "revision": "0a37d6323683",
+      "bytes": 12587972
+    },
+    "removedTriangles": 6056,
+    "removedNodes": 2
+  },
+  {
+    "before": {
+      "url": "models/lod/shared-02-far.glb",
+      "revision": "188ba3a4fd07",
+      "bytes": 1838484,
+      "triangles": 149326
+    },
+    "after": {
+      "url": "models/lod/shared-02-far-photo.glb",
+      "revision": "34d068aefeae",
+      "bytes": 2372288,
+      "triangles": 143246
+    },
+    "removedTriangles": 6056,
+    "removedNodes": 2
+  },
+  {
+    "before": {
+      "url": "models/lod/shared-02-medium.glb",
+      "revision": "188ba3a4fd07",
+      "bytes": 1838484,
+      "triangles": 149326
+    },
+    "after": {
+      "url": "models/lod/shared-02-medium-photo.glb",
+      "revision": "34d068aefeae",
+      "bytes": 2372288,
+      "triangles": 143246
+    },
+    "removedTriangles": 6056,
+    "removedNodes": 2
+  },
+  {
+    "before": {
+      "url": "models/shared/02-teaching4.glb",
+      "revision": "54f117e80e32",
+      "bytes": 10880744,
+      "triangles": 149326
+    },
+    "after": {
+      "url": "models/shared/02-teaching4-photo.glb",
+      "revision": "0a37d6323683",
+      "bytes": 12587972,
+      "triangles": 143246
+    },
+    "removedTriangles": 6056,
+    "removedNodes": 2
+  },
+  {
+    "before": {
+      "id": "05",
+      "name": "05 Landscape",
+      "url": "models/shared/05-guanghua-closeout.glb",
+      "revision": "39c56a008f4e",
+      "bytes": 4803248
+    },
+    "after": {
+      "id": "05",
+      "name": "05 Landscape",
+      "url": "models/shared/05-guanghua-closeout-photo.glb",
+      "revision": "22814ea822d5",
+      "bytes": 5511748
+    },
+    "removedTriangles": 1179,
+    "removedNodes": 0
+  },
+  {
+    "before": {
+      "url": "models/lod/shared-05-trunks.glb",
+      "bytes": 69428,
+      "revision": "51db98ad41d2",
+      "triangles": 6456
+    },
+    "after": {
+      "url": "models/lod/shared-05-trunks-photo.glb",
+      "bytes": 89344,
+      "revision": "5763f35fa404",
+      "triangles": 6334
+    },
+    "removedTriangles": 122,
+    "removedNodes": 0
+  },
+  {
+    "before": {
+      "url": "models/lod/shared-05-trunks.glb",
+      "bytes": 69428,
+      "revision": "51db98ad41d2",
+      "triangles": 6456
+    },
+    "after": {
+      "url": "models/lod/shared-05-trunks-photo.glb",
+      "bytes": 89344,
+      "revision": "5763f35fa404",
+      "triangles": 6334
+    },
+    "removedTriangles": 122,
+    "removedNodes": 0
+  },
+  {
+    "before": {
+      "url": "models/lod/shared-05-trunks.glb",
+      "bytes": 69428,
+      "revision": "51db98ad41d2",
+      "triangles": 6456
+    },
+    "after": {
+      "url": "models/lod/shared-05-trunks-photo.glb",
+      "bytes": 89344,
+      "revision": "5763f35fa404",
+      "triangles": 6334
+    },
+    "removedTriangles": 122,
+    "removedNodes": 0
+  },
+  {
+    "before": {
+      "url": "models/lod/campus-tree--1_-1-far.glb",
+      "bytes": 110356,
+      "triangles": 4864,
+      "revision": "a03e15846651"
+    },
+    "after": {
+      "url": "models/lod/campus-tree--1_-1-far-photo.glb",
+      "bytes": 127708,
+      "triangles": 4805,
+      "revision": "23546bccec98"
+    },
+    "removedTriangles": 59,
+    "removedNodes": 0
+  },
+  {
+    "before": {
+      "url": "models/lod/campus-tree--1_-1-middle.glb",
+      "bytes": 238716,
+      "triangles": 10944,
+      "revision": "ef95ba254385"
+    },
+    "after": {
+      "url": "models/lod/campus-tree--1_-1-middle-photo.glb",
+      "bytes": 277340,
+      "triangles": 10808,
+      "revision": "731e1dd6d9ff"
+    },
+    "removedTriangles": 136,
+    "removedNodes": 0
+  },
+  {
+    "before": {
+      "url": "models/lod/campus-tree--1_-1-near.glb",
+      "bytes": 418872,
+      "triangles": 19456,
+      "revision": "e7fb87eb68b1"
+    },
+    "after": {
+      "url": "models/lod/campus-tree--1_-1-near-photo.glb",
+      "bytes": 487256,
+      "triangles": 19210,
+      "revision": "36eaec8ccd95"
+    },
+    "removedTriangles": 246,
+    "removedNodes": 0
+  },
+  {
+    "before": {
+      "url": "models/lod/campus-tree-0_-1-far.glb",
+      "bytes": 164300,
+      "triangles": 7424,
+      "revision": "90a5741cdc40"
+    },
+    "after": {
+      "url": "models/lod/campus-tree-0_-1-far-photo.glb",
+      "bytes": 186416,
+      "triangles": 6074,
+      "revision": "cd98004d219a"
+    },
+    "removedTriangles": 1350,
+    "removedNodes": 0
+  },
+  {
+    "before": {
+      "url": "models/lod/campus-tree-0_-1-middle.glb",
+      "bytes": 360776,
+      "triangles": 16704,
+      "revision": "b5921ad3b08b"
+    },
+    "after": {
+      "url": "models/lod/campus-tree-0_-1-middle-photo.glb",
+      "bytes": 410128,
+      "triangles": 13673,
+      "revision": "211202ea682b"
+    },
+    "removedTriangles": 3031,
+    "removedNodes": 0
+  },
+  {
+    "before": {
+      "url": "models/lod/campus-tree-0_-1-near.glb",
+      "bytes": 635596,
+      "triangles": 29696,
+      "revision": "8b84448bc984"
+    },
+    "after": {
+      "url": "models/lod/campus-tree-0_-1-near-photo.glb",
+      "bytes": 723068,
+      "triangles": 24307,
+      "revision": "12f144075a9c"
+    },
+    "removedTriangles": 5389,
+    "removedNodes": 0
+  },
+  {
+    "before": {
+      "url": "models/lod/campus-tree-0_-2-far.glb",
+      "bytes": 94656,
+      "triangles": 4096,
+      "revision": "c410654ad78c"
+    },
+    "after": {
+      "url": "models/lod/campus-tree-0_-2-far-photo.glb",
+      "bytes": 105100,
+      "triangles": 2425,
+      "revision": "2a5736897663"
+    },
+    "removedTriangles": 1671,
+    "removedNodes": 0
+  },
+  {
+    "before": {
+      "url": "models/lod/campus-tree-0_-2-middle.glb",
+      "bytes": 202100,
+      "triangles": 9216,
+      "revision": "8b1f2ef6bfb8"
+    },
+    "after": {
+      "url": "models/lod/campus-tree-0_-2-middle-photo.glb",
+      "bytes": 225028,
+      "triangles": 5442,
+      "revision": "cd0d520aec8e"
+    },
+    "removedTriangles": 3774,
+    "removedNodes": 0
+  },
+  {
+    "before": {
+      "url": "models/lod/campus-tree-0_-2-near.glb",
+      "bytes": 353920,
+      "triangles": 16384,
+      "revision": "d9256fea13ee"
+    },
+    "after": {
+      "url": "models/lod/campus-tree-0_-2-near-photo.glb",
+      "bytes": 394232,
+      "triangles": 9636,
+      "revision": "cb0761d890d0"
+    },
+    "removedTriangles": 6748,
+    "removedNodes": 0
+  },
+  {
+    "before": {
+      "url": "models/lod/campus-tree--1_-2-far.glb",
+      "bytes": 106412,
+      "triangles": 4736,
+      "revision": "132159016c9c"
+    },
+    "after": {
+      "url": "models/lod/campus-tree--1_-2-far-photo.glb",
+      "bytes": 121296,
+      "triangles": 4423,
+      "revision": "d250598c3a6b"
+    },
+    "removedTriangles": 313,
+    "removedNodes": 0
+  },
+  {
+    "before": {
+      "url": "models/lod/campus-tree--1_-2-middle.glb",
+      "bytes": 231312,
+      "triangles": 10656,
+      "revision": "ce5728271353"
+    },
+    "after": {
+      "url": "models/lod/campus-tree--1_-2-middle-photo.glb",
+      "bytes": 264396,
+      "triangles": 9962,
+      "revision": "c9685b7ef7b9"
+    },
+    "removedTriangles": 694,
+    "removedNodes": 0
+  },
+  {
+    "before": {
+      "url": "models/lod/campus-tree--1_-2-near.glb",
+      "bytes": 406024,
+      "triangles": 18944,
+      "revision": "bd502eac90d4"
+    },
+    "after": {
+      "url": "models/lod/campus-tree--1_-2-near-photo.glb",
+      "bytes": 464540,
+      "triangles": 17711,
+      "revision": "3830fe8ec932"
+    },
+    "removedTriangles": 1233,
+    "removedNodes": 0
+  }
+]

@@ -8,7 +8,10 @@ import sharp from 'sharp';
 import {readModelBytes} from './read-model-bytes.mjs';
 
 const root=new URL('../',import.meta.url),pub=new URL('./public/',import.meta.url);
-const manifest=JSON.parse(fs.readFileSync(new URL('campus-manifest.json',pub)));
+// Validate the accepted Guanghua stage against its original campus snapshot.
+// Subsequent photo integrations are independently checked by validate-photo-integration.mjs.
+const currentManifest=JSON.parse(fs.readFileSync(new URL('campus-manifest.json',pub)));
+const manifest=currentManifest.shared.some(a=>a.id==='photo-teaching3')?JSON.parse(fs.readFileSync(new URL('field-review/campus-photo-integration/manifest-before.json',root))):currentManifest;
 const asset=manifest.shared.find(a=>a.id==='guanghua-landscape');
 assert(asset?.closeoutReport,'Unified landscape requires an explicit closeoutReport; the obsolete hardcoded v3 entry is retired');
 const reportUrl=new URL(asset.closeoutReport,root),out=new URL('./',reportUrl);

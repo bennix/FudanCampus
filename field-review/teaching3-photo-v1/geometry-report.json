@@ -1,0 +1,12 @@
+{
+  "objects": 84,
+  "triangles": 282410,
+  "dimensions": "approximate metres",
+  "source": "user photographs",
+  "renders": [
+    "courtyard.png",
+    "gallery.png",
+    "stairs.png",
+    "sculpture.png"
+  ]
+}

@@ -1,0 +1,12 @@
+{
+  "objects": 47,
+  "triangles": 273718,
+  "dimensions": "approximate metres",
+  "source": "user photographs",
+  "renders": [
+    "front.png",
+    "front-close.png",
+    "side.png"
+  ],
+  "collapsed_font_faces_removed": 22
+}

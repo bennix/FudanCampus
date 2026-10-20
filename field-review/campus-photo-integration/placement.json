@@ -1,0 +1,71 @@
+[
+  {
+    "key": "xiyuan",
+    "scale": [
+      0.9,
+      0.84,
+      1
+    ],
+    "translation_blender": [
+      24,
+      31.32,
+      0.22
+    ],
+    "source": {
+      "url": "models/photo/xiyuan.glb",
+      "bytes": 95885680,
+      "revision": "3947464eea00",
+      "id": "photo-xiyuan",
+      "name": "曦园 · 实景模型",
+      "source": "User field photographs; approximate map registration",
+      "editableSource": "field-review/xiyuan-photo-v1/xiyuan.blend"
+    },
+    "meshCount": 105
+  },
+  {
+    "key": "yeyaozhen",
+    "scale": [
+      0.8,
+      0.72,
+      1
+    ],
+    "translation_blender": [
+      72.8,
+      19.04,
+      0.22
+    ],
+    "source": {
+      "url": "models/photo/yeyaozhen.glb",
+      "bytes": 15505732,
+      "revision": "9629e3d5344a",
+      "id": "photo-yeyaozhen",
+      "name": "叶耀珍楼 · 实景模型",
+      "source": "User field photographs; approximate map registration",
+      "editableSource": "field-review/yeyaozhen-photo-v1/yeyaozhen.blend"
+    },
+    "meshCount": 46
+  },
+  {
+    "key": "teaching3",
+    "scale": [
+      1.1,
+      1,
+      1
+    ],
+    "translation_blender": [
+      21.6,
+      103.3,
+      0.22
+    ],
+    "source": {
+      "url": "models/photo/teaching3.glb",
+      "bytes": 16023248,
+      "revision": "25507c2f7f1e",
+      "id": "photo-teaching3",
+      "name": "第三教学楼 · 实景模型",
+      "source": "User field photographs; approximate map registration",
+      "editableSource": "field-review/teaching3-photo-v1/teaching3.blend"
+    },
+    "meshCount": 83
+  }
+]
