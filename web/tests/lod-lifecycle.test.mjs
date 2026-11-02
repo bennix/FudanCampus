@@ -36,3 +36,18 @@ test('failed upgrade keeps overview and does not retry every frame',async(t)=>{
 test('instanced foliage releases instance buffers as well as geometry',()=>{
  const g=new THREE.Group(),mesh=new THREE.InstancedMesh(new THREE.BoxGeometry(),new THREE.MeshBasicMaterial(),2);g.add(mesh);let instancesDisposed=false;mesh.addEventListener('dispose',()=>instancesDisposed=true);disposeGroup(g);assert.equal(instancesDisposed,true);
 });
+
+test('all queued assets have boxes before downloads complete, replaced only when ready',async()=>{
+ const root=new THREE.Group(),lod=new CampusLod(root,'http://localhost/',true,()=>{},()=>{});let resolve;
+ lod.load=()=>new Promise(r=>{resolve=r;});const initialized=lod.initialize({assets:[asset,{...asset,id:'second'}]});
+ assert.equal(root.children.length,2);assert(root.children.every(g=>g.userData.loadingPlaceholder&&g.children.length===1));
+ const box=root.children[0];let disposed=false;box.children[0].geometry.addEventListener('dispose',()=>disposed=true);
+ const far=group();resolve(far);await tick();assert(root.children.includes(far));assert(!root.children.includes(box));assert(disposed);
+ resolve(group());await initialized;assert(root.children.every(g=>!g.userData.loadingPlaceholder));lod.dispose();assert.equal(root.children.length,0);
+});
+test('failed overview retains placeholder, allows other assets and retries successfully',async(t)=>{
+ t.mock.method(console,'warn',()=>{});const root=new THREE.Group(),lod=new CampusLod(root,'http://localhost/',false,()=>{},()=>{});
+ lod.load=async a=>{if(a.id===asset.id)throw Error('offline');return group();};await lod.initialize({assets:[asset,{...asset,id:'other'}]});
+ assert.equal(root.children.length,2);assert.equal(root.children.filter(g=>g.userData.loadingPlaceholder).length,1);
+ lod.entries[0].retryAt=0;lod.load=async()=>group();camera.position.set(0,0,1000);lod.update(camera);await tick();assert(root.children.every(g=>!g.userData.loadingPlaceholder));lod.dispose();
+});
