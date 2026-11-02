@@ -8,7 +8,7 @@ import {CampusLod,type LodManifest} from '../lib/campus-lod';
 type LabelMode='auto'|'full'|'off';
 type Building={id:string;name:string;position:[number,number,number];source:string;category:string};
 const views:{name:string;p:number[];t:number[];fov?:number;key?:string}[]=[
- {name:'全校鸟瞰',p:[-650,950,880],t:[-20,0,-260]},
+ {name:'全校鸟瞰',key:'overview',p:[-650,950,880],t:[-20,0,-260]},
  {name:'第三教学楼',key:'teaching3',p:[-10,26,-66],t:[21,6,-102],fov:50},
  {name:'三教金属球',key:'teaching3-sphere',p:[35,5,-87],t:[30.4,2.8,-94.7],fov:43},
  {name:'叶耀珍楼',key:'yeyaozhen',p:[58,13,9],t:[73,5,-18],fov:48},
@@ -20,22 +20,22 @@ const views:{name:string;p:number[];t:number[];fov?:number;key?:string}[]=[
  {name:'北区体育馆',p:[-505.8,55,-429.6],t:[-460.8,5,-509.6],fov:45,key:'gym'},
  {name:'仓库',p:[-394.8,23,-217],t:[-364.8,5,-272],fov:43,key:'warehouse'},
  {name:'毛主席像',p:[-34,5,-50],t:[-40,4.5,-66.4],fov:38,key:'statue'},
- {name:'光华楼',p:[131.2,7,-120.8],t:[131.2,35,-224.8],fov:55},
- {name:'光华楼草坪',p:[236,115,-47],t:[127,12,-177],fov:50},
- {name:'草坪俯视',p:[126,205,-160],t:[126,0,-160.1],fov:48},
- {name:'理科图书馆',p:[-93.8,3.5,-58.8],t:[-93.8,5.5,-89.5],fov:52},
- {name:'恒隆物理楼',p:[-48,7,-173.4],t:[-40,9,-202.4],fov:85},
- {name:'化学楼',p:[-46.8,3,-158.8],t:[-64.8,6,-160.8],fov:68},
- {name:'综合办公楼',p:[-169.6,5,-33.6],t:[-165.6,8,-62.6],fov:75},
- {name:'复旦校门',p:[-46,3,27.6],t:[-40,4,-6.4]},
- {name:'校门背面',p:[-38,3,-28.4],t:[-40,4.1,-6.4],fov:55},
- {name:'逸夫楼',p:[-89,9,-186.2],t:[-120,11,-255.2]},
- {name:'逸夫科技楼',p:[-190,8,-153.4],t:[-208,14,-198.4]},
- {name:'寒冰馆',p:[-216.4,26,-128.8],t:[-258.4,5,-176.8]},
- {name:'主校区',p:[-380,500,460],t:[30,0,-160]},
- {name:'地图俯视',p:[-20,1150,-319],t:[-20,0,-320]},
- {name:'光华楼与东区',p:[580,410,250],t:[190,20,-200]},
- {name:'北区宿舍',p:[-650,380,-50],t:[-385,0,-520]},
+ {name:'光华楼',key:'guanghua',p:[131.2,7,-120.8],t:[131.2,35,-224.8],fov:55},
+ {name:'光华楼草坪',key:'guanghua-lawn',p:[236,115,-47],t:[127,12,-177],fov:50},
+ {name:'草坪俯视',key:'lawn-top',p:[126,205,-160],t:[126,0,-160.1],fov:48},
+ {name:'理科图书馆',key:'library',p:[-93.8,3.5,-58.8],t:[-93.8,5.5,-89.5],fov:52},
+ {name:'恒隆物理楼',key:'physics',p:[-48,7,-173.4],t:[-40,9,-202.4],fov:85},
+ {name:'化学楼',key:'chemistry',p:[-46.8,3,-158.8],t:[-64.8,6,-160.8],fov:68},
+ {name:'综合办公楼',key:'office',p:[-169.6,5,-33.6],t:[-165.6,8,-62.6],fov:75},
+ {name:'复旦校门',key:'gate',p:[-46,3,27.6],t:[-40,4,-6.4]},
+ {name:'校门背面',key:'gate-rear',p:[-38,3,-28.4],t:[-40,4.1,-6.4],fov:55},
+ {name:'逸夫楼',key:'yifu',p:[-89,9,-186.2],t:[-120,11,-255.2]},
+ {name:'逸夫科技楼',key:'yifu-science',p:[-190,8,-153.4],t:[-208,14,-198.4]},
+ {name:'寒冰馆',key:'hanbing',p:[-216.4,26,-128.8],t:[-258.4,5,-176.8]},
+ {name:'主校区',key:'main-campus',p:[-380,500,460],t:[30,0,-160]},
+ {name:'地图俯视',key:'map',p:[-20,1150,-319],t:[-20,0,-320]},
+ {name:'光华楼与东区',key:'east-campus',p:[580,410,250],t:[190,20,-200]},
+ {name:'北区宿舍',key:'dormitories',p:[-650,380,-50],t:[-385,0,-520]},
  {name:'东花园春樱',key:'cherry',p:[161.5,2.6,-137.3],t:[163.13,3.3,-153.8],fov:52},
  {name:'春樱俯视',key:'cherry-top',p:[163.13,20,-153.5],t:[163.13,3.3,-153.8],fov:52},
  {name:'爱心长椅',key:'heart',p:[137.37,1.33,-126.27],t:[137.37,1.03,-129.8],fov:40},
@@ -144,12 +144,12 @@ export default function Home(){
  });
  return()=>{canceled=true;window.removeEventListener('keydown',keyDown);window.removeEventListener('keyup',keyUp);window.removeEventListener('blur',clearKeys);window.removeEventListener('pointerup',clearKeys);document.removeEventListener('visibilitychange',clearKeys);renderer.domElement.removeEventListener('pointerdown',lookDown);renderer.domElement.removeEventListener('pointermove',lookMove);renderer.domElement.removeEventListener('pointerup',lookUp);abort.abort();api.current=null;observer.disconnect();renderer.setAnimationLoop(null);controls.dispose();lod?.dispose();scene.traverse(o=>{if(o instanceof THREE.Mesh){o.geometry.dispose();for(const m of Array.isArray(o.material)?o.material:[o.material])m.dispose();}});metalEnvironment.dispose();renderer.dispose();el.removeChild(renderer.domElement);el.removeChild(layer);};
  },[quality]);
- return <main className={walking?'walking':''}><div className="viewport" ref={mount}/><header><span className="mark">复</span><div><h1>复旦 · 校园空间</h1><p>邯郸校区 · 轻量三维漫游</p></div><span className="local">自适应 3D</span></header>
- <nav aria-label="视角">{views.map((v,i)=><button key={v.name} className={active===i?'active':''} onClick={()=>{setActive(i);api.current?.view(i);}}><span>{String(i+1).padStart(2,'0')}</span>{v.name}</button>)}</nav>
+ return <main className={walking?'walking':''}><div className="viewport" ref={mount}/><header><span className="mark">复</span><div><h1>复旦 · 校园空间</h1><p>邯郸校区 · 鸟瞰探索 / 室外步行</p></div><span className="local">自适应 3D</span></header>
+ <nav aria-label="视角">{views.map((v,i)=><button key={v.name} className={active===i?'active':''} aria-current={active===i?'location':undefined} onClick={()=>{setActive(i);api.current?.view(i);const url=new URL(location.href);url.searchParams.set('view',v.key!);history.replaceState(null,'',url);}}><span>{String(i+1).padStart(2,'0')}</span>{v.name}</button>)}</nav>
  <aside><button disabled={walkLoading} className={walking?'selected':''} onClick={()=>api.current?.walk(!walking)}>{walkLoading?'准备步行…':walking?'退出步行':'步行漫游'}</button><label className="label-control">画质<select aria-label="画质" value={quality} onChange={e=>{setWalking(false);setWalkLoading(false);setWalkMessage('');setQuality(e.target.value as typeof quality);setActive(0);setStatus('正在载入校园…');}}><option value="auto">自动适配</option><option value="battery">省电</option><option value="detail">高画质</option></select></label><label className="label-control">建筑标签<select aria-label="建筑标签显示" value={labelMode} onChange={e=>{const v=e.target.value as LabelMode;setLabelMode(v);api.current?.labels(v);}}><option value="auto">自动详略</option><option value="full">全部名称</option><option value="off">关闭</option></select></label><button className={trees?'selected':''} onClick={()=>{setTrees(!trees);api.current?.trees(!trees);}}>树木 {trees?'开':'关'}</button><button disabled={walking} className={rotate?'selected':''} onClick={()=>{setRotate(!rotate);api.current?.rotate(!rotate);}}>环绕 {rotate?'开':'关'}</button><button className={reference?'selected':''} onClick={()=>setReference(reference?null:'map')}>地图对照</button></aside>
  {(walking||walkLoading||walkMessage)&&<section className="walk-panel" aria-label="步行控制"><p role="status">{walkMessage}</p>{walking&&<><p>WASD / 方向键行走 · 拖动看向 · Shift 快走 · Esc 退出</p><div className="walk-pad">{[['KeyW','前进','↑'],['KeyA','左移','←'],['KeyS','后退','↓'],['KeyD','右移','→']].map(([key,label,symbol])=><button key={key} aria-label={label} onPointerDown={e=>{e.preventDefault();e.currentTarget.setPointerCapture(e.pointerId);api.current?.move(key,true);}} onPointerUp={()=>api.current?.move(key,false)} onPointerCancel={()=>api.current?.move(key,false)} onLostPointerCapture={()=>api.current?.move(key,false)}>{symbol}</button>)}</div></>}</section>}
  {reference&&<div className="reference"><div className="reference-tabs"><button className={reference==='map'?'selected':''} onClick={()=>setReference('map')}>校园地图</button><button className={reference==='photo'?'selected':''} onClick={()=>setReference('photo')}>原始照片</button><button className={reference==='yifu'?'selected':''} onClick={()=>setReference('yifu')}>逸夫楼实景</button><button className={reference==='science'?'selected':''} onClick={()=>setReference('science')}>科技楼实景</button><button className={reference==='guanghua'?'selected':''} onClick={()=>setReference('guanghua')}>光华楼实景</button><button className={reference==='library'?'selected':''} onClick={()=>setReference('library')}>图书馆实景</button><button className={reference==='gate'?'selected':''} onClick={()=>setReference('gate')}>校门实景</button><button onClick={()=>setReference('physics')}>恒隆物理楼实景</button><button onClick={()=>setReference('chemistry')}>化学楼实景</button><button onClick={()=>setReference('office')}>综合办公楼实景</button><button onClick={()=>setReference(null)} aria-label="关闭参考图片">×</button></div><a href={reference==='office'?'/office-building.jpg':reference==='chemistry'?'/chemistry-building.jpg':reference==='physics'?'/physics-building.jpg':reference==='map'?'/campus-map.png':reference==='yifu'?'/yifu-overall.jpg':reference==='science'?'/yifu-science-building.png':reference==='guanghua'?'/guanghua-building.png':reference==='library'?'/library-entry.jpg':reference==='gate'?'/gate-front.jpg':'/reference.jpg'} target="_blank" rel="noreferrer"><img src={reference==='office'?'/office-building.jpg':reference==='chemistry'?'/chemistry-building.jpg':reference==='physics'?'/physics-building.jpg':reference==='map'?'/campus-map.png':reference==='yifu'?'/yifu-overall.jpg':reference==='science'?'/yifu-science-building.png':reference==='guanghua'?'/guanghua-building.png':reference==='library'?'/library-entry.jpg':reference==='gate'?'/gate-front.jpg':'/reference.jpg'} alt={reference==='office'?'综合办公楼实景':reference==='chemistry'?'化学楼一侧入口':reference==='physics'?'恒隆物理楼实景':reference==='map'?'复旦大学校园地图':reference==='yifu'?'逸夫楼实景照片':reference==='science'?'逸夫科技楼实景照片':reference==='guanghua'?'光华楼实景照片':reference==='library'?'理科图书馆局部立面照片':reference==='gate'?'复旦校门参考照片':'校园沙盘原始参考照片'}/></a>{reference==='yifu'&&<a href="/yifu-entrance.jpg" target="_blank" rel="noreferrer"><img src="/yifu-entrance.jpg" alt="逸夫楼入口雨棚与面砖近景"/></a>}{reference==='library'&&<><a href="/library-street.jpg" target="_blank" rel="noreferrer"><img src="/library-street.jpg" alt="理科图书馆沿街立面"/></a><a href="/library-side.jpg" target="_blank" rel="noreferrer"><img src="/library-side.jpg" alt="理科图书馆侧向细节"/></a></>}{reference==='gate'&&<><a href="/gate-front-wide.jpg" target="_blank" rel="noreferrer"><img src="/gate-front-wide.jpg" alt="校门正面全景"/></a><a href="/gate-rear.jpg" target="_blank" rel="noreferrer"><img src="/gate-rear.jpg" alt="校门背面（校内看向校外）"/></a></>}<p>名称与位置依据所附地图；N / A 为无法辨清原编号的楼栋。点击图片可放大。</p></div>}
- <div className="label-hint">标签跟随建筑 · 悬停显示名称 · 点击靠近</div>
+ <div className="label-hint">选择左侧建筑探索 · 点击“步行漫游”进入室外</div>
  <div className="campus-compass" role="img" aria-label="校园方向：正门朝外为正南，方向随视角旋转">
   <svg ref={compass} viewBox="0 0 128 128" aria-hidden="true">
    <circle cx="64" cy="64" r="56" fill="none" stroke="#b7c4b7"/>

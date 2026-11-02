@@ -1,6 +1,8 @@
 # 校园场景复原
 
-## 实景校园与室外步行漫游（2026-10-20）
+## 实景校园与室外步行漫游
+
+首页更新：2026-11-03。建筑视角支持独立网址，切换后可复制地址分享；[化学楼视角](https://bennix.github.io/FudanCampus/?view=chemistry)。化学楼仍为现有模型，10 月 28 日补充照片尚未用于改模。
 
 [进入校园](https://bennix.github.io/FudanCampus/) · [曦园](https://bennix.github.io/FudanCampus/?view=xiyuan) · [叶耀珍楼](https://bennix.github.io/FudanCampus/?view=yeyaozhen) · [第三教学楼](https://bennix.github.io/FudanCampus/?view=teaching3)
 
