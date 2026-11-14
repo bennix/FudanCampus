@@ -1,6 +1,0 @@
-PAGE_UNREACHABLE http://127.0.0.1:5173/ ECONNREFUSED
-PAGE_HTTP_PASS http://localhost:5173/ 200
-HTTP_MODEL_PASS models\lod\buildings-17-far.glb 880d1f6ec2ad 1435168
-HTTP_MODEL_PASS models\lod\buildings-17-medium.glb f6347525cb22 1446396
-HTTP_MODEL_PASS models\buildings\17.glb d30f6bab1831 4699476
-LIVE_DEV_SERVER_PASS http://localhost:5173/?view=teaching4

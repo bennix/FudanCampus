@@ -1,3 +1,0 @@
-E:\csd4.1\VR\FudanCampus\field-review\chemistry-2026-11-14-v2\verify_color.py:25: DeprecationWarning: Image.Image.getdata is deprecated and will be removed in Pillow 14 (2027-10-15). Use get_flattened_data instead.
-  pixels=list(im.getdata());target=(212,107,87)
-PASS: exported brick median #D46B57; >90% brick pixels within 3/255; neutral baseColorFactor; all geometry buffers unchanged

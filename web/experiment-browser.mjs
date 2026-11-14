@@ -1,7 +1,8 @@
 // Local-only CDP harness; connects solely to the isolated browser on localhost.
 import fs from 'node:fs/promises';
 import path from 'node:path';
-const out=path.resolve('../field-review/webxr-2026-11-14');await fs.mkdir(out,{recursive:true});
+import {fileURLToPath} from 'node:url';
+const out=fileURLToPath(new URL('../../课程论文初稿/实验记录/webxr-2026-11-14/',import.meta.url));await fs.mkdir(out,{recursive:true});
 const targets=await (await fetch('http://localhost:9226/json/list')).json();
 const target=targets.find(t=>t.type==='page'&&t.url.startsWith('http://localhost:5173/'));if(!target)throw Error('No local campus page');
 const socket=new WebSocket(target.webSocketDebuggerUrl);await new Promise((resolve,reject)=>{socket.onopen=resolve;socket.onerror=reject;});

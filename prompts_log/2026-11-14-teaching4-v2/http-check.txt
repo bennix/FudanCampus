@@ -1,4 +1,0 @@
-HTTP_ROUND2_MODEL_PASS models/lod/buildings-17-far.glb c2632e25e37a 1432400
-HTTP_ROUND2_MODEL_PASS models/lod/buildings-17-medium.glb a6822971b0bb 1443640
-HTTP_ROUND2_MODEL_PASS models/buildings/17.glb adb61f27ccb4 4654904
-LIVE_ROUND2_PASS http://localhost:5173/?view=teaching4

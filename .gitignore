@@ -1,5 +1,12 @@
 .DS_Store
 
+# Course submission materials live beside the source repository.
+/course-paper/
+/prompts_log/
+/field-review/webxr-2026-11-14/
+/field-review/map-scale-2026-11-14/
+/field-review/gaode-scale-2026-11-15/
+
 # Local package installs and framework/build caches
 web/node_modules/
 web/.next/

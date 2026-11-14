@@ -1,2 +1,0 @@
-PASS: 55 source, manifest, 3 LOD tiers and hashes agree; all other manifest entries and LOD assets unchanged
-PASS: collision changes confined to chemistry footprint and porticos

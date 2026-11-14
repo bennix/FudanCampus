@@ -8,7 +8,7 @@ import matplotlib.pyplot as plt
 
 ROOT=Path(__file__).resolve().parents[1]
 SOURCE=ROOT.parent/'assets/比例尺-来源高德地图.jpeg'
-OUT=ROOT/'field-review/gaode-scale-2026-11-15';OUT.mkdir(exist_ok=True)
+OUT=ROOT.parent/'课程论文初稿/实验记录/gaode-scale-2026-11-15';OUT.mkdir(parents=True,exist_ok=True)
 im=Image.open(SOURCE)
 assert im.size==(1080,1870),'Coordinate picks apply only to the recorded original resolution'
 # Original raster coordinates: left-top origin, x right, y down. End caps' centres.

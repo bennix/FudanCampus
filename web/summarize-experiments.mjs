@@ -1,6 +1,6 @@
 import fs from 'node:fs/promises';
 import {summarizeFrames} from './lib/frame-metrics.ts';
-const root=new URL('../field-review/webxr-2026-11-14/',import.meta.url);
+const root=new URL('../../课程论文初稿/实验记录/webxr-2026-11-14/',import.meta.url);
 const results=JSON.parse(await fs.readFile(new URL('results.json',root),'utf8'));
 const groups=[];
 for(const point of ['teaching4','chemistry'])for(const variant of ['no-culling','cached-shadow','no-shadow']){

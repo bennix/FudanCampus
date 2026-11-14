@@ -1,2 +1,0 @@
-# Preserve archived source bytes so provenance SHA256 survives checkout.
-* -text whitespace=cr-at-eol

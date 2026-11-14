@@ -1,4 +1,0 @@
-GET / HTTP 200
-models/lod/buildings-55-far.glb 6e11d85ba14a HTTP 200 hash/bytes match
-models/lod/buildings-55-medium.glb 7559985db55c HTTP 200 hash/bytes match
-models/buildings/55.glb aea012ab4e0d HTTP 200 hash/bytes match

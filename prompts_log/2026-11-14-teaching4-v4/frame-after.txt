@@ -1,5 +1,0 @@
-ROUND3_CHECKS {"checks": {"lawn_west_matches_building": true, "lawn_east_matches_entry_west": true, "lawn_depth_enlarged": true, "rear_target_glazing": true, "rear_window_surround_matches_plaster": true, "four_photo_supported_tree_trunks": true, "tree_canopies_present": true, "tree_toggle_metadata": true, "marked_window_light_frame_restored": true, "trees_larger_than_small_placeholders": true}, "perimeter_hits": ["T4 rear restored light perimeter", "T4 rear restored light perimeter", "T4 rear restored light perimeter", "T4 rear restored light perimeter"], "tree_max_height": 14.021870613098145}
-Blender 4.4.3 (hash 802179c51ccc built 2025-04-29 15:39:58)
-Read blend: "E:\csd4.1\VR\FudanCampus\field-review\teaching4-2026-11-14-v4\17-candidate.blend"
-
-Blender quit

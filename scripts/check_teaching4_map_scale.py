@@ -7,7 +7,7 @@ matplotlib.use('Agg')
 import matplotlib.pyplot as plt
 
 ROOT=Path(__file__).resolve().parents[1]
-OUT=ROOT/'field-review/map-scale-2026-11-14';OUT.mkdir(exist_ok=True)
+OUT=ROOT.parent/'课程论文初稿/实验记录/map-scale-2026-11-14';OUT.mkdir(parents=True,exist_ok=True)
 source=ROOT/'web/public/campus-map.png'
 im=Image.open(source)
 # Manual picks on the original 3508x2480 raster; x right, y down, origin upper left.

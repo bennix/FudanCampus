@@ -1,5 +1,0 @@
-ROUND2_CHECKS {"checks": {"entry_side_walls_removed": true, "upper_east_notch_clear": true, "flowerbed_west_aligned_entry": true, "flowerbed_east_aligned_building": true, "west_lawn_present": true, "side_door_moves_with_wing": true, "rear_small_window_strip_no_large_window": true, "rear_small_windows_between_floors": true, "rear_glass_door_details": true, "rear_landing_present": true, "porch_sideways_clear": true, "rear_ground_no_black_frames": true, "no_steps_flush_over_paving": true, "parapets_butt_without_volume_overlap": true}, "porch_obstructions": [], "rear_dark_ground_frames": [], "coplanar_treads": [], "parapet_overlaps": []}
-Blender 4.4.3 (hash 802179c51ccc built 2025-04-29 15:39:58)
-Read blend: "E:\csd4.1\VR\FudanCampus\field-review\teaching4-2026-11-14-v2\17-candidate.blend"
-
-Blender quit
