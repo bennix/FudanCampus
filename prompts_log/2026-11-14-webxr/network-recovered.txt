@@ -1,0 +1,30 @@
+[
+  {
+    "id": "shared-00",
+    "url": "models/lod/shared-00-far-photo.glb",
+    "status": 200,
+    "type": "model/gltf-binary",
+    "bytes": 147332
+  },
+  {
+    "id": "buildings-3",
+    "url": "models/lod/buildings-3-far.glb",
+    "status": 200,
+    "type": "model/gltf-binary",
+    "bytes": 22808
+  },
+  {
+    "id": "buildings-17",
+    "url": "models/lod/buildings-17-far.glb",
+    "status": 200,
+    "type": "model/gltf-binary",
+    "bytes": 1586216
+  },
+  {
+    "id": "buildings-55",
+    "url": "models/lod/buildings-55-far.glb",
+    "status": 200,
+    "type": "model/gltf-binary",
+    "bytes": 490660
+  }
+]

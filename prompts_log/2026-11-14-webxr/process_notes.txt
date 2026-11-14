@@ -1,0 +1,32 @@
+操作与修正记录（过程摘要，非未记录工具stdout的伪造全文）
+
+范围与资料
+- 阅读根期末论文要求、AGENTS、现有初稿待补清单及web/app/page.tsx、campus-lod/lod-policy。
+- 参考官方资料：https://www.w3.org/TR/webxr/、https://threejs.org/docs/pages/WebXRManager.html、VRButton文档；同时读本地Three.js WebXRManager源码确认相机父组与姿态更新。
+- 应用 using-superpowers、brainstorming、writing-plans、test-driven-development、verification-before-completion、executing-plans 的相应流程；用户已明确要求开始补全，按授权连续执行本地实现。独立只读审查指出后台计量、yaw侧倾、上下文丢失及控件状态问题，均已处理。
+
+实现
+- 新增immersive-policy.ts、head-simulation.ts：米制观察点、无roll的yaw/pitch、帧率无关平滑、退出恢复。
+- 新增campus-lab.ts、frame-metrics.ts：模拟/WebXR、证据标记、投影/环境导出、优化开关与原始帧采样。WebXR沿用原生姿态不加滤波；模拟才平滑。
+- page.tsx直接接入现有网页；XR/实验解除桌面限帧与脏帧跳过，LOD采用世界坐标；只在采样期间冻结LOD。
+- 自动脚本仅连接本地9226端口的隔离浏览器，数据与截图保存在field-review/webxr-2026-11-14。
+
+错误、诊断与修正
+1. 首次node --test受sandbox限制：spawn EPERM（原输出test-red.txt）。试用--test-isolation=none被本地Node拒绝，工具输出摘录为“bad option: --test-isolation=none”，该次选项错误未单独保存完整stdout；最终单文件可直接node运行，完整测试经工具授权运行子进程。未禁用测试断言。
+2. HeadSimulation模块缺失红灯见test-red-module.txt；实现后绿灯。增加yaw保持roll=0测试，原实现明确失败见test-red-yaw.txt，修改旋转顺序后通过test-green-yaw.txt。
+3. 全局tsconfig包含hanbing-final.ts既有6项错误；新模块还遇到Cloudflare/DOM append类型冲突、可选viewport及.ts导入后缀错误。改用appendChild、由投影矩阵计算截图比例、测试按既有方式转译，再通过项目既有tsconfig.campus.json。types-initial.txt保留原错误，未宣称全仓默认tsconfig全部通过。
+4. 初次Invoke-WebRequest localhost返回502、Get-NetTCPConnection拒绝访问；Node/浏览器一度可访问，后确认原PID已退出。5174尝试被vinext现有进程锁拒绝，dev-server.txt保留输出；未强停原服务。原服务消失后重启5173，dev-server-restart.txt保留日志。中断原因未确认。
+5. 最初仅6/200资源就绪仍允许采样，及时停止并隔离invalid-partial-load；收紧条件到全部资源就绪、无请求、tier=wanted后重采。恢复后目标GLB HTTP200见network-recovered.txt。
+6. 初次有效脚本在切换化学楼时遇到LOD未稳定拒绝；增加切换前等待，再复用有效四教数据补完。部分试采和失败输出保留，未混入有效18组。
+7. 一次辅助Python脚本因以web为cwd却用web/experiment-browser.mjs相对路径报FileNotFoundError；改在仓库根执行。无产品文件受损。
+8. 生成论文的初稿Word COM此前不可用，本轮继续采用OOXML生成与浏览器PDF预览，不声称原生Word导出。
+9. build:pages会将光华楼验证报告换成LF；核对与HEAD归一化换行后逐字相同，恢复原CRLF检出格式，不保留非目标改动。
+10. 原Word初稿被用户打开，覆盖产生PermissionError（paper-generated.txt保留）；不关闭用户Word，改为输出课程论文修订稿_WebVR模拟与性能实验.docx。原初稿与修订前备份保留。首次失败后的Pandoc回读仍针对原稿，后续已明确改用新修订稿重新生成。
+11. 浏览器截图发现viewport自身形成层叠上下文，实验面板被nav盖住；将面板挂在main下，保留单独dispose，避免升高整个canvas遮住其他控件。
+12. 首次CDP PDF直接返回base64时连接未完成并报告unsettled top-level await，pdf-preview.txt保留；改用ReturnAsStream及IO.read分块导出，pdf-preview-stream.txt记录成功（39页）。没有宣称该PDF为Word原生排版。
+
+验证与限制
+- 最终6项新测试+21项既有LOD/步行测试=27项通过；tsconfig.campus.json类型检查与build:pages通过（原始输出单独保存）。构建仍提示主JS包>500kB，未写成无警告。
+- summary脚本复算每个JSON统计并检查18组采样前后LOD完全相同。原始帧不是GPU计时；无界面软件驱动结果不外推实际头显。
+- 真实设备请求/双眼输出的实现未经物理设备验证。模拟图、WebXR单眼重渲染、合成器画面和镜片实拍明确区分。
+- 不改模型、manifest、LOD文件、碰撞；不提交、不推送、不上线。论文原稿先备份，更新正文、模拟三联图、实验表和附录；本轮恢复记录提示词，之前暂停记录阶段不补造逐字对话。

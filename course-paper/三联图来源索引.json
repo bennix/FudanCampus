@@ -1,0 +1,48 @@
+[
+  {
+    "figure": 2,
+    "building": "teaching4",
+    "panels": [
+      {
+        "panel": "a-实地原照",
+        "path": "assets/17-第四教学楼/正面（不全）.jpg",
+        "sha256": "12113c629d276358df06ba8de849ddf707a0451e023e0b9e845a81586b498057"
+      },
+      {
+        "panel": "b-Codex生成模型的Blender预览",
+        "path": "FudanCampus/field-review/teaching4-2026-11-14-v4/renders/after-front.png",
+        "sha256": "b861dd9d1ae1b0ddf75472bc238fde53a2abad9d8717eba0b93e956e7497a6df"
+      },
+      {
+        "panel": "c-WebVR站立视角模拟",
+        "path": "FudanCampus/field-review/webxr-2026-11-14/teaching4-simulation.png",
+        "sha256": "ef04b3648d0a80009d856208358668458759957af3a3599c5fd8ee71217e3494"
+      }
+    ],
+    "runtime_capture_metadata": "FudanCampus\\field-review\\webxr-2026-11-14\\teaching4-simulation.json",
+    "third_panel_mode": "desktop-headset-simulation"
+  },
+  {
+    "figure": 4,
+    "building": "chemistry",
+    "panels": [
+      {
+        "panel": "a-实地原照",
+        "path": "assets/55-化学楼/正面.jpg",
+        "sha256": "02d0b4e6f6755d5c4099c1e11b139e033bca826587c12bde56c96522c712655e"
+      },
+      {
+        "panel": "b-Codex生成模型的Blender预览",
+        "path": "FudanCampus/field-review/chemistry-2026-11-14-v2/renders/after-front.png",
+        "sha256": "1a0c2222c053f452c078eb9b3b8141616515c12d77c79d3284dbc9b459046d3d"
+      },
+      {
+        "panel": "c-WebVR站立视角模拟",
+        "path": "FudanCampus/field-review/webxr-2026-11-14/chemistry-simulation.png",
+        "sha256": "4523e6c8bb725167978d8c3648e9db1ee46817870c9f1193bceb2a3a0f654212"
+      }
+    ],
+    "runtime_capture_metadata": "FudanCampus\\field-review\\webxr-2026-11-14\\chemistry-simulation.json",
+    "third_panel_mode": "desktop-headset-simulation"
+  }
+]

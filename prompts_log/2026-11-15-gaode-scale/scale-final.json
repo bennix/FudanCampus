@@ -1,0 +1,65 @@
+{
+  "date": "2026-11-15",
+  "source": "assets/比例尺-来源高德地图.jpeg",
+  "source_sha256": "e60e9a54b887e3f7ccb26c6a0b26dde201f175d1dfee7e0a70d3f46aa9b7ee21",
+  "image_size": [
+    1080,
+    1870
+  ],
+  "provider": "高德地图，用户确认",
+  "capture_date": "未知；文件接收/分析日期不作为截图日期",
+  "map_view": "平面轮廓视图，未见明显楼体立面透视；地图姿态未取得设备元数据验证",
+  "pixel_origin": "左上，x向右、y向下；人工原图取点，不使用缩略图像素",
+  "scale_bar": {
+    "points": [
+      [
+        216,
+        1253
+      ],
+      [
+        385,
+        1253
+      ]
+    ],
+    "pixels": 169.0,
+    "metres": 25,
+    "selection": "25米横向标尺两端端帽中心"
+  },
+  "building_55": {
+    "points": [
+      [
+        148,
+        820
+      ],
+      [
+        850,
+        820
+      ]
+    ],
+    "pixels": 702.0,
+    "selection": "同一水平行上左右侧翼主体外轮廓，不含道路、树冠、图标或阴影",
+    "axis": "图面左右主轴，对应模型本地X；不假定精确地理东西轴"
+  },
+  "metres_per_pixel": 0.14792899408284024,
+  "estimated_width_m": 103.84615384615385,
+  "model_wall_width_units": 65.6,
+  "reference_metres_per_model_unit": 1.5830206378986869,
+  "model_source": "scripts/chemistry_geometry.py",
+  "model_source_sha256": "b6f204a5ccb65c067a5cb834f975f91de23913c6cc3ae0c114d9610a73c5d43c",
+  "map_width_to_model_width_ratio_under_original_1m_convention": 1.5830206378986869,
+  "model_width_shortfall_percent_relative_to_map_under_original_1m_convention": 36.829629629629636,
+  "endpoint_sensitivity": {
+    "bar_endpoint_px": 1,
+    "wall_endpoint_px": 2,
+    "estimated_width_m_range": [
+      102.046783625731,
+      105.68862275449102
+    ],
+    "reference_metres_per_unit_range": [
+      1.555591213806875,
+      1.6111070541843144
+    ],
+    "meaning": "仅像素端点读取敏感性；不是统计置信区间，不包括地图轮廓概化或未知视角误差"
+  },
+  "scope": "采用为化学楼横向平面地图估算锚点；非现场测距，不自动标定楼高、四教或全校园；模型/manifest/碰撞未修改"
+}

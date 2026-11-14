@@ -1,0 +1,34 @@
+TAP version 13
+# Subtest: 模拟旋转平滑在30/60/90Hz下具有相同收敛结果，采用四元数最短路径
+ok 1 - 模拟旋转平滑在30/60/90Hz下具有相同收敛结果，采用四元数最短路径
+  ---
+  duration_ms: 1.1866
+  type: 'test'
+  ...
+# Subtest: XR/实验每帧提交，不受桌面30/60Hz限帧或脏帧影响
+ok 2 - XR/实验每帧提交，不受桌面30/60Hz限帧或脏帧影响
+  ---
+  duration_ms: 0.1484
+  type: 'test'
+  ...
+# Subtest: 观察点为米制站立地面坐标，无遮挡建筑外侧
+ok 3 - 观察点为米制站立地面坐标，无遮挡建筑外侧
+  ---
+  duration_ms: 0.5228
+  type: 'test'
+  ...
+# Subtest: 帧统计拒绝无效值并保留可复核口径，不把平均瞬时FPS当整体FPS
+ok 4 - 帧统计拒绝无效值并保留可复核口径，不把平均瞬时FPS当整体FPS
+  ---
+  duration_ms: 0.8358
+  type: 'test'
+  ...
+1..4
+# tests 4
+# suites 0
+# pass 4
+# fail 0
+# cancelled 0
+# skipped 0
+# todo 0
+# duration_ms 9.5914

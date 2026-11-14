@@ -1,0 +1,32 @@
+{
+  "pointerChanged": true,
+  "restore": true,
+  "controlsLocked": true,
+  "visibilityCancel": "页面进入后台，实验取消",
+  "syntheticContextEventCancel": "WebGL上下文丢失，实验取消",
+  "before": [
+    0.11682947233576077,
+    0,
+    0,
+    0.993151989573473
+  ],
+  "after": [
+    0.016606050197197093,
+    -0.23766788084296733,
+    0.004063777131749279,
+    0.9711960168925143
+  ],
+  "original": [
+    -97.6,
+    6.000000000000002,
+    -119
+  ],
+  "restored": {
+    "active": false,
+    "position": [
+      -97.6,
+      6.000000000000002,
+      -119
+    ]
+  }
+}

@@ -1,0 +1,2965 @@
+{
+  "version": 1,
+  "timestamp": "2026-11-14T15:08:01.361Z",
+  "mode": "desktop-headset-simulation",
+  "deviceClaim": "浏览器会话模式不能证明实际物理头显；真实设备型号由实验者另填",
+  "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) HeadlessChrome/157.0.0.0 Safari/537.36 Edg/157.0.0.0",
+  "hardwareConcurrency": 16,
+  "gpu": "ANGLE (Microsoft, Microsoft Basic Render Driver (0x0000008C) Direct3D11 vs_5_0 ps_5_0, D3D11)",
+  "webgl": "WebGL 2.0 (OpenGL ES 3.0 Chromium)",
+  "viewport": [
+    1410,
+    905
+  ],
+  "drawingBuffer": [
+    1410,
+    905
+  ],
+  "pixelRatio": 1,
+  "quality": "auto",
+  "point": "teaching4",
+  "observation": {
+    "name": "第四教学楼",
+    "position": [
+      -154.4,
+      0,
+      -169
+    ],
+    "target": [
+      -154.4,
+      10,
+      -204
+    ],
+    "eyeHeight": 1.65
+  },
+  "cameraPosition": [
+    -154.4,
+    1.65,
+    -169
+  ],
+  "cameraQuaternion": [
+    0.11682947233576077,
+    0,
+    0,
+    0.993151989573473
+  ],
+  "projectionMatrix": [
+    0.9166481887245488,
+    0,
+    0,
+    0,
+    0,
+    1.4281480067421146,
+    0,
+    0,
+    0,
+    0,
+    -1.0000355561876655,
+    -1,
+    0,
+    0,
+    -0.16000284449501323,
+    0
+  ],
+  "culling": true,
+  "shadows": true,
+  "lod": {
+    "assets": 200,
+    "ready": 200,
+    "pending": 0,
+    "tiers": [
+      {
+        "id": "shared-00",
+        "tier": 0,
+        "wanted": 0,
+        "ready": true,
+        "revision": "b7e65d8f3d0e"
+      },
+      {
+        "id": "shared-01",
+        "tier": 2,
+        "wanted": 2,
+        "ready": true,
+        "revision": "f0ebd998b524"
+      },
+      {
+        "id": "shared-03",
+        "tier": 0,
+        "wanted": 0,
+        "ready": true,
+        "revision": "2de1db5ac6a0"
+      },
+      {
+        "id": "shared-04",
+        "tier": 0,
+        "wanted": 0,
+        "ready": true,
+        "revision": "fcf63fe1ba04"
+      },
+      {
+        "id": "shared-05",
+        "tier": 0,
+        "wanted": 0,
+        "ready": true,
+        "revision": "5763f35fa404"
+      },
+      {
+        "id": "shared-58",
+        "tier": 0,
+        "wanted": 0,
+        "ready": true,
+        "revision": "53c3486952bc"
+      },
+      {
+        "id": "buildings-3",
+        "tier": 0,
+        "wanted": 0,
+        "ready": true,
+        "revision": "3abdbc594262"
+      },
+      {
+        "id": "buildings-5",
+        "tier": 0,
+        "wanted": 0,
+        "ready": true,
+        "revision": "e98c3e9e1461"
+      },
+      {
+        "id": "buildings-7",
+        "tier": 0,
+        "wanted": 0,
+        "ready": true,
+        "revision": "0cff03508a0c"
+      },
+      {
+        "id": "buildings-14",
+        "tier": 2,
+        "wanted": 2,
+        "ready": true,
+        "revision": "0b6bffa0e4fa"
+      },
+      {
+        "id": "buildings-16",
+        "tier": 0,
+        "wanted": 0,
+        "ready": true,
+        "revision": "25ee8a29325c"
+      },
+      {
+        "id": "buildings-20",
+        "tier": 2,
+        "wanted": 2,
+        "ready": true,
+        "revision": "0c39e38a472a"
+      },
+      {
+        "id": "buildings-27",
+        "tier": 0,
+        "wanted": 0,
+        "ready": true,
+        "revision": "2fba4901629f"
+      },
+      {
+        "id": "buildings-42",
+        "tier": 0,
+        "wanted": 0,
+        "ready": true,
+        "revision": "86ff347ff0f0"
+      },
+      {
+        "id": "buildings-51",
+        "tier": 0,
+        "wanted": 0,
+        "ready": true,
+        "revision": "ade8660d5e95"
+      },
+      {
+        "id": "buildings-56",
+        "tier": 0,
+        "wanted": 0,
+        "ready": true,
+        "revision": "9270c7aec6c5"
+      },
+      {
+        "id": "buildings-65",
+        "tier": 0,
+        "wanted": 0,
+        "ready": true,
+        "revision": "6ebda68631da"
+      },
+      {
+        "id": "shared-guanghua-landscape",
+        "tier": 0,
+        "wanted": 0,
+        "ready": true,
+        "revision": "b0c90a4958f5"
+      },
+      {
+        "id": "guanghua-cherry",
+        "tier": 0,
+        "wanted": 0,
+        "ready": true,
+        "revision": "886fe7b18fef"
+      },
+      {
+        "id": "landscape-tree-00",
+        "tier": 0,
+        "wanted": 0,
+        "ready": true,
+        "revision": "da412f69a4f2"
+      },
+      {
+        "id": "landscape-tree-01",
+        "tier": 0,
+        "wanted": 0,
+        "ready": true,
+        "revision": "28ba35d1fd13"
+      },
+      {
+        "id": "landscape-tree-02",
+        "tier": 0,
+        "wanted": 0,
+        "ready": true,
+        "revision": "5100bf4d195b"
+      },
+      {
+        "id": "landscape-tree-03",
+        "tier": 0,
+        "wanted": 0,
+        "ready": true,
+        "revision": "887d57c4aa58"
+      },
+      {
+        "id": "landscape-tree-04",
+        "tier": 0,
+        "wanted": 0,
+        "ready": true,
+        "revision": "a0bd91f21ec4"
+      },
+      {
+        "id": "landscape-tree-05",
+        "tier": 0,
+        "wanted": 0,
+        "ready": true,
+        "revision": "d09d3ac4e44b"
+      },
+      {
+        "id": "landscape-tree-06",
+        "tier": 0,
+        "wanted": 0,
+        "ready": true,
+        "revision": "8f538b25d8c3"
+      },
+      {
+        "id": "landscape-tree-07",
+        "tier": 0,
+        "wanted": 0,
+        "ready": true,
+        "revision": "aa5fd9164514"
+      },
+      {
+        "id": "landscape-tree-08",
+        "tier": 0,
+        "wanted": 0,
+        "ready": true,
+        "revision": "ff36c3bcc4f7"
+      },
+      {
+        "id": "landscape-tree-09",
+        "tier": 0,
+        "wanted": 0,
+        "ready": true,
+        "revision": "86132faa1318"
+      },
+      {
+        "id": "landscape-tree-10",
+        "tier": 0,
+        "wanted": 0,
+        "ready": true,
+        "revision": "c985db56691b"
+      },
+      {
+        "id": "landscape-tree-11",
+        "tier": 0,
+        "wanted": 0,
+        "ready": true,
+        "revision": "11d35d0d20e1"
+      },
+      {
+        "id": "landscape-tree-12",
+        "tier": 0,
+        "wanted": 0,
+        "ready": true,
+        "revision": "7b72ad968032"
+      },
+      {
+        "id": "landscape-tree-13",
+        "tier": 0,
+        "wanted": 0,
+        "ready": true,
+        "revision": "ef2beb331982"
+      },
+      {
+        "id": "landscape-tree-14",
+        "tier": 0,
+        "wanted": 0,
+        "ready": true,
+        "revision": "3f1b172dff3b"
+      },
+      {
+        "id": "landscape-tree-15",
+        "tier": 0,
+        "wanted": 0,
+        "ready": true,
+        "revision": "9233508684d7"
+      },
+      {
+        "id": "landscape-tree-16",
+        "tier": 0,
+        "wanted": 0,
+        "ready": true,
+        "revision": "0d486c79392d"
+      },
+      {
+        "id": "landscape-tree-17",
+        "tier": 0,
+        "wanted": 0,
+        "ready": true,
+        "revision": "3b087e5aa628"
+      },
+      {
+        "id": "landscape-tree-18",
+        "tier": 0,
+        "wanted": 0,
+        "ready": true,
+        "revision": "59326eb947d0"
+      },
+      {
+        "id": "landscape-tree-19",
+        "tier": 0,
+        "wanted": 0,
+        "ready": true,
+        "revision": "68f26f45af1d"
+      },
+      {
+        "id": "landscape-tree-20",
+        "tier": 0,
+        "wanted": 0,
+        "ready": true,
+        "revision": "f6a7e939f249"
+      },
+      {
+        "id": "landscape-tree-21",
+        "tier": 0,
+        "wanted": 0,
+        "ready": true,
+        "revision": "561273fb74f3"
+      },
+      {
+        "id": "landscape-tree-22",
+        "tier": 0,
+        "wanted": 0,
+        "ready": true,
+        "revision": "20e44fa2e180"
+      },
+      {
+        "id": "landscape-tree-23",
+        "tier": 0,
+        "wanted": 0,
+        "ready": true,
+        "revision": "66f6e3da47ee"
+      },
+      {
+        "id": "landscape-tree-24",
+        "tier": 0,
+        "wanted": 0,
+        "ready": true,
+        "revision": "fd47d70bcdd7"
+      },
+      {
+        "id": "landscape-tree-25",
+        "tier": 0,
+        "wanted": 0,
+        "ready": true,
+        "revision": "e8605e2deea4"
+      },
+      {
+        "id": "landscape-tree-26",
+        "tier": 0,
+        "wanted": 0,
+        "ready": true,
+        "revision": "59d5528888fc"
+      },
+      {
+        "id": "landscape-tree-27",
+        "tier": 0,
+        "wanted": 0,
+        "ready": true,
+        "revision": "751c910d3852"
+      },
+      {
+        "id": "landscape-tree-28",
+        "tier": 0,
+        "wanted": 0,
+        "ready": true,
+        "revision": "5fd8845dc82b"
+      },
+      {
+        "id": "landscape-tree-29",
+        "tier": 0,
+        "wanted": 0,
+        "ready": true,
+        "revision": "0117cbf06fd2"
+      },
+      {
+        "id": "landscape-tree-30",
+        "tier": 0,
+        "wanted": 0,
+        "ready": true,
+        "revision": "a3bf42ce7f82"
+      },
+      {
+        "id": "landscape-tree-31",
+        "tier": 0,
+        "wanted": 0,
+        "ready": true,
+        "revision": "ac8a45a4b96d"
+      },
+      {
+        "id": "landscape-tree-32",
+        "tier": 0,
+        "wanted": 0,
+        "ready": true,
+        "revision": "e1c11c11b685"
+      },
+      {
+        "id": "landscape-tree-33",
+        "tier": 0,
+        "wanted": 0,
+        "ready": true,
+        "revision": "c80bf666194b"
+      },
+      {
+        "id": "landscape-tree-34",
+        "tier": 0,
+        "wanted": 0,
+        "ready": true,
+        "revision": "8479f3acd0cb"
+      },
+      {
+        "id": "landscape-tree-35",
+        "tier": 0,
+        "wanted": 0,
+        "ready": true,
+        "revision": "abfa9425cad9"
+      },
+      {
+        "id": "landscape-tree-36",
+        "tier": 0,
+        "wanted": 0,
+        "ready": true,
+        "revision": "cb5a887df3b1"
+      },
+      {
+        "id": "landscape-tree-37",
+        "tier": 0,
+        "wanted": 0,
+        "ready": true,
+        "revision": "05df91994d86"
+      },
+      {
+        "id": "landscape-tree-38",
+        "tier": 0,
+        "wanted": 0,
+        "ready": true,
+        "revision": "74457723217d"
+      },
+      {
+        "id": "landscape-tree-39",
+        "tier": 0,
+        "wanted": 0,
+        "ready": true,
+        "revision": "50fa85049412"
+      },
+      {
+        "id": "landscape-tree-40",
+        "tier": 0,
+        "wanted": 0,
+        "ready": true,
+        "revision": "f784c8ef7464"
+      },
+      {
+        "id": "landscape-tree-41",
+        "tier": 0,
+        "wanted": 0,
+        "ready": true,
+        "revision": "2a340afa29d6"
+      },
+      {
+        "id": "landscape-tree-42",
+        "tier": 0,
+        "wanted": 0,
+        "ready": true,
+        "revision": "5a82595e1711"
+      },
+      {
+        "id": "landscape-tree-43",
+        "tier": 0,
+        "wanted": 0,
+        "ready": true,
+        "revision": "ca368028cc2f"
+      },
+      {
+        "id": "landscape-tree-44",
+        "tier": 0,
+        "wanted": 0,
+        "ready": true,
+        "revision": "ea3bb129421b"
+      },
+      {
+        "id": "landscape-tree-45",
+        "tier": 0,
+        "wanted": 0,
+        "ready": true,
+        "revision": "6eda9fd756a0"
+      },
+      {
+        "id": "landscape-tree-46",
+        "tier": 0,
+        "wanted": 0,
+        "ready": true,
+        "revision": "7fb085f0644e"
+      },
+      {
+        "id": "landscape-tree-47",
+        "tier": 0,
+        "wanted": 0,
+        "ready": true,
+        "revision": "9f712878e0d1"
+      },
+      {
+        "id": "landscape-shrub-48",
+        "tier": 0,
+        "wanted": 0,
+        "ready": true,
+        "revision": "1134fe472f58"
+      },
+      {
+        "id": "landscape-shrub-49",
+        "tier": 0,
+        "wanted": 0,
+        "ready": true,
+        "revision": "18b6dc84aab8"
+      },
+      {
+        "id": "landscape-shrub-50",
+        "tier": 0,
+        "wanted": 0,
+        "ready": true,
+        "revision": "f117c4fb373e"
+      },
+      {
+        "id": "landscape-shrub-51",
+        "tier": 0,
+        "wanted": 0,
+        "ready": true,
+        "revision": "a2d5673cb90b"
+      },
+      {
+        "id": "landscape-shrub-52",
+        "tier": 0,
+        "wanted": 0,
+        "ready": true,
+        "revision": "f599e692dcc6"
+      },
+      {
+        "id": "landscape-shrub-53",
+        "tier": 0,
+        "wanted": 0,
+        "ready": true,
+        "revision": "7bbec2ac2a24"
+      },
+      {
+        "id": "landscape-shrub-54",
+        "tier": 0,
+        "wanted": 0,
+        "ready": true,
+        "revision": "75d38d54b0e8"
+      },
+      {
+        "id": "landscape-shrub-55",
+        "tier": 0,
+        "wanted": 0,
+        "ready": true,
+        "revision": "085efa5f68af"
+      },
+      {
+        "id": "landscape-shrub-56",
+        "tier": 0,
+        "wanted": 0,
+        "ready": true,
+        "revision": "ae05cd7b3ce1"
+      },
+      {
+        "id": "landscape-shrub-57",
+        "tier": 0,
+        "wanted": 0,
+        "ready": true,
+        "revision": "623899ab0961"
+      },
+      {
+        "id": "landscape-shrub-58",
+        "tier": 0,
+        "wanted": 0,
+        "ready": true,
+        "revision": "f3b845e465cc"
+      },
+      {
+        "id": "landscape-shrub-59",
+        "tier": 0,
+        "wanted": 0,
+        "ready": true,
+        "revision": "a5046e73ab3c"
+      },
+      {
+        "id": "landscape-shrub-60",
+        "tier": 0,
+        "wanted": 0,
+        "ready": true,
+        "revision": "18719db9f8da"
+      },
+      {
+        "id": "landscape-shrub-61",
+        "tier": 0,
+        "wanted": 0,
+        "ready": true,
+        "revision": "7df02b52a85a"
+      },
+      {
+        "id": "landscape-shrub-62",
+        "tier": 0,
+        "wanted": 0,
+        "ready": true,
+        "revision": "4f0b3a966d5f"
+      },
+      {
+        "id": "campus-tree--5_-4",
+        "tier": 0,
+        "wanted": 0,
+        "ready": true,
+        "revision": "266737b7db59"
+      },
+      {
+        "id": "campus-tree--4_-4",
+        "tier": 1,
+        "wanted": 1,
+        "ready": true,
+        "revision": "2b1b408c26db"
+      },
+      {
+        "id": "campus-tree--3_-4",
+        "tier": 1,
+        "wanted": 1,
+        "ready": true,
+        "revision": "fa5cca6ac168"
+      },
+      {
+        "id": "campus-tree--2_-4",
+        "tier": 1,
+        "wanted": 1,
+        "ready": true,
+        "revision": "d4baf46074b7"
+      },
+      {
+        "id": "campus-tree--1_-4",
+        "tier": 1,
+        "wanted": 1,
+        "ready": true,
+        "revision": "a7c840ee605c"
+      },
+      {
+        "id": "campus-tree-0_-4",
+        "tier": 0,
+        "wanted": 0,
+        "ready": true,
+        "revision": "06fdb0763948"
+      },
+      {
+        "id": "campus-tree-1_-4",
+        "tier": 0,
+        "wanted": 0,
+        "ready": true,
+        "revision": "f3206c7c6212"
+      },
+      {
+        "id": "campus-tree-2_-4",
+        "tier": 0,
+        "wanted": 0,
+        "ready": true,
+        "revision": "dd96fa074951"
+      },
+      {
+        "id": "campus-tree-3_-4",
+        "tier": 0,
+        "wanted": 0,
+        "ready": true,
+        "revision": "853cc6fc471a"
+      },
+      {
+        "id": "campus-tree--5_-3",
+        "tier": 1,
+        "wanted": 1,
+        "ready": true,
+        "revision": "40459b66a415"
+      },
+      {
+        "id": "campus-tree--4_-3",
+        "tier": 1,
+        "wanted": 1,
+        "ready": true,
+        "revision": "0463241afb42"
+      },
+      {
+        "id": "campus-tree--2_-3",
+        "tier": 2,
+        "wanted": 2,
+        "ready": true,
+        "revision": "eafa75ae9ed3"
+      },
+      {
+        "id": "campus-tree-2_-3",
+        "tier": 0,
+        "wanted": 0,
+        "ready": true,
+        "revision": "73f61d3bc864"
+      },
+      {
+        "id": "campus-tree-3_-3",
+        "tier": 0,
+        "wanted": 0,
+        "ready": true,
+        "revision": "6a4c7e1d883d"
+      },
+      {
+        "id": "campus-tree--5_-1",
+        "tier": 0,
+        "wanted": 0,
+        "ready": true,
+        "revision": "d496135bbc40"
+      },
+      {
+        "id": "campus-tree--4_-1",
+        "tier": 1,
+        "wanted": 1,
+        "ready": true,
+        "revision": "d8be87f76f76"
+      },
+      {
+        "id": "campus-tree--3_-1",
+        "tier": 1,
+        "wanted": 1,
+        "ready": true,
+        "revision": "529af2d42e44"
+      },
+      {
+        "id": "campus-tree--1_-1",
+        "tier": 1,
+        "wanted": 1,
+        "ready": true,
+        "revision": "731e1dd6d9ff"
+      },
+      {
+        "id": "campus-tree-0_-1",
+        "tier": 0,
+        "wanted": 0,
+        "ready": true,
+        "revision": "cd98004d219a"
+      },
+      {
+        "id": "campus-tree-1_-1",
+        "tier": 0,
+        "wanted": 0,
+        "ready": true,
+        "revision": "c9dda014d23b"
+      },
+      {
+        "id": "campus-tree-2_-1",
+        "tier": 0,
+        "wanted": 0,
+        "ready": true,
+        "revision": "6d139807da08"
+      },
+      {
+        "id": "campus-tree-3_-1",
+        "tier": 0,
+        "wanted": 0,
+        "ready": true,
+        "revision": "dd1acae908bd"
+      },
+      {
+        "id": "campus-tree--2_-1",
+        "tier": 1,
+        "wanted": 1,
+        "ready": true,
+        "revision": "126727b0faee"
+      },
+      {
+        "id": "campus-tree-0_-3",
+        "tier": 1,
+        "wanted": 1,
+        "ready": true,
+        "revision": "1eb3d6087a20"
+      },
+      {
+        "id": "campus-tree-0_-2",
+        "tier": 1,
+        "wanted": 1,
+        "ready": true,
+        "revision": "cd0d520aec8e"
+      },
+      {
+        "id": "campus-tree-2_-2",
+        "tier": 0,
+        "wanted": 0,
+        "ready": true,
+        "revision": "9af93bb8ccf1"
+      },
+      {
+        "id": "campus-tree-3_-2",
+        "tier": 0,
+        "wanted": 0,
+        "ready": true,
+        "revision": "8a54681c7cd6"
+      },
+      {
+        "id": "campus-tree--1_-2",
+        "tier": 2,
+        "wanted": 2,
+        "ready": true,
+        "revision": "3830fe8ec932"
+      },
+      {
+        "id": "campus-tree-5_-3",
+        "tier": 0,
+        "wanted": 0,
+        "ready": true,
+        "revision": "f4746ffb78d8"
+      },
+      {
+        "id": "campus-tree-5_-4",
+        "tier": 0,
+        "wanted": 0,
+        "ready": true,
+        "revision": "dd98a9cc8834"
+      },
+      {
+        "id": "campus-tree--2_-2",
+        "tier": 2,
+        "wanted": 2,
+        "ready": true,
+        "revision": "dace4d0f3397"
+      },
+      {
+        "id": "campus-tree--4_-2",
+        "tier": 1,
+        "wanted": 1,
+        "ready": true,
+        "revision": "dcacc0f89a77"
+      },
+      {
+        "id": "campus-tree-4_-3",
+        "tier": 0,
+        "wanted": 0,
+        "ready": true,
+        "revision": "a589d34b4318"
+      },
+      {
+        "id": "campus-tree-5_-2",
+        "tier": 0,
+        "wanted": 0,
+        "ready": true,
+        "revision": "d9abaf8d4541"
+      },
+      {
+        "id": "campus-tree-4_-4",
+        "tier": 0,
+        "wanted": 0,
+        "ready": true,
+        "revision": "21ae364080dd"
+      },
+      {
+        "id": "campus-tree-5_-1",
+        "tier": 0,
+        "wanted": 0,
+        "ready": true,
+        "revision": "a125359c1c17"
+      },
+      {
+        "id": "campus-tree--1_-3",
+        "tier": 2,
+        "wanted": 2,
+        "ready": true,
+        "revision": "7d5d034d96cd"
+      },
+      {
+        "id": "campus-tree-4_-2",
+        "tier": 0,
+        "wanted": 0,
+        "ready": true,
+        "revision": "017e32bc56fe"
+      },
+      {
+        "id": "campus-tree--3_-3",
+        "tier": 2,
+        "wanted": 2,
+        "ready": true,
+        "revision": "c89d8fd5133a"
+      },
+      {
+        "id": "campus-tree--5_-2",
+        "tier": 0,
+        "wanted": 0,
+        "ready": true,
+        "revision": "963a38c6e688"
+      },
+      {
+        "id": "campus-tree-1_-2",
+        "tier": 0,
+        "wanted": 0,
+        "ready": true,
+        "revision": "39a5bb4d7fb7"
+      },
+      {
+        "id": "campus-tree-4_-1",
+        "tier": 0,
+        "wanted": 0,
+        "ready": true,
+        "revision": "4c010ba0256c"
+      },
+      {
+        "id": "campus-tree--7_-8",
+        "tier": 0,
+        "wanted": 0,
+        "ready": true,
+        "revision": "8a4f56fbed1f"
+      },
+      {
+        "id": "campus-tree--7_-7",
+        "tier": 0,
+        "wanted": 0,
+        "ready": true,
+        "revision": "2ad3d42ad5c0"
+      },
+      {
+        "id": "campus-tree--6_-6",
+        "tier": 0,
+        "wanted": 0,
+        "ready": true,
+        "revision": "2c9ee7b77fe3"
+      },
+      {
+        "id": "campus-tree--6_-5",
+        "tier": 0,
+        "wanted": 0,
+        "ready": true,
+        "revision": "59f15e16dae3"
+      },
+      {
+        "id": "campus-tree--3_-2",
+        "tier": 2,
+        "wanted": 2,
+        "ready": true,
+        "revision": "76ab719e3eae"
+      },
+      {
+        "id": "campus-tree-6_-1",
+        "tier": 0,
+        "wanted": 0,
+        "ready": true,
+        "revision": "501a5d61614c"
+      },
+      {
+        "id": "shared-02",
+        "tier": 2,
+        "wanted": 2,
+        "ready": true,
+        "revision": "0a37d6323683"
+      },
+      {
+        "id": "photo-xiyuan-structure",
+        "tier": 0,
+        "wanted": 0,
+        "ready": true,
+        "revision": "a5740f26f3fb"
+      },
+      {
+        "id": "photo-xiyuan-surface",
+        "tier": 0,
+        "wanted": 0,
+        "ready": true,
+        "revision": "2d4cd8aa73cd"
+      },
+      {
+        "id": "landscape-tree-xiyuan-vegetation-00",
+        "tier": 0,
+        "wanted": 0,
+        "ready": true,
+        "revision": "5fdea33e1256"
+      },
+      {
+        "id": "landscape-tree-xiyuan-vegetation-01",
+        "tier": 0,
+        "wanted": 0,
+        "ready": true,
+        "revision": "43101071e23c"
+      },
+      {
+        "id": "landscape-tree-xiyuan-vegetation-02",
+        "tier": 0,
+        "wanted": 0,
+        "ready": true,
+        "revision": "65a137c03d21"
+      },
+      {
+        "id": "landscape-tree-xiyuan-vegetation-03",
+        "tier": 0,
+        "wanted": 0,
+        "ready": true,
+        "revision": "e33289dc2180"
+      },
+      {
+        "id": "landscape-tree-xiyuan-vegetation-04",
+        "tier": 0,
+        "wanted": 0,
+        "ready": true,
+        "revision": "5cd8ba453eba"
+      },
+      {
+        "id": "landscape-tree-xiyuan-vegetation-05",
+        "tier": 0,
+        "wanted": 0,
+        "ready": true,
+        "revision": "598bccff773c"
+      },
+      {
+        "id": "landscape-tree-xiyuan-vegetation-06",
+        "tier": 0,
+        "wanted": 0,
+        "ready": true,
+        "revision": "7360e78052d1"
+      },
+      {
+        "id": "landscape-tree-xiyuan-vegetation-07",
+        "tier": 0,
+        "wanted": 0,
+        "ready": true,
+        "revision": "6b324a4d4edc"
+      },
+      {
+        "id": "photo-xiyuan-vegetation-08",
+        "tier": 0,
+        "wanted": 0,
+        "ready": true,
+        "revision": "667ac98f1694"
+      },
+      {
+        "id": "landscape-tree-xiyuan-vegetation-09",
+        "tier": 0,
+        "wanted": 0,
+        "ready": true,
+        "revision": "15aa175a03cf"
+      },
+      {
+        "id": "landscape-tree-xiyuan-vegetation-10",
+        "tier": 0,
+        "wanted": 0,
+        "ready": true,
+        "revision": "877570039a11"
+      },
+      {
+        "id": "landscape-tree-xiyuan-vegetation-11",
+        "tier": 0,
+        "wanted": 0,
+        "ready": true,
+        "revision": "7b00d6ca0373"
+      },
+      {
+        "id": "landscape-tree-xiyuan-vegetation-12",
+        "tier": 0,
+        "wanted": 0,
+        "ready": true,
+        "revision": "ad7392b60e61"
+      },
+      {
+        "id": "landscape-tree-xiyuan-vegetation-13",
+        "tier": 0,
+        "wanted": 0,
+        "ready": true,
+        "revision": "3077c7d0a1a2"
+      },
+      {
+        "id": "landscape-tree-xiyuan-vegetation-14",
+        "tier": 0,
+        "wanted": 0,
+        "ready": true,
+        "revision": "1fa82e8d3f47"
+      },
+      {
+        "id": "landscape-tree-xiyuan-vegetation-15",
+        "tier": 0,
+        "wanted": 0,
+        "ready": true,
+        "revision": "6ca86fdfc69d"
+      },
+      {
+        "id": "photo-xiyuan-vegetation-16",
+        "tier": 0,
+        "wanted": 0,
+        "ready": true,
+        "revision": "266c55c49f18"
+      },
+      {
+        "id": "landscape-tree-xiyuan-vegetation-17",
+        "tier": 0,
+        "wanted": 0,
+        "ready": true,
+        "revision": "c560ce357753"
+      },
+      {
+        "id": "landscape-tree-xiyuan-vegetation-18",
+        "tier": 0,
+        "wanted": 0,
+        "ready": true,
+        "revision": "69debd90b2eb"
+      },
+      {
+        "id": "landscape-tree-xiyuan-vegetation-19",
+        "tier": 0,
+        "wanted": 0,
+        "ready": true,
+        "revision": "2fc6dd0479e1"
+      },
+      {
+        "id": "landscape-tree-xiyuan-vegetation-20",
+        "tier": 0,
+        "wanted": 0,
+        "ready": true,
+        "revision": "f54bf8e93b9d"
+      },
+      {
+        "id": "landscape-tree-xiyuan-vegetation-21",
+        "tier": 0,
+        "wanted": 0,
+        "ready": true,
+        "revision": "0a4f46039f51"
+      },
+      {
+        "id": "landscape-tree-xiyuan-vegetation-22",
+        "tier": 0,
+        "wanted": 0,
+        "ready": true,
+        "revision": "aaf4c119a0ad"
+      },
+      {
+        "id": "landscape-tree-xiyuan-vegetation-23",
+        "tier": 0,
+        "wanted": 0,
+        "ready": true,
+        "revision": "f104005c7b0a"
+      },
+      {
+        "id": "landscape-tree-xiyuan-vegetation-24",
+        "tier": 0,
+        "wanted": 0,
+        "ready": true,
+        "revision": "e3dbeb687120"
+      },
+      {
+        "id": "landscape-tree-xiyuan-vegetation-25",
+        "tier": 0,
+        "wanted": 0,
+        "ready": true,
+        "revision": "a280bbb00155"
+      },
+      {
+        "id": "landscape-tree-xiyuan-vegetation-26",
+        "tier": 0,
+        "wanted": 0,
+        "ready": true,
+        "revision": "aeb0eebe1118"
+      },
+      {
+        "id": "landscape-tree-xiyuan-vegetation-27",
+        "tier": 0,
+        "wanted": 0,
+        "ready": true,
+        "revision": "b43cceab3142"
+      },
+      {
+        "id": "landscape-tree-xiyuan-vegetation-28",
+        "tier": 0,
+        "wanted": 0,
+        "ready": true,
+        "revision": "9b864af355d2"
+      },
+      {
+        "id": "landscape-tree-xiyuan-vegetation-29",
+        "tier": 0,
+        "wanted": 0,
+        "ready": true,
+        "revision": "fcb6e3556987"
+      },
+      {
+        "id": "landscape-tree-xiyuan-vegetation-30",
+        "tier": 0,
+        "wanted": 0,
+        "ready": true,
+        "revision": "73b6dd126285"
+      },
+      {
+        "id": "landscape-tree-xiyuan-vegetation-31",
+        "tier": 0,
+        "wanted": 0,
+        "ready": true,
+        "revision": "0f5518b765e2"
+      },
+      {
+        "id": "landscape-tree-xiyuan-vegetation-32",
+        "tier": 0,
+        "wanted": 0,
+        "ready": true,
+        "revision": "7b70aa9e340a"
+      },
+      {
+        "id": "landscape-tree-xiyuan-vegetation-33",
+        "tier": 0,
+        "wanted": 0,
+        "ready": true,
+        "revision": "284948da4d6e"
+      },
+      {
+        "id": "landscape-tree-xiyuan-vegetation-34",
+        "tier": 0,
+        "wanted": 0,
+        "ready": true,
+        "revision": "23a5b92d91d8"
+      },
+      {
+        "id": "landscape-tree-xiyuan-vegetation-35",
+        "tier": 0,
+        "wanted": 0,
+        "ready": true,
+        "revision": "e16260c03726"
+      },
+      {
+        "id": "landscape-tree-xiyuan-vegetation-36",
+        "tier": 0,
+        "wanted": 0,
+        "ready": true,
+        "revision": "d2592ec7c5c1"
+      },
+      {
+        "id": "landscape-tree-xiyuan-vegetation-37",
+        "tier": 0,
+        "wanted": 0,
+        "ready": true,
+        "revision": "9bd93f3ad82b"
+      },
+      {
+        "id": "landscape-tree-xiyuan-vegetation-38",
+        "tier": 0,
+        "wanted": 0,
+        "ready": true,
+        "revision": "713e31f21177"
+      },
+      {
+        "id": "landscape-tree-xiyuan-vegetation-39",
+        "tier": 0,
+        "wanted": 0,
+        "ready": true,
+        "revision": "7a36f36329f8"
+      },
+      {
+        "id": "photo-yeyaozhen-structure",
+        "tier": 0,
+        "wanted": 0,
+        "ready": true,
+        "revision": "f4f644c57475"
+      },
+      {
+        "id": "photo-yeyaozhen-surface",
+        "tier": 0,
+        "wanted": 0,
+        "ready": true,
+        "revision": "63f3ee59a5f3"
+      },
+      {
+        "id": "photo-teaching3-structure",
+        "tier": 0,
+        "wanted": 0,
+        "ready": true,
+        "revision": "74192536547c"
+      },
+      {
+        "id": "photo-teaching3-surface",
+        "tier": 0,
+        "wanted": 0,
+        "ready": true,
+        "revision": "e9e9417988a5"
+      },
+      {
+        "id": "landscape-tree-teaching3-vegetation-00",
+        "tier": 0,
+        "wanted": 0,
+        "ready": true,
+        "revision": "ba84d5ae82e9"
+      },
+      {
+        "id": "landscape-tree-teaching3-vegetation-01",
+        "tier": 0,
+        "wanted": 0,
+        "ready": true,
+        "revision": "eb547d5f405d"
+      },
+      {
+        "id": "landscape-tree-teaching3-vegetation-02",
+        "tier": 0,
+        "wanted": 0,
+        "ready": true,
+        "revision": "7b49b188026f"
+      },
+      {
+        "id": "landscape-tree-teaching3-vegetation-03",
+        "tier": 0,
+        "wanted": 0,
+        "ready": true,
+        "revision": "5d9d1edc2faa"
+      },
+      {
+        "id": "photo-teaching3-vegetation-04",
+        "tier": 0,
+        "wanted": 0,
+        "ready": true,
+        "revision": "141f0570ea3b"
+      },
+      {
+        "id": "landscape-tree-teaching3-vegetation-05",
+        "tier": 0,
+        "wanted": 0,
+        "ready": true,
+        "revision": "73f529da8dd8"
+      },
+      {
+        "id": "landscape-tree-teaching3-vegetation-06",
+        "tier": 1,
+        "wanted": 1,
+        "ready": true,
+        "revision": "54269b05f65d"
+      },
+      {
+        "id": "landscape-tree-teaching3-vegetation-07",
+        "tier": 0,
+        "wanted": 0,
+        "ready": true,
+        "revision": "029441e03a96"
+      },
+      {
+        "id": "landscape-tree-teaching3-vegetation-08",
+        "tier": 1,
+        "wanted": 1,
+        "ready": true,
+        "revision": "cb5234275f19"
+      },
+      {
+        "id": "landscape-tree-teaching3-vegetation-09",
+        "tier": 0,
+        "wanted": 0,
+        "ready": true,
+        "revision": "cf56096098bc"
+      },
+      {
+        "id": "landscape-tree-teaching3-vegetation-10",
+        "tier": 1,
+        "wanted": 1,
+        "ready": true,
+        "revision": "8c95e3f86a32"
+      },
+      {
+        "id": "landscape-tree-teaching3-vegetation-11",
+        "tier": 1,
+        "wanted": 1,
+        "ready": true,
+        "revision": "3b262e7ecb3e"
+      },
+      {
+        "id": "landscape-tree-teaching3-vegetation-12",
+        "tier": 1,
+        "wanted": 1,
+        "ready": true,
+        "revision": "8c21597c113e"
+      },
+      {
+        "id": "landscape-tree-teaching3-vegetation-13",
+        "tier": 1,
+        "wanted": 1,
+        "ready": true,
+        "revision": "59236fdb6c45"
+      },
+      {
+        "id": "landscape-tree-teaching3-vegetation-14",
+        "tier": 1,
+        "wanted": 1,
+        "ready": true,
+        "revision": "7cf3707593aa"
+      },
+      {
+        "id": "landscape-tree-teaching3-vegetation-15",
+        "tier": 1,
+        "wanted": 1,
+        "ready": true,
+        "revision": "3e009f90126f"
+      },
+      {
+        "id": "landscape-tree-teaching3-vegetation-16",
+        "tier": 1,
+        "wanted": 1,
+        "ready": true,
+        "revision": "958ba6199e8f"
+      },
+      {
+        "id": "landscape-tree-teaching3-vegetation-17",
+        "tier": 1,
+        "wanted": 1,
+        "ready": true,
+        "revision": "2ccafff90659"
+      },
+      {
+        "id": "landscape-tree-teaching3-vegetation-18",
+        "tier": 1,
+        "wanted": 1,
+        "ready": true,
+        "revision": "c7fe192d4b74"
+      },
+      {
+        "id": "landscape-tree-teaching3-vegetation-19",
+        "tier": 1,
+        "wanted": 1,
+        "ready": true,
+        "revision": "368f51fc0449"
+      },
+      {
+        "id": "landscape-tree-teaching3-vegetation-20",
+        "tier": 1,
+        "wanted": 1,
+        "ready": true,
+        "revision": "9002ddac3ed6"
+      },
+      {
+        "id": "buildings-17",
+        "tier": 2,
+        "wanted": 2,
+        "ready": true,
+        "revision": "6103106ba475"
+      },
+      {
+        "id": "buildings-55",
+        "tier": 2,
+        "wanted": 2,
+        "ready": true,
+        "revision": "6417a3980820"
+      }
+    ]
+  },
+  "xrFrameRate": null,
+  "scope": "桌面帧间隔/JS提交时间；非GPU计时，非真实头显延迟",
+  "settings": {
+    "name": "cached-shadow",
+    "culling": true,
+    "shadows": true,
+    "warmupMs": 2000,
+    "sampleMs": 5000
+  },
+  "summary": {
+    "samples": 10,
+    "fps": 1.9179868809653489,
+    "meanIntervalMs": 521.3800000011921,
+    "medianIntervalMs": 512.4000000059605,
+    "p95IntervalMs": 606.3000000119209,
+    "p99IntervalMs": 606.3000000119209,
+    "meanSubmitMs": 79.14999999403953,
+    "meanCalls": 283,
+    "meanTriangles": 542601
+  },
+  "frames": [
+    {
+      "intervalMs": 518.2000000178814,
+      "submitMs": 56.19999998807907,
+      "calls": 283,
+      "triangles": 542601
+    },
+    {
+      "intervalMs": 523.6999999880791,
+      "submitMs": 68.5,
+      "calls": 283,
+      "triangles": 542601
+    },
+    {
+      "intervalMs": 534,
+      "submitMs": 65.40000000596046,
+      "calls": 283,
+      "triangles": 542601
+    },
+    {
+      "intervalMs": 512.4000000059605,
+      "submitMs": 70.7999999821186,
+      "calls": 283,
+      "triangles": 542601
+    },
+    {
+      "intervalMs": 492.09999999403954,
+      "submitMs": 97.80000001192093,
+      "calls": 283,
+      "triangles": 542601
+    },
+    {
+      "intervalMs": 546.1999999880791,
+      "submitMs": 89.7999999821186,
+      "calls": 283,
+      "triangles": 542601
+    },
+    {
+      "intervalMs": 474.80000001192093,
+      "submitMs": 194,
+      "calls": 283,
+      "triangles": 542601
+    },
+    {
+      "intervalMs": 510.5,
+      "submitMs": 7.5999999940395355,
+      "calls": 283,
+      "triangles": 542601
+    },
+    {
+      "intervalMs": 606.3000000119209,
+      "submitMs": 62.79999998211861,
+      "calls": 283,
+      "triangles": 542601
+    },
+    {
+      "intervalMs": 495.59999999403954,
+      "submitMs": 78.59999999403954,
+      "calls": 283,
+      "triangles": 542601
+    }
+  ],
+  "endedAt": "2026-11-14T15:08:08.884Z",
+  "lodAtEnd": {
+    "assets": 200,
+    "ready": 200,
+    "pending": 0,
+    "tiers": [
+      {
+        "id": "shared-00",
+        "tier": 0,
+        "wanted": 0,
+        "ready": true,
+        "revision": "b7e65d8f3d0e"
+      },
+      {
+        "id": "shared-01",
+        "tier": 2,
+        "wanted": 2,
+        "ready": true,
+        "revision": "f0ebd998b524"
+      },
+      {
+        "id": "shared-03",
+        "tier": 0,
+        "wanted": 0,
+        "ready": true,
+        "revision": "2de1db5ac6a0"
+      },
+      {
+        "id": "shared-04",
+        "tier": 0,
+        "wanted": 0,
+        "ready": true,
+        "revision": "fcf63fe1ba04"
+      },
+      {
+        "id": "shared-05",
+        "tier": 0,
+        "wanted": 0,
+        "ready": true,
+        "revision": "5763f35fa404"
+      },
+      {
+        "id": "shared-58",
+        "tier": 0,
+        "wanted": 0,
+        "ready": true,
+        "revision": "53c3486952bc"
+      },
+      {
+        "id": "buildings-3",
+        "tier": 0,
+        "wanted": 0,
+        "ready": true,
+        "revision": "3abdbc594262"
+      },
+      {
+        "id": "buildings-5",
+        "tier": 0,
+        "wanted": 0,
+        "ready": true,
+        "revision": "e98c3e9e1461"
+      },
+      {
+        "id": "buildings-7",
+        "tier": 0,
+        "wanted": 0,
+        "ready": true,
+        "revision": "0cff03508a0c"
+      },
+      {
+        "id": "buildings-14",
+        "tier": 2,
+        "wanted": 2,
+        "ready": true,
+        "revision": "0b6bffa0e4fa"
+      },
+      {
+        "id": "buildings-16",
+        "tier": 0,
+        "wanted": 0,
+        "ready": true,
+        "revision": "25ee8a29325c"
+      },
+      {
+        "id": "buildings-20",
+        "tier": 2,
+        "wanted": 2,
+        "ready": true,
+        "revision": "0c39e38a472a"
+      },
+      {
+        "id": "buildings-27",
+        "tier": 0,
+        "wanted": 0,
+        "ready": true,
+        "revision": "2fba4901629f"
+      },
+      {
+        "id": "buildings-42",
+        "tier": 0,
+        "wanted": 0,
+        "ready": true,
+        "revision": "86ff347ff0f0"
+      },
+      {
+        "id": "buildings-51",
+        "tier": 0,
+        "wanted": 0,
+        "ready": true,
+        "revision": "ade8660d5e95"
+      },
+      {
+        "id": "buildings-56",
+        "tier": 0,
+        "wanted": 0,
+        "ready": true,
+        "revision": "9270c7aec6c5"
+      },
+      {
+        "id": "buildings-65",
+        "tier": 0,
+        "wanted": 0,
+        "ready": true,
+        "revision": "6ebda68631da"
+      },
+      {
+        "id": "shared-guanghua-landscape",
+        "tier": 0,
+        "wanted": 0,
+        "ready": true,
+        "revision": "b0c90a4958f5"
+      },
+      {
+        "id": "guanghua-cherry",
+        "tier": 0,
+        "wanted": 0,
+        "ready": true,
+        "revision": "886fe7b18fef"
+      },
+      {
+        "id": "landscape-tree-00",
+        "tier": 0,
+        "wanted": 0,
+        "ready": true,
+        "revision": "da412f69a4f2"
+      },
+      {
+        "id": "landscape-tree-01",
+        "tier": 0,
+        "wanted": 0,
+        "ready": true,
+        "revision": "28ba35d1fd13"
+      },
+      {
+        "id": "landscape-tree-02",
+        "tier": 0,
+        "wanted": 0,
+        "ready": true,
+        "revision": "5100bf4d195b"
+      },
+      {
+        "id": "landscape-tree-03",
+        "tier": 0,
+        "wanted": 0,
+        "ready": true,
+        "revision": "887d57c4aa58"
+      },
+      {
+        "id": "landscape-tree-04",
+        "tier": 0,
+        "wanted": 0,
+        "ready": true,
+        "revision": "a0bd91f21ec4"
+      },
+      {
+        "id": "landscape-tree-05",
+        "tier": 0,
+        "wanted": 0,
+        "ready": true,
+        "revision": "d09d3ac4e44b"
+      },
+      {
+        "id": "landscape-tree-06",
+        "tier": 0,
+        "wanted": 0,
+        "ready": true,
+        "revision": "8f538b25d8c3"
+      },
+      {
+        "id": "landscape-tree-07",
+        "tier": 0,
+        "wanted": 0,
+        "ready": true,
+        "revision": "aa5fd9164514"
+      },
+      {
+        "id": "landscape-tree-08",
+        "tier": 0,
+        "wanted": 0,
+        "ready": true,
+        "revision": "ff36c3bcc4f7"
+      },
+      {
+        "id": "landscape-tree-09",
+        "tier": 0,
+        "wanted": 0,
+        "ready": true,
+        "revision": "86132faa1318"
+      },
+      {
+        "id": "landscape-tree-10",
+        "tier": 0,
+        "wanted": 0,
+        "ready": true,
+        "revision": "c985db56691b"
+      },
+      {
+        "id": "landscape-tree-11",
+        "tier": 0,
+        "wanted": 0,
+        "ready": true,
+        "revision": "11d35d0d20e1"
+      },
+      {
+        "id": "landscape-tree-12",
+        "tier": 0,
+        "wanted": 0,
+        "ready": true,
+        "revision": "7b72ad968032"
+      },
+      {
+        "id": "landscape-tree-13",
+        "tier": 0,
+        "wanted": 0,
+        "ready": true,
+        "revision": "ef2beb331982"
+      },
+      {
+        "id": "landscape-tree-14",
+        "tier": 0,
+        "wanted": 0,
+        "ready": true,
+        "revision": "3f1b172dff3b"
+      },
+      {
+        "id": "landscape-tree-15",
+        "tier": 0,
+        "wanted": 0,
+        "ready": true,
+        "revision": "9233508684d7"
+      },
+      {
+        "id": "landscape-tree-16",
+        "tier": 0,
+        "wanted": 0,
+        "ready": true,
+        "revision": "0d486c79392d"
+      },
+      {
+        "id": "landscape-tree-17",
+        "tier": 0,
+        "wanted": 0,
+        "ready": true,
+        "revision": "3b087e5aa628"
+      },
+      {
+        "id": "landscape-tree-18",
+        "tier": 0,
+        "wanted": 0,
+        "ready": true,
+        "revision": "59326eb947d0"
+      },
+      {
+        "id": "landscape-tree-19",
+        "tier": 0,
+        "wanted": 0,
+        "ready": true,
+        "revision": "68f26f45af1d"
+      },
+      {
+        "id": "landscape-tree-20",
+        "tier": 0,
+        "wanted": 0,
+        "ready": true,
+        "revision": "f6a7e939f249"
+      },
+      {
+        "id": "landscape-tree-21",
+        "tier": 0,
+        "wanted": 0,
+        "ready": true,
+        "revision": "561273fb74f3"
+      },
+      {
+        "id": "landscape-tree-22",
+        "tier": 0,
+        "wanted": 0,
+        "ready": true,
+        "revision": "20e44fa2e180"
+      },
+      {
+        "id": "landscape-tree-23",
+        "tier": 0,
+        "wanted": 0,
+        "ready": true,
+        "revision": "66f6e3da47ee"
+      },
+      {
+        "id": "landscape-tree-24",
+        "tier": 0,
+        "wanted": 0,
+        "ready": true,
+        "revision": "fd47d70bcdd7"
+      },
+      {
+        "id": "landscape-tree-25",
+        "tier": 0,
+        "wanted": 0,
+        "ready": true,
+        "revision": "e8605e2deea4"
+      },
+      {
+        "id": "landscape-tree-26",
+        "tier": 0,
+        "wanted": 0,
+        "ready": true,
+        "revision": "59d5528888fc"
+      },
+      {
+        "id": "landscape-tree-27",
+        "tier": 0,
+        "wanted": 0,
+        "ready": true,
+        "revision": "751c910d3852"
+      },
+      {
+        "id": "landscape-tree-28",
+        "tier": 0,
+        "wanted": 0,
+        "ready": true,
+        "revision": "5fd8845dc82b"
+      },
+      {
+        "id": "landscape-tree-29",
+        "tier": 0,
+        "wanted": 0,
+        "ready": true,
+        "revision": "0117cbf06fd2"
+      },
+      {
+        "id": "landscape-tree-30",
+        "tier": 0,
+        "wanted": 0,
+        "ready": true,
+        "revision": "a3bf42ce7f82"
+      },
+      {
+        "id": "landscape-tree-31",
+        "tier": 0,
+        "wanted": 0,
+        "ready": true,
+        "revision": "ac8a45a4b96d"
+      },
+      {
+        "id": "landscape-tree-32",
+        "tier": 0,
+        "wanted": 0,
+        "ready": true,
+        "revision": "e1c11c11b685"
+      },
+      {
+        "id": "landscape-tree-33",
+        "tier": 0,
+        "wanted": 0,
+        "ready": true,
+        "revision": "c80bf666194b"
+      },
+      {
+        "id": "landscape-tree-34",
+        "tier": 0,
+        "wanted": 0,
+        "ready": true,
+        "revision": "8479f3acd0cb"
+      },
+      {
+        "id": "landscape-tree-35",
+        "tier": 0,
+        "wanted": 0,
+        "ready": true,
+        "revision": "abfa9425cad9"
+      },
+      {
+        "id": "landscape-tree-36",
+        "tier": 0,
+        "wanted": 0,
+        "ready": true,
+        "revision": "cb5a887df3b1"
+      },
+      {
+        "id": "landscape-tree-37",
+        "tier": 0,
+        "wanted": 0,
+        "ready": true,
+        "revision": "05df91994d86"
+      },
+      {
+        "id": "landscape-tree-38",
+        "tier": 0,
+        "wanted": 0,
+        "ready": true,
+        "revision": "74457723217d"
+      },
+      {
+        "id": "landscape-tree-39",
+        "tier": 0,
+        "wanted": 0,
+        "ready": true,
+        "revision": "50fa85049412"
+      },
+      {
+        "id": "landscape-tree-40",
+        "tier": 0,
+        "wanted": 0,
+        "ready": true,
+        "revision": "f784c8ef7464"
+      },
+      {
+        "id": "landscape-tree-41",
+        "tier": 0,
+        "wanted": 0,
+        "ready": true,
+        "revision": "2a340afa29d6"
+      },
+      {
+        "id": "landscape-tree-42",
+        "tier": 0,
+        "wanted": 0,
+        "ready": true,
+        "revision": "5a82595e1711"
+      },
+      {
+        "id": "landscape-tree-43",
+        "tier": 0,
+        "wanted": 0,
+        "ready": true,
+        "revision": "ca368028cc2f"
+      },
+      {
+        "id": "landscape-tree-44",
+        "tier": 0,
+        "wanted": 0,
+        "ready": true,
+        "revision": "ea3bb129421b"
+      },
+      {
+        "id": "landscape-tree-45",
+        "tier": 0,
+        "wanted": 0,
+        "ready": true,
+        "revision": "6eda9fd756a0"
+      },
+      {
+        "id": "landscape-tree-46",
+        "tier": 0,
+        "wanted": 0,
+        "ready": true,
+        "revision": "7fb085f0644e"
+      },
+      {
+        "id": "landscape-tree-47",
+        "tier": 0,
+        "wanted": 0,
+        "ready": true,
+        "revision": "9f712878e0d1"
+      },
+      {
+        "id": "landscape-shrub-48",
+        "tier": 0,
+        "wanted": 0,
+        "ready": true,
+        "revision": "1134fe472f58"
+      },
+      {
+        "id": "landscape-shrub-49",
+        "tier": 0,
+        "wanted": 0,
+        "ready": true,
+        "revision": "18b6dc84aab8"
+      },
+      {
+        "id": "landscape-shrub-50",
+        "tier": 0,
+        "wanted": 0,
+        "ready": true,
+        "revision": "f117c4fb373e"
+      },
+      {
+        "id": "landscape-shrub-51",
+        "tier": 0,
+        "wanted": 0,
+        "ready": true,
+        "revision": "a2d5673cb90b"
+      },
+      {
+        "id": "landscape-shrub-52",
+        "tier": 0,
+        "wanted": 0,
+        "ready": true,
+        "revision": "f599e692dcc6"
+      },
+      {
+        "id": "landscape-shrub-53",
+        "tier": 0,
+        "wanted": 0,
+        "ready": true,
+        "revision": "7bbec2ac2a24"
+      },
+      {
+        "id": "landscape-shrub-54",
+        "tier": 0,
+        "wanted": 0,
+        "ready": true,
+        "revision": "75d38d54b0e8"
+      },
+      {
+        "id": "landscape-shrub-55",
+        "tier": 0,
+        "wanted": 0,
+        "ready": true,
+        "revision": "085efa5f68af"
+      },
+      {
+        "id": "landscape-shrub-56",
+        "tier": 0,
+        "wanted": 0,
+        "ready": true,
+        "revision": "ae05cd7b3ce1"
+      },
+      {
+        "id": "landscape-shrub-57",
+        "tier": 0,
+        "wanted": 0,
+        "ready": true,
+        "revision": "623899ab0961"
+      },
+      {
+        "id": "landscape-shrub-58",
+        "tier": 0,
+        "wanted": 0,
+        "ready": true,
+        "revision": "f3b845e465cc"
+      },
+      {
+        "id": "landscape-shrub-59",
+        "tier": 0,
+        "wanted": 0,
+        "ready": true,
+        "revision": "a5046e73ab3c"
+      },
+      {
+        "id": "landscape-shrub-60",
+        "tier": 0,
+        "wanted": 0,
+        "ready": true,
+        "revision": "18719db9f8da"
+      },
+      {
+        "id": "landscape-shrub-61",
+        "tier": 0,
+        "wanted": 0,
+        "ready": true,
+        "revision": "7df02b52a85a"
+      },
+      {
+        "id": "landscape-shrub-62",
+        "tier": 0,
+        "wanted": 0,
+        "ready": true,
+        "revision": "4f0b3a966d5f"
+      },
+      {
+        "id": "campus-tree--5_-4",
+        "tier": 0,
+        "wanted": 0,
+        "ready": true,
+        "revision": "266737b7db59"
+      },
+      {
+        "id": "campus-tree--4_-4",
+        "tier": 1,
+        "wanted": 1,
+        "ready": true,
+        "revision": "2b1b408c26db"
+      },
+      {
+        "id": "campus-tree--3_-4",
+        "tier": 1,
+        "wanted": 1,
+        "ready": true,
+        "revision": "fa5cca6ac168"
+      },
+      {
+        "id": "campus-tree--2_-4",
+        "tier": 1,
+        "wanted": 1,
+        "ready": true,
+        "revision": "d4baf46074b7"
+      },
+      {
+        "id": "campus-tree--1_-4",
+        "tier": 1,
+        "wanted": 1,
+        "ready": true,
+        "revision": "a7c840ee605c"
+      },
+      {
+        "id": "campus-tree-0_-4",
+        "tier": 0,
+        "wanted": 0,
+        "ready": true,
+        "revision": "06fdb0763948"
+      },
+      {
+        "id": "campus-tree-1_-4",
+        "tier": 0,
+        "wanted": 0,
+        "ready": true,
+        "revision": "f3206c7c6212"
+      },
+      {
+        "id": "campus-tree-2_-4",
+        "tier": 0,
+        "wanted": 0,
+        "ready": true,
+        "revision": "dd96fa074951"
+      },
+      {
+        "id": "campus-tree-3_-4",
+        "tier": 0,
+        "wanted": 0,
+        "ready": true,
+        "revision": "853cc6fc471a"
+      },
+      {
+        "id": "campus-tree--5_-3",
+        "tier": 1,
+        "wanted": 1,
+        "ready": true,
+        "revision": "40459b66a415"
+      },
+      {
+        "id": "campus-tree--4_-3",
+        "tier": 1,
+        "wanted": 1,
+        "ready": true,
+        "revision": "0463241afb42"
+      },
+      {
+        "id": "campus-tree--2_-3",
+        "tier": 2,
+        "wanted": 2,
+        "ready": true,
+        "revision": "eafa75ae9ed3"
+      },
+      {
+        "id": "campus-tree-2_-3",
+        "tier": 0,
+        "wanted": 0,
+        "ready": true,
+        "revision": "73f61d3bc864"
+      },
+      {
+        "id": "campus-tree-3_-3",
+        "tier": 0,
+        "wanted": 0,
+        "ready": true,
+        "revision": "6a4c7e1d883d"
+      },
+      {
+        "id": "campus-tree--5_-1",
+        "tier": 0,
+        "wanted": 0,
+        "ready": true,
+        "revision": "d496135bbc40"
+      },
+      {
+        "id": "campus-tree--4_-1",
+        "tier": 1,
+        "wanted": 1,
+        "ready": true,
+        "revision": "d8be87f76f76"
+      },
+      {
+        "id": "campus-tree--3_-1",
+        "tier": 1,
+        "wanted": 1,
+        "ready": true,
+        "revision": "529af2d42e44"
+      },
+      {
+        "id": "campus-tree--1_-1",
+        "tier": 1,
+        "wanted": 1,
+        "ready": true,
+        "revision": "731e1dd6d9ff"
+      },
+      {
+        "id": "campus-tree-0_-1",
+        "tier": 0,
+        "wanted": 0,
+        "ready": true,
+        "revision": "cd98004d219a"
+      },
+      {
+        "id": "campus-tree-1_-1",
+        "tier": 0,
+        "wanted": 0,
+        "ready": true,
+        "revision": "c9dda014d23b"
+      },
+      {
+        "id": "campus-tree-2_-1",
+        "tier": 0,
+        "wanted": 0,
+        "ready": true,
+        "revision": "6d139807da08"
+      },
+      {
+        "id": "campus-tree-3_-1",
+        "tier": 0,
+        "wanted": 0,
+        "ready": true,
+        "revision": "dd1acae908bd"
+      },
+      {
+        "id": "campus-tree--2_-1",
+        "tier": 1,
+        "wanted": 1,
+        "ready": true,
+        "revision": "126727b0faee"
+      },
+      {
+        "id": "campus-tree-0_-3",
+        "tier": 1,
+        "wanted": 1,
+        "ready": true,
+        "revision": "1eb3d6087a20"
+      },
+      {
+        "id": "campus-tree-0_-2",
+        "tier": 1,
+        "wanted": 1,
+        "ready": true,
+        "revision": "cd0d520aec8e"
+      },
+      {
+        "id": "campus-tree-2_-2",
+        "tier": 0,
+        "wanted": 0,
+        "ready": true,
+        "revision": "9af93bb8ccf1"
+      },
+      {
+        "id": "campus-tree-3_-2",
+        "tier": 0,
+        "wanted": 0,
+        "ready": true,
+        "revision": "8a54681c7cd6"
+      },
+      {
+        "id": "campus-tree--1_-2",
+        "tier": 2,
+        "wanted": 2,
+        "ready": true,
+        "revision": "3830fe8ec932"
+      },
+      {
+        "id": "campus-tree-5_-3",
+        "tier": 0,
+        "wanted": 0,
+        "ready": true,
+        "revision": "f4746ffb78d8"
+      },
+      {
+        "id": "campus-tree-5_-4",
+        "tier": 0,
+        "wanted": 0,
+        "ready": true,
+        "revision": "dd98a9cc8834"
+      },
+      {
+        "id": "campus-tree--2_-2",
+        "tier": 2,
+        "wanted": 2,
+        "ready": true,
+        "revision": "dace4d0f3397"
+      },
+      {
+        "id": "campus-tree--4_-2",
+        "tier": 1,
+        "wanted": 1,
+        "ready": true,
+        "revision": "dcacc0f89a77"
+      },
+      {
+        "id": "campus-tree-4_-3",
+        "tier": 0,
+        "wanted": 0,
+        "ready": true,
+        "revision": "a589d34b4318"
+      },
+      {
+        "id": "campus-tree-5_-2",
+        "tier": 0,
+        "wanted": 0,
+        "ready": true,
+        "revision": "d9abaf8d4541"
+      },
+      {
+        "id": "campus-tree-4_-4",
+        "tier": 0,
+        "wanted": 0,
+        "ready": true,
+        "revision": "21ae364080dd"
+      },
+      {
+        "id": "campus-tree-5_-1",
+        "tier": 0,
+        "wanted": 0,
+        "ready": true,
+        "revision": "a125359c1c17"
+      },
+      {
+        "id": "campus-tree--1_-3",
+        "tier": 2,
+        "wanted": 2,
+        "ready": true,
+        "revision": "7d5d034d96cd"
+      },
+      {
+        "id": "campus-tree-4_-2",
+        "tier": 0,
+        "wanted": 0,
+        "ready": true,
+        "revision": "017e32bc56fe"
+      },
+      {
+        "id": "campus-tree--3_-3",
+        "tier": 2,
+        "wanted": 2,
+        "ready": true,
+        "revision": "c89d8fd5133a"
+      },
+      {
+        "id": "campus-tree--5_-2",
+        "tier": 0,
+        "wanted": 0,
+        "ready": true,
+        "revision": "963a38c6e688"
+      },
+      {
+        "id": "campus-tree-1_-2",
+        "tier": 0,
+        "wanted": 0,
+        "ready": true,
+        "revision": "39a5bb4d7fb7"
+      },
+      {
+        "id": "campus-tree-4_-1",
+        "tier": 0,
+        "wanted": 0,
+        "ready": true,
+        "revision": "4c010ba0256c"
+      },
+      {
+        "id": "campus-tree--7_-8",
+        "tier": 0,
+        "wanted": 0,
+        "ready": true,
+        "revision": "8a4f56fbed1f"
+      },
+      {
+        "id": "campus-tree--7_-7",
+        "tier": 0,
+        "wanted": 0,
+        "ready": true,
+        "revision": "2ad3d42ad5c0"
+      },
+      {
+        "id": "campus-tree--6_-6",
+        "tier": 0,
+        "wanted": 0,
+        "ready": true,
+        "revision": "2c9ee7b77fe3"
+      },
+      {
+        "id": "campus-tree--6_-5",
+        "tier": 0,
+        "wanted": 0,
+        "ready": true,
+        "revision": "59f15e16dae3"
+      },
+      {
+        "id": "campus-tree--3_-2",
+        "tier": 2,
+        "wanted": 2,
+        "ready": true,
+        "revision": "76ab719e3eae"
+      },
+      {
+        "id": "campus-tree-6_-1",
+        "tier": 0,
+        "wanted": 0,
+        "ready": true,
+        "revision": "501a5d61614c"
+      },
+      {
+        "id": "shared-02",
+        "tier": 2,
+        "wanted": 2,
+        "ready": true,
+        "revision": "0a37d6323683"
+      },
+      {
+        "id": "photo-xiyuan-structure",
+        "tier": 0,
+        "wanted": 0,
+        "ready": true,
+        "revision": "a5740f26f3fb"
+      },
+      {
+        "id": "photo-xiyuan-surface",
+        "tier": 0,
+        "wanted": 0,
+        "ready": true,
+        "revision": "2d4cd8aa73cd"
+      },
+      {
+        "id": "landscape-tree-xiyuan-vegetation-00",
+        "tier": 0,
+        "wanted": 0,
+        "ready": true,
+        "revision": "5fdea33e1256"
+      },
+      {
+        "id": "landscape-tree-xiyuan-vegetation-01",
+        "tier": 0,
+        "wanted": 0,
+        "ready": true,
+        "revision": "43101071e23c"
+      },
+      {
+        "id": "landscape-tree-xiyuan-vegetation-02",
+        "tier": 0,
+        "wanted": 0,
+        "ready": true,
+        "revision": "65a137c03d21"
+      },
+      {
+        "id": "landscape-tree-xiyuan-vegetation-03",
+        "tier": 0,
+        "wanted": 0,
+        "ready": true,
+        "revision": "e33289dc2180"
+      },
+      {
+        "id": "landscape-tree-xiyuan-vegetation-04",
+        "tier": 0,
+        "wanted": 0,
+        "ready": true,
+        "revision": "5cd8ba453eba"
+      },
+      {
+        "id": "landscape-tree-xiyuan-vegetation-05",
+        "tier": 0,
+        "wanted": 0,
+        "ready": true,
+        "revision": "598bccff773c"
+      },
+      {
+        "id": "landscape-tree-xiyuan-vegetation-06",
+        "tier": 0,
+        "wanted": 0,
+        "ready": true,
+        "revision": "7360e78052d1"
+      },
+      {
+        "id": "landscape-tree-xiyuan-vegetation-07",
+        "tier": 0,
+        "wanted": 0,
+        "ready": true,
+        "revision": "6b324a4d4edc"
+      },
+      {
+        "id": "photo-xiyuan-vegetation-08",
+        "tier": 0,
+        "wanted": 0,
+        "ready": true,
+        "revision": "667ac98f1694"
+      },
+      {
+        "id": "landscape-tree-xiyuan-vegetation-09",
+        "tier": 0,
+        "wanted": 0,
+        "ready": true,
+        "revision": "15aa175a03cf"
+      },
+      {
+        "id": "landscape-tree-xiyuan-vegetation-10",
+        "tier": 0,
+        "wanted": 0,
+        "ready": true,
+        "revision": "877570039a11"
+      },
+      {
+        "id": "landscape-tree-xiyuan-vegetation-11",
+        "tier": 0,
+        "wanted": 0,
+        "ready": true,
+        "revision": "7b00d6ca0373"
+      },
+      {
+        "id": "landscape-tree-xiyuan-vegetation-12",
+        "tier": 0,
+        "wanted": 0,
+        "ready": true,
+        "revision": "ad7392b60e61"
+      },
+      {
+        "id": "landscape-tree-xiyuan-vegetation-13",
+        "tier": 0,
+        "wanted": 0,
+        "ready": true,
+        "revision": "3077c7d0a1a2"
+      },
+      {
+        "id": "landscape-tree-xiyuan-vegetation-14",
+        "tier": 0,
+        "wanted": 0,
+        "ready": true,
+        "revision": "1fa82e8d3f47"
+      },
+      {
+        "id": "landscape-tree-xiyuan-vegetation-15",
+        "tier": 0,
+        "wanted": 0,
+        "ready": true,
+        "revision": "6ca86fdfc69d"
+      },
+      {
+        "id": "photo-xiyuan-vegetation-16",
+        "tier": 0,
+        "wanted": 0,
+        "ready": true,
+        "revision": "266c55c49f18"
+      },
+      {
+        "id": "landscape-tree-xiyuan-vegetation-17",
+        "tier": 0,
+        "wanted": 0,
+        "ready": true,
+        "revision": "c560ce357753"
+      },
+      {
+        "id": "landscape-tree-xiyuan-vegetation-18",
+        "tier": 0,
+        "wanted": 0,
+        "ready": true,
+        "revision": "69debd90b2eb"
+      },
+      {
+        "id": "landscape-tree-xiyuan-vegetation-19",
+        "tier": 0,
+        "wanted": 0,
+        "ready": true,
+        "revision": "2fc6dd0479e1"
+      },
+      {
+        "id": "landscape-tree-xiyuan-vegetation-20",
+        "tier": 0,
+        "wanted": 0,
+        "ready": true,
+        "revision": "f54bf8e93b9d"
+      },
+      {
+        "id": "landscape-tree-xiyuan-vegetation-21",
+        "tier": 0,
+        "wanted": 0,
+        "ready": true,
+        "revision": "0a4f46039f51"
+      },
+      {
+        "id": "landscape-tree-xiyuan-vegetation-22",
+        "tier": 0,
+        "wanted": 0,
+        "ready": true,
+        "revision": "aaf4c119a0ad"
+      },
+      {
+        "id": "landscape-tree-xiyuan-vegetation-23",
+        "tier": 0,
+        "wanted": 0,
+        "ready": true,
+        "revision": "f104005c7b0a"
+      },
+      {
+        "id": "landscape-tree-xiyuan-vegetation-24",
+        "tier": 0,
+        "wanted": 0,
+        "ready": true,
+        "revision": "e3dbeb687120"
+      },
+      {
+        "id": "landscape-tree-xiyuan-vegetation-25",
+        "tier": 0,
+        "wanted": 0,
+        "ready": true,
+        "revision": "a280bbb00155"
+      },
+      {
+        "id": "landscape-tree-xiyuan-vegetation-26",
+        "tier": 0,
+        "wanted": 0,
+        "ready": true,
+        "revision": "aeb0eebe1118"
+      },
+      {
+        "id": "landscape-tree-xiyuan-vegetation-27",
+        "tier": 0,
+        "wanted": 0,
+        "ready": true,
+        "revision": "b43cceab3142"
+      },
+      {
+        "id": "landscape-tree-xiyuan-vegetation-28",
+        "tier": 0,
+        "wanted": 0,
+        "ready": true,
+        "revision": "9b864af355d2"
+      },
+      {
+        "id": "landscape-tree-xiyuan-vegetation-29",
+        "tier": 0,
+        "wanted": 0,
+        "ready": true,
+        "revision": "fcb6e3556987"
+      },
+      {
+        "id": "landscape-tree-xiyuan-vegetation-30",
+        "tier": 0,
+        "wanted": 0,
+        "ready": true,
+        "revision": "73b6dd126285"
+      },
+      {
+        "id": "landscape-tree-xiyuan-vegetation-31",
+        "tier": 0,
+        "wanted": 0,
+        "ready": true,
+        "revision": "0f5518b765e2"
+      },
+      {
+        "id": "landscape-tree-xiyuan-vegetation-32",
+        "tier": 0,
+        "wanted": 0,
+        "ready": true,
+        "revision": "7b70aa9e340a"
+      },
+      {
+        "id": "landscape-tree-xiyuan-vegetation-33",
+        "tier": 0,
+        "wanted": 0,
+        "ready": true,
+        "revision": "284948da4d6e"
+      },
+      {
+        "id": "landscape-tree-xiyuan-vegetation-34",
+        "tier": 0,
+        "wanted": 0,
+        "ready": true,
+        "revision": "23a5b92d91d8"
+      },
+      {
+        "id": "landscape-tree-xiyuan-vegetation-35",
+        "tier": 0,
+        "wanted": 0,
+        "ready": true,
+        "revision": "e16260c03726"
+      },
+      {
+        "id": "landscape-tree-xiyuan-vegetation-36",
+        "tier": 0,
+        "wanted": 0,
+        "ready": true,
+        "revision": "d2592ec7c5c1"
+      },
+      {
+        "id": "landscape-tree-xiyuan-vegetation-37",
+        "tier": 0,
+        "wanted": 0,
+        "ready": true,
+        "revision": "9bd93f3ad82b"
+      },
+      {
+        "id": "landscape-tree-xiyuan-vegetation-38",
+        "tier": 0,
+        "wanted": 0,
+        "ready": true,
+        "revision": "713e31f21177"
+      },
+      {
+        "id": "landscape-tree-xiyuan-vegetation-39",
+        "tier": 0,
+        "wanted": 0,
+        "ready": true,
+        "revision": "7a36f36329f8"
+      },
+      {
+        "id": "photo-yeyaozhen-structure",
+        "tier": 0,
+        "wanted": 0,
+        "ready": true,
+        "revision": "f4f644c57475"
+      },
+      {
+        "id": "photo-yeyaozhen-surface",
+        "tier": 0,
+        "wanted": 0,
+        "ready": true,
+        "revision": "63f3ee59a5f3"
+      },
+      {
+        "id": "photo-teaching3-structure",
+        "tier": 0,
+        "wanted": 0,
+        "ready": true,
+        "revision": "74192536547c"
+      },
+      {
+        "id": "photo-teaching3-surface",
+        "tier": 0,
+        "wanted": 0,
+        "ready": true,
+        "revision": "e9e9417988a5"
+      },
+      {
+        "id": "landscape-tree-teaching3-vegetation-00",
+        "tier": 0,
+        "wanted": 0,
+        "ready": true,
+        "revision": "ba84d5ae82e9"
+      },
+      {
+        "id": "landscape-tree-teaching3-vegetation-01",
+        "tier": 0,
+        "wanted": 0,
+        "ready": true,
+        "revision": "eb547d5f405d"
+      },
+      {
+        "id": "landscape-tree-teaching3-vegetation-02",
+        "tier": 0,
+        "wanted": 0,
+        "ready": true,
+        "revision": "7b49b188026f"
+      },
+      {
+        "id": "landscape-tree-teaching3-vegetation-03",
+        "tier": 0,
+        "wanted": 0,
+        "ready": true,
+        "revision": "5d9d1edc2faa"
+      },
+      {
+        "id": "photo-teaching3-vegetation-04",
+        "tier": 0,
+        "wanted": 0,
+        "ready": true,
+        "revision": "141f0570ea3b"
+      },
+      {
+        "id": "landscape-tree-teaching3-vegetation-05",
+        "tier": 0,
+        "wanted": 0,
+        "ready": true,
+        "revision": "73f529da8dd8"
+      },
+      {
+        "id": "landscape-tree-teaching3-vegetation-06",
+        "tier": 1,
+        "wanted": 1,
+        "ready": true,
+        "revision": "54269b05f65d"
+      },
+      {
+        "id": "landscape-tree-teaching3-vegetation-07",
+        "tier": 0,
+        "wanted": 0,
+        "ready": true,
+        "revision": "029441e03a96"
+      },
+      {
+        "id": "landscape-tree-teaching3-vegetation-08",
+        "tier": 1,
+        "wanted": 1,
+        "ready": true,
+        "revision": "cb5234275f19"
+      },
+      {
+        "id": "landscape-tree-teaching3-vegetation-09",
+        "tier": 0,
+        "wanted": 0,
+        "ready": true,
+        "revision": "cf56096098bc"
+      },
+      {
+        "id": "landscape-tree-teaching3-vegetation-10",
+        "tier": 1,
+        "wanted": 1,
+        "ready": true,
+        "revision": "8c95e3f86a32"
+      },
+      {
+        "id": "landscape-tree-teaching3-vegetation-11",
+        "tier": 1,
+        "wanted": 1,
+        "ready": true,
+        "revision": "3b262e7ecb3e"
+      },
+      {
+        "id": "landscape-tree-teaching3-vegetation-12",
+        "tier": 1,
+        "wanted": 1,
+        "ready": true,
+        "revision": "8c21597c113e"
+      },
+      {
+        "id": "landscape-tree-teaching3-vegetation-13",
+        "tier": 1,
+        "wanted": 1,
+        "ready": true,
+        "revision": "59236fdb6c45"
+      },
+      {
+        "id": "landscape-tree-teaching3-vegetation-14",
+        "tier": 1,
+        "wanted": 1,
+        "ready": true,
+        "revision": "7cf3707593aa"
+      },
+      {
+        "id": "landscape-tree-teaching3-vegetation-15",
+        "tier": 1,
+        "wanted": 1,
+        "ready": true,
+        "revision": "3e009f90126f"
+      },
+      {
+        "id": "landscape-tree-teaching3-vegetation-16",
+        "tier": 1,
+        "wanted": 1,
+        "ready": true,
+        "revision": "958ba6199e8f"
+      },
+      {
+        "id": "landscape-tree-teaching3-vegetation-17",
+        "tier": 1,
+        "wanted": 1,
+        "ready": true,
+        "revision": "2ccafff90659"
+      },
+      {
+        "id": "landscape-tree-teaching3-vegetation-18",
+        "tier": 1,
+        "wanted": 1,
+        "ready": true,
+        "revision": "c7fe192d4b74"
+      },
+      {
+        "id": "landscape-tree-teaching3-vegetation-19",
+        "tier": 1,
+        "wanted": 1,
+        "ready": true,
+        "revision": "368f51fc0449"
+      },
+      {
+        "id": "landscape-tree-teaching3-vegetation-20",
+        "tier": 1,
+        "wanted": 1,
+        "ready": true,
+        "revision": "9002ddac3ed6"
+      },
+      {
+        "id": "buildings-17",
+        "tier": 2,
+        "wanted": 2,
+        "ready": true,
+        "revision": "6103106ba475"
+      },
+      {
+        "id": "buildings-55",
+        "tier": 2,
+        "wanted": 2,
+        "ready": true,
+        "revision": "6417a3980820"
+      }
+    ]
+  },
+  "round": 2,
+  "variant": "cached-shadow"
+}

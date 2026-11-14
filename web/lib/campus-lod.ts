@@ -16,6 +16,7 @@ export class CampusLod {
  private entries:{asset:LodAsset;box:THREE.Box3;far:THREE.Group;ready:boolean;detail?:THREE.Group;current:Tier;wanted:Tier;request?:AbortController;retryAt:number;failures:number}[]=[];
  private pending=new Set<AbortController>();
  constructor(private root:THREE.Group,private base:string,private mobile:boolean,private prepare:(g:THREE.Group)=>void,private changed:()=>void){}
+ status(){return {assets:this.entries.length,ready:this.entries.filter(e=>e.ready).length,pending:this.pending.size,tiers:this.entries.map(e=>({id:e.asset.id,tier:e.current,wanted:e.wanted,ready:e.ready,revision:e.asset.tiers[e.current].revision}))};}
  private async load(asset:LodAsset,tier:Tier,signal:AbortSignal){
   const file=asset.tiers[tier];const url=new URL(file.url,this.base);url.searchParams.set('v',file.revision);
   const response=await fetch(url,{signal});if(!response.ok)throw Error(`${asset.name}: ${response.status}`);

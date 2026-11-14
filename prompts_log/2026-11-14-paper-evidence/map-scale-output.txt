@@ -1,0 +1,54 @@
+{
+  "source": "web/public/campus-map.png",
+  "source_sha256": "919ec9807cb0aee7ebc568ee0c8f370ecdc6f8ebf0e5f06f7dd1a3fea81bffc5",
+  "image_size": [
+    3508,
+    2480
+  ],
+  "source_type": "既有Fudan校园导览图，不是本轮高德截图；原发布方/年份未核实",
+  "coordinate_convention": "原图像素，左上原点，x向右，y向下",
+  "selection": "人工读取示意线外缘，非自动地物分割",
+  "scale_bar": {
+    "points": [
+      [
+        2089,
+        849
+      ],
+      [
+        2511,
+        849
+      ]
+    ],
+    "pixels": 422.0,
+    "metres": 200
+  },
+  "building_17": {
+    "points": [
+      [
+        1828,
+        1380
+      ],
+      [
+        1920,
+        1380
+      ]
+    ],
+    "pixels": 92.0,
+    "direction": "图面左右的楼体主轴，对应模型本地X；不是精确地理东西轴"
+  },
+  "metres_per_pixel": 0.47393364928909953,
+  "map_estimated_width_m": 43.60189573459716,
+  "model_wall_width_units": 40.8,
+  "reference_metres_per_model_unit": 1.068673915063656,
+  "model_vs_map_relative_difference_percent": -6.426086956521748,
+  "pixel_reading_sensitivity": {
+    "endpoint_error_px": 2,
+    "span_error_px": 4,
+    "width_m_range": [
+      41.31455399061033,
+      45.933014354066984
+    ],
+    "meaning": "仅像素端点误差敏感性，不包括地图概化/形变；不是统计置信区间"
+  },
+  "status": "地图比例尺估算与模型尺度交叉校核，非实地测量；不改变现有1unit约1m工程约定，不统一缩放全校园"
+}

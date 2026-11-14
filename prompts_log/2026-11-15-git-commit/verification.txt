@@ -1,0 +1,9 @@
+提交前核验（2026-11-15）
+27项实际回归测试通过，0失败，原始输出见tests.txt。
+node node_modules/typescript/bin/tsc -p tsconfig.campus.json 退出码0。
+25个论文归档文件与仓库外原件SHA256一致；Word容器ZIP检查通过；无单文件超过50MiB。
+web/scripts/docs/course-paper源码暂存空白检查通过；原始工具日志保留原输出。
+暂存区不包含建筑模型、manifest、LOD或碰撞修改。
+course-paper设置-text保留原字节，避免Git换行转换破坏来源哈希。
+保留原CRLF后，首次暂存空白检查将CR识别为trailing whitespace并停止，未执行提交；为该归档目录声明whitespace=cr-at-eol，使Git正确识别原始行尾，再次核验。未修改原文或绕过源文件哈希检查。
+提交包含当前作者命名Word、最新三联图生成稿与阅读PDF；不把阅读PDF说成作者命名Word的原生导出。

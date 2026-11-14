@@ -1,0 +1,166 @@
+TAP version 13
+# Subtest: 模拟旋转平滑在30/60/90Hz下具有相同收敛结果，采用四元数最短路径
+ok 1 - 模拟旋转平滑在30/60/90Hz下具有相同收敛结果，采用四元数最短路径
+  ---
+  duration_ms: 1.3044
+  type: 'test'
+  ...
+# Subtest: XR/实验每帧提交，不受桌面30/60Hz限帧或脏帧影响
+ok 2 - XR/实验每帧提交，不受桌面30/60Hz限帧或脏帧影响
+  ---
+  duration_ms: 0.2212
+  type: 'test'
+  ...
+# Subtest: 观察点为米制站立地面坐标，无遮挡建筑外侧
+ok 3 - 观察点为米制站立地面坐标，无遮挡建筑外侧
+  ---
+  duration_ms: 0.7344
+  type: 'test'
+  ...
+# Subtest: 帧统计拒绝无效值并保留可复核口径，不把平均瞬时FPS当整体FPS
+ok 4 - 帧统计拒绝无效值并保留可复核口径，不把平均瞬时FPS当整体FPS
+  ---
+  duration_ms: 0.3632
+  type: 'test'
+  ...
+# Subtest: 模拟进入/退出恢复相机、目标和控制器状态；复位不累计偏移
+ok 5 - 模拟进入/退出恢复相机、目标和控制器状态；复位不累计偏移
+  ---
+  duration_ms: 1.7296
+  type: 'test'
+  ...
+# Subtest: departing during an upgrade discards the late result and retains overview
+ok 6 - departing during an upgrade discards the late result and retains overview
+  ---
+  duration_ms: 4.6956
+  type: 'test'
+  ...
+# Subtest: leaving a loaded detail releases GPU geometry and restores overview
+ok 7 - leaving a loaded detail releases GPU geometry and restores overview
+  ---
+  duration_ms: 2.6671
+  type: 'test'
+  ...
+# Subtest: failed upgrade keeps overview and does not retry every frame
+ok 8 - failed upgrade keeps overview and does not retry every frame
+  ---
+  duration_ms: 6.1318
+  type: 'test'
+  ...
+# Subtest: instanced foliage releases instance buffers as well as geometry
+ok 9 - instanced foliage releases instance buffers as well as geometry
+  ---
+  duration_ms: 0.7865
+  type: 'test'
+  ...
+# Subtest: all queued assets have boxes before downloads complete, replaced only when ready
+ok 10 - all queued assets have boxes before downloads complete, replaced only when ready
+  ---
+  duration_ms: 1.2225
+  type: 'test'
+  ...
+# Subtest: failed overview retains placeholder, allows other assets and retries successfully
+ok 11 - failed overview retains placeholder, allows other assets and retries successfully
+  ---
+  duration_ms: 1.1503
+  type: 'test'
+  ...
+# Subtest: mobile never allocates the heavy source statue
+ok 12 - mobile never allocates the heavy source statue
+  ---
+  duration_ms: 0.7962
+  type: 'test'
+  ...
+# Subtest: desktop can display original near detail
+ok 13 - desktop can display original near detail
+  ---
+  duration_ms: 0.1409
+  type: 'test'
+  ...
+# Subtest: hysteresis prevents boundary thrashing
+ok 14 - hysteresis prevents boundary thrashing
+  ---
+  duration_ms: 0.0841
+  type: 'test'
+  ...
+# Subtest: budget is nearest-first and bounded across a tour
+ok 15 - budget is nearest-first and bounded across a tour
+  ---
+  duration_ms: 0.3109
+  type: 'test'
+  ...
+# Subtest: an oversized overview does not trigger more detail
+ok 16 - an oversized overview does not trigger more detail
+  ---
+  duration_ms: 0.089
+  type: 'test'
+  ...
+# Subtest: large overlapping districts do not starve a nearby landmark
+ok 17 - large overlapping districts do not starve a nearby landmark
+  ---
+  duration_ms: 0.122
+  type: 'test'
+  ...
+# Subtest: close cherry retains original blossom and branch detail on mobile
+ok 18 - close cherry retains original blossom and branch detail on mobile
+  ---
+  duration_ms: 0.076
+  type: 'test'
+  ...
+# Subtest: nearby trees have independent detail slots
+ok 19 - nearby trees have independent detail slots
+  ---
+  duration_ms: 0.1116
+  type: 'test'
+  ...
+# Subtest: close hedge tiles retain full density alongside tree detail
+ok 20 - close hedge tiles retain full density alongside tree detail
+  ---
+  duration_ms: 0.2795
+  type: 'test'
+  ...
+# Subtest: campus trees use local foliage detail slots
+ok 21 - campus trees use local foliage detail slots
+  ---
+  duration_ms: 0.3271
+  type: 'test'
+  ...
+# Subtest: closed building interior blocks doors while open courtyard stays accessible
+ok 22 - closed building interior blocks doors while open courtyard stays accessible
+  ---
+  duration_ms: 1.2419
+  type: 'test'
+  ...
+# Subtest: open ground allows walking in arbitrary directions, keeps human eye height
+ok 23 - open ground allows walking in arbitrary directions, keeps human eye height
+  ---
+  duration_ms: 19.6363
+  type: 'test'
+  ...
+# Subtest: sustained movement and long frames cannot tunnel through thin walls
+ok 24 - sustained movement and long frames cannot tunnel through thin walls
+  ---
+  duration_ms: 37.6203
+  type: 'test'
+  ...
+# Subtest: sealed building cannot be entered through a geometrically open doorway
+ok 25 - sealed building cannot be entered through a geometrically open doorway
+  ---
+  duration_ms: 3.1772
+  type: 'test'
+  ...
+# Subtest: actual campus collision loads and new outdoor regions have safe spawns
+ok 26 - actual campus collision loads and new outdoor regions have safe spawns
+  ---
+  duration_ms: 13568.7458
+  type: 'test'
+  ...
+1..26
+# tests 26
+# suites 0
+# pass 26
+# fail 0
+# cancelled 0
+# skipped 0
+# todo 0
+# duration_ms 14586.3341

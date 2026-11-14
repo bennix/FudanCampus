@@ -1,0 +1,9 @@
+file:///E:/csd4.1/VR/FudanCampus/web/experiment-browser.mjs:11
+const evaluate=async expression=>{const result=await send('Runtime.evaluate',{expression,awaitPromise:true,returnByValue:true});if(result.exceptionDetails)throw Error(JSON.stringify(result.exceptionDetails));return result.result.value;};
+                                                                                                                                                                 ^
+
+Error: {"exceptionId":1,"text":"Uncaught (in promise) TypeError: Failed to fetch","lineNumber":1,"columnNumber":32,"scriptId":"46","stackTrace":{"callFrames":[{"functionName":"","scriptId":"46","url":"","lineNumber":0,"columnNumber":31},{"functionName":"","scriptId":"46","url":"","lineNumber":0,"columnNumber":362}]},"exception":{"type":"object","subtype":"error","className":"TypeError","description":"TypeError: Failed to fetch\n    at <anonymous>:1:32\n    at <anonymous>:1:363","objectId":"-3424760576582995362.1.407"}}
+    at evaluate (file:///E:/csd4.1/VR/FudanCampus/web/experiment-browser.mjs:11:162)
+    at async file:///E:/csd4.1/VR/FudanCampus/web/experiment-browser.mjs:16:55
+
+Node.js v22.22.2

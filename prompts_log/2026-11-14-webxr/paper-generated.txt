@@ -1,0 +1,8 @@
+Traceback (most recent call last):
+  File "E:\csd4.1\VR\课程论文初稿\生成论文.py", line 207, in <module>
+    with zipfile.ZipFile(output,'w',zipfile.ZIP_DEFLATED) as z:
+         ~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\tools\Lib\zipfile\__init__.py", line 1367, in __init__
+    self.fp = io.open(file, filemode)
+              ~~~~~~~^^^^^^^^^^^^^^^^
+PermissionError: [Errno 13] Permission denied: 'E:\\csd4.1\\VR\\课程论文初稿\\课程论文初稿_第四教学楼与化学楼.docx'

@@ -16,7 +16,8 @@
     "lint": "oxlint",
     "format": "oxfmt",
     "test:lod": "node --experimental-strip-types --test tests/lod-*.test.mjs",
-    "test:walk": "node --experimental-strip-types --test tests/walk.test.mjs"
+    "test:walk": "node --experimental-strip-types --test tests/walk.test.mjs",
+    "test:immersive": "node --experimental-strip-types --test tests/immersive.test.mjs"
   },
   "dependencies": {
     "@base-ui/react": "1.7.0",

@@ -1,0 +1,302 @@
+[
+  {
+    "id": "B01",
+    "building": "17-第四教学楼",
+    "path": "assets/17-第四教学楼/正右侧（仰拍）雕像后方.jpg",
+    "filename": "正右侧（仰拍）雕像后方.jpg",
+    "pixels": [
+      3456,
+      4608
+    ],
+    "bytes": 3412307,
+    "type": "实拍照片",
+    "exif_date": "2026:10:27 10:19:52",
+    "source": "用户实地拍摄",
+    "sha256": "84c6bbb785e8ff4dea27c30c3c1c08c8b389968c6dca2c6d8d6afaf019f49ad1"
+  },
+  {
+    "id": "B02",
+    "building": "17-第四教学楼",
+    "path": "assets/17-第四教学楼/正面右下方雕像.jpg",
+    "filename": "正面右下方雕像.jpg",
+    "pixels": [
+      4608,
+      3456
+    ],
+    "bytes": 5736669,
+    "type": "实拍照片",
+    "exif_date": "2026:10:27 10:14:56",
+    "source": "用户实地拍摄",
+    "sha256": "c6e972c8b298d12479efe823c300d94b6610064baca6b7d7e08774210e3ad429"
+  },
+  {
+    "id": "B03",
+    "building": "17-第四教学楼",
+    "path": "assets/17-第四教学楼/正面（不全）.jpg",
+    "filename": "正面（不全）.jpg",
+    "pixels": [
+      4608,
+      3456
+    ],
+    "bytes": 7012693,
+    "type": "实拍照片",
+    "exif_date": "2026:10:27 10:15:46",
+    "source": "用户实地拍摄",
+    "sha256": "12113c629d276358df06ba8de849ddf707a0451e023e0b9e845a81586b498057"
+  },
+  {
+    "id": "B04",
+    "building": "17-第四教学楼",
+    "path": "assets/17-第四教学楼/正面（微侧，仰拍）.jpg",
+    "filename": "正面（微侧，仰拍）.jpg",
+    "pixels": [
+      4608,
+      3456
+    ],
+    "bytes": 4304787,
+    "type": "实拍照片",
+    "exif_date": "2026:10:27 10:14:49",
+    "source": "用户实地拍摄",
+    "sha256": "af1d2a8eb87e5a62c1650c52bf07283d375bc8095699eaae159d11dd80c219d9"
+  },
+  {
+    "id": "B05",
+    "building": "17-第四教学楼",
+    "path": "assets/17-第四教学楼/第四教学楼二轮修改标注.png",
+    "filename": "第四教学楼二轮修改标注.png",
+    "pixels": [
+      1870,
+      1099
+    ],
+    "bytes": 1272120,
+    "type": "人工标注",
+    "exif_date": "未知/未读取到",
+    "source": "用户制作标注，制作时间未核实",
+    "sha256": "e3e7d198cb5d9cab589297420e7bf26d37f644b57c5a4ffc2868ac1702a666fc"
+  },
+  {
+    "id": "B06",
+    "building": "17-第四教学楼",
+    "path": "assets/17-第四教学楼/第四教学楼大致形状.png",
+    "filename": "第四教学楼大致形状.png",
+    "pixels": [
+      1079,
+      834
+    ],
+    "bytes": 308298,
+    "type": "地图/形状示意截图",
+    "exif_date": "未知/未读取到",
+    "source": "高德地图截图，用户确认；截图日期/缩放级别待核",
+    "sha256": "7f1e801d1e5b679f23513a76edfc4b98d3eae821c88b7614b235137f6a3eb98d"
+  },
+  {
+    "id": "B07",
+    "building": "17-第四教学楼",
+    "path": "assets/17-第四教学楼/背面.jpg",
+    "filename": "背面.jpg",
+    "pixels": [
+      4608,
+      3456
+    ],
+    "bytes": 4765161,
+    "type": "实拍照片",
+    "exif_date": "2026:10:27 10:17:50",
+    "source": "用户实地拍摄",
+    "sha256": "7e05439ee3a3e9f8a64cb0187ba27d6509592805d27f8db1a4c95acc47ba878c"
+  },
+  {
+    "id": "B08",
+    "building": "17-第四教学楼",
+    "path": "assets/17-第四教学楼/背面三轮修改标注.jpg",
+    "filename": "背面三轮修改标注.jpg",
+    "pixels": [
+      598,
+      525
+    ],
+    "bytes": 65926,
+    "type": "人工标注",
+    "exif_date": "未知/未读取到",
+    "source": "用户制作标注，制作时间未核实",
+    "sha256": "557cd348bf5b24796d263a662a53e4d3d2b3823c879e151508f8337c5e4c04e5"
+  },
+  {
+    "id": "B09",
+    "building": "17-第四教学楼",
+    "path": "assets/17-第四教学楼/背面二轮修改标注.jpg",
+    "filename": "背面二轮修改标注.jpg",
+    "pixels": [
+      4608,
+      3456
+    ],
+    "bytes": 4105152,
+    "type": "人工标注",
+    "exif_date": "2026:10:27 10:17:50",
+    "source": "用户制作标注，制作时间未核实",
+    "sha256": "6488c23ca29d5eaf89e15464921194c7b3cbff8d6120a4c8f2b866217f713931"
+  },
+  {
+    "id": "B10",
+    "building": "55-化学楼",
+    "path": "assets/55-化学楼/前门拍摄位置-右侧.jpg",
+    "filename": "前门拍摄位置-右侧.jpg",
+    "pixels": [
+      4608,
+      3456
+    ],
+    "bytes": 6357064,
+    "type": "实拍照片",
+    "exif_date": "2026:10:27 10:27:42",
+    "source": "用户实地拍摄",
+    "sha256": "f0b7b14e3e4ba5f4cbb2a0c21bf9a1bf1eac4328d08ba6d4ad903cd239be3814"
+  },
+  {
+    "id": "B11",
+    "building": "55-化学楼",
+    "path": "assets/55-化学楼/前门拍摄位置-左侧.jpg",
+    "filename": "前门拍摄位置-左侧.jpg",
+    "pixels": [
+      4608,
+      3456
+    ],
+    "bytes": 6229506,
+    "type": "实拍照片",
+    "exif_date": "2026:10:27 10:27:45",
+    "source": "用户实地拍摄",
+    "sha256": "381dfc6881b5d9a16a3193f65f24c146fc9218ec86c0af0b76164d1941063f7a"
+  },
+  {
+    "id": "B12",
+    "building": "55-化学楼",
+    "path": "assets/55-化学楼/化学楼大致形状-俯拍.png",
+    "filename": "化学楼大致形状-俯拍.png",
+    "pixels": [
+      945,
+      661
+    ],
+    "bytes": 104831,
+    "type": "地图/形状示意截图",
+    "exif_date": "未知/未读取到",
+    "source": "高德地图截图，用户确认；截图日期/缩放级别待核",
+    "sha256": "5383628cbd89770255f132bfe2d8dc20d51259df52ff7795f8bc92f394db2bd7"
+  },
+  {
+    "id": "B13",
+    "building": "55-化学楼",
+    "path": "assets/55-化学楼/化学楼大致形状.png",
+    "filename": "化学楼大致形状.png",
+    "pixels": [
+      1079,
+      844
+    ],
+    "bytes": 370845,
+    "type": "地图/形状示意截图",
+    "exif_date": "未知/未读取到",
+    "source": "高德地图截图，用户确认；截图日期/缩放级别待核",
+    "sha256": "d5e2cded45a5eb229fa67587b78d9b7a23f0e129941ae72a301d6bfe6d12d6f1"
+  },
+  {
+    "id": "B14",
+    "building": "55-化学楼",
+    "path": "assets/55-化学楼/右侧门.jpg",
+    "filename": "右侧门.jpg",
+    "pixels": [
+      4608,
+      3456
+    ],
+    "bytes": 6311386,
+    "type": "实拍照片",
+    "exif_date": "2026:10:27 10:23:25",
+    "source": "用户实地拍摄",
+    "sha256": "2e4df6eac379515f8c76ed631130fe6bb4413ac1d2c67c0dd04595d97ad0b1af"
+  },
+  {
+    "id": "B15",
+    "building": "55-化学楼",
+    "path": "assets/55-化学楼/右侧门（曝光）.jpg",
+    "filename": "右侧门（曝光）.jpg",
+    "pixels": [
+      4608,
+      3456
+    ],
+    "bytes": 4737383,
+    "type": "实拍照片",
+    "exif_date": "2026:10:27 10:23:46",
+    "source": "用户实地拍摄",
+    "sha256": "7738af3569b0a6eb13cf71fce3ff7ddaf5ab7c2a77037de5bf20d63a88ec47bf"
+  },
+  {
+    "id": "B16",
+    "building": "55-化学楼",
+    "path": "assets/55-化学楼/正面.jpg",
+    "filename": "正面.jpg",
+    "pixels": [
+      4608,
+      3456
+    ],
+    "bytes": 5276678,
+    "type": "实拍照片",
+    "exif_date": "2026:10:27 10:26:29",
+    "source": "用户实地拍摄",
+    "sha256": "02d0b4e6f6755d5c4099c1e11b139e033bca826587c12bde56c96522c712655e"
+  },
+  {
+    "id": "B17",
+    "building": "55-化学楼",
+    "path": "assets/55-化学楼/正面（正门特写）.jpg",
+    "filename": "正面（正门特写）.jpg",
+    "pixels": [
+      4608,
+      3456
+    ],
+    "bytes": 4693626,
+    "type": "实拍照片",
+    "exif_date": "2026:10:27 10:27:16",
+    "source": "用户实地拍摄",
+    "sha256": "ade68346e2fbc488ebc47ef532a70e172921a6ebe69c74b6bc3cb3bc8c9d1213"
+  },
+  {
+    "id": "B18",
+    "building": "55-化学楼",
+    "path": "assets/55-化学楼/背面.jpg",
+    "filename": "背面.jpg",
+    "pixels": [
+      4608,
+      3456
+    ],
+    "bytes": 6709763,
+    "type": "实拍照片",
+    "exif_date": "2026:10:27 10:21:59",
+    "source": "用户实地拍摄",
+    "sha256": "a5499a40ea182145c0da463b685fcaf9dfd1e5e652331bf65d9c10dd1abe2272"
+  },
+  {
+    "id": "B19",
+    "building": "既有校园导览图",
+    "path": "FudanCampus/web/public/campus-map.png",
+    "filename": "campus-map.png",
+    "pixels": [
+      3508,
+      2480
+    ],
+    "bytes": 6569962,
+    "type": "既有校园导览图/比例尺校核",
+    "exif_date": "未知",
+    "source": "既有项目资产；图面标题为Fudan University Campus Map，原发布方/年份待核；不能混同用户高德截图",
+    "sha256": "919ec9807cb0aee7ebc568ee0c8f370ecdc6f8ebf0e5f06f7dd1a3fea81bffc5"
+  },
+  {
+    "id": "B20",
+    "building": "55-化学楼尺度参照",
+    "path": "assets/比例尺-来源高德地图.jpeg",
+    "filename": "比例尺-来源高德地图.jpeg",
+    "pixels": [
+      1080,
+      1870
+    ],
+    "bytes": 212867,
+    "type": "高德地图/25米比例尺截图",
+    "exif_date": "未知；分析日期2026-11-15不等于截图日期",
+    "source": "高德地图，用户确认；同幅25米标尺与化学楼主体，用于地图估算，非实地测距",
+    "sha256": "e60e9a54b887e3f7ccb26c6a0b26dde201f175d1dfee7e0a70d3f46aa9b7ee21"
+  }
+]

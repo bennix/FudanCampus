@@ -1,0 +1,39 @@
+核对日期：2026-11-14（Asia/Shanghai）。外部研究为文献背景，不是本项目测量。
+
+原始研究与机构原文
+[5] Peng S, Kalliamvakou E, Cihon P, Demirer M. The Impact of AI on Developer Productivity: Evidence from GitHub Copilot. 2023.
+https://arxiv.org/abs/2302.06590
+https://arxiv.org/html/2302.06590v1
+原文Results：完成者AI组71.17分钟、对照组160.89分钟，完成时间缩短55.8%。标准JavaScript HTTP任务，不外推到建模全流程。
+
+[6] Cui Z, Demirer M, Jaffe S, Musolff L, Peng S, Salz T. The Effects of Generative AI on High-Skilled Work: Evidence from Three Field Experiments with Software Developers. Microsoft Research, June 2025.
+https://www.microsoft.com/en-us/research/publication/the-effects-of-generative-ai-on-high-skilled-work-evidence-from-three-field-experiments-with-software-developers/
+三企业4867开发者，完成任务数提高26.08%，SE10.3%。任务产出不等于工时减少。
+
+[7] Becker J, Rush N, Barnes E, Rein D. Measuring the Impact of Early-2025 AI on Experienced Open-Source Developer Productivity. 2025.
+https://arxiv.org/abs/2507.09089
+16开发者、246任务，2025年初工具条件下完成时间增加19%。不能当作所有AI或当前Codex的普遍效果。
+
+[8] METR. We are Changing our Developer Productivity Experiment Design. 2026-02-24.
+https://metr.org/blog/2026-02-24-uplift-update/
+后续实验存在不愿无AI工作导致的选择效应，以及多代理并行时的计时困难；不从原始新结果推导确定增益。
+
+产品与论文决策
+- 用户对功能重复的判断有依据：桌面鼠标转头确实重合。模拟重新定位为固定站位观察/实验采样模式；步行用于平移与碰撞；实际WebXR设备姿态/双眼投影另行区分。此轮不改网页行为，不重复制造另一套漫游功能。
+- 增加论文6.5文献对照和表4。没有将上述数字换算成本项目节省工时。若课程坚持本项目定量，则仍需独立计时，文献不能补造该数据。
+- 用户确认其化学楼两张形状截图来自高德地图；日期和缩放未确认。网页campus-map.png为不同的既有校园导览图，不能混同来源；图面标题不自动等于已核实出版方。
+
+地图尺度审查及纠正
+- 起初按0—200m整段422像素，结合四教92像素，得到条件宽43.6m。
+- 随后逐段核对发现0—100m仅169像素，与0—200m全长之比为2.497而非2；同一四教按前100m段得到54.4m。因此撤回把43.6m作为有效校准的做法。
+- 两种条件系数约1.069、1.334m/模型单位（模型主体墙宽40.8单位）。不择一、不平均、不自动重缩模型。原始初次输出map-scale-output.txt保留为过程记录；最终采用map-scale-final.json和scale-audit.json中的“未采纳”状态。
+- 读取原图3508×2480；比例尺x坐标2089/2106/2173/2258/2511分别对应标注0/10/50/100/200m；主体外缘(1828,1380)—(1920,1380)。均为人工读图，不是算法识别或现场测量。
+- 下一有效锚点可为高德测距所得的同一段主体宽L，局部关系k=L/40.8；或者另一张同幅、无透视、有自洽比例尺的地图。不能用倾斜三维截图的像素长度直接当平面距离。
+
+错误记录
+- PowerShell中的rg不展开FudanCampus/*.py等文件glob，产生路径语法错误；改为目录搜索和-g筛选。辅助搜索不改产品。
+- 全尺寸campus-map图像因工具输出体积被丢弃；另生成只用于分析的缩略图和原像素裁切，再核对原图坐标；计算没有用缩略图显示尺寸。
+- 一次web click调用引用无效返回错误；改为直接打开论文HTML。最终引用仅原作者/机构原文，不引用搜索返回的媒体、镜像或推广页面。
+- 本轮新Word、PDF另命名“文献与尺度校核”，保留既有初稿及WebVR修订稿，避免占用或覆盖用户正在阅读的文档。
+
+验证修正：初次核验错误地假设仅2张高德截图，断言失败；检查完整清单确认第四教学楼也有1张形状截图，共3张。已查看该图为倾斜三维示意，不带比例尺，不能补充可靠平面尺寸；来源和论文改为三张，未删除断言而是纠正核验期望。

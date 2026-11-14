@@ -1,0 +1,66 @@
+TAP version 13
+# Subtest: 模拟旋转平滑在30/60/90Hz下具有相同收敛结果，采用四元数最短路径
+ok 1 - 模拟旋转平滑在30/60/90Hz下具有相同收敛结果，采用四元数最短路径
+  ---
+  duration_ms: 0.989
+  type: 'test'
+  ...
+# Subtest: XR/实验每帧提交，不受桌面30/60Hz限帧或脏帧影响
+ok 2 - XR/实验每帧提交，不受桌面30/60Hz限帧或脏帧影响
+  ---
+  duration_ms: 0.1175
+  type: 'test'
+  ...
+# Subtest: 观察点为米制站立地面坐标，无遮挡建筑外侧
+ok 3 - 观察点为米制站立地面坐标，无遮挡建筑外侧
+  ---
+  duration_ms: 0.4545
+  type: 'test'
+  ...
+# Subtest: 帧统计拒绝无效值并保留可复核口径，不把平均瞬时FPS当整体FPS
+ok 4 - 帧统计拒绝无效值并保留可复核口径，不把平均瞬时FPS当整体FPS
+  ---
+  duration_ms: 0.3218
+  type: 'test'
+  ...
+# Subtest: 模拟进入/退出恢复相机、目标和控制器状态；复位不累计偏移
+ok 5 - 模拟进入/退出恢复相机、目标和控制器状态；复位不累计偏移
+  ---
+  duration_ms: 1.2893
+  type: 'test'
+  ...
+# Subtest: 仰视建筑后纯水平转头不引入地平线侧倾
+not ok 6 - 仰视建筑后纯水平转头不引入地平线侧倾
+  ---
+  duration_ms: 12.0635
+  type: 'test'
+  location: 'E:\\csd4.1\\VR\\FudanCampus\\web\\tests\\immersive.test.mjs:48:1'
+  failureType: 'testCodeFailure'
+  error: |-
+    The expression evaluated to a falsy value:
+    
+      assert.ok(Math.abs(euler.z)<1e-6)
+    
+  code: 'ERR_ASSERTION'
+  name: 'AssertionError'
+  expected: true
+  actual: false
+  operator: '=='
+  stack: |-
+    TestContext.<anonymous> (file:///E:/csd4.1/VR/FudanCampus/web/tests/immersive.test.mjs:51:82)
+    Test.runInAsyncScope (node:async_hooks:214:14)
+    Test.run (node:internal/test_runner/test:1047:25)
+    Test.processPendingSubtests (node:internal/test_runner/test:744:18)
+    Test.postRun (node:internal/test_runner/test:1173:19)
+    Test.run (node:internal/test_runner/test:1101:12)
+    async Test.processPendingSubtests (node:internal/test_runner/test:744:7)
+  ...
+1..6
+# tests 6
+# suites 0
+# pass 5
+# fail 1
+# cancelled 0
+# skipped 0
+# todo 0
+# duration_ms 22.9776

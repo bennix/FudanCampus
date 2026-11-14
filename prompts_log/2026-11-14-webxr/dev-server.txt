@@ -1,0 +1,14 @@
+
+> sites-project@0.1.0 dev
+> vinext dev --host 127.0.0.1 --port 5174
+
+
+  Another vinext dev server is already running.
+  
+  - Local:        http://localhost:5173
+  - PID:          16912
+  - Dir:          E:\csd4.1\VR\FudanCampus\web
+  
+  You can access the existing server at http://localhost:5173,
+  or run `taskkill /PID 16912 /F` to stop it and start a new one.
+
