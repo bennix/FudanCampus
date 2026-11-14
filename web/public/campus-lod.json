@@ -788,60 +788,6 @@
       ]
     },
     {
-      "id": "buildings-55",
-      "name": "化学楼",
-      "sourceRevision": "95a895241e1c",
-      "labelPosition": [
-        -97.60000000000001,
-        21.25,
-        -160.8
-      ],
-      "position": [
-        -97.60000000000001,
-        0,
-        -160.8
-      ],
-      "rotation": [
-        0,
-        0,
-        0
-      ],
-      "bounds": {
-        "min": [
-          -130.3999954223633,
-          0,
-          -177.1999938964844
-        ],
-        "max": [
-          -58.80000076293946,
-          12.600000381469727,
-          -144.0799987792969
-        ]
-      },
-      "nearDistance": 100,
-      "mediumDistance": 340,
-      "tiers": [
-        {
-          "url": "models/lod/buildings-55-far.glb",
-          "revision": "a90b1c2c2d80",
-          "bytes": 218440,
-          "triangles": 21063
-        },
-        {
-          "url": "models/lod/buildings-55-medium.glb",
-          "revision": "e247d316485b",
-          "bytes": 222876,
-          "triangles": 21759
-        },
-        {
-          "url": "models/buildings/55.glb",
-          "revision": "95a895241e1c",
-          "bytes": 1007380,
-          "triangles": 21820
-        }
-      ]
-    },
-    {
       "id": "buildings-56",
       "name": "理科图书馆",
       "sourceRevision": "966a98308aa5",
@@ -10049,6 +9995,60 @@
           "revision": "6103106ba475",
           "bytes": 5091276,
           "triangles": 83130
+        }
+      ]
+    },
+    {
+      "id": "buildings-55",
+      "name": "化学楼",
+      "sourceRevision": "6417a3980820",
+      "labelPosition": [
+        -97.60000000000001,
+        21.25,
+        -160.8
+      ],
+      "position": [
+        -97.60000000000001,
+        0,
+        -160.8
+      ],
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "bounds": {
+        "min": [
+          -130.57499847412112,
+          0,
+          -180.57499961853028
+        ],
+        "max": [
+          -61.55000076293946,
+          14.449999809265137,
+          -141.02500038146974
+        ]
+      },
+      "nearDistance": 100,
+      "mediumDistance": 340,
+      "tiers": [
+        {
+          "url": "models/lod/buildings-55-far.glb",
+          "revision": "6b5ab1efca5d",
+          "bytes": 490660,
+          "triangles": 47955
+        },
+        {
+          "url": "models/lod/buildings-55-medium.glb",
+          "revision": "85be6c06e5a5",
+          "bytes": 508556,
+          "triangles": 51849
+        },
+        {
+          "url": "models/buildings/55.glb",
+          "revision": "6417a3980820",
+          "bytes": 2512196,
+          "triangles": 52428
         }
       ]
     }

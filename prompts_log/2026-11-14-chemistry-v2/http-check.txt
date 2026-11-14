@@ -1,0 +1,3 @@
+models/lod/buildings-55-far.glb HTTP 200 hash/bytes match 6b5ab1efca5d
+models/lod/buildings-55-medium.glb HTTP 200 hash/bytes match 85be6c06e5a5
+models/buildings/55.glb HTTP 200 hash/bytes match 6417a3980820

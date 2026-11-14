@@ -1,0 +1,176 @@
+21:43:19 | INFO: Data are loaded, start creating Blender stuff
+21:43:19 | INFO: Blender create Mesh node front chemistry sign
+21:43:19 | INFO: Blender create Mesh node rear chemistry sign
+21:43:19 | INFO: Blender create Mesh node east chemistry sign
+21:43:19 | INFO: Blender create Mesh node 化学楼 · Chemistry white roof
+21:43:19 | INFO: Blender create Mesh node 化学楼 · Chemistry deep red brick walls and raised centre
+21:43:19 | INFO: Blender create Mesh node 化学楼 · wall 00 window glass
+21:43:19 | INFO: Blender create Mesh node 化学楼 · Chemistry dark bronze frames
+21:43:19 | INFO: Blender create Mesh node 化学楼 · Chemistry white spandrel panels
+21:43:19 | INFO: Blender create Mesh node 化学楼 · wall 01 window glass
+21:43:19 | INFO: Blender create Mesh node 化学楼 · wall 02 window glass
+21:43:19 | INFO: Blender create Mesh node 化学楼 · wall 03 window glass
+21:43:19 | INFO: Blender create Mesh node 化学楼 · wall 04 window glass
+21:43:19 | INFO: Blender create Mesh node 化学楼 · wall 05 window glass
+21:43:19 | INFO: Blender create Mesh node 化学楼 · wall 06 window glass
+21:43:19 | INFO: Blender create Mesh node 化学楼 · wall 07 window glass
+21:43:19 | INFO: Blender create Mesh node 化学楼 · wall 08 window glass
+21:43:19 | INFO: Blender create Mesh node 化学楼 · wall 09 window glass
+21:43:19 | INFO: Blender create Mesh node 化学楼 · wall 10 window glass
+21:43:19 | INFO: Blender create Mesh node 化学楼 · wall 11 window glass
+21:43:19 | INFO: Blender create Mesh node 化学楼 · wall 12 window glass
+21:43:19 | INFO: Blender create Mesh node 化学楼 · wall 13 window glass
+21:43:19 | INFO: Blender create Mesh node 化学楼 · wall 14 window glass
+21:43:19 | INFO: Blender create Mesh node 化学楼 · wall 15 window glass
+21:43:19 | INFO: Blender create Mesh node 化学楼 · Chemistry entrance granite
+21:43:19 | INFO: Blender create Mesh node 化学楼 · front portico roof
+21:43:19 | INFO: Blender create Mesh node 化学楼 · Chemistry pale ceramic tile
+21:43:19 | INFO: Blender create Mesh node 化学楼 · Chemistry tile joints
+21:43:19 | INFO: Blender create Mesh node 化学楼 · Chemistry glazing
+21:43:19 | INFO: Blender create Mesh node 化学楼 · Chemistry signage
+21:43:19 | INFO: Blender create Mesh node 化学楼 · rear portico roof
+21:43:19 | INFO: Blender create Mesh node 化学楼 · east portico roof
+21:43:19 | INFO: glTF import finished in 0.08s
+INFO Draco mesh compression is available, use library at D:\BlenderCLI\blender-4.4.3-windows-x64\4.4\scripts\addons_core\io_scene_gltf2\extern_draco.dll
+21:43:19 | INFO: Starting glTF 2.0 export
+21:43:19 | INFO: Extracting primitive: front chemistry sign
+21:43:19 | INFO: Primitives created: 1
+21:43:19 | INFO: Extracting primitive: rear chemistry sign
+21:43:19 | INFO: Primitives created: 1
+21:43:19 | INFO: Extracting primitive: east chemistry sign
+21:43:19 | INFO: Primitives created: 1
+21:43:19 | INFO: Extracting primitive: 化学楼 · Chemistry white roof
+21:43:19 | INFO: Primitives created: 1
+21:43:19 | INFO: Extracting primitive: 化学楼 · Chemistry deep red brick walls and raised centre
+21:43:19 | INFO: Primitives created: 1
+21:43:19 | INFO: Extracting primitive: 化学楼 · wall 00 window glass
+21:43:19 | INFO: Primitives created: 1
+21:43:19 | INFO: Extracting primitive: 化学楼 · Chemistry dark bronze frames
+21:43:19 | INFO: Primitives created: 1
+21:43:19 | INFO: Extracting primitive: 化学楼 · Chemistry white spandrel panels
+21:43:19 | INFO: Primitives created: 1
+21:43:19 | INFO: Extracting primitive: 化学楼 · wall 01 window glass
+21:43:19 | INFO: Primitives created: 1
+21:43:19 | INFO: Extracting primitive: 化学楼 · wall 02 window glass
+21:43:19 | INFO: Primitives created: 1
+21:43:19 | INFO: Extracting primitive: 化学楼 · wall 03 window glass
+21:43:19 | INFO: Primitives created: 1
+21:43:19 | INFO: Extracting primitive: 化学楼 · wall 04 window glass
+21:43:19 | INFO: Primitives created: 1
+21:43:19 | INFO: Extracting primitive: 化学楼 · wall 05 window glass
+21:43:19 | INFO: Primitives created: 1
+21:43:19 | INFO: Extracting primitive: 化学楼 · wall 06 window glass
+21:43:19 | INFO: Primitives created: 1
+21:43:19 | INFO: Extracting primitive: 化学楼 · wall 07 window glass
+21:43:19 | INFO: Primitives created: 1
+21:43:19 | INFO: Extracting primitive: 化学楼 · wall 08 window glass
+21:43:19 | INFO: Primitives created: 1
+21:43:19 | INFO: Extracting primitive: 化学楼 · wall 09 window glass
+21:43:19 | INFO: Primitives created: 1
+21:43:19 | INFO: Extracting primitive: 化学楼 · wall 10 window glass
+21:43:19 | INFO: Primitives created: 1
+21:43:19 | INFO: Extracting primitive: 化学楼 · wall 11 window glass
+21:43:19 | INFO: Primitives created: 1
+21:43:19 | INFO: Extracting primitive: 化学楼 · wall 12 window glass
+21:43:19 | INFO: Primitives created: 1
+21:43:19 | INFO: Extracting primitive: 化学楼 · wall 13 window glass
+21:43:19 | INFO: Primitives created: 1
+21:43:19 | INFO: Extracting primitive: 化学楼 · wall 14 window glass
+21:43:19 | INFO: Primitives created: 1
+21:43:19 | INFO: Extracting primitive: 化学楼 · wall 15 window glass
+21:43:19 | INFO: Primitives created: 1
+21:43:19 | INFO: Extracting primitive: 化学楼 · Chemistry entrance granite
+21:43:19 | INFO: Primitives created: 1
+21:43:19 | INFO: Extracting primitive: 化学楼 · front portico roof
+21:43:19 | INFO: Primitives created: 1
+21:43:19 | INFO: Extracting primitive: 化学楼 · Chemistry pale ceramic tile
+21:43:19 | INFO: Primitives created: 1
+21:43:19 | INFO: Extracting primitive: 化学楼 · Chemistry tile joints
+21:43:19 | INFO: Primitives created: 1
+21:43:19 | INFO: Extracting primitive: 化学楼 · Chemistry glazing
+21:43:19 | INFO: Primitives created: 1
+21:43:19 | INFO: Extracting primitive: 化学楼 · Chemistry signage
+21:43:19 | INFO: Primitives created: 1
+21:43:19 | INFO: Extracting primitive: 化学楼 · rear portico roof
+21:43:19 | INFO: Primitives created: 1
+21:43:19 | INFO: Extracting primitive: 化学楼 · east portico roof
+21:43:19 | INFO: Primitives created: 1
+21:43:19 | INFO: Finished glTF 2.0 export in 0.15336823463439941 s
+
+21:43:19 | INFO: Starting glTF 2.0 export
+21:43:19 | INFO: Extracting primitive: front chemistry sign
+21:43:19 | INFO: Primitives created: 1
+21:43:19 | INFO: Extracting primitive: rear chemistry sign
+21:43:19 | INFO: Primitives created: 1
+21:43:19 | INFO: Extracting primitive: east chemistry sign
+21:43:19 | INFO: Primitives created: 1
+21:43:19 | INFO: Extracting primitive: 化学楼 · Chemistry white roof
+21:43:19 | INFO: Primitives created: 1
+21:43:19 | INFO: Extracting primitive: 化学楼 · Chemistry deep red brick walls and raised centre
+21:43:19 | INFO: Primitives created: 1
+21:43:19 | INFO: Extracting primitive: 化学楼 · wall 00 window glass
+21:43:19 | INFO: Primitives created: 1
+21:43:19 | INFO: Extracting primitive: 化学楼 · Chemistry dark bronze frames
+21:43:19 | INFO: Primitives created: 1
+21:43:19 | INFO: Extracting primitive: 化学楼 · Chemistry white spandrel panels
+21:43:19 | INFO: Primitives created: 1
+21:43:19 | INFO: Extracting primitive: 化学楼 · wall 01 window glass
+21:43:19 | INFO: Primitives created: 1
+21:43:19 | INFO: Extracting primitive: 化学楼 · wall 02 window glass
+21:43:19 | INFO: Primitives created: 1
+21:43:19 | INFO: Extracting primitive: 化学楼 · wall 03 window glass
+21:43:19 | INFO: Primitives created: 1
+21:43:19 | INFO: Extracting primitive: 化学楼 · wall 04 window glass
+21:43:19 | INFO: Primitives created: 1
+21:43:19 | INFO: Extracting primitive: 化学楼 · wall 05 window glass
+21:43:19 | INFO: Primitives created: 1
+21:43:19 | INFO: Extracting primitive: 化学楼 · wall 06 window glass
+21:43:19 | INFO: Primitives created: 1
+21:43:19 | INFO: Extracting primitive: 化学楼 · wall 07 window glass
+21:43:19 | INFO: Primitives created: 1
+21:43:19 | INFO: Extracting primitive: 化学楼 · wall 08 window glass
+21:43:19 | INFO: Primitives created: 1
+21:43:19 | INFO: Extracting primitive: 化学楼 · wall 09 window glass
+21:43:19 | INFO: Primitives created: 1
+21:43:19 | INFO: Extracting primitive: 化学楼 · wall 10 window glass
+21:43:19 | INFO: Primitives created: 1
+21:43:19 | INFO: Extracting primitive: 化学楼 · wall 11 window glass
+21:43:19 | INFO: Primitives created: 1
+21:43:19 | INFO: Extracting primitive: 化学楼 · wall 12 window glass
+21:43:19 | INFO: Primitives created: 1
+21:43:19 | INFO: Extracting primitive: 化学楼 · wall 13 window glass
+21:43:19 | INFO: Primitives created: 1
+21:43:19 | INFO: Extracting primitive: 化学楼 · wall 14 window glass
+21:43:19 | INFO: Primitives created: 1
+21:43:19 | INFO: Extracting primitive: 化学楼 · wall 15 window glass
+21:43:19 | INFO: Primitives created: 1
+21:43:19 | INFO: Extracting primitive: 化学楼 · Chemistry entrance granite
+21:43:19 | INFO: Primitives created: 1
+21:43:19 | INFO: Extracting primitive: 化学楼 · front portico roof
+21:43:19 | INFO: Primitives created: 1
+21:43:19 | INFO: Extracting primitive: 化学楼 · Chemistry pale ceramic tile
+21:43:19 | INFO: Primitives created: 1
+21:43:19 | INFO: Extracting primitive: 化学楼 · Chemistry tile joints
+21:43:19 | INFO: Primitives created: 1
+21:43:19 | INFO: Extracting primitive: 化学楼 · Chemistry glazing
+21:43:19 | INFO: Primitives created: 1
+21:43:19 | INFO: Extracting primitive: 化学楼 · Chemistry signage
+21:43:19 | INFO: Primitives created: 1
+21:43:19 | INFO: Extracting primitive: 化学楼 · rear portico roof
+21:43:19 | INFO: Primitives created: 1
+21:43:19 | INFO: Extracting primitive: 化学楼 · east portico roof
+21:43:19 | INFO: Primitives created: 1
+21:43:19 | INFO: Finished glTF 2.0 export in 0.12577199935913086 s
+
+LOD_ASSET buildings-55 [(2362036, 47955), (2496352, 51849), (2512196, 52428)]
+LOD_COMPLETE 200 44167032
+prune: Removed types... Accessor (83)
+quantize: Skipping TEXCOORD_0; out of [0,1] range.
+prune: Removed types... Accessor (65)
+prune: Removed types... Accessor (83)
+quantize: Skipping TEXCOORD_0; out of [0,1] range.
+prune: Removed types... Accessor (65)
+PACKED_LODS 200 42295656
+Blender 4.4.3 (hash 802179c51ccc built 2025-04-29 15:39:58)
+
+Blender quit

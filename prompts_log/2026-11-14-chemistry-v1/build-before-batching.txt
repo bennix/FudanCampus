@@ -1,0 +1,1649 @@
+PASS chemistry: west recess, raised centre, white roofs, courtyard surfaces, 3 porticos, 233 visible window faces on all 16 wall segments
+INFO Draco mesh compression is available, use library at D:\BlenderCLI\blender-4.4.3-windows-x64\4.4\scripts\addons_core\io_scene_gltf2\extern_draco.dll
+21:32:59 | INFO: Starting glTF 2.0 export
+21:32:59 | INFO: Extracting primitive: front chemistry sign
+21:32:59 | INFO: Primitives created: 1
+21:32:59 | INFO: Extracting primitive: rear chemistry sign
+21:32:59 | INFO: Primitives created: 1
+21:32:59 | INFO: Extracting primitive: east chemistry sign
+21:32:59 | INFO: Primitives created: 1
+21:32:59 | INFO: Extracting primitive: 化学楼 · white roof slabs
+21:32:59 | INFO: Primitives created: 1
+21:32:59 | INFO: Extracting primitive: 化学楼 · raised centre returns
+21:32:59 | INFO: Primitives created: 1
+21:32:59 | INFO: Extracting primitive: 化学楼 · wall 00 brick wall
+21:32:59 | INFO: Primitives created: 1
+21:32:59 | INFO: Extracting primitive: 化学楼 · wall 00 window glass
+21:32:59 | INFO: Primitives created: 1
+21:32:59 | INFO: Extracting primitive: 化学楼 · wall 00 window vertical frames
+21:32:59 | INFO: Primitives created: 1
+21:32:59 | INFO: Extracting primitive: 化学楼 · wall 00 window horizontal frames
+21:32:59 | INFO: Primitives created: 1
+21:32:59 | INFO: Extracting primitive: 化学楼 · wall 00 sill
+21:32:59 | INFO: Primitives created: 1
+21:32:59 | INFO: Extracting primitive: 化学楼 · wall 00 white spandrels
+21:32:59 | INFO: Primitives created: 1
+21:32:59 | INFO: Extracting primitive: 化学楼 · wall 00 plinth
+21:32:59 | INFO: Primitives created: 1
+21:32:59 | INFO: Extracting primitive: 化学楼 · wall 00 roof coping
+21:32:59 | INFO: Primitives created: 1
+21:32:59 | INFO: Extracting primitive: 化学楼 · wall 01 brick wall
+21:32:59 | INFO: Primitives created: 1
+21:32:59 | INFO: Extracting primitive: 化学楼 · wall 01 window glass
+21:32:59 | INFO: Primitives created: 1
+21:32:59 | INFO: Extracting primitive: 化学楼 · wall 01 window vertical frames
+21:32:59 | INFO: Primitives created: 1
+21:32:59 | INFO: Extracting primitive: 化学楼 · wall 01 window horizontal frames
+21:32:59 | INFO: Primitives created: 1
+21:32:59 | INFO: Extracting primitive: 化学楼 · wall 01 sill
+21:32:59 | INFO: Primitives created: 1
+21:32:59 | INFO: Extracting primitive: 化学楼 · wall 01 white spandrels
+21:32:59 | INFO: Primitives created: 1
+21:32:59 | INFO: Extracting primitive: 化学楼 · wall 01 plinth
+21:32:59 | INFO: Primitives created: 1
+21:32:59 | INFO: Extracting primitive: 化学楼 · wall 01 roof coping
+21:32:59 | INFO: Primitives created: 1
+21:32:59 | INFO: Extracting primitive: 化学楼 · wall 02 brick pier
+21:32:59 | INFO: Primitives created: 1
+21:32:59 | INFO: Extracting primitive: 化学楼 · wall 02 brick over door
+21:32:59 | INFO: Primitives created: 1
+21:32:59 | INFO: Extracting primitive: 化学楼 · wall 02 raised centre brick
+21:32:59 | INFO: Primitives created: 1
+21:32:59 | INFO: Extracting primitive: 化学楼 · wall 02 window glass
+21:32:59 | INFO: Primitives created: 1
+21:32:59 | INFO: Extracting primitive: 化学楼 · wall 02 window vertical frames
+21:32:59 | INFO: Primitives created: 1
+21:32:59 | INFO: Extracting primitive: 化学楼 · wall 02 window horizontal frames
+21:32:59 | INFO: Primitives created: 1
+21:32:59 | INFO: Extracting primitive: 化学楼 · wall 02 sill
+21:32:59 | INFO: Primitives created: 1
+21:32:59 | INFO: Extracting primitive: 化学楼 · wall 02 white spandrels
+21:32:59 | INFO: Primitives created: 1
+21:32:59 | INFO: Extracting primitive: 化学楼 · wall 02 plinth
+21:32:59 | INFO: Primitives created: 1
+21:32:59 | INFO: Extracting primitive: 化学楼 · wall 02 roof coping
+21:32:59 | INFO: Primitives created: 1
+21:32:59 | INFO: Extracting primitive: 化学楼 · wall 02 central roof coping
+21:32:59 | INFO: Primitives created: 1
+21:32:59 | INFO: Extracting primitive: 化学楼 · wall 03 brick wall
+21:32:59 | INFO: Primitives created: 1
+21:32:59 | INFO: Extracting primitive: 化学楼 · wall 03 window glass
+21:32:59 | INFO: Primitives created: 1
+21:32:59 | INFO: Extracting primitive: 化学楼 · wall 03 window vertical frames
+21:32:59 | INFO: Primitives created: 1
+21:32:59 | INFO: Extracting primitive: 化学楼 · wall 03 window horizontal frames
+21:32:59 | INFO: Primitives created: 1
+21:32:59 | INFO: Extracting primitive: 化学楼 · wall 03 sill
+21:32:59 | INFO: Primitives created: 1
+21:32:59 | INFO: Extracting primitive: 化学楼 · wall 03 white spandrels
+21:32:59 | INFO: Primitives created: 1
+21:32:59 | INFO: Extracting primitive: 化学楼 · wall 03 plinth
+21:32:59 | INFO: Primitives created: 1
+21:32:59 | INFO: Extracting primitive: 化学楼 · wall 03 roof coping
+21:32:59 | INFO: Primitives created: 1
+21:32:59 | INFO: Extracting primitive: 化学楼 · wall 04 brick wall
+21:32:59 | INFO: Primitives created: 1
+21:32:59 | INFO: Extracting primitive: 化学楼 · wall 04 window glass
+21:32:59 | INFO: Primitives created: 1
+21:32:59 | INFO: Extracting primitive: 化学楼 · wall 04 window vertical frames
+21:32:59 | INFO: Primitives created: 1
+21:32:59 | INFO: Extracting primitive: 化学楼 · wall 04 window horizontal frames
+21:32:59 | INFO: Primitives created: 1
+21:32:59 | INFO: Extracting primitive: 化学楼 · wall 04 sill
+21:32:59 | INFO: Primitives created: 1
+21:32:59 | INFO: Extracting primitive: 化学楼 · wall 04 white spandrels
+21:32:59 | INFO: Primitives created: 1
+21:32:59 | INFO: Extracting primitive: 化学楼 · wall 04 plinth
+21:32:59 | INFO: Primitives created: 1
+21:32:59 | INFO: Extracting primitive: 化学楼 · wall 04 roof coping
+21:32:59 | INFO: Primitives created: 1
+21:32:59 | INFO: Extracting primitive: 化学楼 · wall 05 brick pier
+21:32:59 | INFO: Primitives created: 1
+21:32:59 | INFO: Extracting primitive: 化学楼 · wall 05 brick over door
+21:32:59 | INFO: Primitives created: 1
+21:32:59 | INFO: Extracting primitive: 化学楼 · wall 05 window glass
+21:32:59 | INFO: Primitives created: 1
+21:32:59 | INFO: Extracting primitive: 化学楼 · wall 05 window vertical frames
+21:32:59 | INFO: Primitives created: 1
+21:32:59 | INFO: Extracting primitive: 化学楼 · wall 05 window horizontal frames
+21:32:59 | INFO: Primitives created: 1
+21:32:59 | INFO: Extracting primitive: 化学楼 · wall 05 sill
+21:32:59 | INFO: Primitives created: 1
+21:32:59 | INFO: Extracting primitive: 化学楼 · wall 05 white spandrels
+21:32:59 | INFO: Primitives created: 1
+21:32:59 | INFO: Extracting primitive: 化学楼 · wall 05 plinth
+21:32:59 | INFO: Primitives created: 1
+21:32:59 | INFO: Extracting primitive: 化学楼 · wall 05 roof coping
+21:32:59 | INFO: Primitives created: 1
+21:32:59 | INFO: Extracting primitive: 化学楼 · wall 06 brick wall
+21:32:59 | INFO: Primitives created: 1
+21:32:59 | INFO: Extracting primitive: 化学楼 · wall 06 window glass
+21:32:59 | INFO: Primitives created: 1
+21:32:59 | INFO: Extracting primitive: 化学楼 · wall 06 window vertical frames
+21:32:59 | INFO: Primitives created: 1
+21:32:59 | INFO: Extracting primitive: 化学楼 · wall 06 window horizontal frames
+21:32:59 | INFO: Primitives created: 1
+21:32:59 | INFO: Extracting primitive: 化学楼 · wall 06 sill
+21:32:59 | INFO: Primitives created: 1
+21:32:59 | INFO: Extracting primitive: 化学楼 · wall 06 white spandrels
+21:32:59 | INFO: Primitives created: 1
+21:32:59 | INFO: Extracting primitive: 化学楼 · wall 06 plinth
+21:32:59 | INFO: Primitives created: 1
+21:32:59 | INFO: Extracting primitive: 化学楼 · wall 06 roof coping
+21:32:59 | INFO: Primitives created: 1
+21:32:59 | INFO: Extracting primitive: 化学楼 · wall 07 brick wall
+21:32:59 | INFO: Primitives created: 1
+21:32:59 | INFO: Extracting primitive: 化学楼 · wall 07 window glass
+21:32:59 | INFO: Primitives created: 1
+21:32:59 | INFO: Extracting primitive: 化学楼 · wall 07 window vertical frames
+21:32:59 | INFO: Primitives created: 1
+21:32:59 | INFO: Extracting primitive: 化学楼 · wall 07 window horizontal frames
+21:32:59 | INFO: Primitives created: 1
+21:32:59 | INFO: Extracting primitive: 化学楼 · wall 07 sill
+21:32:59 | INFO: Primitives created: 1
+21:32:59 | INFO: Extracting primitive: 化学楼 · wall 07 white spandrels
+21:32:59 | INFO: Primitives created: 1
+21:32:59 | INFO: Extracting primitive: 化学楼 · wall 07 plinth
+21:32:59 | INFO: Primitives created: 1
+21:32:59 | INFO: Extracting primitive: 化学楼 · wall 07 roof coping
+21:32:59 | INFO: Primitives created: 1
+21:32:59 | INFO: Extracting primitive: 化学楼 · wall 08 brick pier
+21:32:59 | INFO: Primitives created: 1
+21:32:59 | INFO: Extracting primitive: 化学楼 · wall 08 brick over door
+21:32:59 | INFO: Primitives created: 1
+21:32:59 | INFO: Extracting primitive: 化学楼 · wall 08 raised centre brick
+21:32:59 | INFO: Primitives created: 1
+21:32:59 | INFO: Extracting primitive: 化学楼 · wall 08 window glass
+21:32:59 | INFO: Primitives created: 1
+21:32:59 | INFO: Extracting primitive: 化学楼 · wall 08 window vertical frames
+21:32:59 | INFO: Primitives created: 1
+21:32:59 | INFO: Extracting primitive: 化学楼 · wall 08 window horizontal frames
+21:32:59 | INFO: Primitives created: 1
+21:32:59 | INFO: Extracting primitive: 化学楼 · wall 08 sill
+21:32:59 | INFO: Primitives created: 1
+21:32:59 | INFO: Extracting primitive: 化学楼 · wall 08 white spandrels
+21:32:59 | INFO: Primitives created: 1
+21:32:59 | INFO: Extracting primitive: 化学楼 · wall 08 plinth
+21:32:59 | INFO: Primitives created: 1
+21:32:59 | INFO: Extracting primitive: 化学楼 · wall 08 roof coping
+21:32:59 | INFO: Primitives created: 1
+21:32:59 | INFO: Extracting primitive: 化学楼 · wall 08 central roof coping
+21:32:59 | INFO: Primitives created: 1
+21:32:59 | INFO: Extracting primitive: 化学楼 · wall 09 brick wall
+21:32:59 | INFO: Primitives created: 1
+21:32:59 | INFO: Extracting primitive: 化学楼 · wall 09 window glass
+21:32:59 | INFO: Primitives created: 1
+21:32:59 | INFO: Extracting primitive: 化学楼 · wall 09 window vertical frames
+21:32:59 | INFO: Primitives created: 1
+21:32:59 | INFO: Extracting primitive: 化学楼 · wall 09 window horizontal frames
+21:32:59 | INFO: Primitives created: 1
+21:32:59 | INFO: Extracting primitive: 化学楼 · wall 09 sill
+21:32:59 | INFO: Primitives created: 1
+21:32:59 | INFO: Extracting primitive: 化学楼 · wall 09 white spandrels
+21:32:59 | INFO: Primitives created: 1
+21:32:59 | INFO: Extracting primitive: 化学楼 · wall 09 plinth
+21:32:59 | INFO: Primitives created: 1
+21:32:59 | INFO: Extracting primitive: 化学楼 · wall 09 roof coping
+21:32:59 | INFO: Primitives created: 1
+21:32:59 | INFO: Extracting primitive: 化学楼 · wall 10 brick wall
+21:32:59 | INFO: Primitives created: 1
+21:32:59 | INFO: Extracting primitive: 化学楼 · wall 10 window glass
+21:32:59 | INFO: Primitives created: 1
+21:32:59 | INFO: Extracting primitive: 化学楼 · wall 10 window vertical frames
+21:32:59 | INFO: Primitives created: 1
+21:32:59 | INFO: Extracting primitive: 化学楼 · wall 10 window horizontal frames
+21:32:59 | INFO: Primitives created: 1
+21:32:59 | INFO: Extracting primitive: 化学楼 · wall 10 sill
+21:32:59 | INFO: Primitives created: 1
+21:32:59 | INFO: Extracting primitive: 化学楼 · wall 10 white spandrels
+21:32:59 | INFO: Primitives created: 1
+21:32:59 | INFO: Extracting primitive: 化学楼 · wall 10 plinth
+21:32:59 | INFO: Primitives created: 1
+21:32:59 | INFO: Extracting primitive: 化学楼 · wall 10 roof coping
+21:32:59 | INFO: Primitives created: 1
+21:32:59 | INFO: Extracting primitive: 化学楼 · wall 11 brick wall
+21:32:59 | INFO: Primitives created: 1
+21:32:59 | INFO: Extracting primitive: 化学楼 · wall 11 window glass
+21:32:59 | INFO: Primitives created: 1
+21:32:59 | INFO: Extracting primitive: 化学楼 · wall 11 window vertical frames
+21:32:59 | INFO: Primitives created: 1
+21:32:59 | INFO: Extracting primitive: 化学楼 · wall 11 window horizontal frames
+21:32:59 | INFO: Primitives created: 1
+21:32:59 | INFO: Extracting primitive: 化学楼 · wall 11 sill
+21:32:59 | INFO: Primitives created: 1
+21:32:59 | INFO: Extracting primitive: 化学楼 · wall 11 white spandrels
+21:32:59 | INFO: Primitives created: 1
+21:32:59 | INFO: Extracting primitive: 化学楼 · wall 11 plinth
+21:32:59 | INFO: Primitives created: 1
+21:32:59 | INFO: Extracting primitive: 化学楼 · wall 11 roof coping
+21:32:59 | INFO: Primitives created: 1
+21:32:59 | INFO: Extracting primitive: 化学楼 · wall 12 brick wall
+21:32:59 | INFO: Primitives created: 1
+21:32:59 | INFO: Extracting primitive: 化学楼 · wall 12 window glass
+21:32:59 | INFO: Primitives created: 1
+21:32:59 | INFO: Extracting primitive: 化学楼 · wall 12 window vertical frames
+21:32:59 | INFO: Primitives created: 1
+21:32:59 | INFO: Extracting primitive: 化学楼 · wall 12 window horizontal frames
+21:32:59 | INFO: Primitives created: 1
+21:32:59 | INFO: Extracting primitive: 化学楼 · wall 12 sill
+21:32:59 | INFO: Primitives created: 1
+21:32:59 | INFO: Extracting primitive: 化学楼 · wall 12 white spandrels
+21:32:59 | INFO: Primitives created: 1
+21:32:59 | INFO: Extracting primitive: 化学楼 · wall 12 plinth
+21:32:59 | INFO: Primitives created: 1
+21:32:59 | INFO: Extracting primitive: 化学楼 · wall 12 roof coping
+21:32:59 | INFO: Primitives created: 1
+21:32:59 | INFO: Extracting primitive: 化学楼 · wall 13 brick wall
+21:32:59 | INFO: Primitives created: 1
+21:32:59 | INFO: Extracting primitive: 化学楼 · wall 13 window glass
+21:32:59 | INFO: Primitives created: 1
+21:32:59 | INFO: Extracting primitive: 化学楼 · wall 13 window vertical frames
+21:32:59 | INFO: Primitives created: 1
+21:32:59 | INFO: Extracting primitive: 化学楼 · wall 13 window horizontal frames
+21:32:59 | INFO: Primitives created: 1
+21:32:59 | INFO: Extracting primitive: 化学楼 · wall 13 sill
+21:32:59 | INFO: Primitives created: 1
+21:32:59 | INFO: Extracting primitive: 化学楼 · wall 13 white spandrels
+21:32:59 | INFO: Primitives created: 1
+21:32:59 | INFO: Extracting primitive: 化学楼 · wall 13 plinth
+21:32:59 | INFO: Primitives created: 1
+21:32:59 | INFO: Extracting primitive: 化学楼 · wall 13 roof coping
+21:32:59 | INFO: Primitives created: 1
+21:32:59 | INFO: Extracting primitive: 化学楼 · wall 14 brick wall
+21:32:59 | INFO: Primitives created: 1
+21:32:59 | INFO: Extracting primitive: 化学楼 · wall 14 window glass
+21:32:59 | INFO: Primitives created: 1
+21:32:59 | INFO: Extracting primitive: 化学楼 · wall 14 window vertical frames
+21:32:59 | INFO: Primitives created: 1
+21:32:59 | INFO: Extracting primitive: 化学楼 · wall 14 window horizontal frames
+21:32:59 | INFO: Primitives created: 1
+21:32:59 | INFO: Extracting primitive: 化学楼 · wall 14 sill
+21:32:59 | INFO: Primitives created: 1
+21:32:59 | INFO: Extracting primitive: 化学楼 · wall 14 white spandrels
+21:32:59 | INFO: Primitives created: 1
+21:32:59 | INFO: Extracting primitive: 化学楼 · wall 14 plinth
+21:32:59 | INFO: Primitives created: 1
+21:32:59 | INFO: Extracting primitive: 化学楼 · wall 14 roof coping
+21:32:59 | INFO: Primitives created: 1
+21:32:59 | INFO: Extracting primitive: 化学楼 · wall 15 brick wall
+21:32:59 | INFO: Primitives created: 1
+21:32:59 | INFO: Extracting primitive: 化学楼 · wall 15 window glass
+21:32:59 | INFO: Primitives created: 1
+21:32:59 | INFO: Extracting primitive: 化学楼 · wall 15 window vertical frames
+21:32:59 | INFO: Primitives created: 1
+21:32:59 | INFO: Extracting primitive: 化学楼 · wall 15 window horizontal frames
+21:32:59 | INFO: Primitives created: 1
+21:32:59 | INFO: Extracting primitive: 化学楼 · wall 15 sill
+21:32:59 | INFO: Primitives created: 1
+21:32:59 | INFO: Extracting primitive: 化学楼 · wall 15 white spandrels
+21:32:59 | INFO: Primitives created: 1
+21:32:59 | INFO: Extracting primitive: 化学楼 · wall 15 plinth
+21:32:59 | INFO: Primitives created: 1
+21:32:59 | INFO: Extracting primitive: 化学楼 · wall 15 roof coping
+21:32:59 | INFO: Primitives created: 1
+21:32:59 | INFO: Extracting primitive: 化学楼 · passage side walls
+21:32:59 | INFO: Primitives created: 1
+21:32:59 | INFO: Extracting primitive: 化学楼 · passage ceiling
+21:32:59 | INFO: Primitives created: 1
+21:32:59 | INFO: Extracting primitive: 化学楼 · passage floor
+21:32:59 | INFO: Primitives created: 1
+21:32:59 | INFO: Extracting primitive: 化学楼 · front portico roof
+21:32:59 | INFO: Primitives created: 1
+21:32:59 | INFO: Extracting primitive: 化学楼 · front white top
+21:32:59 | INFO: Primitives created: 1
+21:32:59 | INFO: Extracting primitive: 化学楼 · front small ceramic columns
+21:32:59 | INFO: Primitives created: 1
+21:32:59 | INFO: Extracting primitive: 化学楼 · front column grout
+21:32:59 | INFO: Primitives created: 1
+21:32:59 | INFO: Extracting primitive: 化学楼 · front column grout vertical
+21:32:59 | INFO: Primitives created: 1
+21:32:59 | INFO: Extracting primitive: 化学楼 · front fascia vertical grout
+21:32:59 | INFO: Primitives created: 1
+21:32:59 | INFO: Extracting primitive: 化学楼 · front fascia horizontal grout
+21:32:59 | INFO: Primitives created: 1
+21:32:59 | INFO: Extracting primitive: 化学楼 · front side fascia grout
+21:32:59 | INFO: Primitives created: 1
+21:32:59 | INFO: Extracting primitive: 化学楼 · front entry landing
+21:32:59 | INFO: Primitives created: 1
+21:32:59 | INFO: Extracting primitive: 化学楼 · front entry step
+21:32:59 | INFO: Primitives created: 1
+21:32:59 | INFO: Extracting primitive: 化学楼 · front door jambs
+21:32:59 | INFO: Primitives created: 1
+21:32:59 | INFO: Extracting primitive: 化学楼 · front door lintels
+21:32:59 | INFO: Primitives created: 1
+21:32:59 | INFO: Extracting primitive: 化学楼 · front door glass
+21:32:59 | INFO: Primitives created: 1
+21:32:59 | INFO: Extracting primitive: 化学楼 · front door handles
+21:32:59 | INFO: Primitives created: 1
+21:32:59 | INFO: Extracting primitive: 化学楼 · front transom
+21:32:59 | INFO: Primitives created: 1
+21:32:59 | INFO: Extracting primitive: 化学楼 · front entrance sign backing
+21:32:59 | INFO: Primitives created: 1
+21:32:59 | INFO: Extracting primitive: 化学楼 · rear portico roof
+21:32:59 | INFO: Primitives created: 1
+21:32:59 | INFO: Extracting primitive: 化学楼 · rear white top
+21:32:59 | INFO: Primitives created: 1
+21:32:59 | INFO: Extracting primitive: 化学楼 · rear small ceramic columns
+21:32:59 | INFO: Primitives created: 1
+21:32:59 | INFO: Extracting primitive: 化学楼 · rear column grout
+21:32:59 | INFO: Primitives created: 1
+21:32:59 | INFO: Extracting primitive: 化学楼 · rear column grout vertical
+21:32:59 | INFO: Primitives created: 1
+21:32:59 | INFO: Extracting primitive: 化学楼 · rear fascia vertical grout
+21:32:59 | INFO: Primitives created: 1
+21:32:59 | INFO: Extracting primitive: 化学楼 · rear fascia horizontal grout
+21:32:59 | INFO: Primitives created: 1
+21:32:59 | INFO: Extracting primitive: 化学楼 · rear side fascia grout
+21:32:59 | INFO: Primitives created: 1
+21:32:59 | INFO: Extracting primitive: 化学楼 · rear entry landing
+21:32:59 | INFO: Primitives created: 1
+21:32:59 | INFO: Extracting primitive: 化学楼 · rear entry step
+21:32:59 | INFO: Primitives created: 1
+21:32:59 | INFO: Extracting primitive: 化学楼 · rear door jambs
+21:32:59 | INFO: Primitives created: 1
+21:32:59 | INFO: Extracting primitive: 化学楼 · rear door lintels
+21:32:59 | INFO: Primitives created: 1
+21:32:59 | INFO: Extracting primitive: 化学楼 · rear door glass
+21:32:59 | INFO: Primitives created: 1
+21:32:59 | INFO: Extracting primitive: 化学楼 · rear door handles
+21:32:59 | INFO: Primitives created: 1
+21:32:59 | INFO: Extracting primitive: 化学楼 · rear transom
+21:32:59 | INFO: Primitives created: 1
+21:32:59 | INFO: Extracting primitive: 化学楼 · rear entrance sign backing
+21:32:59 | INFO: Primitives created: 1
+21:32:59 | INFO: Extracting primitive: 化学楼 · east portico roof
+21:32:59 | INFO: Primitives created: 1
+21:32:59 | INFO: Extracting primitive: 化学楼 · east white top
+21:32:59 | INFO: Primitives created: 1
+21:32:59 | INFO: Extracting primitive: 化学楼 · east small ceramic columns
+21:32:59 | INFO: Primitives created: 1
+21:32:59 | INFO: Extracting primitive: 化学楼 · east column grout
+21:32:59 | INFO: Primitives created: 1
+21:32:59 | INFO: Extracting primitive: 化学楼 · east column grout vertical
+21:32:59 | INFO: Primitives created: 1
+21:32:59 | INFO: Extracting primitive: 化学楼 · east fascia vertical grout
+21:32:59 | INFO: Primitives created: 1
+21:32:59 | INFO: Extracting primitive: 化学楼 · east fascia horizontal grout
+21:32:59 | INFO: Primitives created: 1
+21:32:59 | INFO: Extracting primitive: 化学楼 · east side fascia grout
+21:32:59 | INFO: Primitives created: 1
+21:32:59 | INFO: Extracting primitive: 化学楼 · east entry landing
+21:32:59 | INFO: Primitives created: 1
+21:32:59 | INFO: Extracting primitive: 化学楼 · east entry step
+21:32:59 | INFO: Primitives created: 1
+21:32:59 | INFO: Extracting primitive: 化学楼 · east door jambs
+21:32:59 | INFO: Primitives created: 1
+21:32:59 | INFO: Extracting primitive: 化学楼 · east door lintels
+21:32:59 | INFO: Primitives created: 1
+21:32:59 | INFO: Extracting primitive: 化学楼 · east door glass
+21:32:59 | INFO: Primitives created: 1
+21:32:59 | INFO: Extracting primitive: 化学楼 · east door handles
+21:32:59 | INFO: Primitives created: 1
+21:32:59 | INFO: Extracting primitive: 化学楼 · east transom
+21:32:59 | INFO: Primitives created: 1
+21:32:59 | INFO: Extracting primitive: 化学楼 · east entrance sign backing
+21:32:59 | INFO: Primitives created: 1
+21:32:59 | INFO: Finished glTF 2.0 export in 0.21144890785217285 s
+Blender 4.4.3 (hash 802179c51ccc built 2025-04-29 15:39:58)
+Fra:1 Mem:65.13M (Peak 65.13M) | Time:00:00.00 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | front 化学楼门头
+Fra:1 Mem:65.33M (Peak 65.33M) | Time:00:00.00 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | rear 化学楼门头
+Fra:1 Mem:65.45M (Peak 65.45M) | Time:00:00.00 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | 化学楼 · wall 00 window glass
+Fra:1 Mem:65.73M (Peak 65.73M) | Time:00:00.00 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | 化学楼 · wall 00 window vertical frames
+Fra:1 Mem:65.85M (Peak 65.85M) | Time:00:00.00 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | 化学楼 · wall 00 sill
+Fra:1 Mem:66.25M (Peak 66.25M) | Time:00:00.01 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | 化学楼 · wall 00 white spandrels
+Fra:1 Mem:66.28M (Peak 66.28M) | Time:00:00.01 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | 化学楼 · wall 00 plinth
+Fra:1 Mem:66.28M (Peak 66.28M) | Time:00:00.01 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | 化学楼 · wall 01 brick wall
+Fra:1 Mem:66.37M (Peak 66.37M) | Time:00:00.01 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | 化学楼 · wall 01 sill
+Fra:1 Mem:66.47M (Peak 66.47M) | Time:00:00.01 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | 化学楼 · wall 01 plinth
+Fra:1 Mem:66.55M (Peak 66.55M) | Time:00:00.01 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | 化学楼 · wall 02 raised centre brick
+Fra:1 Mem:66.61M (Peak 66.61M) | Time:00:00.01 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | 化学楼 · wall 02 window vertical frames
+Fra:1 Mem:66.61M (Peak 66.61M) | Time:00:00.01 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | 化学楼 · wall 02 window horizontal frames
+Fra:1 Mem:66.64M (Peak 66.64M) | Time:00:00.01 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | 化学楼 · wall 02 sill
+Fra:1 Mem:66.65M (Peak 66.65M) | Time:00:00.01 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | 化学楼 · wall 02 white spandrels
+Fra:1 Mem:66.65M (Peak 66.65M) | Time:00:00.01 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | 化学楼 · wall 02 plinth
+Fra:1 Mem:66.67M (Peak 66.67M) | Time:00:00.01 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | 化学楼 · wall 02 central roof coping
+Fra:1 Mem:66.67M (Peak 66.67M) | Time:00:00.01 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | 化学楼 · wall 03 window glass
+Fra:1 Mem:66.73M (Peak 66.73M) | Time:00:00.01 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | 化学楼 · wall 03 window vertical frames
+Fra:1 Mem:66.95M (Peak 66.95M) | Time:00:00.01 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | 化学楼 · wall 03 window horizontal frames
+Fra:1 Mem:66.96M (Peak 66.96M) | Time:00:00.01 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | 化学楼 · wall 03 sill
+Fra:1 Mem:67.00M (Peak 67.00M) | Time:00:00.01 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | 化学楼 · wall 03 white spandrels
+Fra:1 Mem:67.02M (Peak 67.02M) | Time:00:00.01 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | 化学楼 · wall 04 brick wall
+Fra:1 Mem:67.02M (Peak 67.02M) | Time:00:00.01 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | 化学楼 · wall 04 sill
+Fra:1 Mem:67.02M (Peak 67.02M) | Time:00:00.01 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | 化学楼 · wall 04 white spandrels
+Fra:1 Mem:67.14M (Peak 67.14M) | Time:00:00.01 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | 化学楼 · wall 04 roof coping
+Fra:1 Mem:67.14M (Peak 67.14M) | Time:00:00.01 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | 化学楼 · wall 05 brick pier
+Fra:1 Mem:67.15M (Peak 67.15M) | Time:00:00.01 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | 化学楼 · wall 05 brick over door
+Fra:1 Mem:67.15M (Peak 67.15M) | Time:00:00.01 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | 化学楼 · wall 05 window glass
+Fra:1 Mem:67.15M (Peak 67.15M) | Time:00:00.01 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | 化学楼 · wall 05 window horizontal frames
+Fra:1 Mem:67.23M (Peak 67.24M) | Time:00:00.01 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | 化学楼 · wall 05 sill
+Fra:1 Mem:67.25M (Peak 67.25M) | Time:00:00.01 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | 化学楼 · wall 05 white spandrels
+Fra:1 Mem:67.34M (Peak 67.34M) | Time:00:00.01 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | 化学楼 · wall 05 plinth
+Fra:1 Mem:67.27M (Peak 67.34M) | Time:00:00.01 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | 化学楼 · wall 06 brick wall
+Fra:1 Mem:67.27M (Peak 67.34M) | Time:00:00.01 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | 化学楼 · wall 06 window glass
+Fra:1 Mem:67.27M (Peak 67.34M) | Time:00:00.01 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | 化学楼 · wall 06 window vertical frames
+Fra:1 Mem:67.28M (Peak 67.34M) | Time:00:00.01 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | 化学楼 · wall 06 window horizontal frames
+Fra:1 Mem:67.30M (Peak 67.34M) | Time:00:00.01 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | 化学楼 · wall 06 sill
+Fra:1 Mem:67.34M (Peak 67.34M) | Time:00:00.01 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | 化学楼 · wall 06 plinth
+Fra:1 Mem:67.35M (Peak 67.35M) | Time:00:00.01 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | 化学楼 · wall 06 roof coping
+Fra:1 Mem:67.36M (Peak 67.36M) | Time:00:00.01 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | 化学楼 · wall 07 window vertical frames
+Fra:1 Mem:67.36M (Peak 67.36M) | Time:00:00.01 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | 化学楼 · wall 07 window horizontal frames
+Fra:1 Mem:67.39M (Peak 67.39M) | Time:00:00.01 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | 化学楼 · wall 07 sill
+Fra:1 Mem:67.40M (Peak 67.40M) | Time:00:00.01 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | 化学楼 · wall 07 white spandrels
+Fra:1 Mem:67.45M (Peak 67.45M) | Time:00:00.01 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | 化学楼 · wall 07 plinth
+Fra:1 Mem:67.45M (Peak 67.45M) | Time:00:00.01 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | 化学楼 · wall 07 roof coping
+Fra:1 Mem:67.48M (Peak 67.48M) | Time:00:00.01 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | 化学楼 · wall 08 brick pier
+Fra:1 Mem:67.49M (Peak 67.49M) | Time:00:00.01 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | 化学楼 · wall 08 brick over door
+Fra:1 Mem:67.50M (Peak 67.50M) | Time:00:00.01 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | 化学楼 · wall 08 window horizontal frames
+Fra:1 Mem:67.57M (Peak 67.57M) | Time:00:00.01 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | 化学楼 · wall 08 sill
+Fra:1 Mem:67.56M (Peak 67.57M) | Time:00:00.01 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | 化学楼 · wall 08 white spandrels
+Fra:1 Mem:67.57M (Peak 67.57M) | Time:00:00.01 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | 化学楼 · wall 08 central roof coping
+Fra:1 Mem:67.57M (Peak 67.57M) | Time:00:00.01 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | 化学楼 · wall 09 brick wall
+Fra:1 Mem:67.59M (Peak 67.59M) | Time:00:00.01 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | 化学楼 · wall 09 window glass
+Fra:1 Mem:67.60M (Peak 67.60M) | Time:00:00.01 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | 化学楼 · wall 09 window vertical frames
+Fra:1 Mem:67.62M (Peak 67.62M) | Time:00:00.01 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | 化学楼 · wall 09 window horizontal frames
+Fra:1 Mem:67.62M (Peak 67.62M) | Time:00:00.01 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | 化学楼 · wall 09 sill
+Fra:1 Mem:67.64M (Peak 67.64M) | Time:00:00.01 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | 化学楼 · wall 09 plinth
+Fra:1 Mem:67.64M (Peak 67.64M) | Time:00:00.01 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | 化学楼 · wall 09 roof coping
+Fra:1 Mem:67.66M (Peak 67.66M) | Time:00:00.01 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | 化学楼 · wall 10 brick wall
+Fra:1 Mem:67.67M (Peak 67.67M) | Time:00:00.01 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | 化学楼 · wall 10 window glass
+Fra:1 Mem:67.68M (Peak 67.68M) | Time:00:00.01 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | 化学楼 · wall 10 window horizontal frames
+Fra:1 Mem:67.68M (Peak 67.68M) | Time:00:00.01 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | 化学楼 · wall 10 sill
+Fra:1 Mem:67.70M (Peak 67.70M) | Time:00:00.01 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | 化学楼 · wall 10 white spandrels
+Fra:1 Mem:67.71M (Peak 67.71M) | Time:00:00.01 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | 化学楼 · wall 10 plinth
+Fra:1 Mem:67.72M (Peak 67.72M) | Time:00:00.01 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | 化学楼 · wall 10 roof coping
+Fra:1 Mem:67.72M (Peak 67.72M) | Time:00:00.01 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | 化学楼 · wall 11 window glass
+Fra:1 Mem:67.75M (Peak 67.75M) | Time:00:00.01 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | 化学楼 · wall 11 window vertical frames
+Fra:1 Mem:67.76M (Peak 67.76M) | Time:00:00.01 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | 化学楼 · wall 11 window horizontal frames
+Fra:1 Mem:67.81M (Peak 67.81M) | Time:00:00.01 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | 化学楼 · wall 11 sill
+Fra:1 Mem:67.82M (Peak 67.82M) | Time:00:00.01 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | 化学楼 · wall 11 white spandrels
+Fra:1 Mem:67.82M (Peak 67.82M) | Time:00:00.01 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | 化学楼 · wall 11 plinth
+Fra:1 Mem:67.84M (Peak 67.84M) | Time:00:00.01 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | 化学楼 · wall 11 roof coping
+Fra:1 Mem:67.84M (Peak 67.84M) | Time:00:00.01 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | 化学楼 · wall 12 brick wall
+Fra:1 Mem:67.84M (Peak 67.84M) | Time:00:00.01 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | 化学楼 · wall 12 window vertical frames
+Fra:1 Mem:67.84M (Peak 67.84M) | Time:00:00.01 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | 化学楼 · wall 12 window horizontal frames
+Fra:1 Mem:67.85M (Peak 67.85M) | Time:00:00.01 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | 化学楼 · wall 12 sill
+Fra:1 Mem:67.85M (Peak 67.85M) | Time:00:00.01 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | 化学楼 · wall 12 white spandrels
+Fra:1 Mem:67.85M (Peak 67.85M) | Time:00:00.01 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | 化学楼 · wall 12 plinth
+Fra:1 Mem:67.85M (Peak 67.85M) | Time:00:00.01 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | 化学楼 · wall 13 brick wall
+Fra:1 Mem:67.86M (Peak 67.86M) | Time:00:00.01 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | 化学楼 · east entrance sign backing
+Fra:1 Mem:67.87M (Peak 67.87M) | Time:00:00.01 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | 化学楼 · wall 13 window glass
+Fra:1 Mem:67.88M (Peak 67.88M) | Time:00:00.01 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | 化学楼 · wall 13 window vertical frames
+Fra:1 Mem:67.91M (Peak 67.91M) | Time:00:00.01 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | 化学楼 · wall 13 window horizontal frames
+Fra:1 Mem:67.91M (Peak 67.91M) | Time:00:00.01 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | 化学楼 · wall 13 sill
+Fra:1 Mem:67.94M (Peak 67.94M) | Time:00:00.01 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | 化学楼 · wall 13 white spandrels
+Fra:1 Mem:67.94M (Peak 67.94M) | Time:00:00.01 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | 化学楼 · wall 13 roof coping
+Fra:1 Mem:67.95M (Peak 67.95M) | Time:00:00.01 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | 化学楼 · wall 14 brick wall
+Fra:1 Mem:67.95M (Peak 67.95M) | Time:00:00.01 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | 化学楼 · wall 14 window glass
+Fra:1 Mem:67.95M (Peak 67.95M) | Time:00:00.01 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | 化学楼 · wall 14 window vertical frames
+Fra:1 Mem:67.96M (Peak 67.96M) | Time:00:00.01 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | 化学楼 · wall 14 window horizontal frames
+Fra:1 Mem:67.96M (Peak 67.96M) | Time:00:00.01 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | 化学楼 · wall 14 sill
+Fra:1 Mem:67.96M (Peak 67.96M) | Time:00:00.01 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | 化学楼 · wall 14 white spandrels
+Fra:1 Mem:67.96M (Peak 67.96M) | Time:00:00.01 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | 化学楼 · wall 14 plinth
+Fra:1 Mem:67.96M (Peak 67.96M) | Time:00:00.01 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | 化学楼 · wall 14 roof coping
+Fra:1 Mem:67.96M (Peak 67.96M) | Time:00:00.01 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | 化学楼 · wall 15 brick wall
+Fra:1 Mem:67.96M (Peak 67.96M) | Time:00:00.01 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | 化学楼 · wall 15 window vertical frames
+Fra:1 Mem:67.96M (Peak 67.96M) | Time:00:00.01 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | 化学楼 · wall 15 window horizontal frames
+Fra:1 Mem:67.99M (Peak 67.99M) | Time:00:00.01 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | 化学楼 · wall 15 sill
+Fra:1 Mem:68.00M (Peak 68.00M) | Time:00:00.01 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | 化学楼 · wall 15 white spandrels
+Fra:1 Mem:68.00M (Peak 68.00M) | Time:00:00.01 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | 化学楼 · passage ceiling
+Fra:1 Mem:68.04M (Peak 68.04M) | Time:00:00.01 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | 化学楼 · east transom
+Fra:1 Mem:68.06M (Peak 68.06M) | Time:00:00.01 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | 化学楼 · passage floor
+Fra:1 Mem:68.06M (Peak 68.06M) | Time:00:00.01 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | 化学楼 · front portico roof
+Fra:1 Mem:68.06M (Peak 68.06M) | Time:00:00.01 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | 化学楼 · front white top
+Fra:1 Mem:68.06M (Peak 68.06M) | Time:00:00.01 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | 化学楼 · front small ceramic columns
+Fra:1 Mem:68.07M (Peak 68.07M) | Time:00:00.01 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | 化学楼 · front fascia vertical grout
+Fra:1 Mem:68.07M (Peak 68.07M) | Time:00:00.01 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | 化学楼 · front fascia horizontal grout
+Fra:1 Mem:68.08M (Peak 68.08M) | Time:00:00.01 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | 化学楼 · front side fascia grout
+Fra:1 Mem:68.08M (Peak 68.08M) | Time:00:00.01 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | 化学楼 · front entry step
+Fra:1 Mem:68.12M (Peak 68.12M) | Time:00:00.01 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | 化学楼 · front door jambs
+Fra:1 Mem:68.11M (Peak 68.12M) | Time:00:00.01 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | 化学楼 · front door glass
+Fra:1 Mem:68.14M (Peak 68.14M) | Time:00:00.01 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | 化学楼 · front door handles
+Fra:1 Mem:68.14M (Peak 68.14M) | Time:00:00.01 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | 化学楼 · front entrance sign backing
+Fra:1 Mem:68.16M (Peak 68.16M) | Time:00:00.01 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | 化学楼 · rear portico roof
+Fra:1 Mem:68.17M (Peak 68.17M) | Time:00:00.01 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | 化学楼 · rear white top
+Fra:1 Mem:68.17M (Peak 68.17M) | Time:00:00.01 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | 化学楼 · rear small ceramic columns
+Fra:1 Mem:68.17M (Peak 68.17M) | Time:00:00.01 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | 化学楼 · rear column grout
+Fra:1 Mem:68.17M (Peak 68.17M) | Time:00:00.01 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | 化学楼 · rear column grout vertical
+Fra:1 Mem:68.19M (Peak 68.19M) | Time:00:00.01 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | 化学楼 · rear fascia vertical grout
+Fra:1 Mem:68.20M (Peak 68.20M) | Time:00:00.01 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | 化学楼 · rear fascia horizontal grout
+Fra:1 Mem:68.22M (Peak 68.22M) | Time:00:00.01 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | 化学楼 · rear side fascia grout
+Fra:1 Mem:68.22M (Peak 68.22M) | Time:00:00.01 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | 化学楼 · rear entry landing
+Fra:1 Mem:68.24M (Peak 68.24M) | Time:00:00.01 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | 化学楼 · rear entry step
+Fra:1 Mem:68.25M (Peak 68.25M) | Time:00:00.01 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | 化学楼 · rear door jambs
+Fra:1 Mem:68.25M (Peak 68.25M) | Time:00:00.01 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | 化学楼 · rear door lintels
+Fra:1 Mem:68.25M (Peak 68.25M) | Time:00:00.01 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | 化学楼 · rear door glass
+Fra:1 Mem:68.26M (Peak 68.26M) | Time:00:00.01 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | 化学楼 · rear entrance sign backing
+Fra:1 Mem:68.26M (Peak 68.26M) | Time:00:00.01 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | 化学楼 · east white top
+Fra:1 Mem:68.26M (Peak 68.26M) | Time:00:00.01 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | 化学楼 · east small ceramic columns
+Fra:1 Mem:68.26M (Peak 68.26M) | Time:00:00.01 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | 化学楼 · east column grout
+Fra:1 Mem:68.26M (Peak 68.26M) | Time:00:00.01 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | 化学楼 · east fascia horizontal grout
+Fra:1 Mem:68.26M (Peak 68.26M) | Time:00:00.01 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | 化学楼 · east side fascia grout
+Fra:1 Mem:68.28M (Peak 68.28M) | Time:00:00.01 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | 化学楼 · east entry step
+Fra:1 Mem:68.29M (Peak 68.29M) | Time:00:00.01 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | 化学楼 · east door lintels
+Fra:1 Mem:68.29M (Peak 68.29M) | Time:00:00.01 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | 化学楼 · east door glass
+Fra:1 Mem:68.37M (Peak 68.37M) | Time:00:00.01 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Initializing
+Fra:1 Mem:67.62M (Peak 68.37M) | Time:00:00.01 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Updating Images | Loading Chemistry brick courses
+Fra:1 Mem:61.89M (Peak 68.37M) | Time:00:00.01 | Mem:0.12M, Peak:0.12M | Scene, ViewLayer | Waiting for render to start
+Fra:1 Mem:61.89M (Peak 68.37M) | Time:00:00.01 | Mem:0.12M, Peak:0.12M | Scene, ViewLayer | Loading render kernels (may take a few minutes the first time)
+Fra:1 Mem:61.89M (Peak 68.37M) | Time:00:00.01 | Mem:0.12M, Peak:0.12M | Scene, ViewLayer | Updating Scene
+Fra:1 Mem:61.89M (Peak 68.37M) | Time:00:00.01 | Mem:0.12M, Peak:0.12M | Scene, ViewLayer | Updating Shaders
+Fra:1 Mem:61.98M (Peak 68.37M) | Time:00:00.01 | Mem:0.13M, Peak:0.13M | Scene, ViewLayer | Updating Procedurals
+Fra:1 Mem:61.98M (Peak 68.37M) | Time:00:00.01 | Mem:0.13M, Peak:0.13M | Scene, ViewLayer | Updating Background
+Fra:1 Mem:61.98M (Peak 68.37M) | Time:00:00.01 | Mem:0.13M, Peak:0.13M | Scene, ViewLayer | Updating Camera
+Fra:1 Mem:61.98M (Peak 68.37M) | Time:00:00.01 | Mem:0.13M, Peak:0.13M | Scene, ViewLayer | Updating Meshes Flags
+Fra:1 Mem:61.98M (Peak 68.37M) | Time:00:00.01 | Mem:0.13M, Peak:0.13M | Scene, ViewLayer | Updating Objects
+Fra:1 Mem:61.98M (Peak 68.37M) | Time:00:00.01 | Mem:0.13M, Peak:0.13M | Scene, ViewLayer | Updating Objects | Copying Transformations to device
+Fra:1 Mem:62.03M (Peak 68.37M) | Time:00:00.01 | Mem:0.18M, Peak:0.18M | Scene, ViewLayer | Updating Objects | Applying Static Transformations
+Fra:1 Mem:62.03M (Peak 68.37M) | Time:00:00.01 | Mem:0.18M, Peak:0.18M | Scene, ViewLayer | Updating Particle Systems
+Fra:1 Mem:62.03M (Peak 68.37M) | Time:00:00.01 | Mem:0.18M, Peak:0.18M | Scene, ViewLayer | Updating Particle Systems | Copying Particles to device
+Fra:1 Mem:62.03M (Peak 68.37M) | Time:00:00.01 | Mem:0.18M, Peak:0.18M | Scene, ViewLayer | Updating Meshes
+Fra:1 Mem:62.83M (Peak 68.37M) | Time:00:00.01 | Mem:0.18M, Peak:0.18M | Scene, ViewLayer | Updating Mesh | Computing attributes
+Fra:1 Mem:63.35M (Peak 68.37M) | Time:00:00.01 | Mem:0.19M, Peak:0.19M | Scene, ViewLayer | Updating Mesh | Copying Attributes to device
+Fra:1 Mem:63.32M (Peak 68.37M) | Time:00:00.01 | Mem:0.67M, Peak:0.67M | Scene, ViewLayer | Updating Scene BVH | Building
+Fra:1 Mem:63.32M (Peak 68.37M) | Time:00:00.01 | Mem:0.67M, Peak:0.67M | Scene, ViewLayer | Updating Scene BVH | Building BVH
+Fra:1 Mem:63.32M (Peak 68.37M) | Time:00:00.01 | Mem:2.27M, Peak:2.27M | Scene, ViewLayer | Updating Scene BVH | Building BVH 0%
+Fra:1 Mem:63.32M (Peak 68.37M) | Time:00:00.01 | Mem:4.02M, Peak:5.62M | Scene, ViewLayer | Updating Scene BVH | Copying BVH to device
+Fra:1 Mem:63.32M (Peak 68.37M) | Time:00:00.01 | Mem:4.02M, Peak:5.62M | Scene, ViewLayer | Updating Mesh | Computing normals
+Fra:1 Mem:65.58M (Peak 68.37M) | Time:00:00.02 | Mem:4.02M, Peak:5.62M | Scene, ViewLayer | Updating Mesh | Copying Mesh to device
+Fra:1 Mem:65.58M (Peak 68.37M) | Time:00:00.02 | Mem:6.28M, Peak:6.28M | Scene, ViewLayer | Updating Objects Flags
+Fra:1 Mem:65.58M (Peak 68.37M) | Time:00:00.02 | Mem:6.28M, Peak:6.28M | Scene, ViewLayer | Updating Primitive Offsets
+Fra:1 Mem:65.58M (Peak 68.37M) | Time:00:00.02 | Mem:6.28M, Peak:6.28M | Scene, ViewLayer | Updating Images
+Fra:1 Mem:65.58M (Peak 68.37M) | Time:00:00.02 | Mem:6.28M, Peak:6.28M | Scene, ViewLayer | Updating Camera Volume
+Fra:1 Mem:65.58M (Peak 68.37M) | Time:00:00.02 | Mem:6.28M, Peak:6.28M | Scene, ViewLayer | Updating Lookup Tables
+Fra:1 Mem:65.58M (Peak 68.37M) | Time:00:00.02 | Mem:6.36M, Peak:6.36M | Scene, ViewLayer | Updating Lights
+Fra:1 Mem:65.58M (Peak 68.37M) | Time:00:00.02 | Mem:6.36M, Peak:6.36M | Scene, ViewLayer | Updating Lights | Computing tree
+Fra:1 Mem:65.58M (Peak 68.37M) | Time:00:00.02 | Mem:6.36M, Peak:6.36M | Scene, ViewLayer | Updating Integrator
+Fra:1 Mem:65.58M (Peak 68.37M) | Time:00:00.02 | Mem:6.36M, Peak:6.36M | Scene, ViewLayer | Updating Film
+Fra:1 Mem:65.59M (Peak 68.37M) | Time:00:00.02 | Mem:6.28M, Peak:6.36M | Scene, ViewLayer | Updating Lookup Tables
+Fra:1 Mem:65.59M (Peak 68.37M) | Time:00:00.02 | Mem:6.37M, Peak:6.37M | Scene, ViewLayer | Updating Baking
+Fra:1 Mem:65.59M (Peak 68.37M) | Time:00:00.02 | Mem:6.37M, Peak:6.37M | Scene, ViewLayer | Updating Device | Writing constant memory
+Fra:1 Mem:65.59M (Peak 68.37M) | Time:00:00.02 | Mem:6.37M, Peak:6.37M | Scene, ViewLayer | Loading denoising kernels (may take a few minutes the first time)
+Fra:1 Mem:65.59M (Peak 68.37M) | Time:00:00.02 | Mem:6.37M, Peak:6.37M | Scene, ViewLayer | Sample 0/16
+Fra:1 Mem:135.36M (Peak 135.36M) | Time:00:00.08 | Remaining:00:01.01 | Mem:75.96M, Peak:75.96M | Scene, ViewLayer | Sample 1/16
+Fra:1 Mem:164.66M (Peak 208.61M) | Time:00:03.61 | Mem:75.96M, Peak:75.96M | Scene, ViewLayer | Sample 16/16
+Fra:1 Mem:164.66M (Peak 208.61M) | Time:00:03.61 | Mem:75.96M, Peak:75.96M | Scene, ViewLayer | Finished
+Saved: 'E:\csd4.1\VR\FudanCampus\field-review\chemistry-2026-11-14-v1\renders\after-front.png'
+Time: 00:03.76 (Saving: 00:00.13)
+
+Fra:1 Mem:65.59M (Peak 65.59M) | Time:00:00.00 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | front 化学楼门头
+Fra:1 Mem:65.59M (Peak 65.59M) | Time:00:00.00 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | rear 化学楼门头
+Fra:1 Mem:65.79M (Peak 65.79M) | Time:00:00.00 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | 化学楼 · white roof slabs
+Fra:1 Mem:66.18M (Peak 66.18M) | Time:00:00.00 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | 化学楼 · raised centre returns
+Fra:1 Mem:66.28M (Peak 66.28M) | Time:00:00.00 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | 化学楼 · wall 00 sill
+Fra:1 Mem:66.38M (Peak 66.38M) | Time:00:00.00 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | 化学楼 · wall 01 window glass
+Fra:1 Mem:66.48M (Peak 66.48M) | Time:00:00.00 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | 化学楼 · wall 01 window vertical frames
+Fra:1 Mem:66.50M (Peak 66.50M) | Time:00:00.00 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | 化学楼 · wall 01 sill
+Fra:1 Mem:66.42M (Peak 66.50M) | Time:00:00.00 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | 化学楼 · wall 01 roof coping
+Fra:1 Mem:66.42M (Peak 66.50M) | Time:00:00.00 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | 化学楼 · wall 02 brick pier
+Fra:1 Mem:66.42M (Peak 66.50M) | Time:00:00.00 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | 化学楼 · wall 02 raised centre brick
+Fra:1 Mem:66.63M (Peak 66.63M) | Time:00:00.00 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | 化学楼 · wall 02 window vertical frames
+Fra:1 Mem:66.88M (Peak 66.88M) | Time:00:00.00 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | 化学楼 · wall 02 window horizontal frames
+Fra:1 Mem:66.88M (Peak 66.88M) | Time:00:00.00 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | 化学楼 · wall 02 white spandrels
+Fra:1 Mem:66.90M (Peak 66.90M) | Time:00:00.00 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | 化学楼 · wall 02 plinth
+Fra:1 Mem:66.92M (Peak 66.92M) | Time:00:00.00 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | 化学楼 · wall 02 central roof coping
+Fra:1 Mem:66.92M (Peak 66.92M) | Time:00:00.00 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | 化学楼 · wall 03 brick wall
+Fra:1 Mem:66.93M (Peak 66.93M) | Time:00:00.00 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | 化学楼 · wall 03 window glass
+Fra:1 Mem:66.93M (Peak 66.93M) | Time:00:00.00 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | 化学楼 · wall 03 sill
+Fra:1 Mem:66.93M (Peak 66.93M) | Time:00:00.00 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | 化学楼 · wall 03 white spandrels
+Fra:1 Mem:66.95M (Peak 66.95M) | Time:00:00.00 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | 化学楼 · wall 03 plinth
+Fra:1 Mem:66.95M (Peak 66.95M) | Time:00:00.00 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | 化学楼 · wall 03 roof coping
+Fra:1 Mem:66.97M (Peak 66.98M) | Time:00:00.00 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | 化学楼 · wall 04 brick wall
+Fra:1 Mem:66.97M (Peak 66.98M) | Time:00:00.00 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | 化学楼 · wall 04 window vertical frames
+Fra:1 Mem:66.99M (Peak 66.99M) | Time:00:00.00 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | 化学楼 · wall 04 window horizontal frames
+Fra:1 Mem:67.02M (Peak 67.02M) | Time:00:00.00 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | 化学楼 · wall 04 sill
+Fra:1 Mem:67.02M (Peak 67.02M) | Time:00:00.00 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | 化学楼 · wall 04 white spandrels
+Fra:1 Mem:67.03M (Peak 67.03M) | Time:00:00.00 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | 化学楼 · wall 04 roof coping
+Fra:1 Mem:67.04M (Peak 67.04M) | Time:00:00.00 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | 化学楼 · wall 05 brick over door
+Fra:1 Mem:67.04M (Peak 67.04M) | Time:00:00.00 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | 化学楼 · wall 05 window glass
+Fra:1 Mem:67.05M (Peak 67.05M) | Time:00:00.00 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | 化学楼 · wall 05 window horizontal frames
+Fra:1 Mem:67.15M (Peak 67.15M) | Time:00:00.00 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | 化学楼 · wall 05 sill
+Fra:1 Mem:67.15M (Peak 67.15M) | Time:00:00.00 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | 化学楼 · wall 05 white spandrels
+Fra:1 Mem:67.18M (Peak 67.18M) | Time:00:00.00 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | 化学楼 · wall 05 plinth
+Fra:1 Mem:67.19M (Peak 67.19M) | Time:00:00.00 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | 化学楼 · wall 06 brick wall
+Fra:1 Mem:67.19M (Peak 67.19M) | Time:00:00.00 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | 化学楼 · wall 06 window glass
+Fra:1 Mem:67.22M (Peak 67.22M) | Time:00:00.00 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | 化学楼 · wall 06 sill
+Fra:1 Mem:67.22M (Peak 67.22M) | Time:00:00.00 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | 化学楼 · wall 06 white spandrels
+Fra:1 Mem:67.25M (Peak 67.25M) | Time:00:00.00 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | 化学楼 · wall 06 plinth
+Fra:1 Mem:67.25M (Peak 67.25M) | Time:00:00.00 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | 化学楼 · wall 06 roof coping
+Fra:1 Mem:67.25M (Peak 67.25M) | Time:00:00.00 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | 化学楼 · wall 07 window glass
+Fra:1 Mem:67.25M (Peak 67.25M) | Time:00:00.00 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | 化学楼 · wall 07 window vertical frames
+Fra:1 Mem:67.31M (Peak 67.31M) | Time:00:00.00 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | 化学楼 · wall 07 window horizontal frames
+Fra:1 Mem:67.33M (Peak 67.33M) | Time:00:00.00 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | 化学楼 · wall 07 white spandrels
+Fra:1 Mem:67.34M (Peak 67.34M) | Time:00:00.00 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | 化学楼 · wall 07 plinth
+Fra:1 Mem:67.34M (Peak 67.34M) | Time:00:00.00 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | 化学楼 · wall 07 roof coping
+Fra:1 Mem:67.34M (Peak 67.34M) | Time:00:00.00 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | 化学楼 · east entrance sign backing
+Fra:1 Mem:67.36M (Peak 67.36M) | Time:00:00.00 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | 化学楼 · wall 08 brick over door
+Fra:1 Mem:67.37M (Peak 67.37M) | Time:00:00.00 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | 化学楼 · east transom
+Fra:1 Mem:67.37M (Peak 67.37M) | Time:00:00.00 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | 化学楼 · wall 08 window glass
+Fra:1 Mem:67.39M (Peak 67.39M) | Time:00:00.00 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | 化学楼 · wall 08 window vertical frames
+Fra:1 Mem:67.39M (Peak 67.39M) | Time:00:00.00 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | 化学楼 · wall 08 window horizontal frames
+Fra:1 Mem:67.47M (Peak 67.47M) | Time:00:00.00 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | 化学楼 · wall 08 sill
+Fra:1 Mem:67.47M (Peak 67.47M) | Time:00:00.00 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | 化学楼 · wall 08 white spandrels
+Fra:1 Mem:67.48M (Peak 67.48M) | Time:00:00.00 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | 化学楼 · wall 08 plinth
+Fra:1 Mem:67.54M (Peak 67.54M) | Time:00:00.00 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | 化学楼 · wall 08 roof coping
+Fra:1 Mem:67.55M (Peak 67.55M) | Time:00:00.00 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | 化学楼 · wall 08 central roof coping
+Fra:1 Mem:67.58M (Peak 67.58M) | Time:00:00.00 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | 化学楼 · wall 09 window vertical frames
+Fra:1 Mem:67.58M (Peak 67.58M) | Time:00:00.00 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | 化学楼 · wall 09 window horizontal frames
+Fra:1 Mem:67.58M (Peak 67.58M) | Time:00:00.00 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | 化学楼 · east door handles
+Fra:1 Mem:67.60M (Peak 67.60M) | Time:00:00.00 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | 化学楼 · wall 09 sill
+Fra:1 Mem:67.61M (Peak 67.61M) | Time:00:00.00 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | 化学楼 · wall 09 white spandrels
+Fra:1 Mem:67.70M (Peak 67.70M) | Time:00:00.00 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | 化学楼 · wall 09 plinth
+Fra:1 Mem:67.70M (Peak 67.70M) | Time:00:00.00 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | 化学楼 · wall 10 brick wall
+Fra:1 Mem:67.73M (Peak 67.73M) | Time:00:00.00 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | 化学楼 · wall 10 window glass
+Fra:1 Mem:67.73M (Peak 67.73M) | Time:00:00.00 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | 化学楼 · wall 10 window vertical frames
+Fra:1 Mem:67.73M (Peak 67.73M) | Time:00:00.00 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | 化学楼 · wall 10 window horizontal frames
+Fra:1 Mem:67.78M (Peak 67.78M) | Time:00:00.00 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | 化学楼 · wall 10 sill
+Fra:1 Mem:67.81M (Peak 67.81M) | Time:00:00.00 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | 化学楼 · wall 10 roof coping
+Fra:1 Mem:67.81M (Peak 67.81M) | Time:00:00.00 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | 化学楼 · wall 11 brick wall
+Fra:1 Mem:67.81M (Peak 67.81M) | Time:00:00.00 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | 化学楼 · wall 11 window glass
+Fra:1 Mem:67.81M (Peak 67.81M) | Time:00:00.00 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | 化学楼 · wall 11 window vertical frames
+Fra:1 Mem:67.84M (Peak 67.83M) | Time:00:00.00 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | 化学楼 · wall 11 window horizontal frames
+Fra:1 Mem:67.83M (Peak 67.83M) | Time:00:00.00 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | 化学楼 · east door glass
+Fra:1 Mem:67.84M (Peak 67.84M) | Time:00:00.00 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | 化学楼 · wall 11 white spandrels
+Fra:1 Mem:67.84M (Peak 67.84M) | Time:00:00.00 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | 化学楼 · wall 11 plinth
+Fra:1 Mem:67.84M (Peak 67.84M) | Time:00:00.00 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | 化学楼 · wall 11 roof coping
+Fra:1 Mem:67.84M (Peak 67.84M) | Time:00:00.00 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | 化学楼 · wall 12 brick wall
+Fra:1 Mem:67.85M (Peak 67.85M) | Time:00:00.00 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | 化学楼 · wall 12 window vertical frames
+Fra:1 Mem:67.86M (Peak 67.86M) | Time:00:00.00 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | 化学楼 · wall 12 sill
+Fra:1 Mem:67.86M (Peak 67.86M) | Time:00:00.00 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | 化学楼 · wall 12 white spandrels
+Fra:1 Mem:67.86M (Peak 67.86M) | Time:00:00.00 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | 化学楼 · wall 12 plinth
+Fra:1 Mem:67.88M (Peak 67.88M) | Time:00:00.00 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | 化学楼 · wall 12 roof coping
+Fra:1 Mem:67.90M (Peak 67.90M) | Time:00:00.00 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | 化学楼 · wall 13 brick wall
+Fra:1 Mem:67.90M (Peak 67.90M) | Time:00:00.00 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | 化学楼 · wall 13 window glass
+Fra:1 Mem:67.91M (Peak 67.91M) | Time:00:00.00 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | 化学楼 · east door jambs
+Fra:1 Mem:67.91M (Peak 67.91M) | Time:00:00.00 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | 化学楼 · wall 13 plinth
+Fra:1 Mem:67.91M (Peak 67.91M) | Time:00:00.00 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | 化学楼 · east entry step
+Fra:1 Mem:67.92M (Peak 67.92M) | Time:00:00.00 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | 化学楼 · wall 13 roof coping
+Fra:1 Mem:67.92M (Peak 67.92M) | Time:00:00.00 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | 化学楼 · wall 14 brick wall
+Fra:1 Mem:67.92M (Peak 67.92M) | Time:00:00.00 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | 化学楼 · wall 14 window vertical frames
+Fra:1 Mem:67.95M (Peak 67.95M) | Time:00:00.00 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | 化学楼 · wall 14 window horizontal frames
+Fra:1 Mem:67.96M (Peak 67.96M) | Time:00:00.00 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | 化学楼 · wall 14 white spandrels
+Fra:1 Mem:67.98M (Peak 67.98M) | Time:00:00.00 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | 化学楼 · wall 14 plinth
+Fra:1 Mem:68.01M (Peak 68.02M) | Time:00:00.00 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | 化学楼 · wall 14 roof coping
+Fra:1 Mem:68.02M (Peak 68.02M) | Time:00:00.00 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | 化学楼 · wall 15 brick wall
+Fra:1 Mem:68.02M (Peak 68.02M) | Time:00:00.00 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | 化学楼 · wall 15 window glass
+Fra:1 Mem:68.02M (Peak 68.02M) | Time:00:00.00 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | 化学楼 · wall 15 window vertical frames
+Fra:1 Mem:68.02M (Peak 68.02M) | Time:00:00.00 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | 化学楼 · wall 15 window horizontal frames
+Fra:1 Mem:68.02M (Peak 68.02M) | Time:00:00.00 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | 化学楼 · wall 15 sill
+Fra:1 Mem:68.05M (Peak 68.05M) | Time:00:00.00 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | 化学楼 · wall 15 white spandrels
+Fra:1 Mem:68.06M (Peak 68.06M) | Time:00:00.00 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | 化学楼 · wall 15 plinth
+Fra:1 Mem:68.06M (Peak 68.06M) | Time:00:00.00 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | 化学楼 · wall 15 roof coping
+Fra:1 Mem:68.06M (Peak 68.06M) | Time:00:00.00 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | 化学楼 · passage side walls
+Fra:1 Mem:68.06M (Peak 68.06M) | Time:00:00.00 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | 化学楼 · passage floor
+Fra:1 Mem:68.06M (Peak 68.06M) | Time:00:00.00 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | 化学楼 · front portico roof
+Fra:1 Mem:68.06M (Peak 68.06M) | Time:00:00.00 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | 化学楼 · front small ceramic columns
+Fra:1 Mem:68.07M (Peak 68.07M) | Time:00:00.00 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | 化学楼 · front column grout
+Fra:1 Mem:68.08M (Peak 68.08M) | Time:00:00.00 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | 化学楼 · front column grout vertical
+Fra:1 Mem:68.11M (Peak 68.11M) | Time:00:00.00 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | 化学楼 · front fascia vertical grout
+Fra:1 Mem:68.11M (Peak 68.11M) | Time:00:00.00 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | 化学楼 · front entry landing
+Fra:1 Mem:68.11M (Peak 68.11M) | Time:00:00.00 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | 化学楼 · east side fascia grout
+Fra:1 Mem:68.11M (Peak 68.11M) | Time:00:00.00 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | 化学楼 · front entry step
+Fra:1 Mem:68.12M (Peak 68.12M) | Time:00:00.00 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | 化学楼 · front door lintels
+Fra:1 Mem:68.13M (Peak 68.13M) | Time:00:00.00 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | 化学楼 · front door glass
+Fra:1 Mem:68.13M (Peak 68.13M) | Time:00:00.00 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | 化学楼 · front entrance sign backing
+Fra:1 Mem:68.13M (Peak 68.13M) | Time:00:00.00 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | 化学楼 · rear portico roof
+Fra:1 Mem:68.13M (Peak 68.13M) | Time:00:00.00 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | 化学楼 · rear white top
+Fra:1 Mem:68.14M (Peak 68.14M) | Time:00:00.00 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | 化学楼 · rear small ceramic columns
+Fra:1 Mem:68.15M (Peak 68.15M) | Time:00:00.00 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | 化学楼 · rear column grout
+Fra:1 Mem:68.17M (Peak 68.17M) | Time:00:00.00 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | 化学楼 · rear column grout vertical
+Fra:1 Mem:68.19M (Peak 68.19M) | Time:00:00.00 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | 化学楼 · rear fascia vertical grout
+Fra:1 Mem:68.20M (Peak 68.20M) | Time:00:00.00 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | 化学楼 · rear fascia horizontal grout
+Fra:1 Mem:68.22M (Peak 68.22M) | Time:00:00.00 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | 化学楼 · rear side fascia grout
+Fra:1 Mem:68.22M (Peak 68.22M) | Time:00:00.00 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | 化学楼 · rear entry landing
+Fra:1 Mem:68.23M (Peak 68.23M) | Time:00:00.00 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | 化学楼 · rear door jambs
+Fra:1 Mem:68.23M (Peak 68.23M) | Time:00:00.00 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | 化学楼 · rear door lintels
+Fra:1 Mem:68.23M (Peak 68.23M) | Time:00:00.00 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | 化学楼 · rear door glass
+Fra:1 Mem:68.23M (Peak 68.23M) | Time:00:00.00 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | 化学楼 · rear transom
+Fra:1 Mem:68.23M (Peak 68.23M) | Time:00:00.00 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | 化学楼 · east portico roof
+Fra:1 Mem:68.23M (Peak 68.23M) | Time:00:00.00 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | 化学楼 · east white top
+Fra:1 Mem:68.26M (Peak 68.26M) | Time:00:00.00 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | 化学楼 · east fascia horizontal grout
+Fra:1 Mem:68.26M (Peak 68.26M) | Time:00:00.00 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | 化学楼 · east column grout vertical
+Fra:1 Mem:68.26M (Peak 68.26M) | Time:00:00.00 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | 化学楼 · east fascia vertical grout
+Fra:1 Mem:68.37M (Peak 68.37M) | Time:00:00.01 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Initializing
+Fra:1 Mem:67.62M (Peak 68.37M) | Time:00:00.01 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Updating Images | Loading Chemistry brick courses
+Fra:1 Mem:61.89M (Peak 68.37M) | Time:00:00.01 | Mem:0.12M, Peak:0.12M | Scene, ViewLayer | Waiting for render to start
+Fra:1 Mem:61.89M (Peak 68.37M) | Time:00:00.01 | Mem:0.12M, Peak:0.12M | Scene, ViewLayer | Loading render kernels (may take a few minutes the first time)
+Fra:1 Mem:61.89M (Peak 68.37M) | Time:00:00.01 | Mem:0.12M, Peak:0.12M | Scene, ViewLayer | Updating Scene
+Fra:1 Mem:61.89M (Peak 68.37M) | Time:00:00.01 | Mem:0.12M, Peak:0.12M | Scene, ViewLayer | Updating Shaders
+Fra:1 Mem:61.98M (Peak 68.37M) | Time:00:00.01 | Mem:0.13M, Peak:0.13M | Scene, ViewLayer | Updating Procedurals
+Fra:1 Mem:61.98M (Peak 68.37M) | Time:00:00.01 | Mem:0.13M, Peak:0.13M | Scene, ViewLayer | Updating Background
+Fra:1 Mem:61.98M (Peak 68.37M) | Time:00:00.01 | Mem:0.13M, Peak:0.13M | Scene, ViewLayer | Updating Camera
+Fra:1 Mem:61.98M (Peak 68.37M) | Time:00:00.01 | Mem:0.13M, Peak:0.13M | Scene, ViewLayer | Updating Meshes Flags
+Fra:1 Mem:61.98M (Peak 68.37M) | Time:00:00.01 | Mem:0.13M, Peak:0.13M | Scene, ViewLayer | Updating Objects
+Fra:1 Mem:61.98M (Peak 68.37M) | Time:00:00.01 | Mem:0.13M, Peak:0.13M | Scene, ViewLayer | Updating Objects | Copying Transformations to device
+Fra:1 Mem:62.03M (Peak 68.37M) | Time:00:00.01 | Mem:0.18M, Peak:0.18M | Scene, ViewLayer | Updating Objects | Applying Static Transformations
+Fra:1 Mem:62.03M (Peak 68.37M) | Time:00:00.01 | Mem:0.18M, Peak:0.18M | Scene, ViewLayer | Updating Particle Systems
+Fra:1 Mem:62.03M (Peak 68.37M) | Time:00:00.01 | Mem:0.18M, Peak:0.18M | Scene, ViewLayer | Updating Particle Systems | Copying Particles to device
+Fra:1 Mem:62.03M (Peak 68.37M) | Time:00:00.01 | Mem:0.18M, Peak:0.18M | Scene, ViewLayer | Updating Meshes
+Fra:1 Mem:62.83M (Peak 68.37M) | Time:00:00.01 | Mem:0.18M, Peak:0.18M | Scene, ViewLayer | Updating Mesh | Computing attributes
+Fra:1 Mem:63.35M (Peak 68.37M) | Time:00:00.01 | Mem:0.19M, Peak:0.19M | Scene, ViewLayer | Updating Mesh | Copying Attributes to device
+Fra:1 Mem:63.32M (Peak 68.37M) | Time:00:00.01 | Mem:0.67M, Peak:0.67M | Scene, ViewLayer | Updating Scene BVH | Building
+Fra:1 Mem:63.32M (Peak 68.37M) | Time:00:00.01 | Mem:0.67M, Peak:0.67M | Scene, ViewLayer | Updating Scene BVH | Building BVH
+Fra:1 Mem:63.32M (Peak 68.37M) | Time:00:00.01 | Mem:2.27M, Peak:2.27M | Scene, ViewLayer | Updating Scene BVH | Building BVH 0%
+Fra:1 Mem:63.32M (Peak 68.37M) | Time:00:00.01 | Mem:4.02M, Peak:5.62M | Scene, ViewLayer | Updating Scene BVH | Copying BVH to device
+Fra:1 Mem:63.32M (Peak 68.37M) | Time:00:00.01 | Mem:4.02M, Peak:5.62M | Scene, ViewLayer | Updating Mesh | Computing normals
+Fra:1 Mem:65.58M (Peak 68.37M) | Time:00:00.01 | Mem:4.02M, Peak:5.62M | Scene, ViewLayer | Updating Mesh | Copying Mesh to device
+Fra:1 Mem:65.58M (Peak 68.37M) | Time:00:00.01 | Mem:6.28M, Peak:6.28M | Scene, ViewLayer | Updating Objects Flags
+Fra:1 Mem:65.58M (Peak 68.37M) | Time:00:00.01 | Mem:6.28M, Peak:6.28M | Scene, ViewLayer | Updating Primitive Offsets
+Fra:1 Mem:65.58M (Peak 68.37M) | Time:00:00.01 | Mem:6.28M, Peak:6.28M | Scene, ViewLayer | Updating Images
+Fra:1 Mem:65.58M (Peak 68.37M) | Time:00:00.01 | Mem:6.28M, Peak:6.28M | Scene, ViewLayer | Updating Camera Volume
+Fra:1 Mem:65.58M (Peak 68.37M) | Time:00:00.01 | Mem:6.28M, Peak:6.28M | Scene, ViewLayer | Updating Lookup Tables
+Fra:1 Mem:65.58M (Peak 68.37M) | Time:00:00.01 | Mem:6.36M, Peak:6.36M | Scene, ViewLayer | Updating Lights
+Fra:1 Mem:65.58M (Peak 68.37M) | Time:00:00.01 | Mem:6.36M, Peak:6.36M | Scene, ViewLayer | Updating Lights | Computing tree
+Fra:1 Mem:65.58M (Peak 68.37M) | Time:00:00.01 | Mem:6.36M, Peak:6.36M | Scene, ViewLayer | Updating Integrator
+Fra:1 Mem:65.58M (Peak 68.37M) | Time:00:00.01 | Mem:6.36M, Peak:6.36M | Scene, ViewLayer | Updating Film
+Fra:1 Mem:65.59M (Peak 68.37M) | Time:00:00.01 | Mem:6.28M, Peak:6.36M | Scene, ViewLayer | Updating Lookup Tables
+Fra:1 Mem:65.59M (Peak 68.37M) | Time:00:00.01 | Mem:6.37M, Peak:6.37M | Scene, ViewLayer | Updating Baking
+Fra:1 Mem:65.59M (Peak 68.37M) | Time:00:00.01 | Mem:6.37M, Peak:6.37M | Scene, ViewLayer | Updating Device | Writing constant memory
+Fra:1 Mem:65.59M (Peak 68.37M) | Time:00:00.01 | Mem:6.37M, Peak:6.37M | Scene, ViewLayer | Loading denoising kernels (may take a few minutes the first time)
+Fra:1 Mem:65.59M (Peak 68.37M) | Time:00:00.01 | Mem:6.37M, Peak:6.37M | Scene, ViewLayer | Sample 0/16
+Fra:1 Mem:135.36M (Peak 135.36M) | Time:00:00.08 | Remaining:00:01.05 | Mem:75.96M, Peak:75.96M | Scene, ViewLayer | Sample 1/16
+Fra:1 Mem:164.66M (Peak 208.61M) | Time:00:03.75 | Mem:75.96M, Peak:75.96M | Scene, ViewLayer | Sample 16/16
+Fra:1 Mem:164.66M (Peak 208.61M) | Time:00:03.75 | Mem:75.96M, Peak:75.96M | Scene, ViewLayer | Finished
+Saved: 'E:\csd4.1\VR\FudanCampus\field-review\chemistry-2026-11-14-v1\renders\after-rear.png'
+Time: 00:03.84 (Saving: 00:00.07)
+
+Fra:1 Mem:65.59M (Peak 65.59M) | Time:00:00.00 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | front 化学楼门头
+Fra:1 Mem:65.59M (Peak 65.59M) | Time:00:00.00 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | 化学楼 · white roof slabs
+Fra:1 Mem:65.79M (Peak 65.79M) | Time:00:00.00 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | 化学楼 · wall 00 sill
+Fra:1 Mem:65.99M (Peak 65.99M) | Time:00:00.00 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | 化学楼 · wall 00 white spandrels
+Fra:1 Mem:66.00M (Peak 66.00M) | Time:00:00.00 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | 化学楼 · wall 01 window glass
+Fra:1 Mem:66.00M (Peak 66.00M) | Time:00:00.00 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | 化学楼 · wall 01 window horizontal frames
+Fra:1 Mem:66.20M (Peak 66.20M) | Time:00:00.00 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | 化学楼 · wall 01 white spandrels
+Fra:1 Mem:66.32M (Peak 66.32M) | Time:00:00.00 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | 化学楼 · wall 01 plinth
+Fra:1 Mem:66.64M (Peak 66.64M) | Time:00:00.00 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | 化学楼 · wall 01 roof coping
+Fra:1 Mem:66.74M (Peak 66.74M) | Time:00:00.00 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | 化学楼 · wall 02 raised centre brick
+Fra:1 Mem:66.84M (Peak 66.84M) | Time:00:00.00 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | 化学楼 · wall 02 window glass
+Fra:1 Mem:66.86M (Peak 66.86M) | Time:00:00.00 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | 化学楼 · wall 02 window vertical frames
+Fra:1 Mem:66.86M (Peak 66.86M) | Time:00:00.00 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | 化学楼 · wall 02 plinth
+Fra:1 Mem:66.89M (Peak 66.89M) | Time:00:00.00 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | 化学楼 · wall 02 white spandrels
+Fra:1 Mem:66.92M (Peak 66.92M) | Time:00:00.00 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | 化学楼 · wall 02 roof coping
+Fra:1 Mem:66.93M (Peak 66.93M) | Time:00:00.00 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | 化学楼 · wall 02 central roof coping
+Fra:1 Mem:66.93M (Peak 66.93M) | Time:00:00.00 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | 化学楼 · wall 03 brick wall
+Fra:1 Mem:66.93M (Peak 66.93M) | Time:00:00.00 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | 化学楼 · wall 03 window glass
+Fra:1 Mem:66.93M (Peak 66.93M) | Time:00:00.00 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | 化学楼 · wall 03 window horizontal frames
+Fra:1 Mem:66.96M (Peak 66.96M) | Time:00:00.00 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | 化学楼 · wall 03 sill
+Fra:1 Mem:66.96M (Peak 66.96M) | Time:00:00.00 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | 化学楼 · wall 03 white spandrels
+Fra:1 Mem:67.04M (Peak 67.04M) | Time:00:00.00 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | 化学楼 · wall 03 plinth
+Fra:1 Mem:67.05M (Peak 67.05M) | Time:00:00.00 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | 化学楼 · wall 03 roof coping
+Fra:1 Mem:67.07M (Peak 67.07M) | Time:00:00.00 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | 化学楼 · wall 04 window glass
+Fra:1 Mem:67.08M (Peak 67.08M) | Time:00:00.00 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | 化学楼 · wall 04 window horizontal frames
+Fra:1 Mem:67.11M (Peak 67.11M) | Time:00:00.00 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | 化学楼 · wall 04 sill
+Fra:1 Mem:67.12M (Peak 67.12M) | Time:00:00.00 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | 化学楼 · wall 04 white spandrels
+Fra:1 Mem:67.13M (Peak 67.13M) | Time:00:00.00 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | 化学楼 · wall 04 plinth
+Fra:1 Mem:67.13M (Peak 67.13M) | Time:00:00.00 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | 化学楼 · wall 04 roof coping
+Fra:1 Mem:67.13M (Peak 67.13M) | Time:00:00.00 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | 化学楼 · wall 05 brick over door
+Fra:1 Mem:67.15M (Peak 67.15M) | Time:00:00.00 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | 化学楼 · wall 05 window glass
+Fra:1 Mem:67.17M (Peak 67.17M) | Time:00:00.00 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | 化学楼 · wall 05 window vertical frames
+Fra:1 Mem:67.17M (Peak 67.17M) | Time:00:00.00 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | 化学楼 · wall 05 window horizontal frames
+Fra:1 Mem:67.22M (Peak 67.22M) | Time:00:00.00 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | 化学楼 · wall 05 sill
+Fra:1 Mem:67.24M (Peak 67.24M) | Time:00:00.00 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | 化学楼 · wall 05 roof coping
+Fra:1 Mem:67.24M (Peak 67.24M) | Time:00:00.00 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | 化学楼 · wall 06 brick wall
+Fra:1 Mem:67.25M (Peak 67.25M) | Time:00:00.00 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | 化学楼 · wall 06 window vertical frames
+Fra:1 Mem:67.25M (Peak 67.25M) | Time:00:00.00 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | 化学楼 · wall 06 sill
+Fra:1 Mem:67.25M (Peak 67.25M) | Time:00:00.00 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | 化学楼 · wall 06 white spandrels
+Fra:1 Mem:67.26M (Peak 67.26M) | Time:00:00.00 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | 化学楼 · wall 06 plinth
+Fra:1 Mem:67.33M (Peak 67.33M) | Time:00:00.00 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | 化学楼 · wall 06 roof coping
+Fra:1 Mem:67.32M (Peak 67.33M) | Time:00:00.00 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | 化学楼 · wall 07 brick wall
+Fra:1 Mem:67.39M (Peak 67.39M) | Time:00:00.00 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | 化学楼 · wall 07 window glass
+Fra:1 Mem:67.39M (Peak 67.39M) | Time:00:00.00 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | 化学楼 · wall 07 window vertical frames
+Fra:1 Mem:67.40M (Peak 67.40M) | Time:00:00.00 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | 化学楼 · wall 07 window horizontal frames
+Fra:1 Mem:67.40M (Peak 67.40M) | Time:00:00.00 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | 化学楼 · wall 07 sill
+Fra:1 Mem:67.42M (Peak 67.43M) | Time:00:00.00 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | 化学楼 · wall 07 white spandrels
+Fra:1 Mem:67.43M (Peak 67.43M) | Time:00:00.00 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | 化学楼 · wall 07 roof coping
+Fra:1 Mem:67.43M (Peak 67.43M) | Time:00:00.00 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | 化学楼 · wall 08 brick pier
+Fra:1 Mem:67.46M (Peak 67.46M) | Time:00:00.00 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | 化学楼 · wall 08 brick over door
+Fra:1 Mem:67.46M (Peak 67.46M) | Time:00:00.00 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | 化学楼 · wall 08 window glass
+Fra:1 Mem:67.49M (Peak 67.49M) | Time:00:00.00 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | 化学楼 · wall 08 window vertical frames
+Fra:1 Mem:67.49M (Peak 67.49M) | Time:00:00.00 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | 化学楼 · wall 08 window horizontal frames
+Fra:1 Mem:67.59M (Peak 67.59M) | Time:00:00.00 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | 化学楼 · wall 08 sill
+Fra:1 Mem:67.62M (Peak 67.62M) | Time:00:00.00 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | 化学楼 · wall 08 white spandrels
+Fra:1 Mem:67.63M (Peak 67.63M) | Time:00:00.00 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | 化学楼 · wall 08 plinth
+Fra:1 Mem:67.63M (Peak 67.63M) | Time:00:00.00 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | 化学楼 · wall 09 brick wall
+Fra:1 Mem:67.64M (Peak 67.64M) | Time:00:00.00 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | 化学楼 · wall 09 window glass
+Fra:1 Mem:67.66M (Peak 67.66M) | Time:00:00.00 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | 化学楼 · wall 09 window vertical frames
+Fra:1 Mem:67.67M (Peak 67.67M) | Time:00:00.01 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | 化学楼 · wall 09 sill
+Fra:1 Mem:67.69M (Peak 67.69M) | Time:00:00.01 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | 化学楼 · wall 09 white spandrels
+Fra:1 Mem:67.70M (Peak 67.70M) | Time:00:00.01 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | 化学楼 · wall 09 plinth
+Fra:1 Mem:67.70M (Peak 67.70M) | Time:00:00.01 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | 化学楼 · wall 09 roof coping
+Fra:1 Mem:67.70M (Peak 67.70M) | Time:00:00.01 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | 化学楼 · wall 10 brick wall
+Fra:1 Mem:67.70M (Peak 67.70M) | Time:00:00.01 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | 化学楼 · wall 10 window vertical frames
+Fra:1 Mem:67.73M (Peak 67.73M) | Time:00:00.01 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | 化学楼 · wall 10 window horizontal frames
+Fra:1 Mem:67.73M (Peak 67.73M) | Time:00:00.01 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | 化学楼 · wall 10 sill
+Fra:1 Mem:67.76M (Peak 67.76M) | Time:00:00.01 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | 化学楼 · wall 10 white spandrels
+Fra:1 Mem:67.77M (Peak 67.77M) | Time:00:00.01 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | 化学楼 · wall 10 plinth
+Fra:1 Mem:67.77M (Peak 67.77M) | Time:00:00.01 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | 化学楼 · wall 11 brick wall
+Fra:1 Mem:67.77M (Peak 67.77M) | Time:00:00.01 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | 化学楼 · wall 11 window glass
+Fra:1 Mem:67.77M (Peak 67.77M) | Time:00:00.01 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | 化学楼 · wall 11 window horizontal frames
+Fra:1 Mem:67.78M (Peak 67.78M) | Time:00:00.01 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | 化学楼 · wall 11 sill
+Fra:1 Mem:67.80M (Peak 67.80M) | Time:00:00.01 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | 化学楼 · wall 11 white spandrels
+Fra:1 Mem:67.80M (Peak 67.80M) | Time:00:00.01 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | 化学楼 · wall 11 plinth
+Fra:1 Mem:67.81M (Peak 67.81M) | Time:00:00.01 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | 化学楼 · east entrance sign backing
+Fra:1 Mem:67.81M (Peak 67.81M) | Time:00:00.01 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | 化学楼 · wall 11 roof coping
+Fra:1 Mem:67.81M (Peak 67.81M) | Time:00:00.01 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | 化学楼 · east transom
+Fra:1 Mem:67.81M (Peak 67.81M) | Time:00:00.01 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | 化学楼 · wall 12 window vertical frames
+Fra:1 Mem:67.82M (Peak 67.82M) | Time:00:00.01 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | 化学楼 · wall 12 window horizontal frames
+Fra:1 Mem:67.82M (Peak 67.82M) | Time:00:00.01 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | 化学楼 · wall 12 sill
+Fra:1 Mem:67.82M (Peak 67.82M) | Time:00:00.01 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | 化学楼 · wall 12 plinth
+Fra:1 Mem:67.82M (Peak 67.82M) | Time:00:00.01 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | 化学楼 · wall 12 white spandrels
+Fra:1 Mem:67.85M (Peak 67.85M) | Time:00:00.01 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | 化学楼 · wall 12 roof coping
+Fra:1 Mem:67.85M (Peak 67.85M) | Time:00:00.01 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | 化学楼 · wall 13 window glass
+Fra:1 Mem:67.87M (Peak 67.87M) | Time:00:00.01 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | 化学楼 · wall 13 window vertical frames
+Fra:1 Mem:67.90M (Peak 67.90M) | Time:00:00.01 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | 化学楼 · wall 13 window horizontal frames
+Fra:1 Mem:67.90M (Peak 67.90M) | Time:00:00.01 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | 化学楼 · wall 13 sill
+Fra:1 Mem:67.94M (Peak 67.94M) | Time:00:00.01 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | 化学楼 · wall 13 white spandrels
+Fra:1 Mem:67.94M (Peak 67.94M) | Time:00:00.01 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | 化学楼 · wall 13 plinth
+Fra:1 Mem:67.94M (Peak 67.94M) | Time:00:00.01 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | 化学楼 · wall 14 brick wall
+Fra:1 Mem:67.97M (Peak 67.97M) | Time:00:00.01 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | 化学楼 · wall 14 window glass
+Fra:1 Mem:67.97M (Peak 67.97M) | Time:00:00.01 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | 化学楼 · wall 14 window vertical frames
+Fra:1 Mem:67.99M (Peak 67.99M) | Time:00:00.01 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | 化学楼 · wall 14 window horizontal frames
+Fra:1 Mem:68.00M (Peak 68.00M) | Time:00:00.01 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | 化学楼 · wall 14 white spandrels
+Fra:1 Mem:68.02M (Peak 68.02M) | Time:00:00.01 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | 化学楼 · wall 14 plinth
+Fra:1 Mem:68.02M (Peak 68.02M) | Time:00:00.01 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | 化学楼 · wall 14 roof coping
+Fra:1 Mem:68.02M (Peak 68.02M) | Time:00:00.01 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | 化学楼 · wall 15 window glass
+Fra:1 Mem:68.02M (Peak 68.02M) | Time:00:00.01 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | 化学楼 · wall 15 window vertical frames
+Fra:1 Mem:68.02M (Peak 68.02M) | Time:00:00.01 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | 化学楼 · east door handles
+Fra:1 Mem:68.03M (Peak 68.03M) | Time:00:00.01 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | 化学楼 · east door glass
+Fra:1 Mem:68.03M (Peak 68.03M) | Time:00:00.01 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | 化学楼 · wall 15 window horizontal frames
+Fra:1 Mem:68.03M (Peak 68.03M) | Time:00:00.01 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | 化学楼 · wall 15 sill
+Fra:1 Mem:68.03M (Peak 68.03M) | Time:00:00.01 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | 化学楼 · wall 15 white spandrels
+Fra:1 Mem:68.03M (Peak 68.03M) | Time:00:00.01 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | 化学楼 · wall 15 plinth
+Fra:1 Mem:68.03M (Peak 68.03M) | Time:00:00.01 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | 化学楼 · wall 15 roof coping
+Fra:1 Mem:68.03M (Peak 68.03M) | Time:00:00.01 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | 化学楼 · passage side walls
+Fra:1 Mem:68.04M (Peak 68.04M) | Time:00:00.01 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | 化学楼 · passage ceiling
+Fra:1 Mem:68.04M (Peak 68.04M) | Time:00:00.01 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | 化学楼 · front white top
+Fra:1 Mem:68.05M (Peak 68.05M) | Time:00:00.01 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | 化学楼 · front portico roof
+Fra:1 Mem:68.05M (Peak 68.05M) | Time:00:00.01 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | 化学楼 · front column grout
+Fra:1 Mem:68.07M (Peak 68.07M) | Time:00:00.01 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | 化学楼 · front column grout vertical
+Fra:1 Mem:68.08M (Peak 68.08M) | Time:00:00.01 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | 化学楼 · front fascia vertical grout
+Fra:1 Mem:68.08M (Peak 68.08M) | Time:00:00.01 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | 化学楼 · front fascia horizontal grout
+Fra:1 Mem:68.08M (Peak 68.08M) | Time:00:00.01 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | 化学楼 · front side fascia grout
+Fra:1 Mem:68.08M (Peak 68.08M) | Time:00:00.01 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | 化学楼 · front entry landing
+Fra:1 Mem:68.10M (Peak 68.10M) | Time:00:00.01 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | 化学楼 · front door jambs
+Fra:1 Mem:68.11M (Peak 68.11M) | Time:00:00.01 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | 化学楼 · front door lintels
+Fra:1 Mem:68.11M (Peak 68.11M) | Time:00:00.01 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | 化学楼 · front door glass
+Fra:1 Mem:68.11M (Peak 68.11M) | Time:00:00.01 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | 化学楼 · front door handles
+Fra:1 Mem:68.11M (Peak 68.11M) | Time:00:00.01 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | 化学楼 · front entrance sign backing
+Fra:1 Mem:68.11M (Peak 68.11M) | Time:00:00.01 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | 化学楼 · rear portico roof
+Fra:1 Mem:68.11M (Peak 68.11M) | Time:00:00.01 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | 化学楼 · rear white top
+Fra:1 Mem:68.11M (Peak 68.11M) | Time:00:00.01 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | 化学楼 · rear small ceramic columns
+Fra:1 Mem:68.13M (Peak 68.13M) | Time:00:00.01 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | 化学楼 · east door jambs
+Fra:1 Mem:68.14M (Peak 68.14M) | Time:00:00.01 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | 化学楼 · east entry step
+Fra:1 Mem:68.16M (Peak 68.16M) | Time:00:00.01 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | 化学楼 · rear column grout
+Fra:1 Mem:68.16M (Peak 68.16M) | Time:00:00.01 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | 化学楼 · east entry landing
+Fra:1 Mem:68.17M (Peak 68.17M) | Time:00:00.01 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | 化学楼 · rear column grout vertical
+Fra:1 Mem:68.17M (Peak 68.17M) | Time:00:00.01 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | 化学楼 · rear fascia horizontal grout
+Fra:1 Mem:68.17M (Peak 68.17M) | Time:00:00.01 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | 化学楼 · rear side fascia grout
+Fra:1 Mem:68.17M (Peak 68.17M) | Time:00:00.01 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | 化学楼 · rear entry step
+Fra:1 Mem:68.18M (Peak 68.18M) | Time:00:00.01 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | 化学楼 · rear door jambs
+Fra:1 Mem:68.19M (Peak 68.19M) | Time:00:00.01 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | 化学楼 · rear door lintels
+Fra:1 Mem:68.19M (Peak 68.19M) | Time:00:00.01 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | 化学楼 · rear door glass
+Fra:1 Mem:68.19M (Peak 68.19M) | Time:00:00.01 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | 化学楼 · rear door handles
+Fra:1 Mem:68.19M (Peak 68.19M) | Time:00:00.01 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | 化学楼 · rear entrance sign backing
+Fra:1 Mem:68.20M (Peak 68.20M) | Time:00:00.01 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | 化学楼 · east white top
+Fra:1 Mem:68.20M (Peak 68.20M) | Time:00:00.01 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | 化学楼 · east small ceramic columns
+Fra:1 Mem:68.20M (Peak 68.20M) | Time:00:00.01 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | 化学楼 · east column grout
+Fra:1 Mem:68.20M (Peak 68.20M) | Time:00:00.01 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | 化学楼 · east fascia vertical grout
+Fra:1 Mem:68.23M (Peak 68.23M) | Time:00:00.01 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | 化学楼 · east fascia horizontal grout
+Fra:1 Mem:68.26M (Peak 68.26M) | Time:00:00.01 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | 化学楼 · east side fascia grout
+Fra:1 Mem:68.37M (Peak 68.37M) | Time:00:00.01 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Initializing
+Fra:1 Mem:67.62M (Peak 68.37M) | Time:00:00.01 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Updating Images | Loading Chemistry brick courses
+Fra:1 Mem:61.89M (Peak 68.37M) | Time:00:00.01 | Mem:0.12M, Peak:0.12M | Scene, ViewLayer | Waiting for render to start
+Fra:1 Mem:61.89M (Peak 68.37M) | Time:00:00.01 | Mem:0.12M, Peak:0.12M | Scene, ViewLayer | Loading render kernels (may take a few minutes the first time)
+Fra:1 Mem:61.89M (Peak 68.37M) | Time:00:00.01 | Mem:0.12M, Peak:0.12M | Scene, ViewLayer | Updating Scene
+Fra:1 Mem:61.89M (Peak 68.37M) | Time:00:00.01 | Mem:0.12M, Peak:0.12M | Scene, ViewLayer | Updating Shaders
+Fra:1 Mem:61.98M (Peak 68.37M) | Time:00:00.01 | Mem:0.13M, Peak:0.13M | Scene, ViewLayer | Updating Procedurals
+Fra:1 Mem:61.98M (Peak 68.37M) | Time:00:00.01 | Mem:0.13M, Peak:0.13M | Scene, ViewLayer | Updating Background
+Fra:1 Mem:61.98M (Peak 68.37M) | Time:00:00.01 | Mem:0.13M, Peak:0.13M | Scene, ViewLayer | Updating Camera
+Fra:1 Mem:61.98M (Peak 68.37M) | Time:00:00.01 | Mem:0.13M, Peak:0.13M | Scene, ViewLayer | Updating Meshes Flags
+Fra:1 Mem:61.98M (Peak 68.37M) | Time:00:00.01 | Mem:0.13M, Peak:0.13M | Scene, ViewLayer | Updating Objects
+Fra:1 Mem:61.98M (Peak 68.37M) | Time:00:00.01 | Mem:0.13M, Peak:0.13M | Scene, ViewLayer | Updating Objects | Copying Transformations to device
+Fra:1 Mem:62.03M (Peak 68.37M) | Time:00:00.01 | Mem:0.18M, Peak:0.18M | Scene, ViewLayer | Updating Objects | Applying Static Transformations
+Fra:1 Mem:62.03M (Peak 68.37M) | Time:00:00.01 | Mem:0.18M, Peak:0.18M | Scene, ViewLayer | Updating Particle Systems
+Fra:1 Mem:62.03M (Peak 68.37M) | Time:00:00.01 | Mem:0.18M, Peak:0.18M | Scene, ViewLayer | Updating Particle Systems | Copying Particles to device
+Fra:1 Mem:62.03M (Peak 68.37M) | Time:00:00.01 | Mem:0.18M, Peak:0.18M | Scene, ViewLayer | Updating Meshes
+Fra:1 Mem:62.83M (Peak 68.37M) | Time:00:00.01 | Mem:0.18M, Peak:0.18M | Scene, ViewLayer | Updating Mesh | Computing attributes
+Fra:1 Mem:63.35M (Peak 68.37M) | Time:00:00.01 | Mem:0.19M, Peak:0.19M | Scene, ViewLayer | Updating Mesh | Copying Attributes to device
+Fra:1 Mem:63.32M (Peak 68.37M) | Time:00:00.01 | Mem:0.67M, Peak:0.67M | Scene, ViewLayer | Updating Scene BVH | Building
+Fra:1 Mem:63.32M (Peak 68.37M) | Time:00:00.01 | Mem:0.67M, Peak:0.67M | Scene, ViewLayer | Updating Scene BVH | Building BVH
+Fra:1 Mem:63.32M (Peak 68.37M) | Time:00:00.01 | Mem:2.27M, Peak:2.27M | Scene, ViewLayer | Updating Scene BVH | Building BVH 0%
+Fra:1 Mem:63.32M (Peak 68.37M) | Time:00:00.02 | Mem:4.02M, Peak:5.62M | Scene, ViewLayer | Updating Scene BVH | Copying BVH to device
+Fra:1 Mem:63.32M (Peak 68.37M) | Time:00:00.02 | Mem:4.02M, Peak:5.62M | Scene, ViewLayer | Updating Mesh | Computing normals
+Fra:1 Mem:65.58M (Peak 68.37M) | Time:00:00.02 | Mem:4.02M, Peak:5.62M | Scene, ViewLayer | Updating Mesh | Copying Mesh to device
+Fra:1 Mem:65.58M (Peak 68.37M) | Time:00:00.02 | Mem:6.28M, Peak:6.28M | Scene, ViewLayer | Updating Objects Flags
+Fra:1 Mem:65.58M (Peak 68.37M) | Time:00:00.02 | Mem:6.28M, Peak:6.28M | Scene, ViewLayer | Updating Primitive Offsets
+Fra:1 Mem:65.58M (Peak 68.37M) | Time:00:00.02 | Mem:6.28M, Peak:6.28M | Scene, ViewLayer | Updating Images
+Fra:1 Mem:65.58M (Peak 68.37M) | Time:00:00.02 | Mem:6.28M, Peak:6.28M | Scene, ViewLayer | Updating Camera Volume
+Fra:1 Mem:65.58M (Peak 68.37M) | Time:00:00.02 | Mem:6.28M, Peak:6.28M | Scene, ViewLayer | Updating Lookup Tables
+Fra:1 Mem:65.58M (Peak 68.37M) | Time:00:00.02 | Mem:6.36M, Peak:6.36M | Scene, ViewLayer | Updating Lights
+Fra:1 Mem:65.58M (Peak 68.37M) | Time:00:00.02 | Mem:6.36M, Peak:6.36M | Scene, ViewLayer | Updating Lights | Computing tree
+Fra:1 Mem:65.58M (Peak 68.37M) | Time:00:00.02 | Mem:6.36M, Peak:6.36M | Scene, ViewLayer | Updating Integrator
+Fra:1 Mem:65.58M (Peak 68.37M) | Time:00:00.02 | Mem:6.36M, Peak:6.36M | Scene, ViewLayer | Updating Film
+Fra:1 Mem:65.59M (Peak 68.37M) | Time:00:00.02 | Mem:6.28M, Peak:6.36M | Scene, ViewLayer | Updating Lookup Tables
+Fra:1 Mem:65.59M (Peak 68.37M) | Time:00:00.02 | Mem:6.37M, Peak:6.37M | Scene, ViewLayer | Updating Baking
+Fra:1 Mem:65.59M (Peak 68.37M) | Time:00:00.02 | Mem:6.37M, Peak:6.37M | Scene, ViewLayer | Updating Device | Writing constant memory
+Fra:1 Mem:65.59M (Peak 68.37M) | Time:00:00.02 | Mem:6.37M, Peak:6.37M | Scene, ViewLayer | Loading denoising kernels (may take a few minutes the first time)
+Fra:1 Mem:65.59M (Peak 68.37M) | Time:00:00.02 | Mem:6.37M, Peak:6.37M | Scene, ViewLayer | Sample 0/16
+Fra:1 Mem:135.36M (Peak 135.36M) | Time:00:00.16 | Remaining:00:02.18 | Mem:75.96M, Peak:75.96M | Scene, ViewLayer | Sample 1/16
+Fra:1 Mem:164.66M (Peak 208.61M) | Time:00:05.07 | Mem:75.96M, Peak:75.96M | Scene, ViewLayer | Sample 16/16
+Fra:1 Mem:164.66M (Peak 208.61M) | Time:00:05.07 | Mem:75.96M, Peak:75.96M | Scene, ViewLayer | Finished
+Saved: 'E:\csd4.1\VR\FudanCampus\field-review\chemistry-2026-11-14-v1\renders\after-east.png'
+Time: 00:05.16 (Saving: 00:00.08)
+
+Fra:1 Mem:65.59M (Peak 65.59M) | Time:00:00.00 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | front 化学楼门头
+Fra:1 Mem:65.59M (Peak 65.59M) | Time:00:00.00 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | 化学楼 · wall 00 sill
+Fra:1 Mem:65.60M (Peak 65.60M) | Time:00:00.00 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | 化学楼 · wall 01 window glass
+Fra:1 Mem:65.81M (Peak 65.81M) | Time:00:00.00 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | 化学楼 · wall 01 window vertical frames
+Fra:1 Mem:65.91M (Peak 65.91M) | Time:00:00.00 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | 化学楼 · wall 01 window horizontal frames
+Fra:1 Mem:65.95M (Peak 65.95M) | Time:00:00.00 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | 化学楼 · wall 01 sill
+Fra:1 Mem:65.96M (Peak 65.97M) | Time:00:00.00 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | 化学楼 · wall 01 white spandrels
+Fra:1 Mem:66.06M (Peak 66.06M) | Time:00:00.00 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | 化学楼 · wall 01 plinth
+Fra:1 Mem:66.10M (Peak 66.10M) | Time:00:00.00 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | 化学楼 · wall 02 brick pier
+Fra:1 Mem:66.09M (Peak 66.10M) | Time:00:00.00 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | 化学楼 · wall 01 roof coping
+Fra:1 Mem:66.10M (Peak 66.10M) | Time:00:00.00 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | 化学楼 · wall 02 raised centre brick
+Fra:1 Mem:66.10M (Peak 66.10M) | Time:00:00.00 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | 化学楼 · wall 02 window horizontal frames
+Fra:1 Mem:66.17M (Peak 66.17M) | Time:00:00.00 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | 化学楼 · wall 02 white spandrels
+Fra:1 Mem:66.19M (Peak 66.19M) | Time:00:00.00 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | 化学楼 · wall 02 central roof coping
+Fra:1 Mem:66.19M (Peak 66.19M) | Time:00:00.00 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | 化学楼 · wall 03 brick wall
+Fra:1 Mem:66.22M (Peak 66.22M) | Time:00:00.00 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | 化学楼 · wall 03 window horizontal frames
+Fra:1 Mem:66.24M (Peak 66.24M) | Time:00:00.00 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | 化学楼 · wall 03 sill
+Fra:1 Mem:66.25M (Peak 66.25M) | Time:00:00.00 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | 化学楼 · wall 03 white spandrels
+Fra:1 Mem:66.26M (Peak 66.26M) | Time:00:00.00 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | 化学楼 · wall 03 plinth
+Fra:1 Mem:66.26M (Peak 66.26M) | Time:00:00.00 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | 化学楼 · wall 03 roof coping
+Fra:1 Mem:66.26M (Peak 66.26M) | Time:00:00.00 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | 化学楼 · wall 04 brick wall
+Fra:1 Mem:66.48M (Peak 66.48M) | Time:00:00.00 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | 化学楼 · wall 04 window glass
+Fra:1 Mem:66.48M (Peak 66.48M) | Time:00:00.00 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | 化学楼 · wall 04 window vertical frames
+Fra:1 Mem:66.49M (Peak 66.49M) | Time:00:00.00 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | 化学楼 · wall 04 sill
+Fra:1 Mem:66.59M (Peak 66.59M) | Time:00:00.00 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | 化学楼 · wall 04 white spandrels
+Fra:1 Mem:66.89M (Peak 66.89M) | Time:00:00.00 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | 化学楼 · wall 04 plinth
+Fra:1 Mem:66.99M (Peak 66.99M) | Time:00:00.00 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | 化学楼 · wall 05 brick pier
+Fra:1 Mem:67.14M (Peak 67.14M) | Time:00:00.00 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | 化学楼 · wall 05 brick over door
+Fra:1 Mem:67.15M (Peak 67.15M) | Time:00:00.00 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | 化学楼 · wall 05 window vertical frames
+Fra:1 Mem:67.25M (Peak 67.25M) | Time:00:00.00 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | 化学楼 · wall 05 sill
+Fra:1 Mem:67.22M (Peak 67.25M) | Time:00:00.00 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | 化学楼 · wall 05 white spandrels
+Fra:1 Mem:67.26M (Peak 67.26M) | Time:00:00.00 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | 化学楼 · wall 05 plinth
+Fra:1 Mem:67.26M (Peak 67.26M) | Time:00:00.00 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | 化学楼 · wall 06 window vertical frames
+Fra:1 Mem:67.26M (Peak 67.26M) | Time:00:00.00 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | 化学楼 · wall 06 sill
+Fra:1 Mem:67.29M (Peak 67.29M) | Time:00:00.00 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | 化学楼 · wall 06 white spandrels
+Fra:1 Mem:67.29M (Peak 67.29M) | Time:00:00.00 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | 化学楼 · wall 06 plinth
+Fra:1 Mem:67.30M (Peak 67.30M) | Time:00:00.00 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | 化学楼 · wall 06 roof coping
+Fra:1 Mem:67.32M (Peak 67.32M) | Time:00:00.00 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | 化学楼 · wall 07 window glass
+Fra:1 Mem:67.39M (Peak 67.39M) | Time:00:00.00 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | 化学楼 · wall 07 sill
+Fra:1 Mem:67.39M (Peak 67.39M) | Time:00:00.00 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | 化学楼 · wall 07 white spandrels
+Fra:1 Mem:67.40M (Peak 67.40M) | Time:00:00.00 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | 化学楼 · wall 07 plinth
+Fra:1 Mem:67.41M (Peak 67.41M) | Time:00:00.00 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | 化学楼 · wall 07 roof coping
+Fra:1 Mem:67.43M (Peak 67.43M) | Time:00:00.00 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | 化学楼 · wall 08 brick pier
+Fra:1 Mem:67.45M (Peak 67.45M) | Time:00:00.00 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | 化学楼 · wall 08 brick over door
+Fra:1 Mem:67.46M (Peak 67.46M) | Time:00:00.00 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | 化学楼 · wall 08 window glass
+Fra:1 Mem:67.47M (Peak 67.47M) | Time:00:00.00 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | 化学楼 · wall 08 window vertical frames
+Fra:1 Mem:67.48M (Peak 67.48M) | Time:00:00.00 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | 化学楼 · wall 08 sill
+Fra:1 Mem:67.57M (Peak 67.57M) | Time:00:00.00 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | 化学楼 · wall 08 white spandrels
+Fra:1 Mem:67.60M (Peak 67.60M) | Time:00:00.00 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | 化学楼 · wall 08 plinth
+Fra:1 Mem:67.61M (Peak 67.61M) | Time:00:00.00 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | 化学楼 · wall 08 central roof coping
+Fra:1 Mem:67.61M (Peak 67.61M) | Time:00:00.00 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | 化学楼 · wall 09 window glass
+Fra:1 Mem:67.61M (Peak 67.61M) | Time:00:00.00 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | 化学楼 · wall 09 window vertical frames
+Fra:1 Mem:67.63M (Peak 67.63M) | Time:00:00.00 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | 化学楼 · wall 09 window horizontal frames
+Fra:1 Mem:67.63M (Peak 67.63M) | Time:00:00.00 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | 化学楼 · wall 09 plinth
+Fra:1 Mem:67.69M (Peak 67.69M) | Time:00:00.00 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | 化学楼 · wall 10 brick wall
+Fra:1 Mem:67.72M (Peak 67.72M) | Time:00:00.00 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | 化学楼 · wall 10 window glass
+Fra:1 Mem:67.75M (Peak 67.75M) | Time:00:00.00 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | 化学楼 · wall 10 window horizontal frames
+Fra:1 Mem:67.77M (Peak 67.77M) | Time:00:00.00 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | 化学楼 · wall 10 sill
+Fra:1 Mem:67.78M (Peak 67.78M) | Time:00:00.00 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | 化学楼 · wall 10 white spandrels
+Fra:1 Mem:67.79M (Peak 67.79M) | Time:00:00.00 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | 化学楼 · wall 11 brick wall
+Fra:1 Mem:67.79M (Peak 67.79M) | Time:00:00.00 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | 化学楼 · wall 11 window glass
+Fra:1 Mem:67.82M (Peak 67.82M) | Time:00:00.00 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | 化学楼 · wall 11 window vertical frames
+Fra:1 Mem:67.83M (Peak 67.83M) | Time:00:00.00 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | 化学楼 · wall 11 window horizontal frames
+Fra:1 Mem:67.85M (Peak 67.85M) | Time:00:00.00 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | 化学楼 · wall 11 sill
+Fra:1 Mem:67.85M (Peak 67.85M) | Time:00:00.00 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | 化学楼 · wall 11 white spandrels
+Fra:1 Mem:67.86M (Peak 67.86M) | Time:00:00.00 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | 化学楼 · wall 11 plinth
+Fra:1 Mem:67.86M (Peak 67.86M) | Time:00:00.00 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | 化学楼 · wall 11 roof coping
+Fra:1 Mem:67.86M (Peak 67.86M) | Time:00:00.00 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | 化学楼 · wall 12 brick wall
+Fra:1 Mem:67.87M (Peak 67.87M) | Time:00:00.00 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | 化学楼 · wall 12 window vertical frames
+Fra:1 Mem:67.87M (Peak 67.87M) | Time:00:00.00 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | 化学楼 · wall 12 window horizontal frames
+Fra:1 Mem:67.89M (Peak 67.89M) | Time:00:00.00 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | 化学楼 · wall 12 sill
+Fra:1 Mem:67.89M (Peak 67.89M) | Time:00:00.00 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | 化学楼 · wall 12 white spandrels
+Fra:1 Mem:67.89M (Peak 67.89M) | Time:00:00.00 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | 化学楼 · wall 12 roof coping
+Fra:1 Mem:67.90M (Peak 67.90M) | Time:00:00.00 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | 化学楼 · wall 13 brick wall
+Fra:1 Mem:67.90M (Peak 67.90M) | Time:00:00.00 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | 化学楼 · wall 13 window glass
+Fra:1 Mem:67.90M (Peak 67.90M) | Time:00:00.00 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | 化学楼 · wall 13 window vertical frames
+Fra:1 Mem:67.91M (Peak 67.91M) | Time:00:00.00 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | 化学楼 · wall 13 window horizontal frames
+Fra:1 Mem:67.96M (Peak 67.96M) | Time:00:00.00 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | 化学楼 · wall 13 sill
+Fra:1 Mem:67.96M (Peak 67.96M) | Time:00:00.00 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | 化学楼 · wall 13 plinth
+Fra:1 Mem:67.96M (Peak 67.96M) | Time:00:00.00 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | 化学楼 · east door handles
+Fra:1 Mem:67.96M (Peak 67.96M) | Time:00:00.00 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | 化学楼 · wall 13 roof coping
+Fra:1 Mem:67.97M (Peak 67.97M) | Time:00:00.00 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | 化学楼 · wall 14 brick wall
+Fra:1 Mem:67.97M (Peak 67.97M) | Time:00:00.00 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | 化学楼 · wall 14 window vertical frames
+Fra:1 Mem:67.97M (Peak 67.97M) | Time:00:00.00 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | 化学楼 · wall 14 sill
+Fra:1 Mem:67.98M (Peak 67.98M) | Time:00:00.00 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | 化学楼 · wall 14 white spandrels
+Fra:1 Mem:67.98M (Peak 67.98M) | Time:00:00.00 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | 化学楼 · wall 14 plinth
+Fra:1 Mem:67.98M (Peak 67.98M) | Time:00:00.00 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | 化学楼 · wall 14 roof coping
+Fra:1 Mem:67.99M (Peak 67.99M) | Time:00:00.00 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | 化学楼 · wall 15 brick wall
+Fra:1 Mem:68.00M (Peak 68.00M) | Time:00:00.00 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | 化学楼 · wall 15 window vertical frames
+Fra:1 Mem:68.00M (Peak 68.00M) | Time:00:00.00 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | 化学楼 · wall 15 white spandrels
+Fra:1 Mem:68.02M (Peak 68.02M) | Time:00:00.00 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | 化学楼 · wall 15 plinth
+Fra:1 Mem:68.02M (Peak 68.02M) | Time:00:00.00 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | 化学楼 · passage side walls
+Fra:1 Mem:68.03M (Peak 68.03M) | Time:00:00.01 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | 化学楼 · passage ceiling
+Fra:1 Mem:68.03M (Peak 68.03M) | Time:00:00.01 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | 化学楼 · passage floor
+Fra:1 Mem:68.03M (Peak 68.03M) | Time:00:00.01 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | 化学楼 · front portico roof
+Fra:1 Mem:68.04M (Peak 68.04M) | Time:00:00.01 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | 化学楼 · front white top
+Fra:1 Mem:68.04M (Peak 68.04M) | Time:00:00.01 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | 化学楼 · front column grout
+Fra:1 Mem:68.04M (Peak 68.04M) | Time:00:00.01 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | 化学楼 · front fascia vertical grout
+Fra:1 Mem:68.08M (Peak 68.08M) | Time:00:00.01 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | 化学楼 · front fascia horizontal grout
+Fra:1 Mem:68.08M (Peak 68.08M) | Time:00:00.01 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | 化学楼 · front side fascia grout
+Fra:1 Mem:68.09M (Peak 68.09M) | Time:00:00.01 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | 化学楼 · front entry landing
+Fra:1 Mem:68.09M (Peak 68.09M) | Time:00:00.01 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | 化学楼 · front entry step
+Fra:1 Mem:68.09M (Peak 68.09M) | Time:00:00.01 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | 化学楼 · front door jambs
+Fra:1 Mem:68.09M (Peak 68.09M) | Time:00:00.01 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | 化学楼 · front door lintels
+Fra:1 Mem:68.09M (Peak 68.09M) | Time:00:00.01 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | 化学楼 · front door glass
+Fra:1 Mem:68.09M (Peak 68.09M) | Time:00:00.01 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | 化学楼 · front door handles
+Fra:1 Mem:68.09M (Peak 68.09M) | Time:00:00.01 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | 化学楼 · rear portico roof
+Fra:1 Mem:68.09M (Peak 68.09M) | Time:00:00.01 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | 化学楼 · rear white top
+Fra:1 Mem:68.09M (Peak 68.09M) | Time:00:00.01 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | 化学楼 · rear small ceramic columns
+Fra:1 Mem:68.12M (Peak 68.12M) | Time:00:00.01 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | 化学楼 · rear column grout
+Fra:1 Mem:68.12M (Peak 68.12M) | Time:00:00.01 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | 化学楼 · rear column grout vertical
+Fra:1 Mem:68.15M (Peak 68.15M) | Time:00:00.01 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | 化学楼 · rear fascia horizontal grout
+Fra:1 Mem:68.15M (Peak 68.15M) | Time:00:00.01 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | 化学楼 · rear side fascia grout
+Fra:1 Mem:68.16M (Peak 68.16M) | Time:00:00.01 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | 化学楼 · rear entry landing
+Fra:1 Mem:68.20M (Peak 68.20M) | Time:00:00.01 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | 化学楼 · rear entry step
+Fra:1 Mem:68.20M (Peak 68.20M) | Time:00:00.01 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | 化学楼 · east door jambs
+Fra:1 Mem:68.20M (Peak 68.20M) | Time:00:00.01 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | 化学楼 · rear door glass
+Fra:1 Mem:68.20M (Peak 68.20M) | Time:00:00.01 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | 化学楼 · rear door handles
+Fra:1 Mem:68.22M (Peak 68.22M) | Time:00:00.01 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | 化学楼 · rear transom
+Fra:1 Mem:68.25M (Peak 68.25M) | Time:00:00.01 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | 化学楼 · east white top
+Fra:1 Mem:68.25M (Peak 68.25M) | Time:00:00.01 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | 化学楼 · east small ceramic columns
+Fra:1 Mem:68.25M (Peak 68.25M) | Time:00:00.01 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | 化学楼 · east column grout vertical
+Fra:1 Mem:68.28M (Peak 68.28M) | Time:00:00.01 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | 化学楼 · east side fascia grout
+Fra:1 Mem:68.30M (Peak 68.30M) | Time:00:00.01 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | 化学楼 · east entry landing
+Fra:1 Mem:68.31M (Peak 68.31M) | Time:00:00.01 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | 化学楼 · east entry step
+Fra:1 Mem:68.37M (Peak 68.37M) | Time:00:00.01 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Initializing
+Fra:1 Mem:67.62M (Peak 68.37M) | Time:00:00.01 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Updating Images | Loading Chemistry brick courses
+Fra:1 Mem:61.89M (Peak 68.37M) | Time:00:00.01 | Mem:0.12M, Peak:0.12M | Scene, ViewLayer | Waiting for render to start
+Fra:1 Mem:61.89M (Peak 68.37M) | Time:00:00.01 | Mem:0.12M, Peak:0.12M | Scene, ViewLayer | Loading render kernels (may take a few minutes the first time)
+Fra:1 Mem:61.89M (Peak 68.37M) | Time:00:00.01 | Mem:0.12M, Peak:0.12M | Scene, ViewLayer | Updating Scene
+Fra:1 Mem:61.89M (Peak 68.37M) | Time:00:00.01 | Mem:0.12M, Peak:0.12M | Scene, ViewLayer | Updating Shaders
+Fra:1 Mem:61.98M (Peak 68.37M) | Time:00:00.01 | Mem:0.13M, Peak:0.13M | Scene, ViewLayer | Updating Procedurals
+Fra:1 Mem:61.98M (Peak 68.37M) | Time:00:00.01 | Mem:0.13M, Peak:0.13M | Scene, ViewLayer | Updating Background
+Fra:1 Mem:61.98M (Peak 68.37M) | Time:00:00.01 | Mem:0.13M, Peak:0.13M | Scene, ViewLayer | Updating Camera
+Fra:1 Mem:61.98M (Peak 68.37M) | Time:00:00.01 | Mem:0.13M, Peak:0.13M | Scene, ViewLayer | Updating Meshes Flags
+Fra:1 Mem:61.98M (Peak 68.37M) | Time:00:00.01 | Mem:0.13M, Peak:0.13M | Scene, ViewLayer | Updating Objects
+Fra:1 Mem:61.98M (Peak 68.37M) | Time:00:00.01 | Mem:0.13M, Peak:0.13M | Scene, ViewLayer | Updating Objects | Copying Transformations to device
+Fra:1 Mem:62.03M (Peak 68.37M) | Time:00:00.01 | Mem:0.18M, Peak:0.18M | Scene, ViewLayer | Updating Objects | Applying Static Transformations
+Fra:1 Mem:62.03M (Peak 68.37M) | Time:00:00.01 | Mem:0.18M, Peak:0.18M | Scene, ViewLayer | Updating Particle Systems
+Fra:1 Mem:62.03M (Peak 68.37M) | Time:00:00.01 | Mem:0.18M, Peak:0.18M | Scene, ViewLayer | Updating Particle Systems | Copying Particles to device
+Fra:1 Mem:62.03M (Peak 68.37M) | Time:00:00.01 | Mem:0.18M, Peak:0.18M | Scene, ViewLayer | Updating Meshes
+Fra:1 Mem:62.83M (Peak 68.37M) | Time:00:00.01 | Mem:0.18M, Peak:0.18M | Scene, ViewLayer | Updating Mesh | Computing attributes
+Fra:1 Mem:63.35M (Peak 68.37M) | Time:00:00.01 | Mem:0.19M, Peak:0.19M | Scene, ViewLayer | Updating Mesh | Copying Attributes to device
+Fra:1 Mem:63.32M (Peak 68.37M) | Time:00:00.01 | Mem:0.67M, Peak:0.67M | Scene, ViewLayer | Updating Scene BVH | Building
+Fra:1 Mem:63.32M (Peak 68.37M) | Time:00:00.01 | Mem:0.67M, Peak:0.67M | Scene, ViewLayer | Updating Scene BVH | Building BVH
+Fra:1 Mem:63.32M (Peak 68.37M) | Time:00:00.01 | Mem:2.27M, Peak:2.27M | Scene, ViewLayer | Updating Scene BVH | Building BVH 0%
+Fra:1 Mem:63.32M (Peak 68.37M) | Time:00:00.01 | Mem:4.02M, Peak:5.62M | Scene, ViewLayer | Updating Scene BVH | Copying BVH to device
+Fra:1 Mem:63.32M (Peak 68.37M) | Time:00:00.01 | Mem:4.02M, Peak:5.62M | Scene, ViewLayer | Updating Mesh | Computing normals
+Fra:1 Mem:65.58M (Peak 68.37M) | Time:00:00.02 | Mem:4.02M, Peak:5.62M | Scene, ViewLayer | Updating Mesh | Copying Mesh to device
+Fra:1 Mem:65.58M (Peak 68.37M) | Time:00:00.02 | Mem:6.28M, Peak:6.28M | Scene, ViewLayer | Updating Objects Flags
+Fra:1 Mem:65.58M (Peak 68.37M) | Time:00:00.02 | Mem:6.28M, Peak:6.28M | Scene, ViewLayer | Updating Primitive Offsets
+Fra:1 Mem:65.58M (Peak 68.37M) | Time:00:00.02 | Mem:6.28M, Peak:6.28M | Scene, ViewLayer | Updating Images
+Fra:1 Mem:65.58M (Peak 68.37M) | Time:00:00.02 | Mem:6.28M, Peak:6.28M | Scene, ViewLayer | Updating Camera Volume
+Fra:1 Mem:65.58M (Peak 68.37M) | Time:00:00.02 | Mem:6.28M, Peak:6.28M | Scene, ViewLayer | Updating Lookup Tables
+Fra:1 Mem:65.58M (Peak 68.37M) | Time:00:00.02 | Mem:6.36M, Peak:6.36M | Scene, ViewLayer | Updating Lights
+Fra:1 Mem:65.58M (Peak 68.37M) | Time:00:00.02 | Mem:6.36M, Peak:6.36M | Scene, ViewLayer | Updating Lights | Computing tree
+Fra:1 Mem:65.58M (Peak 68.37M) | Time:00:00.02 | Mem:6.36M, Peak:6.36M | Scene, ViewLayer | Updating Integrator
+Fra:1 Mem:65.58M (Peak 68.37M) | Time:00:00.02 | Mem:6.36M, Peak:6.36M | Scene, ViewLayer | Updating Film
+Fra:1 Mem:65.59M (Peak 68.37M) | Time:00:00.02 | Mem:6.28M, Peak:6.36M | Scene, ViewLayer | Updating Lookup Tables
+Fra:1 Mem:65.59M (Peak 68.37M) | Time:00:00.02 | Mem:6.37M, Peak:6.37M | Scene, ViewLayer | Updating Baking
+Fra:1 Mem:65.59M (Peak 68.37M) | Time:00:00.02 | Mem:6.37M, Peak:6.37M | Scene, ViewLayer | Updating Device | Writing constant memory
+Fra:1 Mem:65.59M (Peak 68.37M) | Time:00:00.02 | Mem:6.37M, Peak:6.37M | Scene, ViewLayer | Loading denoising kernels (may take a few minutes the first time)
+Fra:1 Mem:65.59M (Peak 68.37M) | Time:00:00.02 | Mem:6.37M, Peak:6.37M | Scene, ViewLayer | Sample 0/16
+Fra:1 Mem:135.36M (Peak 135.36M) | Time:00:00.22 | Remaining:00:03.11 | Mem:75.96M, Peak:75.96M | Scene, ViewLayer | Sample 1/16
+Fra:1 Mem:164.66M (Peak 208.61M) | Time:00:07.51 | Mem:75.96M, Peak:75.96M | Scene, ViewLayer | Sample 16/16
+Fra:1 Mem:164.66M (Peak 208.61M) | Time:00:07.51 | Mem:75.96M, Peak:75.96M | Scene, ViewLayer | Finished
+Saved: 'E:\csd4.1\VR\FudanCampus\field-review\chemistry-2026-11-14-v1\renders\after-entry.png'
+Time: 00:07.60 (Saving: 00:00.08)
+
+Fra:1 Mem:65.59M (Peak 65.59M) | Time:00:00.00 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | front 化学楼门头
+Fra:1 Mem:65.59M (Peak 65.59M) | Time:00:00.00 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | rear 化学楼门头
+Fra:1 Mem:65.79M (Peak 65.79M) | Time:00:00.00 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | 化学楼 · white roof slabs
+Fra:1 Mem:66.08M (Peak 66.08M) | Time:00:00.00 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | 化学楼 · wall 00 window horizontal frames
+Fra:1 Mem:66.28M (Peak 66.28M) | Time:00:00.00 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | 化学楼 · wall 00 roof coping
+Fra:1 Mem:66.41M (Peak 66.41M) | Time:00:00.00 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | 化学楼 · wall 01 window vertical frames
+Fra:1 Mem:66.60M (Peak 66.60M) | Time:00:00.00 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | 化学楼 · wall 01 window horizontal frames
+Fra:1 Mem:66.70M (Peak 66.70M) | Time:00:00.00 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | 化学楼 · wall 01 sill
+Fra:1 Mem:66.90M (Peak 66.90M) | Time:00:00.00 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | 化学楼 · wall 01 white spandrels
+Fra:1 Mem:66.83M (Peak 66.90M) | Time:00:00.00 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | 化学楼 · wall 01 plinth
+Fra:1 Mem:66.93M (Peak 66.93M) | Time:00:00.00 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | 化学楼 · wall 02 brick pier
+Fra:1 Mem:66.83M (Peak 66.93M) | Time:00:00.00 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | 化学楼 · wall 02 brick over door
+Fra:1 Mem:66.93M (Peak 66.93M) | Time:00:00.00 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | 化学楼 · wall 02 window glass
+Fra:1 Mem:66.86M (Peak 66.93M) | Time:00:00.00 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | 化学楼 · wall 02 sill
+Fra:1 Mem:66.90M (Peak 66.93M) | Time:00:00.00 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | 化学楼 · wall 02 central roof coping
+Fra:1 Mem:66.91M (Peak 66.93M) | Time:00:00.00 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | 化学楼 · wall 03 brick wall
+Fra:1 Mem:66.93M (Peak 66.93M) | Time:00:00.00 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | 化学楼 · wall 03 window vertical frames
+Fra:1 Mem:66.95M (Peak 66.95M) | Time:00:00.00 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | 化学楼 · wall 03 window horizontal frames
+Fra:1 Mem:66.95M (Peak 66.95M) | Time:00:00.00 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | 化学楼 · wall 03 sill
+Fra:1 Mem:67.01M (Peak 67.01M) | Time:00:00.00 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | 化学楼 · wall 03 plinth
+Fra:1 Mem:67.06M (Peak 67.06M) | Time:00:00.00 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | 化学楼 · wall 04 brick wall
+Fra:1 Mem:67.09M (Peak 67.09M) | Time:00:00.00 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | 化学楼 · wall 04 window glass
+Fra:1 Mem:67.10M (Peak 67.10M) | Time:00:00.00 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | 化学楼 · wall 04 window vertical frames
+Fra:1 Mem:67.10M (Peak 67.10M) | Time:00:00.00 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | 化学楼 · wall 04 sill
+Fra:1 Mem:67.14M (Peak 67.14M) | Time:00:00.00 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | 化学楼 · wall 04 white spandrels
+Fra:1 Mem:67.14M (Peak 67.14M) | Time:00:00.00 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | 化学楼 · wall 04 roof coping
+Fra:1 Mem:67.14M (Peak 67.14M) | Time:00:00.00 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | 化学楼 · wall 05 brick pier
+Fra:1 Mem:67.17M (Peak 67.17M) | Time:00:00.00 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | 化学楼 · wall 05 brick over door
+Fra:1 Mem:67.17M (Peak 67.17M) | Time:00:00.00 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | 化学楼 · wall 05 window vertical frames
+Fra:1 Mem:67.17M (Peak 67.17M) | Time:00:00.00 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | 化学楼 · wall 05 white spandrels
+Fra:1 Mem:67.18M (Peak 67.18M) | Time:00:00.00 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | 化学楼 · wall 05 plinth
+Fra:1 Mem:67.21M (Peak 67.21M) | Time:00:00.00 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | 化学楼 · wall 05 roof coping
+Fra:1 Mem:67.22M (Peak 67.22M) | Time:00:00.00 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | 化学楼 · wall 06 brick wall
+Fra:1 Mem:67.22M (Peak 67.22M) | Time:00:00.00 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | 化学楼 · wall 06 window glass
+Fra:1 Mem:67.23M (Peak 67.23M) | Time:00:00.00 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | 化学楼 · wall 06 window vertical frames
+Fra:1 Mem:67.23M (Peak 67.23M) | Time:00:00.00 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | 化学楼 · wall 06 window horizontal frames
+Fra:1 Mem:67.23M (Peak 67.23M) | Time:00:00.00 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | 化学楼 · wall 06 sill
+Fra:1 Mem:67.24M (Peak 67.24M) | Time:00:00.00 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | 化学楼 · wall 06 white spandrels
+Fra:1 Mem:67.24M (Peak 67.24M) | Time:00:00.00 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | 化学楼 · wall 06 plinth
+Fra:1 Mem:67.25M (Peak 67.25M) | Time:00:00.00 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | 化学楼 · wall 07 brick wall
+Fra:1 Mem:67.27M (Peak 67.27M) | Time:00:00.00 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | 化学楼 · wall 07 window vertical frames
+Fra:1 Mem:67.34M (Peak 67.34M) | Time:00:00.00 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | 化学楼 · wall 07 window horizontal frames
+Fra:1 Mem:67.40M (Peak 67.40M) | Time:00:00.00 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | 化学楼 · east entrance sign backing
+Fra:1 Mem:67.40M (Peak 67.40M) | Time:00:00.00 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | 化学楼 · wall 07 white spandrels
+Fra:1 Mem:67.40M (Peak 67.40M) | Time:00:00.00 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | 化学楼 · wall 07 roof coping
+Fra:1 Mem:67.44M (Peak 67.44M) | Time:00:00.00 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | 化学楼 · wall 08 brick over door
+Fra:1 Mem:67.44M (Peak 67.44M) | Time:00:00.00 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | 化学楼 · wall 08 raised centre brick
+Fra:1 Mem:67.48M (Peak 67.48M) | Time:00:00.00 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | 化学楼 · wall 08 window glass
+Fra:1 Mem:67.48M (Peak 67.48M) | Time:00:00.00 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | 化学楼 · wall 08 window horizontal frames
+Fra:1 Mem:67.50M (Peak 67.50M) | Time:00:00.00 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | 化学楼 · wall 08 sill
+Fra:1 Mem:67.50M (Peak 67.50M) | Time:00:00.00 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | 化学楼 · wall 08 white spandrels
+Fra:1 Mem:67.53M (Peak 67.53M) | Time:00:00.00 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | 化学楼 · wall 08 plinth
+Fra:1 Mem:67.53M (Peak 67.53M) | Time:00:00.00 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | 化学楼 · wall 08 roof coping
+Fra:1 Mem:67.53M (Peak 67.53M) | Time:00:00.00 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | 化学楼 · east transom
+Fra:1 Mem:67.53M (Peak 67.53M) | Time:00:00.00 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | 化学楼 · wall 09 brick wall
+Fra:1 Mem:67.53M (Peak 67.53M) | Time:00:00.00 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | 化学楼 · east door handles
+Fra:1 Mem:67.53M (Peak 67.53M) | Time:00:00.00 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | 化学楼 · wall 09 window glass
+Fra:1 Mem:67.54M (Peak 67.54M) | Time:00:00.00 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | 化学楼 · wall 09 window horizontal frames
+Fra:1 Mem:67.67M (Peak 67.67M) | Time:00:00.00 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | 化学楼 · wall 09 sill
+Fra:1 Mem:67.71M (Peak 67.71M) | Time:00:00.00 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | 化学楼 · wall 09 white spandrels
+Fra:1 Mem:67.73M (Peak 67.73M) | Time:00:00.00 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | 化学楼 · wall 10 window glass
+Fra:1 Mem:67.73M (Peak 67.73M) | Time:00:00.00 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | 化学楼 · wall 10 window horizontal frames
+Fra:1 Mem:67.77M (Peak 67.77M) | Time:00:00.00 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | 化学楼 · wall 10 sill
+Fra:1 Mem:67.77M (Peak 67.77M) | Time:00:00.00 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | 化学楼 · wall 10 plinth
+Fra:1 Mem:67.77M (Peak 67.77M) | Time:00:00.00 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | 化学楼 · wall 10 roof coping
+Fra:1 Mem:67.78M (Peak 67.78M) | Time:00:00.00 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | 化学楼 · wall 11 brick wall
+Fra:1 Mem:67.78M (Peak 67.78M) | Time:00:00.00 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | 化学楼 · wall 11 window glass
+Fra:1 Mem:67.78M (Peak 67.78M) | Time:00:00.00 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | 化学楼 · wall 11 window vertical frames
+Fra:1 Mem:67.80M (Peak 67.80M) | Time:00:00.00 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | 化学楼 · wall 11 window horizontal frames
+Fra:1 Mem:67.80M (Peak 67.80M) | Time:00:00.00 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | 化学楼 · wall 11 sill
+Fra:1 Mem:67.82M (Peak 67.82M) | Time:00:00.00 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | 化学楼 · wall 11 white spandrels
+Fra:1 Mem:67.82M (Peak 67.82M) | Time:00:00.00 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | 化学楼 · wall 11 plinth
+Fra:1 Mem:67.83M (Peak 67.83M) | Time:00:00.00 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | 化学楼 · wall 12 window glass
+Fra:1 Mem:67.83M (Peak 67.83M) | Time:00:00.00 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | 化学楼 · wall 12 window vertical frames
+Fra:1 Mem:67.84M (Peak 67.84M) | Time:00:00.00 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | 化学楼 · wall 12 sill
+Fra:1 Mem:67.86M (Peak 67.86M) | Time:00:00.00 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | 化学楼 · wall 12 white spandrels
+Fra:1 Mem:67.86M (Peak 67.86M) | Time:00:00.00 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | 化学楼 · wall 12 roof coping
+Fra:1 Mem:67.87M (Peak 67.87M) | Time:00:00.00 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | 化学楼 · east door jambs
+Fra:1 Mem:67.87M (Peak 67.87M) | Time:00:00.00 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | 化学楼 · wall 13 brick wall
+Fra:1 Mem:67.87M (Peak 67.87M) | Time:00:00.00 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | 化学楼 · wall 13 window glass
+Fra:1 Mem:67.88M (Peak 67.88M) | Time:00:00.00 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | 化学楼 · east entry step
+Fra:1 Mem:67.90M (Peak 67.90M) | Time:00:00.00 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | 化学楼 · wall 13 sill
+Fra:1 Mem:67.91M (Peak 67.91M) | Time:00:00.00 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | 化学楼 · wall 13 white spandrels
+Fra:1 Mem:67.91M (Peak 67.91M) | Time:00:00.00 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | 化学楼 · wall 13 plinth
+Fra:1 Mem:67.92M (Peak 67.92M) | Time:00:00.00 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | 化学楼 · wall 13 roof coping
+Fra:1 Mem:67.92M (Peak 67.92M) | Time:00:00.00 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | 化学楼 · wall 14 brick wall
+Fra:1 Mem:67.92M (Peak 67.92M) | Time:00:00.00 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | 化学楼 · wall 14 window glass
+Fra:1 Mem:67.92M (Peak 67.92M) | Time:00:00.00 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | 化学楼 · wall 14 window horizontal frames
+Fra:1 Mem:67.92M (Peak 67.92M) | Time:00:00.00 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | 化学楼 · wall 14 sill
+Fra:1 Mem:67.92M (Peak 67.92M) | Time:00:00.00 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | 化学楼 · wall 14 white spandrels
+Fra:1 Mem:67.93M (Peak 67.93M) | Time:00:00.00 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | 化学楼 · wall 14 plinth
+Fra:1 Mem:67.93M (Peak 67.93M) | Time:00:00.00 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | 化学楼 · wall 14 roof coping
+Fra:1 Mem:67.93M (Peak 67.93M) | Time:00:00.00 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | 化学楼 · wall 15 brick wall
+Fra:1 Mem:67.93M (Peak 67.93M) | Time:00:00.00 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | 化学楼 · wall 15 window glass
+Fra:1 Mem:67.99M (Peak 67.99M) | Time:00:00.00 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | 化学楼 · wall 15 window horizontal frames
+Fra:1 Mem:68.01M (Peak 68.01M) | Time:00:00.00 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | 化学楼 · wall 15 sill
+Fra:1 Mem:68.03M (Peak 68.03M) | Time:00:00.00 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | 化学楼 · wall 15 white spandrels
+Fra:1 Mem:68.03M (Peak 68.03M) | Time:00:00.00 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | 化学楼 · wall 15 roof coping
+Fra:1 Mem:68.04M (Peak 68.04M) | Time:00:00.00 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | 化学楼 · passage ceiling
+Fra:1 Mem:68.04M (Peak 68.04M) | Time:00:00.00 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | 化学楼 · passage floor
+Fra:1 Mem:68.04M (Peak 68.04M) | Time:00:00.00 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | 化学楼 · front white top
+Fra:1 Mem:68.04M (Peak 68.04M) | Time:00:00.00 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | 化学楼 · front small ceramic columns
+Fra:1 Mem:68.04M (Peak 68.04M) | Time:00:00.00 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | 化学楼 · front column grout
+Fra:1 Mem:68.04M (Peak 68.04M) | Time:00:00.00 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | 化学楼 · east entry landing
+Fra:1 Mem:68.04M (Peak 68.04M) | Time:00:00.00 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | 化学楼 · east side fascia grout
+Fra:1 Mem:68.06M (Peak 68.06M) | Time:00:00.00 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | 化学楼 · front column grout vertical
+Fra:1 Mem:68.06M (Peak 68.06M) | Time:00:00.00 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | 化学楼 · front fascia horizontal grout
+Fra:1 Mem:68.07M (Peak 68.07M) | Time:00:00.01 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | 化学楼 · front side fascia grout
+Fra:1 Mem:68.10M (Peak 68.10M) | Time:00:00.01 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | 化学楼 · front entry landing
+Fra:1 Mem:68.10M (Peak 68.10M) | Time:00:00.01 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | 化学楼 · front door lintels
+Fra:1 Mem:68.10M (Peak 68.10M) | Time:00:00.01 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | 化学楼 · front door handles
+Fra:1 Mem:68.10M (Peak 68.10M) | Time:00:00.01 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | 化学楼 · front transom
+Fra:1 Mem:68.10M (Peak 68.10M) | Time:00:00.01 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | 化学楼 · rear portico roof
+Fra:1 Mem:68.10M (Peak 68.10M) | Time:00:00.01 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | 化学楼 · rear white top
+Fra:1 Mem:68.11M (Peak 68.11M) | Time:00:00.01 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | 化学楼 · rear small ceramic columns
+Fra:1 Mem:68.11M (Peak 68.11M) | Time:00:00.01 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | 化学楼 · rear column grout vertical
+Fra:1 Mem:68.13M (Peak 68.13M) | Time:00:00.01 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | 化学楼 · rear fascia horizontal grout
+Fra:1 Mem:68.14M (Peak 68.14M) | Time:00:00.01 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | 化学楼 · rear side fascia grout
+Fra:1 Mem:68.16M (Peak 68.16M) | Time:00:00.01 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | 化学楼 · rear entry step
+Fra:1 Mem:68.16M (Peak 68.16M) | Time:00:00.01 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | 化学楼 · rear door jambs
+Fra:1 Mem:68.16M (Peak 68.16M) | Time:00:00.01 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | 化学楼 · rear door lintels
+Fra:1 Mem:68.16M (Peak 68.16M) | Time:00:00.01 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | 化学楼 · rear door glass
+Fra:1 Mem:68.17M (Peak 68.17M) | Time:00:00.01 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | 化学楼 · rear door handles
+Fra:1 Mem:68.19M (Peak 68.19M) | Time:00:00.01 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | 化学楼 · rear entrance sign backing
+Fra:1 Mem:68.19M (Peak 68.19M) | Time:00:00.01 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | 化学楼 · east portico roof
+Fra:1 Mem:68.19M (Peak 68.19M) | Time:00:00.01 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | 化学楼 · east small ceramic columns
+Fra:1 Mem:68.22M (Peak 68.22M) | Time:00:00.01 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | 化学楼 · east column grout
+Fra:1 Mem:68.22M (Peak 68.22M) | Time:00:00.01 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | 化学楼 · east column grout vertical
+Fra:1 Mem:68.25M (Peak 68.25M) | Time:00:00.01 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | 化学楼 · east fascia horizontal grout
+Fra:1 Mem:68.37M (Peak 68.37M) | Time:00:00.01 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Initializing
+Fra:1 Mem:67.62M (Peak 68.37M) | Time:00:00.01 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Updating Images | Loading Chemistry brick courses
+Fra:1 Mem:61.89M (Peak 68.37M) | Time:00:00.01 | Mem:0.12M, Peak:0.12M | Scene, ViewLayer | Waiting for render to start
+Fra:1 Mem:61.89M (Peak 68.37M) | Time:00:00.01 | Mem:0.12M, Peak:0.12M | Scene, ViewLayer | Loading render kernels (may take a few minutes the first time)
+Fra:1 Mem:61.89M (Peak 68.37M) | Time:00:00.01 | Mem:0.12M, Peak:0.12M | Scene, ViewLayer | Updating Scene
+Fra:1 Mem:61.89M (Peak 68.37M) | Time:00:00.01 | Mem:0.12M, Peak:0.12M | Scene, ViewLayer | Updating Shaders
+Fra:1 Mem:61.98M (Peak 68.37M) | Time:00:00.01 | Mem:0.13M, Peak:0.13M | Scene, ViewLayer | Updating Procedurals
+Fra:1 Mem:61.98M (Peak 68.37M) | Time:00:00.01 | Mem:0.13M, Peak:0.13M | Scene, ViewLayer | Updating Background
+Fra:1 Mem:61.98M (Peak 68.37M) | Time:00:00.01 | Mem:0.13M, Peak:0.13M | Scene, ViewLayer | Updating Camera
+Fra:1 Mem:61.98M (Peak 68.37M) | Time:00:00.01 | Mem:0.13M, Peak:0.13M | Scene, ViewLayer | Updating Meshes Flags
+Fra:1 Mem:61.98M (Peak 68.37M) | Time:00:00.01 | Mem:0.13M, Peak:0.13M | Scene, ViewLayer | Updating Objects
+Fra:1 Mem:61.98M (Peak 68.37M) | Time:00:00.01 | Mem:0.13M, Peak:0.13M | Scene, ViewLayer | Updating Objects | Copying Transformations to device
+Fra:1 Mem:62.03M (Peak 68.37M) | Time:00:00.01 | Mem:0.18M, Peak:0.18M | Scene, ViewLayer | Updating Objects | Applying Static Transformations
+Fra:1 Mem:62.03M (Peak 68.37M) | Time:00:00.01 | Mem:0.18M, Peak:0.18M | Scene, ViewLayer | Updating Particle Systems
+Fra:1 Mem:62.03M (Peak 68.37M) | Time:00:00.01 | Mem:0.18M, Peak:0.18M | Scene, ViewLayer | Updating Particle Systems | Copying Particles to device
+Fra:1 Mem:62.03M (Peak 68.37M) | Time:00:00.01 | Mem:0.18M, Peak:0.18M | Scene, ViewLayer | Updating Meshes
+Fra:1 Mem:62.83M (Peak 68.37M) | Time:00:00.01 | Mem:0.18M, Peak:0.18M | Scene, ViewLayer | Updating Mesh | Computing attributes
+Fra:1 Mem:63.35M (Peak 68.37M) | Time:00:00.01 | Mem:0.19M, Peak:0.19M | Scene, ViewLayer | Updating Mesh | Copying Attributes to device
+Fra:1 Mem:63.32M (Peak 68.37M) | Time:00:00.01 | Mem:0.67M, Peak:0.67M | Scene, ViewLayer | Updating Scene BVH | Building
+Fra:1 Mem:63.32M (Peak 68.37M) | Time:00:00.01 | Mem:0.67M, Peak:0.67M | Scene, ViewLayer | Updating Scene BVH | Building BVH
+Fra:1 Mem:63.32M (Peak 68.37M) | Time:00:00.01 | Mem:2.27M, Peak:2.27M | Scene, ViewLayer | Updating Scene BVH | Building BVH 0%
+Fra:1 Mem:63.32M (Peak 68.37M) | Time:00:00.01 | Mem:4.02M, Peak:5.62M | Scene, ViewLayer | Updating Scene BVH | Copying BVH to device
+Fra:1 Mem:63.32M (Peak 68.37M) | Time:00:00.01 | Mem:4.02M, Peak:5.62M | Scene, ViewLayer | Updating Mesh | Computing normals
+Fra:1 Mem:65.58M (Peak 68.37M) | Time:00:00.02 | Mem:4.02M, Peak:5.62M | Scene, ViewLayer | Updating Mesh | Copying Mesh to device
+Fra:1 Mem:65.58M (Peak 68.37M) | Time:00:00.02 | Mem:6.28M, Peak:6.28M | Scene, ViewLayer | Updating Objects Flags
+Fra:1 Mem:65.58M (Peak 68.37M) | Time:00:00.02 | Mem:6.28M, Peak:6.28M | Scene, ViewLayer | Updating Primitive Offsets
+Fra:1 Mem:65.58M (Peak 68.37M) | Time:00:00.02 | Mem:6.28M, Peak:6.28M | Scene, ViewLayer | Updating Images
+Fra:1 Mem:65.58M (Peak 68.37M) | Time:00:00.02 | Mem:6.28M, Peak:6.28M | Scene, ViewLayer | Updating Camera Volume
+Fra:1 Mem:65.58M (Peak 68.37M) | Time:00:00.02 | Mem:6.28M, Peak:6.28M | Scene, ViewLayer | Updating Lookup Tables
+Fra:1 Mem:65.58M (Peak 68.37M) | Time:00:00.02 | Mem:6.36M, Peak:6.36M | Scene, ViewLayer | Updating Lights
+Fra:1 Mem:65.58M (Peak 68.37M) | Time:00:00.02 | Mem:6.36M, Peak:6.36M | Scene, ViewLayer | Updating Lights | Computing tree
+Fra:1 Mem:65.58M (Peak 68.37M) | Time:00:00.02 | Mem:6.36M, Peak:6.36M | Scene, ViewLayer | Updating Integrator
+Fra:1 Mem:65.58M (Peak 68.37M) | Time:00:00.02 | Mem:6.36M, Peak:6.36M | Scene, ViewLayer | Updating Film
+Fra:1 Mem:65.59M (Peak 68.37M) | Time:00:00.02 | Mem:6.28M, Peak:6.36M | Scene, ViewLayer | Updating Lookup Tables
+Fra:1 Mem:65.59M (Peak 68.37M) | Time:00:00.02 | Mem:6.37M, Peak:6.37M | Scene, ViewLayer | Updating Baking
+Fra:1 Mem:65.59M (Peak 68.37M) | Time:00:00.02 | Mem:6.37M, Peak:6.37M | Scene, ViewLayer | Updating Device | Writing constant memory
+Fra:1 Mem:65.59M (Peak 68.37M) | Time:00:00.02 | Mem:6.37M, Peak:6.37M | Scene, ViewLayer | Loading denoising kernels (may take a few minutes the first time)
+Fra:1 Mem:65.59M (Peak 68.37M) | Time:00:00.02 | Mem:6.37M, Peak:6.37M | Scene, ViewLayer | Sample 0/16
+Fra:1 Mem:135.36M (Peak 135.36M) | Time:00:00.17 | Remaining:00:02.30 | Mem:75.96M, Peak:75.96M | Scene, ViewLayer | Sample 1/16
+Fra:1 Mem:164.66M (Peak 208.61M) | Time:00:06.63 | Mem:75.96M, Peak:75.96M | Scene, ViewLayer | Sample 16/16
+Fra:1 Mem:164.66M (Peak 208.61M) | Time:00:06.63 | Mem:75.96M, Peak:75.96M | Scene, ViewLayer | Finished
+Saved: 'E:\csd4.1\VR\FudanCampus\field-review\chemistry-2026-11-14-v1\renders\after-west.png'
+Time: 00:06.73 (Saving: 00:00.09)
+
+Fra:1 Mem:65.59M (Peak 65.59M) | Time:00:00.00 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | front 化学楼门头
+Fra:1 Mem:65.59M (Peak 65.59M) | Time:00:00.00 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | 化学楼 · wall 00 window glass
+Fra:1 Mem:65.59M (Peak 65.59M) | Time:00:00.00 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | 化学楼 · wall 00 window horizontal frames
+Fra:1 Mem:65.80M (Peak 65.80M) | Time:00:00.00 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | 化学楼 · wall 00 plinth
+Fra:1 Mem:65.92M (Peak 65.92M) | Time:00:00.00 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | 化学楼 · wall 01 window glass
+Fra:1 Mem:65.92M (Peak 65.92M) | Time:00:00.00 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | 化学楼 · wall 01 window vertical frames
+Fra:1 Mem:66.03M (Peak 66.03M) | Time:00:00.00 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | 化学楼 · wall 01 sill
+Fra:1 Mem:66.04M (Peak 66.04M) | Time:00:00.00 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | 化学楼 · wall 01 white spandrels
+Fra:1 Mem:66.05M (Peak 66.05M) | Time:00:00.00 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | 化学楼 · wall 01 plinth
+Fra:1 Mem:66.35M (Peak 66.35M) | Time:00:00.00 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | 化学楼 · wall 01 roof coping
+Fra:1 Mem:66.25M (Peak 66.35M) | Time:00:00.00 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | 化学楼 · wall 02 brick over door
+Fra:1 Mem:66.35M (Peak 66.35M) | Time:00:00.00 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | 化学楼 · wall 02 raised centre brick
+Fra:1 Mem:66.46M (Peak 66.46M) | Time:00:00.00 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | 化学楼 · wall 02 window glass
+Fra:1 Mem:66.46M (Peak 66.46M) | Time:00:00.01 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | 化学楼 · wall 02 window horizontal frames
+Fra:1 Mem:66.46M (Peak 66.46M) | Time:00:00.01 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | 化学楼 · wall 02 sill
+Fra:1 Mem:66.54M (Peak 66.54M) | Time:00:00.01 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | 化学楼 · wall 02 white spandrels
+Fra:1 Mem:66.58M (Peak 66.58M) | Time:00:00.01 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | 化学楼 · wall 02 roof coping
+Fra:1 Mem:66.68M (Peak 66.68M) | Time:00:00.01 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | 化学楼 · wall 02 central roof coping
+Fra:1 Mem:66.70M (Peak 66.70M) | Time:00:00.01 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | 化学楼 · wall 03 brick wall
+Fra:1 Mem:66.61M (Peak 66.70M) | Time:00:00.01 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | 化学楼 · wall 03 window glass
+Fra:1 Mem:66.61M (Peak 66.70M) | Time:00:00.01 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | 化学楼 · wall 03 white spandrels
+Fra:1 Mem:66.71M (Peak 66.71M) | Time:00:00.01 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | 化学楼 · wall 03 roof coping
+Fra:1 Mem:66.71M (Peak 66.71M) | Time:00:00.01 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | 化学楼 · wall 04 brick wall
+Fra:1 Mem:66.71M (Peak 66.71M) | Time:00:00.01 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | 化学楼 · wall 04 window horizontal frames
+Fra:1 Mem:66.71M (Peak 66.71M) | Time:00:00.01 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | 化学楼 · wall 04 sill
+Fra:1 Mem:66.72M (Peak 66.72M) | Time:00:00.01 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | 化学楼 · wall 04 white spandrels
+Fra:1 Mem:66.72M (Peak 66.72M) | Time:00:00.01 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | 化学楼 · wall 04 plinth
+Fra:1 Mem:66.72M (Peak 66.72M) | Time:00:00.01 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | 化学楼 · wall 04 roof coping
+Fra:1 Mem:66.74M (Peak 66.74M) | Time:00:00.01 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | 化学楼 · wall 05 brick over door
+Fra:1 Mem:66.78M (Peak 66.78M) | Time:00:00.01 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | 化学楼 · wall 05 window vertical frames
+Fra:1 Mem:66.83M (Peak 66.83M) | Time:00:00.01 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | 化学楼 · wall 05 window horizontal frames
+Fra:1 Mem:66.84M (Peak 66.84M) | Time:00:00.01 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | 化学楼 · wall 05 sill
+Fra:1 Mem:66.92M (Peak 66.92M) | Time:00:00.01 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | 化学楼 · wall 05 white spandrels
+Fra:1 Mem:66.92M (Peak 66.92M) | Time:00:00.01 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | 化学楼 · wall 06 brick wall
+Fra:1 Mem:67.21M (Peak 67.21M) | Time:00:00.01 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | 化学楼 · wall 06 window glass
+Fra:1 Mem:67.32M (Peak 67.32M) | Time:00:00.01 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | 化学楼 · wall 06 window vertical frames
+Fra:1 Mem:67.32M (Peak 67.32M) | Time:00:00.01 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | 化学楼 · wall 06 window horizontal frames
+Fra:1 Mem:67.36M (Peak 67.36M) | Time:00:00.01 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | 化学楼 · wall 06 sill
+Fra:1 Mem:67.37M (Peak 67.37M) | Time:00:00.01 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | 化学楼 · wall 06 white spandrels
+Fra:1 Mem:67.48M (Peak 67.48M) | Time:00:00.01 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | 化学楼 · wall 06 plinth
+Fra:1 Mem:67.49M (Peak 67.49M) | Time:00:00.01 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | 化学楼 · wall 06 roof coping
+Fra:1 Mem:67.39M (Peak 67.49M) | Time:00:00.01 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | 化学楼 · wall 07 brick wall
+Fra:1 Mem:67.40M (Peak 67.49M) | Time:00:00.01 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | 化学楼 · wall 07 window horizontal frames
+Fra:1 Mem:67.41M (Peak 67.49M) | Time:00:00.01 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | 化学楼 · wall 07 sill
+Fra:1 Mem:67.41M (Peak 67.49M) | Time:00:00.01 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | 化学楼 · wall 07 plinth
+Fra:1 Mem:67.41M (Peak 67.49M) | Time:00:00.01 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | 化学楼 · wall 07 roof coping
+Fra:1 Mem:67.42M (Peak 67.49M) | Time:00:00.01 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | 化学楼 · wall 08 brick pier
+Fra:1 Mem:67.42M (Peak 67.49M) | Time:00:00.01 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | 化学楼 · wall 08 brick over door
+Fra:1 Mem:67.43M (Peak 67.49M) | Time:00:00.01 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | 化学楼 · wall 08 raised centre brick
+Fra:1 Mem:67.43M (Peak 67.49M) | Time:00:00.01 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | 化学楼 · wall 08 window vertical frames
+Fra:1 Mem:67.43M (Peak 67.49M) | Time:00:00.01 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | 化学楼 · wall 08 window horizontal frames
+Fra:1 Mem:67.46M (Peak 67.49M) | Time:00:00.01 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | 化学楼 · wall 08 sill
+Fra:1 Mem:67.49M (Peak 67.49M) | Time:00:00.01 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | 化学楼 · wall 08 white spandrels
+Fra:1 Mem:67.50M (Peak 67.50M) | Time:00:00.01 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | 化学楼 · wall 08 plinth
+Fra:1 Mem:67.51M (Peak 67.51M) | Time:00:00.01 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | 化学楼 · wall 08 roof coping
+Fra:1 Mem:67.51M (Peak 67.51M) | Time:00:00.01 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | 化学楼 · wall 09 window glass
+Fra:1 Mem:67.52M (Peak 67.52M) | Time:00:00.01 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | 化学楼 · wall 09 window vertical frames
+Fra:1 Mem:67.54M (Peak 67.54M) | Time:00:00.01 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | 化学楼 · wall 09 window horizontal frames
+Fra:1 Mem:67.56M (Peak 67.56M) | Time:00:00.01 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | 化学楼 · wall 09 sill
+Fra:1 Mem:67.59M (Peak 67.59M) | Time:00:00.01 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | 化学楼 · wall 09 roof coping
+Fra:1 Mem:67.65M (Peak 67.65M) | Time:00:00.01 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | 化学楼 · wall 10 brick wall
+Fra:1 Mem:67.70M (Peak 67.70M) | Time:00:00.01 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | 化学楼 · wall 10 window glass
+Fra:1 Mem:67.70M (Peak 67.70M) | Time:00:00.01 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | 化学楼 · wall 10 window vertical frames
+Fra:1 Mem:67.70M (Peak 67.70M) | Time:00:00.01 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | 化学楼 · wall 10 sill
+Fra:1 Mem:67.71M (Peak 67.71M) | Time:00:00.01 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | 化学楼 · wall 10 white spandrels
+Fra:1 Mem:67.71M (Peak 67.71M) | Time:00:00.01 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | 化学楼 · wall 10 plinth
+Fra:1 Mem:67.71M (Peak 67.71M) | Time:00:00.01 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | 化学楼 · wall 11 brick wall
+Fra:1 Mem:67.71M (Peak 67.71M) | Time:00:00.01 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | 化学楼 · wall 11 window glass
+Fra:1 Mem:67.76M (Peak 67.76M) | Time:00:00.01 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | 化学楼 · wall 11 window horizontal frames
+Fra:1 Mem:67.79M (Peak 67.79M) | Time:00:00.01 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | 化学楼 · wall 11 window vertical frames
+Fra:1 Mem:67.79M (Peak 67.79M) | Time:00:00.01 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | 化学楼 · wall 11 white spandrels
+Fra:1 Mem:67.81M (Peak 67.81M) | Time:00:00.01 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | 化学楼 · wall 11 plinth
+Fra:1 Mem:67.82M (Peak 67.82M) | Time:00:00.01 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | 化学楼 · wall 12 brick wall
+Fra:1 Mem:67.82M (Peak 67.82M) | Time:00:00.01 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | 化学楼 · east entrance sign backing
+Fra:1 Mem:67.85M (Peak 67.85M) | Time:00:00.01 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | 化学楼 · east transom
+Fra:1 Mem:67.85M (Peak 67.85M) | Time:00:00.01 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | 化学楼 · wall 12 window horizontal frames
+Fra:1 Mem:67.86M (Peak 67.86M) | Time:00:00.01 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | 化学楼 · wall 12 sill
+Fra:1 Mem:67.86M (Peak 67.86M) | Time:00:00.01 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | 化学楼 · wall 12 white spandrels
+Fra:1 Mem:67.87M (Peak 67.87M) | Time:00:00.01 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | 化学楼 · wall 12 plinth
+Fra:1 Mem:67.88M (Peak 67.88M) | Time:00:00.01 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | 化学楼 · wall 13 brick wall
+Fra:1 Mem:67.89M (Peak 67.89M) | Time:00:00.01 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | 化学楼 · wall 13 window vertical frames
+Fra:1 Mem:67.91M (Peak 67.91M) | Time:00:00.01 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | 化学楼 · wall 13 window horizontal frames
+Fra:1 Mem:67.91M (Peak 67.91M) | Time:00:00.01 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | 化学楼 · wall 13 sill
+Fra:1 Mem:67.91M (Peak 67.91M) | Time:00:00.01 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | 化学楼 · wall 13 plinth
+Fra:1 Mem:67.92M (Peak 67.92M) | Time:00:00.01 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | 化学楼 · wall 14 brick wall
+Fra:1 Mem:67.92M (Peak 67.92M) | Time:00:00.01 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | 化学楼 · wall 14 window glass
+Fra:1 Mem:67.95M (Peak 67.95M) | Time:00:00.01 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | 化学楼 · wall 14 window horizontal frames
+Fra:1 Mem:67.95M (Peak 67.95M) | Time:00:00.01 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | 化学楼 · wall 14 plinth
+Fra:1 Mem:67.97M (Peak 67.97M) | Time:00:00.01 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | 化学楼 · wall 14 roof coping
+Fra:1 Mem:68.01M (Peak 68.01M) | Time:00:00.01 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | 化学楼 · wall 15 window vertical frames
+Fra:1 Mem:68.03M (Peak 68.03M) | Time:00:00.01 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | 化学楼 · wall 15 window horizontal frames
+Fra:1 Mem:68.03M (Peak 68.03M) | Time:00:00.01 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | 化学楼 · wall 15 white spandrels
+Fra:1 Mem:68.06M (Peak 68.06M) | Time:00:00.01 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | 化学楼 · wall 15 plinth
+Fra:1 Mem:68.06M (Peak 68.06M) | Time:00:00.01 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | 化学楼 · wall 15 roof coping
+Fra:1 Mem:68.06M (Peak 68.06M) | Time:00:00.01 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | 化学楼 · passage side walls
+Fra:1 Mem:68.07M (Peak 68.07M) | Time:00:00.01 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | 化学楼 · passage ceiling
+Fra:1 Mem:68.08M (Peak 68.08M) | Time:00:00.01 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | 化学楼 · passage floor
+Fra:1 Mem:68.08M (Peak 68.08M) | Time:00:00.01 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | 化学楼 · front portico roof
+Fra:1 Mem:68.08M (Peak 68.08M) | Time:00:00.01 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | 化学楼 · front small ceramic columns
+Fra:1 Mem:68.08M (Peak 68.08M) | Time:00:00.01 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | 化学楼 · front column grout
+Fra:1 Mem:68.11M (Peak 68.11M) | Time:00:00.01 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | 化学楼 · front column grout vertical
+Fra:1 Mem:68.11M (Peak 68.11M) | Time:00:00.01 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | 化学楼 · front fascia horizontal grout
+Fra:1 Mem:68.12M (Peak 68.12M) | Time:00:00.01 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | 化学楼 · front entry landing
+Fra:1 Mem:68.12M (Peak 68.12M) | Time:00:00.01 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | 化学楼 · front entry step
+Fra:1 Mem:68.12M (Peak 68.12M) | Time:00:00.01 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | 化学楼 · front door jambs
+Fra:1 Mem:68.13M (Peak 68.13M) | Time:00:00.01 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | 化学楼 · front door glass
+Fra:1 Mem:68.13M (Peak 68.13M) | Time:00:00.01 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | 化学楼 · front transom
+Fra:1 Mem:68.13M (Peak 68.13M) | Time:00:00.01 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | 化学楼 · front entrance sign backing
+Fra:1 Mem:68.13M (Peak 68.13M) | Time:00:00.01 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | 化学楼 · rear portico roof
+Fra:1 Mem:68.14M (Peak 68.14M) | Time:00:00.01 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | 化学楼 · rear small ceramic columns
+Fra:1 Mem:68.14M (Peak 68.14M) | Time:00:00.01 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | 化学楼 · rear column grout
+Fra:1 Mem:68.14M (Peak 68.14M) | Time:00:00.01 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | 化学楼 · rear fascia vertical grout
+Fra:1 Mem:68.19M (Peak 68.19M) | Time:00:00.01 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | 化学楼 · rear column grout vertical
+Fra:1 Mem:68.19M (Peak 68.19M) | Time:00:00.01 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | 化学楼 · rear fascia horizontal grout
+Fra:1 Mem:68.19M (Peak 68.19M) | Time:00:00.01 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | 化学楼 · rear entry landing
+Fra:1 Mem:68.19M (Peak 68.19M) | Time:00:00.01 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | 化学楼 · rear door jambs
+Fra:1 Mem:68.20M (Peak 68.20M) | Time:00:00.01 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | 化学楼 · rear door lintels
+Fra:1 Mem:68.20M (Peak 68.20M) | Time:00:00.01 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | 化学楼 · rear door glass
+Fra:1 Mem:68.20M (Peak 68.20M) | Time:00:00.01 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | 化学楼 · rear transom
+Fra:1 Mem:68.20M (Peak 68.20M) | Time:00:00.01 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | 化学楼 · east portico roof
+Fra:1 Mem:68.25M (Peak 68.25M) | Time:00:00.01 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | 化学楼 · east white top
+Fra:1 Mem:68.25M (Peak 68.25M) | Time:00:00.01 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | 化学楼 · east column grout
+Fra:1 Mem:68.27M (Peak 68.27M) | Time:00:00.01 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | 化学楼 · east fascia vertical grout
+Fra:1 Mem:68.27M (Peak 68.27M) | Time:00:00.01 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | 化学楼 · east fascia horizontal grout
+Fra:1 Mem:68.27M (Peak 68.27M) | Time:00:00.01 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | 化学楼 · east entry landing
+Fra:1 Mem:68.28M (Peak 68.28M) | Time:00:00.01 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | 化学楼 · east entry step
+Fra:1 Mem:68.28M (Peak 68.28M) | Time:00:00.01 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | 化学楼 · east door jambs
+Fra:1 Mem:68.28M (Peak 68.28M) | Time:00:00.01 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | 化学楼 · east door lintels
+Fra:1 Mem:68.28M (Peak 68.28M) | Time:00:00.01 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | 化学楼 · east door glass
+Fra:1 Mem:68.37M (Peak 68.37M) | Time:00:00.01 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Initializing
+Fra:1 Mem:67.62M (Peak 68.37M) | Time:00:00.01 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Updating Images | Loading Chemistry brick courses
+Fra:1 Mem:61.89M (Peak 68.37M) | Time:00:00.01 | Mem:0.12M, Peak:0.12M | Scene, ViewLayer | Waiting for render to start
+Fra:1 Mem:61.89M (Peak 68.37M) | Time:00:00.01 | Mem:0.12M, Peak:0.12M | Scene, ViewLayer | Loading render kernels (may take a few minutes the first time)
+Fra:1 Mem:61.89M (Peak 68.37M) | Time:00:00.01 | Mem:0.12M, Peak:0.12M | Scene, ViewLayer | Updating Scene
+Fra:1 Mem:61.89M (Peak 68.37M) | Time:00:00.01 | Mem:0.12M, Peak:0.12M | Scene, ViewLayer | Updating Shaders
+Fra:1 Mem:61.98M (Peak 68.37M) | Time:00:00.01 | Mem:0.13M, Peak:0.13M | Scene, ViewLayer | Updating Procedurals
+Fra:1 Mem:61.98M (Peak 68.37M) | Time:00:00.01 | Mem:0.13M, Peak:0.13M | Scene, ViewLayer | Updating Background
+Fra:1 Mem:61.98M (Peak 68.37M) | Time:00:00.01 | Mem:0.13M, Peak:0.13M | Scene, ViewLayer | Updating Camera
+Fra:1 Mem:61.98M (Peak 68.37M) | Time:00:00.01 | Mem:0.13M, Peak:0.13M | Scene, ViewLayer | Updating Meshes Flags
+Fra:1 Mem:61.98M (Peak 68.37M) | Time:00:00.01 | Mem:0.13M, Peak:0.13M | Scene, ViewLayer | Updating Objects
+Fra:1 Mem:61.98M (Peak 68.37M) | Time:00:00.01 | Mem:0.13M, Peak:0.13M | Scene, ViewLayer | Updating Objects | Copying Transformations to device
+Fra:1 Mem:62.03M (Peak 68.37M) | Time:00:00.01 | Mem:0.18M, Peak:0.18M | Scene, ViewLayer | Updating Objects | Applying Static Transformations
+Fra:1 Mem:62.03M (Peak 68.37M) | Time:00:00.01 | Mem:0.18M, Peak:0.18M | Scene, ViewLayer | Updating Particle Systems
+Fra:1 Mem:62.03M (Peak 68.37M) | Time:00:00.01 | Mem:0.18M, Peak:0.18M | Scene, ViewLayer | Updating Particle Systems | Copying Particles to device
+Fra:1 Mem:62.03M (Peak 68.37M) | Time:00:00.01 | Mem:0.18M, Peak:0.18M | Scene, ViewLayer | Updating Meshes
+Fra:1 Mem:62.83M (Peak 68.37M) | Time:00:00.01 | Mem:0.18M, Peak:0.18M | Scene, ViewLayer | Updating Mesh | Computing attributes
+Fra:1 Mem:63.35M (Peak 68.37M) | Time:00:00.01 | Mem:0.19M, Peak:0.19M | Scene, ViewLayer | Updating Mesh | Copying Attributes to device
+Fra:1 Mem:63.32M (Peak 68.37M) | Time:00:00.01 | Mem:0.67M, Peak:0.67M | Scene, ViewLayer | Updating Scene BVH | Building
+Fra:1 Mem:63.32M (Peak 68.37M) | Time:00:00.01 | Mem:0.67M, Peak:0.67M | Scene, ViewLayer | Updating Scene BVH | Building BVH
+Fra:1 Mem:63.32M (Peak 68.37M) | Time:00:00.02 | Mem:2.27M, Peak:2.27M | Scene, ViewLayer | Updating Scene BVH | Building BVH 0%
+Fra:1 Mem:63.32M (Peak 68.37M) | Time:00:00.02 | Mem:4.02M, Peak:5.62M | Scene, ViewLayer | Updating Scene BVH | Copying BVH to device
+Fra:1 Mem:63.32M (Peak 68.37M) | Time:00:00.02 | Mem:4.02M, Peak:5.62M | Scene, ViewLayer | Updating Mesh | Computing normals
+Fra:1 Mem:65.58M (Peak 68.37M) | Time:00:00.02 | Mem:4.02M, Peak:5.62M | Scene, ViewLayer | Updating Mesh | Copying Mesh to device
+Fra:1 Mem:65.58M (Peak 68.37M) | Time:00:00.02 | Mem:6.28M, Peak:6.28M | Scene, ViewLayer | Updating Objects Flags
+Fra:1 Mem:65.58M (Peak 68.37M) | Time:00:00.02 | Mem:6.28M, Peak:6.28M | Scene, ViewLayer | Updating Primitive Offsets
+Fra:1 Mem:65.58M (Peak 68.37M) | Time:00:00.02 | Mem:6.28M, Peak:6.28M | Scene, ViewLayer | Updating Images
+Fra:1 Mem:65.58M (Peak 68.37M) | Time:00:00.02 | Mem:6.28M, Peak:6.28M | Scene, ViewLayer | Updating Camera Volume
+Fra:1 Mem:65.58M (Peak 68.37M) | Time:00:00.02 | Mem:6.28M, Peak:6.28M | Scene, ViewLayer | Updating Lookup Tables
+Fra:1 Mem:65.58M (Peak 68.37M) | Time:00:00.02 | Mem:6.36M, Peak:6.36M | Scene, ViewLayer | Updating Lights
+Fra:1 Mem:65.58M (Peak 68.37M) | Time:00:00.02 | Mem:6.36M, Peak:6.36M | Scene, ViewLayer | Updating Lights | Computing tree
+Fra:1 Mem:65.58M (Peak 68.37M) | Time:00:00.02 | Mem:6.36M, Peak:6.36M | Scene, ViewLayer | Updating Integrator
+Fra:1 Mem:65.58M (Peak 68.37M) | Time:00:00.02 | Mem:6.36M, Peak:6.36M | Scene, ViewLayer | Updating Film
+Fra:1 Mem:65.59M (Peak 68.37M) | Time:00:00.02 | Mem:6.28M, Peak:6.36M | Scene, ViewLayer | Updating Lookup Tables
+Fra:1 Mem:65.59M (Peak 68.37M) | Time:00:00.02 | Mem:6.37M, Peak:6.37M | Scene, ViewLayer | Updating Baking
+Fra:1 Mem:65.59M (Peak 68.37M) | Time:00:00.02 | Mem:6.37M, Peak:6.37M | Scene, ViewLayer | Updating Device | Writing constant memory
+Fra:1 Mem:65.59M (Peak 68.37M) | Time:00:00.02 | Mem:6.37M, Peak:6.37M | Scene, ViewLayer | Loading denoising kernels (may take a few minutes the first time)
+Fra:1 Mem:65.59M (Peak 68.37M) | Time:00:00.02 | Mem:6.37M, Peak:6.37M | Scene, ViewLayer | Sample 0/16
+Fra:1 Mem:135.36M (Peak 135.36M) | Time:00:00.12 | Remaining:00:01.53 | Mem:75.96M, Peak:75.96M | Scene, ViewLayer | Sample 1/16
+Fra:1 Mem:164.66M (Peak 208.61M) | Time:00:05.69 | Mem:75.96M, Peak:75.96M | Scene, ViewLayer | Sample 16/16
+Fra:1 Mem:164.66M (Peak 208.61M) | Time:00:05.69 | Mem:75.96M, Peak:75.96M | Scene, ViewLayer | Finished
+Saved: 'E:\csd4.1\VR\FudanCampus\field-review\chemistry-2026-11-14-v1\renders\after-plan.png'
+Time: 00:05.78 (Saving: 00:00.07)
+
+Warning: Path 'C:/Windows/Fonts/simhei.ttf' cannot be made relative for Font 'SimHei Regular'
+Warning: Path 'C:/Windows/Fonts/simhei.ttf' cannot be made relative for Font 'SimHei Regular.001'
+Warning: Path 'C:/Windows/Fonts/simhei.ttf' cannot be made relative for Font 'SimHei Regular.002'
+
+Info: Saved "55-candidate.blend"
+21:33:32 | INFO: Data are loaded, start creating Blender stuff
+21:33:32 | INFO: Blender create Mesh node front chemistry sign
+21:33:32 | INFO: Blender create Mesh node rear chemistry sign
+21:33:32 | INFO: Blender create Mesh node east chemistry sign
+21:33:32 | INFO: Blender create Mesh node 化学楼 · white roof slabs
+21:33:32 | INFO: Blender create Mesh node 化学楼 · raised centre returns
+21:33:32 | INFO: Blender create Mesh node 化学楼 · wall 00 brick wall
+21:33:32 | INFO: Blender create Mesh node 化学楼 · wall 00 window glass
+21:33:32 | INFO: Blender create Mesh node 化学楼 · wall 00 window vertical frames
+21:33:32 | INFO: Blender create Mesh node 化学楼 · wall 00 window horizontal frames
+21:33:32 | INFO: Blender create Mesh node 化学楼 · wall 00 sill
+21:33:32 | INFO: Blender create Mesh node 化学楼 · wall 00 white spandrels
+21:33:32 | INFO: Blender create Mesh node 化学楼 · wall 00 plinth
+21:33:32 | INFO: Blender create Mesh node 化学楼 · wall 00 roof coping
+21:33:32 | INFO: Blender create Mesh node 化学楼 · wall 01 brick wall
+21:33:32 | INFO: Blender create Mesh node 化学楼 · wall 01 window glass
+21:33:32 | INFO: Blender create Mesh node 化学楼 · wall 01 window vertical frames
+21:33:32 | INFO: Blender create Mesh node 化学楼 · wall 01 window horizontal frames
+21:33:32 | INFO: Blender create Mesh node 化学楼 · wall 01 sill
+21:33:32 | INFO: Blender create Mesh node 化学楼 · wall 01 white spandrels
+21:33:32 | INFO: Blender create Mesh node 化学楼 · wall 01 plinth
+21:33:32 | INFO: Blender create Mesh node 化学楼 · wall 01 roof coping
+21:33:32 | INFO: Blender create Mesh node 化学楼 · wall 02 brick pier
+21:33:32 | INFO: Blender create Mesh node 化学楼 · wall 02 brick over door
+21:33:32 | INFO: Blender create Mesh node 化学楼 · wall 02 raised centre brick
+21:33:32 | INFO: Blender create Mesh node 化学楼 · wall 02 window glass
+21:33:32 | INFO: Blender create Mesh node 化学楼 · wall 02 window vertical frames
+21:33:32 | INFO: Blender create Mesh node 化学楼 · wall 02 window horizontal frames
+21:33:32 | INFO: Blender create Mesh node 化学楼 · wall 02 sill
+21:33:32 | INFO: Blender create Mesh node 化学楼 · wall 02 white spandrels
+21:33:32 | INFO: Blender create Mesh node 化学楼 · wall 02 plinth
+21:33:32 | INFO: Blender create Mesh node 化学楼 · wall 02 roof coping
+21:33:32 | INFO: Blender create Mesh node 化学楼 · wall 02 central roof coping
+21:33:32 | INFO: Blender create Mesh node 化学楼 · wall 03 brick wall
+21:33:32 | INFO: Blender create Mesh node 化学楼 · wall 03 window glass
+21:33:32 | INFO: Blender create Mesh node 化学楼 · wall 03 window vertical frames
+21:33:32 | INFO: Blender create Mesh node 化学楼 · wall 03 window horizontal frames
+21:33:32 | INFO: Blender create Mesh node 化学楼 · wall 03 sill
+21:33:32 | INFO: Blender create Mesh node 化学楼 · wall 03 white spandrels
+21:33:32 | INFO: Blender create Mesh node 化学楼 · wall 03 plinth
+21:33:32 | INFO: Blender create Mesh node 化学楼 · wall 03 roof coping
+21:33:32 | INFO: Blender create Mesh node 化学楼 · wall 04 brick wall
+21:33:32 | INFO: Blender create Mesh node 化学楼 · wall 04 window glass
+21:33:32 | INFO: Blender create Mesh node 化学楼 · wall 04 window vertical frames
+21:33:32 | INFO: Blender create Mesh node 化学楼 · wall 04 window horizontal frames
+21:33:32 | INFO: Blender create Mesh node 化学楼 · wall 04 sill
+21:33:32 | INFO: Blender create Mesh node 化学楼 · wall 04 white spandrels
+21:33:32 | INFO: Blender create Mesh node 化学楼 · wall 04 plinth
+21:33:32 | INFO: Blender create Mesh node 化学楼 · wall 04 roof coping
+21:33:32 | INFO: Blender create Mesh node 化学楼 · wall 05 brick pier
+21:33:32 | INFO: Blender create Mesh node 化学楼 · wall 05 brick over door
+21:33:32 | INFO: Blender create Mesh node 化学楼 · wall 05 window glass
+21:33:32 | INFO: Blender create Mesh node 化学楼 · wall 05 window vertical frames
+21:33:32 | INFO: Blender create Mesh node 化学楼 · wall 05 window horizontal frames
+21:33:32 | INFO: Blender create Mesh node 化学楼 · wall 05 sill
+21:33:32 | INFO: Blender create Mesh node 化学楼 · wall 05 white spandrels
+21:33:32 | INFO: Blender create Mesh node 化学楼 · wall 05 plinth
+21:33:32 | INFO: Blender create Mesh node 化学楼 · wall 05 roof coping
+21:33:32 | INFO: Blender create Mesh node 化学楼 · wall 06 brick wall
+21:33:32 | INFO: Blender create Mesh node 化学楼 · wall 06 window glass
+21:33:32 | INFO: Blender create Mesh node 化学楼 · wall 06 window vertical frames
+21:33:32 | INFO: Blender create Mesh node 化学楼 · wall 06 window horizontal frames
+21:33:32 | INFO: Blender create Mesh node 化学楼 · wall 06 sill
+21:33:32 | INFO: Blender create Mesh node 化学楼 · wall 06 white spandrels
+21:33:32 | INFO: Blender create Mesh node 化学楼 · wall 06 plinth
+21:33:32 | INFO: Blender create Mesh node 化学楼 · wall 06 roof coping
+21:33:32 | INFO: Blender create Mesh node 化学楼 · wall 07 brick wall
+21:33:32 | INFO: Blender create Mesh node 化学楼 · wall 07 window glass
+21:33:32 | INFO: Blender create Mesh node 化学楼 · wall 07 window vertical frames
+21:33:32 | INFO: Blender create Mesh node 化学楼 · wall 07 window horizontal frames
+21:33:32 | INFO: Blender create Mesh node 化学楼 · wall 07 sill
+21:33:32 | INFO: Blender create Mesh node 化学楼 · wall 07 white spandrels
+21:33:32 | INFO: Blender create Mesh node 化学楼 · wall 07 plinth
+21:33:32 | INFO: Blender create Mesh node 化学楼 · wall 07 roof coping
+21:33:32 | INFO: Blender create Mesh node 化学楼 · wall 08 brick pier
+21:33:32 | INFO: Blender create Mesh node 化学楼 · wall 08 brick over door
+21:33:32 | INFO: Blender create Mesh node 化学楼 · wall 08 raised centre brick
+21:33:32 | INFO: Blender create Mesh node 化学楼 · wall 08 window glass
+21:33:32 | INFO: Blender create Mesh node 化学楼 · wall 08 window vertical frames
+21:33:32 | INFO: Blender create Mesh node 化学楼 · wall 08 window horizontal frames
+21:33:32 | INFO: Blender create Mesh node 化学楼 · wall 08 sill
+21:33:32 | INFO: Blender create Mesh node 化学楼 · wall 08 white spandrels
+21:33:32 | INFO: Blender create Mesh node 化学楼 · wall 08 plinth
+21:33:32 | INFO: Blender create Mesh node 化学楼 · wall 08 roof coping
+21:33:32 | INFO: Blender create Mesh node 化学楼 · wall 08 central roof coping
+21:33:32 | INFO: Blender create Mesh node 化学楼 · wall 09 brick wall
+21:33:32 | INFO: Blender create Mesh node 化学楼 · wall 09 window glass
+21:33:32 | INFO: Blender create Mesh node 化学楼 · wall 09 window vertical frames
+21:33:32 | INFO: Blender create Mesh node 化学楼 · wall 09 window horizontal frames
+21:33:32 | INFO: Blender create Mesh node 化学楼 · wall 09 sill
+21:33:32 | INFO: Blender create Mesh node 化学楼 · wall 09 white spandrels
+21:33:32 | INFO: Blender create Mesh node 化学楼 · wall 09 plinth
+21:33:32 | INFO: Blender create Mesh node 化学楼 · wall 09 roof coping
+21:33:32 | INFO: Blender create Mesh node 化学楼 · wall 10 brick wall
+21:33:32 | INFO: Blender create Mesh node 化学楼 · wall 10 window glass
+21:33:32 | INFO: Blender create Mesh node 化学楼 · wall 10 window vertical frames
+21:33:32 | INFO: Blender create Mesh node 化学楼 · wall 10 window horizontal frames
+21:33:32 | INFO: Blender create Mesh node 化学楼 · wall 10 sill
+21:33:32 | INFO: Blender create Mesh node 化学楼 · wall 10 white spandrels
+21:33:32 | INFO: Blender create Mesh node 化学楼 · wall 10 plinth
+21:33:32 | INFO: Blender create Mesh node 化学楼 · wall 10 roof coping
+21:33:32 | INFO: Blender create Mesh node 化学楼 · wall 11 brick wall
+21:33:32 | INFO: Blender create Mesh node 化学楼 · wall 11 window glass
+21:33:32 | INFO: Blender create Mesh node 化学楼 · wall 11 window vertical frames
+21:33:32 | INFO: Blender create Mesh node 化学楼 · wall 11 window horizontal frames
+21:33:32 | INFO: Blender create Mesh node 化学楼 · wall 11 sill
+21:33:32 | INFO: Blender create Mesh node 化学楼 · wall 11 white spandrels
+21:33:32 | INFO: Blender create Mesh node 化学楼 · wall 11 plinth
+21:33:32 | INFO: Blender create Mesh node 化学楼 · wall 11 roof coping
+21:33:32 | INFO: Blender create Mesh node 化学楼 · wall 12 brick wall
+21:33:32 | INFO: Blender create Mesh node 化学楼 · wall 12 window glass
+21:33:32 | INFO: Blender create Mesh node 化学楼 · wall 12 window vertical frames
+21:33:32 | INFO: Blender create Mesh node 化学楼 · wall 12 window horizontal frames
+21:33:32 | INFO: Blender create Mesh node 化学楼 · wall 12 sill
+21:33:32 | INFO: Blender create Mesh node 化学楼 · wall 12 white spandrels
+21:33:32 | INFO: Blender create Mesh node 化学楼 · wall 12 plinth
+21:33:32 | INFO: Blender create Mesh node 化学楼 · wall 12 roof coping
+21:33:32 | INFO: Blender create Mesh node 化学楼 · wall 13 brick wall
+21:33:32 | INFO: Blender create Mesh node 化学楼 · wall 13 window glass
+21:33:32 | INFO: Blender create Mesh node 化学楼 · wall 13 window vertical frames
+21:33:32 | INFO: Blender create Mesh node 化学楼 · wall 13 window horizontal frames
+21:33:32 | INFO: Blender create Mesh node 化学楼 · wall 13 sill
+21:33:32 | INFO: Blender create Mesh node 化学楼 · wall 13 white spandrels
+21:33:32 | INFO: Blender create Mesh node 化学楼 · wall 13 plinth
+21:33:32 | INFO: Blender create Mesh node 化学楼 · wall 13 roof coping
+21:33:32 | INFO: Blender create Mesh node 化学楼 · wall 14 brick wall
+21:33:32 | INFO: Blender create Mesh node 化学楼 · wall 14 window glass
+21:33:32 | INFO: Blender create Mesh node 化学楼 · wall 14 window vertical frames
+21:33:32 | INFO: Blender create Mesh node 化学楼 · wall 14 window horizontal frames
+21:33:32 | INFO: Blender create Mesh node 化学楼 · wall 14 sill
+21:33:32 | INFO: Blender create Mesh node 化学楼 · wall 14 white spandrels
+21:33:32 | INFO: Blender create Mesh node 化学楼 · wall 14 plinth
+21:33:32 | INFO: Blender create Mesh node 化学楼 · wall 14 roof coping
+21:33:32 | INFO: Blender create Mesh node 化学楼 · wall 15 brick wall
+21:33:32 | INFO: Blender create Mesh node 化学楼 · wall 15 window glass
+21:33:32 | INFO: Blender create Mesh node 化学楼 · wall 15 window vertical frames
+21:33:32 | INFO: Blender create Mesh node 化学楼 · wall 15 window horizontal frames
+21:33:32 | INFO: Blender create Mesh node 化学楼 · wall 15 sill
+21:33:32 | INFO: Blender create Mesh node 化学楼 · wall 15 white spandrels
+21:33:32 | INFO: Blender create Mesh node 化学楼 · wall 15 plinth
+21:33:32 | INFO: Blender create Mesh node 化学楼 · wall 15 roof coping
+21:33:32 | INFO: Blender create Mesh node 化学楼 · passage side walls
+21:33:32 | INFO: Blender create Mesh node 化学楼 · passage ceiling
+21:33:32 | INFO: Blender create Mesh node 化学楼 · passage floor
+21:33:32 | INFO: Blender create Mesh node 化学楼 · front portico roof
+21:33:32 | INFO: Blender create Mesh node 化学楼 · front white top
+21:33:32 | INFO: Blender create Mesh node 化学楼 · front small ceramic columns
+21:33:32 | INFO: Blender create Mesh node 化学楼 · front column grout
+21:33:32 | INFO: Blender create Mesh node 化学楼 · front column grout vertical
+21:33:32 | INFO: Blender create Mesh node 化学楼 · front fascia vertical grout
+21:33:32 | INFO: Blender create Mesh node 化学楼 · front fascia horizontal grout
+21:33:32 | INFO: Blender create Mesh node 化学楼 · front side fascia grout
+21:33:32 | INFO: Blender create Mesh node 化学楼 · front entry landing
+21:33:32 | INFO: Blender create Mesh node 化学楼 · front entry step
+21:33:32 | INFO: Blender create Mesh node 化学楼 · front door jambs
+21:33:32 | INFO: Blender create Mesh node 化学楼 · front door lintels
+21:33:32 | INFO: Blender create Mesh node 化学楼 · front door glass
+21:33:32 | INFO: Blender create Mesh node 化学楼 · front door handles
+21:33:32 | INFO: Blender create Mesh node 化学楼 · front transom
+21:33:32 | INFO: Blender create Mesh node 化学楼 · front entrance sign backing
+21:33:32 | INFO: Blender create Mesh node 化学楼 · rear portico roof
+21:33:32 | INFO: Blender create Mesh node 化学楼 · rear white top
+21:33:32 | INFO: Blender create Mesh node 化学楼 · rear small ceramic columns
+21:33:32 | INFO: Blender create Mesh node 化学楼 · rear column grout
+21:33:32 | INFO: Blender create Mesh node 化学楼 · rear column grout vertical
+21:33:32 | INFO: Blender create Mesh node 化学楼 · rear fascia vertical grout
+21:33:32 | INFO: Blender create Mesh node 化学楼 · rear fascia horizontal grout
+21:33:32 | INFO: Blender create Mesh node 化学楼 · rear side fascia grout
+21:33:32 | INFO: Blender create Mesh node 化学楼 · rear entry landing
+21:33:32 | INFO: Blender create Mesh node 化学楼 · rear entry step
+21:33:32 | INFO: Blender create Mesh node 化学楼 · rear door jambs
+21:33:32 | INFO: Blender create Mesh node 化学楼 · rear door lintels
+21:33:32 | INFO: Blender create Mesh node 化学楼 · rear door glass
+21:33:32 | INFO: Blender create Mesh node 化学楼 · rear door handles
+21:33:32 | INFO: Blender create Mesh node 化学楼 · rear transom
+21:33:32 | INFO: Blender create Mesh node 化学楼 · rear entrance sign backing
+21:33:32 | INFO: Blender create Mesh node 化学楼 · east portico roof
+21:33:32 | INFO: Blender create Mesh node 化学楼 · east white top
+21:33:32 | INFO: Blender create Mesh node 化学楼 · east small ceramic columns
+21:33:32 | INFO: Blender create Mesh node 化学楼 · east column grout
+21:33:32 | INFO: Blender create Mesh node 化学楼 · east column grout vertical
+21:33:32 | INFO: Blender create Mesh node 化学楼 · east fascia vertical grout
+21:33:32 | INFO: Blender create Mesh node 化学楼 · east fascia horizontal grout
+21:33:32 | INFO: Blender create Mesh node 化学楼 · east side fascia grout
+21:33:32 | INFO: Blender create Mesh node 化学楼 · east entry landing
+21:33:32 | INFO: Blender create Mesh node 化学楼 · east entry step
+21:33:32 | INFO: Blender create Mesh node 化学楼 · east door jambs
+21:33:32 | INFO: Blender create Mesh node 化学楼 · east door lintels
+21:33:32 | INFO: Blender create Mesh node 化学楼 · east door glass
+21:33:32 | INFO: Blender create Mesh node 化学楼 · east door handles
+21:33:32 | INFO: Blender create Mesh node 化学楼 · east transom
+21:33:32 | INFO: Blender create Mesh node 化学楼 · east entrance sign backing
+21:33:32 | INFO: glTF import finished in 0.16s
+PASS chemistry: west recess, raised centre, white roofs, courtyard surfaces, 3 porticos, 466 visible window faces on all 16 wall segments
+CHEMISTRY_CANDIDATE_PASS {'blender': '4.4.3', 'triangles': 52428, 'mesh_objects': 191, 'glb_bytes': 2514392, 'glb_sha256': '93b44edf6e884a1c3fa777e074c7d460d8065b8c5ff528920d8b7016d84d2335', 'bounds_blender': {'min': [-32.974998474121094, -19.774999618530273, 0.0], 'max': [36.04999923706055, 19.774999618530273, 14.449999809265137]}, 'elapsed_seconds': 33.79}
+
+Blender quit

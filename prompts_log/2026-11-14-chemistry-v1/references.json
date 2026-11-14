@@ -1,0 +1,83 @@
+[
+  {
+    "path": "assets/55-化学楼/前门拍摄位置-右侧.jpg",
+    "sha256": "f0b7b14e3e4ba5f4cbb2a0c21bf9a1bf1eac4328d08ba6d4ad903cd239be3814",
+    "pixels": [
+      4608,
+      3456
+    ],
+    "bytes": 6357064
+  },
+  {
+    "path": "assets/55-化学楼/前门拍摄位置-左侧.jpg",
+    "sha256": "381dfc6881b5d9a16a3193f65f24c146fc9218ec86c0af0b76164d1941063f7a",
+    "pixels": [
+      4608,
+      3456
+    ],
+    "bytes": 6229506
+  },
+  {
+    "path": "assets/55-化学楼/化学楼大致形状-俯拍.png",
+    "sha256": "5383628cbd89770255f132bfe2d8dc20d51259df52ff7795f8bc92f394db2bd7",
+    "pixels": [
+      945,
+      661
+    ],
+    "bytes": 104831
+  },
+  {
+    "path": "assets/55-化学楼/化学楼大致形状.png",
+    "sha256": "d5e2cded45a5eb229fa67587b78d9b7a23f0e129941ae72a301d6bfe6d12d6f1",
+    "pixels": [
+      1079,
+      844
+    ],
+    "bytes": 370845
+  },
+  {
+    "path": "assets/55-化学楼/右侧门.jpg",
+    "sha256": "2e4df6eac379515f8c76ed631130fe6bb4413ac1d2c67c0dd04595d97ad0b1af",
+    "pixels": [
+      4608,
+      3456
+    ],
+    "bytes": 6311386
+  },
+  {
+    "path": "assets/55-化学楼/右侧门（曝光）.jpg",
+    "sha256": "7738af3569b0a6eb13cf71fce3ff7ddaf5ab7c2a77037de5bf20d63a88ec47bf",
+    "pixels": [
+      4608,
+      3456
+    ],
+    "bytes": 4737383
+  },
+  {
+    "path": "assets/55-化学楼/正面.jpg",
+    "sha256": "02d0b4e6f6755d5c4099c1e11b139e033bca826587c12bde56c96522c712655e",
+    "pixels": [
+      4608,
+      3456
+    ],
+    "bytes": 5276678
+  },
+  {
+    "path": "assets/55-化学楼/正面（正门特写）.jpg",
+    "sha256": "ade68346e2fbc488ebc47ef532a70e172921a6ebe69c74b6bc3cb3bc8c9d1213",
+    "pixels": [
+      4608,
+      3456
+    ],
+    "bytes": 4693626
+  },
+  {
+    "path": "assets/55-化学楼/背面.jpg",
+    "sha256": "a5499a40ea182145c0da463b685fcaf9dfd1e5e652331bf65d9c10dd1abe2272",
+    "pixels": [
+      4608,
+      3456
+    ],
+    "bytes": 6709763
+  }
+]

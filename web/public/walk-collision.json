@@ -1,8 +1,8 @@
 {
   "version": 1,
-  "triangles": 451698,
-  "bytes": 16261128,
-  "sha256": "dbcce107cc76ce71df16952e1f046ade2de8e2f06fa8e5f81f0a43e8a0bd76ac",
+  "triangles": 468869,
+  "bytes": 16879284,
+  "sha256": "3c6065926d9e9be2caf8447459f2a71853614d7a2a2aa22273ee1fd71ecbc531",
   "sourceRevisions": [
     [
       "shared-00",
@@ -63,10 +63,6 @@
     [
       "buildings-51",
       "ade8660d5e95"
-    ],
-    [
-      "buildings-55",
-      "a90b1c2c2d80"
     ],
     [
       "buildings-56",
@@ -803,6 +799,10 @@
     [
       "buildings-17",
       "a8b9edfa02f3"
+    ],
+    [
+      "buildings-55",
+      "6b5ab1efca5d"
     ]
   ]
 }

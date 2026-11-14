@@ -515,12 +515,12 @@
       "id": "55",
       "name": "化学楼",
       "url": "models/buildings/55.glb",
-      "revision": "95a895241e1c",
-      "bytes": 1007380,
+      "revision": "6417a3980820",
+      "bytes": 2512196,
       "overview": {
         "url": "models/buildings/55.glb",
-        "revision": "95a895241e1c",
-        "bytes": 1007380
+        "bytes": 2512196,
+        "revision": "6417a3980820"
       },
       "position": [
         -97.60000000000001,
@@ -535,14 +535,14 @@
       "orientationBaked": true,
       "bounds": {
         "min": [
-          -32.79999389648437,
-          0,
-          -16.399996948242176
+          -32.974998474121094,
+          0.0,
+          -19.774999618530273
         ],
         "max": [
-          38.80000076293946,
-          12.600000381469727,
-          16.719998168945324
+          36.04999923706055,
+          14.449999809265137,
+          19.774999618530273
         ]
       },
       "labelPosition": [
@@ -551,7 +551,8 @@
         -160.8
       ],
       "loadDistance": 240,
-      "overviewMode": "full"
+      "overviewMode": "full",
+      "source": "Photo refinement 2026-11-14: H footprint, west recess, raised centre, white roof, complete facades, three tiled porticos; user brick color #D46B57; dimensions inferred"
     },
     {
       "id": "56",

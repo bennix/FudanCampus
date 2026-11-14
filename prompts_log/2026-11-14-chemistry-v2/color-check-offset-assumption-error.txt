@@ -1,0 +1,5 @@
+Traceback (most recent call last):
+  File "E:\csd4.1\VR\FudanCampus\field-review\chemistry-2026-11-14-v2\verify_color.py", line 15, in <module>
+    assert v==w
+           ^^^^
+AssertionError

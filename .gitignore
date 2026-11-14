@@ -24,3 +24,8 @@ web/*.tsbuildinfo
 # Teaching4 review caches; retain actual sources, renders and history.
 field-review/teaching4-*/source/__pycache__/
 field-review/teaching4-*/*.blend1
+
+# Chemistry review caches; retain actual sources, renders and backups.
+field-review/chemistry-*/__pycache__/
+field-review/chemistry-*/source/__pycache__/
+field-review/chemistry-*/*.blend1

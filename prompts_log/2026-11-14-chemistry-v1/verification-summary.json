@@ -1,0 +1,31 @@
+{
+  "date": "2026-11-14",
+  "building": "55",
+  "revision": "aea012ab4e0d",
+  "mesh_objects": 31,
+  "triangles": 52428,
+  "glb_bytes": 2527912,
+  "visible_windows": 233,
+  "windowed_wall_segments": 16,
+  "porticos": [
+    "front",
+    "rear",
+    "east"
+  ],
+  "blender": "4.4.3",
+  "checks": {
+    "blender_spatial_and_glb_roundtrip": "passed",
+    "other_manifest_entries_and_199_lod_assets_unchanged": "passed",
+    "collision_outside_chemistry_unchanged": "passed",
+    "protected_sources": "passed",
+    "lod_and_walk_tests": "21/21 passed",
+    "full_build_pages": "passed; existing >500kB JavaScript chunk warning",
+    "http_lod_hashes": "3/3 passed"
+  },
+  "acceptance": "awaiting user visual review",
+  "not_measured": [
+    "real dimensions",
+    "headset/FPS",
+    "browser GPU render"
+  ]
+}

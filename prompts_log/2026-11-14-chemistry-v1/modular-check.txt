@@ -1,0 +1,2 @@
+PASS: 13 building modules, shared membership, GLB structure, hashes and protected sources
+Initial model bytes: 370065940

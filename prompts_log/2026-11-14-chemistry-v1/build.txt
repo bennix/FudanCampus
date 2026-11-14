@@ -1,0 +1,475 @@
+PASS chemistry: west recess, raised centre, white roofs, courtyard surfaces, 3 porticos, 233 visible window faces on all 16 wall segments
+INFO Draco mesh compression is available, use library at D:\BlenderCLI\blender-4.4.3-windows-x64\4.4\scripts\addons_core\io_scene_gltf2\extern_draco.dll
+21:36:24 | INFO: Starting glTF 2.0 export
+21:36:24 | INFO: Extracting primitive: front chemistry sign
+21:36:24 | INFO: Primitives created: 1
+21:36:24 | INFO: Extracting primitive: rear chemistry sign
+21:36:24 | INFO: Primitives created: 1
+21:36:24 | INFO: Extracting primitive: east chemistry sign
+21:36:24 | INFO: Primitives created: 1
+21:36:24 | INFO: Extracting primitive: 化学楼 · Chemistry white roof
+21:36:24 | INFO: Primitives created: 1
+21:36:24 | INFO: Extracting primitive: 化学楼 · Chemistry deep red brick walls and raised centre
+21:36:24 | INFO: Primitives created: 1
+21:36:24 | INFO: Extracting primitive: 化学楼 · wall 00 window glass
+21:36:24 | INFO: Primitives created: 1
+21:36:24 | INFO: Extracting primitive: 化学楼 · Chemistry dark bronze frames
+21:36:24 | INFO: Primitives created: 1
+21:36:24 | INFO: Extracting primitive: 化学楼 · Chemistry white spandrel panels
+21:36:24 | INFO: Primitives created: 1
+21:36:24 | INFO: Extracting primitive: 化学楼 · wall 01 window glass
+21:36:24 | INFO: Primitives created: 1
+21:36:24 | INFO: Extracting primitive: 化学楼 · wall 02 window glass
+21:36:24 | INFO: Primitives created: 1
+21:36:24 | INFO: Extracting primitive: 化学楼 · wall 03 window glass
+21:36:24 | INFO: Primitives created: 1
+21:36:24 | INFO: Extracting primitive: 化学楼 · wall 04 window glass
+21:36:24 | INFO: Primitives created: 1
+21:36:24 | INFO: Extracting primitive: 化学楼 · wall 05 window glass
+21:36:24 | INFO: Primitives created: 1
+21:36:24 | INFO: Extracting primitive: 化学楼 · wall 06 window glass
+21:36:24 | INFO: Primitives created: 1
+21:36:24 | INFO: Extracting primitive: 化学楼 · wall 07 window glass
+21:36:24 | INFO: Primitives created: 1
+21:36:24 | INFO: Extracting primitive: 化学楼 · wall 08 window glass
+21:36:24 | INFO: Primitives created: 1
+21:36:24 | INFO: Extracting primitive: 化学楼 · wall 09 window glass
+21:36:24 | INFO: Primitives created: 1
+21:36:24 | INFO: Extracting primitive: 化学楼 · wall 10 window glass
+21:36:24 | INFO: Primitives created: 1
+21:36:24 | INFO: Extracting primitive: 化学楼 · wall 11 window glass
+21:36:24 | INFO: Primitives created: 1
+21:36:24 | INFO: Extracting primitive: 化学楼 · wall 12 window glass
+21:36:24 | INFO: Primitives created: 1
+21:36:24 | INFO: Extracting primitive: 化学楼 · wall 13 window glass
+21:36:24 | INFO: Primitives created: 1
+21:36:24 | INFO: Extracting primitive: 化学楼 · wall 14 window glass
+21:36:24 | INFO: Primitives created: 1
+21:36:24 | INFO: Extracting primitive: 化学楼 · wall 15 window glass
+21:36:24 | INFO: Primitives created: 1
+21:36:24 | INFO: Extracting primitive: 化学楼 · Chemistry entrance granite
+21:36:24 | INFO: Primitives created: 1
+21:36:24 | INFO: Extracting primitive: 化学楼 · front portico roof
+21:36:24 | INFO: Primitives created: 1
+21:36:24 | INFO: Extracting primitive: 化学楼 · Chemistry pale ceramic tile
+21:36:24 | INFO: Primitives created: 1
+21:36:24 | INFO: Extracting primitive: 化学楼 · Chemistry tile joints
+21:36:24 | INFO: Primitives created: 1
+21:36:24 | INFO: Extracting primitive: 化学楼 · Chemistry glazing
+21:36:24 | INFO: Primitives created: 1
+21:36:24 | INFO: Extracting primitive: 化学楼 · Chemistry signage
+21:36:24 | INFO: Primitives created: 1
+21:36:24 | INFO: Extracting primitive: 化学楼 · rear portico roof
+21:36:24 | INFO: Primitives created: 1
+21:36:24 | INFO: Extracting primitive: 化学楼 · east portico roof
+21:36:24 | INFO: Primitives created: 1
+21:36:24 | INFO: Finished glTF 2.0 export in 0.07520914077758789 s
+Blender 4.4.3 (hash 802179c51ccc built 2025-04-29 15:39:58)
+Fra:1 Mem:54.39M (Peak 54.39M) | Time:00:00.01 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | front 化学楼门头
+Fra:1 Mem:54.39M (Peak 54.39M) | Time:00:00.01 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | 化学楼 · wall 05 window glass
+Fra:1 Mem:54.39M (Peak 54.39M) | Time:00:00.01 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | 化学楼 · wall 02 window glass
+Fra:1 Mem:54.39M (Peak 54.39M) | Time:00:00.01 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | 化学楼 · east portico roof
+Fra:1 Mem:57.13M (Peak 57.13M) | Time:00:00.01 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | 化学楼 · wall 08 window glass
+Fra:1 Mem:57.15M (Peak 57.15M) | Time:00:00.01 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | 化学楼 · wall 09 window glass
+Fra:1 Mem:57.16M (Peak 57.16M) | Time:00:00.01 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | 化学楼 · wall 10 window glass
+Fra:1 Mem:57.16M (Peak 57.16M) | Time:00:00.01 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | 化学楼 · wall 14 window glass
+Fra:1 Mem:57.21M (Peak 57.21M) | Time:00:00.01 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | 化学楼 · Chemistry entrance granite
+Fra:1 Mem:57.12M (Peak 57.21M) | Time:00:00.01 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | 化学楼 · front portico roof
+Fra:1 Mem:57.12M (Peak 57.21M) | Time:00:00.01 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | 化学楼 · Chemistry pale ceramic tile
+Fra:1 Mem:57.13M (Peak 57.21M) | Time:00:00.01 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | 化学楼 · Chemistry tile joints
+Fra:1 Mem:57.26M (Peak 57.26M) | Time:00:00.01 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | 化学楼 · Chemistry glazing
+Fra:1 Mem:57.32M (Peak 57.32M) | Time:00:00.01 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | 化学楼 · Chemistry signage
+Fra:1 Mem:57.60M (Peak 57.60M) | Time:00:00.01 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Initializing
+Fra:1 Mem:57.47M (Peak 57.60M) | Time:00:00.01 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Updating Images | Loading Chemistry brick courses
+Fra:1 Mem:56.25M (Peak 57.60M) | Time:00:00.01 | Mem:0.12M, Peak:0.12M | Scene, ViewLayer | Waiting for render to start
+Fra:1 Mem:56.25M (Peak 57.60M) | Time:00:00.01 | Mem:0.12M, Peak:0.12M | Scene, ViewLayer | Loading render kernels (may take a few minutes the first time)
+Fra:1 Mem:56.25M (Peak 57.60M) | Time:00:00.01 | Mem:0.12M, Peak:0.12M | Scene, ViewLayer | Updating Scene
+Fra:1 Mem:56.25M (Peak 57.60M) | Time:00:00.01 | Mem:0.12M, Peak:0.12M | Scene, ViewLayer | Updating Shaders
+Fra:1 Mem:56.34M (Peak 57.60M) | Time:00:00.01 | Mem:0.13M, Peak:0.13M | Scene, ViewLayer | Updating Procedurals
+Fra:1 Mem:56.34M (Peak 57.60M) | Time:00:00.01 | Mem:0.13M, Peak:0.13M | Scene, ViewLayer | Updating Background
+Fra:1 Mem:56.34M (Peak 57.60M) | Time:00:00.01 | Mem:0.13M, Peak:0.13M | Scene, ViewLayer | Updating Camera
+Fra:1 Mem:56.34M (Peak 57.60M) | Time:00:00.01 | Mem:0.13M, Peak:0.13M | Scene, ViewLayer | Updating Meshes Flags
+Fra:1 Mem:56.34M (Peak 57.60M) | Time:00:00.01 | Mem:0.13M, Peak:0.13M | Scene, ViewLayer | Updating Objects
+Fra:1 Mem:56.34M (Peak 57.60M) | Time:00:00.01 | Mem:0.13M, Peak:0.13M | Scene, ViewLayer | Updating Objects | Copying Transformations to device
+Fra:1 Mem:56.35M (Peak 57.60M) | Time:00:00.01 | Mem:0.14M, Peak:0.14M | Scene, ViewLayer | Updating Objects | Applying Static Transformations
+Fra:1 Mem:56.35M (Peak 57.60M) | Time:00:00.01 | Mem:0.14M, Peak:0.14M | Scene, ViewLayer | Updating Particle Systems
+Fra:1 Mem:56.35M (Peak 57.60M) | Time:00:00.01 | Mem:0.14M, Peak:0.14M | Scene, ViewLayer | Updating Particle Systems | Copying Particles to device
+Fra:1 Mem:56.35M (Peak 57.60M) | Time:00:00.01 | Mem:0.14M, Peak:0.14M | Scene, ViewLayer | Updating Meshes
+Fra:1 Mem:57.15M (Peak 57.60M) | Time:00:00.01 | Mem:0.14M, Peak:0.14M | Scene, ViewLayer | Updating Mesh | Computing attributes
+Fra:1 Mem:57.63M (Peak 57.63M) | Time:00:00.01 | Mem:0.14M, Peak:0.14M | Scene, ViewLayer | Updating Mesh | Copying Attributes to device
+Fra:1 Mem:57.63M (Peak 57.63M) | Time:00:00.01 | Mem:0.62M, Peak:0.62M | Scene, ViewLayer | Updating Scene BVH | Building
+Fra:1 Mem:57.63M (Peak 57.63M) | Time:00:00.01 | Mem:0.62M, Peak:0.62M | Scene, ViewLayer | Updating Scene BVH | Building BVH
+Fra:1 Mem:57.63M (Peak 57.63M) | Time:00:00.02 | Mem:2.22M, Peak:2.22M | Scene, ViewLayer | Updating Scene BVH | Building BVH 0%
+Fra:1 Mem:57.63M (Peak 57.63M) | Time:00:00.02 | Mem:3.97M, Peak:5.57M | Scene, ViewLayer | Updating Scene BVH | Copying BVH to device
+Fra:1 Mem:57.63M (Peak 57.63M) | Time:00:00.02 | Mem:3.97M, Peak:5.57M | Scene, ViewLayer | Updating Mesh | Computing normals
+Fra:1 Mem:59.89M (Peak 59.89M) | Time:00:00.02 | Mem:3.97M, Peak:5.57M | Scene, ViewLayer | Updating Mesh | Copying Mesh to device
+Fra:1 Mem:59.89M (Peak 59.89M) | Time:00:00.02 | Mem:6.23M, Peak:6.23M | Scene, ViewLayer | Updating Objects Flags
+Fra:1 Mem:59.89M (Peak 59.89M) | Time:00:00.02 | Mem:6.23M, Peak:6.23M | Scene, ViewLayer | Updating Primitive Offsets
+Fra:1 Mem:59.89M (Peak 59.89M) | Time:00:00.02 | Mem:6.23M, Peak:6.23M | Scene, ViewLayer | Updating Images
+Fra:1 Mem:59.89M (Peak 59.89M) | Time:00:00.02 | Mem:6.23M, Peak:6.23M | Scene, ViewLayer | Updating Camera Volume
+Fra:1 Mem:59.89M (Peak 59.89M) | Time:00:00.02 | Mem:6.23M, Peak:6.23M | Scene, ViewLayer | Updating Lookup Tables
+Fra:1 Mem:59.89M (Peak 59.89M) | Time:00:00.02 | Mem:6.31M, Peak:6.31M | Scene, ViewLayer | Updating Lights
+Fra:1 Mem:59.89M (Peak 59.89M) | Time:00:00.02 | Mem:6.31M, Peak:6.31M | Scene, ViewLayer | Updating Lights | Computing tree
+Fra:1 Mem:59.89M (Peak 59.89M) | Time:00:00.02 | Mem:6.31M, Peak:6.31M | Scene, ViewLayer | Updating Integrator
+Fra:1 Mem:59.89M (Peak 59.89M) | Time:00:00.02 | Mem:6.31M, Peak:6.31M | Scene, ViewLayer | Updating Film
+Fra:1 Mem:59.89M (Peak 59.89M) | Time:00:00.02 | Mem:6.23M, Peak:6.31M | Scene, ViewLayer | Updating Lookup Tables
+Fra:1 Mem:59.89M (Peak 59.89M) | Time:00:00.02 | Mem:6.31M, Peak:6.31M | Scene, ViewLayer | Updating Baking
+Fra:1 Mem:59.89M (Peak 59.89M) | Time:00:00.02 | Mem:6.31M, Peak:6.31M | Scene, ViewLayer | Updating Device | Writing constant memory
+Fra:1 Mem:59.89M (Peak 59.89M) | Time:00:00.02 | Mem:6.31M, Peak:6.31M | Scene, ViewLayer | Loading denoising kernels (may take a few minutes the first time)
+Fra:1 Mem:59.89M (Peak 59.89M) | Time:00:00.02 | Mem:6.31M, Peak:6.31M | Scene, ViewLayer | Sample 0/16
+Fra:1 Mem:129.67M (Peak 129.67M) | Time:00:00.11 | Remaining:00:01.37 | Mem:75.91M, Peak:75.91M | Scene, ViewLayer | Sample 1/16
+Fra:1 Mem:158.96M (Peak 202.91M) | Time:00:05.15 | Mem:75.91M, Peak:75.91M | Scene, ViewLayer | Sample 16/16
+Fra:1 Mem:158.96M (Peak 202.91M) | Time:00:05.15 | Mem:75.91M, Peak:75.91M | Scene, ViewLayer | Finished
+Saved: 'E:\csd4.1\VR\FudanCampus\field-review\chemistry-2026-11-14-v1\renders\after-front.png'
+Time: 00:05.30 (Saving: 00:00.14)
+
+Fra:1 Mem:54.85M (Peak 54.85M) | Time:00:00.00 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | front 化学楼门头
+Fra:1 Mem:54.85M (Peak 54.85M) | Time:00:00.00 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | 化学楼 · Chemistry white spandrel panels
+Fra:1 Mem:55.05M (Peak 55.05M) | Time:00:00.00 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | 化学楼 · wall 07 window glass
+Fra:1 Mem:55.47M (Peak 55.47M) | Time:00:00.00 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | 化学楼 · east portico roof
+Fra:1 Mem:55.88M (Peak 55.88M) | Time:00:00.00 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | 化学楼 · rear portico roof
+Fra:1 Mem:55.88M (Peak 55.88M) | Time:00:00.00 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | 化学楼 · Chemistry signage
+Fra:1 Mem:55.88M (Peak 55.88M) | Time:00:00.00 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | 化学楼 · wall 08 window glass
+Fra:1 Mem:55.88M (Peak 55.88M) | Time:00:00.00 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | 化学楼 · Chemistry glazing
+Fra:1 Mem:56.51M (Peak 56.51M) | Time:00:00.00 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | 化学楼 · wall 09 window glass
+Fra:1 Mem:56.41M (Peak 56.51M) | Time:00:00.00 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | 化学楼 · wall 11 window glass
+Fra:1 Mem:56.71M (Peak 56.71M) | Time:00:00.00 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | 化学楼 · wall 12 window glass
+Fra:1 Mem:57.01M (Peak 57.01M) | Time:00:00.00 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | 化学楼 · wall 13 window glass
+Fra:1 Mem:57.02M (Peak 57.02M) | Time:00:00.00 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | 化学楼 · wall 14 window glass
+Fra:1 Mem:57.06M (Peak 57.06M) | Time:00:00.00 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | 化学楼 · Chemistry entrance granite
+Fra:1 Mem:57.27M (Peak 57.27M) | Time:00:00.00 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | 化学楼 · Chemistry tile joints
+Fra:1 Mem:57.60M (Peak 57.60M) | Time:00:00.00 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Initializing
+Fra:1 Mem:57.47M (Peak 57.60M) | Time:00:00.00 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Updating Images | Loading Chemistry brick courses
+Fra:1 Mem:56.25M (Peak 57.60M) | Time:00:00.00 | Mem:0.12M, Peak:0.12M | Scene, ViewLayer | Waiting for render to start
+Fra:1 Mem:56.25M (Peak 57.60M) | Time:00:00.00 | Mem:0.12M, Peak:0.12M | Scene, ViewLayer | Loading render kernels (may take a few minutes the first time)
+Fra:1 Mem:56.25M (Peak 57.60M) | Time:00:00.00 | Mem:0.12M, Peak:0.12M | Scene, ViewLayer | Updating Scene
+Fra:1 Mem:56.25M (Peak 57.60M) | Time:00:00.00 | Mem:0.12M, Peak:0.12M | Scene, ViewLayer | Updating Shaders
+Fra:1 Mem:56.34M (Peak 57.60M) | Time:00:00.00 | Mem:0.13M, Peak:0.13M | Scene, ViewLayer | Updating Procedurals
+Fra:1 Mem:56.34M (Peak 57.60M) | Time:00:00.00 | Mem:0.13M, Peak:0.13M | Scene, ViewLayer | Updating Background
+Fra:1 Mem:56.34M (Peak 57.60M) | Time:00:00.00 | Mem:0.13M, Peak:0.13M | Scene, ViewLayer | Updating Camera
+Fra:1 Mem:56.34M (Peak 57.60M) | Time:00:00.00 | Mem:0.13M, Peak:0.13M | Scene, ViewLayer | Updating Meshes Flags
+Fra:1 Mem:56.34M (Peak 57.60M) | Time:00:00.00 | Mem:0.13M, Peak:0.13M | Scene, ViewLayer | Updating Objects
+Fra:1 Mem:56.34M (Peak 57.60M) | Time:00:00.00 | Mem:0.13M, Peak:0.13M | Scene, ViewLayer | Updating Objects | Copying Transformations to device
+Fra:1 Mem:56.35M (Peak 57.60M) | Time:00:00.00 | Mem:0.14M, Peak:0.14M | Scene, ViewLayer | Updating Objects | Applying Static Transformations
+Fra:1 Mem:56.35M (Peak 57.60M) | Time:00:00.00 | Mem:0.14M, Peak:0.14M | Scene, ViewLayer | Updating Particle Systems
+Fra:1 Mem:56.35M (Peak 57.60M) | Time:00:00.00 | Mem:0.14M, Peak:0.14M | Scene, ViewLayer | Updating Particle Systems | Copying Particles to device
+Fra:1 Mem:56.35M (Peak 57.60M) | Time:00:00.00 | Mem:0.14M, Peak:0.14M | Scene, ViewLayer | Updating Meshes
+Fra:1 Mem:57.15M (Peak 57.60M) | Time:00:00.00 | Mem:0.14M, Peak:0.14M | Scene, ViewLayer | Updating Mesh | Computing attributes
+Fra:1 Mem:57.63M (Peak 57.63M) | Time:00:00.00 | Mem:0.14M, Peak:0.14M | Scene, ViewLayer | Updating Mesh | Copying Attributes to device
+Fra:1 Mem:57.63M (Peak 57.63M) | Time:00:00.00 | Mem:0.62M, Peak:0.62M | Scene, ViewLayer | Updating Scene BVH | Building
+Fra:1 Mem:57.63M (Peak 57.63M) | Time:00:00.00 | Mem:0.62M, Peak:0.62M | Scene, ViewLayer | Updating Scene BVH | Building BVH
+Fra:1 Mem:57.63M (Peak 57.63M) | Time:00:00.00 | Mem:2.22M, Peak:2.22M | Scene, ViewLayer | Updating Scene BVH | Building BVH 0%
+Fra:1 Mem:57.63M (Peak 57.63M) | Time:00:00.00 | Mem:3.97M, Peak:5.57M | Scene, ViewLayer | Updating Scene BVH | Copying BVH to device
+Fra:1 Mem:57.63M (Peak 57.63M) | Time:00:00.00 | Mem:3.97M, Peak:5.57M | Scene, ViewLayer | Updating Mesh | Computing normals
+Fra:1 Mem:59.89M (Peak 59.89M) | Time:00:00.00 | Mem:3.97M, Peak:5.57M | Scene, ViewLayer | Updating Mesh | Copying Mesh to device
+Fra:1 Mem:59.89M (Peak 59.89M) | Time:00:00.00 | Mem:6.23M, Peak:6.23M | Scene, ViewLayer | Updating Objects Flags
+Fra:1 Mem:59.89M (Peak 59.89M) | Time:00:00.00 | Mem:6.23M, Peak:6.23M | Scene, ViewLayer | Updating Primitive Offsets
+Fra:1 Mem:59.89M (Peak 59.89M) | Time:00:00.00 | Mem:6.23M, Peak:6.23M | Scene, ViewLayer | Updating Images
+Fra:1 Mem:59.89M (Peak 59.89M) | Time:00:00.00 | Mem:6.23M, Peak:6.23M | Scene, ViewLayer | Updating Camera Volume
+Fra:1 Mem:59.89M (Peak 59.89M) | Time:00:00.00 | Mem:6.23M, Peak:6.23M | Scene, ViewLayer | Updating Lookup Tables
+Fra:1 Mem:59.89M (Peak 59.89M) | Time:00:00.00 | Mem:6.31M, Peak:6.31M | Scene, ViewLayer | Updating Lights
+Fra:1 Mem:59.89M (Peak 59.89M) | Time:00:00.00 | Mem:6.31M, Peak:6.31M | Scene, ViewLayer | Updating Lights | Computing tree
+Fra:1 Mem:59.89M (Peak 59.89M) | Time:00:00.00 | Mem:6.31M, Peak:6.31M | Scene, ViewLayer | Updating Integrator
+Fra:1 Mem:59.89M (Peak 59.89M) | Time:00:00.00 | Mem:6.31M, Peak:6.31M | Scene, ViewLayer | Updating Film
+Fra:1 Mem:59.89M (Peak 59.89M) | Time:00:00.00 | Mem:6.23M, Peak:6.31M | Scene, ViewLayer | Updating Lookup Tables
+Fra:1 Mem:59.89M (Peak 59.89M) | Time:00:00.00 | Mem:6.31M, Peak:6.31M | Scene, ViewLayer | Updating Baking
+Fra:1 Mem:59.89M (Peak 59.89M) | Time:00:00.00 | Mem:6.31M, Peak:6.31M | Scene, ViewLayer | Updating Device | Writing constant memory
+Fra:1 Mem:59.89M (Peak 59.89M) | Time:00:00.00 | Mem:6.31M, Peak:6.31M | Scene, ViewLayer | Loading denoising kernels (may take a few minutes the first time)
+Fra:1 Mem:59.89M (Peak 59.89M) | Time:00:00.00 | Mem:6.31M, Peak:6.31M | Scene, ViewLayer | Sample 0/16
+Fra:1 Mem:129.67M (Peak 129.67M) | Time:00:00.07 | Remaining:00:01.00 | Mem:75.91M, Peak:75.91M | Scene, ViewLayer | Sample 1/16
+Fra:1 Mem:158.96M (Peak 202.91M) | Time:00:03.66 | Mem:75.91M, Peak:75.91M | Scene, ViewLayer | Sample 16/16
+Fra:1 Mem:158.96M (Peak 202.91M) | Time:00:03.66 | Mem:75.91M, Peak:75.91M | Scene, ViewLayer | Finished
+Saved: 'E:\csd4.1\VR\FudanCampus\field-review\chemistry-2026-11-14-v1\renders\after-rear.png'
+Time: 00:03.75 (Saving: 00:00.07)
+
+Fra:1 Mem:54.85M (Peak 54.85M) | Time:00:00.00 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | front 化学楼门头
+Fra:1 Mem:54.85M (Peak 54.85M) | Time:00:00.00 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | 化学楼 · Chemistry deep red brick walls and raised centre
+Fra:1 Mem:54.85M (Peak 54.85M) | Time:00:00.00 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | 化学楼 · wall 02 window glass
+Fra:1 Mem:55.06M (Peak 55.06M) | Time:00:00.00 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | 化学楼 · wall 04 window glass
+Fra:1 Mem:55.19M (Peak 55.19M) | Time:00:00.00 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | 化学楼 · wall 09 window glass
+Fra:1 Mem:55.20M (Peak 55.20M) | Time:00:00.00 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | 化学楼 · wall 10 window glass
+Fra:1 Mem:55.30M (Peak 55.30M) | Time:00:00.00 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | 化学楼 · wall 11 window glass
+Fra:1 Mem:55.51M (Peak 55.51M) | Time:00:00.00 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | 化学楼 · wall 12 window glass
+Fra:1 Mem:55.51M (Peak 55.51M) | Time:00:00.00 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | 化学楼 · east portico roof
+Fra:1 Mem:55.73M (Peak 55.73M) | Time:00:00.00 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | 化学楼 · wall 14 window glass
+Fra:1 Mem:55.96M (Peak 55.96M) | Time:00:00.00 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | 化学楼 · wall 15 window glass
+Fra:1 Mem:56.06M (Peak 56.06M) | Time:00:00.00 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | 化学楼 · Chemistry entrance granite
+Fra:1 Mem:56.02M (Peak 56.06M) | Time:00:00.00 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | 化学楼 · front portico roof
+Fra:1 Mem:55.97M (Peak 56.06M) | Time:00:00.00 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | 化学楼 · Chemistry glazing
+Fra:1 Mem:55.98M (Peak 56.06M) | Time:00:00.00 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | 化学楼 · Chemistry signage
+Fra:1 Mem:56.51M (Peak 56.51M) | Time:00:00.00 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | 化学楼 · rear portico roof
+Fra:1 Mem:57.60M (Peak 57.60M) | Time:00:00.00 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Initializing
+Fra:1 Mem:57.47M (Peak 57.60M) | Time:00:00.00 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Updating Images | Loading Chemistry brick courses
+Fra:1 Mem:56.25M (Peak 57.60M) | Time:00:00.00 | Mem:0.12M, Peak:0.12M | Scene, ViewLayer | Waiting for render to start
+Fra:1 Mem:56.25M (Peak 57.60M) | Time:00:00.00 | Mem:0.12M, Peak:0.12M | Scene, ViewLayer | Loading render kernels (may take a few minutes the first time)
+Fra:1 Mem:56.25M (Peak 57.60M) | Time:00:00.00 | Mem:0.12M, Peak:0.12M | Scene, ViewLayer | Updating Scene
+Fra:1 Mem:56.25M (Peak 57.60M) | Time:00:00.00 | Mem:0.12M, Peak:0.12M | Scene, ViewLayer | Updating Shaders
+Fra:1 Mem:56.34M (Peak 57.60M) | Time:00:00.00 | Mem:0.13M, Peak:0.13M | Scene, ViewLayer | Updating Procedurals
+Fra:1 Mem:56.34M (Peak 57.60M) | Time:00:00.00 | Mem:0.13M, Peak:0.13M | Scene, ViewLayer | Updating Background
+Fra:1 Mem:56.34M (Peak 57.60M) | Time:00:00.00 | Mem:0.13M, Peak:0.13M | Scene, ViewLayer | Updating Camera
+Fra:1 Mem:56.34M (Peak 57.60M) | Time:00:00.00 | Mem:0.13M, Peak:0.13M | Scene, ViewLayer | Updating Meshes Flags
+Fra:1 Mem:56.34M (Peak 57.60M) | Time:00:00.00 | Mem:0.13M, Peak:0.13M | Scene, ViewLayer | Updating Objects
+Fra:1 Mem:56.34M (Peak 57.60M) | Time:00:00.00 | Mem:0.13M, Peak:0.13M | Scene, ViewLayer | Updating Objects | Copying Transformations to device
+Fra:1 Mem:56.35M (Peak 57.60M) | Time:00:00.00 | Mem:0.14M, Peak:0.14M | Scene, ViewLayer | Updating Objects | Applying Static Transformations
+Fra:1 Mem:56.35M (Peak 57.60M) | Time:00:00.00 | Mem:0.14M, Peak:0.14M | Scene, ViewLayer | Updating Particle Systems
+Fra:1 Mem:56.35M (Peak 57.60M) | Time:00:00.00 | Mem:0.14M, Peak:0.14M | Scene, ViewLayer | Updating Particle Systems | Copying Particles to device
+Fra:1 Mem:56.35M (Peak 57.60M) | Time:00:00.00 | Mem:0.14M, Peak:0.14M | Scene, ViewLayer | Updating Meshes
+Fra:1 Mem:57.15M (Peak 57.60M) | Time:00:00.00 | Mem:0.14M, Peak:0.14M | Scene, ViewLayer | Updating Mesh | Computing attributes
+Fra:1 Mem:57.63M (Peak 57.63M) | Time:00:00.00 | Mem:0.14M, Peak:0.14M | Scene, ViewLayer | Updating Mesh | Copying Attributes to device
+Fra:1 Mem:57.63M (Peak 57.63M) | Time:00:00.00 | Mem:0.62M, Peak:0.62M | Scene, ViewLayer | Updating Scene BVH | Building
+Fra:1 Mem:57.63M (Peak 57.63M) | Time:00:00.00 | Mem:0.62M, Peak:0.62M | Scene, ViewLayer | Updating Scene BVH | Building BVH
+Fra:1 Mem:57.63M (Peak 57.63M) | Time:00:00.00 | Mem:2.22M, Peak:2.22M | Scene, ViewLayer | Updating Scene BVH | Building BVH 0%
+Fra:1 Mem:57.63M (Peak 57.63M) | Time:00:00.00 | Mem:3.97M, Peak:5.57M | Scene, ViewLayer | Updating Scene BVH | Copying BVH to device
+Fra:1 Mem:57.63M (Peak 57.63M) | Time:00:00.00 | Mem:3.97M, Peak:5.57M | Scene, ViewLayer | Updating Mesh | Computing normals
+Fra:1 Mem:59.89M (Peak 59.89M) | Time:00:00.00 | Mem:3.97M, Peak:5.57M | Scene, ViewLayer | Updating Mesh | Copying Mesh to device
+Fra:1 Mem:59.89M (Peak 59.89M) | Time:00:00.00 | Mem:6.23M, Peak:6.23M | Scene, ViewLayer | Updating Objects Flags
+Fra:1 Mem:59.89M (Peak 59.89M) | Time:00:00.00 | Mem:6.23M, Peak:6.23M | Scene, ViewLayer | Updating Primitive Offsets
+Fra:1 Mem:59.89M (Peak 59.89M) | Time:00:00.00 | Mem:6.23M, Peak:6.23M | Scene, ViewLayer | Updating Images
+Fra:1 Mem:59.89M (Peak 59.89M) | Time:00:00.00 | Mem:6.23M, Peak:6.23M | Scene, ViewLayer | Updating Camera Volume
+Fra:1 Mem:59.89M (Peak 59.89M) | Time:00:00.00 | Mem:6.23M, Peak:6.23M | Scene, ViewLayer | Updating Lookup Tables
+Fra:1 Mem:59.89M (Peak 59.89M) | Time:00:00.00 | Mem:6.31M, Peak:6.31M | Scene, ViewLayer | Updating Lights
+Fra:1 Mem:59.89M (Peak 59.89M) | Time:00:00.00 | Mem:6.31M, Peak:6.31M | Scene, ViewLayer | Updating Lights | Computing tree
+Fra:1 Mem:59.89M (Peak 59.89M) | Time:00:00.00 | Mem:6.31M, Peak:6.31M | Scene, ViewLayer | Updating Integrator
+Fra:1 Mem:59.89M (Peak 59.89M) | Time:00:00.00 | Mem:6.31M, Peak:6.31M | Scene, ViewLayer | Updating Film
+Fra:1 Mem:59.89M (Peak 59.89M) | Time:00:00.00 | Mem:6.23M, Peak:6.31M | Scene, ViewLayer | Updating Lookup Tables
+Fra:1 Mem:59.89M (Peak 59.89M) | Time:00:00.00 | Mem:6.31M, Peak:6.31M | Scene, ViewLayer | Updating Baking
+Fra:1 Mem:59.89M (Peak 59.89M) | Time:00:00.00 | Mem:6.31M, Peak:6.31M | Scene, ViewLayer | Updating Device | Writing constant memory
+Fra:1 Mem:59.89M (Peak 59.89M) | Time:00:00.00 | Mem:6.31M, Peak:6.31M | Scene, ViewLayer | Loading denoising kernels (may take a few minutes the first time)
+Fra:1 Mem:59.89M (Peak 59.89M) | Time:00:00.00 | Mem:6.31M, Peak:6.31M | Scene, ViewLayer | Sample 0/16
+Fra:1 Mem:129.67M (Peak 129.67M) | Time:00:00.15 | Remaining:00:02.20 | Mem:75.91M, Peak:75.91M | Scene, ViewLayer | Sample 1/16
+Fra:1 Mem:158.96M (Peak 202.91M) | Time:00:05.05 | Mem:75.91M, Peak:75.91M | Scene, ViewLayer | Sample 16/16
+Fra:1 Mem:158.96M (Peak 202.91M) | Time:00:05.05 | Mem:75.91M, Peak:75.91M | Scene, ViewLayer | Finished
+Saved: 'E:\csd4.1\VR\FudanCampus\field-review\chemistry-2026-11-14-v1\renders\after-east.png'
+Time: 00:05.13 (Saving: 00:00.07)
+
+Fra:1 Mem:54.85M (Peak 54.85M) | Time:00:00.00 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | front 化学楼门头
+Fra:1 Mem:54.85M (Peak 54.85M) | Time:00:00.00 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | 化学楼 · Chemistry deep red brick walls and raised centre
+Fra:1 Mem:54.85M (Peak 54.85M) | Time:00:00.00 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | 化学楼 · Chemistry white spandrel panels
+Fra:1 Mem:55.06M (Peak 55.06M) | Time:00:00.00 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | 化学楼 · wall 05 window glass
+Fra:1 Mem:55.35M (Peak 55.35M) | Time:00:00.00 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | 化学楼 · wall 08 window glass
+Fra:1 Mem:55.42M (Peak 55.42M) | Time:00:00.00 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | 化学楼 · wall 09 window glass
+Fra:1 Mem:55.61M (Peak 55.61M) | Time:00:00.00 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | 化学楼 · east portico roof
+Fra:1 Mem:55.91M (Peak 55.91M) | Time:00:00.00 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | 化学楼 · rear portico roof
+Fra:1 Mem:55.91M (Peak 55.91M) | Time:00:00.00 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | 化学楼 · wall 10 window glass
+Fra:1 Mem:55.91M (Peak 55.91M) | Time:00:00.00 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | 化学楼 · Chemistry signage
+Fra:1 Mem:55.91M (Peak 56.01M) | Time:00:00.00 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | 化学楼 · wall 11 window glass
+Fra:1 Mem:56.22M (Peak 56.22M) | Time:00:00.00 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | 化学楼 · wall 13 window glass
+Fra:1 Mem:56.23M (Peak 56.23M) | Time:00:00.00 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | 化学楼 · wall 14 window glass
+Fra:1 Mem:56.32M (Peak 56.32M) | Time:00:00.00 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | 化学楼 · front portico roof
+Fra:1 Mem:56.33M (Peak 56.33M) | Time:00:00.00 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | 化学楼 · Chemistry pale ceramic tile
+Fra:1 Mem:56.34M (Peak 56.34M) | Time:00:00.00 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | 化学楼 · Chemistry glazing
+Fra:1 Mem:57.60M (Peak 57.80M) | Time:00:00.00 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Initializing
+Fra:1 Mem:57.47M (Peak 57.80M) | Time:00:00.00 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Updating Images | Loading Chemistry brick courses
+Fra:1 Mem:56.25M (Peak 57.80M) | Time:00:00.00 | Mem:0.12M, Peak:0.12M | Scene, ViewLayer | Waiting for render to start
+Fra:1 Mem:56.25M (Peak 57.80M) | Time:00:00.00 | Mem:0.12M, Peak:0.12M | Scene, ViewLayer | Loading render kernels (may take a few minutes the first time)
+Fra:1 Mem:56.25M (Peak 57.80M) | Time:00:00.00 | Mem:0.12M, Peak:0.12M | Scene, ViewLayer | Updating Scene
+Fra:1 Mem:56.25M (Peak 57.80M) | Time:00:00.00 | Mem:0.12M, Peak:0.12M | Scene, ViewLayer | Updating Shaders
+Fra:1 Mem:56.34M (Peak 57.80M) | Time:00:00.00 | Mem:0.13M, Peak:0.13M | Scene, ViewLayer | Updating Procedurals
+Fra:1 Mem:56.34M (Peak 57.80M) | Time:00:00.00 | Mem:0.13M, Peak:0.13M | Scene, ViewLayer | Updating Background
+Fra:1 Mem:56.34M (Peak 57.80M) | Time:00:00.00 | Mem:0.13M, Peak:0.13M | Scene, ViewLayer | Updating Camera
+Fra:1 Mem:56.34M (Peak 57.80M) | Time:00:00.00 | Mem:0.13M, Peak:0.13M | Scene, ViewLayer | Updating Meshes Flags
+Fra:1 Mem:56.34M (Peak 57.80M) | Time:00:00.00 | Mem:0.13M, Peak:0.13M | Scene, ViewLayer | Updating Objects
+Fra:1 Mem:56.34M (Peak 57.80M) | Time:00:00.00 | Mem:0.13M, Peak:0.13M | Scene, ViewLayer | Updating Objects | Copying Transformations to device
+Fra:1 Mem:56.35M (Peak 57.80M) | Time:00:00.00 | Mem:0.14M, Peak:0.14M | Scene, ViewLayer | Updating Objects | Applying Static Transformations
+Fra:1 Mem:56.35M (Peak 57.80M) | Time:00:00.00 | Mem:0.14M, Peak:0.14M | Scene, ViewLayer | Updating Particle Systems
+Fra:1 Mem:56.35M (Peak 57.80M) | Time:00:00.00 | Mem:0.14M, Peak:0.14M | Scene, ViewLayer | Updating Particle Systems | Copying Particles to device
+Fra:1 Mem:56.35M (Peak 57.80M) | Time:00:00.00 | Mem:0.14M, Peak:0.14M | Scene, ViewLayer | Updating Meshes
+Fra:1 Mem:57.15M (Peak 57.80M) | Time:00:00.00 | Mem:0.14M, Peak:0.14M | Scene, ViewLayer | Updating Mesh | Computing attributes
+Fra:1 Mem:57.63M (Peak 57.80M) | Time:00:00.00 | Mem:0.14M, Peak:0.14M | Scene, ViewLayer | Updating Mesh | Copying Attributes to device
+Fra:1 Mem:57.63M (Peak 57.80M) | Time:00:00.00 | Mem:0.62M, Peak:0.62M | Scene, ViewLayer | Updating Scene BVH | Building
+Fra:1 Mem:57.63M (Peak 57.80M) | Time:00:00.00 | Mem:0.62M, Peak:0.62M | Scene, ViewLayer | Updating Scene BVH | Building BVH
+Fra:1 Mem:57.63M (Peak 57.80M) | Time:00:00.00 | Mem:2.22M, Peak:2.22M | Scene, ViewLayer | Updating Scene BVH | Building BVH 0%
+Fra:1 Mem:57.63M (Peak 57.80M) | Time:00:00.00 | Mem:3.97M, Peak:5.57M | Scene, ViewLayer | Updating Scene BVH | Copying BVH to device
+Fra:1 Mem:57.63M (Peak 57.80M) | Time:00:00.00 | Mem:3.97M, Peak:5.57M | Scene, ViewLayer | Updating Mesh | Computing normals
+Fra:1 Mem:59.89M (Peak 59.89M) | Time:00:00.00 | Mem:3.97M, Peak:5.57M | Scene, ViewLayer | Updating Mesh | Copying Mesh to device
+Fra:1 Mem:59.89M (Peak 59.89M) | Time:00:00.00 | Mem:6.23M, Peak:6.23M | Scene, ViewLayer | Updating Objects Flags
+Fra:1 Mem:59.89M (Peak 59.89M) | Time:00:00.00 | Mem:6.23M, Peak:6.23M | Scene, ViewLayer | Updating Primitive Offsets
+Fra:1 Mem:59.89M (Peak 59.89M) | Time:00:00.00 | Mem:6.23M, Peak:6.23M | Scene, ViewLayer | Updating Images
+Fra:1 Mem:59.89M (Peak 59.89M) | Time:00:00.00 | Mem:6.23M, Peak:6.23M | Scene, ViewLayer | Updating Camera Volume
+Fra:1 Mem:59.89M (Peak 59.89M) | Time:00:00.00 | Mem:6.23M, Peak:6.23M | Scene, ViewLayer | Updating Lookup Tables
+Fra:1 Mem:59.89M (Peak 59.89M) | Time:00:00.00 | Mem:6.31M, Peak:6.31M | Scene, ViewLayer | Updating Lights
+Fra:1 Mem:59.89M (Peak 59.89M) | Time:00:00.00 | Mem:6.31M, Peak:6.31M | Scene, ViewLayer | Updating Lights | Computing tree
+Fra:1 Mem:59.89M (Peak 59.89M) | Time:00:00.00 | Mem:6.31M, Peak:6.31M | Scene, ViewLayer | Updating Integrator
+Fra:1 Mem:59.89M (Peak 59.89M) | Time:00:00.00 | Mem:6.31M, Peak:6.31M | Scene, ViewLayer | Updating Film
+Fra:1 Mem:59.89M (Peak 59.89M) | Time:00:00.00 | Mem:6.23M, Peak:6.31M | Scene, ViewLayer | Updating Lookup Tables
+Fra:1 Mem:59.89M (Peak 59.89M) | Time:00:00.00 | Mem:6.31M, Peak:6.31M | Scene, ViewLayer | Updating Baking
+Fra:1 Mem:59.89M (Peak 59.89M) | Time:00:00.00 | Mem:6.31M, Peak:6.31M | Scene, ViewLayer | Updating Device | Writing constant memory
+Fra:1 Mem:59.89M (Peak 59.89M) | Time:00:00.00 | Mem:6.31M, Peak:6.31M | Scene, ViewLayer | Loading denoising kernels (may take a few minutes the first time)
+Fra:1 Mem:59.89M (Peak 59.89M) | Time:00:00.00 | Mem:6.31M, Peak:6.31M | Scene, ViewLayer | Sample 0/16
+Fra:1 Mem:129.67M (Peak 129.67M) | Time:00:00.20 | Remaining:00:03.00 | Mem:75.91M, Peak:75.91M | Scene, ViewLayer | Sample 1/16
+Fra:1 Mem:158.96M (Peak 202.91M) | Time:00:16.32 | Mem:75.91M, Peak:75.91M | Scene, ViewLayer | Sample 16/16
+Fra:1 Mem:158.96M (Peak 202.91M) | Time:00:16.32 | Mem:75.91M, Peak:75.91M | Scene, ViewLayer | Finished
+Saved: 'E:\csd4.1\VR\FudanCampus\field-review\chemistry-2026-11-14-v1\renders\after-entry.png'
+Time: 00:16.54 (Saving: 00:00.20)
+
+Fra:1 Mem:54.85M (Peak 54.85M) | Time:00:00.00 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | front 化学楼门头
+Fra:1 Mem:54.85M (Peak 54.85M) | Time:00:00.00 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | 化学楼 · Chemistry white roof
+Fra:1 Mem:55.04M (Peak 55.04M) | Time:00:00.00 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | 化学楼 · wall 00 window glass
+Fra:1 Mem:55.38M (Peak 55.38M) | Time:00:00.00 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | 化学楼 · Chemistry dark bronze frames
+Fra:1 Mem:56.49M (Peak 56.49M) | Time:00:00.00 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | 化学楼 · Chemistry white spandrel panels
+Fra:1 Mem:56.79M (Peak 56.79M) | Time:00:00.00 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | 化学楼 · wall 01 window glass
+Fra:1 Mem:56.97M (Peak 56.97M) | Time:00:00.00 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | 化学楼 · wall 03 window glass
+Fra:1 Mem:57.03M (Peak 57.03M) | Time:00:00.00 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | 化学楼 · wall 04 window glass
+Fra:1 Mem:57.05M (Peak 57.05M) | Time:00:00.00 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | 化学楼 · wall 05 window glass
+Fra:1 Mem:57.21M (Peak 57.21M) | Time:00:00.00 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | 化学楼 · wall 08 window glass
+Fra:1 Mem:57.27M (Peak 57.27M) | Time:00:00.00 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | 化学楼 · wall 09 window glass
+Fra:1 Mem:57.28M (Peak 57.28M) | Time:00:00.00 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | 化学楼 · wall 10 window glass
+Fra:1 Mem:57.29M (Peak 57.29M) | Time:00:00.00 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | 化学楼 · wall 11 window glass
+Fra:1 Mem:57.30M (Peak 57.30M) | Time:00:00.00 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | 化学楼 · wall 14 window glass
+Fra:1 Mem:57.32M (Peak 57.32M) | Time:00:00.00 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | 化学楼 · wall 15 window glass
+Fra:1 Mem:57.32M (Peak 57.32M) | Time:00:00.00 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | 化学楼 · Chemistry entrance granite
+Fra:1 Mem:57.34M (Peak 57.34M) | Time:00:00.00 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | 化学楼 · front portico roof
+Fra:1 Mem:57.34M (Peak 57.34M) | Time:00:00.00 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | 化学楼 · Chemistry pale ceramic tile
+Fra:1 Mem:57.34M (Peak 57.34M) | Time:00:00.00 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | 化学楼 · Chemistry signage
+Fra:1 Mem:57.60M (Peak 57.60M) | Time:00:00.00 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Initializing
+Fra:1 Mem:57.47M (Peak 57.60M) | Time:00:00.00 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Updating Images | Loading Chemistry brick courses
+Fra:1 Mem:56.25M (Peak 57.60M) | Time:00:00.00 | Mem:0.12M, Peak:0.12M | Scene, ViewLayer | Waiting for render to start
+Fra:1 Mem:56.25M (Peak 57.60M) | Time:00:00.00 | Mem:0.12M, Peak:0.12M | Scene, ViewLayer | Loading render kernels (may take a few minutes the first time)
+Fra:1 Mem:56.25M (Peak 57.60M) | Time:00:00.00 | Mem:0.12M, Peak:0.12M | Scene, ViewLayer | Updating Scene
+Fra:1 Mem:56.25M (Peak 57.60M) | Time:00:00.00 | Mem:0.12M, Peak:0.12M | Scene, ViewLayer | Updating Shaders
+Fra:1 Mem:56.34M (Peak 57.60M) | Time:00:00.00 | Mem:0.13M, Peak:0.13M | Scene, ViewLayer | Updating Procedurals
+Fra:1 Mem:56.34M (Peak 57.60M) | Time:00:00.00 | Mem:0.13M, Peak:0.13M | Scene, ViewLayer | Updating Background
+Fra:1 Mem:56.34M (Peak 57.60M) | Time:00:00.00 | Mem:0.13M, Peak:0.13M | Scene, ViewLayer | Updating Camera
+Fra:1 Mem:56.34M (Peak 57.60M) | Time:00:00.00 | Mem:0.13M, Peak:0.13M | Scene, ViewLayer | Updating Meshes Flags
+Fra:1 Mem:56.34M (Peak 57.60M) | Time:00:00.00 | Mem:0.13M, Peak:0.13M | Scene, ViewLayer | Updating Objects
+Fra:1 Mem:56.34M (Peak 57.60M) | Time:00:00.00 | Mem:0.13M, Peak:0.13M | Scene, ViewLayer | Updating Objects | Copying Transformations to device
+Fra:1 Mem:56.35M (Peak 57.60M) | Time:00:00.00 | Mem:0.14M, Peak:0.14M | Scene, ViewLayer | Updating Objects | Applying Static Transformations
+Fra:1 Mem:56.35M (Peak 57.60M) | Time:00:00.01 | Mem:0.14M, Peak:0.14M | Scene, ViewLayer | Updating Particle Systems
+Fra:1 Mem:56.35M (Peak 57.60M) | Time:00:00.01 | Mem:0.14M, Peak:0.14M | Scene, ViewLayer | Updating Particle Systems | Copying Particles to device
+Fra:1 Mem:56.35M (Peak 57.60M) | Time:00:00.01 | Mem:0.14M, Peak:0.14M | Scene, ViewLayer | Updating Meshes
+Fra:1 Mem:57.15M (Peak 57.60M) | Time:00:00.01 | Mem:0.14M, Peak:0.14M | Scene, ViewLayer | Updating Mesh | Computing attributes
+Fra:1 Mem:57.63M (Peak 57.63M) | Time:00:00.01 | Mem:0.14M, Peak:0.14M | Scene, ViewLayer | Updating Mesh | Copying Attributes to device
+Fra:1 Mem:57.63M (Peak 57.63M) | Time:00:00.01 | Mem:0.62M, Peak:0.62M | Scene, ViewLayer | Updating Scene BVH | Building
+Fra:1 Mem:57.63M (Peak 57.63M) | Time:00:00.01 | Mem:0.62M, Peak:0.62M | Scene, ViewLayer | Updating Scene BVH | Building BVH
+Fra:1 Mem:57.63M (Peak 57.63M) | Time:00:00.01 | Mem:2.22M, Peak:2.22M | Scene, ViewLayer | Updating Scene BVH | Building BVH 0%
+Fra:1 Mem:57.63M (Peak 57.63M) | Time:00:00.01 | Mem:3.97M, Peak:5.57M | Scene, ViewLayer | Updating Scene BVH | Copying BVH to device
+Fra:1 Mem:57.63M (Peak 57.63M) | Time:00:00.01 | Mem:3.97M, Peak:5.57M | Scene, ViewLayer | Updating Mesh | Computing normals
+Fra:1 Mem:59.89M (Peak 59.89M) | Time:00:00.01 | Mem:3.97M, Peak:5.57M | Scene, ViewLayer | Updating Mesh | Copying Mesh to device
+Fra:1 Mem:59.89M (Peak 59.89M) | Time:00:00.01 | Mem:6.23M, Peak:6.23M | Scene, ViewLayer | Updating Objects Flags
+Fra:1 Mem:59.89M (Peak 59.89M) | Time:00:00.01 | Mem:6.23M, Peak:6.23M | Scene, ViewLayer | Updating Primitive Offsets
+Fra:1 Mem:59.89M (Peak 59.89M) | Time:00:00.01 | Mem:6.23M, Peak:6.23M | Scene, ViewLayer | Updating Images
+Fra:1 Mem:59.89M (Peak 59.89M) | Time:00:00.01 | Mem:6.23M, Peak:6.23M | Scene, ViewLayer | Updating Camera Volume
+Fra:1 Mem:59.89M (Peak 59.89M) | Time:00:00.01 | Mem:6.23M, Peak:6.23M | Scene, ViewLayer | Updating Lookup Tables
+Fra:1 Mem:59.89M (Peak 59.89M) | Time:00:00.01 | Mem:6.31M, Peak:6.31M | Scene, ViewLayer | Updating Lights
+Fra:1 Mem:59.89M (Peak 59.89M) | Time:00:00.01 | Mem:6.31M, Peak:6.31M | Scene, ViewLayer | Updating Lights | Computing tree
+Fra:1 Mem:59.89M (Peak 59.89M) | Time:00:00.01 | Mem:6.31M, Peak:6.31M | Scene, ViewLayer | Updating Integrator
+Fra:1 Mem:59.89M (Peak 59.89M) | Time:00:00.01 | Mem:6.31M, Peak:6.31M | Scene, ViewLayer | Updating Film
+Fra:1 Mem:59.89M (Peak 59.89M) | Time:00:00.01 | Mem:6.23M, Peak:6.31M | Scene, ViewLayer | Updating Lookup Tables
+Fra:1 Mem:59.89M (Peak 59.89M) | Time:00:00.01 | Mem:6.31M, Peak:6.31M | Scene, ViewLayer | Updating Baking
+Fra:1 Mem:59.89M (Peak 59.89M) | Time:00:00.01 | Mem:6.31M, Peak:6.31M | Scene, ViewLayer | Updating Device | Writing constant memory
+Fra:1 Mem:59.89M (Peak 59.89M) | Time:00:00.01 | Mem:6.31M, Peak:6.31M | Scene, ViewLayer | Loading denoising kernels (may take a few minutes the first time)
+Fra:1 Mem:59.89M (Peak 59.89M) | Time:00:00.01 | Mem:6.31M, Peak:6.31M | Scene, ViewLayer | Sample 0/16
+Fra:1 Mem:129.67M (Peak 129.67M) | Time:00:00.46 | Remaining:00:06.68 | Mem:75.91M, Peak:75.91M | Scene, ViewLayer | Sample 1/16
+Fra:1 Mem:158.96M (Peak 202.91M) | Time:00:16.98 | Mem:75.91M, Peak:75.91M | Scene, ViewLayer | Sample 16/16
+Fra:1 Mem:158.96M (Peak 202.91M) | Time:00:16.98 | Mem:75.91M, Peak:75.91M | Scene, ViewLayer | Finished
+Saved: 'E:\csd4.1\VR\FudanCampus\field-review\chemistry-2026-11-14-v1\renders\after-west.png'
+Time: 00:17.20 (Saving: 00:00.21)
+
+Fra:1 Mem:54.85M (Peak 54.85M) | Time:00:00.00 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | front 化学楼门头
+Fra:1 Mem:54.85M (Peak 54.85M) | Time:00:00.00 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | rear 化学楼门头
+Fra:1 Mem:55.04M (Peak 55.04M) | Time:00:00.00 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | east 化学楼门头
+Fra:1 Mem:55.34M (Peak 55.34M) | Time:00:00.00 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | 化学楼 · Chemistry white roof
+Fra:1 Mem:56.13M (Peak 56.13M) | Time:00:00.00 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | 化学楼 · east portico roof
+Fra:1 Mem:56.04M (Peak 56.13M) | Time:00:00.00 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | 化学楼 · Chemistry dark bronze frames
+Fra:1 Mem:56.05M (Peak 56.13M) | Time:00:00.00 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | 化学楼 · Chemistry white spandrel panels
+Fra:1 Mem:56.16M (Peak 56.16M) | Time:00:00.00 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | 化学楼 · wall 01 window glass
+Fra:1 Mem:56.06M (Peak 56.16M) | Time:00:00.00 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | 化学楼 · wall 02 window glass
+Fra:1 Mem:56.07M (Peak 56.16M) | Time:00:00.00 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | 化学楼 · wall 04 window glass
+Fra:1 Mem:56.25M (Peak 56.25M) | Time:00:00.00 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | 化学楼 · wall 05 window glass
+Fra:1 Mem:56.31M (Peak 56.31M) | Time:00:00.00 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | 化学楼 · wall 06 window glass
+Fra:1 Mem:56.83M (Peak 56.83M) | Time:00:00.00 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | 化学楼 · wall 08 window glass
+Fra:1 Mem:56.85M (Peak 56.85M) | Time:00:00.00 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | 化学楼 · wall 09 window glass
+Fra:1 Mem:57.07M (Peak 57.07M) | Time:00:00.00 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | 化学楼 · wall 10 window glass
+Fra:1 Mem:57.08M (Peak 57.08M) | Time:00:00.00 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | 化学楼 · wall 13 window glass
+Fra:1 Mem:57.09M (Peak 57.09M) | Time:00:00.00 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | 化学楼 · Chemistry glazing
+Fra:1 Mem:57.29M (Peak 57.29M) | Time:00:00.00 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | 化学楼 · wall 14 window glass
+Fra:1 Mem:57.29M (Peak 57.29M) | Time:00:00.00 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | 化学楼 · Chemistry tile joints
+Fra:1 Mem:57.32M (Peak 57.32M) | Time:00:00.00 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | 化学楼 · Chemistry entrance granite
+Fra:1 Mem:57.33M (Peak 57.33M) | Time:00:00.00 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | 化学楼 · front portico roof
+Fra:1 Mem:57.33M (Peak 57.33M) | Time:00:00.00 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | 化学楼 · Chemistry pale ceramic tile
+Fra:1 Mem:57.60M (Peak 57.60M) | Time:00:00.00 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Initializing
+Fra:1 Mem:57.47M (Peak 57.60M) | Time:00:00.00 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Updating Images | Loading Chemistry brick courses
+Fra:1 Mem:56.25M (Peak 57.60M) | Time:00:00.00 | Mem:0.12M, Peak:0.12M | Scene, ViewLayer | Waiting for render to start
+Fra:1 Mem:56.25M (Peak 57.60M) | Time:00:00.00 | Mem:0.12M, Peak:0.12M | Scene, ViewLayer | Loading render kernels (may take a few minutes the first time)
+Fra:1 Mem:56.25M (Peak 57.60M) | Time:00:00.00 | Mem:0.12M, Peak:0.12M | Scene, ViewLayer | Updating Scene
+Fra:1 Mem:56.25M (Peak 57.60M) | Time:00:00.00 | Mem:0.12M, Peak:0.12M | Scene, ViewLayer | Updating Shaders
+Fra:1 Mem:56.34M (Peak 57.60M) | Time:00:00.00 | Mem:0.13M, Peak:0.13M | Scene, ViewLayer | Updating Procedurals
+Fra:1 Mem:56.34M (Peak 57.60M) | Time:00:00.00 | Mem:0.13M, Peak:0.13M | Scene, ViewLayer | Updating Background
+Fra:1 Mem:56.34M (Peak 57.60M) | Time:00:00.00 | Mem:0.13M, Peak:0.13M | Scene, ViewLayer | Updating Camera
+Fra:1 Mem:56.34M (Peak 57.60M) | Time:00:00.00 | Mem:0.13M, Peak:0.13M | Scene, ViewLayer | Updating Meshes Flags
+Fra:1 Mem:56.34M (Peak 57.60M) | Time:00:00.00 | Mem:0.13M, Peak:0.13M | Scene, ViewLayer | Updating Objects
+Fra:1 Mem:56.34M (Peak 57.60M) | Time:00:00.00 | Mem:0.13M, Peak:0.13M | Scene, ViewLayer | Updating Objects | Copying Transformations to device
+Fra:1 Mem:56.35M (Peak 57.60M) | Time:00:00.00 | Mem:0.14M, Peak:0.14M | Scene, ViewLayer | Updating Objects | Applying Static Transformations
+Fra:1 Mem:56.35M (Peak 57.60M) | Time:00:00.00 | Mem:0.14M, Peak:0.14M | Scene, ViewLayer | Updating Particle Systems
+Fra:1 Mem:56.35M (Peak 57.60M) | Time:00:00.00 | Mem:0.14M, Peak:0.14M | Scene, ViewLayer | Updating Particle Systems | Copying Particles to device
+Fra:1 Mem:56.35M (Peak 57.60M) | Time:00:00.00 | Mem:0.14M, Peak:0.14M | Scene, ViewLayer | Updating Meshes
+Fra:1 Mem:57.15M (Peak 57.60M) | Time:00:00.01 | Mem:0.14M, Peak:0.14M | Scene, ViewLayer | Updating Mesh | Computing attributes
+Fra:1 Mem:57.63M (Peak 57.63M) | Time:00:00.01 | Mem:0.14M, Peak:0.14M | Scene, ViewLayer | Updating Mesh | Copying Attributes to device
+Fra:1 Mem:57.63M (Peak 57.63M) | Time:00:00.01 | Mem:0.62M, Peak:0.62M | Scene, ViewLayer | Updating Scene BVH | Building
+Fra:1 Mem:57.63M (Peak 57.63M) | Time:00:00.01 | Mem:0.62M, Peak:0.62M | Scene, ViewLayer | Updating Scene BVH | Building BVH
+Fra:1 Mem:57.63M (Peak 57.63M) | Time:00:00.01 | Mem:2.22M, Peak:2.22M | Scene, ViewLayer | Updating Scene BVH | Building BVH 0%
+Fra:1 Mem:57.63M (Peak 57.63M) | Time:00:00.01 | Mem:3.97M, Peak:5.57M | Scene, ViewLayer | Updating Scene BVH | Copying BVH to device
+Fra:1 Mem:57.63M (Peak 57.63M) | Time:00:00.01 | Mem:3.97M, Peak:5.57M | Scene, ViewLayer | Updating Mesh | Computing normals
+Fra:1 Mem:59.89M (Peak 59.89M) | Time:00:00.01 | Mem:3.97M, Peak:5.57M | Scene, ViewLayer | Updating Mesh | Copying Mesh to device
+Fra:1 Mem:59.89M (Peak 59.89M) | Time:00:00.01 | Mem:6.23M, Peak:6.23M | Scene, ViewLayer | Updating Objects Flags
+Fra:1 Mem:59.89M (Peak 59.89M) | Time:00:00.01 | Mem:6.23M, Peak:6.23M | Scene, ViewLayer | Updating Primitive Offsets
+Fra:1 Mem:59.89M (Peak 59.89M) | Time:00:00.01 | Mem:6.23M, Peak:6.23M | Scene, ViewLayer | Updating Images
+Fra:1 Mem:59.89M (Peak 59.89M) | Time:00:00.01 | Mem:6.23M, Peak:6.23M | Scene, ViewLayer | Updating Camera Volume
+Fra:1 Mem:59.89M (Peak 59.89M) | Time:00:00.01 | Mem:6.23M, Peak:6.23M | Scene, ViewLayer | Updating Lookup Tables
+Fra:1 Mem:59.89M (Peak 59.89M) | Time:00:00.01 | Mem:6.31M, Peak:6.31M | Scene, ViewLayer | Updating Lights
+Fra:1 Mem:59.89M (Peak 59.89M) | Time:00:00.01 | Mem:6.31M, Peak:6.31M | Scene, ViewLayer | Updating Lights | Computing tree
+Fra:1 Mem:59.89M (Peak 59.89M) | Time:00:00.01 | Mem:6.31M, Peak:6.31M | Scene, ViewLayer | Updating Integrator
+Fra:1 Mem:59.89M (Peak 59.89M) | Time:00:00.01 | Mem:6.31M, Peak:6.31M | Scene, ViewLayer | Updating Film
+Fra:1 Mem:59.89M (Peak 59.89M) | Time:00:00.01 | Mem:6.23M, Peak:6.31M | Scene, ViewLayer | Updating Lookup Tables
+Fra:1 Mem:59.89M (Peak 59.89M) | Time:00:00.01 | Mem:6.31M, Peak:6.31M | Scene, ViewLayer | Updating Baking
+Fra:1 Mem:59.89M (Peak 59.89M) | Time:00:00.01 | Mem:6.31M, Peak:6.31M | Scene, ViewLayer | Updating Device | Writing constant memory
+Fra:1 Mem:59.89M (Peak 59.89M) | Time:00:00.01 | Mem:6.31M, Peak:6.31M | Scene, ViewLayer | Loading denoising kernels (may take a few minutes the first time)
+Fra:1 Mem:59.89M (Peak 59.89M) | Time:00:00.01 | Mem:6.31M, Peak:6.31M | Scene, ViewLayer | Sample 0/16
+Fra:1 Mem:129.67M (Peak 129.67M) | Time:00:00.41 | Remaining:00:05.88 | Mem:75.91M, Peak:75.91M | Scene, ViewLayer | Sample 1/16
+Fra:1 Mem:158.96M (Peak 202.91M) | Time:00:13.87 | Mem:75.91M, Peak:75.91M | Scene, ViewLayer | Sample 16/16
+Fra:1 Mem:158.96M (Peak 202.91M) | Time:00:13.87 | Mem:75.91M, Peak:75.91M | Scene, ViewLayer | Finished
+Saved: 'E:\csd4.1\VR\FudanCampus\field-review\chemistry-2026-11-14-v1\renders\after-plan.png'
+Time: 00:14.07 (Saving: 00:00.19)
+
+Warning: Path 'C:/Windows/Fonts/simhei.ttf' cannot be made relative for Font 'SimHei Regular'
+Warning: Path 'C:/Windows/Fonts/simhei.ttf' cannot be made relative for Font 'SimHei Regular.001'
+Warning: Path 'C:/Windows/Fonts/simhei.ttf' cannot be made relative for Font 'SimHei Regular.002'
+
+Info: Saved "55-candidate.blend"
+21:37:26 | INFO: Data are loaded, start creating Blender stuff
+21:37:26 | INFO: Blender create Mesh node front chemistry sign
+21:37:26 | INFO: Blender create Mesh node rear chemistry sign
+21:37:26 | INFO: Blender create Mesh node east chemistry sign
+21:37:26 | INFO: Blender create Mesh node 化学楼 · Chemistry white roof
+21:37:26 | INFO: Blender create Mesh node 化学楼 · Chemistry deep red brick walls and raised centre
+21:37:26 | INFO: Blender create Mesh node 化学楼 · wall 00 window glass
+21:37:26 | INFO: Blender create Mesh node 化学楼 · Chemistry dark bronze frames
+21:37:26 | INFO: Blender create Mesh node 化学楼 · Chemistry white spandrel panels
+21:37:26 | INFO: Blender create Mesh node 化学楼 · wall 01 window glass
+21:37:26 | INFO: Blender create Mesh node 化学楼 · wall 02 window glass
+21:37:26 | INFO: Blender create Mesh node 化学楼 · wall 03 window glass
+21:37:26 | INFO: Blender create Mesh node 化学楼 · wall 04 window glass
+21:37:26 | INFO: Blender create Mesh node 化学楼 · wall 05 window glass
+21:37:26 | INFO: Blender create Mesh node 化学楼 · wall 06 window glass
+21:37:26 | INFO: Blender create Mesh node 化学楼 · wall 07 window glass
+21:37:26 | INFO: Blender create Mesh node 化学楼 · wall 08 window glass
+21:37:26 | INFO: Blender create Mesh node 化学楼 · wall 09 window glass
+21:37:26 | INFO: Blender create Mesh node 化学楼 · wall 10 window glass
+21:37:26 | INFO: Blender create Mesh node 化学楼 · wall 11 window glass
+21:37:26 | INFO: Blender create Mesh node 化学楼 · wall 12 window glass
+21:37:26 | INFO: Blender create Mesh node 化学楼 · wall 13 window glass
+21:37:26 | INFO: Blender create Mesh node 化学楼 · wall 14 window glass
+21:37:26 | INFO: Blender create Mesh node 化学楼 · wall 15 window glass
+21:37:26 | INFO: Blender create Mesh node 化学楼 · Chemistry entrance granite
+21:37:26 | INFO: Blender create Mesh node 化学楼 · front portico roof
+21:37:26 | INFO: Blender create Mesh node 化学楼 · Chemistry pale ceramic tile
+21:37:26 | INFO: Blender create Mesh node 化学楼 · Chemistry tile joints
+21:37:26 | INFO: Blender create Mesh node 化学楼 · Chemistry glazing
+21:37:26 | INFO: Blender create Mesh node 化学楼 · Chemistry signage
+21:37:26 | INFO: Blender create Mesh node 化学楼 · rear portico roof
+21:37:26 | INFO: Blender create Mesh node 化学楼 · east portico roof
+21:37:26 | INFO: glTF import finished in 0.24s
+PASS chemistry: west recess, raised centre, white roofs, courtyard surfaces, 3 porticos, 466 visible window faces on all 16 wall segments
+CHEMISTRY_CANDIDATE_PASS {'blender': '4.4.3', 'triangles': 52428, 'mesh_objects': 31, 'glb_bytes': 2527912, 'glb_sha256': 'aea012ab4e0d080bdaf479ef6c4804b541816f86f362ea287dc422d29bc43e61', 'bounds_blender': {'min': [-32.974998474121094, -19.774999618530273, 0.0], 'max': [36.04999923706055, 19.774999618530273, 14.449999809265137]}, 'elapsed_seconds': 63.1}
+
+Blender quit

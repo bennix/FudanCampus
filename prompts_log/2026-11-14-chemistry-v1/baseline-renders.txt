@@ -1,0 +1,297 @@
+Blender 4.4.3 (hash 802179c51ccc built 2025-04-29 15:39:58)
+Read blend: "E:\csd4.1\VR\FudanCampus\field-review\chemistry-2026-11-14-v1\web-integration-backup\assets\buildings\55.blend"
+Fra:1 Mem:12.37M (Peak 12.37M) | Time:00:00.00 | Mem:0.00M, Peak:0.00M | Asset export, ViewLayer | Synchronizing object | 化学楼 · Chemistry red brick.001
+Fra:1 Mem:12.37M (Peak 12.37M) | Time:00:00.00 | Mem:0.00M, Peak:0.00M | Asset export, ViewLayer | Synchronizing object | 化学楼 · Chemistry glazing.001
+Fra:1 Mem:12.38M (Peak 12.38M) | Time:00:00.00 | Mem:0.00M, Peak:0.00M | Asset export, ViewLayer | Synchronizing object | 化学楼 · Chemistry canopy tile.001
+Fra:1 Mem:14.52M (Peak 14.52M) | Time:00:00.00 | Mem:0.00M, Peak:0.00M | Asset export, ViewLayer | Initializing
+Fra:1 Mem:13.92M (Peak 14.52M) | Time:00:00.00 | Mem:0.00M, Peak:0.00M | Asset export, ViewLayer | Waiting for render to start
+Fra:1 Mem:13.92M (Peak 14.52M) | Time:00:00.00 | Mem:0.00M, Peak:0.00M | Asset export, ViewLayer | Loading render kernels (may take a few minutes the first time)
+Fra:1 Mem:13.92M (Peak 14.52M) | Time:00:00.00 | Mem:0.00M, Peak:0.00M | Asset export, ViewLayer | Updating Scene
+Fra:1 Mem:13.92M (Peak 14.52M) | Time:00:00.00 | Mem:0.00M, Peak:0.00M | Asset export, ViewLayer | Updating Shaders
+Fra:1 Mem:14.01M (Peak 14.52M) | Time:00:00.00 | Mem:0.01M, Peak:0.01M | Asset export, ViewLayer | Updating Procedurals
+Fra:1 Mem:14.01M (Peak 14.52M) | Time:00:00.00 | Mem:0.01M, Peak:0.01M | Asset export, ViewLayer | Updating Background
+Fra:1 Mem:14.01M (Peak 14.52M) | Time:00:00.00 | Mem:0.01M, Peak:0.01M | Asset export, ViewLayer | Updating Camera
+Fra:1 Mem:14.01M (Peak 14.52M) | Time:00:00.00 | Mem:0.01M, Peak:0.01M | Asset export, ViewLayer | Updating Meshes Flags
+Fra:1 Mem:14.01M (Peak 14.52M) | Time:00:00.00 | Mem:0.01M, Peak:0.01M | Asset export, ViewLayer | Updating Objects
+Fra:1 Mem:14.01M (Peak 14.52M) | Time:00:00.00 | Mem:0.01M, Peak:0.01M | Asset export, ViewLayer | Updating Objects | Copying Transformations to device
+Fra:1 Mem:14.01M (Peak 14.52M) | Time:00:00.00 | Mem:0.01M, Peak:0.01M | Asset export, ViewLayer | Updating Objects | Applying Static Transformations
+Fra:1 Mem:14.01M (Peak 14.52M) | Time:00:00.00 | Mem:0.01M, Peak:0.01M | Asset export, ViewLayer | Updating Particle Systems
+Fra:1 Mem:14.01M (Peak 14.52M) | Time:00:00.00 | Mem:0.01M, Peak:0.01M | Asset export, ViewLayer | Updating Particle Systems | Copying Particles to device
+Fra:1 Mem:14.01M (Peak 14.52M) | Time:00:00.00 | Mem:0.01M, Peak:0.01M | Asset export, ViewLayer | Updating Meshes
+Fra:1 Mem:14.34M (Peak 14.52M) | Time:00:00.00 | Mem:0.01M, Peak:0.01M | Asset export, ViewLayer | Updating Mesh | Computing attributes
+Fra:1 Mem:14.56M (Peak 14.56M) | Time:00:00.00 | Mem:0.01M, Peak:0.01M | Asset export, ViewLayer | Updating Mesh | Copying Attributes to device
+Fra:1 Mem:14.55M (Peak 14.56M) | Time:00:00.00 | Mem:0.22M, Peak:0.22M | Asset export, ViewLayer | Updating Scene BVH | Building
+Fra:1 Mem:14.55M (Peak 14.56M) | Time:00:00.00 | Mem:0.22M, Peak:0.22M | Asset export, ViewLayer | Updating Scene BVH | Building BVH
+Fra:1 Mem:14.55M (Peak 14.56M) | Time:00:00.00 | Mem:0.88M, Peak:0.88M | Asset export, ViewLayer | Updating Scene BVH | Building BVH 0%
+Fra:1 Mem:14.55M (Peak 14.56M) | Time:00:00.00 | Mem:1.68M, Peak:2.35M | Asset export, ViewLayer | Updating Scene BVH | Copying BVH to device
+Fra:1 Mem:14.55M (Peak 14.56M) | Time:00:00.00 | Mem:1.68M, Peak:2.35M | Asset export, ViewLayer | Updating Mesh | Computing normals
+Fra:1 Mem:15.53M (Peak 15.53M) | Time:00:00.00 | Mem:1.68M, Peak:2.35M | Asset export, ViewLayer | Updating Mesh | Copying Mesh to device
+Fra:1 Mem:15.53M (Peak 15.53M) | Time:00:00.00 | Mem:2.66M, Peak:2.66M | Asset export, ViewLayer | Updating Objects Flags
+Fra:1 Mem:15.53M (Peak 15.53M) | Time:00:00.00 | Mem:2.66M, Peak:2.66M | Asset export, ViewLayer | Updating Primitive Offsets
+Fra:1 Mem:15.53M (Peak 15.53M) | Time:00:00.00 | Mem:2.66M, Peak:2.66M | Asset export, ViewLayer | Updating Images
+Fra:1 Mem:15.53M (Peak 15.53M) | Time:00:00.00 | Mem:2.66M, Peak:2.66M | Asset export, ViewLayer | Updating Camera Volume
+Fra:1 Mem:15.53M (Peak 15.53M) | Time:00:00.00 | Mem:2.66M, Peak:2.66M | Asset export, ViewLayer | Updating Lookup Tables
+Fra:1 Mem:15.53M (Peak 15.53M) | Time:00:00.00 | Mem:2.74M, Peak:2.74M | Asset export, ViewLayer | Updating Lights
+Fra:1 Mem:15.53M (Peak 15.53M) | Time:00:00.00 | Mem:2.74M, Peak:2.74M | Asset export, ViewLayer | Updating Lights | Computing tree
+Fra:1 Mem:15.53M (Peak 15.53M) | Time:00:00.00 | Mem:2.74M, Peak:2.74M | Asset export, ViewLayer | Updating Integrator
+Fra:1 Mem:15.53M (Peak 15.53M) | Time:00:00.00 | Mem:2.74M, Peak:2.74M | Asset export, ViewLayer | Updating Film
+Fra:1 Mem:15.53M (Peak 15.53M) | Time:00:00.00 | Mem:2.66M, Peak:2.74M | Asset export, ViewLayer | Updating Lookup Tables
+Fra:1 Mem:15.53M (Peak 15.53M) | Time:00:00.00 | Mem:2.74M, Peak:2.74M | Asset export, ViewLayer | Updating Baking
+Fra:1 Mem:15.53M (Peak 15.53M) | Time:00:00.00 | Mem:2.74M, Peak:2.74M | Asset export, ViewLayer | Updating Device | Writing constant memory
+Fra:1 Mem:15.53M (Peak 15.53M) | Time:00:00.00 | Mem:2.74M, Peak:2.74M | Asset export, ViewLayer | Loading denoising kernels (may take a few minutes the first time)
+Fra:1 Mem:15.53M (Peak 15.53M) | Time:00:00.00 | Mem:2.74M, Peak:2.74M | Asset export, ViewLayer | Sample 0/16
+Fra:1 Mem:85.31M (Peak 85.31M) | Time:00:00.12 | Remaining:00:01.74 | Mem:72.32M, Peak:72.32M | Asset export, ViewLayer | Sample 1/16
+Fra:1 Mem:114.60M (Peak 158.55M) | Time:00:16.69 | Mem:72.32M, Peak:72.32M | Asset export, ViewLayer | Sample 16/16
+Fra:1 Mem:114.60M (Peak 158.55M) | Time:00:16.69 | Mem:72.32M, Peak:72.32M | Asset export, ViewLayer | Finished
+Saved: 'E:\csd4.1\VR\FudanCampus\field-review\chemistry-2026-11-14-v1\renders\before-front.png'
+Time: 00:17.08 (Saving: 00:00.37)
+
+Fra:1 Mem:13.33M (Peak 13.33M) | Time:00:00.00 | Mem:0.00M, Peak:0.00M | Asset export, ViewLayer | Synchronizing object | 化学楼门头.001
+Fra:1 Mem:14.03M (Peak 14.03M) | Time:00:00.00 | Mem:0.00M, Peak:0.00M | Asset export, ViewLayer | Synchronizing object | 化学楼 · Chemistry canopy tile.001
+Fra:1 Mem:14.03M (Peak 14.03M) | Time:00:00.00 | Mem:0.00M, Peak:0.00M | Asset export, ViewLayer | Synchronizing object | 化学楼 · Chemistry glazing.001
+Fra:1 Mem:14.07M (Peak 14.07M) | Time:00:00.00 | Mem:0.00M, Peak:0.00M | Asset export, ViewLayer | Synchronizing object | 化学楼 · Chemistry dark frames.001
+Fra:1 Mem:14.16M (Peak 14.16M) | Time:00:00.00 | Mem:0.00M, Peak:0.00M | Asset export, ViewLayer | Synchronizing object | 化学楼 · Chemistry joints.001
+Fra:1 Mem:14.50M (Peak 14.50M) | Time:00:00.00 | Mem:0.00M, Peak:0.00M | Asset export, ViewLayer | Synchronizing object | 化学楼 · Chemistry pale panels.001
+Fra:1 Mem:14.52M (Peak 14.52M) | Time:00:00.00 | Mem:0.00M, Peak:0.00M | Asset export, ViewLayer | Synchronizing object | 化学楼 · Chemistry red brick.001
+Fra:1 Mem:14.52M (Peak 14.52M) | Time:00:00.00 | Mem:0.00M, Peak:0.00M | Asset export, ViewLayer | Initializing
+Fra:1 Mem:13.92M (Peak 14.52M) | Time:00:00.00 | Mem:0.00M, Peak:0.00M | Asset export, ViewLayer | Waiting for render to start
+Fra:1 Mem:13.92M (Peak 14.52M) | Time:00:00.00 | Mem:0.00M, Peak:0.00M | Asset export, ViewLayer | Loading render kernels (may take a few minutes the first time)
+Fra:1 Mem:13.92M (Peak 14.52M) | Time:00:00.00 | Mem:0.00M, Peak:0.00M | Asset export, ViewLayer | Updating Scene
+Fra:1 Mem:13.92M (Peak 14.52M) | Time:00:00.00 | Mem:0.00M, Peak:0.00M | Asset export, ViewLayer | Updating Shaders
+Fra:1 Mem:14.01M (Peak 14.52M) | Time:00:00.00 | Mem:0.01M, Peak:0.01M | Asset export, ViewLayer | Updating Procedurals
+Fra:1 Mem:14.01M (Peak 14.52M) | Time:00:00.00 | Mem:0.01M, Peak:0.01M | Asset export, ViewLayer | Updating Background
+Fra:1 Mem:14.01M (Peak 14.52M) | Time:00:00.00 | Mem:0.01M, Peak:0.01M | Asset export, ViewLayer | Updating Camera
+Fra:1 Mem:14.01M (Peak 14.52M) | Time:00:00.00 | Mem:0.01M, Peak:0.01M | Asset export, ViewLayer | Updating Meshes Flags
+Fra:1 Mem:14.01M (Peak 14.52M) | Time:00:00.00 | Mem:0.01M, Peak:0.01M | Asset export, ViewLayer | Updating Objects
+Fra:1 Mem:14.01M (Peak 14.52M) | Time:00:00.00 | Mem:0.01M, Peak:0.01M | Asset export, ViewLayer | Updating Objects | Copying Transformations to device
+Fra:1 Mem:14.01M (Peak 14.52M) | Time:00:00.00 | Mem:0.01M, Peak:0.01M | Asset export, ViewLayer | Updating Objects | Applying Static Transformations
+Fra:1 Mem:14.01M (Peak 14.52M) | Time:00:00.00 | Mem:0.01M, Peak:0.01M | Asset export, ViewLayer | Updating Particle Systems
+Fra:1 Mem:14.01M (Peak 14.52M) | Time:00:00.00 | Mem:0.01M, Peak:0.01M | Asset export, ViewLayer | Updating Particle Systems | Copying Particles to device
+Fra:1 Mem:14.01M (Peak 14.52M) | Time:00:00.00 | Mem:0.01M, Peak:0.01M | Asset export, ViewLayer | Updating Meshes
+Fra:1 Mem:14.34M (Peak 14.52M) | Time:00:00.00 | Mem:0.01M, Peak:0.01M | Asset export, ViewLayer | Updating Mesh | Computing attributes
+Fra:1 Mem:14.56M (Peak 14.56M) | Time:00:00.00 | Mem:0.01M, Peak:0.01M | Asset export, ViewLayer | Updating Mesh | Copying Attributes to device
+Fra:1 Mem:14.55M (Peak 14.56M) | Time:00:00.00 | Mem:0.22M, Peak:0.22M | Asset export, ViewLayer | Updating Scene BVH | Building
+Fra:1 Mem:14.55M (Peak 14.56M) | Time:00:00.00 | Mem:0.22M, Peak:0.22M | Asset export, ViewLayer | Updating Scene BVH | Building BVH
+Fra:1 Mem:14.55M (Peak 14.56M) | Time:00:00.01 | Mem:0.88M, Peak:0.88M | Asset export, ViewLayer | Updating Scene BVH | Building BVH 0%
+Fra:1 Mem:14.55M (Peak 14.56M) | Time:00:00.01 | Mem:1.68M, Peak:2.35M | Asset export, ViewLayer | Updating Scene BVH | Copying BVH to device
+Fra:1 Mem:14.55M (Peak 14.56M) | Time:00:00.01 | Mem:1.68M, Peak:2.35M | Asset export, ViewLayer | Updating Mesh | Computing normals
+Fra:1 Mem:15.53M (Peak 15.53M) | Time:00:00.01 | Mem:1.68M, Peak:2.35M | Asset export, ViewLayer | Updating Mesh | Copying Mesh to device
+Fra:1 Mem:15.53M (Peak 15.53M) | Time:00:00.01 | Mem:2.66M, Peak:2.66M | Asset export, ViewLayer | Updating Objects Flags
+Fra:1 Mem:15.53M (Peak 15.53M) | Time:00:00.01 | Mem:2.66M, Peak:2.66M | Asset export, ViewLayer | Updating Primitive Offsets
+Fra:1 Mem:15.53M (Peak 15.53M) | Time:00:00.01 | Mem:2.66M, Peak:2.66M | Asset export, ViewLayer | Updating Images
+Fra:1 Mem:15.53M (Peak 15.53M) | Time:00:00.01 | Mem:2.66M, Peak:2.66M | Asset export, ViewLayer | Updating Camera Volume
+Fra:1 Mem:15.53M (Peak 15.53M) | Time:00:00.01 | Mem:2.66M, Peak:2.66M | Asset export, ViewLayer | Updating Lookup Tables
+Fra:1 Mem:15.53M (Peak 15.53M) | Time:00:00.01 | Mem:2.74M, Peak:2.74M | Asset export, ViewLayer | Updating Lights
+Fra:1 Mem:15.53M (Peak 15.53M) | Time:00:00.01 | Mem:2.74M, Peak:2.74M | Asset export, ViewLayer | Updating Lights | Computing tree
+Fra:1 Mem:15.53M (Peak 15.53M) | Time:00:00.01 | Mem:2.74M, Peak:2.74M | Asset export, ViewLayer | Updating Integrator
+Fra:1 Mem:15.53M (Peak 15.53M) | Time:00:00.01 | Mem:2.74M, Peak:2.74M | Asset export, ViewLayer | Updating Film
+Fra:1 Mem:15.53M (Peak 15.53M) | Time:00:00.01 | Mem:2.66M, Peak:2.74M | Asset export, ViewLayer | Updating Lookup Tables
+Fra:1 Mem:15.53M (Peak 15.53M) | Time:00:00.01 | Mem:2.74M, Peak:2.74M | Asset export, ViewLayer | Updating Baking
+Fra:1 Mem:15.53M (Peak 15.53M) | Time:00:00.01 | Mem:2.74M, Peak:2.74M | Asset export, ViewLayer | Updating Device | Writing constant memory
+Fra:1 Mem:15.53M (Peak 15.53M) | Time:00:00.01 | Mem:2.74M, Peak:2.74M | Asset export, ViewLayer | Loading denoising kernels (may take a few minutes the first time)
+Fra:1 Mem:15.53M (Peak 15.53M) | Time:00:00.01 | Mem:2.74M, Peak:2.74M | Asset export, ViewLayer | Sample 0/16
+Fra:1 Mem:85.31M (Peak 85.31M) | Time:00:00.22 | Remaining:00:03.15 | Mem:72.32M, Peak:72.32M | Asset export, ViewLayer | Sample 1/16
+Fra:1 Mem:114.60M (Peak 158.55M) | Time:00:15.46 | Mem:72.32M, Peak:72.32M | Asset export, ViewLayer | Sample 16/16
+Fra:1 Mem:114.60M (Peak 158.55M) | Time:00:15.46 | Mem:72.32M, Peak:72.32M | Asset export, ViewLayer | Finished
+Saved: 'E:\csd4.1\VR\FudanCampus\field-review\chemistry-2026-11-14-v1\renders\before-rear.png'
+Time: 00:15.94 (Saving: 00:00.45)
+
+Fra:1 Mem:13.33M (Peak 13.33M) | Time:00:00.00 | Mem:0.00M, Peak:0.00M | Asset export, ViewLayer | Synchronizing object | 化学楼门头.001
+Fra:1 Mem:13.69M (Peak 13.69M) | Time:00:00.00 | Mem:0.00M, Peak:0.00M | Asset export, ViewLayer | Synchronizing object | 化学楼 · Chemistry red brick.001
+Fra:1 Mem:14.03M (Peak 14.03M) | Time:00:00.00 | Mem:0.00M, Peak:0.00M | Asset export, ViewLayer | Synchronizing object | 化学楼 · Chemistry pale panels.001
+Fra:1 Mem:14.06M (Peak 14.06M) | Time:00:00.00 | Mem:0.00M, Peak:0.00M | Asset export, ViewLayer | Synchronizing object | 化学楼 · Chemistry joints.001
+Fra:1 Mem:14.40M (Peak 14.40M) | Time:00:00.00 | Mem:0.00M, Peak:0.00M | Asset export, ViewLayer | Synchronizing object | 化学楼 · Chemistry canopy tile.001
+Fra:1 Mem:14.40M (Peak 14.40M) | Time:00:00.00 | Mem:0.00M, Peak:0.00M | Asset export, ViewLayer | Synchronizing object | 化学楼 · Chemistry glazing.001
+Fra:1 Mem:14.42M (Peak 14.42M) | Time:00:00.00 | Mem:0.00M, Peak:0.00M | Asset export, ViewLayer | Synchronizing object | 化学楼 · Chemistry dark frames.001
+Fra:1 Mem:14.52M (Peak 14.52M) | Time:00:00.01 | Mem:0.00M, Peak:0.00M | Asset export, ViewLayer | Initializing
+Fra:1 Mem:13.92M (Peak 14.52M) | Time:00:00.01 | Mem:0.00M, Peak:0.00M | Asset export, ViewLayer | Waiting for render to start
+Fra:1 Mem:13.92M (Peak 14.52M) | Time:00:00.01 | Mem:0.00M, Peak:0.00M | Asset export, ViewLayer | Loading render kernels (may take a few minutes the first time)
+Fra:1 Mem:13.92M (Peak 14.52M) | Time:00:00.01 | Mem:0.00M, Peak:0.00M | Asset export, ViewLayer | Updating Scene
+Fra:1 Mem:13.92M (Peak 14.52M) | Time:00:00.01 | Mem:0.00M, Peak:0.00M | Asset export, ViewLayer | Updating Shaders
+Fra:1 Mem:14.01M (Peak 14.52M) | Time:00:00.01 | Mem:0.01M, Peak:0.01M | Asset export, ViewLayer | Updating Procedurals
+Fra:1 Mem:14.01M (Peak 14.52M) | Time:00:00.01 | Mem:0.01M, Peak:0.01M | Asset export, ViewLayer | Updating Background
+Fra:1 Mem:14.01M (Peak 14.52M) | Time:00:00.01 | Mem:0.01M, Peak:0.01M | Asset export, ViewLayer | Updating Camera
+Fra:1 Mem:14.01M (Peak 14.52M) | Time:00:00.01 | Mem:0.01M, Peak:0.01M | Asset export, ViewLayer | Updating Meshes Flags
+Fra:1 Mem:14.01M (Peak 14.52M) | Time:00:00.01 | Mem:0.01M, Peak:0.01M | Asset export, ViewLayer | Updating Objects
+Fra:1 Mem:14.01M (Peak 14.52M) | Time:00:00.01 | Mem:0.01M, Peak:0.01M | Asset export, ViewLayer | Updating Objects | Copying Transformations to device
+Fra:1 Mem:14.01M (Peak 14.52M) | Time:00:00.01 | Mem:0.01M, Peak:0.01M | Asset export, ViewLayer | Updating Objects | Applying Static Transformations
+Fra:1 Mem:14.01M (Peak 14.52M) | Time:00:00.01 | Mem:0.01M, Peak:0.01M | Asset export, ViewLayer | Updating Particle Systems
+Fra:1 Mem:14.01M (Peak 14.52M) | Time:00:00.01 | Mem:0.01M, Peak:0.01M | Asset export, ViewLayer | Updating Particle Systems | Copying Particles to device
+Fra:1 Mem:14.01M (Peak 14.52M) | Time:00:00.01 | Mem:0.01M, Peak:0.01M | Asset export, ViewLayer | Updating Meshes
+Fra:1 Mem:14.34M (Peak 14.52M) | Time:00:00.01 | Mem:0.01M, Peak:0.01M | Asset export, ViewLayer | Updating Mesh | Computing attributes
+Fra:1 Mem:14.56M (Peak 14.56M) | Time:00:00.01 | Mem:0.01M, Peak:0.01M | Asset export, ViewLayer | Updating Mesh | Copying Attributes to device
+Fra:1 Mem:14.55M (Peak 14.56M) | Time:00:00.01 | Mem:0.22M, Peak:0.22M | Asset export, ViewLayer | Updating Scene BVH | Building
+Fra:1 Mem:14.55M (Peak 14.56M) | Time:00:00.01 | Mem:0.22M, Peak:0.22M | Asset export, ViewLayer | Updating Scene BVH | Building BVH
+Fra:1 Mem:14.55M (Peak 14.56M) | Time:00:00.02 | Mem:0.88M, Peak:0.88M | Asset export, ViewLayer | Updating Scene BVH | Building BVH 0%
+Fra:1 Mem:14.55M (Peak 14.56M) | Time:00:00.04 | Mem:1.68M, Peak:2.35M | Asset export, ViewLayer | Updating Scene BVH | Copying BVH to device
+Fra:1 Mem:14.55M (Peak 14.56M) | Time:00:00.04 | Mem:1.68M, Peak:2.35M | Asset export, ViewLayer | Updating Mesh | Computing normals
+Fra:1 Mem:15.53M (Peak 15.53M) | Time:00:00.04 | Mem:1.68M, Peak:2.35M | Asset export, ViewLayer | Updating Mesh | Copying Mesh to device
+Fra:1 Mem:15.53M (Peak 15.53M) | Time:00:00.04 | Mem:2.66M, Peak:2.66M | Asset export, ViewLayer | Updating Objects Flags
+Fra:1 Mem:15.53M (Peak 15.53M) | Time:00:00.04 | Mem:2.66M, Peak:2.66M | Asset export, ViewLayer | Updating Primitive Offsets
+Fra:1 Mem:15.53M (Peak 15.53M) | Time:00:00.04 | Mem:2.66M, Peak:2.66M | Asset export, ViewLayer | Updating Images
+Fra:1 Mem:15.53M (Peak 15.53M) | Time:00:00.04 | Mem:2.66M, Peak:2.66M | Asset export, ViewLayer | Updating Camera Volume
+Fra:1 Mem:15.53M (Peak 15.53M) | Time:00:00.04 | Mem:2.66M, Peak:2.66M | Asset export, ViewLayer | Updating Lookup Tables
+Fra:1 Mem:15.53M (Peak 15.53M) | Time:00:00.04 | Mem:2.74M, Peak:2.74M | Asset export, ViewLayer | Updating Lights
+Fra:1 Mem:15.53M (Peak 15.53M) | Time:00:00.04 | Mem:2.74M, Peak:2.74M | Asset export, ViewLayer | Updating Lights | Computing tree
+Fra:1 Mem:15.53M (Peak 15.53M) | Time:00:00.04 | Mem:2.74M, Peak:2.74M | Asset export, ViewLayer | Updating Integrator
+Fra:1 Mem:15.53M (Peak 15.53M) | Time:00:00.04 | Mem:2.74M, Peak:2.74M | Asset export, ViewLayer | Updating Film
+Fra:1 Mem:15.53M (Peak 15.53M) | Time:00:00.04 | Mem:2.66M, Peak:2.74M | Asset export, ViewLayer | Updating Lookup Tables
+Fra:1 Mem:15.53M (Peak 15.53M) | Time:00:00.04 | Mem:2.74M, Peak:2.74M | Asset export, ViewLayer | Updating Baking
+Fra:1 Mem:15.53M (Peak 15.53M) | Time:00:00.04 | Mem:2.74M, Peak:2.74M | Asset export, ViewLayer | Updating Device | Writing constant memory
+Fra:1 Mem:15.53M (Peak 15.53M) | Time:00:00.04 | Mem:2.74M, Peak:2.74M | Asset export, ViewLayer | Loading denoising kernels (may take a few minutes the first time)
+Fra:1 Mem:15.53M (Peak 15.53M) | Time:00:00.04 | Mem:2.74M, Peak:2.74M | Asset export, ViewLayer | Sample 0/16
+Fra:1 Mem:85.31M (Peak 85.31M) | Time:00:01.46 | Remaining:00:21.22 | Mem:72.32M, Peak:72.32M | Asset export, ViewLayer | Sample 1/16
+Fra:1 Mem:114.60M (Peak 158.55M) | Time:00:21.38 | Mem:72.32M, Peak:72.32M | Asset export, ViewLayer | Sample 16/16
+Fra:1 Mem:114.60M (Peak 158.55M) | Time:00:21.38 | Mem:72.32M, Peak:72.32M | Asset export, ViewLayer | Finished
+Saved: 'E:\csd4.1\VR\FudanCampus\field-review\chemistry-2026-11-14-v1\renders\before-east.png'
+Time: 00:21.71 (Saving: 00:00.31)
+
+Fra:1 Mem:13.33M (Peak 13.33M) | Time:00:00.03 | Mem:0.00M, Peak:0.00M | Asset export, ViewLayer | Synchronizing object | 化学楼门头.001
+Fra:1 Mem:14.03M (Peak 14.03M) | Time:00:00.03 | Mem:0.00M, Peak:0.00M | Asset export, ViewLayer | Synchronizing object | 化学楼 · Chemistry canopy tile.001
+Fra:1 Mem:14.03M (Peak 14.03M) | Time:00:00.03 | Mem:0.00M, Peak:0.00M | Asset export, ViewLayer | Synchronizing object | 化学楼 · Chemistry glazing.001
+Fra:1 Mem:14.07M (Peak 14.07M) | Time:00:00.03 | Mem:0.00M, Peak:0.00M | Asset export, ViewLayer | Synchronizing object | 化学楼 · Chemistry dark frames.001
+Fra:1 Mem:14.16M (Peak 14.16M) | Time:00:00.03 | Mem:0.00M, Peak:0.00M | Asset export, ViewLayer | Synchronizing object | 化学楼 · Chemistry joints.001
+Fra:1 Mem:14.50M (Peak 14.50M) | Time:00:00.03 | Mem:0.00M, Peak:0.00M | Asset export, ViewLayer | Synchronizing object | 化学楼 · Chemistry pale panels.001
+Fra:1 Mem:14.52M (Peak 14.52M) | Time:00:00.03 | Mem:0.00M, Peak:0.00M | Asset export, ViewLayer | Synchronizing object | 化学楼 · Chemistry red brick.001
+Fra:1 Mem:14.52M (Peak 14.52M) | Time:00:00.03 | Mem:0.00M, Peak:0.00M | Asset export, ViewLayer | Initializing
+Fra:1 Mem:13.92M (Peak 14.52M) | Time:00:00.08 | Mem:0.00M, Peak:0.00M | Asset export, ViewLayer | Waiting for render to start
+Fra:1 Mem:13.92M (Peak 14.52M) | Time:00:00.08 | Mem:0.00M, Peak:0.00M | Asset export, ViewLayer | Loading render kernels (may take a few minutes the first time)
+Fra:1 Mem:13.92M (Peak 14.52M) | Time:00:00.08 | Mem:0.00M, Peak:0.00M | Asset export, ViewLayer | Updating Scene
+Fra:1 Mem:13.92M (Peak 14.52M) | Time:00:00.08 | Mem:0.00M, Peak:0.00M | Asset export, ViewLayer | Updating Shaders
+Fra:1 Mem:14.01M (Peak 14.52M) | Time:00:00.08 | Mem:0.01M, Peak:0.01M | Asset export, ViewLayer | Updating Procedurals
+Fra:1 Mem:14.01M (Peak 14.52M) | Time:00:00.08 | Mem:0.01M, Peak:0.01M | Asset export, ViewLayer | Updating Background
+Fra:1 Mem:14.01M (Peak 14.52M) | Time:00:00.08 | Mem:0.01M, Peak:0.01M | Asset export, ViewLayer | Updating Camera
+Fra:1 Mem:14.01M (Peak 14.52M) | Time:00:00.08 | Mem:0.01M, Peak:0.01M | Asset export, ViewLayer | Updating Meshes Flags
+Fra:1 Mem:14.01M (Peak 14.52M) | Time:00:00.08 | Mem:0.01M, Peak:0.01M | Asset export, ViewLayer | Updating Objects
+Fra:1 Mem:14.01M (Peak 14.52M) | Time:00:00.08 | Mem:0.01M, Peak:0.01M | Asset export, ViewLayer | Updating Objects | Copying Transformations to device
+Fra:1 Mem:14.01M (Peak 14.52M) | Time:00:00.08 | Mem:0.01M, Peak:0.01M | Asset export, ViewLayer | Updating Objects | Applying Static Transformations
+Fra:1 Mem:14.01M (Peak 14.52M) | Time:00:00.08 | Mem:0.01M, Peak:0.01M | Asset export, ViewLayer | Updating Particle Systems
+Fra:1 Mem:14.01M (Peak 14.52M) | Time:00:00.08 | Mem:0.01M, Peak:0.01M | Asset export, ViewLayer | Updating Particle Systems | Copying Particles to device
+Fra:1 Mem:14.01M (Peak 14.52M) | Time:00:00.08 | Mem:0.01M, Peak:0.01M | Asset export, ViewLayer | Updating Meshes
+Fra:1 Mem:14.34M (Peak 14.52M) | Time:00:00.08 | Mem:0.01M, Peak:0.01M | Asset export, ViewLayer | Updating Mesh | Computing attributes
+Fra:1 Mem:14.56M (Peak 14.56M) | Time:00:00.08 | Mem:0.01M, Peak:0.01M | Asset export, ViewLayer | Updating Mesh | Copying Attributes to device
+Fra:1 Mem:14.55M (Peak 14.56M) | Time:00:00.08 | Mem:0.22M, Peak:0.22M | Asset export, ViewLayer | Updating Scene BVH | Building
+Fra:1 Mem:14.55M (Peak 14.56M) | Time:00:00.08 | Mem:0.22M, Peak:0.22M | Asset export, ViewLayer | Updating Scene BVH | Building BVH
+Fra:1 Mem:14.55M (Peak 14.56M) | Time:00:00.08 | Mem:0.88M, Peak:0.88M | Asset export, ViewLayer | Updating Scene BVH | Building BVH 0%
+Fra:1 Mem:14.55M (Peak 14.56M) | Time:00:00.09 | Mem:1.68M, Peak:2.35M | Asset export, ViewLayer | Updating Scene BVH | Copying BVH to device
+Fra:1 Mem:14.55M (Peak 14.56M) | Time:00:00.09 | Mem:1.68M, Peak:2.35M | Asset export, ViewLayer | Updating Mesh | Computing normals
+Fra:1 Mem:15.53M (Peak 15.53M) | Time:00:00.09 | Mem:1.68M, Peak:2.35M | Asset export, ViewLayer | Updating Mesh | Copying Mesh to device
+Fra:1 Mem:15.53M (Peak 15.53M) | Time:00:00.09 | Mem:2.66M, Peak:2.66M | Asset export, ViewLayer | Updating Objects Flags
+Fra:1 Mem:15.53M (Peak 15.53M) | Time:00:00.09 | Mem:2.66M, Peak:2.66M | Asset export, ViewLayer | Updating Primitive Offsets
+Fra:1 Mem:15.53M (Peak 15.53M) | Time:00:00.09 | Mem:2.66M, Peak:2.66M | Asset export, ViewLayer | Updating Images
+Fra:1 Mem:15.53M (Peak 15.53M) | Time:00:00.09 | Mem:2.66M, Peak:2.66M | Asset export, ViewLayer | Updating Camera Volume
+Fra:1 Mem:15.53M (Peak 15.53M) | Time:00:00.09 | Mem:2.66M, Peak:2.66M | Asset export, ViewLayer | Updating Lookup Tables
+Fra:1 Mem:15.53M (Peak 15.53M) | Time:00:00.09 | Mem:2.74M, Peak:2.74M | Asset export, ViewLayer | Updating Lights
+Fra:1 Mem:15.53M (Peak 15.53M) | Time:00:00.09 | Mem:2.74M, Peak:2.74M | Asset export, ViewLayer | Updating Lights | Computing tree
+Fra:1 Mem:15.53M (Peak 15.53M) | Time:00:00.09 | Mem:2.74M, Peak:2.74M | Asset export, ViewLayer | Updating Integrator
+Fra:1 Mem:15.53M (Peak 15.53M) | Time:00:00.09 | Mem:2.74M, Peak:2.74M | Asset export, ViewLayer | Updating Film
+Fra:1 Mem:15.53M (Peak 15.53M) | Time:00:00.09 | Mem:2.66M, Peak:2.74M | Asset export, ViewLayer | Updating Lookup Tables
+Fra:1 Mem:15.53M (Peak 15.53M) | Time:00:00.09 | Mem:2.74M, Peak:2.74M | Asset export, ViewLayer | Updating Baking
+Fra:1 Mem:15.53M (Peak 15.53M) | Time:00:00.09 | Mem:2.74M, Peak:2.74M | Asset export, ViewLayer | Updating Device | Writing constant memory
+Fra:1 Mem:15.53M (Peak 15.53M) | Time:00:00.09 | Mem:2.74M, Peak:2.74M | Asset export, ViewLayer | Loading denoising kernels (may take a few minutes the first time)
+Fra:1 Mem:15.53M (Peak 15.53M) | Time:00:00.09 | Mem:2.74M, Peak:2.74M | Asset export, ViewLayer | Sample 0/16
+Fra:1 Mem:85.31M (Peak 85.31M) | Time:00:00.68 | Remaining:00:08.78 | Mem:72.32M, Peak:72.32M | Asset export, ViewLayer | Sample 1/16
+Fra:1 Mem:114.60M (Peak 158.55M) | Time:00:12.47 | Mem:72.32M, Peak:72.32M | Asset export, ViewLayer | Sample 16/16
+Fra:1 Mem:114.60M (Peak 158.55M) | Time:00:12.47 | Mem:72.32M, Peak:72.32M | Asset export, ViewLayer | Finished
+Saved: 'E:\csd4.1\VR\FudanCampus\field-review\chemistry-2026-11-14-v1\renders\before-entry.png'
+Time: 00:12.70 (Saving: 00:00.21)
+
+Fra:1 Mem:13.33M (Peak 13.33M) | Time:00:00.00 | Mem:0.00M, Peak:0.00M | Asset export, ViewLayer | Synchronizing object | 化学楼门头.001
+Fra:1 Mem:14.03M (Peak 14.03M) | Time:00:00.00 | Mem:0.00M, Peak:0.00M | Asset export, ViewLayer | Synchronizing object | 化学楼 · Chemistry canopy tile.001
+Fra:1 Mem:14.03M (Peak 14.03M) | Time:00:00.00 | Mem:0.00M, Peak:0.00M | Asset export, ViewLayer | Synchronizing object | 化学楼 · Chemistry glazing.001
+Fra:1 Mem:14.07M (Peak 14.07M) | Time:00:00.00 | Mem:0.00M, Peak:0.00M | Asset export, ViewLayer | Synchronizing object | 化学楼 · Chemistry dark frames.001
+Fra:1 Mem:14.16M (Peak 14.16M) | Time:00:00.00 | Mem:0.00M, Peak:0.00M | Asset export, ViewLayer | Synchronizing object | 化学楼 · Chemistry joints.001
+Fra:1 Mem:14.50M (Peak 14.50M) | Time:00:00.00 | Mem:0.00M, Peak:0.00M | Asset export, ViewLayer | Synchronizing object | 化学楼 · Chemistry pale panels.001
+Fra:1 Mem:14.52M (Peak 14.52M) | Time:00:00.00 | Mem:0.00M, Peak:0.00M | Asset export, ViewLayer | Synchronizing object | 化学楼 · Chemistry red brick.001
+Fra:1 Mem:14.52M (Peak 14.52M) | Time:00:00.00 | Mem:0.00M, Peak:0.00M | Asset export, ViewLayer | Initializing
+Fra:1 Mem:13.92M (Peak 14.52M) | Time:00:00.02 | Mem:0.00M, Peak:0.00M | Asset export, ViewLayer | Waiting for render to start
+Fra:1 Mem:13.92M (Peak 14.52M) | Time:00:00.02 | Mem:0.00M, Peak:0.00M | Asset export, ViewLayer | Loading render kernels (may take a few minutes the first time)
+Fra:1 Mem:13.92M (Peak 14.52M) | Time:00:00.02 | Mem:0.00M, Peak:0.00M | Asset export, ViewLayer | Updating Scene
+Fra:1 Mem:13.92M (Peak 14.52M) | Time:00:00.02 | Mem:0.00M, Peak:0.00M | Asset export, ViewLayer | Updating Shaders
+Fra:1 Mem:14.01M (Peak 14.52M) | Time:00:00.02 | Mem:0.01M, Peak:0.01M | Asset export, ViewLayer | Updating Procedurals
+Fra:1 Mem:14.01M (Peak 14.52M) | Time:00:00.02 | Mem:0.01M, Peak:0.01M | Asset export, ViewLayer | Updating Background
+Fra:1 Mem:14.01M (Peak 14.52M) | Time:00:00.02 | Mem:0.01M, Peak:0.01M | Asset export, ViewLayer | Updating Camera
+Fra:1 Mem:14.01M (Peak 14.52M) | Time:00:00.02 | Mem:0.01M, Peak:0.01M | Asset export, ViewLayer | Updating Meshes Flags
+Fra:1 Mem:14.01M (Peak 14.52M) | Time:00:00.02 | Mem:0.01M, Peak:0.01M | Asset export, ViewLayer | Updating Objects
+Fra:1 Mem:14.01M (Peak 14.52M) | Time:00:00.02 | Mem:0.01M, Peak:0.01M | Asset export, ViewLayer | Updating Objects | Copying Transformations to device
+Fra:1 Mem:14.01M (Peak 14.52M) | Time:00:00.02 | Mem:0.01M, Peak:0.01M | Asset export, ViewLayer | Updating Objects | Applying Static Transformations
+Fra:1 Mem:14.01M (Peak 14.52M) | Time:00:00.02 | Mem:0.01M, Peak:0.01M | Asset export, ViewLayer | Updating Particle Systems
+Fra:1 Mem:14.01M (Peak 14.52M) | Time:00:00.02 | Mem:0.01M, Peak:0.01M | Asset export, ViewLayer | Updating Particle Systems | Copying Particles to device
+Fra:1 Mem:14.01M (Peak 14.52M) | Time:00:00.02 | Mem:0.01M, Peak:0.01M | Asset export, ViewLayer | Updating Meshes
+Fra:1 Mem:14.34M (Peak 14.52M) | Time:00:00.03 | Mem:0.01M, Peak:0.01M | Asset export, ViewLayer | Updating Mesh | Computing attributes
+Fra:1 Mem:14.56M (Peak 14.56M) | Time:00:00.03 | Mem:0.01M, Peak:0.01M | Asset export, ViewLayer | Updating Mesh | Copying Attributes to device
+Fra:1 Mem:14.55M (Peak 14.56M) | Time:00:00.03 | Mem:0.22M, Peak:0.22M | Asset export, ViewLayer | Updating Scene BVH | Building
+Fra:1 Mem:14.55M (Peak 14.56M) | Time:00:00.03 | Mem:0.22M, Peak:0.22M | Asset export, ViewLayer | Updating Scene BVH | Building BVH
+Fra:1 Mem:14.55M (Peak 14.56M) | Time:00:00.04 | Mem:0.88M, Peak:0.88M | Asset export, ViewLayer | Updating Scene BVH | Building BVH 0%
+Fra:1 Mem:14.55M (Peak 14.56M) | Time:00:00.04 | Mem:1.68M, Peak:2.35M | Asset export, ViewLayer | Updating Scene BVH | Copying BVH to device
+Fra:1 Mem:14.55M (Peak 14.56M) | Time:00:00.04 | Mem:1.68M, Peak:2.35M | Asset export, ViewLayer | Updating Mesh | Computing normals
+Fra:1 Mem:15.53M (Peak 15.53M) | Time:00:00.04 | Mem:1.68M, Peak:2.35M | Asset export, ViewLayer | Updating Mesh | Copying Mesh to device
+Fra:1 Mem:15.53M (Peak 15.53M) | Time:00:00.04 | Mem:2.66M, Peak:2.66M | Asset export, ViewLayer | Updating Objects Flags
+Fra:1 Mem:15.53M (Peak 15.53M) | Time:00:00.04 | Mem:2.66M, Peak:2.66M | Asset export, ViewLayer | Updating Primitive Offsets
+Fra:1 Mem:15.53M (Peak 15.53M) | Time:00:00.04 | Mem:2.66M, Peak:2.66M | Asset export, ViewLayer | Updating Images
+Fra:1 Mem:15.53M (Peak 15.53M) | Time:00:00.04 | Mem:2.66M, Peak:2.66M | Asset export, ViewLayer | Updating Camera Volume
+Fra:1 Mem:15.53M (Peak 15.53M) | Time:00:00.04 | Mem:2.66M, Peak:2.66M | Asset export, ViewLayer | Updating Lookup Tables
+Fra:1 Mem:15.53M (Peak 15.53M) | Time:00:00.04 | Mem:2.74M, Peak:2.74M | Asset export, ViewLayer | Updating Lights
+Fra:1 Mem:15.53M (Peak 15.53M) | Time:00:00.04 | Mem:2.74M, Peak:2.74M | Asset export, ViewLayer | Updating Lights | Computing tree
+Fra:1 Mem:15.53M (Peak 15.53M) | Time:00:00.04 | Mem:2.74M, Peak:2.74M | Asset export, ViewLayer | Updating Integrator
+Fra:1 Mem:15.53M (Peak 15.53M) | Time:00:00.04 | Mem:2.74M, Peak:2.74M | Asset export, ViewLayer | Updating Film
+Fra:1 Mem:15.53M (Peak 15.53M) | Time:00:00.04 | Mem:2.66M, Peak:2.74M | Asset export, ViewLayer | Updating Lookup Tables
+Fra:1 Mem:15.53M (Peak 15.53M) | Time:00:00.04 | Mem:2.74M, Peak:2.74M | Asset export, ViewLayer | Updating Baking
+Fra:1 Mem:15.53M (Peak 15.53M) | Time:00:00.04 | Mem:2.74M, Peak:2.74M | Asset export, ViewLayer | Updating Device | Writing constant memory
+Fra:1 Mem:15.53M (Peak 15.53M) | Time:00:00.04 | Mem:2.74M, Peak:2.74M | Asset export, ViewLayer | Loading denoising kernels (may take a few minutes the first time)
+Fra:1 Mem:15.53M (Peak 15.53M) | Time:00:00.04 | Mem:2.74M, Peak:2.74M | Asset export, ViewLayer | Sample 0/16
+Fra:1 Mem:85.31M (Peak 85.31M) | Time:00:00.30 | Remaining:00:03.79 | Mem:72.32M, Peak:72.32M | Asset export, ViewLayer | Sample 1/16
+Fra:1 Mem:114.60M (Peak 158.55M) | Time:00:13.57 | Mem:72.32M, Peak:72.32M | Asset export, ViewLayer | Sample 16/16
+Fra:1 Mem:114.60M (Peak 158.55M) | Time:00:13.57 | Mem:72.32M, Peak:72.32M | Asset export, ViewLayer | Finished
+Saved: 'E:\csd4.1\VR\FudanCampus\field-review\chemistry-2026-11-14-v1\renders\before-west.png'
+Time: 00:13.72 (Saving: 00:00.14)
+
+Fra:1 Mem:13.33M (Peak 13.33M) | Time:00:00.00 | Mem:0.00M, Peak:0.00M | Asset export, ViewLayer | Synchronizing object | 化学楼 · Chemistry red brick.001
+Fra:1 Mem:13.33M (Peak 13.33M) | Time:00:00.00 | Mem:0.00M, Peak:0.00M | Asset export, ViewLayer | Synchronizing object | 化学楼门头.001
+Fra:1 Mem:13.33M (Peak 13.33M) | Time:00:00.00 | Mem:0.00M, Peak:0.00M | Asset export, ViewLayer | Synchronizing object | 化学楼 · Chemistry canopy tile.001
+Fra:1 Mem:14.52M (Peak 14.52M) | Time:00:00.00 | Mem:0.00M, Peak:0.00M | Asset export, ViewLayer | Initializing
+Fra:1 Mem:13.92M (Peak 14.52M) | Time:00:00.00 | Mem:0.00M, Peak:0.00M | Asset export, ViewLayer | Waiting for render to start
+Fra:1 Mem:13.92M (Peak 14.52M) | Time:00:00.00 | Mem:0.00M, Peak:0.00M | Asset export, ViewLayer | Loading render kernels (may take a few minutes the first time)
+Fra:1 Mem:13.92M (Peak 14.52M) | Time:00:00.00 | Mem:0.00M, Peak:0.00M | Asset export, ViewLayer | Updating Scene
+Fra:1 Mem:13.92M (Peak 14.52M) | Time:00:00.00 | Mem:0.00M, Peak:0.00M | Asset export, ViewLayer | Updating Shaders
+Fra:1 Mem:14.01M (Peak 14.52M) | Time:00:00.00 | Mem:0.01M, Peak:0.01M | Asset export, ViewLayer | Updating Procedurals
+Fra:1 Mem:14.01M (Peak 14.52M) | Time:00:00.00 | Mem:0.01M, Peak:0.01M | Asset export, ViewLayer | Updating Background
+Fra:1 Mem:14.01M (Peak 14.52M) | Time:00:00.00 | Mem:0.01M, Peak:0.01M | Asset export, ViewLayer | Updating Camera
+Fra:1 Mem:14.01M (Peak 14.52M) | Time:00:00.00 | Mem:0.01M, Peak:0.01M | Asset export, ViewLayer | Updating Meshes Flags
+Fra:1 Mem:14.01M (Peak 14.52M) | Time:00:00.00 | Mem:0.01M, Peak:0.01M | Asset export, ViewLayer | Updating Objects
+Fra:1 Mem:14.01M (Peak 14.52M) | Time:00:00.00 | Mem:0.01M, Peak:0.01M | Asset export, ViewLayer | Updating Objects | Copying Transformations to device
+Fra:1 Mem:14.01M (Peak 14.52M) | Time:00:00.00 | Mem:0.01M, Peak:0.01M | Asset export, ViewLayer | Updating Objects | Applying Static Transformations
+Fra:1 Mem:14.01M (Peak 14.52M) | Time:00:00.00 | Mem:0.01M, Peak:0.01M | Asset export, ViewLayer | Updating Particle Systems
+Fra:1 Mem:14.01M (Peak 14.52M) | Time:00:00.00 | Mem:0.01M, Peak:0.01M | Asset export, ViewLayer | Updating Particle Systems | Copying Particles to device
+Fra:1 Mem:14.01M (Peak 14.52M) | Time:00:00.00 | Mem:0.01M, Peak:0.01M | Asset export, ViewLayer | Updating Meshes
+Fra:1 Mem:14.34M (Peak 14.52M) | Time:00:00.00 | Mem:0.01M, Peak:0.01M | Asset export, ViewLayer | Updating Mesh | Computing attributes
+Fra:1 Mem:14.56M (Peak 14.56M) | Time:00:00.00 | Mem:0.01M, Peak:0.01M | Asset export, ViewLayer | Updating Mesh | Copying Attributes to device
+Fra:1 Mem:14.55M (Peak 14.56M) | Time:00:00.00 | Mem:0.22M, Peak:0.22M | Asset export, ViewLayer | Updating Scene BVH | Building
+Fra:1 Mem:14.55M (Peak 14.56M) | Time:00:00.00 | Mem:0.22M, Peak:0.22M | Asset export, ViewLayer | Updating Scene BVH | Building BVH
+Fra:1 Mem:14.55M (Peak 14.56M) | Time:00:00.00 | Mem:0.88M, Peak:0.88M | Asset export, ViewLayer | Updating Scene BVH | Building BVH 0%
+Fra:1 Mem:14.55M (Peak 14.56M) | Time:00:00.00 | Mem:1.68M, Peak:2.35M | Asset export, ViewLayer | Updating Scene BVH | Copying BVH to device
+Fra:1 Mem:14.55M (Peak 14.56M) | Time:00:00.00 | Mem:1.68M, Peak:2.35M | Asset export, ViewLayer | Updating Mesh | Computing normals
+Fra:1 Mem:15.53M (Peak 15.53M) | Time:00:00.00 | Mem:1.68M, Peak:2.35M | Asset export, ViewLayer | Updating Mesh | Copying Mesh to device
+Fra:1 Mem:15.53M (Peak 15.53M) | Time:00:00.01 | Mem:2.66M, Peak:2.66M | Asset export, ViewLayer | Updating Objects Flags
+Fra:1 Mem:15.53M (Peak 15.53M) | Time:00:00.01 | Mem:2.66M, Peak:2.66M | Asset export, ViewLayer | Updating Primitive Offsets
+Fra:1 Mem:15.53M (Peak 15.53M) | Time:00:00.01 | Mem:2.66M, Peak:2.66M | Asset export, ViewLayer | Updating Images
+Fra:1 Mem:15.53M (Peak 15.53M) | Time:00:00.01 | Mem:2.66M, Peak:2.66M | Asset export, ViewLayer | Updating Camera Volume
+Fra:1 Mem:15.53M (Peak 15.53M) | Time:00:00.01 | Mem:2.66M, Peak:2.66M | Asset export, ViewLayer | Updating Lookup Tables
+Fra:1 Mem:15.53M (Peak 15.53M) | Time:00:00.01 | Mem:2.74M, Peak:2.74M | Asset export, ViewLayer | Updating Lights
+Fra:1 Mem:15.53M (Peak 15.53M) | Time:00:00.01 | Mem:2.74M, Peak:2.74M | Asset export, ViewLayer | Updating Lights | Computing tree
+Fra:1 Mem:15.53M (Peak 15.53M) | Time:00:00.01 | Mem:2.74M, Peak:2.74M | Asset export, ViewLayer | Updating Integrator
+Fra:1 Mem:15.53M (Peak 15.53M) | Time:00:00.01 | Mem:2.74M, Peak:2.74M | Asset export, ViewLayer | Updating Film
+Fra:1 Mem:15.53M (Peak 15.53M) | Time:00:00.01 | Mem:2.66M, Peak:2.74M | Asset export, ViewLayer | Updating Lookup Tables
+Fra:1 Mem:15.53M (Peak 15.53M) | Time:00:00.01 | Mem:2.74M, Peak:2.74M | Asset export, ViewLayer | Updating Baking
+Fra:1 Mem:15.53M (Peak 15.53M) | Time:00:00.01 | Mem:2.74M, Peak:2.74M | Asset export, ViewLayer | Updating Device | Writing constant memory
+Fra:1 Mem:15.53M (Peak 15.53M) | Time:00:00.01 | Mem:2.74M, Peak:2.74M | Asset export, ViewLayer | Loading denoising kernels (may take a few minutes the first time)
+Fra:1 Mem:15.53M (Peak 15.53M) | Time:00:00.01 | Mem:2.74M, Peak:2.74M | Asset export, ViewLayer | Sample 0/16
+Fra:1 Mem:85.31M (Peak 85.31M) | Time:00:00.19 | Remaining:00:02.76 | Mem:72.32M, Peak:72.32M | Asset export, ViewLayer | Sample 1/16
+Fra:1 Mem:114.60M (Peak 158.55M) | Time:00:07.64 | Mem:72.32M, Peak:72.32M | Asset export, ViewLayer | Sample 16/16
+Fra:1 Mem:114.60M (Peak 158.55M) | Time:00:07.64 | Mem:72.32M, Peak:72.32M | Asset export, ViewLayer | Finished
+Saved: 'E:\csd4.1\VR\FudanCampus\field-review\chemistry-2026-11-14-v1\renders\before-plan.png'
+Time: 00:07.73 (Saving: 00:00.08)
+
+Warning: Library file, loading empty scene
+
+Blender quit

@@ -6,10 +6,13 @@ import {fileURLToPath} from 'node:url';
 const pub=new URL('./public/',import.meta.url),out=new URL('../field-review/campus-photo-integration/',import.meta.url);
 const read=p=>JSON.parse(fs.readFileSync(p)),before=read(new URL('manifest-before.json',out)),current=read(new URL('campus-manifest.json',pub)),cleanup=read(new URL('cleanup.json',out)),placements=read(new URL('placement.json',out));
 const hash=b=>createHash('sha256').update(b).digest('hex').slice(0,12);
-// Building 17 now has its own subsequent photo-refinement validation.
+// Buildings 17 and 55 have subsequent independent photo-refinement validation.
 // Keep the original snapshot intact and continue protecting every other module.
 assert.deepEqual(current.buildings.map(a=>a.id),before.buildings.map(a=>a.id),'Building membership changed');
-assert.deepEqual(current.buildings.filter(a=>a.id!=='17'),before.buildings.filter(a=>a.id!=='17'),'Other building modules changed');
+assert.deepEqual(current.buildings.filter(a=>!['17','55'].includes(a.id)),before.buildings.filter(a=>!['17','55'].includes(a.id)),'Other building modules changed');
+const chemistry=current.buildings.find(a=>a.id==='55'),oldChemistry=before.buildings.find(a=>a.id==='55');
+for(const key of ['position','rotation','orientationBaked','url'])assert.deepEqual(chemistry[key],oldChemistry[key],`Chemistry placement changed: ${key}`);
+await import('./validate-chemistry.mjs');
 const teaching4=current.buildings.find(a=>a.id==='17'),oldTeaching4=before.buildings.find(a=>a.id==='17');
 for(const key of ['position','rotation','orientationBaked','url'])assert.deepEqual(teaching4[key],oldTeaching4[key],`Teaching4 placement changed: ${key}`);
 const teaching4Bytes=fs.readFileSync(new URL(teaching4.url,pub));
