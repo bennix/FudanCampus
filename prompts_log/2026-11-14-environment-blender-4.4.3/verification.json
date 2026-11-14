@@ -1,0 +1,45 @@
+{
+  "blender": "4.4.3",
+  "binary": "D:\\BlenderCLI\\blender-4.4.3-windows-x64\\blender.exe",
+  "python": "3.11.11 (main, Feb 11 2025, 07:53:58) [MSC v.1929 64 bit (AMD64)]",
+  "platform": "Windows-10-10.0.26300-SP0",
+  "checks": [
+    "background Python",
+    "mesh and material",
+    "Cycles CPU render",
+    "save test blend",
+    "GLB export and import",
+    "read existing 17/55 blend",
+    "17/55 source SHA-256 unchanged"
+  ],
+  "source_inspection": [
+    {
+      "path": "FudanCampus\\assets\\buildings\\17.blend",
+      "objects": 63,
+      "meshes": 63
+    },
+    {
+      "path": "FudanCampus\\assets\\buildings\\55.blend",
+      "objects": 7,
+      "meshes": 7
+    }
+  ],
+  "source_sha256": {
+    "FudanCampus\\assets\\buildings\\17.blend": "505f8831e4278628b04441c8ad337fa20ad9041b775f4624ba3ed72d31bcab40",
+    "FudanCampus\\assets\\buildings\\55.blend": "1dc951ebf5c92795d79180c4371008942ed1e0746410bfccd4a9f69ce9d4df00"
+  },
+  "artifacts": {
+    "cube.blend": {
+      "bytes": 429481,
+      "sha256": "83be48fa37dd10be2e1da5ecd486653778727f13dd4e6eee4a819c1eede63674"
+    },
+    "cube.glb": {
+      "bytes": 2012,
+      "sha256": "0fec206bb9282b16895388c678dfd585e857e2b3ab51ba66569d87642bf2f749"
+    },
+    "cube.png": {
+      "bytes": 9602,
+      "sha256": "ea2b2fce6a77c0186c7d7f1e01ffef22c7c09048e3912ba4ba67459938a0243e"
+    }
+  }
+}

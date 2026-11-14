@@ -1,0 +1,74 @@
+日期：2026-11-14，时区 Asia/Shanghai
+阶段：第四教学楼网页接入；建立后续默认交付约定
+
+【用户发现问题，逐字记录】
+我输入 npm run dev -- --host 127.0.0.1 --port 5173 启动之后查看建筑，发现似乎和之前的模型没有变化。是怎么回事？
+
+【处理背景摘要】
+此前只生成独立 field-review 候选，没有接入网页；网页仍加载旧正式资源。
+助手已解释原因并提出将候选同步进网页，方便用户在校园中验收。
+
+【用户最新指令，逐字记录】
+请你以后每次修改后自动把模型接入网页，替换旧模型，方便我验收。
+
+【助手初始回复，逐字记录】
+以后每次修改模型后，我都会同步替换网页中的旧模型、更新对应 LOD 和碰撞数据，再交给你验收。这次也会把已完成的第四教学楼候选模型接入当前项目，并保留旧版备份。
+
+【操作摘要，非逐字对话】
+1. 将用户偏好写入工作区根 AGENTS.md。后续改模完成必须接入现有网页，不能只交候选。
+2. 确认网页 app/page.tsx 读取 campus-lod.json；只更新 GLB 而不刷新LOD会继续显示旧版。
+3. 新增独立接入脚本 integrate_web.py 和 verify_web_integration.py，先验证旧网页不匹配候选，
+   按预期出现 AssertionError: Web still serves old 17 GLB。原始输出见 integration-before.txt。
+4. 旧17模型/源脚本/清单/LOD/碰撞保存在候选 web-integration-backup/，备份不覆盖。
+5. 候选 .blend、GLB 和几何脚本同步到正式17路径；只更新17的字节数、revision、局部包围盒、
+   标签高度与照片来源说明。校园position、rotation和朝向约定保留，其他清单条目不变。
+6. Blender 4.4.3 单独重建 buildings-17 三档LOD，不进行全校园重建。
+7. 构建依赖缺失：@gltf-transform/core 未安装。将原项目声明的 core/functions/extensions 4.5.0
+   安装于 .local/model-js，并通过 node_modules 目录连接供现有脚本解析。
+8. 原脚本 NodeIO 读取 URL.pathname 在Windows得到 /E:/...，实测 ENOENT。
+   pack-lods.mjs、build-walk-collision.mjs、validate-photo-integration.mjs 改用 fileURLToPath。
+   build_lods.py 使用 as_posix() 写URL，17三条tier URL统一为正斜杠，避免Linux验证失败。
+9. 首次纹理压缩遇到 colourspace: parameter space not set。核查发现同进程混入不同sharp版本：
+   现有web为0.34.5，新增构建依赖链使用0.35.x；独立测试0.35.4可用，混合加载时ERR_DLOPEN_FAILED。
+   安装项目声明的sharp0.35.4到本地工具目录，将旧web/sharp保留在.local/sharp-backup，
+   web/node_modules/sharp连接到统一版本。压缩重跑成功，原错误保留于pack-lods-error.txt。
+   一次临时探测命令在CommonJS顶层使用await发生SyntaxError，改为async函数后完成对比测试，
+   未改动产品代码以迁就此命令。
+10. 原碰撞轮廓脚本依赖Shapely，本机缺失，安装Shapely2.2.0及NumPy2.5.4到.local/model-tools；
+    执行时通过PYTHONPATH引用，不改系统Python安装。重建固定碰撞及室内封闭投影。
+11. 原验证脚本默认GBK读取UTF-8中文JSON报UnicodeDecodeError，执行时开启PYTHONUTF8=1。
+    npm prebuild改为node validate-lods.mjs包装器，按系统选择python/python3并开启UTF-8。
+12. 原validate-photo-integration把17条目冻结在旧照片接入快照，阻止合法后续精修。
+    保留旧快照，其他建筑继续逐字段严格对比，17保留位置/朝向/URL约束并独立检查几何和哈希。
+13. 初次Node测试因沙箱禁止子进程spawn EPERM失败；允许本地构建子进程后21/21通过，
+    不为沙箱限制删减测试或修改实现。前后输出保留于tests-before*和tests-after.txt。
+14. 完整npm run build:pages通过，包含模型、保护源、LOD哈希及碰撞时效校验。
+    保留Vite现有大于500kB的JS chunk警告，本任务不扩展到前端代码分包。
+15. 尝试启动npm dev发现用户已有服务器PID16912，未停止或替换该进程。
+    127.0.0.1:5173连接拒绝；localhost:5173正常返回200。
+    在允许本地网络访问的环境中，从现有服务器下载17三档资源逐个验证sha和side entrance door节点，
+    确认实际服务新模型，原始结果见http-check.txt。没有启动额外常驻服务。
+16. 独立只读审查确认：其他楼栋LOD哈希不变；碰撞差异三角面全部位于17附近。
+    删10476、增13012三角面；差异顶点范围限于X[-176,-130],Z[-214,-188]。
+17. 更新README与验收说明。仅本地接入，未提交、推送或发布线上。
+
+【核心命令（工作目录：FudanCampus，除npm命令在web中执行）】
+python field-review/teaching4-2026-11-14-v1/integrate_web.py
+blender -b --factory-startup --python-exit-code 1 --python scripts/build_lods.py -- buildings-17
+node web/pack-lods.mjs buildings-17
+node web/build-walk-collision.mjs
+python scripts/union_walk_interiors.py
+python field-review/teaching4-2026-11-14-v1/verify_web_integration.py
+python scripts/validate_modular.py
+node web/validate-teaching4.mjs
+npm run test:lod
+npm run test:walk
+npm run build:pages
+注：本轮测试实际通过单条node --experimental-strip-types --test执行两个测试集合，共21项。
+命令环境：Node22.22.2，Blender4.4.3，PYTHONUTF8=1；union脚本额外设置PYTHONPATH到.local/model-tools。
+
+【验收入口与限制】
+http://localhost:5173/?view=teaching4
+已打开页面需刷新，使内存中的旧场景释放并加载新清单；资源自身有revision防缓存。
+已验证HTTP资源、Three.js Node解析/图片解码、构建与自动化测试；未进行真实浏览器GPU截图或头显测试。
+用户视觉验收仍待反馈，不声称模型还原度或WebVR帧率达标。

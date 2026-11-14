@@ -1,0 +1,6 @@
+{
+  "source": "FudanCampus/web/public/models/lod/campus-tree--5_-4-far.glb",
+  "source_sha256": "266737b7db59212bcf2e8616490f31c57873175e349b42cac984db47941feb7a",
+  "leaf_sha256": "132313fce1d8236ba5c0ad0dbc647bd248530ca84d8cb8cd76b1167a3622d4ab",
+  "method": "reuse existing embedded campus leaf alpha texture, source unchanged"
+}

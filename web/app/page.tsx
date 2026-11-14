@@ -14,7 +14,7 @@ const views:{name:string;p:number[];t:number[];fov?:number;key?:string}[]=[
  {name:'叶耀珍楼',key:'yeyaozhen',p:[58,13,9],t:[73,5,-18],fov:48},
  {name:'曦园',key:'xiyuan',p:[-3,27,0],t:[24,2,-33],fov:48},
  {name:'第四教学楼',key:'teaching4',p:[-186.4,18,-157],t:[-154.4,9,-204],fov:48},
- {name:'四教书本雕塑',key:'teaching4-books',p:[-135,7,-179],t:[-142.7,3.5,-193.2],fov:48},
+ {name:'四教书本雕塑',key:'teaching4-books',p:[-130.2,7,-179],t:[-137.9,3.5,-193.2],fov:48},
  {name:'四教背面',key:'teaching4-rear',p:[-123,20,-251],t:[-154.4,10,-204],fov:48},
  {name:'北区食堂',p:[-351.2,22,-438.4],t:[-351.2,7,-514.4],fov:45,key:'canteen'},
  {name:'北区体育馆',p:[-505.8,55,-429.6],t:[-460.8,5,-509.6],fov:45,key:'gym'},

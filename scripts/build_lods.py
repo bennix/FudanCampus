@@ -47,7 +47,7 @@ def build_lods(only=None):
                 import struct
                 n=struct.unpack_from('<I',data,12)[0];gltf=json.loads(data[20:20+n])
                 triangles=sum(gltf['accessors'][p['indices']]['count']//3 for m in gltf.get('meshes',[]) for p in m['primitives'] if 'indices' in p)
-                tiers.append({'url':str(path.relative_to(PUBLIC)),'revision':hashlib.sha256(data).hexdigest()[:12],'bytes':len(data),'triangles':triangles})
+                tiers.append({'url':path.relative_to(PUBLIC).as_posix(),'revision':hashlib.sha256(data).hexdigest()[:12],'bytes':len(data),'triangles':triangles})
             result['assets']=[a for a in result['assets'] if a['id']!=key]
             result['assets'].append({'id':key,'name':asset['name'],'sourceRevision':asset['revision'],'labelPosition':asset.get('labelPosition'),'position':position,'rotation':asset.get('rotation',[0,0,0]),'bounds':bounds,'nearDistance':0 if key=='shared-00' else 35 if asset['id']=='58' else 100,'mediumDistance':0 if key=='shared-00' else 140 if asset['id']=='58' else 340,'tiers':tiers})
             print('LOD_ASSET',key,[(t['bytes'],t['triangles']) for t in tiers],flush=True)

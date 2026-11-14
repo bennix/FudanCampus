@@ -1,8 +1,8 @@
 {
   "version": 1,
-  "triangles": 448394,
-  "bytes": 16142184,
-  "sha256": "d59f3b79f41cfc5db26eadc5623b58f43b2fabd9fec0d78ad6cc85d20d00be2e",
+  "triangles": 451698,
+  "bytes": 16261128,
+  "sha256": "dbcce107cc76ce71df16952e1f046ade2de8e2f06fa8e5f81f0a43e8a0bd76ac",
   "sourceRevisions": [
     [
       "shared-00",
@@ -533,10 +533,6 @@
       "34d068aefeae"
     ],
     [
-      "buildings-17",
-      "c834a4507853"
-    ],
-    [
       "photo-xiyuan-structure",
       "a5740f26f3fb"
     ],
@@ -803,6 +799,10 @@
     [
       "landscape-tree-teaching3-vegetation-20",
       "e333239f5654"
+    ],
+    [
+      "buildings-17",
+      "a8b9edfa02f3"
     ]
   ]
 }

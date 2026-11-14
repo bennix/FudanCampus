@@ -1,0 +1,12 @@
+Blender 4.4.3 (hash 802179c51ccc built 2025-04-29 15:39:58)
+Read blend: "E:\csd4.1\VR\FudanCampus\assets\buildings\17.blend"
+Traceback (most recent call last):
+  File "E:\csd4.1\VR\FudanCampus\field-review\teaching4-2026-11-14-v1\validate.py", line 22, in <module>
+    assert all(checks.values()), 'Failed acceptance checks: ' + ', '.join(k for k,v in checks.items() if not v)
+           ^^^^^^^^^^^^^^^^^^^^
+AssertionError: Failed acceptance checks: side_door_present, side_canopy_present, balcony_return_glazing, recessed_entry, no_degenerate_faces, rear_tower_above_roof
+
+Error: script failed, file: 'FudanCampus/field-review/teaching4-2026-11-14-v1/validate.py', exiting.
+GEOMETRY_CHECKS {"checks": {"only_building_17": true, "side_door_present": false, "side_canopy_present": false, "balcony_return_glazing": false, "recessed_entry": false, "finite_vertices": true, "no_degenerate_faces": false, "triangle_budget_180000": true, "rear_tower_above_roof": false, "chinese_lettering_mesh": true}, "triangles": 70316}
+
+Blender quit

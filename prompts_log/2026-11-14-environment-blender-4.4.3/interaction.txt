@@ -1,0 +1,54 @@
+日期：2026-11-14（Asia/Shanghai）
+阶段：安装原项目版本 Blender 4.4.3 并重新验证
+
+【用户反馈，逐字记录】
+为什么不使用原项目版本的Blender CLI？
+
+【助手回复，逐字记录】
+因为我发现本机已有 Blender 5.0.1，就优先复用了现有安装，避免额外安装。但这个取舍不够妥当：**既然原项目明确使用 4.4.3，应优先保持版本一致**，减少建模、材质和导出接口差异。
+
+此前测试只能证明 5.0.1 的基本 CLI 链路可用，不能证明原项目脚本完全兼容。
+
+更合理的做法是并行安装 **Blender 4.4.3**，将项目 CLI 默认指向它，保留本机 5.0.1。现有模型尚未被改写，因此目前无需回退模型。
+
+【用户修正指令，逐字记录】
+请你在D目录下安装原项目版本的Blender CLI，并重新测试链路。
+
+【操作摘要】
+1. 下载官方 Windows x64 便携 ZIP 和官方 SHA-256 清单到 D:\BlenderCLI。
+   ZIP：https://download.blender.org/release/Blender4.4/blender-4.4.3-windows-x64.zip
+   清单：https://download.blender.org/release/Blender4.4/blender-4.4.3.sha256
+2. 解压前比对官方清单，SHA-256 一致：
+   60a9703b07f2cf42509f699ccdec4f5ede71c1932f6c14329f0e14c023e27d5c
+   ZIP 大小：385412148 字节；未覆盖原有 Blender 5.0.1。
+3. Expand-Archive 解压到 D:\BlenderCLI，安装入口为：
+   D:\BlenderCLI\blender-4.4.3-windows-x64\blender.exe
+   --version 确认 Blender 4.4.3，构建哈希 802179c51ccc。
+4. 修改 tools/Enter-Blender.ps1，默认使用 4.4.3，删除自动回退到其他版本的行为。
+   保留 BLENDER_EXE 显式覆盖；优先将所选目录放到当前进程 PATH 首位。
+5. 调整 tools/blender_smoke.py，将产物按实际 Blender 版本分目录保存，保留旧测试。
+6. 通过项目环境入口重新测试，进程退出码为 0，输出 BLENDER_SMOKE_PASS。
+   内置 Python 3.11.11；测试覆盖后台 Python、立方体与材质、Cycles CPU 渲染、
+   .blend 保存、GLB 文件头验证及重新导入、只读打开原 17/55 模型。
+7. 17/55 源文件在测试前后 SHA-256 一致，与旧版测试基线一致。
+   测试产物均位于本目录 smoke/，没有运行校园重建或模型更新脚本。
+8. 已知警告：内置笔刷材质路径不能相对化；55 为库文件，打开时提示空场景，
+   数据块仍包含 7 个对象/网格。原始信息保留在 smoke-output.txt。
+9. 更新 ENVIRONMENT.txt，标明新默认版本、安装位置、历史记录及终端切换方式。
+
+【验证命令，在工作区根目录，以不加载 profile 的 PowerShell 执行】
+. ./tools/Enter-Blender.ps1
+Get-Command blender
+blender --version
+blender --background --factory-startup --python-exit-code 1 --python ./tools/blender_smoke.py
+
+【切换已有终端】
+若曾加载 5.0.1 入口，执行 Remove-Item Env:BLENDER_EXE 后重新加载入口。
+该配置作用于当前终端，不修改系统 PATH。
+
+【证据与限制】
+command-resolution.txt：实际解析的 blender 路径。
+blender-version.txt：完整版本与构建信息。
+official-sha256.txt / archive-sha256.json：官方清单与本地 ZIP 哈希。
+smoke-output.txt / verification.json：测试原始输出与机器可读报告。
+此次是 CLI 链路验证；不等同于全部校园生成脚本、WebVR、头显或 FPS 已通过验证。

@@ -1,0 +1,4 @@
+HTTP_ROUND3_PASS models/lod/buildings-17-far.glb 51807d6a9688 1585112 16 tree meshes tagged, 3 MASK materials
+HTTP_ROUND3_PASS models/lod/buildings-17-medium.glb 66ff100a57b7 1596348 16 tree meshes tagged, 3 MASK materials
+HTTP_ROUND3_PASS models/buildings/17.glb d39f1e721a00 5088376 16 tree meshes tagged, 3 MASK materials
+LIVE_ROUND3_PASS http://localhost:5173/?view=teaching4

@@ -1,0 +1,3 @@
+HTTP_FRAME_FIX_PASS models/lod/buildings-17-far.glb a8b9edfa02f3 pale frame and plaster wall
+HTTP_FRAME_FIX_PASS models/lod/buildings-17-medium.glb c5bf0a62a802 pale frame and plaster wall
+HTTP_FRAME_FIX_PASS models/buildings/17.glb 6103106ba475 pale frame and plaster wall

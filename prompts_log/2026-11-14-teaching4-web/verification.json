@@ -1,0 +1,108 @@
+{
+  "building17": {
+    "id": "17",
+    "name": "第四教学楼",
+    "url": "models/buildings/17.glb",
+    "bytes": 4699476,
+    "revision": "d30f6bab1831",
+    "overview": {
+      "url": "models/buildings/17.glb",
+      "bytes": 4699476,
+      "revision": "d30f6bab1831"
+    },
+    "overviewMode": "full",
+    "position": [
+      -154.4,
+      0,
+      -204
+    ],
+    "rotation": [
+      0,
+      0,
+      0
+    ],
+    "orientationBaked": true,
+    "bounds": {
+      "min": [
+        -20.75,
+        0.11999999731779099,
+        -8.850000381469727
+      ],
+      "max": [
+        22.950000762939453,
+        22.130001068115234,
+        15.0
+      ]
+    },
+    "labelPosition": [
+      -154.4,
+      22.530001068115233,
+      -204
+    ],
+    "loadDistance": 240,
+    "source": "Six user reference files (five photographs and annotated map); photo-refined 2026-11-14; dimensions inferred"
+  },
+  "runtime": {
+    "id": "buildings-17",
+    "name": "第四教学楼",
+    "sourceRevision": "d30f6bab1831",
+    "labelPosition": [
+      -154.4,
+      22.530001068115233,
+      -204
+    ],
+    "position": [
+      -154.4,
+      0,
+      -204
+    ],
+    "rotation": [
+      0,
+      0,
+      0
+    ],
+    "bounds": {
+      "min": [
+        -175.15,
+        0.11999999731779099,
+        -212.85000038146973
+      ],
+      "max": [
+        -131.44999923706055,
+        22.130001068115234,
+        -189
+      ]
+    },
+    "nearDistance": 100,
+    "mediumDistance": 340,
+    "tiers": [
+      {
+        "url": "models/lod/buildings-17-far.glb",
+        "revision": "880d1f6ec2ad",
+        "bytes": 1435168,
+        "triangles": 75329
+      },
+      {
+        "url": "models/lod/buildings-17-medium.glb",
+        "revision": "f6347525cb22",
+        "bytes": 1446396,
+        "triangles": 77055
+      },
+      {
+        "url": "models/buildings/17.glb",
+        "revision": "d30f6bab1831",
+        "bytes": 4699476,
+        "triangles": 77710
+      }
+    ]
+  },
+  "other_manifest_entries_unchanged": true,
+  "other_lod_assets_unchanged": 199,
+  "protected_files_verified": 11,
+  "chemistry_source_unchanged": true,
+  "tests": "21/21",
+  "build_pages": "passed",
+  "http_server": "http://localhost:5173/?view=teaching4",
+  "user_visual_acceptance": "pending",
+  "online_deployment": false
+}

@@ -1,0 +1,24 @@
+第四教学楼第三轮修改
+
+网页验收：
+http://localhost:5173/?view=teaching4
+http://localhost:5173/?view=teaching4-rear
+已打开页面请Ctrl+F5刷新，重新读取模型清单；“树木”开关可隐藏/显示补充树木。
+
+本轮修改：
+1. 去除第三轮标注的后门旁底层窗外围框，保留内部浅色细格。
+   同时修复该窗后方实体误用深色材质的问题，周边外墙恢复浅色。
+2. 正面草坪西端对齐楼体西端X=-20.4，东端对齐正门西端X=-.35。
+   草坪约20.05x3.2米，进深按照片比例推定。
+3. 前庭、楼侧及背面补四棵较大树，最高约14米；复用已有校园透明叶簇贴图。
+   保留原公共植被源，新增树木位置、树冠尺寸与高度为照片参考下的近似配置。
+4. 保留此前入口两侧开敞、东翼退让、侧门后移及花坛对齐等修正。
+
+文件：
+17-candidate.blend / 17-candidate.glb；source/为参数化源码，textures/含复用叶簇及石材图。
+comparison-rear-window.jpg：标注窗对比；comparison-front.jpg：前庭草坪与树木对比。
+comparison-plan.jpg：草坪对齐与树位；comparison-rear.jpg：背面整体。
+baseline/和web-integration-backup/保留第二轮模型及本次接入前的网页资产。
+
+交付前自动同步现有网页、17三档LOD和步行碰撞；不发布线上。
+过程、原始提示词、错误与修复、验证结果保存在工作区prompts_log/2026-11-14-teaching4-v3/。

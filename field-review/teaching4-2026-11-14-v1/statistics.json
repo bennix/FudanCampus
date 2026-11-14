@@ -1,0 +1,27 @@
+{
+  "blender": "4.4.3",
+  "triangles": 77710,
+  "mesh_objects": 95,
+  "materials": 27,
+  "glb_bytes": 4699476,
+  "glb_sha256": "d30f6bab1831ec4d25ced84a233490ea635ffec0b1ff77f16c527008502b7bea",
+  "cleaned_degenerate_faces": 0,
+  "bounds_blender": {
+    "min": [
+      -20.75,
+      -15.0,
+      0.11999999731779099
+    ],
+    "max": [
+      22.950000762939453,
+      8.850000381469727,
+      22.130001068115234
+    ]
+  },
+  "glb_roundtrip": {
+    "meshes": 95,
+    "images": 3
+  },
+  "elapsed_seconds": 132.37,
+  "status": "candidate awaiting human visual acceptance; production unchanged"
+}

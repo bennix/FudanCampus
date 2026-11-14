@@ -1,0 +1,1 @@
+WALK_COLLISION 450930 triangles 16233480 bytes 10316 roof faces

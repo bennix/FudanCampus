@@ -1,0 +1,39 @@
+17号第四教学楼：候选 v1，待用户验收
+
+查看方式：
+0. 2026-11-14 已按用户要求接入本地网页并替换旧版。启动现有 npm run dev 后，
+   打开 http://localhost:5173/?view=teaching4 查看；书雕视角 ?view=teaching4-books，
+   背面视角 ?view=teaching4-rear。已打开的页面需刷新，以重新加载场景。
+1. 先看 comparison-front.jpg、comparison-rear.jpg、comparison-side-door.jpg、
+   comparison-sculpture.jpg。三列为实地照片、细化前、候选。前后模型相机完全相同；
+   照片与相机位置不同，不能作为像素级还原误差测量。
+2. 在 Blender 4.4.3 中打开 17-candidate.blend，可自由旋转检查；含审核相机和灯光。
+   候选 GLB 为 17-candidate.glb，仅导出建筑网格，石材贴图内嵌。
+3. renders/ 内有前后正面、背面、侧门、雕塑、正交俯视共10张原尺寸PNG。
+
+本轮主要变化：
+正面右侧两组宽窗；阳台转角玻璃、侧栏杆与底灯；有纵深的门厅、门拉手及台阶；
+塔身侧面分缝；抬高的背面楼梯塔与分格窄窗；右端小侧门、雨棚、台阶扶手；
+石材墙脚压顶；凹弧书口、薄封面和后书脊；石材贴图、时钟指针；加宽低花坛。
+
+请重点核对：
+正面窗口分组和阳台比例是否符合实景；侧门位置是否正确；背面塔楼高度和窗格；
+书堆的数量、错位与外形；花坛是否仍显过窄，以及雕塑相对入口的位置。
+
+限制：
+沿用现有约40.8x13.6米主体，是比例推定而非实测。未覆盖立面和内部保持简化。
+没有补造雕塑基座铭文，没有新增遮住立面的树、人车。
+17号模型、造型脚本、资源清单、标签、LOD和步行碰撞已同步。55号及其他楼栋资产未改。
+旧网页资源和清单保留于 web-integration-backup/。当前没有发布到线上。
+
+可复现（在工作区根 PowerShell）：
+. ./tools/Enter-Blender.ps1
+blender -b --factory-startup --python-exit-code 1 --python FudanCampus/field-review/teaching4-2026-11-14-v1/build_review.py
+blender -b FudanCampus/field-review/teaching4-2026-11-14-v1/17-candidate.blend --python-exit-code 1 --python FudanCampus/field-review/teaching4-2026-11-14-v1/validate.py
+blender -b --factory-startup --python-exit-code 1 --python FudanCampus/field-review/teaching4-2026-11-14-v1/verify_contacts.py
+python FudanCampus/field-review/teaching4-2026-11-14-v1/make_comparisons.py
+
+基线文件：baseline/；首轮候选GLB：iteration-1/；当前几何源：source/。
+参数依据：reference-annotations.json；技术指标：statistics.json。
+论文过程记录：工作区 prompts_log/2026-11-14-teaching4-v1/。
+网页接入过程：工作区 prompts_log/2026-11-14-teaching4-web/。

@@ -1,0 +1,12 @@
+Blender 4.4.3 (hash 802179c51ccc built 2025-04-29 15:39:58)
+Read blend: "E:\csd4.1\VR\FudanCampus\field-review\teaching4-2026-11-14-v3\17-candidate.blend"
+Traceback (most recent call last):
+  File "E:\csd4.1\VR\FudanCampus\field-review\teaching4-2026-11-14-v3\round3_validate.py", line 32, in <module>
+    assert all(checks.values()),'Round3 failures: '+', '.join(k for k,v in checks.items() if not v)
+           ^^^^^^^^^^^^^^^^^^^^
+AssertionError: Round3 failures: rear_window_surround_matches_plaster
+
+Error: script failed, file: 'FudanCampus/field-review/teaching4-2026-11-14-v3/round3_validate.py', exiting.
+ROUND3_CHECKS {"checks": {"lawn_west_matches_building": true, "lawn_east_matches_entry_west": true, "lawn_depth_enlarged": true, "rear_target_unframed_glazing": true, "rear_window_surround_matches_plaster": false, "four_photo_supported_tree_trunks": true, "tree_canopies_present": true, "tree_toggle_metadata": true, "marked_window_outer_frame_removed": true, "trees_larger_than_small_placeholders": true}, "perimeter_hits": [], "tree_max_height": 14.021870613098145}
+
+Blender quit

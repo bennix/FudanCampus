@@ -9,7 +9,7 @@
     "dev": "vinext dev",
     "build": "vinext build",
     "build:pages": "vite build --config vite.pages.config.ts",
-    "prebuild:pages": "node validate-models.mjs && python3 ../scripts/validate_lods.py && node validate-walk.mjs",
+    "prebuild:pages": "node validate-models.mjs && node validate-lods.mjs && node validate-walk.mjs",
     "integrate:hanbing": "node integrate-hanbing.mjs",
     "validate:models": "node validate-models.mjs",
     "start": "wrangler dev --config dist/server/wrangler.json",

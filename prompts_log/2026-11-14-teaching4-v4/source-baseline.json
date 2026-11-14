@@ -1,0 +1,10 @@
+{
+  "assets/buildings/17.blend": "496f844a38758171dcff31a7d1eb658252ea1a6bee3672e1969dc1ca254cd69d",
+  "assets/buildings/55.blend": "1dc951ebf5c92795d79180c4371008942ed1e0746410bfccd4a9f69ce9d4df00",
+  "scripts/teaching4_geometry.py": "91e768594a897e4af3212213713d16ee4f12fbdc129504687771194716bb0182",
+  "web/public/models/buildings/17.glb": "d39f1e721a003d55800d5cc312ba39e9fa6ae5fec46f5f9d6ecb1f3d09b2c89d",
+  "web/public/models/buildings/55.glb": "95a895241e1ca7d5dfb425794eb8cb55aae0fdd4ecec759d76066beb35e8dd0a",
+  "web/public/campus-manifest.json": "b2beaaa663c1fa53cfa66d060b358d9f08db8aa8afa085bf39278fe55517664e",
+  "web/public/campus-lod.json": "7be6ef50261145f238978fecc05334bd01f7fc4232d141a021e815b39dc37fb1",
+  "web/public/buildings.json": "e81505812b33b0d22e0865f15c21c793043faaf0438ccb91a69f24f7e23abe3a"
+}

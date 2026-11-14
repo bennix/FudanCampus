@@ -1,0 +1,4 @@
+NOTCH_PROBES [('T4 projecting sills', [(11.01, -3.765, 9.9), (11.01, -3.765, 10.0)])]
+Blender 4.4.3 (hash 802179c51ccc built 2025-04-29 15:39:58)
+
+Blender quit

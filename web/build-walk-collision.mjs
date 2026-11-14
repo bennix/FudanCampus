@@ -1,5 +1,6 @@
 // Fixed collision geometry is independent of visual LOD swaps.
 import fs from 'node:fs';
+import {fileURLToPath} from 'node:url';
 import {Matrix4,Vector3,Quaternion} from 'three';
 import {NodeIO} from '@gltf-transform/core';
 import {ALL_EXTENSIONS} from '@gltf-transform/extensions';
@@ -10,7 +11,7 @@ const io=new NodeIO().registerExtensions(ALL_EXTENSIONS).registerDependencies({'
 const lod=JSON.parse(fs.readFileSync(new URL('campus-lod.json',pub))),triangles=[],roofs=[];
 for(const a of lod.assets){
  if(/^(campus-tree-|landscape-shrub-)/.test(a.id))continue;
- const doc=await io.read(new URL(a.tiers[0].url,pub).pathname);
+ const doc=await io.read(fileURLToPath(new URL(a.tiers[0].url,pub)));
  for(const n of doc.getRoot().listNodes()){
   const mesh=n.getMesh();if(!mesh)continue;
   const name=n.getName().toLowerCase();let extras={};for(let o=n;o;o=o.getParentNode())extras={...o.getExtras(),...extras};

@@ -302,12 +302,12 @@
       "id": "17",
       "name": "第四教学楼",
       "url": "models/buildings/17.glb",
-      "bytes": 3969200,
-      "revision": "28e8ce4db2af",
+      "bytes": 5091276,
+      "revision": "6103106ba475",
       "overview": {
         "url": "models/buildings/17.glb",
-        "bytes": 3969200,
-        "revision": "28e8ce4db2af"
+        "bytes": 5091276,
+        "revision": "6103106ba475"
       },
       "overviewMode": "full",
       "position": [
@@ -323,23 +323,23 @@
       "orientationBaked": true,
       "bounds": {
         "min": [
-          -20.75,
-          0.1599999964237213,
-          -8.850000381469727
+          -21.2597713470459,
+          -0.008221220225095749,
+          -13.062935829162598
         ],
         "max": [
-          20.75,
-          21.130001068115234,
-          13.013772964477539
+          28.372976303100586,
+          22.130001068115234,
+          16.219945907592773
         ]
       },
       "labelPosition": [
         -154.4,
-        22,
+        22.530001068115233,
         -204
       ],
       "loadDistance": 240,
-      "source": "Eight user photographs; map footprint; dimensions inferred"
+      "source": "Photo refinement 2026-11-14; round-3 clarification: pale rear window frame retained, dark wall surround removed; dimensions inferred"
     },
     {
       "id": "20",

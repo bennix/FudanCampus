@@ -6649,60 +6649,6 @@
       ]
     },
     {
-      "id": "buildings-17",
-      "name": "第四教学楼",
-      "sourceRevision": "28e8ce4db2af",
-      "labelPosition": [
-        -154.4,
-        22,
-        -204
-      ],
-      "position": [
-        -154.4,
-        0,
-        -204
-      ],
-      "rotation": [
-        0,
-        0,
-        0
-      ],
-      "bounds": {
-        "min": [
-          -175.15,
-          0.1599999964237213,
-          -212.85000038146973
-        ],
-        "max": [
-          -133.65,
-          21.130001068115234,
-          -190.98622703552246
-        ]
-      },
-      "nearDistance": 100,
-      "mediumDistance": 340,
-      "tiers": [
-        {
-          "url": "models/lod/buildings-17-far.glb",
-          "revision": "c834a4507853",
-          "bytes": 1045540,
-          "triangles": 62680
-        },
-        {
-          "url": "models/lod/buildings-17-medium.glb",
-          "revision": "e30b9cea982e",
-          "bytes": 1081144,
-          "triangles": 68266
-        },
-        {
-          "url": "models/buildings/17.glb",
-          "revision": "28e8ce4db2af",
-          "bytes": 3969200,
-          "triangles": 70316
-        }
-      ]
-    },
-    {
       "id": "photo-xiyuan-structure",
       "sourceId": "shared-photo-xiyuan",
       "name": "曦园 · 实景模型 structure",
@@ -10049,6 +9995,60 @@
           "bytes": 131452,
           "revision": "7309dee8c811",
           "triangles": 8704
+        }
+      ]
+    },
+    {
+      "id": "buildings-17",
+      "name": "第四教学楼",
+      "sourceRevision": "6103106ba475",
+      "labelPosition": [
+        -154.4,
+        22.530001068115233,
+        -204
+      ],
+      "position": [
+        -154.4,
+        0,
+        -204
+      ],
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "bounds": {
+        "min": [
+          -175.6597713470459,
+          -0.008221220225095749,
+          -217.0629358291626
+        ],
+        "max": [
+          -126.02702369689942,
+          22.130001068115234,
+          -187.78005409240723
+        ]
+      },
+      "nearDistance": 100,
+      "mediumDistance": 340,
+      "tiers": [
+        {
+          "url": "models/lod/buildings-17-far.glb",
+          "revision": "a8b9edfa02f3",
+          "bytes": 1586216,
+          "triangles": 80749
+        },
+        {
+          "url": "models/lod/buildings-17-medium.glb",
+          "revision": "c5bf0a62a802",
+          "bytes": 1597452,
+          "triangles": 82475
+        },
+        {
+          "url": "models/buildings/17.glb",
+          "revision": "6103106ba475",
+          "bytes": 5091276,
+          "triangles": 83130
         }
       ]
     }

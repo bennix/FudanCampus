@@ -1,0 +1,32 @@
+
+> sites-project@0.1.0 prebuild:pages
+> node validate-models.mjs && node validate-lods.mjs && node validate-walk.mjs
+
+PASS: 13 detail and overview GLBs load in Three.js; embedded images decode and local bounds match
+PASS: old body/roof and 1056 batched detail triangles removed; other historic geometry unchanged; two roads match accepted context; apron has no folded faces/interior cracks; no road crosses the building envelope
+PASS: teaching4 six-storey facade, garden, books and clock present; 2630 old detail triangles removed; all other district triangles and source buffers unchanged
+Native Blender source archived locally; validating delivered web geometry
+PASS: unified Guanghua 2239 meshes; 4 text nodes; 330 complete LOD groups; surface and duplication probes; protected campus assets unchanged
+PASS: three photo studies placed; other original modules/sources preserved; teaching4 independently verified; old placeholders removed; sphere is round; rejected stair absent
+PASS: 200 assets, 3 LOD tiers, current source hashes, positions and GLB metadata
+Overview payload: 41,869,620 bytes; 2,397,093 triangles
+PASS: fixed walk collision, source freshness, binary hash and sealed interiors with courtyard holes
+
+> sites-project@0.1.0 build:pages
+> vite build --config vite.pages.config.ts
+
+vite v8.0.13 building client environment for production...
+[2K
+transforming...✓ 29 modules transformed.
+rendering chunks...
+computing gzip size...
+dist-pages/index.html                   0.69 kB │ gzip:   0.51 kB
+dist-pages/assets/index-Bj-trjkX.css    7.73 kB │ gzip:   2.38 kB
+dist-pages/assets/index-CTtAumLJ.js   877.84 kB │ gzip: 237.11 kB
+
+✓ built in 333ms
+[plugin builtin:vite-reporter] 
+(!) Some chunks are larger than 500 kB after minification. Consider:
+- Using dynamic import() to code-split the application
+- Use build.rolldownOptions.output.codeSplitting to improve chunking: https://rolldown.rs/reference/OutputOptions.codeSplitting
+- Adjust chunk size limit for this warning via build.chunkSizeWarningLimit.

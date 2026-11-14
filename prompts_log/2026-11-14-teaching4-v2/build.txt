@@ -1,0 +1,1069 @@
+Extensions: writing cache failed ([WinError 5] 拒绝访问。: 'C:\\Users\\22878\\AppData\\Roaming\\Blender Foundation\\Blender\\4.4').
+GEOMETRY_CHECKS {"checks": {"only_building_17": true, "side_door_present": true, "side_canopy_present": true, "balcony_return_glazing": true, "recessed_entry": true, "finite_vertices": true, "no_degenerate_faces": true, "triangle_budget_180000": true, "rear_tower_above_roof": true, "chinese_lettering_mesh": true}, "triangles": 77006}
+ROUND2_CHECKS {"checks": {"entry_side_walls_removed": true, "upper_east_notch_clear": true, "flowerbed_west_aligned_entry": true, "flowerbed_east_aligned_building": true, "west_lawn_present": true, "side_door_moves_with_wing": true, "rear_small_window_strip_no_large_window": true, "rear_small_windows_between_floors": true, "rear_glass_door_details": true, "rear_landing_present": true, "porch_sideways_clear": true, "rear_ground_no_black_frames": true, "no_steps_flush_over_paving": true, "parapets_butt_without_volume_overlap": true}, "porch_obstructions": [], "rear_dark_ground_frames": [], "coplanar_treads": [], "parapet_overlaps": []}
+INFO Draco mesh compression is available, use library at D:\BlenderCLI\blender-4.4.3-windows-x64\4.4\scripts\addons_core\io_scene_gltf2\extern_draco.dll
+20:25:32 | INFO: Starting glTF 2.0 export
+20:25:32 | INFO: Extracting primitive: six storey structure
+20:25:32 | INFO: Primitives created: 1
+20:25:32 | INFO: Extracting primitive: setback east wing
+20:25:32 | INFO: Primitives created: 1
+20:25:32 | INFO: Extracting primitive: ground left structure
+20:25:32 | INFO: Primitives created: 1
+20:25:32 | INFO: Extracting primitive: ground right structure
+20:25:32 | INFO: Primitives created: 1
+20:25:32 | INFO: Extracting primitive: setback east ground structure
+20:25:32 | INFO: Primitives created: 1
+20:25:32 | INFO: Extracting primitive: entry recess back structure
+20:25:32 | INFO: Primitives created: 1
+20:25:32 | INFO: Extracting primitive: flat roof
+20:25:32 | INFO: Primitives created: 1
+20:25:32 | INFO: Extracting primitive: setback east flat roof
+20:25:32 | INFO: Primitives created: 1
+20:25:32 | INFO: Extracting primitive: roof parapet
+20:25:32 | INFO: Primitives created: 1
+20:25:32 | INFO: Extracting primitive: setback front parapet
+20:25:32 | INFO: Primitives created: 1
+20:25:32 | INFO: Extracting primitive: setback notch parapet
+20:25:32 | INFO: Primitives created: 1
+20:25:32 | INFO: Extracting primitive: end parapet
+20:25:32 | INFO: Primitives created: 1
+20:25:32 | INFO: Extracting primitive: window glass
+20:25:32 | INFO: Primitives created: 1
+20:25:32 | INFO: Extracting primitive: window mullions
+20:25:32 | INFO: Primitives created: 1
+20:25:32 | INFO: Extracting primitive: window transoms
+20:25:32 | INFO: Primitives created: 1
+20:25:32 | INFO: Extracting primitive: projecting sills
+20:25:32 | INFO: Primitives created: 1
+20:25:32 | INFO: Extracting primitive: curtain panels
+20:25:32 | INFO: Primitives created: 1
+20:25:32 | INFO: Extracting primitive: window glass.001
+20:25:32 | INFO: Primitives created: 1
+20:25:32 | INFO: Extracting primitive: window glass.002
+20:25:32 | INFO: Primitives created: 1
+20:25:32 | INFO: Extracting primitive: window glass.003
+20:25:32 | INFO: Primitives created: 1
+20:25:32 | INFO: Extracting primitive: sandstone plinth
+20:25:32 | INFO: Primitives created: 1
+20:25:32 | INFO: Extracting primitive: sandstone plinth.001
+20:25:32 | INFO: Primitives created: 1
+20:25:32 | INFO: Extracting primitive: sandstone plinth.002
+20:25:32 | INFO: Primitives created: 1
+20:25:32 | INFO: Extracting primitive: window mullions.001
+20:25:32 | INFO: Primitives created: 1
+20:25:32 | INFO: Extracting primitive: window transoms.001
+20:25:32 | INFO: Primitives created: 1
+20:25:32 | INFO: Extracting primitive: balcony slab
+20:25:32 | INFO: Primitives created: 1
+20:25:32 | INFO: Extracting primitive: balcony front
+20:25:32 | INFO: Primitives created: 1
+20:25:32 | INFO: Extracting primitive: balcony returns
+20:25:32 | INFO: Primitives created: 1
+20:25:32 | INFO: Extracting primitive: balcony handrails
+20:25:32 | INFO: Primitives created: 1
+20:25:32 | INFO: Extracting primitive: balcony posts
+20:25:32 | INFO: Primitives created: 1
+20:25:32 | INFO: Extracting primitive: balcony side handrails
+20:25:32 | INFO: Primitives created: 1
+20:25:32 | INFO: Extracting primitive: balcony return glazing
+20:25:32 | INFO: Primitives created: 1
+20:25:32 | INFO: Extracting primitive: balcony return frames
+20:25:32 | INFO: Primitives created: 1
+20:25:32 | INFO: Extracting primitive: balcony soffit lights
+20:25:32 | INFO: Primitives created: 1
+20:25:32 | INFO: Extracting primitive: front shaft
+20:25:32 | INFO: Primitives created: 1
+20:25:32 | INFO: Extracting primitive: shaft horizontal joints
+20:25:32 | INFO: Primitives created: 1
+20:25:32 | INFO: Extracting primitive: shaft vertical joints
+20:25:32 | INFO: Primitives created: 1
+20:25:32 | INFO: Extracting primitive: shaft side joints
+20:25:32 | INFO: Primitives created: 1
+20:25:32 | INFO: Extracting primitive: balcony drainpipe
+20:25:32 | INFO: Primitives created: 1
+20:25:32 | INFO: Extracting primitive: shaft top vent
+20:25:32 | INFO: Primitives created: 1
+20:25:32 | INFO: Extracting primitive: vent louvers
+20:25:32 | INFO: Primitives created: 1
+20:25:32 | INFO: Extracting primitive: rear stair tower
+20:25:32 | INFO: Primitives created: 1
+20:25:32 | INFO: Extracting primitive: stair slot frames
+20:25:32 | INFO: Primitives created: 1
+20:25:32 | INFO: Extracting primitive: stair slot glazing
+20:25:32 | INFO: Primitives created: 1
+20:25:32 | INFO: Extracting primitive: stair slot transom
+20:25:32 | INFO: Primitives created: 1
+20:25:32 | INFO: Extracting primitive: stair slot glazing.001
+20:25:32 | INFO: Primitives created: 1
+20:25:32 | INFO: Extracting primitive: stair slot glazing.002
+20:25:32 | INFO: Primitives created: 1
+20:25:32 | INFO: Extracting primitive: stair slot glazing.003
+20:25:32 | INFO: Primitives created: 1
+20:25:32 | INFO: Extracting primitive: stair sill ledges
+20:25:32 | INFO: Primitives created: 1
+20:25:32 | INFO: Extracting primitive: roof stair guardrail
+20:25:32 | INFO: Primitives created: 1
+20:25:32 | INFO: Extracting primitive: roof perimeter rail
+20:25:32 | INFO: Primitives created: 1
+20:25:32 | INFO: Extracting primitive: rear small end windows
+20:25:32 | INFO: Primitives created: 1
+20:25:32 | INFO: Extracting primitive: rear small end glazing
+20:25:32 | INFO: Primitives created: 1
+20:25:32 | INFO: Extracting primitive: rear small end divider
+20:25:32 | INFO: Primitives created: 1
+20:25:32 | INFO: Extracting primitive: entry glazing
+20:25:32 | INFO: Primitives created: 1
+20:25:32 | INFO: Extracting primitive: entry recess floor
+20:25:32 | INFO: Primitives created: 1
+20:25:32 | INFO: Extracting primitive: entry door frames
+20:25:32 | INFO: Primitives created: 1
+20:25:32 | INFO: Extracting primitive: entry door handles
+20:25:32 | INFO: Primitives created: 1
+20:25:32 | INFO: Extracting primitive: entry door transom
+20:25:32 | INFO: Primitives created: 1
+20:25:32 | INFO: Extracting primitive: entry steps
+20:25:32 | INFO: Primitives created: 1
+20:25:32 | INFO: Extracting primitive: accessible ramp
+20:25:32 | INFO: Primitives created: 1
+20:25:32 | INFO: Extracting primitive: ramp handrail
+20:25:32 | INFO: Primitives created: 1
+20:25:32 | INFO: Extracting primitive: ramp posts
+20:25:32 | INFO: Primitives created: 1
+20:25:32 | INFO: Extracting primitive: rear door
+20:25:32 | INFO: Primitives created: 1
+20:25:32 | INFO: Extracting primitive: rear canopy
+20:25:32 | INFO: Primitives created: 1
+20:25:32 | INFO: Extracting primitive: rear glass door frames
+20:25:32 | INFO: Primitives created: 1
+20:25:32 | INFO: Extracting primitive: rear glass door transom
+20:25:32 | INFO: Primitives created: 1
+20:25:32 | INFO: Extracting primitive: rear glass door handles
+20:25:32 | INFO: Primitives created: 1
+20:25:32 | INFO: Extracting primitive: rear entrance landing
+20:25:32 | INFO: Primitives created: 1
+20:25:32 | INFO: Extracting primitive: rear entrance steps
+20:25:32 | INFO: Primitives created: 1
+20:25:32 | INFO: Extracting primitive: rear entrance paving
+20:25:32 | INFO: Primitives created: 1
+20:25:32 | INFO: Extracting primitive: side entrance door
+20:25:32 | INFO: Primitives created: 1
+20:25:32 | INFO: Extracting primitive: side entrance frames
+20:25:32 | INFO: Primitives created: 1
+20:25:32 | INFO: Extracting primitive: side entrance transom
+20:25:32 | INFO: Primitives created: 1
+20:25:32 | INFO: Extracting primitive: side canopy roof
+20:25:32 | INFO: Primitives created: 1
+20:25:32 | INFO: Extracting primitive: side canopy ribs
+20:25:32 | INFO: Primitives created: 1
+20:25:32 | INFO: Extracting primitive: side canopy braces
+20:25:32 | INFO: Primitives created: 1
+20:25:32 | INFO: Extracting primitive: side entrance steps
+20:25:32 | INFO: Primitives created: 1
+20:25:32 | INFO: Extracting primitive: side entrance paving
+20:25:32 | INFO: Primitives created: 1
+20:25:32 | INFO: Extracting primitive: side stair handrail
+20:25:32 | INFO: Primitives created: 1
+20:25:32 | INFO: Extracting primitive: side stair posts
+20:25:32 | INFO: Primitives created: 1
+20:25:32 | INFO: Extracting primitive: side sandstone plinth
+20:25:32 | INFO: Primitives created: 1
+20:25:32 | INFO: Extracting primitive: side sandstone plinth.001
+20:25:32 | INFO: Primitives created: 1
+20:25:32 | INFO: Extracting primitive: side sandstone plinth.002
+20:25:32 | INFO: Primitives created: 1
+20:25:32 | INFO: Extracting primitive: sandstone plinth coping
+20:25:32 | INFO: Primitives created: 1
+20:25:32 | INFO: Extracting primitive: forecourt paving
+20:25:32 | INFO: Primitives created: 1
+20:25:32 | INFO: Extracting primitive: paving joints
+20:25:32 | INFO: Primitives created: 1
+20:25:32 | INFO: Extracting primitive: west forecourt lawn
+20:25:32 | INFO: Primitives created: 1
+20:25:32 | INFO: Extracting primitive: west lawn kerb
+20:25:32 | INFO: Primitives created: 1
+20:25:32 | INFO: Extracting primitive: flowerbed soil
+20:25:32 | INFO: Primitives created: 1
+20:25:32 | INFO: Extracting primitive: dark stone flowerbed edging
+20:25:32 | INFO: Primitives created: 1
+20:25:32 | INFO: Extracting primitive: flowerbed coping
+20:25:32 | INFO: Primitives created: 1
+20:25:32 | INFO: Extracting primitive: flowerbed foliage
+20:25:32 | INFO: Primitives created: 1
+20:25:32 | INFO: Extracting primitive: flowerbed foliage.001
+20:25:32 | INFO: Primitives created: 1
+20:25:32 | INFO: Extracting primitive: flowerbed foliage.002
+20:25:32 | INFO: Primitives created: 1
+20:25:32 | INFO: Extracting primitive: flowerbed foliage.003
+20:25:32 | INFO: Primitives created: 1
+20:25:32 | INFO: Extracting primitive: flowerbed foliage.004
+20:25:32 | INFO: Primitives created: 1
+20:25:32 | INFO: Extracting primitive: flowerbed foliage.005
+20:25:32 | INFO: Primitives created: 1
+20:25:32 | INFO: Extracting primitive: sculpture black footing
+20:25:32 | INFO: Primitives created: 1
+20:25:32 | INFO: Extracting primitive: sculpture granite pedestal
+20:25:32 | INFO: Primitives created: 1
+20:25:32 | INFO: Extracting primitive: curved book page blocks
+20:25:32 | INFO: Primitives created: 1
+20:25:32 | INFO: Extracting primitive: overhanging book covers
+20:25:32 | INFO: Primitives created: 1
+20:25:32 | INFO: Extracting primitive: book rear spine
+20:25:32 | INFO: Primitives created: 1
+20:25:32 | INFO: Extracting primitive: engraved page strata
+20:25:32 | INFO: Primitives created: 1
+20:25:32 | INFO: Extracting primitive: upright clock book
+20:25:32 | INFO: Primitives created: 1
+20:25:32 | INFO: Extracting primitive: clock spine
+20:25:32 | INFO: Primitives created: 1
+20:25:32 | INFO: Extracting primitive: clock hour marks
+20:25:32 | INFO: Primitives created: 1
+20:25:32 | INFO: Extracting primitive: clock minute hand
+20:25:32 | INFO: Primitives created: 1
+20:25:32 | INFO: Extracting primitive: clock hour hand
+20:25:32 | INFO: Primitives created: 1
+20:25:32 | INFO: Extracting primitive: 第四教学楼
+20:25:32 | INFO: Primitives created: 1
+20:25:32 | INFO: Finished glTF 2.0 export in 0.18072175979614258 s
+Blender 4.4.3 (hash 802179c51ccc built 2025-04-29 15:39:58)
+Fra:1 Mem:45.34M (Peak 45.34M) | Time:00:00.00 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | T4 six storey structure
+Fra:1 Mem:45.34M (Peak 45.34M) | Time:00:00.00 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | T4 roof parapet
+Fra:1 Mem:45.34M (Peak 45.34M) | Time:00:00.00 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | T4 window transoms
+Fra:1 Mem:45.34M (Peak 45.34M) | Time:00:00.00 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | T4 curtain panels
+Fra:1 Mem:45.35M (Peak 45.35M) | Time:00:00.00 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | T4 window glass.001
+Fra:1 Mem:45.35M (Peak 45.35M) | Time:00:00.00 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | T4 window glass.002
+Fra:1 Mem:45.37M (Peak 45.37M) | Time:00:00.00 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | T4 window glass.003
+Fra:1 Mem:45.39M (Peak 45.39M) | Time:00:00.00 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | T4 sandstone plinth
+Fra:1 Mem:45.39M (Peak 45.39M) | Time:00:00.00 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | T4 sandstone plinth.001
+Fra:1 Mem:45.49M (Peak 45.49M) | Time:00:00.00 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | T4 sandstone plinth.002
+Fra:1 Mem:45.56M (Peak 45.57M) | Time:00:00.00 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | T4 window mullions.001
+Fra:1 Mem:45.69M (Peak 45.69M) | Time:00:00.00 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | T4 window transoms.001
+Fra:1 Mem:45.91M (Peak 45.91M) | Time:00:00.00 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | T4 balcony slab
+Fra:1 Mem:45.94M (Peak 45.94M) | Time:00:00.00 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | T4 balcony front
+Fra:1 Mem:46.13M (Peak 46.13M) | Time:00:00.00 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | T4 balcony returns
+Fra:1 Mem:46.20M (Peak 46.20M) | Time:00:00.00 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | T4 balcony handrails
+Fra:1 Mem:46.23M (Peak 46.23M) | Time:00:00.00 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | T4 balcony posts
+Fra:1 Mem:46.31M (Peak 46.32M) | Time:00:00.00 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | T4 balcony return frames
+Fra:1 Mem:46.36M (Peak 46.36M) | Time:00:00.00 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | T4 entrance lettering
+Fra:1 Mem:46.44M (Peak 46.44M) | Time:00:00.00 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | T4 shaft horizontal joints
+Fra:1 Mem:46.55M (Peak 46.55M) | Time:00:00.00 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | T4 shaft side joints
+Fra:1 Mem:46.64M (Peak 46.64M) | Time:00:00.00 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | T4 shaft top vent
+Fra:1 Mem:46.67M (Peak 46.67M) | Time:00:00.00 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | T4 vent louvers
+Fra:1 Mem:46.69M (Peak 46.69M) | Time:00:00.00 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | T4 rear stair tower
+Fra:1 Mem:46.70M (Peak 46.70M) | Time:00:00.00 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | T4 stair slot transom
+Fra:1 Mem:46.72M (Peak 46.72M) | Time:00:00.00 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | T4 stair slot glazing.001
+Fra:1 Mem:47.35M (Peak 47.35M) | Time:00:00.00 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | T4 stair slot glazing.003
+Fra:1 Mem:47.35M (Peak 47.35M) | Time:00:00.00 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | T4 stair sill ledges
+Fra:1 Mem:47.74M (Peak 47.74M) | Time:00:00.00 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | T4 roof stair guardrail
+Fra:1 Mem:47.79M (Peak 47.79M) | Time:00:00.00 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | T4 roof perimeter rail
+Fra:1 Mem:47.83M (Peak 47.83M) | Time:00:00.00 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | T4 rear small end windows
+Fra:1 Mem:47.85M (Peak 47.85M) | Time:00:00.00 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | T4 entry glazing
+Fra:1 Mem:47.86M (Peak 47.86M) | Time:00:00.00 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | T4 entry door frames
+Fra:1 Mem:47.85M (Peak 47.86M) | Time:00:00.00 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | T4 entry steps
+Fra:1 Mem:47.86M (Peak 47.86M) | Time:00:00.00 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | T4 accessible ramp
+Fra:1 Mem:47.88M (Peak 47.88M) | Time:00:00.00 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | T4 ramp handrail
+Fra:1 Mem:47.89M (Peak 47.89M) | Time:00:00.00 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | T4 ramp posts
+Fra:1 Mem:47.92M (Peak 47.92M) | Time:00:00.00 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | T4 rear canopy
+Fra:1 Mem:47.92M (Peak 47.92M) | Time:00:00.00 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | T4 rear glass door frames
+Fra:1 Mem:48.19M (Peak 48.19M) | Time:00:00.00 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | T4 rear glass door transom
+Fra:1 Mem:48.19M (Peak 48.19M) | Time:00:00.00 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | T4 rear glass door handles
+Fra:1 Mem:48.19M (Peak 48.19M) | Time:00:00.00 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | T4 rear entrance steps
+Fra:1 Mem:48.20M (Peak 48.20M) | Time:00:00.00 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | T4 rear entrance paving
+Fra:1 Mem:48.21M (Peak 48.21M) | Time:00:00.00 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | T4 side entrance door
+Fra:1 Mem:48.22M (Peak 48.22M) | Time:00:00.00 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | T4 side entrance frames
+Fra:1 Mem:48.23M (Peak 48.23M) | Time:00:00.00 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | T4 side entrance transom
+Fra:1 Mem:48.23M (Peak 48.23M) | Time:00:00.00 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | T4 side canopy ribs
+Fra:1 Mem:48.23M (Peak 48.23M) | Time:00:00.00 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | T4 side canopy braces
+Fra:1 Mem:48.23M (Peak 48.23M) | Time:00:00.00 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | T4 side entrance paving
+Fra:1 Mem:48.24M (Peak 48.24M) | Time:00:00.00 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | T4 side stair posts
+Fra:1 Mem:48.25M (Peak 48.25M) | Time:00:00.00 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | T4 side sandstone plinth
+Fra:1 Mem:48.25M (Peak 48.25M) | Time:00:00.00 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | T4 side sandstone plinth.001
+Fra:1 Mem:48.27M (Peak 48.27M) | Time:00:00.00 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | T4 sandstone plinth coping
+Fra:1 Mem:48.28M (Peak 48.28M) | Time:00:00.00 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | T4 forecourt paving
+Fra:1 Mem:48.30M (Peak 48.30M) | Time:00:00.00 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | T4 paving joints
+Fra:1 Mem:48.30M (Peak 48.30M) | Time:00:00.00 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | T4 west forecourt lawn
+Fra:1 Mem:48.30M (Peak 48.30M) | Time:00:00.00 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | T4 flowerbed soil
+Fra:1 Mem:48.31M (Peak 48.31M) | Time:00:00.00 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | T4 dark stone flowerbed edging
+Fra:1 Mem:48.46M (Peak 48.46M) | Time:00:00.00 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | T4 flowerbed coping
+Fra:1 Mem:48.56M (Peak 48.56M) | Time:00:00.00 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | T4 flowerbed foliage
+Fra:1 Mem:48.61M (Peak 48.61M) | Time:00:00.00 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | T4 flowerbed foliage.001
+Fra:1 Mem:48.95M (Peak 48.95M) | Time:00:00.00 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | T4 flowerbed foliage.002
+Fra:1 Mem:49.48M (Peak 49.48M) | Time:00:00.00 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | T4 flowerbed foliage.003
+Fra:1 Mem:49.53M (Peak 49.53M) | Time:00:00.00 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | T4 flowerbed foliage.004
+Fra:1 Mem:50.20M (Peak 50.20M) | Time:00:00.00 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | T4 flowerbed foliage.005
+Fra:1 Mem:50.20M (Peak 50.20M) | Time:00:00.00 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | T4 sculpture black footing
+Fra:1 Mem:50.24M (Peak 50.24M) | Time:00:00.00 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | T4 sculpture granite pedestal
+Fra:1 Mem:50.39M (Peak 50.39M) | Time:00:00.00 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | T4 curved book page blocks
+Fra:1 Mem:50.85M (Peak 50.85M) | Time:00:00.00 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | T4 book rear spine
+Fra:1 Mem:50.97M (Peak 50.97M) | Time:00:00.00 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | T4 engraved page strata
+Fra:1 Mem:50.98M (Peak 50.98M) | Time:00:00.00 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | T4 upright clock book
+Fra:1 Mem:51.03M (Peak 51.03M) | Time:00:00.00 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | T4 clock spine
+Fra:1 Mem:51.29M (Peak 51.29M) | Time:00:00.00 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | T4 clock hour marks
+Fra:1 Mem:51.79M (Peak 51.79M) | Time:00:00.00 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | T4 clock minute hand
+Fra:1 Mem:53.02M (Peak 53.02M) | Time:00:00.00 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Initializing
+Fra:1 Mem:52.59M (Peak 53.02M) | Time:00:00.00 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Updating Images | Loading granite-2
+Fra:1 Mem:52.59M (Peak 53.02M) | Time:00:00.00 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Updating Images | Loading granite-0
+Fra:1 Mem:52.59M (Peak 53.02M) | Time:00:00.00 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Updating Images | Loading granite-1
+Fra:1 Mem:48.38M (Peak 53.02M) | Time:00:00.01 | Mem:0.19M, Peak:0.19M | Scene, ViewLayer | Waiting for render to start
+Fra:1 Mem:48.38M (Peak 53.02M) | Time:00:00.01 | Mem:0.19M, Peak:0.19M | Scene, ViewLayer | Loading render kernels (may take a few minutes the first time)
+Fra:1 Mem:48.38M (Peak 53.02M) | Time:00:00.01 | Mem:0.19M, Peak:0.19M | Scene, ViewLayer | Updating Scene
+Fra:1 Mem:48.38M (Peak 53.02M) | Time:00:00.01 | Mem:0.19M, Peak:0.19M | Scene, ViewLayer | Updating Shaders
+Fra:1 Mem:48.48M (Peak 53.02M) | Time:00:00.01 | Mem:0.21M, Peak:0.21M | Scene, ViewLayer | Updating Procedurals
+Fra:1 Mem:48.48M (Peak 53.02M) | Time:00:00.01 | Mem:0.21M, Peak:0.21M | Scene, ViewLayer | Updating Background
+Fra:1 Mem:48.48M (Peak 53.02M) | Time:00:00.01 | Mem:0.21M, Peak:0.21M | Scene, ViewLayer | Updating Camera
+Fra:1 Mem:48.48M (Peak 53.02M) | Time:00:00.01 | Mem:0.21M, Peak:0.21M | Scene, ViewLayer | Updating Meshes Flags
+Fra:1 Mem:48.48M (Peak 53.02M) | Time:00:00.01 | Mem:0.21M, Peak:0.21M | Scene, ViewLayer | Updating Objects
+Fra:1 Mem:48.48M (Peak 53.02M) | Time:00:00.01 | Mem:0.21M, Peak:0.21M | Scene, ViewLayer | Updating Objects | Copying Transformations to device
+Fra:1 Mem:48.51M (Peak 53.02M) | Time:00:00.01 | Mem:0.23M, Peak:0.23M | Scene, ViewLayer | Updating Objects | Applying Static Transformations
+Fra:1 Mem:48.51M (Peak 53.02M) | Time:00:00.01 | Mem:0.23M, Peak:0.23M | Scene, ViewLayer | Updating Particle Systems
+Fra:1 Mem:48.51M (Peak 53.02M) | Time:00:00.01 | Mem:0.23M, Peak:0.23M | Scene, ViewLayer | Updating Particle Systems | Copying Particles to device
+Fra:1 Mem:48.51M (Peak 53.02M) | Time:00:00.01 | Mem:0.23M, Peak:0.23M | Scene, ViewLayer | Updating Meshes
+Fra:1 Mem:49.68M (Peak 53.02M) | Time:00:00.01 | Mem:0.23M, Peak:0.23M | Scene, ViewLayer | Updating Mesh | Computing attributes
+Fra:1 Mem:50.87M (Peak 53.02M) | Time:00:00.01 | Mem:0.24M, Peak:0.24M | Scene, ViewLayer | Updating Mesh | Copying Attributes to device
+Fra:1 Mem:50.85M (Peak 53.02M) | Time:00:00.01 | Mem:1.41M, Peak:1.41M | Scene, ViewLayer | Updating Scene BVH | Building
+Fra:1 Mem:50.86M (Peak 53.02M) | Time:00:00.01 | Mem:1.41M, Peak:1.41M | Scene, ViewLayer | Updating Scene BVH | Building BVH
+Fra:1 Mem:50.86M (Peak 53.02M) | Time:00:00.01 | Mem:3.76M, Peak:3.76M | Scene, ViewLayer | Updating Scene BVH | Building BVH 0%
+Fra:1 Mem:50.86M (Peak 53.02M) | Time:00:00.01 | Mem:6.32M, Peak:8.67M | Scene, ViewLayer | Updating Scene BVH | Copying BVH to device
+Fra:1 Mem:50.86M (Peak 53.02M) | Time:00:00.01 | Mem:6.32M, Peak:8.67M | Scene, ViewLayer | Updating Mesh | Computing normals
+Fra:1 Mem:55.12M (Peak 55.12M) | Time:00:00.01 | Mem:6.32M, Peak:8.67M | Scene, ViewLayer | Updating Mesh | Copying Mesh to device
+Fra:1 Mem:55.12M (Peak 55.12M) | Time:00:00.01 | Mem:10.58M, Peak:10.58M | Scene, ViewLayer | Updating Objects Flags
+Fra:1 Mem:55.12M (Peak 55.12M) | Time:00:00.01 | Mem:10.58M, Peak:10.58M | Scene, ViewLayer | Updating Primitive Offsets
+Fra:1 Mem:55.12M (Peak 55.12M) | Time:00:00.01 | Mem:10.58M, Peak:10.58M | Scene, ViewLayer | Updating Images
+Fra:1 Mem:55.12M (Peak 55.12M) | Time:00:00.01 | Mem:10.58M, Peak:10.58M | Scene, ViewLayer | Updating Camera Volume
+Fra:1 Mem:55.12M (Peak 55.12M) | Time:00:00.01 | Mem:10.58M, Peak:10.58M | Scene, ViewLayer | Updating Lookup Tables
+Fra:1 Mem:55.12M (Peak 55.12M) | Time:00:00.01 | Mem:10.66M, Peak:10.66M | Scene, ViewLayer | Updating Lights
+Fra:1 Mem:55.12M (Peak 55.12M) | Time:00:00.01 | Mem:10.66M, Peak:10.66M | Scene, ViewLayer | Updating Lights | Computing tree
+Fra:1 Mem:55.12M (Peak 55.12M) | Time:00:00.01 | Mem:10.66M, Peak:10.66M | Scene, ViewLayer | Updating Integrator
+Fra:1 Mem:55.12M (Peak 55.12M) | Time:00:00.01 | Mem:10.66M, Peak:10.66M | Scene, ViewLayer | Updating Film
+Fra:1 Mem:55.12M (Peak 55.12M) | Time:00:00.01 | Mem:10.58M, Peak:10.66M | Scene, ViewLayer | Updating Lookup Tables
+Fra:1 Mem:55.12M (Peak 55.12M) | Time:00:00.01 | Mem:10.67M, Peak:10.67M | Scene, ViewLayer | Updating Baking
+Fra:1 Mem:55.12M (Peak 55.12M) | Time:00:00.01 | Mem:10.67M, Peak:10.67M | Scene, ViewLayer | Updating Device | Writing constant memory
+Fra:1 Mem:55.13M (Peak 55.13M) | Time:00:00.01 | Mem:10.67M, Peak:10.67M | Scene, ViewLayer | Loading denoising kernels (may take a few minutes the first time)
+Fra:1 Mem:55.13M (Peak 55.13M) | Time:00:00.01 | Mem:10.67M, Peak:10.67M | Scene, ViewLayer | Sample 0/16
+Fra:1 Mem:134.54M (Peak 134.54M) | Time:00:00.16 | Remaining:00:02.29 | Mem:89.91M, Peak:89.91M | Scene, ViewLayer | Sample 1/16
+Fra:1 Mem:167.91M (Peak 217.95M) | Time:00:13.19 | Mem:89.91M, Peak:89.91M | Scene, ViewLayer | Sample 16/16
+Fra:1 Mem:167.91M (Peak 217.95M) | Time:00:13.19 | Mem:89.91M, Peak:89.91M | Scene, ViewLayer | Finished
+Saved: 'E:\csd4.1\VR\FudanCampus\field-review\teaching4-2026-11-14-v2\renders\after-front.png'
+Time: 00:13.73 (Saving: 00:00.52)
+
+Fra:1 Mem:47.45M (Peak 47.45M) | Time:00:00.01 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | T4 six storey structure
+Fra:1 Mem:47.45M (Peak 47.45M) | Time:00:00.01 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | T4 setback east wing
+Fra:1 Mem:47.45M (Peak 47.45M) | Time:00:00.01 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | T4 ground left structure
+Fra:1 Mem:47.45M (Peak 47.45M) | Time:00:00.01 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | T4 ground right structure
+Fra:1 Mem:47.45M (Peak 47.45M) | Time:00:00.01 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | T4 entry recess back structure
+Fra:1 Mem:47.46M (Peak 47.46M) | Time:00:00.01 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | T4 flat roof
+Fra:1 Mem:47.46M (Peak 47.46M) | Time:00:00.01 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | T4 roof parapet
+Fra:1 Mem:47.46M (Peak 47.46M) | Time:00:00.01 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | T4 setback front parapet
+Fra:1 Mem:47.46M (Peak 47.46M) | Time:00:00.01 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | T4 setback notch parapet
+Fra:1 Mem:47.46M (Peak 47.46M) | Time:00:00.01 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | T4 window mullions
+Fra:1 Mem:47.46M (Peak 47.46M) | Time:00:00.01 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | T4 projecting sills
+Fra:1 Mem:47.46M (Peak 47.46M) | Time:00:00.01 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | T4 curtain panels
+Fra:1 Mem:47.70M (Peak 47.70M) | Time:00:00.01 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | T4 window glass.001
+Fra:1 Mem:47.90M (Peak 47.90M) | Time:00:00.01 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | T4 window glass.002
+Fra:1 Mem:48.04M (Peak 48.04M) | Time:00:00.01 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | T4 sandstone plinth
+Fra:1 Mem:48.07M (Peak 48.07M) | Time:00:00.01 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | T4 sandstone plinth.001
+Fra:1 Mem:48.07M (Peak 48.07M) | Time:00:00.01 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | T4 window mullions.001
+Fra:1 Mem:48.26M (Peak 48.26M) | Time:00:00.01 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | T4 window transoms.001
+Fra:1 Mem:48.33M (Peak 48.33M) | Time:00:00.01 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | T4 balcony slab
+Fra:1 Mem:48.36M (Peak 48.36M) | Time:00:00.01 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | T4 balcony front
+Fra:1 Mem:48.37M (Peak 48.37M) | Time:00:00.01 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | T4 balcony handrails
+Fra:1 Mem:48.37M (Peak 48.37M) | Time:00:00.01 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | T4 balcony side handrails
+Fra:1 Mem:48.38M (Peak 48.38M) | Time:00:00.01 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | T4 balcony return glazing
+Fra:1 Mem:48.38M (Peak 48.38M) | Time:00:00.01 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | T4 balcony return frames
+Fra:1 Mem:48.41M (Peak 48.41M) | Time:00:00.01 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | T4 balcony soffit lights
+Fra:1 Mem:48.41M (Peak 48.41M) | Time:00:00.01 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | T4 front shaft
+Fra:1 Mem:48.50M (Peak 48.50M) | Time:00:00.01 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | T4 shaft vertical joints
+Fra:1 Mem:48.50M (Peak 48.50M) | Time:00:00.01 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | T4 shaft side joints
+Fra:1 Mem:48.52M (Peak 48.52M) | Time:00:00.01 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | T4 shaft top vent
+Fra:1 Mem:48.54M (Peak 48.54M) | Time:00:00.01 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | T4 rear stair tower
+Fra:1 Mem:48.54M (Peak 48.54M) | Time:00:00.01 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | T4 stair slot frames
+Fra:1 Mem:48.56M (Peak 48.56M) | Time:00:00.01 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | T4 stair slot transom
+Fra:1 Mem:48.56M (Peak 48.56M) | Time:00:00.01 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | T4 stair slot glazing.001
+Fra:1 Mem:48.56M (Peak 48.56M) | Time:00:00.01 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | T4 stair slot glazing.002
+Fra:1 Mem:48.56M (Peak 48.56M) | Time:00:00.01 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | T4 stair slot glazing.003
+Fra:1 Mem:48.56M (Peak 48.56M) | Time:00:00.01 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | T4 stair sill ledges
+Fra:1 Mem:48.56M (Peak 48.56M) | Time:00:00.01 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | T4 roof stair guardrail
+Fra:1 Mem:48.57M (Peak 48.57M) | Time:00:00.01 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | T4 roof perimeter rail
+Fra:1 Mem:48.57M (Peak 48.57M) | Time:00:00.01 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | T4 rear small end windows
+Fra:1 Mem:48.58M (Peak 48.58M) | Time:00:00.01 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | T4 rear small end glazing
+Fra:1 Mem:48.58M (Peak 48.58M) | Time:00:00.01 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | T4 rear small end divider
+Fra:1 Mem:48.58M (Peak 48.58M) | Time:00:00.01 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | T4 entry glazing
+Fra:1 Mem:48.59M (Peak 48.59M) | Time:00:00.01 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | T4 entry recess floor
+Fra:1 Mem:48.61M (Peak 48.61M) | Time:00:00.01 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | T4 entry door frames
+Fra:1 Mem:48.61M (Peak 48.61M) | Time:00:00.01 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | T4 entry door handles
+Fra:1 Mem:48.62M (Peak 48.62M) | Time:00:00.01 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | T4 entry door transom
+Fra:1 Mem:48.64M (Peak 48.64M) | Time:00:00.01 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | T4 entry steps
+Fra:1 Mem:48.64M (Peak 48.64M) | Time:00:00.01 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | T4 ramp posts
+Fra:1 Mem:48.64M (Peak 48.64M) | Time:00:00.01 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | T4 rear door
+Fra:1 Mem:48.64M (Peak 48.64M) | Time:00:00.01 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | T4 rear glass door frames
+Fra:1 Mem:48.65M (Peak 48.65M) | Time:00:00.01 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | T4 rear glass door transom
+Fra:1 Mem:48.66M (Peak 48.66M) | Time:00:00.01 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | T4 rear glass door handles
+Fra:1 Mem:48.66M (Peak 48.66M) | Time:00:00.01 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | T4 entrance lettering
+Fra:1 Mem:48.66M (Peak 48.66M) | Time:00:00.01 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | T4 rear entrance paving
+Fra:1 Mem:48.66M (Peak 48.66M) | Time:00:00.01 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | T4 side entrance door
+Fra:1 Mem:49.28M (Peak 49.28M) | Time:00:00.01 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | T4 side entrance transom
+Fra:1 Mem:49.28M (Peak 49.28M) | Time:00:00.01 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | T4 side canopy roof
+Fra:1 Mem:49.28M (Peak 49.28M) | Time:00:00.01 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | T4 side canopy ribs
+Fra:1 Mem:49.28M (Peak 49.28M) | Time:00:00.01 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | T4 side canopy braces
+Fra:1 Mem:49.59M (Peak 49.59M) | Time:00:00.01 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | T4 side entrance paving
+Fra:1 Mem:49.59M (Peak 49.59M) | Time:00:00.01 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | T4 side stair handrail
+Fra:1 Mem:49.59M (Peak 49.59M) | Time:00:00.01 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | T4 side stair posts
+Fra:1 Mem:49.59M (Peak 49.59M) | Time:00:00.01 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | T4 side sandstone plinth
+Fra:1 Mem:49.60M (Peak 49.60M) | Time:00:00.01 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | T4 side sandstone plinth.002
+Fra:1 Mem:49.93M (Peak 49.93M) | Time:00:00.01 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | T4 sandstone plinth coping
+Fra:1 Mem:49.93M (Peak 49.93M) | Time:00:00.01 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | T4 paving joints
+Fra:1 Mem:49.93M (Peak 49.93M) | Time:00:00.01 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | T4 dark stone flowerbed edging
+Fra:1 Mem:49.93M (Peak 49.93M) | Time:00:00.01 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | T4 flowerbed foliage
+Fra:1 Mem:49.93M (Peak 49.93M) | Time:00:00.01 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | T4 flowerbed foliage.001
+Fra:1 Mem:49.93M (Peak 49.93M) | Time:00:00.01 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | T4 flowerbed foliage.002
+Fra:1 Mem:50.19M (Peak 50.19M) | Time:00:00.01 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | T4 flowerbed foliage.003
+Fra:1 Mem:50.66M (Peak 50.66M) | Time:00:00.01 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | T4 flowerbed foliage.004
+Fra:1 Mem:51.18M (Peak 51.18M) | Time:00:00.01 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | T4 flowerbed foliage.005
+Fra:1 Mem:51.18M (Peak 51.18M) | Time:00:00.01 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | T4 sculpture granite pedestal
+Fra:1 Mem:50.88M (Peak 51.18M) | Time:00:00.01 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | T4 curved book page blocks
+Fra:1 Mem:51.13M (Peak 51.18M) | Time:00:00.01 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | T4 book rear spine
+Fra:1 Mem:51.66M (Peak 51.66M) | Time:00:00.02 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | T4 upright clock book
+Fra:1 Mem:51.81M (Peak 51.81M) | Time:00:00.02 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | T4 clock spine
+Fra:1 Mem:51.82M (Peak 51.82M) | Time:00:00.02 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | T4 clock hour marks
+Fra:1 Mem:52.40M (Peak 52.40M) | Time:00:00.02 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | T4 clock minute hand
+Fra:1 Mem:53.02M (Peak 53.02M) | Time:00:00.02 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Initializing
+Fra:1 Mem:52.59M (Peak 53.02M) | Time:00:00.02 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Updating Images | Loading granite-2
+Fra:1 Mem:52.65M (Peak 53.02M) | Time:00:00.02 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Updating Images | Loading granite-1
+Fra:1 Mem:48.38M (Peak 53.02M) | Time:00:00.02 | Mem:0.19M, Peak:0.19M | Scene, ViewLayer | Waiting for render to start
+Fra:1 Mem:48.38M (Peak 53.02M) | Time:00:00.02 | Mem:0.19M, Peak:0.19M | Scene, ViewLayer | Loading render kernels (may take a few minutes the first time)
+Fra:1 Mem:48.38M (Peak 53.02M) | Time:00:00.02 | Mem:0.19M, Peak:0.19M | Scene, ViewLayer | Updating Scene
+Fra:1 Mem:48.38M (Peak 53.02M) | Time:00:00.02 | Mem:0.19M, Peak:0.19M | Scene, ViewLayer | Updating Shaders
+Fra:1 Mem:48.48M (Peak 53.02M) | Time:00:00.02 | Mem:0.21M, Peak:0.21M | Scene, ViewLayer | Updating Procedurals
+Fra:1 Mem:48.48M (Peak 53.02M) | Time:00:00.02 | Mem:0.21M, Peak:0.21M | Scene, ViewLayer | Updating Background
+Fra:1 Mem:48.48M (Peak 53.02M) | Time:00:00.02 | Mem:0.21M, Peak:0.21M | Scene, ViewLayer | Updating Camera
+Fra:1 Mem:48.48M (Peak 53.02M) | Time:00:00.02 | Mem:0.21M, Peak:0.21M | Scene, ViewLayer | Updating Meshes Flags
+Fra:1 Mem:48.48M (Peak 53.02M) | Time:00:00.02 | Mem:0.21M, Peak:0.21M | Scene, ViewLayer | Updating Objects
+Fra:1 Mem:48.48M (Peak 53.02M) | Time:00:00.02 | Mem:0.21M, Peak:0.21M | Scene, ViewLayer | Updating Objects | Copying Transformations to device
+Fra:1 Mem:48.51M (Peak 53.02M) | Time:00:00.02 | Mem:0.23M, Peak:0.23M | Scene, ViewLayer | Updating Objects | Applying Static Transformations
+Fra:1 Mem:48.51M (Peak 53.02M) | Time:00:00.02 | Mem:0.23M, Peak:0.23M | Scene, ViewLayer | Updating Particle Systems
+Fra:1 Mem:48.51M (Peak 53.02M) | Time:00:00.02 | Mem:0.23M, Peak:0.23M | Scene, ViewLayer | Updating Particle Systems | Copying Particles to device
+Fra:1 Mem:48.51M (Peak 53.02M) | Time:00:00.02 | Mem:0.23M, Peak:0.23M | Scene, ViewLayer | Updating Meshes
+Fra:1 Mem:49.68M (Peak 53.02M) | Time:00:00.03 | Mem:0.23M, Peak:0.23M | Scene, ViewLayer | Updating Mesh | Computing attributes
+Fra:1 Mem:50.87M (Peak 53.02M) | Time:00:00.03 | Mem:0.24M, Peak:0.24M | Scene, ViewLayer | Updating Mesh | Copying Attributes to device
+Fra:1 Mem:50.85M (Peak 53.02M) | Time:00:00.03 | Mem:1.41M, Peak:1.41M | Scene, ViewLayer | Updating Scene BVH | Building
+Fra:1 Mem:50.86M (Peak 53.02M) | Time:00:00.03 | Mem:1.41M, Peak:1.41M | Scene, ViewLayer | Updating Scene BVH | Building BVH
+Fra:1 Mem:50.86M (Peak 53.02M) | Time:00:00.03 | Mem:3.76M, Peak:3.76M | Scene, ViewLayer | Updating Scene BVH | Building BVH 0%
+Fra:1 Mem:50.86M (Peak 53.02M) | Time:00:00.04 | Mem:6.32M, Peak:8.67M | Scene, ViewLayer | Updating Scene BVH | Copying BVH to device
+Fra:1 Mem:50.86M (Peak 53.02M) | Time:00:00.04 | Mem:6.32M, Peak:8.67M | Scene, ViewLayer | Updating Mesh | Computing normals
+Fra:1 Mem:55.12M (Peak 55.12M) | Time:00:00.05 | Mem:6.32M, Peak:8.67M | Scene, ViewLayer | Updating Mesh | Copying Mesh to device
+Fra:1 Mem:55.12M (Peak 55.12M) | Time:00:00.05 | Mem:10.58M, Peak:10.58M | Scene, ViewLayer | Updating Objects Flags
+Fra:1 Mem:55.12M (Peak 55.12M) | Time:00:00.05 | Mem:10.58M, Peak:10.58M | Scene, ViewLayer | Updating Primitive Offsets
+Fra:1 Mem:55.12M (Peak 55.12M) | Time:00:00.05 | Mem:10.58M, Peak:10.58M | Scene, ViewLayer | Updating Images
+Fra:1 Mem:55.12M (Peak 55.12M) | Time:00:00.05 | Mem:10.58M, Peak:10.58M | Scene, ViewLayer | Updating Camera Volume
+Fra:1 Mem:55.12M (Peak 55.12M) | Time:00:00.05 | Mem:10.58M, Peak:10.58M | Scene, ViewLayer | Updating Lookup Tables
+Fra:1 Mem:55.12M (Peak 55.12M) | Time:00:00.05 | Mem:10.66M, Peak:10.66M | Scene, ViewLayer | Updating Lights
+Fra:1 Mem:55.12M (Peak 55.12M) | Time:00:00.05 | Mem:10.66M, Peak:10.66M | Scene, ViewLayer | Updating Lights | Computing tree
+Fra:1 Mem:55.12M (Peak 55.12M) | Time:00:00.05 | Mem:10.66M, Peak:10.66M | Scene, ViewLayer | Updating Integrator
+Fra:1 Mem:55.12M (Peak 55.12M) | Time:00:00.05 | Mem:10.66M, Peak:10.66M | Scene, ViewLayer | Updating Film
+Fra:1 Mem:55.12M (Peak 55.12M) | Time:00:00.05 | Mem:10.58M, Peak:10.66M | Scene, ViewLayer | Updating Lookup Tables
+Fra:1 Mem:55.12M (Peak 55.12M) | Time:00:00.05 | Mem:10.67M, Peak:10.67M | Scene, ViewLayer | Updating Baking
+Fra:1 Mem:55.12M (Peak 55.12M) | Time:00:00.05 | Mem:10.67M, Peak:10.67M | Scene, ViewLayer | Updating Device | Writing constant memory
+Fra:1 Mem:55.13M (Peak 55.13M) | Time:00:00.05 | Mem:10.67M, Peak:10.67M | Scene, ViewLayer | Loading denoising kernels (may take a few minutes the first time)
+Fra:1 Mem:55.13M (Peak 55.13M) | Time:00:00.05 | Mem:10.67M, Peak:10.67M | Scene, ViewLayer | Sample 0/16
+Fra:1 Mem:134.54M (Peak 134.54M) | Time:00:00.47 | Remaining:00:06.31 | Mem:89.91M, Peak:89.91M | Scene, ViewLayer | Sample 1/16
+Fra:1 Mem:167.91M (Peak 217.95M) | Time:00:16.53 | Mem:89.91M, Peak:89.91M | Scene, ViewLayer | Sample 16/16
+Fra:1 Mem:167.91M (Peak 217.95M) | Time:00:16.53 | Mem:89.91M, Peak:89.91M | Scene, ViewLayer | Finished
+Saved: 'E:\csd4.1\VR\FudanCampus\field-review\teaching4-2026-11-14-v2\renders\after-rear.png'
+Time: 00:16.63 (Saving: 00:00.08)
+
+Fra:1 Mem:47.45M (Peak 47.45M) | Time:00:00.00 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | T4 six storey structure
+Fra:1 Mem:47.45M (Peak 47.45M) | Time:00:00.00 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | T4 ground right structure
+Fra:1 Mem:47.45M (Peak 47.45M) | Time:00:00.00 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | T4 flat roof
+Fra:1 Mem:47.45M (Peak 47.45M) | Time:00:00.00 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | T4 setback notch parapet
+Fra:1 Mem:47.45M (Peak 47.45M) | Time:00:00.00 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | T4 window transoms
+Fra:1 Mem:47.46M (Peak 47.46M) | Time:00:00.00 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | T4 curtain panels
+Fra:1 Mem:47.59M (Peak 47.59M) | Time:00:00.00 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | T4 window glass.002
+Fra:1 Mem:47.63M (Peak 47.63M) | Time:00:00.00 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | T4 window glass.003
+Fra:1 Mem:47.63M (Peak 47.63M) | Time:00:00.00 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | T4 sandstone plinth
+Fra:1 Mem:47.63M (Peak 47.63M) | Time:00:00.00 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | T4 sandstone plinth.001
+Fra:1 Mem:47.63M (Peak 47.63M) | Time:00:00.00 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | T4 sandstone plinth.002
+Fra:1 Mem:47.69M (Peak 47.69M) | Time:00:00.00 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | T4 window mullions.001
+Fra:1 Mem:47.78M (Peak 47.78M) | Time:00:00.00 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | T4 window transoms.001
+Fra:1 Mem:47.82M (Peak 47.82M) | Time:00:00.00 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | T4 balcony slab
+Fra:1 Mem:47.83M (Peak 47.83M) | Time:00:00.00 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | T4 balcony front
+Fra:1 Mem:47.89M (Peak 47.91M) | Time:00:00.00 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | T4 balcony returns
+Fra:1 Mem:47.93M (Peak 47.93M) | Time:00:00.00 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | T4 balcony handrails
+Fra:1 Mem:47.94M (Peak 47.94M) | Time:00:00.00 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | T4 balcony return glazing
+Fra:1 Mem:47.99M (Peak 47.99M) | Time:00:00.00 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | T4 front shaft
+Fra:1 Mem:48.02M (Peak 48.02M) | Time:00:00.00 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | T4 shaft horizontal joints
+Fra:1 Mem:48.06M (Peak 48.06M) | Time:00:00.00 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | T4 shaft vertical joints
+Fra:1 Mem:48.06M (Peak 48.06M) | Time:00:00.00 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | T4 balcony drainpipe
+Fra:1 Mem:48.06M (Peak 48.06M) | Time:00:00.00 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | T4 vent louvers
+Fra:1 Mem:48.14M (Peak 48.14M) | Time:00:00.00 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | T4 rear stair tower
+Fra:1 Mem:48.13M (Peak 48.14M) | Time:00:00.00 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | T4 stair slot frames
+Fra:1 Mem:48.14M (Peak 48.14M) | Time:00:00.00 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | T4 stair slot glazing
+Fra:1 Mem:48.16M (Peak 48.16M) | Time:00:00.00 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | T4 stair slot glazing.001
+Fra:1 Mem:48.17M (Peak 48.17M) | Time:00:00.00 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | T4 stair slot glazing.002
+Fra:1 Mem:48.17M (Peak 48.17M) | Time:00:00.00 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | T4 stair slot glazing.003
+Fra:1 Mem:48.23M (Peak 48.23M) | Time:00:00.00 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | T4 stair sill ledges
+Fra:1 Mem:48.26M (Peak 48.26M) | Time:00:00.00 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | T4 roof stair guardrail
+Fra:1 Mem:48.44M (Peak 48.44M) | Time:00:00.00 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | T4 roof perimeter rail
+Fra:1 Mem:48.50M (Peak 48.50M) | Time:00:00.00 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | T4 rear small end glazing
+Fra:1 Mem:48.50M (Peak 48.50M) | Time:00:00.00 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | T4 rear small end divider
+Fra:1 Mem:48.51M (Peak 48.51M) | Time:00:00.00 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | T4 entry recess floor
+Fra:1 Mem:48.53M (Peak 48.53M) | Time:00:00.00 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | T4 entry door handles
+Fra:1 Mem:48.54M (Peak 48.54M) | Time:00:00.00 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | T4 entry door transom
+Fra:1 Mem:48.54M (Peak 48.54M) | Time:00:00.00 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | T4 entry steps
+Fra:1 Mem:48.54M (Peak 48.54M) | Time:00:00.00 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | T4 accessible ramp
+Fra:1 Mem:48.54M (Peak 48.54M) | Time:00:00.00 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | T4 rear door
+Fra:1 Mem:48.57M (Peak 48.57M) | Time:00:00.00 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | T4 rear canopy
+Fra:1 Mem:48.57M (Peak 48.57M) | Time:00:00.00 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | T4 rear glass door frames
+Fra:1 Mem:48.58M (Peak 48.58M) | Time:00:00.00 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | T4 rear glass door transom
+Fra:1 Mem:48.58M (Peak 48.58M) | Time:00:00.00 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | T4 rear glass door handles
+Fra:1 Mem:48.58M (Peak 48.58M) | Time:00:00.00 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | T4 rear entrance landing
+Fra:1 Mem:48.59M (Peak 48.59M) | Time:00:00.00 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | T4 rear entrance steps
+Fra:1 Mem:48.59M (Peak 48.59M) | Time:00:00.00 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | T4 rear entrance paving
+Fra:1 Mem:48.59M (Peak 48.59M) | Time:00:00.00 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | T4 side entrance door
+Fra:1 Mem:48.62M (Peak 48.62M) | Time:00:00.00 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | T4 side entrance transom
+Fra:1 Mem:48.62M (Peak 48.62M) | Time:00:00.00 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | T4 side canopy roof
+Fra:1 Mem:48.63M (Peak 48.63M) | Time:00:00.00 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | T4 side canopy braces
+Fra:1 Mem:48.64M (Peak 48.64M) | Time:00:00.00 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | T4 entrance lettering
+Fra:1 Mem:48.64M (Peak 48.64M) | Time:00:00.00 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | T4 side entrance paving
+Fra:1 Mem:48.64M (Peak 48.64M) | Time:00:00.00 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | T4 side stair handrail
+Fra:1 Mem:48.64M (Peak 48.64M) | Time:00:00.00 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | T4 side stair posts
+Fra:1 Mem:48.65M (Peak 48.65M) | Time:00:00.00 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | T4 side sandstone plinth.001
+Fra:1 Mem:48.66M (Peak 48.66M) | Time:00:00.00 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | T4 side sandstone plinth.002
+Fra:1 Mem:48.67M (Peak 48.67M) | Time:00:00.00 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | T4 forecourt paving
+Fra:1 Mem:48.67M (Peak 48.67M) | Time:00:00.00 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | T4 paving joints
+Fra:1 Mem:48.70M (Peak 48.70M) | Time:00:00.00 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | T4 west forecourt lawn
+Fra:1 Mem:48.70M (Peak 48.70M) | Time:00:00.00 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | T4 west lawn kerb
+Fra:1 Mem:48.70M (Peak 48.70M) | Time:00:00.00 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | T4 flowerbed coping
+Fra:1 Mem:48.80M (Peak 48.80M) | Time:00:00.00 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | T4 flowerbed foliage
+Fra:1 Mem:49.08M (Peak 49.08M) | Time:00:00.00 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | T4 flowerbed foliage.001
+Fra:1 Mem:49.36M (Peak 49.36M) | Time:00:00.00 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | T4 flowerbed foliage.002
+Fra:1 Mem:49.99M (Peak 49.99M) | Time:00:00.00 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | T4 flowerbed foliage.003
+Fra:1 Mem:50.60M (Peak 50.60M) | Time:00:00.00 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | T4 flowerbed foliage.004
+Fra:1 Mem:50.87M (Peak 50.87M) | Time:00:00.00 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | T4 flowerbed foliage.005
+Fra:1 Mem:51.22M (Peak 51.39M) | Time:00:00.00 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | T4 sculpture black footing
+Fra:1 Mem:51.92M (Peak 51.92M) | Time:00:00.00 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | T4 sculpture granite pedestal
+Fra:1 Mem:52.40M (Peak 52.40M) | Time:00:00.00 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | T4 curved book page blocks
+Fra:1 Mem:52.62M (Peak 52.62M) | Time:00:00.00 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | T4 book rear spine
+Fra:1 Mem:52.42M (Peak 52.62M) | Time:00:00.00 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | T4 engraved page strata
+Fra:1 Mem:52.43M (Peak 52.62M) | Time:00:00.00 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | T4 clock spine
+Fra:1 Mem:52.46M (Peak 52.62M) | Time:00:00.00 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | T4 clock minute hand
+Fra:1 Mem:52.56M (Peak 52.62M) | Time:00:00.00 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | T4 clock hour hand
+Fra:1 Mem:53.02M (Peak 53.02M) | Time:00:00.00 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Initializing
+Fra:1 Mem:52.59M (Peak 53.02M) | Time:00:00.00 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Updating Images | Loading granite-2
+Fra:1 Mem:52.66M (Peak 53.02M) | Time:00:00.00 | Mem:0.06M, Peak:0.06M | Scene, ViewLayer | Updating Images | Loading granite-1
+Fra:1 Mem:52.72M (Peak 53.02M) | Time:00:00.00 | Mem:0.06M, Peak:0.06M | Scene, ViewLayer | Updating Images | Loading granite-0
+Fra:1 Mem:48.38M (Peak 53.02M) | Time:00:00.00 | Mem:0.19M, Peak:0.19M | Scene, ViewLayer | Waiting for render to start
+Fra:1 Mem:48.38M (Peak 53.02M) | Time:00:00.00 | Mem:0.19M, Peak:0.19M | Scene, ViewLayer | Loading render kernels (may take a few minutes the first time)
+Fra:1 Mem:48.38M (Peak 53.02M) | Time:00:00.00 | Mem:0.19M, Peak:0.19M | Scene, ViewLayer | Updating Scene
+Fra:1 Mem:48.38M (Peak 53.02M) | Time:00:00.00 | Mem:0.19M, Peak:0.19M | Scene, ViewLayer | Updating Shaders
+Fra:1 Mem:48.48M (Peak 53.02M) | Time:00:00.00 | Mem:0.21M, Peak:0.21M | Scene, ViewLayer | Updating Procedurals
+Fra:1 Mem:48.48M (Peak 53.02M) | Time:00:00.00 | Mem:0.21M, Peak:0.21M | Scene, ViewLayer | Updating Background
+Fra:1 Mem:48.48M (Peak 53.02M) | Time:00:00.00 | Mem:0.21M, Peak:0.21M | Scene, ViewLayer | Updating Camera
+Fra:1 Mem:48.48M (Peak 53.02M) | Time:00:00.00 | Mem:0.21M, Peak:0.21M | Scene, ViewLayer | Updating Meshes Flags
+Fra:1 Mem:48.48M (Peak 53.02M) | Time:00:00.00 | Mem:0.21M, Peak:0.21M | Scene, ViewLayer | Updating Objects
+Fra:1 Mem:48.48M (Peak 53.02M) | Time:00:00.00 | Mem:0.21M, Peak:0.21M | Scene, ViewLayer | Updating Objects | Copying Transformations to device
+Fra:1 Mem:48.51M (Peak 53.02M) | Time:00:00.01 | Mem:0.23M, Peak:0.23M | Scene, ViewLayer | Updating Objects | Applying Static Transformations
+Fra:1 Mem:48.51M (Peak 53.02M) | Time:00:00.01 | Mem:0.23M, Peak:0.23M | Scene, ViewLayer | Updating Particle Systems
+Fra:1 Mem:48.51M (Peak 53.02M) | Time:00:00.01 | Mem:0.23M, Peak:0.23M | Scene, ViewLayer | Updating Particle Systems | Copying Particles to device
+Fra:1 Mem:48.51M (Peak 53.02M) | Time:00:00.01 | Mem:0.23M, Peak:0.23M | Scene, ViewLayer | Updating Meshes
+Fra:1 Mem:49.68M (Peak 53.02M) | Time:00:00.01 | Mem:0.23M, Peak:0.23M | Scene, ViewLayer | Updating Mesh | Computing attributes
+Fra:1 Mem:50.87M (Peak 53.02M) | Time:00:00.01 | Mem:0.24M, Peak:0.24M | Scene, ViewLayer | Updating Mesh | Copying Attributes to device
+Fra:1 Mem:50.85M (Peak 53.02M) | Time:00:00.01 | Mem:1.41M, Peak:1.41M | Scene, ViewLayer | Updating Scene BVH | Building
+Fra:1 Mem:50.86M (Peak 53.02M) | Time:00:00.01 | Mem:1.41M, Peak:1.41M | Scene, ViewLayer | Updating Scene BVH | Building BVH
+Fra:1 Mem:50.86M (Peak 53.02M) | Time:00:00.01 | Mem:3.76M, Peak:3.76M | Scene, ViewLayer | Updating Scene BVH | Building BVH 0%
+Fra:1 Mem:50.86M (Peak 53.02M) | Time:00:00.01 | Mem:6.32M, Peak:8.67M | Scene, ViewLayer | Updating Scene BVH | Copying BVH to device
+Fra:1 Mem:50.86M (Peak 53.02M) | Time:00:00.01 | Mem:6.32M, Peak:8.67M | Scene, ViewLayer | Updating Mesh | Computing normals
+Fra:1 Mem:55.12M (Peak 55.12M) | Time:00:00.01 | Mem:6.32M, Peak:8.67M | Scene, ViewLayer | Updating Mesh | Copying Mesh to device
+Fra:1 Mem:55.12M (Peak 55.12M) | Time:00:00.01 | Mem:10.58M, Peak:10.58M | Scene, ViewLayer | Updating Objects Flags
+Fra:1 Mem:55.12M (Peak 55.12M) | Time:00:00.01 | Mem:10.58M, Peak:10.58M | Scene, ViewLayer | Updating Primitive Offsets
+Fra:1 Mem:55.12M (Peak 55.12M) | Time:00:00.01 | Mem:10.58M, Peak:10.58M | Scene, ViewLayer | Updating Images
+Fra:1 Mem:55.12M (Peak 55.12M) | Time:00:00.01 | Mem:10.58M, Peak:10.58M | Scene, ViewLayer | Updating Camera Volume
+Fra:1 Mem:55.12M (Peak 55.12M) | Time:00:00.01 | Mem:10.58M, Peak:10.58M | Scene, ViewLayer | Updating Lookup Tables
+Fra:1 Mem:55.12M (Peak 55.12M) | Time:00:00.01 | Mem:10.66M, Peak:10.66M | Scene, ViewLayer | Updating Lights
+Fra:1 Mem:55.12M (Peak 55.12M) | Time:00:00.01 | Mem:10.66M, Peak:10.66M | Scene, ViewLayer | Updating Lights | Computing tree
+Fra:1 Mem:55.12M (Peak 55.12M) | Time:00:00.01 | Mem:10.66M, Peak:10.66M | Scene, ViewLayer | Updating Integrator
+Fra:1 Mem:55.12M (Peak 55.12M) | Time:00:00.01 | Mem:10.66M, Peak:10.66M | Scene, ViewLayer | Updating Film
+Fra:1 Mem:55.12M (Peak 55.12M) | Time:00:00.01 | Mem:10.58M, Peak:10.66M | Scene, ViewLayer | Updating Lookup Tables
+Fra:1 Mem:55.12M (Peak 55.12M) | Time:00:00.01 | Mem:10.67M, Peak:10.67M | Scene, ViewLayer | Updating Baking
+Fra:1 Mem:55.12M (Peak 55.12M) | Time:00:00.01 | Mem:10.67M, Peak:10.67M | Scene, ViewLayer | Updating Device | Writing constant memory
+Fra:1 Mem:55.13M (Peak 55.13M) | Time:00:00.01 | Mem:10.67M, Peak:10.67M | Scene, ViewLayer | Loading denoising kernels (may take a few minutes the first time)
+Fra:1 Mem:55.13M (Peak 55.13M) | Time:00:00.01 | Mem:10.67M, Peak:10.67M | Scene, ViewLayer | Sample 0/16
+Fra:1 Mem:134.54M (Peak 134.54M) | Time:00:00.26 | Remaining:00:03.72 | Mem:89.91M, Peak:89.91M | Scene, ViewLayer | Sample 1/16
+Fra:1 Mem:167.91M (Peak 217.95M) | Time:00:06.73 | Mem:89.91M, Peak:89.91M | Scene, ViewLayer | Sample 16/16
+Fra:1 Mem:167.91M (Peak 217.95M) | Time:00:06.73 | Mem:89.91M, Peak:89.91M | Scene, ViewLayer | Finished
+Saved: 'E:\csd4.1\VR\FudanCampus\field-review\teaching4-2026-11-14-v2\renders\after-side-door.png'
+Time: 00:06.83 (Saving: 00:00.09)
+
+Fra:1 Mem:47.45M (Peak 47.45M) | Time:00:00.00 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | T4 six storey structure
+Fra:1 Mem:47.45M (Peak 47.45M) | Time:00:00.00 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | T4 ground right structure
+Fra:1 Mem:47.45M (Peak 47.45M) | Time:00:00.00 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | T4 roof parapet
+Fra:1 Mem:47.45M (Peak 47.45M) | Time:00:00.00 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | T4 window glass
+Fra:1 Mem:47.46M (Peak 47.46M) | Time:00:00.00 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | T4 projecting sills
+Fra:1 Mem:47.47M (Peak 47.47M) | Time:00:00.00 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | T4 window glass.002
+Fra:1 Mem:47.47M (Peak 47.47M) | Time:00:00.00 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | T4 window glass.003
+Fra:1 Mem:47.49M (Peak 47.49M) | Time:00:00.00 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | T4 sandstone plinth
+Fra:1 Mem:47.59M (Peak 47.59M) | Time:00:00.00 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | T4 sandstone plinth.001
+Fra:1 Mem:47.59M (Peak 47.59M) | Time:00:00.00 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | T4 window mullions.001
+Fra:1 Mem:47.67M (Peak 47.67M) | Time:00:00.00 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | T4 window transoms.001
+Fra:1 Mem:47.67M (Peak 47.67M) | Time:00:00.00 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | T4 balcony front
+Fra:1 Mem:47.74M (Peak 47.74M) | Time:00:00.00 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | T4 balcony returns
+Fra:1 Mem:47.82M (Peak 47.82M) | Time:00:00.00 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | T4 balcony posts
+Fra:1 Mem:47.91M (Peak 47.91M) | Time:00:00.00 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | T4 balcony side handrails
+Fra:1 Mem:47.93M (Peak 47.93M) | Time:00:00.00 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | T4 balcony return glazing
+Fra:1 Mem:47.93M (Peak 47.93M) | Time:00:00.00 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | T4 balcony soffit lights
+Fra:1 Mem:47.94M (Peak 47.94M) | Time:00:00.00 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | T4 front shaft
+Fra:1 Mem:47.94M (Peak 47.94M) | Time:00:00.00 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | T4 shaft horizontal joints
+Fra:1 Mem:47.94M (Peak 47.94M) | Time:00:00.00 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | T4 shaft vertical joints
+Fra:1 Mem:47.96M (Peak 47.96M) | Time:00:00.00 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | T4 shaft side joints
+Fra:1 Mem:47.96M (Peak 47.96M) | Time:00:00.00 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | T4 balcony drainpipe
+Fra:1 Mem:47.96M (Peak 47.96M) | Time:00:00.00 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | T4 vent louvers
+Fra:1 Mem:48.10M (Peak 48.10M) | Time:00:00.00 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | T4 entrance lettering
+Fra:1 Mem:48.15M (Peak 48.15M) | Time:00:00.00 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | T4 rear stair tower
+Fra:1 Mem:48.77M (Peak 48.77M) | Time:00:00.00 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | T4 stair slot frames
+Fra:1 Mem:48.87M (Peak 48.87M) | Time:00:00.00 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | T4 stair slot glazing
+Fra:1 Mem:48.87M (Peak 48.87M) | Time:00:00.00 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | T4 stair slot transom
+Fra:1 Mem:49.23M (Peak 49.23M) | Time:00:00.00 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | T4 stair slot glazing.001
+Fra:1 Mem:49.27M (Peak 49.27M) | Time:00:00.00 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | T4 stair slot glazing.003
+Fra:1 Mem:49.27M (Peak 49.27M) | Time:00:00.00 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | T4 roof perimeter rail
+Fra:1 Mem:49.27M (Peak 49.27M) | Time:00:00.00 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | T4 rear small end windows
+Fra:1 Mem:49.58M (Peak 49.58M) | Time:00:00.00 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | T4 rear small end divider
+Fra:1 Mem:49.59M (Peak 49.59M) | Time:00:00.00 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | T4 entry glazing
+Fra:1 Mem:49.61M (Peak 49.61M) | Time:00:00.00 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | T4 entry recess floor
+Fra:1 Mem:49.63M (Peak 49.63M) | Time:00:00.00 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | T4 entry door handles
+Fra:1 Mem:49.64M (Peak 49.64M) | Time:00:00.00 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | T4 entry door transom
+Fra:1 Mem:49.64M (Peak 49.64M) | Time:00:00.00 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | T4 accessible ramp
+Fra:1 Mem:49.95M (Peak 49.95M) | Time:00:00.00 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | T4 ramp handrail
+Fra:1 Mem:49.95M (Peak 49.95M) | Time:00:00.00 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | T4 ramp posts
+Fra:1 Mem:49.66M (Peak 49.95M) | Time:00:00.00 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | T4 clock hour hand
+Fra:1 Mem:49.67M (Peak 49.95M) | Time:00:00.00 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | T4 rear door
+Fra:1 Mem:49.66M (Peak 49.95M) | Time:00:00.00 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | T4 clock minute hand
+Fra:1 Mem:49.67M (Peak 49.95M) | Time:00:00.00 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | T4 rear glass door frames
+Fra:1 Mem:49.67M (Peak 49.95M) | Time:00:00.00 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | T4 rear glass door transom
+Fra:1 Mem:49.67M (Peak 49.95M) | Time:00:00.00 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | T4 rear entrance landing
+Fra:1 Mem:49.67M (Peak 49.95M) | Time:00:00.00 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | T4 rear entrance steps
+Fra:1 Mem:49.67M (Peak 49.95M) | Time:00:00.00 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | T4 side entrance door
+Fra:1 Mem:49.67M (Peak 49.95M) | Time:00:00.00 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | T4 side entrance frames
+Fra:1 Mem:49.68M (Peak 49.95M) | Time:00:00.00 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | T4 side entrance transom
+Fra:1 Mem:49.68M (Peak 49.95M) | Time:00:00.00 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | T4 side canopy ribs
+Fra:1 Mem:49.68M (Peak 49.95M) | Time:00:00.00 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | T4 side entrance steps
+Fra:1 Mem:49.68M (Peak 49.95M) | Time:00:00.00 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | T4 side entrance paving
+Fra:1 Mem:49.68M (Peak 49.95M) | Time:00:00.00 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | T4 side stair posts
+Fra:1 Mem:49.69M (Peak 49.95M) | Time:00:00.00 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | T4 side sandstone plinth
+Fra:1 Mem:49.69M (Peak 49.95M) | Time:00:00.00 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | T4 side sandstone plinth.001
+Fra:1 Mem:49.73M (Peak 49.95M) | Time:00:00.00 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | T4 side sandstone plinth.002
+Fra:1 Mem:49.74M (Peak 49.95M) | Time:00:00.00 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | T4 west forecourt lawn
+Fra:1 Mem:49.74M (Peak 49.95M) | Time:00:00.00 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | T4 flowerbed soil
+Fra:1 Mem:49.74M (Peak 49.95M) | Time:00:00.00 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | T4 dark stone flowerbed edging
+Fra:1 Mem:49.82M (Peak 49.95M) | Time:00:00.00 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | T4 flowerbed coping
+Fra:1 Mem:49.86M (Peak 49.95M) | Time:00:00.00 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | T4 flowerbed foliage
+Fra:1 Mem:50.29M (Peak 50.29M) | Time:00:00.00 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | T4 flowerbed foliage.001
+Fra:1 Mem:50.46M (Peak 50.46M) | Time:00:00.00 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | T4 flowerbed foliage.002
+Fra:1 Mem:51.00M (Peak 51.00M) | Time:00:00.00 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | T4 flowerbed foliage.003
+Fra:1 Mem:52.13M (Peak 52.13M) | Time:00:00.00 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | T4 flowerbed foliage.004
+Fra:1 Mem:52.31M (Peak 52.31M) | Time:00:00.00 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | T4 flowerbed foliage.005
+Fra:1 Mem:52.50M (Peak 52.50M) | Time:00:00.00 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | T4 sculpture black footing
+Fra:1 Mem:52.55M (Peak 52.55M) | Time:00:00.00 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | T4 curved book page blocks
+Fra:1 Mem:52.68M (Peak 52.68M) | Time:00:00.00 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | T4 book rear spine
+Fra:1 Mem:52.69M (Peak 52.69M) | Time:00:00.00 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | T4 engraved page strata
+Fra:1 Mem:52.74M (Peak 52.74M) | Time:00:00.00 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | T4 upright clock book
+Fra:1 Mem:52.95M (Peak 52.95M) | Time:00:00.00 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | T4 clock spine
+Fra:1 Mem:53.02M (Peak 53.02M) | Time:00:00.00 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Initializing
+Fra:1 Mem:52.59M (Peak 53.02M) | Time:00:00.00 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Updating Images | Loading granite-2
+Fra:1 Mem:52.65M (Peak 53.02M) | Time:00:00.00 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Updating Images | Loading granite-0
+Fra:1 Mem:52.72M (Peak 53.02M) | Time:00:00.00 | Mem:0.06M, Peak:0.06M | Scene, ViewLayer | Updating Images | Loading granite-1
+Fra:1 Mem:48.38M (Peak 53.02M) | Time:00:00.00 | Mem:0.19M, Peak:0.19M | Scene, ViewLayer | Waiting for render to start
+Fra:1 Mem:48.38M (Peak 53.02M) | Time:00:00.00 | Mem:0.19M, Peak:0.19M | Scene, ViewLayer | Loading render kernels (may take a few minutes the first time)
+Fra:1 Mem:48.38M (Peak 53.02M) | Time:00:00.00 | Mem:0.19M, Peak:0.19M | Scene, ViewLayer | Updating Scene
+Fra:1 Mem:48.38M (Peak 53.02M) | Time:00:00.00 | Mem:0.19M, Peak:0.19M | Scene, ViewLayer | Updating Shaders
+Fra:1 Mem:48.48M (Peak 53.02M) | Time:00:00.00 | Mem:0.21M, Peak:0.21M | Scene, ViewLayer | Updating Procedurals
+Fra:1 Mem:48.48M (Peak 53.02M) | Time:00:00.00 | Mem:0.21M, Peak:0.21M | Scene, ViewLayer | Updating Background
+Fra:1 Mem:48.48M (Peak 53.02M) | Time:00:00.00 | Mem:0.21M, Peak:0.21M | Scene, ViewLayer | Updating Camera
+Fra:1 Mem:48.48M (Peak 53.02M) | Time:00:00.00 | Mem:0.21M, Peak:0.21M | Scene, ViewLayer | Updating Meshes Flags
+Fra:1 Mem:48.48M (Peak 53.02M) | Time:00:00.00 | Mem:0.21M, Peak:0.21M | Scene, ViewLayer | Updating Objects
+Fra:1 Mem:48.48M (Peak 53.02M) | Time:00:00.00 | Mem:0.21M, Peak:0.21M | Scene, ViewLayer | Updating Objects | Copying Transformations to device
+Fra:1 Mem:48.51M (Peak 53.02M) | Time:00:00.00 | Mem:0.23M, Peak:0.23M | Scene, ViewLayer | Updating Objects | Applying Static Transformations
+Fra:1 Mem:48.51M (Peak 53.02M) | Time:00:00.01 | Mem:0.23M, Peak:0.23M | Scene, ViewLayer | Updating Particle Systems
+Fra:1 Mem:48.51M (Peak 53.02M) | Time:00:00.01 | Mem:0.23M, Peak:0.23M | Scene, ViewLayer | Updating Particle Systems | Copying Particles to device
+Fra:1 Mem:48.51M (Peak 53.02M) | Time:00:00.01 | Mem:0.23M, Peak:0.23M | Scene, ViewLayer | Updating Meshes
+Fra:1 Mem:49.68M (Peak 53.02M) | Time:00:00.01 | Mem:0.23M, Peak:0.23M | Scene, ViewLayer | Updating Mesh | Computing attributes
+Fra:1 Mem:50.87M (Peak 53.02M) | Time:00:00.01 | Mem:0.24M, Peak:0.24M | Scene, ViewLayer | Updating Mesh | Copying Attributes to device
+Fra:1 Mem:50.85M (Peak 53.02M) | Time:00:00.01 | Mem:1.41M, Peak:1.41M | Scene, ViewLayer | Updating Scene BVH | Building
+Fra:1 Mem:50.86M (Peak 53.02M) | Time:00:00.01 | Mem:1.41M, Peak:1.41M | Scene, ViewLayer | Updating Scene BVH | Building BVH
+Fra:1 Mem:50.86M (Peak 53.02M) | Time:00:00.01 | Mem:3.76M, Peak:3.76M | Scene, ViewLayer | Updating Scene BVH | Building BVH 0%
+Fra:1 Mem:50.86M (Peak 53.02M) | Time:00:00.01 | Mem:6.32M, Peak:8.67M | Scene, ViewLayer | Updating Scene BVH | Copying BVH to device
+Fra:1 Mem:50.86M (Peak 53.02M) | Time:00:00.01 | Mem:6.32M, Peak:8.67M | Scene, ViewLayer | Updating Mesh | Computing normals
+Fra:1 Mem:55.12M (Peak 55.12M) | Time:00:00.01 | Mem:6.32M, Peak:8.67M | Scene, ViewLayer | Updating Mesh | Copying Mesh to device
+Fra:1 Mem:55.12M (Peak 55.12M) | Time:00:00.01 | Mem:10.58M, Peak:10.58M | Scene, ViewLayer | Updating Objects Flags
+Fra:1 Mem:55.12M (Peak 55.12M) | Time:00:00.01 | Mem:10.58M, Peak:10.58M | Scene, ViewLayer | Updating Primitive Offsets
+Fra:1 Mem:55.12M (Peak 55.12M) | Time:00:00.01 | Mem:10.58M, Peak:10.58M | Scene, ViewLayer | Updating Images
+Fra:1 Mem:55.12M (Peak 55.12M) | Time:00:00.01 | Mem:10.58M, Peak:10.58M | Scene, ViewLayer | Updating Camera Volume
+Fra:1 Mem:55.12M (Peak 55.12M) | Time:00:00.01 | Mem:10.58M, Peak:10.58M | Scene, ViewLayer | Updating Lookup Tables
+Fra:1 Mem:55.12M (Peak 55.12M) | Time:00:00.01 | Mem:10.66M, Peak:10.66M | Scene, ViewLayer | Updating Lights
+Fra:1 Mem:55.12M (Peak 55.12M) | Time:00:00.01 | Mem:10.66M, Peak:10.66M | Scene, ViewLayer | Updating Lights | Computing tree
+Fra:1 Mem:55.12M (Peak 55.12M) | Time:00:00.01 | Mem:10.66M, Peak:10.66M | Scene, ViewLayer | Updating Integrator
+Fra:1 Mem:55.12M (Peak 55.12M) | Time:00:00.01 | Mem:10.66M, Peak:10.66M | Scene, ViewLayer | Updating Film
+Fra:1 Mem:55.12M (Peak 55.12M) | Time:00:00.01 | Mem:10.58M, Peak:10.66M | Scene, ViewLayer | Updating Lookup Tables
+Fra:1 Mem:55.12M (Peak 55.12M) | Time:00:00.01 | Mem:10.67M, Peak:10.67M | Scene, ViewLayer | Updating Baking
+Fra:1 Mem:55.12M (Peak 55.12M) | Time:00:00.01 | Mem:10.67M, Peak:10.67M | Scene, ViewLayer | Updating Device | Writing constant memory
+Fra:1 Mem:55.13M (Peak 55.13M) | Time:00:00.01 | Mem:10.67M, Peak:10.67M | Scene, ViewLayer | Loading denoising kernels (may take a few minutes the first time)
+Fra:1 Mem:55.13M (Peak 55.13M) | Time:00:00.01 | Mem:10.67M, Peak:10.67M | Scene, ViewLayer | Sample 0/16
+Fra:1 Mem:134.54M (Peak 134.54M) | Time:00:00.33 | Remaining:00:04.71 | Mem:89.91M, Peak:89.91M | Scene, ViewLayer | Sample 1/16
+Fra:1 Mem:167.91M (Peak 217.95M) | Time:00:08.65 | Mem:89.91M, Peak:89.91M | Scene, ViewLayer | Sample 16/16
+Fra:1 Mem:167.91M (Peak 217.95M) | Time:00:08.65 | Mem:89.91M, Peak:89.91M | Scene, ViewLayer | Finished
+Saved: 'E:\csd4.1\VR\FudanCampus\field-review\teaching4-2026-11-14-v2\renders\after-sculpture.png'
+Time: 00:08.76 (Saving: 00:00.10)
+
+Fra:1 Mem:47.45M (Peak 47.45M) | Time:00:00.00 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | T4 six storey structure
+Fra:1 Mem:47.45M (Peak 47.45M) | Time:00:00.00 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | T4 entry recess back structure
+Fra:1 Mem:47.45M (Peak 47.45M) | Time:00:00.00 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | T4 setback notch parapet
+Fra:1 Mem:47.45M (Peak 47.45M) | Time:00:00.00 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | T4 window glass
+Fra:1 Mem:47.46M (Peak 47.46M) | Time:00:00.00 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | T4 window transoms
+Fra:1 Mem:47.46M (Peak 47.46M) | Time:00:00.00 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | T4 projecting sills
+Fra:1 Mem:47.59M (Peak 47.59M) | Time:00:00.00 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | T4 window glass.002
+Fra:1 Mem:47.71M (Peak 47.71M) | Time:00:00.00 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | T4 window glass.003
+Fra:1 Mem:47.72M (Peak 47.72M) | Time:00:00.00 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | T4 sandstone plinth.001
+Fra:1 Mem:47.73M (Peak 47.73M) | Time:00:00.00 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | T4 sandstone plinth.002
+Fra:1 Mem:47.77M (Peak 47.77M) | Time:00:00.00 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | T4 window mullions.001
+Fra:1 Mem:47.80M (Peak 47.80M) | Time:00:00.00 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | T4 balcony slab
+Fra:1 Mem:48.01M (Peak 48.01M) | Time:00:00.00 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | T4 balcony front
+Fra:1 Mem:48.08M (Peak 48.08M) | Time:00:00.00 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | T4 balcony returns
+Fra:1 Mem:48.14M (Peak 48.14M) | Time:00:00.00 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | T4 balcony posts
+Fra:1 Mem:48.18M (Peak 48.18M) | Time:00:00.00 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | T4 balcony side handrails
+Fra:1 Mem:48.28M (Peak 48.28M) | Time:00:00.00 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | T4 balcony return frames
+Fra:1 Mem:48.32M (Peak 48.32M) | Time:00:00.00 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | T4 balcony soffit lights
+Fra:1 Mem:48.32M (Peak 48.32M) | Time:00:00.00 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | T4 shaft horizontal joints
+Fra:1 Mem:48.36M (Peak 48.36M) | Time:00:00.00 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | T4 front shaft
+Fra:1 Mem:48.36M (Peak 48.36M) | Time:00:00.00 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | T4 shaft side joints
+Fra:1 Mem:48.39M (Peak 48.39M) | Time:00:00.00 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | T4 balcony drainpipe
+Fra:1 Mem:48.42M (Peak 48.42M) | Time:00:00.00 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | T4 shaft top vent
+Fra:1 Mem:48.42M (Peak 48.42M) | Time:00:00.00 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | T4 vent louvers
+Fra:1 Mem:48.42M (Peak 48.42M) | Time:00:00.00 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | T4 stair slot frames
+Fra:1 Mem:48.45M (Peak 48.45M) | Time:00:00.00 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | T4 stair slot glazing
+Fra:1 Mem:48.45M (Peak 48.45M) | Time:00:00.00 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | T4 stair slot glazing.001
+Fra:1 Mem:48.45M (Peak 48.45M) | Time:00:00.00 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | T4 stair slot glazing.002
+Fra:1 Mem:48.46M (Peak 48.46M) | Time:00:00.00 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | T4 entrance lettering
+Fra:1 Mem:48.46M (Peak 48.46M) | Time:00:00.00 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | T4 stair slot glazing.003
+Fra:1 Mem:48.47M (Peak 48.47M) | Time:00:00.00 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | T4 stair sill ledges
+Fra:1 Mem:48.47M (Peak 48.47M) | Time:00:00.00 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | T4 roof stair guardrail
+Fra:1 Mem:48.48M (Peak 48.48M) | Time:00:00.00 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | T4 roof perimeter rail
+Fra:1 Mem:48.51M (Peak 48.51M) | Time:00:00.00 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | T4 rear small end windows
+Fra:1 Mem:48.51M (Peak 48.51M) | Time:00:00.00 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | T4 rear small end divider
+Fra:1 Mem:48.51M (Peak 48.51M) | Time:00:00.00 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | T4 entry recess floor
+Fra:1 Mem:48.52M (Peak 48.52M) | Time:00:00.00 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | T4 entry door frames
+Fra:1 Mem:48.52M (Peak 48.52M) | Time:00:00.00 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | T4 entry door handles
+Fra:1 Mem:48.52M (Peak 48.52M) | Time:00:00.00 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | T4 entry door transom
+Fra:1 Mem:48.52M (Peak 48.52M) | Time:00:00.00 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | T4 entry steps
+Fra:1 Mem:48.57M (Peak 48.57M) | Time:00:00.00 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | T4 accessible ramp
+Fra:1 Mem:49.22M (Peak 49.22M) | Time:00:00.00 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | T4 ramp handrail
+Fra:1 Mem:49.22M (Peak 49.22M) | Time:00:00.00 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | T4 ramp posts
+Fra:1 Mem:49.22M (Peak 49.22M) | Time:00:00.00 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | T4 rear glass door frames
+Fra:1 Mem:49.54M (Peak 49.54M) | Time:00:00.00 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | T4 rear glass door transom
+Fra:1 Mem:49.54M (Peak 49.54M) | Time:00:00.00 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | T4 rear glass door handles
+Fra:1 Mem:49.55M (Peak 49.55M) | Time:00:00.00 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | T4 rear entrance landing
+Fra:1 Mem:49.85M (Peak 49.85M) | Time:00:00.00 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | T4 side entrance door
+Fra:1 Mem:49.85M (Peak 49.85M) | Time:00:00.00 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | T4 side entrance frames
+Fra:1 Mem:49.85M (Peak 49.85M) | Time:00:00.00 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | T4 side entrance transom
+Fra:1 Mem:49.86M (Peak 49.86M) | Time:00:00.00 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | T4 side canopy roof
+Fra:1 Mem:49.86M (Peak 49.86M) | Time:00:00.00 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | T4 side entrance steps
+Fra:1 Mem:49.86M (Peak 49.86M) | Time:00:00.00 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | T4 side entrance paving
+Fra:1 Mem:49.86M (Peak 49.86M) | Time:00:00.00 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | T4 side stair posts
+Fra:1 Mem:50.17M (Peak 50.17M) | Time:00:00.00 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | T4 side sandstone plinth
+Fra:1 Mem:50.17M (Peak 50.17M) | Time:00:00.00 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | T4 side sandstone plinth.001
+Fra:1 Mem:49.87M (Peak 50.17M) | Time:00:00.00 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | T4 clock hour hand
+Fra:1 Mem:49.89M (Peak 50.17M) | Time:00:00.00 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | T4 clock minute hand
+Fra:1 Mem:49.89M (Peak 50.17M) | Time:00:00.00 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | T4 clock hour marks
+Fra:1 Mem:49.90M (Peak 50.17M) | Time:00:00.00 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | T4 paving joints
+Fra:1 Mem:49.92M (Peak 50.17M) | Time:00:00.00 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | T4 west forecourt lawn
+Fra:1 Mem:49.93M (Peak 50.17M) | Time:00:00.00 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | T4 flowerbed soil
+Fra:1 Mem:49.94M (Peak 50.17M) | Time:00:00.00 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | T4 dark stone flowerbed edging
+Fra:1 Mem:49.94M (Peak 50.17M) | Time:00:00.00 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | T4 flowerbed coping
+Fra:1 Mem:50.04M (Peak 50.17M) | Time:00:00.00 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | T4 flowerbed foliage
+Fra:1 Mem:50.18M (Peak 50.18M) | Time:00:00.00 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | T4 flowerbed foliage.002
+Fra:1 Mem:50.52M (Peak 50.52M) | Time:00:00.00 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | T4 flowerbed foliage.003
+Fra:1 Mem:50.59M (Peak 50.59M) | Time:00:00.00 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | T4 clock spine
+Fra:1 Mem:50.71M (Peak 50.71M) | Time:00:00.00 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | T4 sculpture black footing
+Fra:1 Mem:50.72M (Peak 50.72M) | Time:00:00.00 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | T4 sculpture granite pedestal
+Fra:1 Mem:50.72M (Peak 50.72M) | Time:00:00.00 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | T4 curved book page blocks
+Fra:1 Mem:50.91M (Peak 50.91M) | Time:00:00.00 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | T4 book rear spine
+Fra:1 Mem:50.92M (Peak 50.92M) | Time:00:00.00 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | T4 engraved page strata
+Fra:1 Mem:51.12M (Peak 51.12M) | Time:00:00.00 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | T4 upright clock book
+Fra:1 Mem:53.02M (Peak 53.02M) | Time:00:00.00 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Initializing
+Fra:1 Mem:52.59M (Peak 53.02M) | Time:00:00.00 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Updating Images | Loading granite-2
+Fra:1 Mem:52.65M (Peak 53.02M) | Time:00:00.00 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Updating Images | Loading granite-0
+Fra:1 Mem:52.71M (Peak 53.02M) | Time:00:00.00 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Updating Images | Loading granite-1
+Fra:1 Mem:48.38M (Peak 53.02M) | Time:00:00.00 | Mem:0.19M, Peak:0.19M | Scene, ViewLayer | Waiting for render to start
+Fra:1 Mem:48.38M (Peak 53.02M) | Time:00:00.00 | Mem:0.19M, Peak:0.19M | Scene, ViewLayer | Loading render kernels (may take a few minutes the first time)
+Fra:1 Mem:48.38M (Peak 53.02M) | Time:00:00.00 | Mem:0.19M, Peak:0.19M | Scene, ViewLayer | Updating Scene
+Fra:1 Mem:48.38M (Peak 53.02M) | Time:00:00.00 | Mem:0.19M, Peak:0.19M | Scene, ViewLayer | Updating Shaders
+Fra:1 Mem:48.48M (Peak 53.02M) | Time:00:00.00 | Mem:0.21M, Peak:0.21M | Scene, ViewLayer | Updating Procedurals
+Fra:1 Mem:48.48M (Peak 53.02M) | Time:00:00.00 | Mem:0.21M, Peak:0.21M | Scene, ViewLayer | Updating Background
+Fra:1 Mem:48.48M (Peak 53.02M) | Time:00:00.00 | Mem:0.21M, Peak:0.21M | Scene, ViewLayer | Updating Camera
+Fra:1 Mem:48.48M (Peak 53.02M) | Time:00:00.00 | Mem:0.21M, Peak:0.21M | Scene, ViewLayer | Updating Meshes Flags
+Fra:1 Mem:48.48M (Peak 53.02M) | Time:00:00.00 | Mem:0.21M, Peak:0.21M | Scene, ViewLayer | Updating Objects
+Fra:1 Mem:48.48M (Peak 53.02M) | Time:00:00.00 | Mem:0.21M, Peak:0.21M | Scene, ViewLayer | Updating Objects | Copying Transformations to device
+Fra:1 Mem:48.51M (Peak 53.02M) | Time:00:00.00 | Mem:0.23M, Peak:0.23M | Scene, ViewLayer | Updating Objects | Applying Static Transformations
+Fra:1 Mem:48.51M (Peak 53.02M) | Time:00:00.00 | Mem:0.23M, Peak:0.23M | Scene, ViewLayer | Updating Particle Systems
+Fra:1 Mem:48.51M (Peak 53.02M) | Time:00:00.00 | Mem:0.23M, Peak:0.23M | Scene, ViewLayer | Updating Particle Systems | Copying Particles to device
+Fra:1 Mem:48.51M (Peak 53.02M) | Time:00:00.00 | Mem:0.23M, Peak:0.23M | Scene, ViewLayer | Updating Meshes
+Fra:1 Mem:49.68M (Peak 53.02M) | Time:00:00.01 | Mem:0.23M, Peak:0.23M | Scene, ViewLayer | Updating Mesh | Computing attributes
+Fra:1 Mem:50.87M (Peak 53.02M) | Time:00:00.01 | Mem:0.24M, Peak:0.24M | Scene, ViewLayer | Updating Mesh | Copying Attributes to device
+Fra:1 Mem:50.85M (Peak 53.02M) | Time:00:00.01 | Mem:1.41M, Peak:1.41M | Scene, ViewLayer | Updating Scene BVH | Building
+Fra:1 Mem:50.86M (Peak 53.02M) | Time:00:00.01 | Mem:1.41M, Peak:1.41M | Scene, ViewLayer | Updating Scene BVH | Building BVH
+Fra:1 Mem:50.86M (Peak 53.02M) | Time:00:00.01 | Mem:3.76M, Peak:3.76M | Scene, ViewLayer | Updating Scene BVH | Building BVH 0%
+Fra:1 Mem:50.86M (Peak 53.02M) | Time:00:00.01 | Mem:6.32M, Peak:8.67M | Scene, ViewLayer | Updating Scene BVH | Copying BVH to device
+Fra:1 Mem:50.86M (Peak 53.02M) | Time:00:00.01 | Mem:6.32M, Peak:8.67M | Scene, ViewLayer | Updating Mesh | Computing normals
+Fra:1 Mem:55.12M (Peak 55.12M) | Time:00:00.01 | Mem:6.32M, Peak:8.67M | Scene, ViewLayer | Updating Mesh | Copying Mesh to device
+Fra:1 Mem:55.12M (Peak 55.12M) | Time:00:00.01 | Mem:10.58M, Peak:10.58M | Scene, ViewLayer | Updating Objects Flags
+Fra:1 Mem:55.12M (Peak 55.12M) | Time:00:00.01 | Mem:10.58M, Peak:10.58M | Scene, ViewLayer | Updating Primitive Offsets
+Fra:1 Mem:55.12M (Peak 55.12M) | Time:00:00.01 | Mem:10.58M, Peak:10.58M | Scene, ViewLayer | Updating Images
+Fra:1 Mem:55.12M (Peak 55.12M) | Time:00:00.01 | Mem:10.58M, Peak:10.58M | Scene, ViewLayer | Updating Camera Volume
+Fra:1 Mem:55.12M (Peak 55.12M) | Time:00:00.01 | Mem:10.58M, Peak:10.58M | Scene, ViewLayer | Updating Lookup Tables
+Fra:1 Mem:55.12M (Peak 55.12M) | Time:00:00.01 | Mem:10.66M, Peak:10.66M | Scene, ViewLayer | Updating Lights
+Fra:1 Mem:55.12M (Peak 55.12M) | Time:00:00.01 | Mem:10.66M, Peak:10.66M | Scene, ViewLayer | Updating Lights | Computing tree
+Fra:1 Mem:55.12M (Peak 55.12M) | Time:00:00.01 | Mem:10.66M, Peak:10.66M | Scene, ViewLayer | Updating Integrator
+Fra:1 Mem:55.12M (Peak 55.12M) | Time:00:00.01 | Mem:10.66M, Peak:10.66M | Scene, ViewLayer | Updating Film
+Fra:1 Mem:55.12M (Peak 55.12M) | Time:00:00.01 | Mem:10.58M, Peak:10.66M | Scene, ViewLayer | Updating Lookup Tables
+Fra:1 Mem:55.12M (Peak 55.12M) | Time:00:00.01 | Mem:10.67M, Peak:10.67M | Scene, ViewLayer | Updating Baking
+Fra:1 Mem:55.12M (Peak 55.12M) | Time:00:00.01 | Mem:10.67M, Peak:10.67M | Scene, ViewLayer | Updating Device | Writing constant memory
+Fra:1 Mem:55.13M (Peak 55.13M) | Time:00:00.01 | Mem:10.67M, Peak:10.67M | Scene, ViewLayer | Loading denoising kernels (may take a few minutes the first time)
+Fra:1 Mem:55.13M (Peak 55.13M) | Time:00:00.01 | Mem:10.67M, Peak:10.67M | Scene, ViewLayer | Sample 0/16
+Fra:1 Mem:134.54M (Peak 134.54M) | Time:00:00.17 | Remaining:00:02.44 | Mem:89.91M, Peak:89.91M | Scene, ViewLayer | Sample 1/16
+Fra:1 Mem:167.91M (Peak 217.95M) | Time:00:06.30 | Mem:89.91M, Peak:89.91M | Scene, ViewLayer | Sample 16/16
+Fra:1 Mem:167.91M (Peak 217.95M) | Time:00:06.30 | Mem:89.91M, Peak:89.91M | Scene, ViewLayer | Finished
+Saved: 'E:\csd4.1\VR\FudanCampus\field-review\teaching4-2026-11-14-v2\renders\after-plan.png'
+Time: 00:06.40 (Saving: 00:00.09)
+
+Fra:1 Mem:47.45M (Peak 47.45M) | Time:00:00.00 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | T4 six storey structure
+Fra:1 Mem:47.45M (Peak 47.45M) | Time:00:00.00 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | T4 setback east wing
+Fra:1 Mem:47.45M (Peak 47.45M) | Time:00:00.00 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | T4 entry recess back structure
+Fra:1 Mem:47.45M (Peak 47.45M) | Time:00:00.00 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | T4 flat roof
+Fra:1 Mem:47.46M (Peak 47.46M) | Time:00:00.00 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | T4 roof parapet
+Fra:1 Mem:47.46M (Peak 47.46M) | Time:00:00.00 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | T4 setback front parapet
+Fra:1 Mem:47.46M (Peak 47.46M) | Time:00:00.00 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | T4 window mullions
+Fra:1 Mem:47.46M (Peak 47.46M) | Time:00:00.00 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | T4 window glass.003
+Fra:1 Mem:47.65M (Peak 47.65M) | Time:00:00.00 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | T4 sandstone plinth
+Fra:1 Mem:47.75M (Peak 47.75M) | Time:00:00.00 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | T4 sandstone plinth.001
+Fra:1 Mem:47.70M (Peak 47.75M) | Time:00:00.00 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | T4 sandstone plinth.002
+Fra:1 Mem:47.70M (Peak 47.75M) | Time:00:00.00 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | T4 window mullions.001
+Fra:1 Mem:47.80M (Peak 47.80M) | Time:00:00.00 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | T4 balcony front
+Fra:1 Mem:47.80M (Peak 47.80M) | Time:00:00.00 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | T4 balcony returns
+Fra:1 Mem:47.84M (Peak 47.84M) | Time:00:00.00 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | T4 balcony handrails
+Fra:1 Mem:47.86M (Peak 47.86M) | Time:00:00.00 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | T4 balcony return glazing
+Fra:1 Mem:47.86M (Peak 47.86M) | Time:00:00.00 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | T4 balcony soffit lights
+Fra:1 Mem:47.94M (Peak 47.94M) | Time:00:00.00 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | T4 front shaft
+Fra:1 Mem:48.12M (Peak 48.12M) | Time:00:00.00 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | T4 shaft vertical joints
+Fra:1 Mem:48.28M (Peak 48.28M) | Time:00:00.00 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | T4 shaft side joints
+Fra:1 Mem:48.31M (Peak 48.31M) | Time:00:00.00 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | T4 balcony drainpipe
+Fra:1 Mem:48.32M (Peak 48.32M) | Time:00:00.00 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | T4 vent louvers
+Fra:1 Mem:48.33M (Peak 48.33M) | Time:00:00.00 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | T4 rear stair tower
+Fra:1 Mem:48.33M (Peak 48.33M) | Time:00:00.00 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | T4 stair slot transom
+Fra:1 Mem:48.35M (Peak 48.35M) | Time:00:00.00 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | T4 stair slot glazing.001
+Fra:1 Mem:48.35M (Peak 48.35M) | Time:00:00.00 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | T4 stair slot glazing.003
+Fra:1 Mem:48.35M (Peak 48.35M) | Time:00:00.00 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | T4 stair sill ledges
+Fra:1 Mem:48.37M (Peak 48.37M) | Time:00:00.00 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | T4 roof stair guardrail
+Fra:1 Mem:48.39M (Peak 48.39M) | Time:00:00.00 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | T4 roof perimeter rail
+Fra:1 Mem:48.40M (Peak 48.40M) | Time:00:00.00 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | T4 rear small end glazing
+Fra:1 Mem:48.45M (Peak 48.45M) | Time:00:00.00 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | T4 rear small end divider
+Fra:1 Mem:48.49M (Peak 48.49M) | Time:00:00.00 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | T4 entrance lettering
+Fra:1 Mem:48.49M (Peak 48.49M) | Time:00:00.00 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | T4 entry recess floor
+Fra:1 Mem:48.51M (Peak 48.51M) | Time:00:00.00 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | T4 entry door frames
+Fra:1 Mem:49.14M (Peak 49.14M) | Time:00:00.00 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | T4 entry door transom
+Fra:1 Mem:49.44M (Peak 49.44M) | Time:00:00.00 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | T4 entry steps
+Fra:1 Mem:49.44M (Peak 49.44M) | Time:00:00.00 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | T4 accessible ramp
+Fra:1 Mem:49.45M (Peak 49.45M) | Time:00:00.00 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | T4 ramp handrail
+Fra:1 Mem:49.45M (Peak 49.45M) | Time:00:00.00 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | T4 ramp posts
+Fra:1 Mem:49.75M (Peak 49.75M) | Time:00:00.00 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | T4 rear door
+Fra:1 Mem:49.75M (Peak 49.75M) | Time:00:00.00 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | T4 rear glass door frames
+Fra:1 Mem:49.77M (Peak 49.77M) | Time:00:00.00 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | T4 rear glass door transom
+Fra:1 Mem:49.77M (Peak 49.77M) | Time:00:00.00 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | T4 rear glass door handles
+Fra:1 Mem:49.77M (Peak 49.77M) | Time:00:00.00 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | T4 rear entrance steps
+Fra:1 Mem:49.78M (Peak 49.78M) | Time:00:00.00 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | T4 rear entrance paving
+Fra:1 Mem:49.78M (Peak 49.78M) | Time:00:00.00 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | T4 side entrance frames
+Fra:1 Mem:49.78M (Peak 49.78M) | Time:00:00.00 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | T4 side entrance transom
+Fra:1 Mem:50.09M (Peak 50.09M) | Time:00:00.00 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | T4 side canopy roof
+Fra:1 Mem:50.10M (Peak 50.10M) | Time:00:00.00 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | T4 side canopy ribs
+Fra:1 Mem:50.11M (Peak 50.11M) | Time:00:00.00 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | T4 side entrance steps
+Fra:1 Mem:49.81M (Peak 50.11M) | Time:00:00.00 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | T4 side stair handrail
+Fra:1 Mem:49.81M (Peak 50.11M) | Time:00:00.00 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | T4 clock hour hand
+Fra:1 Mem:49.81M (Peak 50.11M) | Time:00:00.00 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | T4 side sandstone plinth
+Fra:1 Mem:49.81M (Peak 50.11M) | Time:00:00.00 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | T4 side sandstone plinth.002
+Fra:1 Mem:49.84M (Peak 50.11M) | Time:00:00.00 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | T4 sandstone plinth coping
+Fra:1 Mem:49.84M (Peak 50.11M) | Time:00:00.00 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | T4 paving joints
+Fra:1 Mem:49.84M (Peak 50.11M) | Time:00:00.00 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | T4 west lawn kerb
+Fra:1 Mem:49.84M (Peak 50.11M) | Time:00:00.00 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | T4 flowerbed soil
+Fra:1 Mem:49.86M (Peak 50.11M) | Time:00:00.00 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | T4 dark stone flowerbed edging
+Fra:1 Mem:49.86M (Peak 50.11M) | Time:00:00.00 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | T4 flowerbed foliage
+Fra:1 Mem:49.90M (Peak 50.11M) | Time:00:00.00 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | T4 flowerbed foliage.001
+Fra:1 Mem:49.90M (Peak 50.11M) | Time:00:00.00 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | T4 flowerbed foliage.004
+Fra:1 Mem:49.96M (Peak 50.11M) | Time:00:00.00 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | T4 flowerbed foliage.005
+Fra:1 Mem:49.98M (Peak 50.11M) | Time:00:00.00 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | T4 sculpture black footing
+Fra:1 Mem:50.12M (Peak 50.12M) | Time:00:00.00 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | T4 sculpture granite pedestal
+Fra:1 Mem:50.17M (Peak 50.17M) | Time:00:00.00 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | T4 overhanging book covers
+Fra:1 Mem:50.17M (Peak 50.17M) | Time:00:00.00 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | T4 book rear spine
+Fra:1 Mem:50.21M (Peak 50.21M) | Time:00:00.00 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | T4 engraved page strata
+Fra:1 Mem:50.22M (Peak 50.22M) | Time:00:00.00 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | T4 upright clock book
+Fra:1 Mem:50.24M (Peak 50.24M) | Time:00:00.00 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | T4 clock spine
+Fra:1 Mem:50.24M (Peak 50.24M) | Time:00:00.00 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | T4 clock hour marks
+Fra:1 Mem:53.02M (Peak 53.02M) | Time:00:00.00 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Initializing
+Fra:1 Mem:52.59M (Peak 53.02M) | Time:00:00.00 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Updating Images | Loading granite-2
+Fra:1 Mem:52.66M (Peak 53.02M) | Time:00:00.00 | Mem:0.06M, Peak:0.06M | Scene, ViewLayer | Updating Images | Loading granite-1
+Fra:1 Mem:52.66M (Peak 53.02M) | Time:00:00.00 | Mem:0.06M, Peak:0.06M | Scene, ViewLayer | Updating Images | Loading granite-0
+Fra:1 Mem:48.38M (Peak 53.02M) | Time:00:00.00 | Mem:0.19M, Peak:0.19M | Scene, ViewLayer | Waiting for render to start
+Fra:1 Mem:48.38M (Peak 53.02M) | Time:00:00.00 | Mem:0.19M, Peak:0.19M | Scene, ViewLayer | Loading render kernels (may take a few minutes the first time)
+Fra:1 Mem:48.38M (Peak 53.02M) | Time:00:00.00 | Mem:0.19M, Peak:0.19M | Scene, ViewLayer | Updating Scene
+Fra:1 Mem:48.38M (Peak 53.02M) | Time:00:00.00 | Mem:0.19M, Peak:0.19M | Scene, ViewLayer | Updating Shaders
+Fra:1 Mem:48.48M (Peak 53.02M) | Time:00:00.00 | Mem:0.21M, Peak:0.21M | Scene, ViewLayer | Updating Procedurals
+Fra:1 Mem:48.48M (Peak 53.02M) | Time:00:00.00 | Mem:0.21M, Peak:0.21M | Scene, ViewLayer | Updating Background
+Fra:1 Mem:48.48M (Peak 53.02M) | Time:00:00.00 | Mem:0.21M, Peak:0.21M | Scene, ViewLayer | Updating Camera
+Fra:1 Mem:48.48M (Peak 53.02M) | Time:00:00.00 | Mem:0.21M, Peak:0.21M | Scene, ViewLayer | Updating Meshes Flags
+Fra:1 Mem:48.48M (Peak 53.02M) | Time:00:00.00 | Mem:0.21M, Peak:0.21M | Scene, ViewLayer | Updating Objects
+Fra:1 Mem:48.48M (Peak 53.02M) | Time:00:00.00 | Mem:0.21M, Peak:0.21M | Scene, ViewLayer | Updating Objects | Copying Transformations to device
+Fra:1 Mem:48.51M (Peak 53.02M) | Time:00:00.00 | Mem:0.23M, Peak:0.23M | Scene, ViewLayer | Updating Objects | Applying Static Transformations
+Fra:1 Mem:48.51M (Peak 53.02M) | Time:00:00.01 | Mem:0.23M, Peak:0.23M | Scene, ViewLayer | Updating Particle Systems
+Fra:1 Mem:48.51M (Peak 53.02M) | Time:00:00.01 | Mem:0.23M, Peak:0.23M | Scene, ViewLayer | Updating Particle Systems | Copying Particles to device
+Fra:1 Mem:48.51M (Peak 53.02M) | Time:00:00.01 | Mem:0.23M, Peak:0.23M | Scene, ViewLayer | Updating Meshes
+Fra:1 Mem:49.68M (Peak 53.02M) | Time:00:00.01 | Mem:0.23M, Peak:0.23M | Scene, ViewLayer | Updating Mesh | Computing attributes
+Fra:1 Mem:50.87M (Peak 53.02M) | Time:00:00.01 | Mem:0.24M, Peak:0.24M | Scene, ViewLayer | Updating Mesh | Copying Attributes to device
+Fra:1 Mem:50.85M (Peak 53.02M) | Time:00:00.01 | Mem:1.41M, Peak:1.41M | Scene, ViewLayer | Updating Scene BVH | Building
+Fra:1 Mem:50.86M (Peak 53.02M) | Time:00:00.01 | Mem:1.41M, Peak:1.41M | Scene, ViewLayer | Updating Scene BVH | Building BVH
+Fra:1 Mem:50.86M (Peak 53.02M) | Time:00:00.01 | Mem:3.76M, Peak:3.76M | Scene, ViewLayer | Updating Scene BVH | Building BVH 0%
+Fra:1 Mem:50.86M (Peak 53.02M) | Time:00:00.01 | Mem:6.32M, Peak:8.67M | Scene, ViewLayer | Updating Scene BVH | Copying BVH to device
+Fra:1 Mem:50.86M (Peak 53.02M) | Time:00:00.01 | Mem:6.32M, Peak:8.67M | Scene, ViewLayer | Updating Mesh | Computing normals
+Fra:1 Mem:55.12M (Peak 55.12M) | Time:00:00.01 | Mem:6.32M, Peak:8.67M | Scene, ViewLayer | Updating Mesh | Copying Mesh to device
+Fra:1 Mem:55.12M (Peak 55.12M) | Time:00:00.01 | Mem:10.58M, Peak:10.58M | Scene, ViewLayer | Updating Objects Flags
+Fra:1 Mem:55.12M (Peak 55.12M) | Time:00:00.01 | Mem:10.58M, Peak:10.58M | Scene, ViewLayer | Updating Primitive Offsets
+Fra:1 Mem:55.12M (Peak 55.12M) | Time:00:00.01 | Mem:10.58M, Peak:10.58M | Scene, ViewLayer | Updating Images
+Fra:1 Mem:55.12M (Peak 55.12M) | Time:00:00.01 | Mem:10.58M, Peak:10.58M | Scene, ViewLayer | Updating Camera Volume
+Fra:1 Mem:55.12M (Peak 55.12M) | Time:00:00.01 | Mem:10.58M, Peak:10.58M | Scene, ViewLayer | Updating Lookup Tables
+Fra:1 Mem:55.12M (Peak 55.12M) | Time:00:00.01 | Mem:10.66M, Peak:10.66M | Scene, ViewLayer | Updating Lights
+Fra:1 Mem:55.12M (Peak 55.12M) | Time:00:00.01 | Mem:10.66M, Peak:10.66M | Scene, ViewLayer | Updating Lights | Computing tree
+Fra:1 Mem:55.12M (Peak 55.12M) | Time:00:00.01 | Mem:10.66M, Peak:10.66M | Scene, ViewLayer | Updating Integrator
+Fra:1 Mem:55.12M (Peak 55.12M) | Time:00:00.01 | Mem:10.66M, Peak:10.66M | Scene, ViewLayer | Updating Film
+Fra:1 Mem:55.12M (Peak 55.12M) | Time:00:00.01 | Mem:10.58M, Peak:10.66M | Scene, ViewLayer | Updating Lookup Tables
+Fra:1 Mem:55.12M (Peak 55.12M) | Time:00:00.01 | Mem:10.67M, Peak:10.67M | Scene, ViewLayer | Updating Baking
+Fra:1 Mem:55.12M (Peak 55.12M) | Time:00:00.01 | Mem:10.67M, Peak:10.67M | Scene, ViewLayer | Updating Device | Writing constant memory
+Fra:1 Mem:55.13M (Peak 55.13M) | Time:00:00.01 | Mem:10.67M, Peak:10.67M | Scene, ViewLayer | Loading denoising kernels (may take a few minutes the first time)
+Fra:1 Mem:55.13M (Peak 55.13M) | Time:00:00.01 | Mem:10.67M, Peak:10.67M | Scene, ViewLayer | Sample 0/16
+Fra:1 Mem:134.54M (Peak 134.54M) | Time:00:00.41 | Remaining:00:05.93 | Mem:89.91M, Peak:89.91M | Scene, ViewLayer | Sample 1/16
+Fra:1 Mem:167.91M (Peak 217.95M) | Time:00:10.86 | Mem:89.91M, Peak:89.91M | Scene, ViewLayer | Sample 16/16
+Fra:1 Mem:167.91M (Peak 217.95M) | Time:00:10.86 | Mem:89.91M, Peak:89.91M | Scene, ViewLayer | Finished
+Saved: 'E:\csd4.1\VR\FudanCampus\field-review\teaching4-2026-11-14-v2\renders\after-entry.png'
+Time: 00:10.96 (Saving: 00:00.09)
+
+Warning: Path 'C:\Windows\Fonts\simkai.ttf' cannot be made relative for Font 'KaiTi Regular'
+
+Info: Saved "17-candidate.blend"
+Extensions: writing cache failed ([WinError 5] 拒绝访问。: 'C:\\Users\\22878\\AppData\\Roaming\\Blender Foundation\\Blender\\4.4').
+20:26:35 | INFO: Data are loaded, start creating Blender stuff
+20:26:35 | INFO: Blender create Mesh node six storey structure
+20:26:35 | INFO: Blender create Mesh node setback east wing
+20:26:35 | INFO: Blender create Mesh node ground left structure
+20:26:35 | INFO: Blender create Mesh node ground right structure
+20:26:35 | INFO: Blender create Mesh node setback east ground structure
+20:26:35 | INFO: Blender create Mesh node entry recess back structure
+20:26:35 | INFO: Blender create Mesh node flat roof
+20:26:35 | INFO: Blender create Mesh node setback east flat roof
+20:26:35 | INFO: Blender create Mesh node roof parapet
+20:26:35 | INFO: Blender create Mesh node setback front parapet
+20:26:35 | INFO: Blender create Mesh node setback notch parapet
+20:26:35 | INFO: Blender create Mesh node end parapet
+20:26:35 | INFO: Blender create Mesh node window glass
+20:26:35 | INFO: Blender create Mesh node window mullions
+20:26:35 | INFO: Blender create Mesh node window transoms
+20:26:35 | INFO: Blender create Mesh node projecting sills
+20:26:35 | INFO: Blender create Mesh node curtain panels
+20:26:35 | INFO: Blender create Mesh node window glass.001
+20:26:35 | INFO: Blender create Mesh node window glass.002
+20:26:35 | INFO: Blender create Mesh node window glass.003
+20:26:35 | INFO: Blender create Mesh node sandstone plinth
+20:26:35 | INFO: Blender create Mesh node sandstone plinth.001
+20:26:35 | INFO: Blender create Mesh node sandstone plinth.002
+20:26:35 | INFO: Blender create Mesh node window mullions.001
+20:26:35 | INFO: Blender create Mesh node window transoms.001
+20:26:35 | INFO: Blender create Mesh node balcony slab
+20:26:35 | INFO: Blender create Mesh node balcony front
+20:26:35 | INFO: Blender create Mesh node balcony returns
+20:26:35 | INFO: Blender create Mesh node balcony handrails
+20:26:35 | INFO: Blender create Mesh node balcony posts
+20:26:35 | INFO: Blender create Mesh node balcony side handrails
+20:26:35 | INFO: Blender create Mesh node balcony return glazing
+20:26:35 | INFO: Blender create Mesh node balcony return frames
+20:26:35 | INFO: Blender create Mesh node balcony soffit lights
+20:26:35 | INFO: Blender create Mesh node front shaft
+20:26:35 | INFO: Blender create Mesh node shaft horizontal joints
+20:26:35 | INFO: Blender create Mesh node shaft vertical joints
+20:26:35 | INFO: Blender create Mesh node shaft side joints
+20:26:35 | INFO: Blender create Mesh node balcony drainpipe
+20:26:35 | INFO: Blender create Mesh node shaft top vent
+20:26:35 | INFO: Blender create Mesh node vent louvers
+20:26:35 | INFO: Blender create Mesh node rear stair tower
+20:26:35 | INFO: Blender create Mesh node stair slot frames
+20:26:35 | INFO: Blender create Mesh node stair slot glazing
+20:26:35 | INFO: Blender create Mesh node stair slot transom
+20:26:35 | INFO: Blender create Mesh node stair slot glazing.001
+20:26:35 | INFO: Blender create Mesh node stair slot glazing.002
+20:26:35 | INFO: Blender create Mesh node stair slot glazing.003
+20:26:35 | INFO: Blender create Mesh node stair sill ledges
+20:26:35 | INFO: Blender create Mesh node roof stair guardrail
+20:26:35 | INFO: Blender create Mesh node roof perimeter rail
+20:26:35 | INFO: Blender create Mesh node rear small end windows
+20:26:35 | INFO: Blender create Mesh node rear small end glazing
+20:26:35 | INFO: Blender create Mesh node rear small end divider
+20:26:35 | INFO: Blender create Mesh node entry glazing
+20:26:35 | INFO: Blender create Mesh node entry recess floor
+20:26:35 | INFO: Blender create Mesh node entry door frames
+20:26:35 | INFO: Blender create Mesh node entry door handles
+20:26:35 | INFO: Blender create Mesh node entry door transom
+20:26:35 | INFO: Blender create Mesh node entry steps
+20:26:35 | INFO: Blender create Mesh node accessible ramp
+20:26:35 | INFO: Blender create Mesh node ramp handrail
+20:26:35 | INFO: Blender create Mesh node ramp posts
+20:26:35 | INFO: Blender create Mesh node rear door
+20:26:35 | INFO: Blender create Mesh node rear canopy
+20:26:35 | INFO: Blender create Mesh node rear glass door frames
+20:26:35 | INFO: Blender create Mesh node rear glass door transom
+20:26:35 | INFO: Blender create Mesh node rear glass door handles
+20:26:35 | INFO: Blender create Mesh node rear entrance landing
+20:26:35 | INFO: Blender create Mesh node rear entrance steps
+20:26:35 | INFO: Blender create Mesh node rear entrance paving
+20:26:35 | INFO: Blender create Mesh node side entrance door
+20:26:35 | INFO: Blender create Mesh node side entrance frames
+20:26:35 | INFO: Blender create Mesh node side entrance transom
+20:26:35 | INFO: Blender create Mesh node side canopy roof
+20:26:35 | INFO: Blender create Mesh node side canopy ribs
+20:26:35 | INFO: Blender create Mesh node side canopy braces
+20:26:35 | INFO: Blender create Mesh node side entrance steps
+20:26:35 | INFO: Blender create Mesh node side entrance paving
+20:26:35 | INFO: Blender create Mesh node side stair handrail
+20:26:35 | INFO: Blender create Mesh node side stair posts
+20:26:35 | INFO: Blender create Mesh node side sandstone plinth
+20:26:35 | INFO: Blender create Mesh node side sandstone plinth.001
+20:26:35 | INFO: Blender create Mesh node side sandstone plinth.002
+20:26:35 | INFO: Blender create Mesh node sandstone plinth coping
+20:26:35 | INFO: Blender create Mesh node forecourt paving
+20:26:35 | INFO: Blender create Mesh node paving joints
+20:26:35 | INFO: Blender create Mesh node west forecourt lawn
+20:26:35 | INFO: Blender create Mesh node west lawn kerb
+20:26:35 | INFO: Blender create Mesh node flowerbed soil
+20:26:35 | INFO: Blender create Mesh node dark stone flowerbed edging
+20:26:35 | INFO: Blender create Mesh node flowerbed coping
+20:26:35 | INFO: Blender create Mesh node flowerbed foliage
+20:26:35 | INFO: Blender create Mesh node flowerbed foliage.001
+20:26:35 | INFO: Blender create Mesh node flowerbed foliage.002
+20:26:35 | INFO: Blender create Mesh node flowerbed foliage.003
+20:26:35 | INFO: Blender create Mesh node flowerbed foliage.004
+20:26:35 | INFO: Blender create Mesh node flowerbed foliage.005
+20:26:35 | INFO: Blender create Mesh node sculpture black footing
+20:26:35 | INFO: Blender create Mesh node sculpture granite pedestal
+20:26:35 | INFO: Blender create Mesh node curved book page blocks
+20:26:35 | INFO: Blender create Mesh node overhanging book covers
+20:26:35 | INFO: Blender create Mesh node book rear spine
+20:26:35 | INFO: Blender create Mesh node engraved page strata
+20:26:35 | INFO: Blender create Mesh node upright clock book
+20:26:35 | INFO: Blender create Mesh node clock spine
+20:26:35 | INFO: Blender create Mesh node clock hour marks
+20:26:35 | INFO: Blender create Mesh node clock minute hand
+20:26:35 | INFO: Blender create Mesh node clock hour hand
+20:26:35 | INFO: Blender create Mesh node 第四教学楼
+20:26:35 | INFO: glTF import finished in 0.16s
+REVIEW_STAGE_PASS candidate production hashes unchanged
+
+Blender quit

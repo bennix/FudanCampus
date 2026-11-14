@@ -1,0 +1,97 @@
+{
+  "statistics": {
+    "blender": "4.4.3",
+    "triangles": 77006,
+    "mesh_objects": 110,
+    "materials": 29,
+    "glb_bytes": 4654904,
+    "glb_sha256": "adb61f27ccb47d46782fea1947273b34a5b62220e5ccb0a7375437b8b78dfe8e",
+    "cleaned_degenerate_faces": 0,
+    "bounds_blender": {
+      "min": [
+        -20.75,
+        -15.0,
+        0.11999999731779099
+      ],
+      "max": [
+        22.950000762939453,
+        9.550000190734863,
+        22.130001068115234
+      ]
+    },
+    "glb_roundtrip": {
+      "meshes": 110,
+      "images": 3
+    },
+    "elapsed_seconds": 64.7,
+    "status": "candidate awaiting human visual acceptance; production unchanged"
+  },
+  "runtime": {
+    "id": "buildings-17",
+    "name": "第四教学楼",
+    "sourceRevision": "adb61f27ccb4",
+    "labelPosition": [
+      -154.4,
+      22.530001068115233,
+      -204
+    ],
+    "position": [
+      -154.4,
+      0,
+      -204
+    ],
+    "rotation": [
+      0,
+      0,
+      0
+    ],
+    "bounds": {
+      "min": [
+        -175.15,
+        0.11999999731779099,
+        -213.55000019073486
+      ],
+      "max": [
+        -131.44999923706055,
+        22.130001068115234,
+        -189
+      ]
+    },
+    "nearDistance": 100,
+    "mediumDistance": 340,
+    "tiers": [
+      {
+        "url": "models/lod/buildings-17-far.glb",
+        "revision": "c2632e25e37a",
+        "bytes": 1432400,
+        "triangles": 74625
+      },
+      {
+        "url": "models/lod/buildings-17-medium.glb",
+        "revision": "a6822971b0bb",
+        "bytes": 1443640,
+        "triangles": 76351
+      },
+      {
+        "url": "models/buildings/17.glb",
+        "revision": "adb61f27ccb4",
+        "bytes": 4654904,
+        "triangles": 77006
+      }
+    ]
+  },
+  "other_lod_assets_unchanged": 199,
+  "other_manifest_entries_unchanged": true,
+  "protected_files_verified": 11,
+  "chemistry_source_unchanged": true,
+  "collision_changes_only_near_17": true,
+  "collision_triangles_removed": 9962,
+  "collision_triangles_added": 9798,
+  "round2_geometry_checks": "14/14",
+  "contact_checks": "6/6",
+  "http": "three tiers match round2, porch walls absent",
+  "visual_acceptance": "pending user",
+  "online_deployment": false,
+  "existing_tests": "21/21",
+  "build_pages": "passed"
+}

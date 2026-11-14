@@ -1,0 +1,5 @@
+Traceback (most recent call last):
+  File "E:\csd4.1\VR\FudanCampus\field-review\teaching4-2026-11-14-v1\verify_web_integration.py", line 12, in <module>
+    assert hashlib.sha256((PUB/asset['url']).read_bytes()).hexdigest()==stats['glb_sha256'], 'Web still serves old 17 GLB'
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+AssertionError: Web still serves old 17 GLB

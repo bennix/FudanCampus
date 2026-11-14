@@ -1,0 +1,26 @@
+当前验证环境（2026-11-14）
+
+Blender 4.4.3，Python内置3.11.11。Windows安装：
+D:\BlenderCLI\blender-4.4.3-windows-x64\blender.exe
+在仓库PowerShell中加载CLI入口：
+  . ./tools/Enter-Blender.ps1
+  blender --version
+
+Node 22.22.2 / npm 10.9.7。web/package.json规定Node>=22.13.0。
+网页开发：cd web；npm run dev -- --host 127.0.0.1 --port 5173
+当前已有服务器实际入口：http://localhost:5173/?view=teaching4-rear
+构建校验：npm --prefix web run build:pages
+测试：在web目录执行npm run test:lod和npm run test:walk。
+
+当前17号建模流程：field-review/teaching4-2026-11-14-v4/build_review.py，
+接入脚本：同目录integrate_web.py；随后只重建buildings-17的LOD，再生成步行碰撞。
+禁止运行全量校园重建覆盖已有单体。
+
+本机补充建模工具位于已忽略的.local目录，未提交二进制依赖缓存。
+Shapely2.2.0用于scripts/union_walk_interiors.py，执行时PYTHONPATH指向.local/model-tools。
+glTF构建工具4.5.0、sharp0.35.4已由web/package.json声明；正常安装web依赖即可提供。
+本机曾有不完整node_modules，通过.local/model-js补齐，具体修复记录见prompts_log。
+Windows Python脚本按UTF-8运行；网页prebuild使用validate-lods.mjs选择python/python3并设置PYTHONUTF8=1。
+
+环境配置的原始提示词、官方ZIP校验、4.4.3链路输出和后续建模记录均在prompts_log。
+历史记录保留原工作区路径，作为实际操作证据；不将其冒充跨机器通用路径。

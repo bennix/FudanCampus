@@ -1,0 +1,16 @@
+{
+  "building_id": "17",
+  "name": "第四教学楼",
+  "scale": {"unit": "approximately one metre", "method": "inherited campus footprint plus visual ratios", "surveyed": false},
+  "references_relative_to_workspace": [
+    {"path": "assets/17-第四教学楼/第四教学楼大致形状.png", "type": "annotated map screenshot", "supports": ["front direction", "entry and sculpture on front-right", "elongated footprint"], "limit": "schematic map extrusion; not a measured footprint"},
+    {"path": "assets/17-第四教学楼/正面（不全）.jpg", "type": "front partial", "supports": ["plaster tone", "window divisions", "entry lettering and ground planting"], "limit": "trees obscure upper floors and part of facade"},
+    {"path": "assets/17-第四教学楼/正面（微侧，仰拍）.jpg", "type": "annotated oblique front", "supports": ["six floors", "five balcony fronts", "vertical panel shaft", "two right window bays", "door and sculpture relationship"], "limit": "perspective and occlusion; cannot derive absolute dimensions"},
+    {"path": "assets/17-第四教学楼/正右侧（仰拍）雕像后方.jpg", "type": "annotated right corner", "supports": ["two right bays", "side door", "canopy ribs", "stairs and handrails", "panel joints and top vent"], "limit": "end wall partly outside frame"},
+    {"path": "assets/17-第四教学楼/背面.jpg", "type": "rear", "supports": ["four stair window columns", "five upper stair window groups", "roof guardrail", "raised stair tower", "rear entry canopy", "small end windows"], "limit": "ground level partly hidden by cars and vegetation"},
+    {"path": "assets/17-第四教学楼/正面右下方雕像.jpg", "type": "sculpture and flowerbed close view", "supports": ["stacked stone books", "concave fore-edges", "upright clock book", "approximately 10:15 clock", "low stone planter edging", "red and green planting"], "limit": "some book edges overlap; exact book count and pedestal inscription not resolved"}
+  ],
+  "inferred": ["absolute length, width, heights", "all depths and stair dimensions", "unseen wall surfaces", "flowerbed plan dimensions", "seven horizontal books interpretation", "curtain arrangement", "stone texture synthesis"],
+  "not_reproduced": ["people", "vehicles and bicycles", "unreadable pedestal inscription", "interior rooms", "extra foreground trees"],
+  "review_status": "awaiting user visual acceptance"
+}

@@ -1,0 +1,55 @@
+日期：2026-11-14，时区 Asia/Shanghai
+
+【用户初始指令，逐字记录】
+现在，请细化我们负责的建模建筑。从 17-第四教学楼 开始，你可以先和照片对比差异并列出修改计划，然后进行建模细化，最后由我来验收。
+
+【助手初始回复，逐字记录】
+我会先对照第四教学楼的照片与现有模型，列出可确认的差异和修改计划，再进行细化并生成验收视图。照片未覆盖的部分会注明推定依据；全过程继续记录提示词、修改和验证结果。此次会使用 `superpowers:brainstorming` 梳理方案，并按 `superpowers:verification-before-completion` 验证交付。
+
+【助手差异与方案，逐字记录】
+照片与现有模型的主要差异已确认：
+
+- 竖向分缝塔右侧，照片中每层是两组宽窗，现模型排成了三组窄窗；阳台后的玻璃和侧向转角窗也较简化。
+- 右端小侧门的雨棚、台阶和扶手缺失；正门目前呈封闭玻璃面，缺少照片中的门厅纵深。
+- 背面楼梯塔高出屋顶的幅度不足，四列窄窗的分组与窗格需要调整。
+- 叠书雕塑的书口弧度、封面厚度和石材质感不足，花坛过窄、边石也过于规整。
+
+我会保留现有校园位置和六层主体，按这些差异细化。先在独立目录生成候选 `.blend`、GLB 和前后对比图，供你验收；尺寸仍按比例推定，不把照片透视当作实测尺寸。
+
+【执行决策和技术操作摘要，不是逐字对话】
+用户已授权“计划后实施、最后验收”，本阶段依此直接生成可审核候选，不额外增加事前方案审批。
+候选与正式目录隔离，正式模型/清单/LOD/碰撞暂不接入。源资产和保护配置不改。
+计划见 plan.txt；基线提交 82c2b78139281e2f9537fd00dfbcda9f709fbe16。
+阅读6个参考文件、原始几何脚本及已有渲染，生成缩略图时只缩放展示，不修改原图。
+复制原 17.blend、17.glb 和脚本到候选目录 baseline/，保留修改前可追溯性。
+先在旧 blend 运行 validate.py，按预期退出1：缺少侧门/雨棚/转角玻璃/凹进门厅，
+楼梯塔高度不足，且存在退化面。完整原始输出见 validation-before.txt。
+实现 source/teaching4_geometry.py；对顶点和面清理，重算法线，增加Windows楷体支持。
+石材纹理为确定性程序噪声图，128x128 PNG，UV 映射后导出 GLB；不是照片纹理或AI生成照片。
+build_review.py 使用 Blender 4.4.3，原始校园文件只读，生成前后核对源文件 SHA-256。
+make_comparisons.py 仅排版缩略图，未对参考照片作透视校正，不声称像素级匹配。
+
+【主要命令；工作区根目录】
+. ./tools/Enter-Blender.ps1
+blender -b FudanCampus/assets/buildings/17.blend --python-exit-code 1 --python FudanCampus/field-review/teaching4-2026-11-14-v1/validate.py
+blender -b --factory-startup --python-exit-code 1 --python FudanCampus/field-review/teaching4-2026-11-14-v1/build_review.py -- --baseline
+blender -b --factory-startup --python-exit-code 1 --python FudanCampus/field-review/teaching4-2026-11-14-v1/build_review.py
+python FudanCampus/field-review/teaching4-2026-11-14-v1/make_comparisons.py
+
+【证据范围】
+与之前开发工时对比、生成准确率、头显视角、Web Draw Calls 和 FPS 尚未测量。
+渲染相机是审核用人工设定值，不是照片相机标定结果。
+七本水平书为当前近照的近似解读；基座铭文不补造，完整侧后立面和内部不作精确复原。
+
+【收尾结果】
+独立审查和修正详见 review.txt；新增 verify_contacts.py 回归测试，首轮失败后修正通过。
+最终候选 77,710 三角面、95 网格、27 材质，GLB 4,699,476 字节，内嵌3张石材纹理。
+GLB 重导入及已保存 blend 验证通过；8个直接相关正式源文件哈希未变，11个保护文件校验通过。
+候选仅新增 field-review/teaching4-2026-11-14-v1/，正式校园源码和资源无修改。
+完整产物哈希、大小和统计见 delivery-audit.json；首轮GLB留在 iteration-1/。
+启动时出现 Blender 用户扩展缓存写入权限警告，原始信息保留于 candidate-build.txt；
+后台生成、渲染、保存、导出与重新导入均退出0，未为此修改用户配置或提升权限。
+先前旧模型的退化面检查失败；当前脚本使用不同字体及几何整理后无退化面，
+清理器实际移除面数为0，不把旧模型问题虚报成大量自动修面。
+对比图是照片+模型前后两图，尚不是包含真实WebVR头显视角的论文三联图。
+交付为待验收候选，尚未获得用户视觉认可，不宣称还原度已达标。

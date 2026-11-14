@@ -1,0 +1,71 @@
+日期：2026-11-14，时区 Asia/Shanghai
+阶段：第四教学楼第二轮人工标注反馈修正；修改后自动接入网页
+
+【用户指令，逐字记录】
+我做了第二轮修改标注的图片 @assets\17-第四教学楼 ，请你参考图片进行第二轮修改，除此以外，你需要去掉你之前给正门两侧添加的墙壁，实际上那里没有墙壁。
+
+【助手初始回复，逐字记录】
+我会先查看第二轮标注，逐项核对修改要求，并去掉正门两侧误加的墙体。完成后会同步替换网页模型、更新 LOD 和碰撞，继续保留修改前备份及操作记录。
+
+【新增图片文字转录】
+第四教学楼二轮修改标注.png：
+正门东侧立柱的东边的墙体会往后撤一部分，也就是说红框处应该删除，同时小侧门需要向后移动以确保与墙体连接。
+花坛东西长度过大，需要缩窄，同时花坛需要向东移动，花坛的西侧与正门的东侧对齐，花坛的东侧与教学楼的东侧墙壁对齐。
+绿框处也有草坪。
+
+背面二轮修改标注.jpg：
+注意右侧的窗户与其他窗户不同，会更小一些，位置位于上下两层窗户之间。你需要去掉原本的窗户，再重新做好右边的窗户。
+这里的窗户没有黑框，请去掉黑框。后门是玻璃门，并有一个小的平台。
+
+【方案与执行摘要，非逐字对话】
+沿用Blender4.4.3，正面朝-Y、东为+X；本轮只改17号。计划见plan.txt。
+独立v2目录保留当前v1正式模型/GLB/脚本，不覆盖v1历史目录。
+正门两侧上一轮加入的entry portal columns整批移除，横穿门廊侧面的射线验证通过。
+东侧X>=10.5楼翼前墙从Y=-6.8退到-3.6；3.2米退深按标注比例推定。
+同步修改主体、地面层、屋顶、女儿墙、窗带、墙脚；侧门连同雨棚/台阶/栏杆/铺地Y+3.2。
+花坛轮廓中心线和土壤X边界缩至[7.75,20.4]；边石有自身厚度，实际外缘略有突出。
+雕塑移至X16.5，随花坛东移；西前庭新增低矮草坪，不增加树木遮挡建筑。
+背面本地-X端重新预留小窗带，大窗不再占据该带；3个小窗在Z9.50、12.52、15.54的层间。
+底层窗黑色粗框改为浅灰细框；后门补玻璃门框、拉手、小平台和踏步。
+雕塑移动后同步调整网页teaching4-books相机和目标，避免近景仍看旧位置。
+
+【人机在环与验证过程】
+先运行round2_validate.py验证v1，12项第二轮修正全部失败，原始输出见round2-before.txt。
+第一轮生成时，退让检查误把突出窗台Y=-3.765判断为未退让。诊断输出只命中projecting sills，
+因此保留正确窗台，检查边界从-3.75改为-3.8，为立面外凸构件留0.2米；不是移动模型迎合检查。
+独立审查发现前/后台阶最低一级与铺地顶面均为Z.31，引发黑条；另女儿墙端角箱体重叠。
+补充共面踏步及女儿墙连通块包围盒相交检查，先在首版v2模型上确认失败（seam-before.txt）。
+删除埋入铺地的冗余最低阶，直接用铺地作为最下踏面；女儿墙各段调整为端面对接。
+新模型再次通过14项二轮检查，入口和后门接缝清晰；书页封面接触及三阶到铺地连续性也通过。
+接触检测的4个采样高度约.6625、.545、.4275、.31米，最后一个采样落在铺地上。
+生成6个after视角；前后相机一致，新增入口和调整后的雕塑视角另补渲染对应v1基线。
+根照片原图不改，缩略对比图仅用于排版和核对，不作实测尺度或像素级匹配。
+
+【主要命令；工作区根，接入/LOD部分在FudanCampus执行】
+. ./tools/Enter-Blender.ps1
+blender -b FudanCampus/assets/buildings/17.blend --python-exit-code 1 --python FudanCampus/field-review/teaching4-2026-11-14-v2/round2_validate.py
+blender -b --factory-startup --python-exit-code 1 --python FudanCampus/field-review/teaching4-2026-11-14-v2/build_review.py
+blender -b --factory-startup --python-exit-code 1 --python FudanCampus/field-review/teaching4-2026-11-14-v2/build_review.py -- --baseline --views sculpture,entry
+blender -b --factory-startup --python-exit-code 1 --python FudanCampus/field-review/teaching4-2026-11-14-v2/verify_contacts.py
+python FudanCampus/field-review/teaching4-2026-11-14-v2/integrate_web.py
+blender -b --factory-startup --python-exit-code 1 --python scripts/build_lods.py -- buildings-17
+node web/build-walk-collision.mjs
+python scripts/union_walk_interiors.py
+python FudanCampus/field-review/teaching4-2026-11-14-v2/make_comparisons.py
+
+【限制】
+退让深度、草坪大小等仍为比例推定；明确标注中的相对位置关系优先。
+花坛对齐按轮廓中心线/土壤边缘控制，厚边石的外缘存在约0.15米突出。
+后门以可导出的基础材质近似玻璃外观，未建立完整室内场景。
+用户视觉验收仍待反馈，不声称WebVR帧率已测量或还原度已通过验收。
+
+【交付核验结果】
+最终模型77,006三角面，110个网格、29材质，GLB4,654,904字节，3张内嵌石材图像。
+14项第二轮几何检查、6项接触检查均通过，21项现有LOD/步行测试通过。
+npm run build:pages及模型、LOD、碰撞时效校验通过；保留已有JS chunk体积警告。
+通过现有localhost:5173服务器下载三档实际资源，哈希匹配新模型，旧入口墙节点不存在。
+三档revision：far c2632e25e37a，medium a6822971b0bb，near adb61f27ccb4。
+199个非目标LOD条目与其文件哈希保持不变；其他建筑及shared清单未变，55源文件哈希未变。
+11个原保护源文件通过校验。碰撞删9962/增9798三角形，变化全部限于17周围。
+修改前备份在v2/web-integration-backup，第一轮模型和历史对比文件仍保留。
+没有进行线上发布；HTTP核验不等于浏览器GPU截图或头显体验测试。

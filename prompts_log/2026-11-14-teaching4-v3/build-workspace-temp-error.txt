@@ -1,0 +1,458 @@
+Extensions: writing cache failed ([WinError 5] 拒绝访问。: 'C:\\Users\\22878\\AppData\\Roaming\\Blender Foundation\\Blender\\4.4').
+GEOMETRY_CHECKS {"checks": {"only_building_17": true, "side_door_present": true, "side_canopy_present": true, "balcony_return_glazing": true, "recessed_entry": true, "finite_vertices": true, "no_degenerate_faces": true, "triangle_budget_180000": true, "rear_tower_above_roof": true, "chinese_lettering_mesh": true}, "triangles": 83082}
+ROUND2_CHECKS {"checks": {"entry_side_walls_removed": true, "upper_east_notch_clear": true, "flowerbed_west_aligned_entry": true, "flowerbed_east_aligned_building": true, "west_lawn_present": true, "side_door_moves_with_wing": true, "rear_small_window_strip_no_large_window": true, "rear_small_windows_between_floors": true, "rear_glass_door_details": true, "rear_landing_present": true, "porch_sideways_clear": true, "rear_ground_no_black_frames": true, "no_steps_flush_over_paving": true, "parapets_butt_without_volume_overlap": true}, "porch_obstructions": [], "rear_dark_ground_frames": [], "coplanar_treads": [], "parapet_overlaps": []}
+ROUND3_CHECKS {"checks": {"lawn_west_matches_building": true, "lawn_east_matches_entry_west": true, "lawn_depth_enlarged": true, "rear_target_unframed_glazing": true, "four_photo_supported_tree_trunks": true, "tree_canopies_present": true, "tree_toggle_metadata": true, "marked_window_outer_frame_removed": true, "trees_larger_than_small_placeholders": true}, "perimeter_hits": [], "tree_max_height": 9.447975158691406}
+INFO Draco mesh compression is available, use library at D:\BlenderCLI\blender-4.4.3-windows-x64\4.4\scripts\addons_core\io_scene_gltf2\extern_draco.dll
+20:43:22 | INFO: Starting glTF 2.0 export
+20:43:22 | INFO: Extracting primitive: six storey structure
+20:43:22 | INFO: Primitives created: 1
+20:43:22 | INFO: Extracting primitive: setback east wing
+20:43:22 | INFO: Primitives created: 1
+20:43:22 | INFO: Extracting primitive: ground left structure
+20:43:22 | INFO: Primitives created: 1
+20:43:22 | INFO: Extracting primitive: ground right structure
+20:43:22 | INFO: Primitives created: 1
+20:43:22 | INFO: Extracting primitive: setback east ground structure
+20:43:22 | INFO: Primitives created: 1
+20:43:22 | INFO: Extracting primitive: entry recess back structure
+20:43:22 | INFO: Primitives created: 1
+20:43:22 | INFO: Extracting primitive: flat roof
+20:43:22 | INFO: Primitives created: 1
+20:43:22 | INFO: Extracting primitive: setback east flat roof
+20:43:22 | INFO: Primitives created: 1
+20:43:22 | INFO: Extracting primitive: roof parapet
+20:43:22 | INFO: Primitives created: 1
+20:43:22 | INFO: Extracting primitive: setback front parapet
+20:43:22 | INFO: Primitives created: 1
+20:43:22 | INFO: Extracting primitive: setback notch parapet
+20:43:22 | INFO: Primitives created: 1
+20:43:22 | INFO: Extracting primitive: end parapet
+20:43:22 | INFO: Primitives created: 1
+20:43:22 | INFO: Extracting primitive: window glass
+20:43:22 | INFO: Primitives created: 1
+20:43:22 | INFO: Extracting primitive: window mullions
+20:43:22 | INFO: Primitives created: 1
+20:43:22 | INFO: Extracting primitive: window transoms
+20:43:22 | INFO: Primitives created: 1
+20:43:22 | INFO: Extracting primitive: projecting sills
+20:43:22 | INFO: Primitives created: 1
+20:43:22 | INFO: Extracting primitive: curtain panels
+20:43:22 | INFO: Primitives created: 1
+20:43:22 | INFO: Extracting primitive: window glass.001
+20:43:22 | INFO: Primitives created: 1
+20:43:22 | INFO: Extracting primitive: window glass.002
+20:43:22 | INFO: Primitives created: 1
+20:43:22 | INFO: Extracting primitive: window glass.003
+20:43:22 | INFO: Primitives created: 1
+20:43:22 | INFO: Extracting primitive: sandstone plinth
+20:43:22 | INFO: Primitives created: 1
+20:43:22 | INFO: Extracting primitive: sandstone plinth.001
+20:43:22 | INFO: Primitives created: 1
+20:43:22 | INFO: Extracting primitive: sandstone plinth.002
+20:43:22 | INFO: Primitives created: 1
+20:43:22 | INFO: Extracting primitive: window mullions.001
+20:43:22 | INFO: Primitives created: 1
+20:43:22 | INFO: Extracting primitive: window transoms.001
+20:43:22 | INFO: Primitives created: 1
+20:43:22 | INFO: Extracting primitive: rear unframed entry-adjacent glazing
+20:43:22 | INFO: Primitives created: 1
+20:43:22 | INFO: Extracting primitive: balcony slab
+20:43:22 | INFO: Primitives created: 1
+20:43:22 | INFO: Extracting primitive: balcony front
+20:43:22 | INFO: Primitives created: 1
+20:43:22 | INFO: Extracting primitive: balcony returns
+20:43:22 | INFO: Primitives created: 1
+20:43:22 | INFO: Extracting primitive: balcony handrails
+20:43:22 | INFO: Primitives created: 1
+20:43:22 | INFO: Extracting primitive: balcony posts
+20:43:22 | INFO: Primitives created: 1
+20:43:22 | INFO: Extracting primitive: balcony side handrails
+20:43:22 | INFO: Primitives created: 1
+20:43:22 | INFO: Extracting primitive: balcony return glazing
+20:43:22 | INFO: Primitives created: 1
+20:43:22 | INFO: Extracting primitive: balcony return frames
+20:43:22 | INFO: Primitives created: 1
+20:43:22 | INFO: Extracting primitive: balcony soffit lights
+20:43:22 | INFO: Primitives created: 1
+20:43:22 | INFO: Extracting primitive: front shaft
+20:43:22 | INFO: Primitives created: 1
+20:43:22 | INFO: Extracting primitive: shaft horizontal joints
+20:43:22 | INFO: Primitives created: 1
+20:43:22 | INFO: Extracting primitive: shaft vertical joints
+20:43:22 | INFO: Primitives created: 1
+20:43:22 | INFO: Extracting primitive: shaft side joints
+20:43:22 | INFO: Primitives created: 1
+20:43:22 | INFO: Extracting primitive: balcony drainpipe
+20:43:22 | INFO: Primitives created: 1
+20:43:22 | INFO: Extracting primitive: shaft top vent
+20:43:22 | INFO: Primitives created: 1
+20:43:22 | INFO: Extracting primitive: vent louvers
+20:43:22 | INFO: Primitives created: 1
+20:43:22 | INFO: Extracting primitive: rear stair tower
+20:43:22 | INFO: Primitives created: 1
+20:43:22 | INFO: Extracting primitive: stair slot frames
+20:43:22 | INFO: Primitives created: 1
+20:43:22 | INFO: Extracting primitive: stair slot glazing
+20:43:22 | INFO: Primitives created: 1
+20:43:22 | INFO: Extracting primitive: stair slot transom
+20:43:22 | INFO: Primitives created: 1
+20:43:22 | INFO: Extracting primitive: stair slot glazing.001
+20:43:22 | INFO: Primitives created: 1
+20:43:22 | INFO: Extracting primitive: stair slot glazing.002
+20:43:22 | INFO: Primitives created: 1
+20:43:22 | INFO: Extracting primitive: stair slot glazing.003
+20:43:22 | INFO: Primitives created: 1
+20:43:22 | INFO: Extracting primitive: stair sill ledges
+20:43:22 | INFO: Primitives created: 1
+20:43:22 | INFO: Extracting primitive: roof stair guardrail
+20:43:22 | INFO: Primitives created: 1
+20:43:22 | INFO: Extracting primitive: roof perimeter rail
+20:43:22 | INFO: Primitives created: 1
+20:43:22 | INFO: Extracting primitive: rear small end windows
+20:43:22 | INFO: Primitives created: 1
+20:43:22 | INFO: Extracting primitive: rear small end glazing
+20:43:22 | INFO: Primitives created: 1
+20:43:22 | INFO: Extracting primitive: rear small end divider
+20:43:22 | INFO: Primitives created: 1
+20:43:22 | INFO: Extracting primitive: entry glazing
+20:43:22 | INFO: Primitives created: 1
+20:43:22 | INFO: Extracting primitive: entry recess floor
+20:43:22 | INFO: Primitives created: 1
+20:43:22 | INFO: Extracting primitive: entry door frames
+20:43:22 | INFO: Primitives created: 1
+20:43:22 | INFO: Extracting primitive: entry door handles
+20:43:22 | INFO: Primitives created: 1
+20:43:22 | INFO: Extracting primitive: entry door transom
+20:43:22 | INFO: Primitives created: 1
+20:43:22 | INFO: Extracting primitive: entry steps
+20:43:22 | INFO: Primitives created: 1
+20:43:22 | INFO: Extracting primitive: accessible ramp
+20:43:22 | INFO: Primitives created: 1
+20:43:22 | INFO: Extracting primitive: ramp handrail
+20:43:22 | INFO: Primitives created: 1
+20:43:22 | INFO: Extracting primitive: ramp posts
+20:43:22 | INFO: Primitives created: 1
+20:43:22 | INFO: Extracting primitive: rear door
+20:43:22 | INFO: Primitives created: 1
+20:43:22 | INFO: Extracting primitive: rear canopy
+20:43:22 | INFO: Primitives created: 1
+20:43:22 | INFO: Extracting primitive: rear glass door frames
+20:43:22 | INFO: Primitives created: 1
+20:43:22 | INFO: Extracting primitive: rear glass door transom
+20:43:22 | INFO: Primitives created: 1
+20:43:22 | INFO: Extracting primitive: rear glass door handles
+20:43:22 | INFO: Primitives created: 1
+20:43:22 | INFO: Extracting primitive: rear entrance landing
+20:43:22 | INFO: Primitives created: 1
+20:43:22 | INFO: Extracting primitive: rear entrance steps
+20:43:22 | INFO: Primitives created: 1
+20:43:22 | INFO: Extracting primitive: rear entrance paving
+20:43:22 | INFO: Primitives created: 1
+20:43:22 | INFO: Extracting primitive: side entrance door
+20:43:22 | INFO: Primitives created: 1
+20:43:22 | INFO: Extracting primitive: side entrance frames
+20:43:22 | INFO: Primitives created: 1
+20:43:22 | INFO: Extracting primitive: side entrance transom
+20:43:22 | INFO: Primitives created: 1
+20:43:22 | INFO: Extracting primitive: side canopy roof
+20:43:22 | INFO: Primitives created: 1
+20:43:22 | INFO: Extracting primitive: side canopy ribs
+20:43:22 | INFO: Primitives created: 1
+20:43:22 | INFO: Extracting primitive: side canopy braces
+20:43:22 | INFO: Primitives created: 1
+20:43:22 | INFO: Extracting primitive: side entrance steps
+20:43:22 | INFO: Primitives created: 1
+20:43:22 | INFO: Extracting primitive: side entrance paving
+20:43:22 | INFO: Primitives created: 1
+20:43:22 | INFO: Extracting primitive: side stair handrail
+20:43:22 | INFO: Primitives created: 1
+20:43:22 | INFO: Extracting primitive: side stair posts
+20:43:22 | INFO: Primitives created: 1
+20:43:22 | INFO: Extracting primitive: side sandstone plinth
+20:43:22 | INFO: Primitives created: 1
+20:43:22 | INFO: Extracting primitive: side sandstone plinth.001
+20:43:22 | INFO: Primitives created: 1
+20:43:22 | INFO: Extracting primitive: side sandstone plinth.002
+20:43:22 | INFO: Primitives created: 1
+20:43:22 | INFO: Extracting primitive: sandstone plinth coping
+20:43:22 | INFO: Primitives created: 1
+20:43:22 | INFO: Extracting primitive: forecourt paving
+20:43:22 | INFO: Primitives created: 1
+20:43:22 | INFO: Extracting primitive: paving joints
+20:43:22 | INFO: Primitives created: 1
+20:43:22 | INFO: Extracting primitive: west forecourt lawn
+20:43:22 | INFO: Primitives created: 1
+20:43:22 | INFO: Extracting primitive: west lawn kerb
+20:43:22 | INFO: Primitives created: 1
+20:43:22 | INFO: Extracting primitive: flowerbed soil
+20:43:22 | INFO: Primitives created: 1
+20:43:22 | INFO: Extracting primitive: dark stone flowerbed edging
+20:43:22 | INFO: Primitives created: 1
+20:43:22 | INFO: Extracting primitive: flowerbed coping
+20:43:22 | INFO: Primitives created: 1
+20:43:22 | INFO: Extracting primitive: flowerbed foliage
+20:43:22 | INFO: Primitives created: 1
+20:43:22 | INFO: Extracting primitive: flowerbed foliage.001
+20:43:22 | INFO: Primitives created: 1
+20:43:22 | INFO: Extracting primitive: flowerbed foliage.002
+20:43:22 | INFO: Primitives created: 1
+20:43:22 | INFO: Extracting primitive: flowerbed foliage.003
+20:43:22 | INFO: Primitives created: 1
+20:43:22 | INFO: Extracting primitive: flowerbed foliage.004
+20:43:23 | INFO: Primitives created: 1
+20:43:23 | INFO: Extracting primitive: flowerbed foliage.005
+20:43:23 | INFO: Primitives created: 1
+20:43:23 | INFO: Extracting primitive: sculpture black footing
+20:43:23 | INFO: Primitives created: 1
+20:43:23 | INFO: Extracting primitive: sculpture granite pedestal
+20:43:23 | INFO: Primitives created: 1
+20:43:23 | INFO: Extracting primitive: curved book page blocks
+20:43:23 | INFO: Primitives created: 1
+20:43:23 | INFO: Extracting primitive: overhanging book covers
+20:43:23 | INFO: Primitives created: 1
+20:43:23 | INFO: Extracting primitive: book rear spine
+20:43:23 | INFO: Primitives created: 1
+20:43:23 | INFO: Extracting primitive: engraved page strata
+20:43:23 | INFO: Primitives created: 1
+20:43:23 | INFO: Extracting primitive: upright clock book
+20:43:23 | INFO: Primitives created: 1
+20:43:23 | INFO: Extracting primitive: clock spine
+20:43:23 | INFO: Primitives created: 1
+20:43:23 | INFO: Extracting primitive: clock hour marks
+20:43:23 | INFO: Primitives created: 1
+20:43:23 | INFO: Extracting primitive: clock minute hand
+20:43:23 | INFO: Primitives created: 1
+20:43:23 | INFO: Extracting primitive: clock hour hand
+20:43:23 | INFO: Primitives created: 1
+20:43:23 | INFO: Extracting primitive: Trunk T4 front broadleaf
+20:43:23 | INFO: Primitives created: 1
+20:43:23 | INFO: Extracting primitive: Canopy T4 front broadleaf
+Blender 4.4.3 (hash 802179c51ccc built 2025-04-29 15:39:58)
+E:\csd4.1\VR\FudanCampus\.local\blender-tmp\tmpwldljo3c\img: Permission denied
+Error: Could not write image: Permission denied
+Error: Image '##gltf-export:tmp-image##' could not be saved to 'E:\csd4.1\VR\FudanCampus\.local\blender-tmp\tmpwldljo3c/img'
+Traceback (most recent call last):
+  File "D:\BlenderCLI\blender-4.4.3-windows-x64\4.4\scripts\addons_core\io_scene_gltf2\blender\exp\material\encode_image.py", line 449, in _encode_temp_image
+    tmp_image.save()
+RuntimeError: Error: Could not write image: Permission denied
+Error: Image '##gltf-export:tmp-image##' could not be saved to 'E:\csd4.1\VR\FudanCampus\.local\blender-tmp\tmpwldljo3c/img'
+
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "D:\BlenderCLI\blender-4.4.3-windows-x64\4.4\python\Lib\shutil.py", line 612, in _rmtree_unsafe
+    with os.scandir(path) as scandir_it:
+         ^^^^^^^^^^^^^^^^
+PermissionError: [WinError 5] 拒绝访问。: 'E:\\csd4.1\\VR\\FudanCampus\\.local\\blender-tmp\\tmpwldljo3c'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "D:\BlenderCLI\blender-4.4.3-windows-x64\4.4\scripts\addons_core\io_scene_gltf2\__init__.py", line 1349, in execute
+    res = gltf2_blender_export.save(context, export_settings)
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\BlenderCLI\blender-4.4.3-windows-x64\4.4\scripts\addons_core\io_scene_gltf2\blender\exp\export.py", line 37, in save
+    json, buffer = __export(export_settings)
+                   ^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\BlenderCLI\blender-4.4.3-windows-x64\4.4\scripts\addons_core\io_scene_gltf2\blender\exp\export.py", line 55, in __export
+    __gather_gltf(exporter, export_settings)
+  File "D:\BlenderCLI\blender-4.4.3-windows-x64\4.4\scripts\addons_core\io_scene_gltf2\blender\exp\export.py", line 210, in __gather_gltf
+    active_scene_idx, scenes, animations = gltf2_blender_gather.gather_gltf2(export_settings)
+                                           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\BlenderCLI\blender-4.4.3-windows-x64\4.4\scripts\addons_core\io_scene_gltf2\blender\exp\gather.py", line 44, in gather_gltf2
+    scenes.append(__gather_scene(blender_scene, export_settings))
+                  ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\BlenderCLI\blender-4.4.3-windows-x64\4.4\scripts\addons_core\io_scene_gltf2\blender\exp\cache.py", line 37, in wrapper_cached
+    result = func(*args, **kwargs)
+             ^^^^^^^^^^^^^^^^^^^^^
+  File "D:\BlenderCLI\blender-4.4.3-windows-x64\4.4\scripts\addons_core\io_scene_gltf2\blender\exp\gather.py", line 107, in __gather_scene
+    node = gltf2_blender_gather_nodes.gather_node(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\BlenderCLI\blender-4.4.3-windows-x64\4.4\scripts\addons_core\io_scene_gltf2\blender\exp\nodes.py", line 42, in gather_node
+    mesh = __gather_mesh(vnode, blender_object, export_settings)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\BlenderCLI\blender-4.4.3-windows-x64\4.4\scripts\addons_core\io_scene_gltf2\blender\exp\nodes.py", line 352, in __gather_mesh
+    result = gltf2_blender_gather_mesh.gather_mesh(blender_mesh,
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\BlenderCLI\blender-4.4.3-windows-x64\4.4\scripts\addons_core\io_scene_gltf2\blender\exp\cache.py", line 37, in wrapper_cached
+    result = func(*args, **kwargs)
+             ^^^^^^^^^^^^^^^^^^^^^
+  File "D:\BlenderCLI\blender-4.4.3-windows-x64\4.4\scripts\addons_core\io_scene_gltf2\blender\exp\mesh.py", line 59, in gather_mesh
+    blender_mesh, vertex_groups, modifiers, export_settings), primitives=__gather_primitives(
+                                                                         ^^^^^^^^^^^^^^^^^^^^
+  File "D:\BlenderCLI\blender-4.4.3-windows-x64\4.4\scripts\addons_core\io_scene_gltf2\blender\exp\mesh.py", line 136, in __gather_primitives
+    return gltf2_blender_gather_primitives.gather_primitives(blender_mesh,
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\BlenderCLI\blender-4.4.3-windows-x64\4.4\scripts\addons_core\io_scene_gltf2\blender\exp\cache.py", line 37, in wrapper_cached
+    result = func(*args, **kwargs)
+             ^^^^^^^^^^^^^^^^^^^^^
+  File "D:\BlenderCLI\blender-4.4.3-windows-x64\4.4\scripts\addons_core\io_scene_gltf2\blender\exp\primitives.py", line 57, in gather_primitives
+    blender_primitives, addional_materials_udim = __gather_cache_primitives(
+                                                  ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\BlenderCLI\blender-4.4.3-windows-x64\4.4\scripts\addons_core\io_scene_gltf2\blender\exp\cache.py", line 37, in wrapper_cached
+    result = func(*args, **kwargs)
+             ^^^^^^^^^^^^^^^^^^^^^
+  File "D:\BlenderCLI\blender-4.4.3-windows-x64\4.4\scripts\addons_core\io_scene_gltf2\blender\exp\primitives.py", line 143, in __gather_cache_primitives
+    blender_primitives, additional_materials_udim, shared_attributes = gltf2_blender_gather_primitives_extract.extract_primitives(
+                                                                       ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\BlenderCLI\blender-4.4.3-windows-x64\4.4\scripts\addons_core\io_scene_gltf2\blender\exp\primitive_extract.py", line 41, in extract_primitives
+    primitive_creator.manage_material_info()  # UVMap & Vertex Color
+    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\BlenderCLI\blender-4.4.3-windows-x64\4.4\scripts\addons_core\io_scene_gltf2\blender\exp\primitive_extract.py", line 434, in manage_material_info
+    base_material, material_info = get_base_material(material_idx, self.materials, self.export_settings)
+                                   ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\BlenderCLI\blender-4.4.3-windows-x64\4.4\scripts\addons_core\io_scene_gltf2\blender\exp\material\materials.py", line 698, in get_base_material
+    material, material_info = gather_material(
+                              ^^^^^^^^^^^^^^^^
+  File "D:\BlenderCLI\blender-4.4.3-windows-x64\4.4\scripts\addons_core\io_scene_gltf2\blender\exp\cache.py", line 37, in wrapper_cached
+    result = func(*args, **kwargs)
+             ^^^^^^^^^^^^^^^^^^^^^
+  File "D:\BlenderCLI\blender-4.4.3-windows-x64\4.4\scripts\addons_core\io_scene_gltf2\blender\exp\material\materials.py", line 89, in gather_material
+    pbr_metallic_roughness, uvmap_info_pbr_metallic_roughness, vc_info, udim_info_prb_mr = __gather_pbr_metallic_roughness(
+                                                                                           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\BlenderCLI\blender-4.4.3-windows-x64\4.4\scripts\addons_core\io_scene_gltf2\blender\exp\material\materials.py", line 464, in __gather_pbr_metallic_roughness
+    return gltf2_pbr_metallic_roughness.gather_material_pbr_metallic_roughness(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\BlenderCLI\blender-4.4.3-windows-x64\4.4\scripts\addons_core\io_scene_gltf2\blender\exp\cache.py", line 37, in wrapper_cached
+    result = func(*args, **kwargs)
+             ^^^^^^^^^^^^^^^^^^^^^
+  File "D:\BlenderCLI\blender-4.4.3-windows-x64\4.4\scripts\addons_core\io_scene_gltf2\blender\exp\material\pbr_metallic_roughness.py", line 30, in gather_material_pbr_metallic_roughness
+    base_color_texture, uvmap_info, udim_info_bc, _ = __gather_base_color_texture(blender_material, export_settings)
+                                                      ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\BlenderCLI\blender-4.4.3-windows-x64\4.4\scripts\addons_core\io_scene_gltf2\blender\exp\material\pbr_metallic_roughness.py", line 148, in __gather_base_color_texture
+    tex, uvmap_info, udim_info, factor = gather_texture_info(inputs[0], inputs, export_settings)
+                                         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\BlenderCLI\blender-4.4.3-windows-x64\4.4\scripts\addons_core\io_scene_gltf2\blender\exp\material\texture_info.py", line 30, in gather_texture_info
+    return __gather_texture_info_helper(primary_socket, blender_shader_sockets, 'DEFAULT', filter_type, export_settings)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\BlenderCLI\blender-4.4.3-windows-x64\4.4\scripts\addons_core\io_scene_gltf2\blender\exp\cache.py", line 37, in wrapper_cached
+    result = func(*args, **kwargs)
+             ^^^^^^^^^^^^^^^^^^^^^
+  File "D:\BlenderCLI\blender-4.4.3-windows-x64\4.4\scripts\addons_core\io_scene_gltf2\blender\exp\material\texture_info.py", line 70, in __gather_texture_info_helper
+    index, factor, udim_image = __gather_index(blender_shader_sockets, None, export_settings)
+                                ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\BlenderCLI\blender-4.4.3-windows-x64\4.4\scripts\addons_core\io_scene_gltf2\blender\exp\material\texture_info.py", line 226, in __gather_index
+    return gltf2_blender_gather_texture.gather_texture(blender_shader_sockets, use_tile, export_settings)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\BlenderCLI\blender-4.4.3-windows-x64\4.4\scripts\addons_core\io_scene_gltf2\blender\exp\cache.py", line 37, in wrapper_cached
+    result = func(*args, **kwargs)
+             ^^^^^^^^^^^^^^^^^^^^^
+  File "D:\BlenderCLI\blender-4.4.3-windows-x64\4.4\scripts\addons_core\io_scene_gltf2\blender\exp\material\texture.py", line 36, in gather_texture
+    source, webp_image, image_data, factor, udim_image = __gather_source(
+                                                         ^^^^^^^^^^^^^^^^
+  File "D:\BlenderCLI\blender-4.4.3-windows-x64\4.4\scripts\addons_core\io_scene_gltf2\blender\exp\material\texture.py", line 207, in __gather_source
+    source, image_data, factor, udim_image = image.gather_image(blender_shader_sockets, use_tile, export_settings)
+                                             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\BlenderCLI\blender-4.4.3-windows-x64\4.4\scripts\addons_core\io_scene_gltf2\blender\exp\cache.py", line 37, in wrapper_cached
+    result = func(*args, **kwargs)
+             ^^^^^^^^^^^^^^^^^^^^^
+  File "D:\BlenderCLI\blender-4.4.3-windows-x64\4.4\scripts\addons_core\io_scene_gltf2\blender\exp\material\image.py", line 61, in gather_image
+    buffer_view, factor_buffer_view = __gather_buffer_view(image_data, mime_type, name, export_settings)
+                                      ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\BlenderCLI\blender-4.4.3-windows-x64\4.4\scripts\addons_core\io_scene_gltf2\blender\exp\cache.py", line 37, in wrapper_cached
+    result = func(*args, **kwargs)
+             ^^^^^^^^^^^^^^^^^^^^^
+  File "D:\BlenderCLI\blender-4.4.3-windows-x64\4.4\scripts\addons_core\io_scene_gltf2\blender\exp\material\image.py", line 118, in __gather_buffer_view
+    data, factor = image_data.encode(mime_type, export_settings)
+                   ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\BlenderCLI\blender-4.4.3-windows-x64\4.4\scripts\addons_core\io_scene_gltf2\blender\exp\material\encode_image.py", line 241, in encode
+    return self.__encode_unhappy(export_settings), None
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\BlenderCLI\blender-4.4.3-windows-x64\4.4\scripts\addons_core\io_scene_gltf2\blender\exp\material\encode_image.py", line 368, in __encode_unhappy
+    return self.__encode_from_numpy_array(out_buf, (width, height), export_settings)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\BlenderCLI\blender-4.4.3-windows-x64\4.4\scripts\addons_core\io_scene_gltf2\blender\exp\material\encode_image.py", line 382, in __encode_from_numpy_array
+    return _encode_temp_image(tmp_image, self.file_format, export_settings)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\BlenderCLI\blender-4.4.3-windows-x64\4.4\scripts\addons_core\io_scene_gltf2\blender\exp\material\encode_image.py", line 439, in _encode_temp_image
+    with tempfile.TemporaryDirectory() as tmpdirname:
+  File "D:\BlenderCLI\blender-4.4.3-windows-x64\4.4\python\Lib\tempfile.py", line 943, in __exit__
+    self.cleanup()
+  File "D:\BlenderCLI\blender-4.4.3-windows-x64\4.4\python\Lib\tempfile.py", line 947, in cleanup
+    self._rmtree(self.name, ignore_errors=self._ignore_cleanup_errors)
+  File "D:\BlenderCLI\blender-4.4.3-windows-x64\4.4\python\Lib\tempfile.py", line 929, in _rmtree
+    _shutil.rmtree(name, onerror=onerror)
+  File "D:\BlenderCLI\blender-4.4.3-windows-x64\4.4\python\Lib\shutil.py", line 787, in rmtree
+    return _rmtree_unsafe(path, onerror)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\BlenderCLI\blender-4.4.3-windows-x64\4.4\python\Lib\shutil.py", line 615, in _rmtree_unsafe
+    onerror(os.scandir, path, sys.exc_info())
+  File "D:\BlenderCLI\blender-4.4.3-windows-x64\4.4\python\Lib\tempfile.py", line 890, in onerror
+    _resetperms(path)
+  File "D:\BlenderCLI\blender-4.4.3-windows-x64\4.4\python\Lib\tempfile.py", line 287, in _resetperms
+    _dont_follow_symlinks(_os.chmod, path, 0o700)
+  File "D:\BlenderCLI\blender-4.4.3-windows-x64\4.4\python\Lib\tempfile.py", line 278, in _dont_follow_symlinks
+    func(path, *args)
+PermissionError: [WinError 5] 拒绝访问。: 'E:\\csd4.1\\VR\\FudanCampus\\.local\\blender-tmp\\tmpwldljo3c'
+Traceback (most recent call last):
+  File "E:\csd4.1\VR\FudanCampus\field-review\teaching4-2026-11-14-v3\build_review.py", line 168, in <module>
+    bpy.ops.export_scene.gltf(filepath=str(glb_path),export_format='GLB',use_selection=True,export_extras=True)
+  File "D:\BlenderCLI\blender-4.4.3-windows-x64\4.4\scripts\modules\bpy\ops.py", line 109, in __call__
+    ret = _op_call(self.idname_py(), kw)
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+RuntimeError: Error: Python: Traceback (most recent call last):
+  File "D:\BlenderCLI\blender-4.4.3-windows-x64\4.4\scripts\addons_core\io_scene_gltf2\blender\exp\material\encode_image.py", line 449, in _encode_temp_image
+    tmp_image.save()
+RuntimeError: Error: Could not write image: Permission denied
+Error: Image '##gltf-export:tmp-image##' could not be saved to 'E:\csd4.1\VR\FudanCampus\.local\blender-tmp\tmpwldljo3c/img'
+
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "D:\BlenderCLI\blender-4.4.3-windows-x64\4.4\python\Lib\shutil.py", line 612, in _rmtree_unsafe
+    with os.scandir(path) as scandir_it:
+         ^^^^^^^^^^^^^^^^
+PermissionError: [WinError 5] 拒绝访问。: 'E:\\csd4.1\\VR\\FudanCampus\\.local\\blender-tmp\\tmpwldljo3c'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "D:\BlenderCLI\blender-4.4.3-windows-x64\4.4\scripts\addons_core\io_scene_gltf2\blender\exp\material\encode_image.py", line 382, in __encode_from_numpy_array
+    return _encode_temp_image(tmp_image, self.file_format, export_settings)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\BlenderCLI\blender-4.4.3-windows-x64\4.4\scripts\addons_core\io_scene_gltf2\blender\exp\material\encode_image.py", line 439, in _encode_temp_image
+    with tempfile.TemporaryDirectory() as tmpdirname:
+  File "D:\BlenderCLI\blender-4.4.3-windows-x64\4.4\python\Lib\tempfile.py", line 943, in __exit__
+    self.cleanup()
+  File "D:\BlenderCLI\blender-4.4.3-windows-x64\4.4\python\Lib\tempfile.py", line 947, in cleanup
+    self._rmtree(self.name, ignore_errors=self._ignore_cleanup_errors)
+  File "D:\BlenderCLI\blender-4.4.3-windows-x64\4.4\python\Lib\tempfile.py", line 929, in _rmtree
+    _shutil.rmtree(name, onerror=onerror)
+  File "D:\BlenderCLI\blender-4.4.3-windows-x64\4.4\python\Lib\shutil.py", line 787, in rmtree
+    return _rmtree_unsafe(path, onerror)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\BlenderCLI\blender-4.4.3-windows-x64\4.4\python\Lib\shutil.py", line 615, in _rmtree_unsafe
+    onerror(os.scandir, path, sys.exc_info())
+  File "D:\BlenderCLI\blender-4.4.3-windows-x64\4.4\python\Lib\tempfile.py", line 890, in onerror
+    _resetperms(path)
+  File "D:\BlenderCLI\blender-4.4.3-windows-x64\4.4\python\Lib\tempfile.py", line 287, in _resetperms
+    _dont_follow_symlinks(_os.chmod, path, 0o700)
+  File "D:\BlenderCLI\blender-4.4.3-windows-x64\4.4\python\Lib\tempfile.py", line 278, in _dont_follow_symlinks
+    func(path, *args)
+PermissionError: [WinError 5] 拒绝访问。: 'E:\\csd4.1\\VR\\FudanCampus\\.local\\blender-tmp\\tmpwldljo3c'
+Location: D:\BlenderCLI\blender-4.4.3-windows-x64\4.4\scripts\modules\bpy\ops.py:109
+
+
+Error: script failed, file: 'FudanCampus/field-review/teaching4-2026-11-14-v3/build_review.py', exiting.
+Error: Python: Traceback (most recent call last):
+  File "D:\BlenderCLI\blender-4.4.3-windows-x64\4.4\scripts\addons_core\io_scene_gltf2\blender\exp\material\encode_image.py", line 449, in _encode_temp_image
+    tmp_image.save()
+RuntimeError: Error: Could not write image: Permission denied
+Error: Image '##gltf-export:tmp-image##' could not be saved to 'E:\csd4.1\VR\FudanCampus\.local\blender-tmp\tmpwldljo3c/img'
+
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "D:\BlenderCLI\blender-4.4.3-windows-x64\4.4\python\Lib\shutil.py", line 612, in _rmtree_unsafe
+    with os.scandir(path) as scandir_it:
+         ^^^^^^^^^^^^^^^^
+PermissionError: [WinError 5] 拒绝访问。: 'E:\\csd4.1\\VR\\FudanCampus\\.local\\blender-tmp\\tmpwldljo3c'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "D:\BlenderCLI\blender-4.4.3-windows-x64\4.4\scripts\addons_core\io_scene_gltf2\blend... truncated
+Blender quit

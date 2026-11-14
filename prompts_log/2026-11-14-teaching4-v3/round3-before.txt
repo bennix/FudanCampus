@@ -1,0 +1,12 @@
+Blender 4.4.3 (hash 802179c51ccc built 2025-04-29 15:39:58)
+Read blend: "E:\csd4.1\VR\FudanCampus\assets\buildings\17.blend"
+Traceback (most recent call last):
+  File "E:\csd4.1\VR\FudanCampus\field-review\teaching4-2026-11-14-v3\round3_validate.py", line 31, in <module>
+    assert all(checks.values()),'Round3 failures: '+', '.join(k for k,v in checks.items() if not v)
+           ^^^^^^^^^^^^^^^^^^^^
+AssertionError: Round3 failures: lawn_west_matches_building, lawn_east_matches_entry_west, lawn_depth_enlarged, rear_target_unframed_glazing, four_photo_supported_tree_trunks, tree_canopies_present, tree_toggle_metadata, marked_window_outer_frame_removed, trees_larger_than_small_placeholders
+
+Error: script failed, file: 'FudanCampus/field-review/teaching4-2026-11-14-v3/round3_validate.py', exiting.
+ROUND3_CHECKS {"checks": {"lawn_west_matches_building": false, "lawn_east_matches_entry_west": false, "lawn_depth_enlarged": false, "rear_target_unframed_glazing": false, "four_photo_supported_tree_trunks": false, "tree_canopies_present": false, "tree_toggle_metadata": false, "marked_window_outer_frame_removed": false, "trees_larger_than_small_placeholders": false}, "perimeter_hits": ["T4 window mullions.001", "T4 window mullions.001", "T4 window transoms.001", "T4 window transoms.001"], "tree_max_height": 0}
+
+Blender quit

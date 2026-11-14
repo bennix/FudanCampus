@@ -1,0 +1,680 @@
+20:52:41 | INFO: Data are loaded, start creating Blender stuff
+20:52:41 | INFO: Blender create Mesh node six storey structure
+20:52:41 | INFO: Blender create Mesh node setback east wing
+20:52:41 | INFO: Blender create Mesh node ground left structure
+20:52:41 | INFO: Blender create Mesh node ground right structure
+20:52:41 | INFO: Blender create Mesh node setback east ground structure
+20:52:41 | INFO: Blender create Mesh node entry recess back structure
+20:52:41 | INFO: Blender create Mesh node flat roof
+20:52:41 | INFO: Blender create Mesh node setback east flat roof
+20:52:41 | INFO: Blender create Mesh node roof parapet
+20:52:41 | INFO: Blender create Mesh node setback front parapet
+20:52:41 | INFO: Blender create Mesh node setback notch parapet
+20:52:41 | INFO: Blender create Mesh node end parapet
+20:52:41 | INFO: Blender create Mesh node window glass
+20:52:41 | INFO: Blender create Mesh node window mullions
+20:52:41 | INFO: Blender create Mesh node window transoms
+20:52:41 | INFO: Blender create Mesh node projecting sills
+20:52:41 | INFO: Blender create Mesh node curtain panels
+20:52:41 | INFO: Blender create Mesh node window glass.001
+20:52:41 | INFO: Blender create Mesh node window glass.002
+20:52:41 | INFO: Blender create Mesh node window glass.003
+20:52:41 | INFO: Blender create Mesh node sandstone plinth
+20:52:41 | INFO: Blender create Mesh node sandstone plinth.001
+20:52:41 | INFO: Blender create Mesh node sandstone plinth.002
+20:52:41 | INFO: Blender create Mesh node window mullions.001
+20:52:41 | INFO: Blender create Mesh node window transoms.001
+20:52:41 | INFO: Blender create Mesh node rear unframed entry-adjacent glazing
+20:52:41 | INFO: Blender create Mesh node balcony slab
+20:52:41 | INFO: Blender create Mesh node balcony front
+20:52:41 | INFO: Blender create Mesh node balcony returns
+20:52:41 | INFO: Blender create Mesh node balcony handrails
+20:52:41 | INFO: Blender create Mesh node balcony posts
+20:52:41 | INFO: Blender create Mesh node balcony side handrails
+20:52:41 | INFO: Blender create Mesh node balcony return glazing
+20:52:41 | INFO: Blender create Mesh node balcony return frames
+20:52:41 | INFO: Blender create Mesh node balcony soffit lights
+20:52:41 | INFO: Blender create Mesh node front shaft
+20:52:41 | INFO: Blender create Mesh node shaft horizontal joints
+20:52:41 | INFO: Blender create Mesh node shaft vertical joints
+20:52:41 | INFO: Blender create Mesh node shaft side joints
+20:52:41 | INFO: Blender create Mesh node balcony drainpipe
+20:52:41 | INFO: Blender create Mesh node shaft top vent
+20:52:41 | INFO: Blender create Mesh node vent louvers
+20:52:41 | INFO: Blender create Mesh node rear stair tower
+20:52:41 | INFO: Blender create Mesh node stair slot frames
+20:52:41 | INFO: Blender create Mesh node stair slot glazing
+20:52:41 | INFO: Blender create Mesh node stair slot transom
+20:52:41 | INFO: Blender create Mesh node stair slot glazing.001
+20:52:41 | INFO: Blender create Mesh node stair slot glazing.002
+20:52:41 | INFO: Blender create Mesh node stair slot glazing.003
+20:52:41 | INFO: Blender create Mesh node stair sill ledges
+20:52:41 | INFO: Blender create Mesh node roof stair guardrail
+20:52:41 | INFO: Blender create Mesh node roof perimeter rail
+20:52:41 | INFO: Blender create Mesh node rear small end windows
+20:52:41 | INFO: Blender create Mesh node rear small end glazing
+20:52:41 | INFO: Blender create Mesh node rear small end divider
+20:52:41 | INFO: Blender create Mesh node entry glazing
+20:52:41 | INFO: Blender create Mesh node entry recess floor
+20:52:41 | INFO: Blender create Mesh node entry door frames
+20:52:41 | INFO: Blender create Mesh node entry door handles
+20:52:41 | INFO: Blender create Mesh node entry door transom
+20:52:41 | INFO: Blender create Mesh node entry steps
+20:52:41 | INFO: Blender create Mesh node accessible ramp
+20:52:41 | INFO: Blender create Mesh node ramp handrail
+20:52:41 | INFO: Blender create Mesh node ramp posts
+20:52:41 | INFO: Blender create Mesh node rear door
+20:52:41 | INFO: Blender create Mesh node rear canopy
+20:52:41 | INFO: Blender create Mesh node rear glass door frames
+20:52:41 | INFO: Blender create Mesh node rear glass door transom
+20:52:41 | INFO: Blender create Mesh node rear glass door handles
+20:52:41 | INFO: Blender create Mesh node rear entrance landing
+20:52:41 | INFO: Blender create Mesh node rear entrance steps
+20:52:41 | INFO: Blender create Mesh node rear entrance paving
+20:52:41 | INFO: Blender create Mesh node side entrance door
+20:52:41 | INFO: Blender create Mesh node side entrance frames
+20:52:41 | INFO: Blender create Mesh node side entrance transom
+20:52:41 | INFO: Blender create Mesh node side canopy roof
+20:52:41 | INFO: Blender create Mesh node side canopy ribs
+20:52:41 | INFO: Blender create Mesh node side canopy braces
+20:52:41 | INFO: Blender create Mesh node side entrance steps
+20:52:41 | INFO: Blender create Mesh node side entrance paving
+20:52:41 | INFO: Blender create Mesh node side stair handrail
+20:52:41 | INFO: Blender create Mesh node side stair posts
+20:52:41 | INFO: Blender create Mesh node side sandstone plinth
+20:52:41 | INFO: Blender create Mesh node side sandstone plinth.001
+20:52:41 | INFO: Blender create Mesh node side sandstone plinth.002
+20:52:41 | INFO: Blender create Mesh node sandstone plinth coping
+20:52:41 | INFO: Blender create Mesh node forecourt paving
+20:52:41 | INFO: Blender create Mesh node paving joints
+20:52:41 | INFO: Blender create Mesh node west forecourt lawn
+20:52:41 | INFO: Blender create Mesh node west lawn kerb
+20:52:41 | INFO: Blender create Mesh node flowerbed soil
+20:52:41 | INFO: Blender create Mesh node dark stone flowerbed edging
+20:52:41 | INFO: Blender create Mesh node flowerbed coping
+20:52:41 | INFO: Blender create Mesh node flowerbed foliage
+20:52:41 | INFO: Blender create Mesh node flowerbed foliage.001
+20:52:41 | INFO: Blender create Mesh node flowerbed foliage.002
+20:52:41 | INFO: Blender create Mesh node flowerbed foliage.003
+20:52:41 | INFO: Blender create Mesh node flowerbed foliage.004
+20:52:41 | INFO: Blender create Mesh node flowerbed foliage.005
+20:52:41 | INFO: Blender create Mesh node sculpture black footing
+20:52:41 | INFO: Blender create Mesh node sculpture granite pedestal
+20:52:41 | INFO: Blender create Mesh node curved book page blocks
+20:52:41 | INFO: Blender create Mesh node overhanging book covers
+20:52:41 | INFO: Blender create Mesh node book rear spine
+20:52:41 | INFO: Blender create Mesh node engraved page strata
+20:52:41 | INFO: Blender create Mesh node upright clock book
+20:52:41 | INFO: Blender create Mesh node clock spine
+20:52:41 | INFO: Blender create Mesh node clock hour marks
+20:52:41 | INFO: Blender create Mesh node clock minute hand
+20:52:41 | INFO: Blender create Mesh node clock hour hand
+20:52:41 | INFO: Blender create Mesh node Trunk T4 front broadleaf
+20:52:41 | INFO: Blender create Mesh node Canopy T4 front broadleaf
+20:52:41 | INFO: Blender create Mesh node Canopy T4 front broadleaf.001
+20:52:41 | INFO: Blender create Mesh node Canopy T4 front broadleaf.002
+20:52:41 | INFO: Blender create Mesh node Trunk T4 west broadleaf
+20:52:41 | INFO: Blender create Mesh node Canopy T4 west broadleaf
+20:52:41 | INFO: Blender create Mesh node Canopy T4 west broadleaf.001
+20:52:41 | INFO: Blender create Mesh node Canopy T4 west broadleaf.002
+20:52:41 | INFO: Blender create Mesh node Trunk T4 east side
+20:52:41 | INFO: Blender create Mesh node Canopy T4 east side
+20:52:41 | INFO: Blender create Mesh node Canopy T4 east side.001
+20:52:41 | INFO: Blender create Mesh node Canopy T4 east side.002
+20:52:41 | INFO: Blender create Mesh node Trunk T4 rear west
+20:52:41 | INFO: Blender create Mesh node Canopy T4 rear west
+20:52:41 | INFO: Blender create Mesh node Canopy T4 rear west.001
+20:52:41 | INFO: Blender create Mesh node Canopy T4 rear west.002
+20:52:41 | INFO: Blender create Mesh node 第四教学楼
+20:52:42 | INFO: glTF import finished in 0.17s
+INFO Draco mesh compression is available, use library at D:\BlenderCLI\blender-4.4.3-windows-x64\4.4\scripts\addons_core\io_scene_gltf2\extern_draco.dll
+20:52:42 | INFO: Starting glTF 2.0 export
+20:52:42 | INFO: Extracting primitive: six storey structure
+20:52:42 | INFO: Primitives created: 1
+20:52:42 | INFO: Extracting primitive: setback east wing
+20:52:42 | INFO: Primitives created: 1
+20:52:42 | INFO: Extracting primitive: ground left structure
+20:52:42 | INFO: Primitives created: 1
+20:52:42 | INFO: Extracting primitive: ground right structure
+20:52:42 | INFO: Primitives created: 1
+20:52:42 | INFO: Extracting primitive: setback east ground structure
+20:52:42 | INFO: Primitives created: 1
+20:52:42 | INFO: Extracting primitive: entry recess back structure
+20:52:42 | INFO: Primitives created: 1
+20:52:42 | INFO: Extracting primitive: flat roof
+20:52:42 | INFO: Primitives created: 1
+20:52:42 | INFO: Extracting primitive: setback east flat roof
+20:52:42 | INFO: Primitives created: 1
+20:52:42 | INFO: Extracting primitive: roof parapet
+20:52:42 | INFO: Primitives created: 1
+20:52:42 | INFO: Extracting primitive: setback front parapet
+20:52:42 | INFO: Primitives created: 1
+20:52:42 | INFO: Extracting primitive: setback notch parapet
+20:52:42 | INFO: Primitives created: 1
+20:52:42 | INFO: Extracting primitive: end parapet
+20:52:42 | INFO: Primitives created: 1
+20:52:42 | INFO: Extracting primitive: window glass
+20:52:42 | INFO: Primitives created: 1
+20:52:42 | INFO: Extracting primitive: window mullions
+20:52:42 | INFO: Primitives created: 1
+20:52:42 | INFO: Extracting primitive: window transoms
+20:52:42 | INFO: Primitives created: 1
+20:52:42 | INFO: Extracting primitive: projecting sills
+20:52:42 | INFO: Primitives created: 1
+20:52:42 | INFO: Extracting primitive: curtain panels
+20:52:42 | INFO: Primitives created: 1
+20:52:42 | INFO: Extracting primitive: window glass.001
+20:52:42 | INFO: Primitives created: 1
+20:52:42 | INFO: Extracting primitive: window glass.002
+20:52:42 | INFO: Primitives created: 1
+20:52:42 | INFO: Extracting primitive: window glass.003
+20:52:42 | INFO: Primitives created: 1
+20:52:42 | INFO: Extracting primitive: sandstone plinth
+20:52:42 | INFO: Primitives created: 1
+20:52:42 | INFO: Extracting primitive: sandstone plinth.001
+20:52:42 | INFO: Primitives created: 1
+20:52:42 | INFO: Extracting primitive: sandstone plinth.002
+20:52:42 | INFO: Primitives created: 1
+20:52:42 | INFO: Extracting primitive: window mullions.001
+20:52:42 | INFO: Primitives created: 1
+20:52:42 | INFO: Extracting primitive: window transoms.001
+20:52:42 | INFO: Primitives created: 1
+20:52:42 | INFO: Extracting primitive: rear unframed entry-adjacent glazing
+20:52:42 | INFO: Primitives created: 1
+20:52:42 | INFO: Extracting primitive: balcony slab
+20:52:42 | INFO: Primitives created: 1
+20:52:42 | INFO: Extracting primitive: balcony front
+20:52:42 | INFO: Primitives created: 1
+20:52:42 | INFO: Extracting primitive: balcony returns
+20:52:42 | INFO: Primitives created: 1
+20:52:42 | INFO: Extracting primitive: balcony handrails
+20:52:42 | INFO: Primitives created: 1
+20:52:42 | INFO: Extracting primitive: balcony posts
+20:52:42 | INFO: Primitives created: 1
+20:52:42 | INFO: Extracting primitive: balcony side handrails
+20:52:42 | INFO: Primitives created: 1
+20:52:42 | INFO: Extracting primitive: balcony return glazing
+20:52:42 | INFO: Primitives created: 1
+20:52:42 | INFO: Extracting primitive: balcony return frames
+20:52:42 | INFO: Primitives created: 1
+20:52:42 | INFO: Extracting primitive: balcony soffit lights
+20:52:42 | INFO: Primitives created: 1
+20:52:42 | INFO: Extracting primitive: front shaft
+20:52:42 | INFO: Primitives created: 1
+20:52:42 | INFO: Extracting primitive: shaft horizontal joints
+20:52:42 | INFO: Primitives created: 1
+20:52:42 | INFO: Extracting primitive: shaft vertical joints
+20:52:42 | INFO: Primitives created: 1
+20:52:42 | INFO: Extracting primitive: shaft side joints
+20:52:42 | INFO: Primitives created: 1
+20:52:42 | INFO: Extracting primitive: balcony drainpipe
+20:52:42 | INFO: Primitives created: 1
+20:52:42 | INFO: Extracting primitive: shaft top vent
+20:52:42 | INFO: Primitives created: 1
+20:52:42 | INFO: Extracting primitive: vent louvers
+20:52:42 | INFO: Primitives created: 1
+20:52:42 | INFO: Extracting primitive: rear stair tower
+20:52:42 | INFO: Primitives created: 1
+20:52:42 | INFO: Extracting primitive: stair slot frames
+20:52:42 | INFO: Primitives created: 1
+20:52:42 | INFO: Extracting primitive: stair slot glazing
+20:52:42 | INFO: Primitives created: 1
+20:52:42 | INFO: Extracting primitive: stair slot transom
+20:52:42 | INFO: Primitives created: 1
+20:52:42 | INFO: Extracting primitive: stair slot glazing.001
+20:52:42 | INFO: Primitives created: 1
+20:52:42 | INFO: Extracting primitive: stair slot glazing.002
+20:52:42 | INFO: Primitives created: 1
+20:52:42 | INFO: Extracting primitive: stair slot glazing.003
+20:52:42 | INFO: Primitives created: 1
+20:52:42 | INFO: Extracting primitive: stair sill ledges
+20:52:42 | INFO: Primitives created: 1
+20:52:42 | INFO: Extracting primitive: roof stair guardrail
+20:52:42 | INFO: Primitives created: 1
+20:52:42 | INFO: Extracting primitive: roof perimeter rail
+20:52:42 | INFO: Primitives created: 1
+20:52:42 | INFO: Extracting primitive: rear small end windows
+20:52:42 | INFO: Primitives created: 1
+20:52:42 | INFO: Extracting primitive: rear small end glazing
+20:52:42 | INFO: Primitives created: 1
+20:52:42 | INFO: Extracting primitive: rear small end divider
+20:52:42 | INFO: Primitives created: 1
+20:52:42 | INFO: Extracting primitive: entry glazing
+20:52:42 | INFO: Primitives created: 1
+20:52:42 | INFO: Extracting primitive: entry recess floor
+20:52:42 | INFO: Primitives created: 1
+20:52:42 | INFO: Extracting primitive: entry door frames
+20:52:42 | INFO: Primitives created: 1
+20:52:42 | INFO: Extracting primitive: entry door handles
+20:52:42 | INFO: Primitives created: 1
+20:52:42 | INFO: Extracting primitive: entry door transom
+20:52:42 | INFO: Primitives created: 1
+20:52:42 | INFO: Extracting primitive: entry steps
+20:52:42 | INFO: Primitives created: 1
+20:52:42 | INFO: Extracting primitive: accessible ramp
+20:52:42 | INFO: Primitives created: 1
+20:52:42 | INFO: Extracting primitive: ramp handrail
+20:52:42 | INFO: Primitives created: 1
+20:52:42 | INFO: Extracting primitive: ramp posts
+20:52:42 | INFO: Primitives created: 1
+20:52:42 | INFO: Extracting primitive: rear door
+20:52:42 | INFO: Primitives created: 1
+20:52:42 | INFO: Extracting primitive: rear canopy
+20:52:42 | INFO: Primitives created: 1
+20:52:42 | INFO: Extracting primitive: rear glass door frames
+20:52:42 | INFO: Primitives created: 1
+20:52:42 | INFO: Extracting primitive: rear glass door transom
+20:52:42 | INFO: Primitives created: 1
+20:52:42 | INFO: Extracting primitive: rear glass door handles
+20:52:42 | INFO: Primitives created: 1
+20:52:42 | INFO: Extracting primitive: rear entrance landing
+20:52:42 | INFO: Primitives created: 1
+20:52:42 | INFO: Extracting primitive: rear entrance steps
+20:52:42 | INFO: Primitives created: 1
+20:52:42 | INFO: Extracting primitive: rear entrance paving
+20:52:42 | INFO: Primitives created: 1
+20:52:42 | INFO: Extracting primitive: side entrance door
+20:52:42 | INFO: Primitives created: 1
+20:52:42 | INFO: Extracting primitive: side entrance frames
+20:52:42 | INFO: Primitives created: 1
+20:52:42 | INFO: Extracting primitive: side entrance transom
+20:52:42 | INFO: Primitives created: 1
+20:52:42 | INFO: Extracting primitive: side canopy roof
+20:52:42 | INFO: Primitives created: 1
+20:52:42 | INFO: Extracting primitive: side canopy ribs
+20:52:42 | INFO: Primitives created: 1
+20:52:42 | INFO: Extracting primitive: side canopy braces
+20:52:42 | INFO: Primitives created: 1
+20:52:42 | INFO: Extracting primitive: side entrance steps
+20:52:42 | INFO: Primitives created: 1
+20:52:42 | INFO: Extracting primitive: side entrance paving
+20:52:42 | INFO: Primitives created: 1
+20:52:42 | INFO: Extracting primitive: side stair handrail
+20:52:42 | INFO: Primitives created: 1
+20:52:42 | INFO: Extracting primitive: side stair posts
+20:52:42 | INFO: Primitives created: 1
+20:52:42 | INFO: Extracting primitive: side sandstone plinth
+20:52:42 | INFO: Primitives created: 1
+20:52:42 | INFO: Extracting primitive: side sandstone plinth.001
+20:52:42 | INFO: Primitives created: 1
+20:52:42 | INFO: Extracting primitive: side sandstone plinth.002
+20:52:42 | INFO: Primitives created: 1
+20:52:42 | INFO: Extracting primitive: sandstone plinth coping
+20:52:42 | INFO: Primitives created: 1
+20:52:42 | INFO: Extracting primitive: forecourt paving
+20:52:42 | INFO: Primitives created: 1
+20:52:42 | INFO: Extracting primitive: paving joints
+20:52:42 | INFO: Primitives created: 1
+20:52:42 | INFO: Extracting primitive: west forecourt lawn
+20:52:42 | INFO: Primitives created: 1
+20:52:42 | INFO: Extracting primitive: west lawn kerb
+20:52:42 | INFO: Primitives created: 1
+20:52:42 | INFO: Extracting primitive: flowerbed soil
+20:52:42 | INFO: Primitives created: 1
+20:52:42 | INFO: Extracting primitive: dark stone flowerbed edging
+20:52:42 | INFO: Primitives created: 1
+20:52:42 | INFO: Extracting primitive: flowerbed coping
+20:52:42 | INFO: Primitives created: 1
+20:52:42 | INFO: Extracting primitive: flowerbed foliage
+20:52:42 | INFO: Primitives created: 1
+20:52:42 | INFO: Extracting primitive: flowerbed foliage.001
+20:52:42 | INFO: Primitives created: 1
+20:52:42 | INFO: Extracting primitive: flowerbed foliage.002
+20:52:42 | INFO: Primitives created: 1
+20:52:42 | INFO: Extracting primitive: flowerbed foliage.003
+20:52:42 | INFO: Primitives created: 1
+20:52:42 | INFO: Extracting primitive: flowerbed foliage.004
+20:52:42 | INFO: Primitives created: 1
+20:52:42 | INFO: Extracting primitive: flowerbed foliage.005
+20:52:42 | INFO: Primitives created: 1
+20:52:42 | INFO: Extracting primitive: sculpture black footing
+20:52:42 | INFO: Primitives created: 1
+20:52:42 | INFO: Extracting primitive: sculpture granite pedestal
+20:52:42 | INFO: Primitives created: 1
+20:52:42 | INFO: Extracting primitive: curved book page blocks
+20:52:42 | INFO: Primitives created: 1
+20:52:42 | INFO: Extracting primitive: overhanging book covers
+20:52:42 | INFO: Primitives created: 1
+20:52:42 | INFO: Extracting primitive: book rear spine
+20:52:42 | INFO: Primitives created: 1
+20:52:42 | INFO: Extracting primitive: engraved page strata
+20:52:42 | INFO: Primitives created: 1
+20:52:42 | INFO: Extracting primitive: upright clock book
+20:52:42 | INFO: Primitives created: 1
+20:52:42 | INFO: Extracting primitive: clock spine
+20:52:42 | INFO: Primitives created: 1
+20:52:42 | INFO: Extracting primitive: clock hour marks
+20:52:42 | INFO: Primitives created: 1
+20:52:42 | INFO: Extracting primitive: clock minute hand
+20:52:42 | INFO: Primitives created: 1
+20:52:42 | INFO: Extracting primitive: clock hour hand
+20:52:42 | INFO: Primitives created: 1
+20:52:42 | INFO: Extracting primitive: Trunk T4 front broadleaf
+20:52:42 | INFO: Primitives created: 1
+20:52:42 | INFO: Extracting primitive: Canopy T4 front broadleaf
+20:52:42 | WARNING: More than one shader node tex image used for a texture. The resulting glTF sampler will behave like the first shader node tex image.
+20:52:42 | INFO: Primitives created: 1
+20:52:42 | INFO: Extracting primitive: Canopy T4 front broadleaf.001
+20:52:42 | WARNING: More than one shader node tex image used for a texture. The resulting glTF sampler will behave like the first shader node tex image.
+20:52:42 | INFO: Primitives created: 1
+20:52:42 | INFO: Extracting primitive: Canopy T4 front broadleaf.002
+20:52:42 | WARNING: More than one shader node tex image used for a texture. The resulting glTF sampler will behave like the first shader node tex image.
+20:52:42 | INFO: Primitives created: 1
+20:52:42 | INFO: Extracting primitive: Trunk T4 west broadleaf
+20:52:42 | INFO: Primitives created: 1
+20:52:42 | INFO: Extracting primitive: Canopy T4 west broadleaf
+20:52:42 | INFO: Primitives created: 1
+20:52:42 | INFO: Extracting primitive: Canopy T4 west broadleaf.001
+20:52:42 | INFO: Primitives created: 1
+20:52:42 | INFO: Extracting primitive: Canopy T4 west broadleaf.002
+20:52:42 | INFO: Primitives created: 1
+20:52:42 | INFO: Extracting primitive: Trunk T4 east side
+20:52:42 | INFO: Primitives created: 1
+20:52:42 | INFO: Extracting primitive: Canopy T4 east side
+20:52:42 | INFO: Primitives created: 1
+20:52:42 | INFO: Extracting primitive: Canopy T4 east side.001
+20:52:42 | INFO: Primitives created: 1
+20:52:42 | INFO: Extracting primitive: Canopy T4 east side.002
+20:52:42 | INFO: Primitives created: 1
+20:52:42 | INFO: Extracting primitive: Trunk T4 rear west
+20:52:42 | INFO: Primitives created: 1
+20:52:42 | INFO: Extracting primitive: Canopy T4 rear west
+20:52:42 | INFO: Primitives created: 1
+20:52:42 | INFO: Extracting primitive: Canopy T4 rear west.001
+20:52:42 | INFO: Primitives created: 1
+20:52:42 | INFO: Extracting primitive: Canopy T4 rear west.002
+20:52:42 | INFO: Primitives created: 1
+20:52:42 | INFO: Extracting primitive: 第四教学楼
+20:52:42 | INFO: Primitives created: 1
+20:52:42 | INFO: Finished glTF 2.0 export in 0.31444311141967773 s
+
+20:52:42 | INFO: Starting glTF 2.0 export
+20:52:42 | INFO: Extracting primitive: six storey structure
+20:52:42 | INFO: Primitives created: 1
+20:52:42 | INFO: Extracting primitive: setback east wing
+20:52:42 | INFO: Primitives created: 1
+20:52:42 | INFO: Extracting primitive: ground left structure
+20:52:42 | INFO: Primitives created: 1
+20:52:42 | INFO: Extracting primitive: ground right structure
+20:52:42 | INFO: Primitives created: 1
+20:52:42 | INFO: Extracting primitive: setback east ground structure
+20:52:42 | INFO: Primitives created: 1
+20:52:42 | INFO: Extracting primitive: entry recess back structure
+20:52:42 | INFO: Primitives created: 1
+20:52:42 | INFO: Extracting primitive: flat roof
+20:52:42 | INFO: Primitives created: 1
+20:52:42 | INFO: Extracting primitive: setback east flat roof
+20:52:42 | INFO: Primitives created: 1
+20:52:42 | INFO: Extracting primitive: roof parapet
+20:52:42 | INFO: Primitives created: 1
+20:52:42 | INFO: Extracting primitive: setback front parapet
+20:52:42 | INFO: Primitives created: 1
+20:52:42 | INFO: Extracting primitive: setback notch parapet
+20:52:42 | INFO: Primitives created: 1
+20:52:42 | INFO: Extracting primitive: end parapet
+20:52:42 | INFO: Primitives created: 1
+20:52:42 | INFO: Extracting primitive: window glass
+20:52:42 | INFO: Primitives created: 1
+20:52:42 | INFO: Extracting primitive: window mullions
+20:52:42 | INFO: Primitives created: 1
+20:52:42 | INFO: Extracting primitive: window transoms
+20:52:42 | INFO: Primitives created: 1
+20:52:42 | INFO: Extracting primitive: projecting sills
+20:52:42 | INFO: Primitives created: 1
+20:52:42 | INFO: Extracting primitive: curtain panels
+20:52:42 | INFO: Primitives created: 1
+20:52:42 | INFO: Extracting primitive: window glass.001
+20:52:42 | INFO: Primitives created: 1
+20:52:42 | INFO: Extracting primitive: window glass.002
+20:52:42 | INFO: Primitives created: 1
+20:52:42 | INFO: Extracting primitive: window glass.003
+20:52:42 | INFO: Primitives created: 1
+20:52:42 | INFO: Extracting primitive: sandstone plinth
+20:52:42 | INFO: Primitives created: 1
+20:52:42 | INFO: Extracting primitive: sandstone plinth.001
+20:52:42 | INFO: Primitives created: 1
+20:52:42 | INFO: Extracting primitive: sandstone plinth.002
+20:52:42 | INFO: Primitives created: 1
+20:52:42 | INFO: Extracting primitive: window mullions.001
+20:52:42 | INFO: Primitives created: 1
+20:52:42 | INFO: Extracting primitive: window transoms.001
+20:52:42 | INFO: Primitives created: 1
+20:52:42 | INFO: Extracting primitive: rear unframed entry-adjacent glazing
+20:52:42 | INFO: Primitives created: 1
+20:52:42 | INFO: Extracting primitive: balcony slab
+20:52:42 | INFO: Primitives created: 1
+20:52:42 | INFO: Extracting primitive: balcony front
+20:52:42 | INFO: Primitives created: 1
+20:52:42 | INFO: Extracting primitive: balcony returns
+20:52:42 | INFO: Primitives created: 1
+20:52:42 | INFO: Extracting primitive: balcony handrails
+20:52:42 | INFO: Primitives created: 1
+20:52:42 | INFO: Extracting primitive: balcony posts
+20:52:42 | INFO: Primitives created: 1
+20:52:42 | INFO: Extracting primitive: balcony side handrails
+20:52:42 | INFO: Primitives created: 1
+20:52:42 | INFO: Extracting primitive: balcony return glazing
+20:52:42 | INFO: Primitives created: 1
+20:52:42 | INFO: Extracting primitive: balcony return frames
+20:52:42 | INFO: Primitives created: 1
+20:52:42 | INFO: Extracting primitive: balcony soffit lights
+20:52:42 | INFO: Primitives created: 1
+20:52:42 | INFO: Extracting primitive: front shaft
+20:52:42 | INFO: Primitives created: 1
+20:52:42 | INFO: Extracting primitive: shaft horizontal joints
+20:52:42 | INFO: Primitives created: 1
+20:52:42 | INFO: Extracting primitive: shaft vertical joints
+20:52:42 | INFO: Primitives created: 1
+20:52:42 | INFO: Extracting primitive: shaft side joints
+20:52:42 | INFO: Primitives created: 1
+20:52:42 | INFO: Extracting primitive: balcony drainpipe
+20:52:42 | INFO: Primitives created: 1
+20:52:42 | INFO: Extracting primitive: shaft top vent
+20:52:42 | INFO: Primitives created: 1
+20:52:42 | INFO: Extracting primitive: vent louvers
+20:52:42 | INFO: Primitives created: 1
+20:52:42 | INFO: Extracting primitive: rear stair tower
+20:52:42 | INFO: Primitives created: 1
+20:52:42 | INFO: Extracting primitive: stair slot frames
+20:52:42 | INFO: Primitives created: 1
+20:52:42 | INFO: Extracting primitive: stair slot glazing
+20:52:42 | INFO: Primitives created: 1
+20:52:42 | INFO: Extracting primitive: stair slot transom
+20:52:42 | INFO: Primitives created: 1
+20:52:42 | INFO: Extracting primitive: stair slot glazing.001
+20:52:42 | INFO: Primitives created: 1
+20:52:42 | INFO: Extracting primitive: stair slot glazing.002
+20:52:42 | INFO: Primitives created: 1
+20:52:42 | INFO: Extracting primitive: stair slot glazing.003
+20:52:42 | INFO: Primitives created: 1
+20:52:42 | INFO: Extracting primitive: stair sill ledges
+20:52:42 | INFO: Primitives created: 1
+20:52:42 | INFO: Extracting primitive: roof stair guardrail
+20:52:42 | INFO: Primitives created: 1
+20:52:42 | INFO: Extracting primitive: roof perimeter rail
+20:52:42 | INFO: Primitives created: 1
+20:52:42 | INFO: Extracting primitive: rear small end windows
+20:52:42 | INFO: Primitives created: 1
+20:52:42 | INFO: Extracting primitive: rear small end glazing
+20:52:42 | INFO: Primitives created: 1
+20:52:42 | INFO: Extracting primitive: rear small end divider
+20:52:42 | INFO: Primitives created: 1
+20:52:42 | INFO: Extracting primitive: entry glazing
+20:52:42 | INFO: Primitives created: 1
+20:52:42 | INFO: Extracting primitive: entry recess floor
+20:52:42 | INFO: Primitives created: 1
+20:52:42 | INFO: Extracting primitive: entry door frames
+20:52:42 | INFO: Primitives created: 1
+20:52:42 | INFO: Extracting primitive: entry door handles
+20:52:42 | INFO: Primitives created: 1
+20:52:42 | INFO: Extracting primitive: entry door transom
+20:52:42 | INFO: Primitives created: 1
+20:52:42 | INFO: Extracting primitive: entry steps
+20:52:42 | INFO: Primitives created: 1
+20:52:42 | INFO: Extracting primitive: accessible ramp
+20:52:42 | INFO: Primitives created: 1
+20:52:42 | INFO: Extracting primitive: ramp handrail
+20:52:42 | INFO: Primitives created: 1
+20:52:42 | INFO: Extracting primitive: ramp posts
+20:52:42 | INFO: Primitives created: 1
+20:52:42 | INFO: Extracting primitive: rear door
+20:52:42 | INFO: Primitives created: 1
+20:52:42 | INFO: Extracting primitive: rear canopy
+20:52:42 | INFO: Primitives created: 1
+20:52:42 | INFO: Extracting primitive: rear glass door frames
+20:52:42 | INFO: Primitives created: 1
+20:52:42 | INFO: Extracting primitive: rear glass door transom
+20:52:42 | INFO: Primitives created: 1
+20:52:42 | INFO: Extracting primitive: rear glass door handles
+20:52:42 | INFO: Primitives created: 1
+20:52:42 | INFO: Extracting primitive: rear entrance landing
+20:52:42 | INFO: Primitives created: 1
+20:52:42 | INFO: Extracting primitive: rear entrance steps
+20:52:42 | INFO: Primitives created: 1
+20:52:42 | INFO: Extracting primitive: rear entrance paving
+20:52:42 | INFO: Primitives created: 1
+20:52:42 | INFO: Extracting primitive: side entrance door
+20:52:42 | INFO: Primitives created: 1
+20:52:42 | INFO: Extracting primitive: side entrance frames
+20:52:42 | INFO: Primitives created: 1
+20:52:42 | INFO: Extracting primitive: side entrance transom
+20:52:42 | INFO: Primitives created: 1
+20:52:42 | INFO: Extracting primitive: side canopy roof
+20:52:42 | INFO: Primitives created: 1
+20:52:42 | INFO: Extracting primitive: side canopy ribs
+20:52:42 | INFO: Primitives created: 1
+20:52:42 | INFO: Extracting primitive: side canopy braces
+20:52:42 | INFO: Primitives created: 1
+20:52:42 | INFO: Extracting primitive: side entrance steps
+20:52:42 | INFO: Primitives created: 1
+20:52:42 | INFO: Extracting primitive: side entrance paving
+20:52:42 | INFO: Primitives created: 1
+20:52:42 | INFO: Extracting primitive: side stair handrail
+20:52:42 | INFO: Primitives created: 1
+20:52:42 | INFO: Extracting primitive: side stair posts
+20:52:42 | INFO: Primitives created: 1
+20:52:42 | INFO: Extracting primitive: side sandstone plinth
+20:52:42 | INFO: Primitives created: 1
+20:52:42 | INFO: Extracting primitive: side sandstone plinth.001
+20:52:42 | INFO: Primitives created: 1
+20:52:42 | INFO: Extracting primitive: side sandstone plinth.002
+20:52:42 | INFO: Primitives created: 1
+20:52:42 | INFO: Extracting primitive: sandstone plinth coping
+20:52:42 | INFO: Primitives created: 1
+20:52:42 | INFO: Extracting primitive: forecourt paving
+20:52:42 | INFO: Primitives created: 1
+20:52:42 | INFO: Extracting primitive: paving joints
+20:52:42 | INFO: Primitives created: 1
+20:52:42 | INFO: Extracting primitive: west forecourt lawn
+20:52:42 | INFO: Primitives created: 1
+20:52:42 | INFO: Extracting primitive: west lawn kerb
+20:52:42 | INFO: Primitives created: 1
+20:52:42 | INFO: Extracting primitive: flowerbed soil
+20:52:42 | INFO: Primitives created: 1
+20:52:42 | INFO: Extracting primitive: dark stone flowerbed edging
+20:52:42 | INFO: Primitives created: 1
+20:52:42 | INFO: Extracting primitive: flowerbed coping
+20:52:42 | INFO: Primitives created: 1
+20:52:42 | INFO: Extracting primitive: flowerbed foliage
+20:52:42 | INFO: Primitives created: 1
+20:52:42 | INFO: Extracting primitive: flowerbed foliage.001
+20:52:42 | INFO: Primitives created: 1
+20:52:42 | INFO: Extracting primitive: flowerbed foliage.002
+20:52:42 | INFO: Primitives created: 1
+20:52:42 | INFO: Extracting primitive: flowerbed foliage.003
+20:52:42 | INFO: Primitives created: 1
+20:52:42 | INFO: Extracting primitive: flowerbed foliage.004
+20:52:42 | INFO: Primitives created: 1
+20:52:42 | INFO: Extracting primitive: flowerbed foliage.005
+20:52:42 | INFO: Primitives created: 1
+20:52:42 | INFO: Extracting primitive: sculpture black footing
+20:52:42 | INFO: Primitives created: 1
+20:52:42 | INFO: Extracting primitive: sculpture granite pedestal
+20:52:42 | INFO: Primitives created: 1
+20:52:42 | INFO: Extracting primitive: curved book page blocks
+20:52:42 | INFO: Primitives created: 1
+20:52:42 | INFO: Extracting primitive: overhanging book covers
+20:52:42 | INFO: Primitives created: 1
+20:52:42 | INFO: Extracting primitive: book rear spine
+20:52:42 | INFO: Primitives created: 1
+20:52:42 | INFO: Extracting primitive: engraved page strata
+20:52:42 | INFO: Primitives created: 1
+20:52:42 | INFO: Extracting primitive: upright clock book
+20:52:42 | INFO: Primitives created: 1
+20:52:42 | INFO: Extracting primitive: clock spine
+20:52:42 | INFO: Primitives created: 1
+20:52:42 | INFO: Extracting primitive: clock hour marks
+20:52:42 | INFO: Primitives created: 1
+20:52:42 | INFO: Extracting primitive: clock minute hand
+20:52:42 | INFO: Primitives created: 1
+20:52:42 | INFO: Extracting primitive: clock hour hand
+20:52:42 | INFO: Primitives created: 1
+20:52:42 | INFO: Extracting primitive: Trunk T4 front broadleaf
+20:52:42 | INFO: Primitives created: 1
+20:52:42 | INFO: Extracting primitive: Canopy T4 front broadleaf
+20:52:42 | WARNING: More than one shader node tex image used for a texture. The resulting glTF sampler will behave like the first shader node tex image.
+20:52:42 | INFO: Primitives created: 1
+20:52:42 | INFO: Extracting primitive: Canopy T4 front broadleaf.001
+20:52:42 | WARNING: More than one shader node tex image used for a texture. The resulting glTF sampler will behave like the first shader node tex image.
+20:52:42 | INFO: Primitives created: 1
+20:52:42 | INFO: Extracting primitive: Canopy T4 front broadleaf.002
+20:52:42 | WARNING: More than one shader node tex image used for a texture. The resulting glTF sampler will behave like the first shader node tex image.
+20:52:42 | INFO: Primitives created: 1
+20:52:42 | INFO: Extracting primitive: Trunk T4 west broadleaf
+20:52:42 | INFO: Primitives created: 1
+20:52:42 | INFO: Extracting primitive: Canopy T4 west broadleaf
+20:52:42 | INFO: Primitives created: 1
+20:52:42 | INFO: Extracting primitive: Canopy T4 west broadleaf.001
+20:52:42 | INFO: Primitives created: 1
+20:52:42 | INFO: Extracting primitive: Canopy T4 west broadleaf.002
+20:52:42 | INFO: Primitives created: 1
+20:52:42 | INFO: Extracting primitive: Trunk T4 east side
+20:52:42 | INFO: Primitives created: 1
+20:52:42 | INFO: Extracting primitive: Canopy T4 east side
+20:52:42 | INFO: Primitives created: 1
+20:52:42 | INFO: Extracting primitive: Canopy T4 east side.001
+20:52:42 | INFO: Primitives created: 1
+20:52:42 | INFO: Extracting primitive: Canopy T4 east side.002
+20:52:42 | INFO: Primitives created: 1
+20:52:42 | INFO: Extracting primitive: Trunk T4 rear west
+20:52:42 | INFO: Primitives created: 1
+20:52:42 | INFO: Extracting primitive: Canopy T4 rear west
+20:52:42 | INFO: Primitives created: 1
+20:52:42 | INFO: Extracting primitive: Canopy T4 rear west.001
+20:52:42 | INFO: Primitives created: 1
+20:52:42 | INFO: Extracting primitive: Canopy T4 rear west.002
+20:52:42 | INFO: Primitives created: 1
+20:52:42 | INFO: Extracting primitive: 第四教学楼
+20:52:42 | INFO: Primitives created: 1
+20:52:42 | INFO: Finished glTF 2.0 export in 0.29926419258117676 s
+
+LOD_ASSET buildings-17 [(5013900, 80701), (5080356, 82427), (5088376, 83082)]
+LOD_COMPLETE 200 45451120
+prune: Removed types... Accessor (363)
+quantize: Skipping TEXCOORD_0; out of [0,1] range.
+quantize: Skipping TEXCOORD_0; out of [0,1] range.
+quantize: Skipping TEXCOORD_0; out of [0,1] range.
+quantize: Skipping TEXCOORD_0; out of [0,1] range.
+quantize: Skipping TEXCOORD_0; out of [0,1] range.
+quantize: Skipping TEXCOORD_0; out of [0,1] range.
+quantize: Skipping TEXCOORD_0; out of [0,1] range.
+quantize: Skipping TEXCOORD_0; out of [0,1] range.
+quantize: Skipping TEXCOORD_0; out of [0,1] range.
+quantize: Skipping TEXCOORD_0; out of [0,1] range.
+prune: Removed types... Accessor (267)
+prune: Removed types... Accessor (363)
+quantize: Skipping TEXCOORD_0; out of [0,1] range.
+quantize: Skipping TEXCOORD_0; out of [0,1] range.
+quantize: Skipping TEXCOORD_0; out of [0,1] range.
+quantize: Skipping TEXCOORD_0; out of [0,1] range.
+quantize: Skipping TEXCOORD_0; out of [0,1] range.
+quantize: Skipping TEXCOORD_0; out of [0,1] range.
+quantize: Skipping TEXCOORD_0; out of [0,1] range.
+quantize: Skipping TEXCOORD_0; out of [0,1] range.
+quantize: Skipping TEXCOORD_0; out of [0,1] range.
+quantize: Skipping TEXCOORD_0; out of [0,1] range.
+prune: Removed types... Accessor (267)
+PACKED_LODS 200 42022332
+Blender 4.4.3 (hash 802179c51ccc built 2025-04-29 15:39:58)
+
+Blender quit
