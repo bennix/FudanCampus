@@ -13,13 +13,21 @@ export class CampusLod {
  private loader=new GLTFLoader().setMeshoptDecoder(MeshoptDecoder);
  private stopped=false;
  private active=0;
+ private slowUntil=0;
+ private constrained(){
+  const connection=(globalThis.navigator as Navigator & {connection?:{effectiveType?:string;saveData?:boolean}})?.connection;
+  return connection?.saveData||['slow-2g','2g','3g'].includes(connection?.effectiveType??'')||performance.now()<this.slowUntil;
+ }
  private entries:{asset:LodAsset;box:THREE.Box3;far:THREE.Group;ready:boolean;detail?:THREE.Group;current:Tier;wanted:Tier;request?:AbortController;retryAt:number;failures:number}[]=[];
  private pending=new Set<AbortController>();
  constructor(private root:THREE.Group,private base:string,private mobile:boolean,private prepare:(g:THREE.Group)=>void,private changed:()=>void){}
  private async load(asset:LodAsset,tier:Tier,signal:AbortSignal){
   const file=asset.tiers[tier];const url=new URL(file.url,this.base);url.searchParams.set('v',file.revision);
+  const started=performance.now();
   const response=await fetch(url,{signal});if(!response.ok)throw Error(`${asset.name}: ${response.status}`);
   const data=await response.arrayBuffer();if(signal.aborted)throw new DOMException('Aborted','AbortError');
+  const elapsed=performance.now()-started;
+  if(data.byteLength>=32768&&elapsed>1500&&data.byteLength/elapsed<180)this.slowUntil=performance.now()+30000;
   const gltf=await this.loader.parseAsync(data,new URL('.',url).href);const g=gltf.scene;
   if(this.stopped||signal.aborted){disposeGroup(g);throw new DOMException('Aborted','AbortError');}
   g.userData.lodAssetId=asset.id;g.position.fromArray(asset.position);g.rotation.fromArray(asset.rotation);this.prepare(g);return g;
@@ -36,31 +44,28 @@ export class CampusLod {
   }
   return g;
  }
- async initialize(manifest:LodManifest){
+ initialize(manifest:LodManifest){
   this.entries=manifest.assets.map(asset=>{const far=this.placeholder(asset);this.root.add(far);return {asset,box:new THREE.Box3(new THREE.Vector3(...asset.bounds.min),new THREE.Vector3(...asset.bounds.max)),far,ready:false,current:0 as Tier,wanted:0 as Tier,retryAt:0,failures:0};});
   this.changed();
-  const queue=[...this.entries];
-  await Promise.all(Array.from({length:this.mobile?1:2},async()=>{while(queue.length&&!this.stopped){
-   const e=queue.shift()!;const request=new AbortController();this.pending.add(request);
-   try{const far=await this.load(e.asset,0,request.signal);if(this.stopped){disposeGroup(far);continue;}this.root.add(far);this.root.remove(e.far);disposeGroup(e.far);e.far=far;e.ready=true;this.changed();}
-   catch(error){if(!this.stopped&&!request.signal.aborted){console.warn('Overview unavailable; placeholder retained',e.asset.id,error);e.retryAt=performance.now()+10000;}}
-   finally{this.pending.delete(request);}
-  }}));
+
  }
 
  update(camera:THREE.Camera){
   if(this.stopped)return;
   const items=this.entries.map(e=>({id:e.asset.id,distance:e.box.distanceToPoint(camera.position),priority:e.box.distanceToPoint(camera.position)+e.box.getSize(new THREE.Vector3()).length()*.075,current:e.current,nearDistance:e.asset.nearDistance,mediumDistance:e.asset.mediumDistance,triangles:e.asset.tiers.map(t=>t.triangles)}));
-  const targets=allocateTiers(items,this.mobile);
+  const limited=this.constrained();
+  const targets=allocateTiers(items,this.mobile||!!limited);
   for(const e of this.entries){
-   const wanted=e.ready?targets.get(e.asset.id)!:0;
+   let wanted=e.ready?targets.get(e.asset.id)!:0;
+   if(limited&&wanted>0&&e.asset.tiers[wanted].bytes>1024*1024)wanted=e.asset.tiers[1].bytes<=1024*1024?1:0;
+   if(wanted===2&&e.current===0)wanted=1;
    if(e.wanted!==wanted){e.request?.abort();e.retryAt=0;e.failures=0;}
    e.wanted=wanted;
    // Downgrade immediately, retain the overview while a replacement is loading.
    if(e.current>wanted){if(e.detail){this.root.remove(e.detail);disposeGroup(e.detail);e.detail=undefined;}e.far.visible=true;e.current=0;this.changed();}
   }
   for(const item of items.sort((a,b)=>a.priority-b.priority)){
-   if(this.active>=(this.mobile?1:2))break;
+   if(this.active>=(this.mobile||limited?1:2))break;
    const e=this.entries.find(e=>e.asset.id===item.id)!;
    if(e.request||(e.ready&&e.wanted===e.current)||performance.now()<e.retryAt)continue;
    const tier=e.wanted,request=new AbortController();e.request=request;this.pending.add(request);this.active++;

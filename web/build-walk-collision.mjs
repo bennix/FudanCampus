@@ -1,3 +1,4 @@
+import {gzipSync} from 'node:zlib';
 // Fixed collision geometry is independent of visual LOD swaps.
 import fs from 'node:fs';
 import {Matrix4,Vector3,Quaternion} from 'three';
@@ -39,6 +40,7 @@ for(const a of lod.assets){
 }
 }
 const data=Buffer.from(new Float32Array(triangles).buffer);fs.writeFileSync(new URL('walk-collision.bin',pub),data);
+fs.writeFileSync(new URL('walk-collision-packed.bin',pub),gzipSync(data,{level:9}));
 fs.writeFileSync(new URL('../field-review/campus-photo-integration/walk-roofs.json',import.meta.url),JSON.stringify(roofs));
 fs.writeFileSync(new URL('walk-collision.json',pub),JSON.stringify({version:1,triangles:triangles.length/9,bytes:data.length,sha256:createHash('sha256').update(data).digest('hex'),sourceRevisions:lod.assets.map(a=>[a.id,a.tiers[0].revision])},null,2)+'\n');
 console.log('WALK_COLLISION',triangles.length/9,'triangles',data.length,'bytes',roofs.length,'roof faces');

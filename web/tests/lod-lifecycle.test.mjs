@@ -14,7 +14,7 @@ const camera=new THREE.PerspectiveCamera();
 const group=()=>{const g=new THREE.Group();g.add(new THREE.Mesh(new THREE.BoxGeometry(),new THREE.MeshBasicMaterial()));return g;};
 test('departing during an upgrade discards the late result and retains overview',async()=>{
  const root=new THREE.Group(),lod=new CampusLod(root,'http://localhost/',false,()=>{},()=>{});
- const far=group();lod.load=async()=>far;await lod.initialize({assets:[asset]});
+ const far=group();lod.load=async()=>far;lod.initialize({assets:[asset]});lod.update(camera);await tick();
  let resolve;lod.load=()=>new Promise(r=>{resolve=r;});camera.position.set(0,0,10);lod.update(camera);
  camera.position.set(0,0,1000);lod.update(camera);
  const late=group();let disposed=false;late.children[0].geometry.addEventListener('dispose',()=>disposed=true);resolve(late);await tick();
@@ -22,14 +22,14 @@ test('departing during an upgrade discards the late result and retains overview'
 });
 test('leaving a loaded detail releases GPU geometry and restores overview',async()=>{
  const root=new THREE.Group(),lod=new CampusLod(root,'http://localhost/',false,()=>{},()=>{});const far=group(),near=group();
- lod.load=async()=>far;await lod.initialize({assets:[asset]});lod.load=async()=>near;
+ lod.load=async()=>far;lod.initialize({assets:[asset]});lod.update(camera);await tick();lod.load=async()=>near;
  let disposed=false;near.children[0].geometry.addEventListener('dispose',()=>disposed=true);
  camera.position.set(0,0,10);lod.update(camera);await tick();assert.equal(far.visible,false);
  camera.position.set(0,0,1000);lod.update(camera);assert.equal(disposed,true);assert.equal(far.visible,true);assert.equal(root.children.length,1);lod.dispose();assert.equal(root.children.length,0);
 });
 test('failed upgrade keeps overview and does not retry every frame',async(t)=>{
  t.mock.method(console,'warn',()=>{});
- const root=new THREE.Group(),lod=new CampusLod(root,'http://localhost/',false,()=>{},()=>{});const far=group();lod.load=async()=>far;await lod.initialize({assets:[asset]});let count=0;lod.load=async()=>{count++;throw Error('offline');};
+ const root=new THREE.Group(),lod=new CampusLod(root,'http://localhost/',false,()=>{},()=>{});const far=group();lod.load=async()=>far;lod.initialize({assets:[asset]});lod.update(camera);await tick();let count=0;lod.load=async()=>{count++;throw Error('offline');};
  camera.position.set(0,0,10);lod.update(camera);await tick();lod.update(camera);assert.equal(count,1);assert.equal(far.visible,true);lod.dispose();
 });
 
@@ -39,15 +39,35 @@ test('instanced foliage releases instance buffers as well as geometry',()=>{
 
 test('all queued assets have boxes before downloads complete, replaced only when ready',async()=>{
  const root=new THREE.Group(),lod=new CampusLod(root,'http://localhost/',true,()=>{},()=>{});let resolve;
- lod.load=()=>new Promise(r=>{resolve=r;});const initialized=lod.initialize({assets:[asset,{...asset,id:'second'}]});
+ lod.load=()=>new Promise(r=>{resolve=r;});lod.initialize({assets:[asset,{...asset,id:'second'}]});camera.position.set(0,0,1000);lod.update(camera);
  assert.equal(root.children.length,2);assert(root.children.every(g=>g.userData.loadingPlaceholder&&g.children.length===1));
  const box=root.children[0];let disposed=false;box.children[0].geometry.addEventListener('dispose',()=>disposed=true);
  const far=group();resolve(far);await tick();assert(root.children.includes(far));assert(!root.children.includes(box));assert(disposed);
- resolve(group());await initialized;assert(root.children.every(g=>!g.userData.loadingPlaceholder));lod.dispose();assert.equal(root.children.length,0);
+ lod.update(camera);resolve(group());await tick();assert(root.children.every(g=>!g.userData.loadingPlaceholder));lod.dispose();assert.equal(root.children.length,0);
 });
 test('failed overview retains placeholder, allows other assets and retries successfully',async(t)=>{
  t.mock.method(console,'warn',()=>{});const root=new THREE.Group(),lod=new CampusLod(root,'http://localhost/',false,()=>{},()=>{});
- lod.load=async a=>{if(a.id===asset.id)throw Error('offline');return group();};await lod.initialize({assets:[asset,{...asset,id:'other'}]});
+ lod.load=async a=>{if(a.id===asset.id)throw Error('offline');return group();};lod.initialize({assets:[asset,{...asset,id:'other'}]});lod.update(camera);await tick();
  assert.equal(root.children.length,2);assert.equal(root.children.filter(g=>g.userData.loadingPlaceholder).length,1);
  lod.entries[0].retryAt=0;lod.load=async()=>group();camera.position.set(0,0,1000);lod.update(camera);await tick();assert(root.children.every(g=>!g.userData.loadingPlaceholder));lod.dispose();
+});
+
+test('a nearby building progresses through all three tiers before distant downloads on one connection',async()=>{
+ const lod=new CampusLod(new THREE.Group(),'http://localhost/',true,()=>{},()=>{});
+ const log=[];lod.load=async(a,tier)=>{log.push([a.id,tier]);return group();};
+ const distant={...asset,id:'distant',bounds:{min:[800,0,800],max:[810,8,810]}};
+ const near={...asset,tiers:[{triangles:1000},{triangles:2000},{triangles:3000}]};
+ lod.initialize({assets:[distant,near]});camera.position.set(0,0,10);
+ for(let i=0;i<4;i++){lod.update(camera);await tick();}
+ assert.deepEqual(log,[[near.id,0],[near.id,1],[near.id,2],[distant.id,0]]);lod.dispose();
+});
+test('slow connection serializes downloads and defers large close-ups',async()=>{
+ const lod=new CampusLod(new THREE.Group(),'http://localhost/',false,()=>{},()=>{});
+ lod.constrained=()=>true;
+ const levels=[{triangles:100,bytes:5000},{triangles:900,bytes:50000},{triangles:5000,bytes:9000000}];
+ const calls=[];lod.load=async(a,t)=>{calls.push([a.id,t]);return group();};
+ lod.initialize({assets:[{...asset,tiers:levels},{...asset,id:'other',tiers:levels}]});
+ camera.position.set(0,0,10);lod.update(camera);assert.equal(calls.length,1);await tick();
+ for(let i=0;i<6;i++){lod.update(camera);await tick();}
+ assert.equal(calls.length,4);assert(calls.every(([,tier])=>tier<2));lod.dispose();
 });
