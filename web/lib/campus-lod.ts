@@ -36,7 +36,7 @@ export class CampusLod {
   const g=new THREE.Group();g.name='Loading: '+asset.name;g.userData.loadingPlaceholder=true;
   const box=new THREE.Box3(new THREE.Vector3(...asset.bounds.min),new THREE.Vector3(...asset.bounds.max)),size=box.getSize(new THREE.Vector3());
   // Bounds are already in world space. Never cover a whole shared district with a tall box.
-  if(size.x<200&&size.z<200&&!/vegetation|tree|shrub|landscape|surface|cherry/.test(asset.id)){
+  if(asset.id!=='buildings-65'&&size.x<200&&size.z<200&&!/vegetation|tree|shrub|landscape|surface|cherry/.test(asset.id)){
    const mesh=new THREE.Mesh(new THREE.BoxGeometry(Math.max(.1,size.x),Math.max(.1,size.y),Math.max(.1,size.z)),new THREE.MeshLambertMaterial({color:0xc8c9bd}));mesh.position.copy(box.getCenter(new THREE.Vector3()));g.add(mesh);
   }
   if(asset.id==='shared-00'){

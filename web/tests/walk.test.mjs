@@ -9,3 +9,19 @@ test('open ground allows walking in arbitrary directions, keeps human eye height
 test('sustained movement and long frames cannot tunnel through thin walls',()=>{const world=new WalkWorld(new Float32Array([...floor,...box(2,1,0,.1,2,12)]),[]);const w=new Walker(world,new THREE.Vector3());for(let i=0;i<180;i++)w.move(new THREE.Vector3(1,0,0),i%2?1/60:1,4.5);assert(w.eye().x<1.66,w.eye().x);assert(w.eye().x>1.5);});
 test('sealed building cannot be entered through a geometrically open doorway',()=>{const world=new WalkWorld(new Float32Array(floor),[{bounds:[2,-3,6,3],rings:[[[2,-3],[6,-3],[6,3],[2,3],[2,-3]]]}]);const w=new Walker(world,new THREE.Vector3());for(let i=0;i<240;i++)w.move(new THREE.Vector3(1,0,0),1/60);assert(w.eye().x<=1.71);});
 test('actual campus collision loads and new outdoor regions have safe spawns',()=>{const bytes=fs.readFileSync(new URL('../public/walk-collision.bin',import.meta.url));const data=new Float32Array(bytes.buffer.slice(bytes.byteOffset,bytes.byteOffset+bytes.byteLength));const interiors=JSON.parse(fs.readFileSync(new URL('../public/walk-interiors.json',import.meta.url)));const world=new WalkWorld(data,interiors);for(const p of [[-40,0,14],[21,0,-85],[72,0,0],[30,0,-21]]){const w=new Walker(world,new THREE.Vector3(...p));for(let i=0;i<60;i++){w.move(new THREE.Vector3(0,0,-1),1/60);assert(!world.blocked(w.eye().x,w.eye().z));assert(Number.isFinite(w.eye().y));}assert(w.eye().y>0);}});
+test('both gate lanes open from either side and allow a full crossing',async()=>{
+ const {createGateArms}=await import('../lib/gate-arms.mjs');
+ const bytes=fs.readFileSync(new URL('../public/walk-collision.bin',import.meta.url));
+ const world=new WalkWorld(new Float32Array(bytes.buffer,bytes.byteOffset,bytes.length/4),JSON.parse(fs.readFileSync(new URL('../public/walk-interiors.json',import.meta.url))));
+ for(const x of [-42,-38])for(const sign of [-1,1]){
+  const gate=createGateArms(),walker=new Walker(world,new THREE.Vector3(x,0,-9.16-sign*12));
+  const direction=new THREE.Vector3(0,0,sign);let passed=false;
+  for(let i=0;i<380;i++){
+   walker.move(direction,1/60,4.5);const eye=walker.eye();gate.update(eye,1/60);
+   if(Math.abs(eye.z+9.16)<.3){passed=true;assert(gate.group.children[0].rotation.z>1.4);assert(gate.group.children[1].rotation.z< -1.4);}
+  }
+  assert(passed);assert((walker.eye().z+9.16)*sign>10);
+  for(let i=0;i<100;i++)gate.update(walker.eye(),1/60);
+  assert.equal(gate.group.children[0].rotation.z,0);
+ }
+});

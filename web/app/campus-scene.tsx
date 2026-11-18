@@ -8,6 +8,7 @@ import {CampusLod,type LodManifest} from '../lib/campus-lod';
 import {buildingDetails, daylightSky, detailSurface} from '../lib/campus-details';
 const stops = ['gate','chemistry','physics','library','guanghua'] as const;
 type Stop = typeof stops[number];
+import {createGateArms,removeBakedArms} from '../lib/gate-arms.mjs';
 type LabelMode='auto'|'full'|'off';
 type Building={id:string;name:string;position:[number,number,number];source:string;category:string};
 const views:{name:string;p:number[];t:number[];fov?:number;key?:string}[]=[
@@ -68,6 +69,7 @@ export default function CampusScene(){
  let walker:Walker|undefined,walkWorld:WalkWorld|undefined,walkRequested=false,yaw=0,pitch=0,drag:number|undefined;
  const keys=new Set<string>(),previousPosition=camera.position.clone(),previousTarget=controls.target.clone();
  // Keep a few centimetres per shadow texel at street level.
+ const gate=createGateArms();scene.add(gate.group);
  const sunOffset=sun.position.clone().sub(sun.target.position);
  const shadowArea=(radius:number,x:number,z:number)=>{
    if(mobile)return;
@@ -105,7 +107,7 @@ export default function CampusScene(){
  window.addEventListener('keydown',keyDown);window.addEventListener('keyup',keyUp);window.addEventListener('blur',clearKeys);window.addEventListener('pointerup',clearKeys);document.addEventListener('visibilitychange',clearKeys);renderer.domElement.addEventListener('pointerdown',lookDown);renderer.domElement.addEventListener('pointermove',lookMove);renderer.domElement.addEventListener('pointerup',lookUp);
 
  const manifestUrl='/campus-lod.json';
- const prepare=(group:THREE.Group)=>{const detail=buildingDetails(group.userData.lodAssetId);if(detail)group.add(detail);group.traverse(o=>{if(o instanceof THREE.Mesh){if(['shared-02','shared-03'].includes(group.userData.lodAssetId)&&['3','5','7'].includes(String(o.userData.building_id??'')))o.visible=false;// Separate coplanar base roads from the overlapping landscape terrain.
+ const prepare=(group:THREE.Group)=>{if(group.userData.lodAssetId==='buildings-65')removeBakedArms(group);const detail=buildingDetails(group.userData.lodAssetId);if(detail)group.add(detail);group.traverse(o=>{if(o instanceof THREE.Mesh){if(['shared-02','shared-03'].includes(group.userData.lodAssetId)&&['3','5','7'].includes(String(o.userData.building_id??'')))o.visible=false;// Separate coplanar base roads from the overlapping landscape terrain.
  for(const m of Array.isArray(o.material)?o.material:[o.material])if(m instanceof THREE.MeshStandardMaterial)detailSurface(m);
  const road=group.userData.lodAssetId==='shared-00'&&/road|path/i.test(o.name);
  const terrain=group.userData.lodAssetId==='shared-guanghua-landscape'&&o.userData.feature_id==='GROUND';
@@ -149,6 +151,7 @@ export default function CampusScene(){
   if(walker){const forward=Number(keys.has('KeyW')||keys.has('ArrowUp'))-Number(keys.has('KeyS')||keys.has('ArrowDown')),side=Number(keys.has('KeyD')||keys.has('ArrowRight'))-Number(keys.has('KeyA')||keys.has('ArrowLeft'));const direction=new THREE.Vector3(side,0,-forward).normalize().applyAxisAngle(new THREE.Vector3(0,1,0),yaw);walker.move(direction,dt,keys.has('ShiftLeft')||keys.has('ShiftRight')?4.5:2.5);updateLook();}
   else if(transition){needsRender=true;const alpha=1-Math.exp(-8*dt);camera.position.lerp(transition.p,alpha);controls.target.lerp(transition.t,alpha);camera.lookAt(controls.target);if(camera.position.distanceTo(transition.p)<.03&&controls.target.distanceTo(transition.t)<.03){camera.position.copy(transition.p);controls.target.copy(transition.t);transition=undefined;}}
   else controls.update(dt);
+  if(gate.update(walker?camera.position:null,dt)){needsRender=true;renderer.shadowMap.needsUpdate=true;}
   if(lodReady&&now-lastDetailCheck>250){lastDetailCheck=now;lod?.update(camera);}
   if(walker&&destination&&routeHint.current){
     const dx=destination.p[0]-camera.position.x,dz=destination.p[2]-camera.position.z;

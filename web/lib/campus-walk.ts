@@ -1,6 +1,7 @@
 import * as THREE from 'three';
 import {Octree} from 'three/addons/math/Octree.js';
 import {Capsule} from 'three/addons/math/Capsule.js';
+import {isArmVertex} from './gate-arms.mjs';
 export type Interior={bounds:number[];rings:number[][][]};
 function inRing(x:number,z:number,ring:number[][]){let hit=false;for(let i=0,j=ring.length-1;i<ring.length;j=i++){const a=ring[i],b=ring[j];if((a[1]>z)!==(b[1]>z)&&x<(b[0]-a[0])*(z-a[1])/(b[1]-a[1])+a[0])hit=!hit;}return hit;}
 export function blockedInterior(x:number,z:number,polygons:Interior[],radius=.30){
@@ -14,7 +15,9 @@ export class WalkWorld{
  private data:Float32Array;private cells=new Map<string,number[]>();private cache=new Map<string,Octree>();private global:Octree;
  readonly interiors:Interior[];
  constructor(data:Float32Array,interiors:Interior[]){this.data=data;this.interiors=interiors;const wide:number[]=[];
-  for(let i=0;i<data.length;i+=9){const x0=Math.floor(Math.min(data[i],data[i+3],data[i+6])/24),x1=Math.floor(Math.max(data[i],data[i+3],data[i+6])/24),z0=Math.floor(Math.min(data[i+2],data[i+5],data[i+8])/24),z1=Math.floor(Math.max(data[i+2],data[i+5],data[i+8])/24);
+  for(let i=0;i<data.length;i+=9){
+   if(isArmVertex(data[i],data[i+1],data[i+2])&&isArmVertex(data[i+3],data[i+4],data[i+5])&&isArmVertex(data[i+6],data[i+7],data[i+8]))continue;
+   const x0=Math.floor(Math.min(data[i],data[i+3],data[i+6])/24),x1=Math.floor(Math.max(data[i],data[i+3],data[i+6])/24),z0=Math.floor(Math.min(data[i+2],data[i+5],data[i+8])/24),z1=Math.floor(Math.max(data[i+2],data[i+5],data[i+8])/24);
    if((x1-x0+1)*(z1-z0+1)>16){wide.push(i);continue;}
    for(let x=x0;x<=x1;x++)for(let z=z0;z<=z1;z++){const key=x+','+z;const a=this.cells.get(key)??[];a.push(i);this.cells.set(key,a);}
   }this.global=this.build(wide);
