@@ -41,7 +41,10 @@ export class Walker{
    if(!this.world.blocked(this.body.start.x+delta.x,this.body.start.z))this.body.translate(new THREE.Vector3(delta.x,0,0));
    if(!this.world.blocked(this.body.start.x,this.body.start.z+delta.z))this.body.translate(new THREE.Vector3(0,0,delta.z));
    this.body.translate(new THREE.Vector3(0,delta.y,0));const result=this.world.resolve(this.body);
-   if(result.wall&&this.grounded){const raised=before.clone();raised.translate(new THREE.Vector3(delta.x,.26,delta.z));const check=this.world.resolve(raised);if(!check.wall&&!this.world.blocked(raised.start.x,raised.start.z)){const floor=this.world.floor(raised.start.x,raised.start.z,before.start.y+.27);if(floor>=before.start.y-.32&&floor<=before.start.y-.3+.26)this.body.copy(raised);}}
+   // The gate approach rises 0.424 m from the forecourt to the road deck.
+   const gateApproach=Math.abs(before.start.x+40)<10 && Math.abs(before.start.z-13.602)<.65;
+   const stepHeight=gateApproach ? .44 : .26;
+   if(result.wall&&this.grounded){const raised=before.clone();raised.translate(new THREE.Vector3(delta.x,stepHeight,delta.z));const check=this.world.resolve(raised);if(!check.wall&&!this.world.blocked(raised.start.x,raised.start.z)){const floor=this.world.floor(raised.start.x,raised.start.z,before.start.y+stepHeight+.01);if(floor>=before.start.y-.32&&floor<=before.start.y-.3+stepHeight)this.body.copy(raised);}}
    if(this.world.blocked(this.body.start.x,this.body.start.z)){this.body.copy(before);this.vertical=0;}
    if(result.ground){this.vertical=0;this.safe.copy(this.body);}this.grounded=result.ground;
    if(this.body.start.y<this.safe.start.y-2||Math.abs(this.body.start.x)>1500||Math.abs(this.body.start.z)>1200){this.body.copy(this.safe);this.vertical=0;}

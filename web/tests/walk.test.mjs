@@ -25,3 +25,13 @@ test('both gate lanes open from either side and allow a full crossing',async()=>
   assert.equal(gate.group.children[0].rotation.z,0);
  }
 });
+test('walk from the default gate viewpoint across the raised road and through the entrance',()=>{
+ const bytes=fs.readFileSync(new URL('../public/walk-collision.bin',import.meta.url));
+ const world=new WalkWorld(new Float32Array(bytes.buffer,bytes.byteOffset,bytes.length/4),JSON.parse(fs.readFileSync(new URL('../public/walk-interiors.json',import.meta.url))));
+ for(const fps of [20,30,60])for(const speed of [2.5,4.5]){
+  const w=new Walker(world,new THREE.Vector3(-46,0,27.6));
+  const direction=new THREE.Vector3(6,0,-34).normalize();
+  for(let i=0;i<Math.ceil(46/speed*fps);i++)w.move(direction,1/fps,speed);
+  assert(w.eye().z < -15,JSON.stringify(w.eye()));
+ }
+});
