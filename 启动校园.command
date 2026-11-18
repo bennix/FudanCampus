@@ -24,7 +24,7 @@ for PORT in {5173..5183}; do
   URL="http://localhost:$PORT/"
   if curl -fsS --max-time 3 "$URL" 2>/dev/null | grep -q '三维校园与步行漫游'; then
     echo "校园网页已经运行，正在打开 $URL"
-    open "${URL}?walk"
+    open "$URL"
     exit 0
   fi
   if ! lsof -nP -iTCP:"$PORT" -sTCP:LISTEN >/dev/null 2>&1; then
@@ -40,7 +40,7 @@ for ((i=0; i<90; i++)); do
   if curl -fsS --max-time 2 "$URL" 2>/dev/null | grep -q '三维校园与步行漫游'; then
     echo "校园网页已启动：$URL"
     echo "服务在后台运行，可以关闭此窗口。"
-    open "${URL}?walk"
+    open "$URL"
     exit 0
   fi
   kill -0 "$SERVER_PID" 2>/dev/null || fail "本地服务已退出，请查看日志。"

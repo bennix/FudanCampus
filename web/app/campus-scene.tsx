@@ -124,9 +124,9 @@ export default function CampusScene(){
   lod.initialize(manifest);
   if(canceled)return;lodReady=true;renderer.shadowMap.autoUpdate=false;renderer.shadowMap.needsUpdate=true;
   if(new URLSearchParams(location.search).has('walk')){
-   const entry=views.find(v=>v.key==='chemistry')!;
+   const entry=views.find(v=>v.key===stops[0])!;
    camera.position.fromArray(entry.p);controls.target.fromArray(entry.t);controls.update();
-   await startWalk();if(canceled)return;visit('chemistry');}
+   await startWalk();if(canceled)return;visit(stops[0]);}
   for(const item of data.buildings){
    const button=document.createElement('button');button.className='building-label';button.dataset.buildingId=item.id;button.dataset.category=item.category;button.title=`${item.id} · ${item.name}`;button.setAttribute('aria-label',`${item.id} ${item.name}，点击靠近`);
    const badge=document.createElement('span');badge.className='label-id';badge.textContent=item.id;
