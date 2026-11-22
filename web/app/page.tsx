@@ -14,6 +14,6 @@ export default function Home(){
    <img className="entry-photo" src="./campus-gate.webp" srcSet="./campus-gate-small.webp 720w, ./campus-gate.webp 1800w" sizes="100vw" alt="复旦大学邯郸校区校门实景" fetchPriority="high"/>
    <div className="entry-content"><div className="entry-campus">复旦大学 · 邯郸校区</div>
    <h1>校园漫游</h1><p>从复旦校门出发，沿校园道路探索建筑，随时对照实景照片。</p>
-   <div className="entry-links"><a href="?walk">开始步行漫游 <span aria-hidden="true">→</span></a><a href="?view=overview">校园鸟瞰</a></div></div>
+   <div className="entry-links"><a href="?walk">开始步行漫游 <span aria-hidden="true">→</span></a><a href="?view=overview">校园鸟瞰</a></div><p className="entry-contributor">46 第一教学楼、51 综合办公楼 · 郑德泓 · 计算机拔尖人才实验班</p></div>
  </main>;
 }

@@ -1,0 +1,19 @@
+{
+  "passed": true,
+  "fixtures": [
+    {
+      "file": "models/shared/01-hanbing-v14.glb",
+      "before": 4808,
+      "after": 0,
+      "protectedMeshes": 3
+    },
+    {
+      "file": "models/lod/shared-01-far.glb",
+      "before": 4808,
+      "after": 0,
+      "protectedMeshes": 3
+    }
+  ],
+  "landingPreserved": true,
+  "neighboursPreserved": true
+}

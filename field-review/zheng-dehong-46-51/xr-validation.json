@@ -1,0 +1,13 @@
+{
+  "passed": true,
+  "checks": [
+    "room-scale head offset preserved",
+    "floor elevation preserved",
+    "visible target selectable",
+    "wall occlusion rejects teleport",
+    "hidden ancestor ignored",
+    "ray miss rejected",
+    "all landing points outside traced buildings"
+  ],
+  "realHeadsetTested": false
+}

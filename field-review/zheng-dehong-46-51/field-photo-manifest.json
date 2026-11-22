@@ -1,0 +1,114 @@
+{
+  "photographer": "郑德泓",
+  "major": "计算机拔尖人才实验班",
+  "photos": [
+    {
+      "building": "46",
+      "sequence": 1,
+      "path": "web/public/field-photos/46/1.jpg",
+      "sha256": "fa7f96bc70cf6a3927c86a3deac2f05820c5099f6edf4e92078a1ce0c993e3cc"
+    },
+    {
+      "building": "46",
+      "sequence": 2,
+      "path": "web/public/field-photos/46/2.jpg",
+      "sha256": "e0400010130c154823f090c7f170fca6254b95e234d2c2455438c2c813ea1534"
+    },
+    {
+      "building": "46",
+      "sequence": 3,
+      "path": "web/public/field-photos/46/3.jpg",
+      "sha256": "b0e7129a1c85f21b1c8dd3c773b28b66732c100bcaaf268992419fa508fd324e"
+    },
+    {
+      "building": "46",
+      "sequence": 4,
+      "path": "web/public/field-photos/46/4.jpg",
+      "sha256": "62faeb73ccbec514e56f01f7aaf3299f0cc538a7a45d362323fab5f1706b52f0"
+    },
+    {
+      "building": "46",
+      "sequence": 5,
+      "path": "web/public/field-photos/46/5.jpg",
+      "sha256": "fc44604c22f1b176a1992f090a1126145954594cedd63ad480a83b9f24fbe893"
+    },
+    {
+      "building": "46",
+      "sequence": 6,
+      "path": "web/public/field-photos/46/6.jpg",
+      "sha256": "45ed1fd795de9c61a0aa389cad9d448d90bf2a6ad5902f4f25234dfe8978c619"
+    },
+    {
+      "building": "46",
+      "sequence": 7,
+      "path": "web/public/field-photos/46/7.jpg",
+      "sha256": "5d461d1738553904a2a185f6c9408be47879be65bc6ba8dc54077f7976efe9cd"
+    },
+    {
+      "building": "51",
+      "sequence": 1,
+      "path": "web/public/field-photos/51/1.jpg",
+      "sha256": "4ea7fc42938de1a77f0dad399d7a4e4b9b6f8ea8f082a9ea0be3cf369333f84b"
+    },
+    {
+      "building": "51",
+      "sequence": 2,
+      "path": "web/public/field-photos/51/2.jpg",
+      "sha256": "33b337ce874e381a23b512ce6faf13cd1a26b680520b4839fccdf4bc539cc1f9"
+    },
+    {
+      "building": "51",
+      "sequence": 3,
+      "path": "web/public/field-photos/51/3.jpg",
+      "sha256": "3e742727207deaad0983bc927144e95570a596f9802779ff9c03b4b4357fde4b"
+    },
+    {
+      "building": "51",
+      "sequence": 4,
+      "path": "web/public/field-photos/51/4.jpg",
+      "sha256": "0bbfdb1eabf13c0320ec08f9ce818afe44f55101f3965c45f0986ec96712eb08"
+    },
+    {
+      "building": "51",
+      "sequence": 5,
+      "path": "web/public/field-photos/51/5.jpg",
+      "sha256": "3436f2481cafc3521148bcf5792d3ae1c2ad349d0351ed884b3f38712bb14440"
+    },
+    {
+      "building": "51",
+      "sequence": 6,
+      "path": "web/public/field-photos/51/6.jpg",
+      "sha256": "d4af7012407abb5a6b5ebfa274b9a779116e911ee6705148fa7eab78d5151c53"
+    },
+    {
+      "building": "51",
+      "sequence": 7,
+      "path": "web/public/field-photos/51/7.jpg",
+      "sha256": "6a5eb9793fd00b8f35adb4cbc0a62ed23ddfc7116038f968797c0eb0ae97da6c"
+    },
+    {
+      "building": "51",
+      "sequence": 8,
+      "path": "web/public/field-photos/51/8.jpg",
+      "sha256": "20a54d7f4e763bab6875d2cd18ca53e307187cfcf8db0807cedcb1e673bb05ca"
+    },
+    {
+      "building": "51",
+      "sequence": 9,
+      "path": "web/public/field-photos/51/9.jpg",
+      "sha256": "5b78ac80d74be1952f7f47b277ed1cf5613acbbe34483f34687b675e4013ead7"
+    },
+    {
+      "building": "51",
+      "sequence": 10,
+      "path": "web/public/field-photos/51/10.jpg",
+      "sha256": "55ce31acdf4d40e55c15e6e7667b4c19e31c3a540971589427227f6096a1f940"
+    },
+    {
+      "building": "51",
+      "sequence": 11,
+      "path": "web/public/field-photos/51/11.jpg",
+      "sha256": "6d4d639f6b80a911ccec30419d627c5fdbc9a2d647cca62fe8483064fc36a3da"
+    }
+  ]
+}

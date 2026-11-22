@@ -16,7 +16,8 @@
     "lint": "oxlint",
     "format": "oxfmt",
     "test:lod": "node --experimental-strip-types --test tests/lod-*.test.mjs",
-    "test:walk": "node --experimental-strip-types --test tests/walk.test.mjs"
+    "test:walk": "node --experimental-strip-types --test tests/walk.test.mjs tests/claimed-walk.test.mjs",
+    "test:claimed": "node validate-claimed-integration.mjs && node validate-xr.mjs && node --experimental-strip-types --test tests/claimed-walk.test.mjs"
   },
   "dependencies": {
     "@base-ui/react": "1.7.0",

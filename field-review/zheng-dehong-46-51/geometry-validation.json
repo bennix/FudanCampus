@@ -1,0 +1,39 @@
+{
+  "46": {
+    "solid_components": 1,
+    "junction_probes": [
+      [
+        145,
+        68
+      ],
+      [
+        192,
+        59
+      ]
+    ],
+    "passed": true
+  },
+  "51": {
+    "solid_components": 1,
+    "junction_probes": [
+      [
+        190,
+        184
+      ],
+      [
+        195,
+        210
+      ]
+    ],
+    "passed": true
+  },
+  "removed": [
+    "old placeholder entrance trees",
+    "old straight red/yellow strip"
+  ],
+  "entrance_planting": "new photo-based planting authorized by latest user correction",
+  "office_sign_wall_distance_m": [
+    0.0039997100830078125,
+    0.020001232624053955
+  ]
+}

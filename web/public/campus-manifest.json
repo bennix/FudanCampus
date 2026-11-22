@@ -88,6 +88,35 @@
       "name": "第三教学楼 · 实景模型",
       "source": "User field photographs; approximate map registration",
       "editableSource": "field-review/teaching3-photo-v1/teaching3.blend"
+    },
+    {
+      "id": "claimed-46-51-landscape",
+      "name": "46/51 实拍景观与道路",
+      "url": "map-review/runtime/landscape-near.glb",
+      "bytes": 39089964,
+      "revision": "a48c22ab61fd",
+      "position": [
+        -167.2,
+        0.5,
+        -116
+      ],
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "bounds": {
+        "min": [
+          -84.4800033569336,
+          -0.20000000298023224,
+          -51.36000061035156
+        ],
+        "max": [
+          93.12000274658203,
+          13.441183090209961,
+          82.08000183105469
+        ]
+      }
     }
   ],
   "buildings": [
@@ -470,48 +499,6 @@
       "protected": true
     },
     {
-      "id": "51",
-      "name": "综合办公楼",
-      "url": "models/buildings/51.glb",
-      "revision": "e17cd179569f",
-      "bytes": 670052,
-      "overview": {
-        "url": "models/buildings/51.glb",
-        "revision": "e17cd179569f",
-        "bytes": 670052
-      },
-      "position": [
-        -165.60000000000002,
-        0,
-        -65.60000000000001
-      ],
-      "rotation": [
-        0,
-        0,
-        0
-      ],
-      "orientationBaked": true,
-      "bounds": {
-        "min": [
-          -21.000006103515602,
-          0,
-          -11.349996948242179
-        ],
-        "max": [
-          20.999993896484398,
-          18.424999237060547,
-          11.699998474121102
-        ]
-      },
-      "labelPosition": [
-        -165.60000000000002,
-        21.25,
-        -65.60000000000001
-      ],
-      "loadDistance": 240,
-      "overviewMode": "full"
-    },
-    {
       "id": "55",
       "name": "化学楼",
       "url": "models/buildings/55.glb",
@@ -636,6 +623,88 @@
       ],
       "loadDistance": 240,
       "overviewMode": "full"
+    },
+    {
+      "id": "46",
+      "name": "第一教学楼",
+      "url": "map-review/components/46.glb",
+      "bytes": 2999984,
+      "revision": "d91ed6424afb",
+      "position": [
+        -167.2,
+        0.5,
+        -116
+      ],
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "bounds": {
+        "min": [
+          -25.716190338134766,
+          -2.3841858265427618e-8,
+          -30.033784866333008
+        ],
+        "max": [
+          28.117183685302734,
+          11.15999984741211,
+          12.75475788116455
+        ]
+      },
+      "labelPosition": [
+        -167.2,
+        14.75,
+        -116
+      ],
+      "overview": {
+        "url": "map-review/components/46.glb",
+        "bytes": 2999984,
+        "revision": "d91ed6424afb"
+      },
+      "overviewMode": "full",
+      "loadDistance": 240
+    },
+    {
+      "id": "51",
+      "name": "综合办公楼",
+      "url": "map-review/components/51.glb",
+      "bytes": 2531048,
+      "revision": "41b952620adc",
+      "position": [
+        -167.2,
+        0.5,
+        -116
+      ],
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "bounds": {
+        "min": [
+          -23.225475311279297,
+          -9.536743306171047e-8,
+          20.934595108032227
+        ],
+        "max": [
+          24.202518463134766,
+          20.69999885559082,
+          67.38618469238281
+        ]
+      },
+      "labelPosition": [
+        -165.6,
+        24,
+        -65.6
+      ],
+      "overview": {
+        "url": "map-review/components/51.glb",
+        "bytes": 2531048,
+        "revision": "41b952620adc"
+      },
+      "overviewMode": "full",
+      "loadDistance": 240
     }
   ]
 }

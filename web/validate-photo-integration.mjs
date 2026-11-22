@@ -5,7 +5,11 @@ import {NodeIO} from '@gltf-transform/core';
 const pub=new URL('./public/',import.meta.url),out=new URL('../field-review/campus-photo-integration/',import.meta.url);
 const read=p=>JSON.parse(fs.readFileSync(p)),before=read(new URL('manifest-before.json',out)),current=read(new URL('campus-manifest.json',pub)),cleanup=read(new URL('cleanup.json',out)),placements=read(new URL('placement.json',out));
 const hash=b=>createHash('sha256').update(b).digest('hex').slice(0,12);
-assert.deepEqual(current.buildings,before.buildings,'Existing building modules changed');
+// 46/51 are intentionally replaced by the separately validated photo contribution.
+const claimed=new Set(['46','51']);
+assert.deepEqual(current.buildings.filter(a=>!claimed.has(a.id)),before.buildings.filter(a=>!claimed.has(a.id)),'Unrelated building modules changed');
+for(const a of before.buildings.filter(a=>claimed.has(a.id)))assert.equal(hash(fs.readFileSync(new URL(a.url,pub))),a.revision,'Previous claimed source was overwritten');
+for(const id of claimed){const a=current.buildings.find(a=>a.id===id);assert.equal(a?.url,`map-review/components/${id}.glb`);assert.deepEqual(a.position,[-167.2,.5,-116]);}
 for(const a of before.shared){
  const expected=cleanup.find(r=>r.before.url===a.url)?.after??a;
  assert.deepEqual(current.shared.find(b=>b.id===a.id),expected,`Unexpected source change ${a.id}`);

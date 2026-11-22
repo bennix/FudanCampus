@@ -1,0 +1,33 @@
+{
+  "date": "2026-11-22",
+  "baseCommit": "54194904760437cfcd1781dcbfdcf3606d80407d",
+  "typecheck": "tsc --noEmit -p web/tsconfig.campus.json: passed",
+  "build": "npm --prefix web run build:pages: passed",
+  "lodTests": {
+    "passed": 18,
+    "failed": 0
+  },
+  "walkTests": {
+    "passed": 11,
+    "failed": 0,
+    "includesClaimedCourtyards": true
+  },
+  "xrLogicChecks": {
+    "passed": 7,
+    "realHeadsetTested": false
+  },
+  "assetValidation": {
+    "assetCount": 202,
+    "initialBytes": 43040880,
+    "initialTriangles": 2483368
+  },
+  "browser": {
+    "basePath": "/FudanCampus/",
+    "photoPanelLoaded": true,
+    "walkModeEntered": true,
+    "pageErrors": []
+  },
+  "buildWarnings": [
+    "Vite: some JavaScript chunks exceed 500 kB after minification"
+  ]
+}
