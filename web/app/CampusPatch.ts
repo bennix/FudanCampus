@@ -1,9 +1,9 @@
 import * as THREE from 'three';
-import {inClaimedPlanting} from '../lib/claimed-area.mjs';
+import {inClaimedPlanting,legacyFacadeBounds,replacedIds} from '../lib/claimed-area.mjs';
 
 // One translation for geometry, labels, cameras and picking. Map north stays -Z.
 export const patchOffset = new THREE.Vector3(-167.2, .5, -116);
-export const patchIds = new Set(['46','51']);
+export const patchIds = new Set<string>(replacedIds);
 export const patchPose = (p:number[]):[number,number,number] => [p[0]+patchOffset.x,p[1]+patchOffset.y,p[2]+patchOffset.z];
 
 function identity(o:THREE.Object3D):string {
@@ -21,7 +21,7 @@ export function pruneLegacyPatch(group:THREE.Group,assetUrl:string){
  // Historic tiers batch the old roofs and glazing separately from tagged bodies.
  // Bounds measured from the three original 46 bodies in 01.glb, +1.3 margin.
  if(assetUrl==='shared-01'){
-  bounds.push(new THREE.Box3(new THREE.Vector3(-184.5,-10,-132.9),new THREE.Vector3(-149.9,40,-99.1)));
+  bounds.push(...legacyFacadeBounds.map(([x0,z0,x1,z1]:number[])=>new THREE.Box3(new THREE.Vector3(x0,-10,z0),new THREE.Vector3(x1,40,z1))));
   names.add('第一教学楼');
  }
  group.traverse(o=>{

@@ -30,6 +30,7 @@ export default defineConfig({
         for (const building of ['46','51']) {
           for (const file of fs.readdirSync(path.join(pub,'field-photos',building))) copy(path.join('field-photos',building,file));
         }
+        copy('map-review/labels.json');
         for (const asset of assets) {
           copy(asset.url);
           if (asset.url.endsWith('.parts.json')) {

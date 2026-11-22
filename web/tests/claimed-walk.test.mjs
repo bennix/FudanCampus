@@ -9,4 +9,8 @@ for(const [name,pixel,expected] of [
  ['46 south teaching wing is sealed',[170,116],true],
  ['51 western garden remains open',[160,205],false],
  ['51 northern office wing is sealed',[165,175],true],
+ ['Map archive building is sealed',[90,180],true],
+ ['Former A05 placeholder passage is open',[150,148],false],
+ ['Library courtyard remains open',[310,175],false],
+ ['Library south wing is sealed',[310,208],true],
 ])test(name,()=>assert.equal(blockedInterior(...point(pixel),interiors),expected));

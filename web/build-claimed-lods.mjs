@@ -1,4 +1,4 @@
-/** Rebuild student 46/51 runtime tiers without changing neighbouring source assets. */
+/** Rebuild the map-aligned local context without changing upstream source assets. */
 import fs from 'node:fs';
 import path from 'node:path';
 import {createHash} from 'node:crypto';
@@ -15,11 +15,12 @@ const triangles=d=>d.getRoot().listNodes().reduce((n,node)=>n+(node.getMesh()?.l
 const output='map-review/runtime';fs.mkdirSync(new URL(output+'/',pub),{recursive:true});
 for(const id of ['46','51','landscape']){
  const landscape=id==='landscape';
- const source=landscape?(process.argv[2]??new URL('map-review/components/context-landscape.glb',pub).pathname):new URL(`map-review/components/${id}.glb`,pub).pathname;
+ const contextSource=new URL('map-review/components/context-landscape.glb',pub).pathname;
+ const source=landscape?(process.argv[2]??(fs.existsSync(contextSource)?contextSource:new URL(`${output}/landscape-near.glb`,pub).pathname)):new URL(`map-review/components/${id}.glb`,pub).pathname;
  const original=await io.read(source);
  if(landscape){
   for(const node of [...original.getRoot().listNodes()]){
-   if(/^\d+$/.test(String(node.getExtras().building_id??'')))node.dispose();
+   if(/^\d+$/.test(String(node.getExtras().building_id??'')))node.setExtras({...node.getExtras(),mapContext:true});
    else if(/Tree|树干|叶片|花簇|竹/.test(node.getName()))node.setExtras({...node.getExtras(),campusVegetation:true});
   }
   await original.transform(prune());
@@ -29,20 +30,28 @@ for(const id of ['46','51','landscape']){
  const raw=landscape?await io.writeBinary(original):fs.readFileSync(source);
  if(landscape)fs.writeFileSync(new URL(url,pub),raw);
  const tiers=[];
- for(const [level,sample] of [['far',64],['medium',8],['near',1]]){
+ for(const [level,sample] of [['far',32],['medium',16],['near',1]]){
   const doc=await io.readBinary(raw);
   if(landscape&&sample>1){
    for(const node of [...doc.getRoot().listNodes()])for(const prim of node.getMesh()?.listPrimitives()??[]){
     if(!/叶片|花簇/.test(prim.getMaterial()?.getName()??''))continue;
     const ix=prim.getIndices(),src=ix.getArray(),out=[];
-    // Keep complete two-triangle leaf patches in a deterministic spatial sample.
-    for(let i=0;i<src.length;i+=6*sample)for(let j=0;j<6&&i+j<src.length;j++)out.push(src[i+j]);
+    // Keep leaf cards across the whole crown, increasing their coverage as
+    // density falls. Sparse branches alone must not become a winter canopy.
+    const positions=prim.getAttribute('POSITION'),lo=positions.getMin([]),hi=positions.getMax([]),scale=level==='far'?4:3;
+    for(let i=0;i<src.length;i+=6*sample){
+     const ids=[...new Set(Array.from(src.slice(i,i+6)))];
+     const centre=[0,1,2].map(k=>ids.reduce((s,id)=>s+positions.getElement(id,[])[k],0)/ids.length);
+     for(const id of ids){const p=positions.getElement(id,[]);positions.setElement(id,p.map((v,k)=>Math.max(lo[k],Math.min(hi[k],centre[k]+(v-centre[k])*scale))));}
+     for(let j=0;j<6&&i+j<src.length;j++)out.push(src[i+j]);
+    }
     prim.setIndices(doc.createAccessor().setType('SCALAR').setArray(new Uint32Array(out)).setBuffer(ix.getBuffer()));compactPrimitive(prim);
    }
    await doc.transform(weld(),simplify({simplifier:MeshoptSimplifier,ratio:level==='far'?.2:.7,error:.005}),prune());
   }
   if(level!=='near')await doc.transform(meshopt({encoder:MeshoptEncoder,level:'medium',quantizePosition:16}));
   const file=level==='near'?url:`${output}/${id}-${level}.glb`,bytes=level==='near'?raw:await io.writeBinary(doc);
+  if(landscape&&level==='medium'&&bytes.length>1024*1024)throw Error('The context medium tier must remain usable on a constrained connection');
   if(level!=='near')fs.writeFileSync(new URL(file,pub),bytes);
   tiers.push({url:file,bytes:bytes.length,revision:hash(bytes),triangles:triangles(doc)});
  }

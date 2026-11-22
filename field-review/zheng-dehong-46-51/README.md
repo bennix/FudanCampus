@@ -6,7 +6,7 @@
 
 基于教师提交 `5419490` 集成两栋楼的地图描点体量、立面、竖排铜字和18张实拍参考。综合楼东入口补树木、曲线花坛与竹丛，西庭院补分枝植被与假山；第一教学楼保持主楼、两翼和低短翼的连续围合。
 
-保留教师新版校门Landing Page、首人称步行、开闸逻辑、慢网分阶段加载及其他建筑成果。只替换46/51，原始共享GLB及周围建筑模型文件不改。背景简模仍保存在可编辑源场景中，运行时导出已剔除这些邻楼简模。
+保留教师新版校门Landing Page、首人称步行、开闸逻辑、慢网分阶段加载及其他建筑成果。46/51为详细复原；44、45、47、48、50、52、56使用与本地版一致的地图体量简模，修正邻楼与道路的相对关系。原始共享GLB及周围建筑源文件不改，运行时排除其旧体量、残留立面及占据通道的A05占位。校准街区外继续使用教师新版校园。
 
 新增：照片查阅、两栋楼的检查视角、可选WebXR会话与手柄/凝视瞬移。WebXR逻辑测试通过；真实头显测试单列为后续设备验收。
 
@@ -15,6 +15,7 @@
 进入 `web` 后 `npm ci`、`npm run dev`。首页保持校门入口，建筑检查链接：
 
 - `?view=claimed`：街区与校园位置关系。
+- `?view=claimed-top`：北朝上的地图俯视对照。
 - `?view=teaching` / `?view=teaching-rear`：第一教学楼正面、后侧。
 - `?view=office` / `?view=office-court`：综合楼东入口、西庭院。
 - 网页照片面板：46目录7张，51目录11张；51/6实际是一教及邻接道路，界面已注明。
@@ -26,6 +27,10 @@ Pages构建仍使用 `/FudanCampus/`，照片URL与其他模型资源支持子�
 街区鸟瞰（46 第一教学楼位于51 综合办公楼北侧）：
 
 ![两栋楼与完整校园](claimed.png)
+
+![北朝上俯视](claimed-top.png)
+
+地图依据及初次集成差异见 [周边衔接修复说明](CONTEXT_ALIGNMENT.md)。
 
 综合办公楼东入口与西庭院：
 
@@ -41,12 +46,12 @@ Pages构建仍使用 `/FudanCampus/`，照片URL与其他模型资源支持子�
 ## 资产和坐标
 
 - `web/public/map-review/components/{46,51}.glb`：两栋独立建筑。
-- `web/public/map-review/runtime/landscape-near.glb`：周边植物、道路及庭院，剔除邻楼简模。
+- `web/public/map-review/runtime/landscape-near.glb`：周边植物、道路、庭院与7栋地图轮廓简模。
 - `campus-manifest.json` 保存原始资产，`campus-lod.json` 保存远、中、近三级引用。
 - 局部像素原点 `(176,107)`、比例 `.48`；GLB为Y-up；统一位置 `(-167.2,.5,-116)`，标签与相机共用变换。
 - `assets/map-traced-neighbourhood.blend`：可编辑场景。源码生成器为 `scripts/build_map_neighbourhood.py`、`courtyard_geometry.py` 和 `perimeter_vegetation.py`。
 
-近景保留完整建筑和叶片，远景按材质压缩并降低景观密度。新首批资源约43.04MB、248.34万三角形，维持原工程首屏预算。
+近景保留完整建筑和叶片，远景按材质压缩并降低景观密度。新首批资源约43.11MB、248.57万三角形，维持原工程首屏预算。
 
 ## 重建与验证
 

@@ -37,3 +37,10 @@ test('close hedge tiles retain full density alongside tree detail',()=>{
 });
 
 test('campus trees use local foliage detail slots',()=>{const items=Array.from({length:8},(_,i)=>item('campus-tree-'+i,10,[2000,8000,16000]));assert.ok([...allocateTiers(items,true).values()].every(t=>t===2));});
+
+test('claimed tree crowns retain detail after building slots are exhausted',()=>{
+ const buildings=Array.from({length:6},(_,i)=>item('building-'+i,i+1));
+ const planting=item('shared-claimed-46-51-landscape',12,[17000,50000,499172]);
+ assert.equal(allocateTiers([...buildings,planting],false).get(planting.id),2);
+ assert.equal(allocateTiers([...buildings,planting],true).get(planting.id),1);
+});

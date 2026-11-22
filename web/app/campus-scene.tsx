@@ -1,7 +1,8 @@
 'use client';
 import FieldPhotos from './FieldPhotos';
 import {createCampusXR} from './CampusXR';
-import {patchPose,pruneLegacyPatch} from './CampusPatch';
+import {patchIds,patchPose,pruneLegacyPatch} from './CampusPatch';
+import {contextIds} from '../lib/claimed-area.mjs';
 import { useEffect, useRef, useState } from 'react';
 import * as THREE from 'three';
 import { RoomEnvironment } from 'three/addons/environments/RoomEnvironment.js';
@@ -34,6 +35,7 @@ const views:{name:string;p:number[];t:number[];fov?:number;key?:string}[]=[
  {name:'恒隆物理楼',key:'physics',p:[-48,7,-173.4],t:[-40,9,-202.4],fov:85},
  {name:'化学楼',key:'chemistry',p:[-46.8,3,-158.8],t:[-64.8,6,-160.8],fov:68},
  {name:'46/51 街区鸟瞰',key:'claimed',p:patchPose([-88,120,150]),t:patchPose([0,0,18]),fov:46},
+ {name:'46/51 地图俯视',key:'claimed-top',p:patchPose([10,220,20.01]),t:patchPose([10,0,20]),fov:40},
  {name:'第一教学楼正面',key:'teaching',p:patchPose([-39,16,27]),t:patchPose([0,5,5]),fov:55},
  {name:'第一教学楼后侧',key:'teaching-rear',p:patchPose([38,19,-60]),t:patchPose([0,5,-14]),fov:49},
  {name:'综合楼东侧入口',key:'office',p:patchPose([50,11,77]),t:patchPose([13,6,43]),fov:58},
@@ -69,7 +71,7 @@ export default function CampusScene(){
  const pmrem=new THREE.PMREMGenerator(renderer),room=new RoomEnvironment();const metalEnvironment=pmrem.fromScene(room,.04);room.dispose();pmrem.dispose();scene.environment=metalEnvironment.texture;scene.environmentIntensity=.28;
  const layer=document.createElement('div');layer.className='building-labels';layer.setAttribute('aria-label','建筑浮动标签');el.appendChild(layer);
  const controls=new OrbitControls(camera,renderer.domElement);controls.target.set(-20,0,-260);controls.enableDamping=true;controls.dampingFactor=.09;controls.zoomSpeed=.55;controls.rotateSpeed=.65;controls.minDistance=3;controls.maxDistance=2200;controls.maxPolarAngle=Math.PI*.85;controls.autoRotateSpeed=.35;controls.addEventListener('change',()=>{needsRender=true;});
- scene.add(new THREE.HemisphereLight(0xe8f0ff,0x73715b,1.65));const sun=new THREE.DirectionalLight(0xfff1d5,3);sun.position.set(-340,650,320);sun.castShadow=!mobile;sun.shadow.mapSize.set(2048,2048);Object.assign(sun.shadow.camera,{left:-800,right:800,top:800,bottom:-800,near:1,far:1800});sun.shadow.bias=-.0003;scene.add(sun);sun.target.position.set(0,0,-280);scene.add(sun.target);
+ const ambient=new THREE.HemisphereLight(0xe8f0ff,0x73715b,1.65);scene.add(ambient);const sun=new THREE.DirectionalLight(0xfff1d5,3);sun.position.set(-340,650,320);sun.castShadow=!mobile;sun.shadow.mapSize.set(2048,2048);Object.assign(sun.shadow.camera,{left:-800,right:800,top:800,bottom:-800,near:1,far:1800});sun.shadow.bias=-.0003;scene.add(sun);sun.target.position.set(0,0,-280);scene.add(sun.target);
  let model:THREE.Group|undefined;let canceled=false;let transition:{p:THREE.Vector3;t:THREE.Vector3}|undefined;let mode:LabelMode=labelMode;let showTrees=trees;controls.autoRotate=rotate;
  const labels:{data:Building;point:THREE.Vector3;button:HTMLButtonElement}[]=[];
  const abort=new AbortController();
@@ -77,12 +79,22 @@ export default function CampusScene(){
  const keys=new Set<string>(),previousPosition=camera.position.clone(),previousTarget=controls.target.clone();
  // Keep a few centimetres per shadow texel at street level.
  const gate=createGateArms();scene.add(gate.group);
- const sunOffset=sun.position.clone().sub(sun.target.position);
+ const campusSunOffset=sun.position.clone().sub(sun.target.position),localSunOffset=new THREE.Vector3(-40,100,45),sunOffset=campusSunOffset.clone();
  const shadowArea=(radius:number,x:number,z:number)=>{
    if(mobile)return;
    sun.target.position.set(x,0,z);sun.position.copy(sun.target.position).add(sunOffset);
    Object.assign(sun.shadow.camera,{left:-radius,right:radius,top:radius,bottom:-radius});
    sun.shadow.camera.updateProjectionMatrix();renderer.shadowMap.needsUpdate=true;
+ };
+ // Match the approved local presentation while retaining campus-wide lighting
+ // outside the neighbourhood. A close shadow frustum avoids roof banding.
+ let localLighting=false;
+ const updateAreaLighting=()=>{
+  const walkingOrXR=!!walker||renderer.xr.isPresenting;
+  const focus=walkingOrXR?xr.position():controls.target;
+  const local=focus.x>-265&&focus.x<-65&&focus.z>-178&&focus.z<-25&&(walkingOrXR||camera.position.distanceTo(controls.target)<450);
+  if(local!==localLighting){localLighting=local;ambient.intensity=local?2.3:1.65;sun.intensity=local?2:3;renderer.toneMappingExposure=local?.95:1.04;scene.environmentIntensity=local?0:.28;sunOffset.copy(local?localSunOffset:campusSunOffset);sun.position.copy(sun.target.position).add(sunOffset);sun.shadow.camera.far=local?350:1800;sun.shadow.camera.updateProjectionMatrix();sun.shadow.normalBias=local?.12:0;needsRender=true;renderer.shadowMap.needsUpdate=true;}
+  if(!walkingOrXR&&sun.shadow.camera.right!==(local?110:800))shadowArea(local?110:800,local?-167.2:0,local?-101:-280);
  };
  const updateLook=()=>{if(!walker)return;camera.position.copy(walker.eye());if(!mobile&&(sun.shadow.camera.right!==70||Math.hypot(camera.position.x-sun.target.position.x,camera.position.z-sun.target.position.z)>16))shadowArea(70,camera.position.x,camera.position.z);camera.rotation.set(pitch,yaw,0,'YXZ');needsRender=true;};
  const endWalk=()=>{shadowArea(800,0,-280);if(document.pointerLockElement===renderer.domElement)document.exitPointerLock();setStop(null);destination=undefined;walkRequested=false;walker=undefined;keys.clear();drag=undefined;setWalking(false);setWalkLoading(false);setWalkMessage('');controls.enabled=true;camera.near=1;camera.fov=43;camera.updateProjectionMatrix();camera.position.copy(previousPosition);controls.target.copy(previousTarget);needsRender=true;};
@@ -114,31 +126,35 @@ export default function CampusScene(){
  window.addEventListener('keydown',keyDown);window.addEventListener('keyup',keyUp);window.addEventListener('blur',clearKeys);window.addEventListener('pointerup',clearKeys);document.addEventListener('visibilitychange',clearKeys);renderer.domElement.addEventListener('pointerdown',lookDown);renderer.domElement.addEventListener('pointermove',lookMove);renderer.domElement.addEventListener('pointerup',lookUp);
 
  const manifestUrl='/campus-lod.json';
- const prepare=(group:THREE.Group)=>{const assetId=String(group.userData.lodAssetId??'');if(!['buildings-46','buildings-51','shared-claimed-46-51-landscape'].includes(assetId))pruneLegacyPatch(group,assetId);if(group.userData.lodAssetId==='buildings-65')removeBakedArms(group);const detail=buildingDetails(group.userData.lodAssetId);if(detail)group.add(detail);group.traverse(o=>{if(o instanceof THREE.Mesh){if(['shared-02','shared-03'].includes(group.userData.lodAssetId)&&['3','5','7'].includes(String(o.userData.building_id??'')))o.visible=false;// Separate coplanar base roads from the overlapping landscape terrain.
- for(const m of Array.isArray(o.material)?o.material:[o.material])if(m instanceof THREE.MeshStandardMaterial)detailSurface(m);
+ const prepare=(group:THREE.Group)=>{const assetId=String(group.userData.lodAssetId??'');const claimed=['buildings-46','buildings-51','shared-claimed-46-51-landscape'].includes(assetId);if(!claimed)pruneLegacyPatch(group,assetId);if(group.userData.lodAssetId==='buildings-65')removeBakedArms(group);const detail=patchIds.has(assetId.replace('buildings-',''))?undefined:buildingDetails(group.userData.lodAssetId);if(detail)group.add(detail);group.traverse(o=>{if(o instanceof THREE.Mesh){if(['shared-02','shared-03'].includes(group.userData.lodAssetId)&&['3','5','7'].includes(String(o.userData.building_id??'')))o.visible=false;// Separate coplanar base roads from the overlapping landscape terrain.
+ for(const m of Array.isArray(o.material)?o.material:[o.material])if(!claimed&&m instanceof THREE.MeshStandardMaterial)detailSurface(m);
  const road=group.userData.lodAssetId==='shared-00'&&/road|path/i.test(o.name);
  const terrain=group.userData.lodAssetId==='shared-guanghua-landscape'&&o.userData.feature_id==='GROUND';
  if(road||terrain){const adjust=(m:THREE.Material)=>{const c=m.clone();c.polygonOffset=true;c.polygonOffsetFactor=road?-2:2;c.polygonOffsetUnits=road?-4:4;return c;};o.material=Array.isArray(o.material)?o.material.map(adjust):adjust(o.material);}
  if(o.name.replaceAll('_',' ')==='metal sphere sculpture'){const material=(o.material as THREE.MeshStandardMaterial).clone();material.envMap=metalEnvironment.texture.clone();material.envMapIntensity=1.1;o.material=material;}
- o.castShadow=!mobile&&!o.name.includes('Continuous');o.receiveShadow=!mobile;
+ const flatClaimed=claimed&&/道路|绿地|草坪|石板路/.test(o.name);o.castShadow=!mobile&&!flatClaimed&&!o.name.includes('Continuous');o.receiveShadow=!mobile;
  // Campus-wide shadow texels are too coarse for the new flat water/lawn surfaces.
  if(o.userData.photoStudy&&/^(ground|pond[ _]water|planted[ _]island[ _]lawn)$/.test(o.name)){o.castShadow=false;o.receiveShadow=false;}
  }if(/Canop|Trunk|Tree bark/i.test(o.name)||o.userData.campusVegetation===true)o.visible=showTrees;});};
  let lod:CampusLod|undefined;let lodReady=false,lastDetailCheck=0;
- Promise.all([fetch(manifestUrl,{signal:abort.signal}).then(r=>{if(!r.ok)throw Error('模型清单不可用');return r.json() as Promise<LodManifest>;}),fetch('/buildings.json',{signal:abort.signal}).then(r=>{if(!r.ok)throw Error('标签文件不可用');return r.json() as Promise<{buildings:Building[]}>;})]).then(async([manifest,data])=>{
+ Promise.all([fetch(manifestUrl,{signal:abort.signal}).then(r=>{if(!r.ok)throw Error('模型清单不可用');return r.json() as Promise<LodManifest>;}),fetch('/buildings.json',{signal:abort.signal}).then(r=>{if(!r.ok)throw Error('标签文件不可用');return r.json() as Promise<{buildings:Building[]}>;}),fetch('./map-review/labels.json',{signal:abort.signal}).then(r=>{if(!r.ok)throw Error('地图校准标签不可用');return r.json() as Promise<{buildings:Building[]}>;})]).then(async([manifest,data,context])=>{
   if(canceled)return;model=new THREE.Group();scene.add(model);
   lod=new CampusLod(model,new URL(manifestUrl,location.href).href,mobile,prepare,()=>{renderer.shadowMap.needsUpdate=true;needsRender=true;});
-  lod.initialize(manifest);
+  // Map context replaces these standalone legacy bodies; avoid loading their
+  // temporary bounding boxes into an already calibrated neighbourhood.
+  lod.initialize({...manifest,assets:manifest.assets.filter(a=>!contextIds.some((id:string)=>a.id==='buildings-'+id))});
   if(canceled)return;lodReady=true;renderer.shadowMap.autoUpdate=false;renderer.shadowMap.needsUpdate=true;
   if(new URLSearchParams(location.search).has('walk')){
    const entry=views.find(v=>v.key===stops[0])!;
    camera.position.fromArray(entry.p);controls.target.fromArray(entry.t);controls.update();
    await startWalk();if(canceled)return;visit(stops[0]);}
+  const mapLabels=new Map(context.buildings.map(b=>[b.id,{...b,position:patchPose(b.position)}]));
+  data.buildings=data.buildings.filter(b=>b.id!=='A05').map(b=>mapLabels.get(b.id)??b);
   for(const item of data.buildings){
    const button=document.createElement('button');button.className='building-label';button.dataset.buildingId=item.id;button.dataset.category=item.category;button.title=`${item.id} · ${item.name}`;button.setAttribute('aria-label',`${item.id} ${item.name}，点击靠近`);
    const badge=document.createElement('span');badge.className='label-id';badge.textContent=item.id;
    const name=document.createElement('span');name.className='label-name';name.textContent=item.name;button.appendChild(badge);button.appendChild(name);layer.appendChild(button);
-   const point=new THREE.Vector3(...(manifest.assets.find(a=>a.id==='buildings-'+item.id)?.labelPosition??item.position));
+   const point=new THREE.Vector3(...(mapLabels.has(item.id)?item.position:manifest.assets.find(a=>a.id==='buildings-'+item.id)?.labelPosition??item.position));
    button.onclick=()=>{if(walker||walkRequested)endWalk();transition={p:point.clone().add(new THREE.Vector3(-75,95,115)),t:point.clone().add(new THREE.Vector3(0,-8,0))};setStatus(`${item.id} · ${item.name}`);};
    labels.push({data:item,point,button});
   }
@@ -164,6 +180,7 @@ export default function CampusScene(){
   else if(walker){const forward=Number(keys.has('KeyW')||keys.has('ArrowUp'))-Number(keys.has('KeyS')||keys.has('ArrowDown')),side=Number(keys.has('KeyD')||keys.has('ArrowRight'))-Number(keys.has('KeyA')||keys.has('ArrowLeft'));const direction=new THREE.Vector3(side,0,-forward).normalize().applyAxisAngle(new THREE.Vector3(0,1,0),yaw);walker.move(direction,dt,keys.has('ShiftLeft')||keys.has('ShiftRight')?4.5:2.5);updateLook();}
   else if(transition){needsRender=true;const alpha=1-Math.exp(-8*dt);camera.position.lerp(transition.p,alpha);controls.target.lerp(transition.t,alpha);camera.lookAt(controls.target);if(camera.position.distanceTo(transition.p)<.03&&controls.target.distanceTo(transition.t)<.03){camera.position.copy(transition.p);controls.target.copy(transition.t);transition=undefined;}}
   else controls.update(dt);
+  updateAreaLighting();
   if(gate.update(walker?camera.position:null,dt)){needsRender=true;renderer.shadowMap.needsUpdate=true;}
   if(lodReady&&now-lastDetailCheck>250){lastDetailCheck=now;xrLodCamera.position.copy(xr.position());lod?.update(xrLodCamera);}
   if(walker&&destination&&routeHint.current){

@@ -15,5 +15,16 @@
     }
   ],
   "landingPreserved": true,
-  "neighboursPreserved": true
+  "protected42and43Preserved": true,
+  "mapContextIds": [
+    "44",
+    "45",
+    "47",
+    "48",
+    "50",
+    "52",
+    "56"
+  ],
+  "mapFootprintsCheckedAcrossThreeTiers": true,
+  "legacyA05Removed": true
 }

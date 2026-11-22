@@ -10109,7 +10109,7 @@
     {
       "id": "shared-claimed-46-51-landscape",
       "name": "46/51 实拍景观与道路",
-      "sourceRevision": "a48c22ab61fd",
+      "sourceRevision": "63d1234461fc",
       "labelPosition": null,
       "position": [
         -167.2,
@@ -10138,21 +10138,21 @@
       "tiers": [
         {
           "url": "map-review/runtime/landscape-far.glb",
-          "bytes": 306532,
-          "revision": "452616c0ab2b",
-          "triangles": 14488
+          "bytes": 374496,
+          "revision": "1e761510cb44",
+          "triangles": 16792
         },
         {
           "url": "map-review/runtime/landscape-medium.glb",
-          "bytes": 1432532,
-          "revision": "9e1aa3cdf279",
-          "triangles": 70326
+          "bytes": 958516,
+          "revision": "aae709aaa8c5",
+          "triangles": 49847
         },
         {
           "url": "map-review/runtime/landscape-near.glb",
-          "bytes": 39089964,
-          "revision": "a48c22ab61fd",
-          "triangles": 499036
+          "bytes": 39101200,
+          "revision": "63d1234461fc",
+          "triangles": 499172
         }
       ]
     }
