@@ -1,8 +1,8 @@
 {
   "version": 1,
-  "triangles": 483587,
-  "bytes": 17409132,
-  "sha256": "e50f4a6df5c3ed8420aeae4ea1aa50ed223e5eb36270f1a12da8dd240127bcbe",
+  "triangles": 503874,
+  "bytes": 18139464,
+  "sha256": "95c10a18ad195eb1c8c56c5aebb4b1bd7a39e92578edd76c7004e7f6c5da73ce",
   "sourceRevisions": [
     [
       "shared-00",
@@ -810,7 +810,7 @@
     ],
     [
       "shared-claimed-46-51-landscape",
-      "1e761510cb44"
+      "0c506d288f2b"
     ]
   ]
 }

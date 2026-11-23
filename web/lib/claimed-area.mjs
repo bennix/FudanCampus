@@ -1,14 +1,10 @@
 // The renderer and fixed collision builder share the same legacy replacement area.
 export const legacy46Bounds=[-184.5,-132.9,-149.9,-99.1];
 export const contextIds=['44','45','47','48','50','52','56'];
-export const replacedIds=['46','51',...contextIds,'A05'];
+export const replacedIds=['46','51','A05'];
 // Historic shared meshes have untagged facade batches. These measured bounds
 // remove their remnants without touching 42/43 or any source GLB on disk.
-export const legacyFacadeBounds=[legacy46Bounds,
- [-219.7,-154.5,-194.7,-138.3],[-187.3,-163.7,-147.1,-145.1],
- [-261.7,-93.7,-221.5,-51.9],[-237.3,-61.7,-213.9,-45.5],
- [-206.9,-83.3,-186.7,-63.9],[-151.3,-52.5,-131.9,-37.1],
- [-184.5,-96.9,-157.9,-83.9]];
+export const legacyFacadeBounds=[legacy46Bounds];
 export const patchGroundPixels=[[30,0],[252,0],[252,100],[370,100],[370,240],[252,240],[252,250],[242,250],[242,278],[126,278],[126,260],[0,260],[0,160],[30,160]];
 export function inClaimedPlanting(x,z){
  const u=(x+167.2)/.48+176,v=(z+116)/.48+107;

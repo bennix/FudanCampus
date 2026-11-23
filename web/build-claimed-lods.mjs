@@ -1,5 +1,6 @@
 /** Rebuild the map-aligned local context without changing upstream source assets. */
 import fs from 'node:fs';
+import {contextIds} from './lib/claimed-area.mjs';
 import path from 'node:path';
 import {createHash} from 'node:crypto';
 import {NodeIO} from '@gltf-transform/core';
@@ -20,6 +21,8 @@ for(const id of ['46','51','landscape']){
  const original=await io.read(source);
  if(landscape){
   for(const node of [...original.getRoot().listNodes()]){
+   // Neighbouring buildings retain their upstream geometry and coordinates.
+   if(contextIds.includes(String(node.getExtras().building_id??''))){node.dispose();continue;}
    if(/^\d+$/.test(String(node.getExtras().building_id??'')))node.setExtras({...node.getExtras(),mapContext:true});
    else if(/Tree|树干|叶片|花簇|竹/.test(node.getName()))node.setExtras({...node.getExtras(),campusVegetation:true});
   }

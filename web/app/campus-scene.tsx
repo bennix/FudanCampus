@@ -140,15 +140,14 @@ export default function CampusScene(){
  Promise.all([fetch(manifestUrl,{signal:abort.signal}).then(r=>{if(!r.ok)throw Error('模型清单不可用');return r.json() as Promise<LodManifest>;}),fetch('/buildings.json',{signal:abort.signal}).then(r=>{if(!r.ok)throw Error('标签文件不可用');return r.json() as Promise<{buildings:Building[]}>;}),fetch('./map-review/labels.json',{signal:abort.signal}).then(r=>{if(!r.ok)throw Error('地图校准标签不可用');return r.json() as Promise<{buildings:Building[]}>;})]).then(async([manifest,data,context])=>{
   if(canceled)return;model=new THREE.Group();scene.add(model);
   lod=new CampusLod(model,new URL(manifestUrl,location.href).href,mobile,prepare,()=>{renderer.shadowMap.needsUpdate=true;needsRender=true;});
-  // Map context replaces these standalone legacy bodies; avoid loading their
-  // temporary bounding boxes into an already calibrated neighbourhood.
-  lod.initialize({...manifest,assets:manifest.assets.filter(a=>!contextIds.some((id:string)=>a.id==='buildings-'+id))});
+  // Keep the existing detailed neighbours, including the library entrance.
+  lod.initialize(manifest);
   if(canceled)return;lodReady=true;renderer.shadowMap.autoUpdate=false;renderer.shadowMap.needsUpdate=true;
   if(new URLSearchParams(location.search).has('walk')){
    const entry=views.find(v=>v.key===stops[0])!;
    camera.position.fromArray(entry.p);controls.target.fromArray(entry.t);controls.update();
    await startWalk();if(canceled)return;visit(stops[0]);}
-  const mapLabels=new Map(context.buildings.map(b=>[b.id,{...b,position:patchPose(b.position)}]));
+  const mapLabels=new Map(context.buildings.filter(b=>!contextIds.includes(b.id)).map(b=>[b.id,{...b,position:patchPose(b.position)}]));
   data.buildings=data.buildings.filter(b=>b.id!=='A05').map(b=>mapLabels.get(b.id)??b);
   for(const item of data.buildings){
    const button=document.createElement('button');button.className='building-label';button.dataset.buildingId=item.id;button.dataset.category=item.category;button.title=`${item.id} · ${item.name}`;button.setAttribute('aria-label',`${item.id} ${item.name}，点击靠近`);

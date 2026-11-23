@@ -5,13 +5,13 @@
       "file": "models/shared/01-hanbing-v14.glb",
       "before": 4808,
       "after": 0,
-      "protectedMeshes": 3
+      "protectedMeshes": 11
     },
     {
       "file": "models/lod/shared-01-far.glb",
       "before": 4808,
       "after": 0,
-      "protectedMeshes": 3
+      "protectedMeshes": 11
     }
   ],
   "landingPreserved": true,
@@ -25,6 +25,6 @@
     "52",
     "56"
   ],
-  "mapFootprintsCheckedAcrossThreeTiers": true,
+  "simplifiedNeighboursExcludedAcrossThreeTiers": true,
   "legacyA05Removed": true
 }
