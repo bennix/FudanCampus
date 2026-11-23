@@ -1,8 +1,8 @@
 {
   "version": 1,
-  "triangles": 448394,
-  "bytes": 16142184,
-  "sha256": "d59f3b79f41cfc5db26eadc5623b58f43b2fabd9fec0d78ad6cc85d20d00be2e",
+  "triangles": 503874,
+  "bytes": 18139464,
+  "sha256": "95c10a18ad195eb1c8c56c5aebb4b1bd7a39e92578edd76c7004e7f6c5da73ce",
   "sourceRevisions": [
     [
       "shared-00",
@@ -59,10 +59,6 @@
     [
       "buildings-42",
       "86ff347ff0f0"
-    ],
-    [
-      "buildings-51",
-      "ade8660d5e95"
     ],
     [
       "buildings-55",
@@ -803,6 +799,18 @@
     [
       "landscape-tree-teaching3-vegetation-20",
       "e333239f5654"
+    ],
+    [
+      "buildings-46",
+      "0ee816d572fa"
+    ],
+    [
+      "buildings-51",
+      "11edc50b595d"
+    ],
+    [
+      "shared-claimed-46-51-landscape",
+      "0c506d288f2b"
     ]
   ]
 }

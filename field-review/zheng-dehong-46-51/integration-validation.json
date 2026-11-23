@@ -1,0 +1,30 @@
+{
+  "passed": true,
+  "fixtures": [
+    {
+      "file": "models/shared/01-hanbing-v14.glb",
+      "before": 4808,
+      "after": 0,
+      "protectedMeshes": 11
+    },
+    {
+      "file": "models/lod/shared-01-far.glb",
+      "before": 4808,
+      "after": 0,
+      "protectedMeshes": 11
+    }
+  ],
+  "landingPreserved": true,
+  "protected42and43Preserved": true,
+  "mapContextIds": [
+    "44",
+    "45",
+    "47",
+    "48",
+    "50",
+    "52",
+    "56"
+  ],
+  "simplifiedNeighboursExcludedAcrossThreeTiers": true,
+  "legacyA05Removed": true
+}

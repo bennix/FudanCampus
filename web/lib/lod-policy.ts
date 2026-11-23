@@ -14,7 +14,9 @@ export function allocateTiers(items:Candidate[],mobile:boolean):Map<string,Tier>
  let treeSlots=mobile?16:32;
  let shrubSlots=mobile?8:16;
  for(const item of [...items].sort((a,b)=>(a.priority??a.distance)-(b.priority??b.distance))) {
-  const tree=item.id.startsWith('landscape-tree-')||item.id.startsWith('campus-tree-'),shrub=item.id.startsWith('landscape-shrub-');
+  // The claimed block has identical static context in every tier; its upgrades
+  // spend foliage slots so nearby buildings cannot evict its tree crowns.
+  const tree=item.id.startsWith('landscape-tree-')||item.id.startsWith('campus-tree-')||item.id==='shared-claimed-46-51-landscape',shrub=item.id.startsWith('landscape-shrub-');
   if(shrub?!shrubSlots:tree?!treeSlots:!slots)continue;
   let tier=desiredTier(item,mobile);
   while(tier>0 && (item.triangles[tier]-item.triangles[0]>remaining || (mobile && item.triangles[tier]>(item.id==='guanghua-cherry'?750_000:shrub?500_000:180_000))))tier=(tier-1) as Tier;

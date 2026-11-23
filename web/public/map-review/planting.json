@@ -1,0 +1,774 @@
+{
+  "seed": 23307130130,
+  "accuracy": "photo-informed estimates, not surveyed",
+  "trees": [
+    {
+      "building": "46",
+      "side": "south",
+      "pixel": [
+        137,
+        135
+      ],
+      "height_m": 12.2,
+      "crown_radius_m": 3.5,
+      "type": "broadleaf",
+      "photos": "1,2",
+      "road_clearance_m": 1.103
+    },
+    {
+      "building": "46",
+      "side": "south",
+      "pixel": [
+        156,
+        131
+      ],
+      "height_m": 11.5,
+      "crown_radius_m": 3.2,
+      "type": "broadleaf",
+      "photos": "2,4",
+      "road_clearance_m": 1.372
+    },
+    {
+      "building": "46",
+      "side": "south",
+      "pixel": [
+        212,
+        120
+      ],
+      "height_m": 12.8,
+      "crown_radius_m": 3.5,
+      "type": "broadleaf",
+      "photos": "4,5",
+      "road_clearance_m": 3.068
+    },
+    {
+      "building": "46",
+      "side": "west",
+      "pixel": [
+        119,
+        77
+      ],
+      "height_m": 11.3,
+      "crown_radius_m": 3.2,
+      "type": "broadleaf",
+      "photos": "1",
+      "road_clearance_m": 14.289
+    },
+    {
+      "building": "46",
+      "side": "west",
+      "pixel": [
+        120,
+        99
+      ],
+      "height_m": 12.0,
+      "crown_radius_m": 3.4,
+      "type": "broadleaf",
+      "photos": "1",
+      "road_clearance_m": 19.558
+    },
+    {
+      "building": "46",
+      "side": "east",
+      "pixel": [
+        220,
+        84
+      ],
+      "height_m": 11.8,
+      "crown_radius_m": 3.2,
+      "type": "broadleaf",
+      "photos": "5",
+      "road_clearance_m": 1.5
+    },
+    {
+      "building": "46",
+      "side": "north",
+      "pixel": [
+        145,
+        51
+      ],
+      "height_m": 12.8,
+      "crown_radius_m": 2.0,
+      "type": "feathery",
+      "photos": "6,7",
+      "road_clearance_m": 4.495
+    },
+    {
+      "building": "46",
+      "side": "north",
+      "pixel": [
+        164,
+        47
+      ],
+      "height_m": 13.2,
+      "crown_radius_m": 2.1,
+      "type": "feathery",
+      "photos": "6,7",
+      "road_clearance_m": 4.401
+    },
+    {
+      "building": "46",
+      "side": "north",
+      "pixel": [
+        183,
+        43
+      ],
+      "height_m": 12.4,
+      "crown_radius_m": 1.9,
+      "type": "feathery",
+      "photos": "6,7",
+      "road_clearance_m": 4.307
+    },
+    {
+      "building": "46",
+      "side": "north",
+      "pixel": [
+        154,
+        51
+      ],
+      "height_m": 5.6,
+      "crown_radius_m": 2.0,
+      "type": "palm",
+      "photos": "6,7",
+      "road_clearance_m": 5.343
+    },
+    {
+      "building": "46",
+      "side": "north",
+      "pixel": [
+        174,
+        47
+      ],
+      "height_m": 6.2,
+      "crown_radius_m": 2.1,
+      "type": "palm",
+      "photos": "6,7",
+      "road_clearance_m": 5.343
+    },
+    {
+      "building": "51",
+      "side": "north",
+      "pixel": [
+        139,
+        157
+      ],
+      "height_m": 12.5,
+      "crown_radius_m": 3.6,
+      "type": "broadleaf",
+      "photos": "7,8,9",
+      "road_clearance_m": 5.459
+    },
+    {
+      "building": "51",
+      "side": "north",
+      "pixel": [
+        160,
+        152
+      ],
+      "height_m": 13.0,
+      "crown_radius_m": 3.8,
+      "type": "broadleaf",
+      "photos": "7,8,9",
+      "road_clearance_m": 4.889
+    },
+    {
+      "building": "51",
+      "side": "north",
+      "pixel": [
+        195,
+        144
+      ],
+      "height_m": 12.1,
+      "crown_radius_m": 3.4,
+      "type": "broadleaf",
+      "photos": "7,8,9",
+      "road_clearance_m": 3.903
+    },
+    {
+      "building": "51",
+      "side": "east entrance",
+      "pixel": [
+        202,
+        218
+      ],
+      "height_m": 7.6,
+      "crown_radius_m": 1.9,
+      "type": "dense evergreen beside low end wall",
+      "photos": "latest three entrance detail photos",
+      "road_clearance_m": 10.5
+    },
+    {
+      "building": "51",
+      "side": "east entrance",
+      "pixel": [
+        204,
+        184
+      ],
+      "height_m": 4.0,
+      "crown_radius_m": 1.15,
+      "type": "small tree beside north entrance corner",
+      "photos": "latest three entrance detail photos",
+      "road_clearance_m": 17.751
+    },
+    {
+      "building": "51",
+      "side": "east entrance",
+      "pixel": [
+        212,
+        195
+      ],
+      "height_m": 4.9,
+      "crown_radius_m": 1.6,
+      "type": "branching ornamental tree in flower bed",
+      "photos": "latest three entrance detail photos",
+      "road_clearance_m": 14.405
+    },
+    {
+      "building": "51",
+      "side": "east entrance",
+      "pixel": [
+        219,
+        190
+      ],
+      "height_m": 4.3,
+      "crown_radius_m": 0.95,
+      "type": "sparse ornamental tree behind flowers",
+      "photos": "latest three entrance detail photos",
+      "road_clearance_m": 10.841
+    },
+    {
+      "building": "51",
+      "side": "east entrance",
+      "pixel": [
+        230,
+        207
+      ],
+      "height_m": 12.4,
+      "crown_radius_m": 3.8,
+      "type": "large roadside tree in front of lawn",
+      "photos": "latest three entrance detail photos",
+      "road_clearance_m": 6.322
+    }
+  ],
+  "bamboo": {
+    "location": "51 high bar east end",
+    "stalks": [
+      {
+        "pixel": [
+          226.1,
+          167.954
+        ],
+        "height_m": 3.2,
+        "road_clearance_m": 6.47
+      },
+      {
+        "pixel": [
+          228.784,
+          172.662
+        ],
+        "height_m": 3.6,
+        "road_clearance_m": 5.411
+      },
+      {
+        "pixel": [
+          225.537,
+          167.25
+        ],
+        "height_m": 3.47,
+        "road_clearance_m": 6.703
+      },
+      {
+        "pixel": [
+          227.697,
+          175.072
+        ],
+        "height_m": 3.84,
+        "road_clearance_m": 6.035
+      },
+      {
+        "pixel": [
+          226.536,
+          171.289
+        ],
+        "height_m": 4.09,
+        "road_clearance_m": 6.426
+      },
+      {
+        "pixel": [
+          226.811,
+          166.19
+        ],
+        "height_m": 3.06,
+        "road_clearance_m": 6.042
+      },
+      {
+        "pixel": [
+          227.792,
+          174.876
+        ],
+        "height_m": 3.2,
+        "road_clearance_m": 5.981
+      },
+      {
+        "pixel": [
+          226.993,
+          170.191
+        ],
+        "height_m": 3.09,
+        "road_clearance_m": 6.155
+      },
+      {
+        "pixel": [
+          226.95,
+          164.131
+        ],
+        "height_m": 3.52,
+        "road_clearance_m": 5.872
+      },
+      {
+        "pixel": [
+          226.664,
+          164.096
+        ],
+        "height_m": 3.07,
+        "road_clearance_m": 6.006
+      },
+      {
+        "pixel": [
+          226.976,
+          171.099
+        ],
+        "height_m": 3.17,
+        "road_clearance_m": 6.207
+      },
+      {
+        "pixel": [
+          227.146,
+          166.593
+        ],
+        "height_m": 3.1,
+        "road_clearance_m": 5.902
+      },
+      {
+        "pixel": [
+          226.081,
+          169.799
+        ],
+        "height_m": 3.08,
+        "road_clearance_m": 6.571
+      },
+      {
+        "pixel": [
+          227.356,
+          165.925
+        ],
+        "height_m": 3.49,
+        "road_clearance_m": 5.768
+      },
+      {
+        "pixel": [
+          227.147,
+          169.527
+        ],
+        "height_m": 3.66,
+        "road_clearance_m": 6.049
+      },
+      {
+        "pixel": [
+          226.235,
+          172.388
+        ],
+        "height_m": 3.88,
+        "road_clearance_m": 6.617
+      },
+      {
+        "pixel": [
+          226.621,
+          168.237
+        ],
+        "height_m": 3.6,
+        "road_clearance_m": 6.235
+      },
+      {
+        "pixel": [
+          227.287,
+          164.334
+        ],
+        "height_m": 3.06,
+        "road_clearance_m": 5.721
+      },
+      {
+        "pixel": [
+          227.43,
+          170.084
+        ],
+        "height_m": 3.86,
+        "road_clearance_m": 5.942
+      },
+      {
+        "pixel": [
+          227.652,
+          166.293
+        ],
+        "height_m": 3.36,
+        "road_clearance_m": 5.645
+      },
+      {
+        "pixel": [
+          225.32,
+          164.748
+        ],
+        "height_m": 3.31,
+        "road_clearance_m": 6.681
+      },
+      {
+        "pixel": [
+          227.283,
+          174.828
+        ],
+        "height_m": 3.06,
+        "road_clearance_m": 6.222
+      },
+      {
+        "pixel": [
+          227.321,
+          173.019
+        ],
+        "height_m": 3.58,
+        "road_clearance_m": 6.126
+      },
+      {
+        "pixel": [
+          226.564,
+          170.587
+        ],
+        "height_m": 2.97,
+        "road_clearance_m": 6.38
+      },
+      {
+        "pixel": [
+          225.419,
+          165.392
+        ],
+        "height_m": 3.34,
+        "road_clearance_m": 6.666
+      },
+      {
+        "pixel": [
+          225.842,
+          167.585
+        ],
+        "height_m": 4.02,
+        "road_clearance_m": 6.574
+      },
+      {
+        "pixel": [
+          227.864,
+          170.867
+        ],
+        "height_m": 3.6,
+        "road_clearance_m": 5.773
+      },
+      {
+        "pixel": [
+          227.613,
+          165.781
+        ],
+        "height_m": 3.52,
+        "road_clearance_m": 5.638
+      },
+      {
+        "pixel": [
+          225.904,
+          166.081
+        ],
+        "height_m": 3.48,
+        "road_clearance_m": 6.469
+      },
+      {
+        "pixel": [
+          226.289,
+          162.603
+        ],
+        "height_m": 3.23,
+        "road_clearance_m": 6.11
+      },
+      {
+        "pixel": [
+          225.874,
+          166.754
+        ],
+        "height_m": 3.19,
+        "road_clearance_m": 6.517
+      },
+      {
+        "pixel": [
+          226.506,
+          170.559
+        ],
+        "height_m": 3.22,
+        "road_clearance_m": 6.407
+      },
+      {
+        "pixel": [
+          226.474,
+          166.394
+        ],
+        "height_m": 2.94,
+        "road_clearance_m": 6.213
+      },
+      {
+        "pixel": [
+          226.598,
+          173.724
+        ],
+        "height_m": 3.02,
+        "road_clearance_m": 6.502
+      },
+      {
+        "pixel": [
+          228.663,
+          172.023
+        ],
+        "height_m": 3.45,
+        "road_clearance_m": 5.441
+      },
+      {
+        "pixel": [
+          228.322,
+          171.22
+        ],
+        "height_m": 3.86,
+        "road_clearance_m": 5.569
+      },
+      {
+        "pixel": [
+          227.155,
+          167.114
+        ],
+        "height_m": 3.75,
+        "road_clearance_m": 5.924
+      },
+      {
+        "pixel": [
+          227.102,
+          174.415
+        ],
+        "height_m": 4.09,
+        "road_clearance_m": 6.291
+      },
+      {
+        "pixel": [
+          226.736,
+          173.361
+        ],
+        "height_m": 3.71,
+        "road_clearance_m": 6.42
+      },
+      {
+        "pixel": [
+          226.086,
+          163.872
+        ],
+        "height_m": 4.0,
+        "road_clearance_m": 6.271
+      },
+      {
+        "pixel": [
+          228.658,
+          173.259
+        ],
+        "height_m": 3.59,
+        "road_clearance_m": 5.497
+      },
+      {
+        "pixel": [
+          226.864,
+          172.31
+        ],
+        "height_m": 3.37,
+        "road_clearance_m": 6.313
+      },
+      {
+        "pixel": [
+          227.102,
+          165.231
+        ],
+        "height_m": 3.32,
+        "road_clearance_m": 5.855
+      },
+      {
+        "pixel": [
+          227.217,
+          166.494
+        ],
+        "height_m": 3.9,
+        "road_clearance_m": 5.863
+      },
+      {
+        "pixel": [
+          227.359,
+          171.651
+        ],
+        "height_m": 3.91,
+        "road_clearance_m": 6.048
+      },
+      {
+        "pixel": [
+          227.926,
+          168.493
+        ],
+        "height_m": 3.42,
+        "road_clearance_m": 5.625
+      },
+      {
+        "pixel": [
+          228.181,
+          168.29
+        ],
+        "height_m": 3.18,
+        "road_clearance_m": 5.493
+      },
+      {
+        "pixel": [
+          226.887,
+          169.427
+        ],
+        "height_m": 3.39,
+        "road_clearance_m": 6.168
+      },
+      {
+        "pixel": [
+          226.133,
+          169.424
+        ],
+        "height_m": 3.01,
+        "road_clearance_m": 6.528
+      },
+      {
+        "pixel": [
+          227.594,
+          166.858
+        ],
+        "height_m": 3.83,
+        "road_clearance_m": 5.701
+      },
+      {
+        "pixel": [
+          228.021,
+          169.039
+        ],
+        "height_m": 3.16,
+        "road_clearance_m": 5.607
+      },
+      {
+        "pixel": [
+          225.338,
+          163.713
+        ],
+        "height_m": 3.5,
+        "road_clearance_m": 6.62
+      },
+      {
+        "pixel": [
+          227.465,
+          171.306
+        ],
+        "height_m": 3.43,
+        "road_clearance_m": 5.983
+      },
+      {
+        "pixel": [
+          226.069,
+          170.161
+        ],
+        "height_m": 3.07,
+        "road_clearance_m": 6.595
+      },
+      {
+        "pixel": [
+          226.733,
+          175.892
+        ],
+        "height_m": 3.63,
+        "road_clearance_m": 6.532
+      },
+      {
+        "pixel": [
+          228.891,
+          174.549
+        ],
+        "height_m": 3.01,
+        "road_clearance_m": 5.441
+      },
+      {
+        "pixel": [
+          228.002,
+          167.172
+        ],
+        "height_m": 3.29,
+        "road_clearance_m": 5.523
+      },
+      {
+        "pixel": [
+          226.334,
+          163.162
+        ],
+        "height_m": 3.8,
+        "road_clearance_m": 6.117
+      },
+      {
+        "pixel": [
+          226.919,
+          175.623
+        ],
+        "height_m": 3.61,
+        "road_clearance_m": 6.431
+      },
+      {
+        "pixel": [
+          228.618,
+          174.15
+        ],
+        "height_m": 3.1,
+        "road_clearance_m": 5.555
+      },
+      {
+        "pixel": [
+          226.389,
+          168.639
+        ],
+        "height_m": 3.77,
+        "road_clearance_m": 6.366
+      },
+      {
+        "pixel": [
+          226.581,
+          170.857
+        ],
+        "height_m": 3.02,
+        "road_clearance_m": 6.386
+      },
+      {
+        "pixel": [
+          226.965,
+          171.325
+        ],
+        "height_m": 3.27,
+        "road_clearance_m": 6.222
+      },
+      {
+        "pixel": [
+          228.691,
+          174.831
+        ],
+        "height_m": 3.21,
+        "road_clearance_m": 5.549
+      }
+    ],
+    "source": "user entrance photo with bamboo at right end wall"
+  },
+  "east_entrance_planting": "latest user photos: five trees, shrubs and three flower drifts",
+  "entrance_vehicle_approach_kept_clear": true,
+  "existing_west_courtyard_preserved": true
+}

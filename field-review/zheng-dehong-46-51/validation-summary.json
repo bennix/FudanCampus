@@ -1,0 +1,59 @@
+{
+  "date": "2026-11-22",
+  "baseCommit": "54194904760437cfcd1781dcbfdcf3606d80407d",
+  "typecheck": "tsc --noEmit -p web/tsconfig.campus.json: passed",
+  "build": "npm --prefix web run build:pages: passed",
+  "lodTests": {
+    "passed": 19,
+    "failed": 0
+  },
+  "walkTests": {
+    "passed": 15,
+    "failed": 0,
+    "includesClaimedCourtyards": true,
+    "includesMappedNeighbours": true
+  },
+  "xrLogicChecks": {
+    "passed": 7,
+    "realHeadsetTested": false
+  },
+  "assetValidation": {
+    "assetCount": 202,
+    "initialBytes": 43108844,
+    "initialTriangles": 2485672
+  },
+  "browser": {
+    "basePath": "/FudanCampus/",
+    "photoPanelLoaded": true,
+    "walkModeEntered": true,
+    "walkModeExited": true,
+    "viewsChecked": [
+      "office",
+      "claimed",
+      "claimed-top",
+      "teaching",
+      "teaching-rear",
+      "office-court"
+    ],
+    "pageErrors": []
+  },
+  "buildWarnings": [
+    "Vite: some JavaScript chunks exceed 500 kB after minification"
+  ],
+  "contextUpdate": {
+    "previousCommit": "c991fb5fd9d89716403d196147f66521d59870f5",
+    "contextIds": [
+      "44",
+      "45",
+      "47",
+      "48",
+      "50",
+      "52",
+      "56"
+    ],
+    "mapFootprintsAcrossThreeTiers": "passed",
+    "replacedLegacySourcesRemainOnDisk": true,
+    "comparedWithOriginalLocalCamera": true,
+    "foliageMediumBytes": 958516
+  }
+}

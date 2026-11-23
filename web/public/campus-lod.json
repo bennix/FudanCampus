@@ -734,60 +734,6 @@
       ]
     },
     {
-      "id": "buildings-51",
-      "name": "综合办公楼",
-      "sourceRevision": "e17cd179569f",
-      "labelPosition": [
-        -165.60000000000002,
-        21.25,
-        -65.60000000000001
-      ],
-      "position": [
-        -165.60000000000002,
-        0,
-        -65.60000000000001
-      ],
-      "rotation": [
-        0,
-        0,
-        0
-      ],
-      "bounds": {
-        "min": [
-          -186.60000000000002,
-          0,
-          -76.9499984741211
-        ],
-        "max": [
-          -144.60000000000002,
-          18.424999237060547,
-          -53.90000305175782
-        ]
-      },
-      "nearDistance": 100,
-      "mediumDistance": 340,
-      "tiers": [
-        {
-          "url": "models/lod/buildings-51-far.glb",
-          "revision": "ade8660d5e95",
-          "bytes": 146728,
-          "triangles": 15062
-        },
-        {
-          "url": "models/lod/buildings-51-medium.glb",
-          "revision": "c41cbff7a20a",
-          "bytes": 152656,
-          "triangles": 15942
-        },
-        {
-          "url": "models/buildings/51.glb",
-          "revision": "e17cd179569f",
-          "bytes": 670052,
-          "triangles": 16032
-        }
-      ]
-    },
-    {
       "id": "buildings-55",
       "name": "化学楼",
       "sourceRevision": "95a895241e1c",
@@ -10049,6 +9995,164 @@
           "bytes": 131452,
           "revision": "7309dee8c811",
           "triangles": 8704
+        }
+      ]
+    },
+    {
+      "id": "buildings-46",
+      "name": "第一教学楼",
+      "sourceRevision": "d91ed6424afb",
+      "labelPosition": [
+        -167.2,
+        14.75,
+        -116
+      ],
+      "position": [
+        -167.2,
+        0.5,
+        -116
+      ],
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "bounds": {
+        "min": [
+          -192.91619033813475,
+          0.49999997615814173,
+          -146.033784866333
+        ],
+        "max": [
+          -139.08281631469725,
+          11.65999984741211,
+          -103.24524211883545
+        ]
+      },
+      "nearDistance": 100,
+      "mediumDistance": 340,
+      "tiers": [
+        {
+          "url": "map-review/runtime/46-far.glb",
+          "bytes": 746384,
+          "revision": "0ee816d572fa",
+          "triangles": 53946
+        },
+        {
+          "url": "map-review/runtime/46-medium.glb",
+          "bytes": 746384,
+          "revision": "0ee816d572fa",
+          "triangles": 53946
+        },
+        {
+          "url": "map-review/components/46.glb",
+          "bytes": 2999984,
+          "revision": "d91ed6424afb",
+          "triangles": 53946
+        }
+      ]
+    },
+    {
+      "id": "buildings-51",
+      "name": "综合办公楼",
+      "sourceRevision": "41b952620adc",
+      "labelPosition": [
+        -165.6,
+        24,
+        -65.6
+      ],
+      "position": [
+        -167.2,
+        0.5,
+        -116
+      ],
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "bounds": {
+        "min": [
+          -190.42547531127929,
+          0.49999990463256694,
+          -95.06540489196777
+        ],
+        "max": [
+          -142.99748153686522,
+          21.19999885559082,
+          -48.61381530761719
+        ]
+      },
+      "nearDistance": 100,
+      "mediumDistance": 340,
+      "tiers": [
+        {
+          "url": "map-review/runtime/51-far.glb",
+          "bytes": 651932,
+          "revision": "11edc50b595d",
+          "triangles": 44848
+        },
+        {
+          "url": "map-review/runtime/51-medium.glb",
+          "bytes": 651932,
+          "revision": "11edc50b595d",
+          "triangles": 44848
+        },
+        {
+          "url": "map-review/components/51.glb",
+          "bytes": 2531048,
+          "revision": "41b952620adc",
+          "triangles": 44848
+        }
+      ]
+    },
+    {
+      "id": "shared-claimed-46-51-landscape",
+      "name": "46/51 实拍景观与道路",
+      "sourceRevision": "a48c22ab61fd",
+      "labelPosition": null,
+      "position": [
+        -167.2,
+        0.5,
+        -116
+      ],
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "bounds": {
+        "min": [
+          -251.68000335693358,
+          0.29999999701976776,
+          -167.36000061035156
+        ],
+        "max": [
+          -74.07999725341796,
+          13.941183090209961,
+          -33.91999816894531
+        ]
+      },
+      "nearDistance": 70,
+      "mediumDistance": 180,
+      "tiers": [
+        {
+          "url": "map-review/runtime/landscape-far.glb",
+          "bytes": 364612,
+          "revision": "0c506d288f2b",
+          "triangles": 16656
+        },
+        {
+          "url": "map-review/runtime/landscape-medium.glb",
+          "bytes": 948620,
+          "revision": "6f96a6508084",
+          "triangles": 49711
+        },
+        {
+          "url": "map-review/runtime/landscape-near.glb",
+          "bytes": 39089964,
+          "revision": "a48c22ab61fd",
+          "triangles": 499036
         }
       ]
     }

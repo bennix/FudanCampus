@@ -1,3 +1,4 @@
+import {legacyClaimedTriangle} from './lib/claimed-area.mjs';
 import {gzipSync} from 'node:zlib';
 // Fixed collision geometry is independent of visual LOD swaps.
 import fs from 'node:fs';
@@ -30,6 +31,7 @@ for(const a of lod.assets){
    const pos=p.getAttribute('POSITION'),ix=p.getIndices();if(!pos)continue;
    for(let i=0;i<(ix?.getCount()??pos.getCount());i+=3){
     const v=[0,1,2].map(j=>{const q=pos.getElement(ix?ix.getScalar(i+j):i+j,[]);return [0,1,2].map(k=>m[k]*q[0]+m[k+4]*q[1]+m[k+8]*q[2]+m[k+12]+offset[k]);});
+    if(legacyClaimedTriangle(a.id,extras.building_id,n.getName(),v))continue;
     const u=v[1].map((q,k)=>q-v[0][k]),w=v[2].map((q,k)=>q-v[0][k]);const cross=[u[1]*w[2]-u[2]*w[1],u[2]*w[0]-u[0]*w[2],u[0]*w[1]-u[1]*w[0]];
     if(Math.hypot(...cross)<.008)continue;
     triangles.push(...v.flat().map(q=>Math.round(q*1000)/1000));

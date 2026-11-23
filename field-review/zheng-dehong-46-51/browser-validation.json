@@ -1,0 +1,181 @@
+{
+  "failed": [],
+  "photosLoaded": true,
+  "walkEnteredAndExited": true,
+  "views": [
+    {
+      "key": "office",
+      "stats": {
+        "calls": 198,
+        "triangles": 767696,
+        "camera": [
+          -117.19999999999999,
+          11.500000000000004,
+          -39
+        ],
+        "target": [
+          -154.2,
+          6.5,
+          -73
+        ]
+      },
+      "contextIdsPresent": [
+        "44",
+        "45",
+        "46",
+        "47",
+        "48",
+        "50",
+        "51",
+        "52",
+        "56"
+      ],
+      "legacyA05Visible": false
+    },
+    {
+      "key": "claimed",
+      "stats": {
+        "calls": 676,
+        "triangles": 1298124,
+        "camera": [
+          -255.2,
+          120.5,
+          34
+        ],
+        "target": [
+          -167.2,
+          0.5,
+          -98
+        ]
+      },
+      "contextIdsPresent": [
+        "44",
+        "45",
+        "46",
+        "47",
+        "48",
+        "50",
+        "51",
+        "52",
+        "56"
+      ],
+      "legacyA05Visible": false
+    },
+    {
+      "key": "claimed-top",
+      "stats": {
+        "calls": 454,
+        "triangles": 1063233,
+        "camera": [
+          -157.2,
+          220.5,
+          -95.98999999940537
+        ],
+        "target": [
+          -157.2,
+          0.5,
+          -96.00000000000001
+        ]
+      },
+      "contextIdsPresent": [
+        "44",
+        "45",
+        "46",
+        "47",
+        "48",
+        "50",
+        "51",
+        "52",
+        "56"
+      ],
+      "legacyA05Visible": false
+    },
+    {
+      "key": "teaching",
+      "stats": {
+        "calls": 489,
+        "triangles": 1268033,
+        "camera": [
+          -206.2,
+          16.499999999999993,
+          -89
+        ],
+        "target": [
+          -167.2,
+          5.5,
+          -111
+        ]
+      },
+      "contextIdsPresent": [
+        "44",
+        "45",
+        "46",
+        "47",
+        "48",
+        "50",
+        "51",
+        "52",
+        "56"
+      ],
+      "legacyA05Visible": false
+    },
+    {
+      "key": "teaching-rear",
+      "stats": {
+        "calls": 330,
+        "triangles": 1044201,
+        "camera": [
+          -129.2,
+          19.5,
+          -176
+        ],
+        "target": [
+          -167.2,
+          5.5,
+          -130
+        ]
+      },
+      "contextIdsPresent": [
+        "44",
+        "45",
+        "46",
+        "47",
+        "48",
+        "50",
+        "51",
+        "52",
+        "56"
+      ],
+      "legacyA05Visible": false
+    },
+    {
+      "key": "office-court",
+      "stats": {
+        "calls": 551,
+        "triangles": 1318592,
+        "camera": [
+          -176.2,
+          2.700000000000001,
+          -70
+        ],
+        "target": [
+          -160.2,
+          4.1,
+          -73
+        ]
+      },
+      "contextIdsPresent": [
+        "44",
+        "45",
+        "46",
+        "47",
+        "48",
+        "50",
+        "51",
+        "52",
+        "56"
+      ],
+      "legacyA05Visible": false
+    }
+  ]
+}

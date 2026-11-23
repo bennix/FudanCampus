@@ -30,3 +30,9 @@
 .entry-content h1{font-family:"Songti SC","Noto Serif CJK SC",serif;font-size:clamp(3.6rem,8vw,7rem);line-height:1.13;margin:16px 0;font-weight:600;letter-spacing:.04em}
 .entry-content p{max-width:29em;line-height:1.85;margin:0;color:#f4f3e9}
 .entry-links{display:flex;flex-wrap:wrap;gap:12px;margin-top:28px}.entry-links a{color:#fff;text-decoration:none;border:1px solid #ffffffac;border-radius:4px;padding:13px 20px;font-weight:600}.entry-links a:first-child{background:#faf7e9;color:#203a2e;border-color:#faf7e9}.entry-links span{margin-left:9px}.entry-links a:hover,.entry-links a:focus-visible{outline:2px solid #fff;outline-offset:3px}
+
+/* Optional immersive browser entry, alongside the existing desktop tour. */
+.xr-entry{position:absolute;bottom:52px;left:50%;transform:translateX(-50%);z-index:35;background:#f6f7ed;border:1px solid #bdcabc;border-radius:6px;padding:9px 14px;color:#29483b}.xr-entry:disabled{opacity:.6}
+.field-photos{position:absolute;bottom:110px;left:250px;z-index:10002;max-width:min(460px,90vw);background:#f6f7eeed;border:1px solid #fff9;border-radius:8px;padding:12px;box-shadow:0 4px 24px #172c3220}.field-photos>button{background:#fffdf3;border:1px solid #bdcabc;border-radius:4px;padding:7px 10px;color:#29483b}.field-photos p,.field-photos figcaption{font-size:12px;line-height:1.6}.walking .field-photos{display:none}@media(max-width:700px){.field-photos{left:14px;bottom:110px;max-width:calc(100vw - 28px)}}
+
+.entry-content .entry-contributor{font-size:12px;line-height:1.6;opacity:.8;margin-top:18px;max-width:480px}

@@ -27,6 +27,10 @@ export default defineConfig({
         }
         const lod = JSON.parse(fs.readFileSync(path.join(pub, 'campus-lod.json'), 'utf8'));
         const assets = [...lod.assets.flatMap((asset: {tiers: {url:string}[]}) => asset.tiers), ...manifest.shared, ...manifest.buildings, ...manifest.buildings.map((asset: { overview: unknown }) => asset.overview)];
+        for (const building of ['46','51']) {
+          for (const file of fs.readdirSync(path.join(pub,'field-photos',building))) copy(path.join('field-photos',building,file));
+        }
+        copy('map-review/labels.json');
         for (const asset of assets) {
           copy(asset.url);
           if (asset.url.endsWith('.parts.json')) {

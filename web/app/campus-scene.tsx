@@ -1,4 +1,8 @@
 'use client';
+import FieldPhotos from './FieldPhotos';
+import {createCampusXR} from './CampusXR';
+import {patchIds,patchPose,pruneLegacyPatch} from './CampusPatch';
+import {contextIds} from '../lib/claimed-area.mjs';
 import { useEffect, useRef, useState } from 'react';
 import * as THREE from 'three';
 import { RoomEnvironment } from 'three/addons/environments/RoomEnvironment.js';
@@ -30,7 +34,12 @@ const views:{name:string;p:number[];t:number[];fov?:number;key?:string}[]=[
  {name:'理科图书馆',key:'library',p:[-93.8,3.5,-58.8],t:[-93.8,5.5,-89.5],fov:52},
  {name:'恒隆物理楼',key:'physics',p:[-48,7,-173.4],t:[-40,9,-202.4],fov:85},
  {name:'化学楼',key:'chemistry',p:[-46.8,3,-158.8],t:[-64.8,6,-160.8],fov:68},
- {name:'综合办公楼',key:'office',p:[-169.6,5,-33.6],t:[-165.6,8,-62.6],fov:75},
+ {name:'46/51 街区鸟瞰',key:'claimed',p:patchPose([-88,120,150]),t:patchPose([0,0,18]),fov:46},
+ {name:'46/51 地图俯视',key:'claimed-top',p:patchPose([10,220,20.01]),t:patchPose([10,0,20]),fov:40},
+ {name:'第一教学楼正面',key:'teaching',p:patchPose([-39,16,27]),t:patchPose([0,5,5]),fov:55},
+ {name:'第一教学楼后侧',key:'teaching-rear',p:patchPose([38,19,-60]),t:patchPose([0,5,-14]),fov:49},
+ {name:'综合楼东侧入口',key:'office',p:patchPose([50,11,77]),t:patchPose([13,6,43]),fov:58},
+ {name:'综合楼西侧庭院',key:'office-court',p:patchPose([-9,2.2,46]),t:patchPose([7,3.6,43]),fov:65},
  {name:'复旦校门',key:'gate',p:[-46,3,27.6],t:[-40,4,-6.4]},
  {name:'校门背面',key:'gate-rear',p:[-38,3,-28.4],t:[-40,4.1,-6.4],fov:55},
  {name:'逸夫楼',key:'yifu',p:[-89,9,-186.2],t:[-120,11,-255.2]},
@@ -62,7 +71,7 @@ export default function CampusScene(){
  const pmrem=new THREE.PMREMGenerator(renderer),room=new RoomEnvironment();const metalEnvironment=pmrem.fromScene(room,.04);room.dispose();pmrem.dispose();scene.environment=metalEnvironment.texture;scene.environmentIntensity=.28;
  const layer=document.createElement('div');layer.className='building-labels';layer.setAttribute('aria-label','建筑浮动标签');el.appendChild(layer);
  const controls=new OrbitControls(camera,renderer.domElement);controls.target.set(-20,0,-260);controls.enableDamping=true;controls.dampingFactor=.09;controls.zoomSpeed=.55;controls.rotateSpeed=.65;controls.minDistance=3;controls.maxDistance=2200;controls.maxPolarAngle=Math.PI*.85;controls.autoRotateSpeed=.35;controls.addEventListener('change',()=>{needsRender=true;});
- scene.add(new THREE.HemisphereLight(0xe8f0ff,0x73715b,1.65));const sun=new THREE.DirectionalLight(0xfff1d5,3);sun.position.set(-340,650,320);sun.castShadow=!mobile;sun.shadow.mapSize.set(2048,2048);Object.assign(sun.shadow.camera,{left:-800,right:800,top:800,bottom:-800,near:1,far:1800});sun.shadow.bias=-.0003;scene.add(sun);sun.target.position.set(0,0,-280);scene.add(sun.target);
+ const ambient=new THREE.HemisphereLight(0xe8f0ff,0x73715b,1.65);scene.add(ambient);const sun=new THREE.DirectionalLight(0xfff1d5,3);sun.position.set(-340,650,320);sun.castShadow=!mobile;sun.shadow.mapSize.set(2048,2048);Object.assign(sun.shadow.camera,{left:-800,right:800,top:800,bottom:-800,near:1,far:1800});sun.shadow.bias=-.0003;scene.add(sun);sun.target.position.set(0,0,-280);scene.add(sun.target);
  let model:THREE.Group|undefined;let canceled=false;let transition:{p:THREE.Vector3;t:THREE.Vector3}|undefined;let mode:LabelMode=labelMode;let showTrees=trees;controls.autoRotate=rotate;
  const labels:{data:Building;point:THREE.Vector3;button:HTMLButtonElement}[]=[];
  const abort=new AbortController();
@@ -70,12 +79,22 @@ export default function CampusScene(){
  const keys=new Set<string>(),previousPosition=camera.position.clone(),previousTarget=controls.target.clone();
  // Keep a few centimetres per shadow texel at street level.
  const gate=createGateArms();scene.add(gate.group);
- const sunOffset=sun.position.clone().sub(sun.target.position);
+ const campusSunOffset=sun.position.clone().sub(sun.target.position),localSunOffset=new THREE.Vector3(-40,100,45),sunOffset=campusSunOffset.clone();
  const shadowArea=(radius:number,x:number,z:number)=>{
    if(mobile)return;
    sun.target.position.set(x,0,z);sun.position.copy(sun.target.position).add(sunOffset);
    Object.assign(sun.shadow.camera,{left:-radius,right:radius,top:radius,bottom:-radius});
    sun.shadow.camera.updateProjectionMatrix();renderer.shadowMap.needsUpdate=true;
+ };
+ // Match the approved local presentation while retaining campus-wide lighting
+ // outside the neighbourhood. A close shadow frustum avoids roof banding.
+ let localLighting=false;
+ const updateAreaLighting=()=>{
+  const walkingOrXR=!!walker||renderer.xr.isPresenting;
+  const focus=walkingOrXR?xr.position():controls.target;
+  const local=focus.x>-265&&focus.x<-65&&focus.z>-178&&focus.z<-25&&(walkingOrXR||camera.position.distanceTo(controls.target)<450);
+  if(local!==localLighting){localLighting=local;ambient.intensity=local?2.3:1.65;sun.intensity=local?2:3;renderer.toneMappingExposure=local?.95:1.04;scene.environmentIntensity=local?0:.28;sunOffset.copy(local?localSunOffset:campusSunOffset);sun.position.copy(sun.target.position).add(sunOffset);sun.shadow.camera.far=local?350:1800;sun.shadow.camera.updateProjectionMatrix();sun.shadow.normalBias=local?.12:0;needsRender=true;renderer.shadowMap.needsUpdate=true;}
+  if(!walkingOrXR&&sun.shadow.camera.right!==(local?110:800))shadowArea(local?110:800,local?-167.2:0,local?-101:-280);
  };
  const updateLook=()=>{if(!walker)return;camera.position.copy(walker.eye());if(!mobile&&(sun.shadow.camera.right!==70||Math.hypot(camera.position.x-sun.target.position.x,camera.position.z-sun.target.position.z)>16))shadowArea(70,camera.position.x,camera.position.z);camera.rotation.set(pitch,yaw,0,'YXZ');needsRender=true;};
  const endWalk=()=>{shadowArea(800,0,-280);if(document.pointerLockElement===renderer.domElement)document.exitPointerLock();setStop(null);destination=undefined;walkRequested=false;walker=undefined;keys.clear();drag=undefined;setWalking(false);setWalkLoading(false);setWalkMessage('');controls.enabled=true;camera.near=1;camera.fov=43;camera.updateProjectionMatrix();camera.position.copy(previousPosition);controls.target.copy(previousTarget);needsRender=true;};
@@ -107,37 +126,45 @@ export default function CampusScene(){
  window.addEventListener('keydown',keyDown);window.addEventListener('keyup',keyUp);window.addEventListener('blur',clearKeys);window.addEventListener('pointerup',clearKeys);document.addEventListener('visibilitychange',clearKeys);renderer.domElement.addEventListener('pointerdown',lookDown);renderer.domElement.addEventListener('pointermove',lookMove);renderer.domElement.addEventListener('pointerup',lookUp);
 
  const manifestUrl='/campus-lod.json';
- const prepare=(group:THREE.Group)=>{if(group.userData.lodAssetId==='buildings-65')removeBakedArms(group);const detail=buildingDetails(group.userData.lodAssetId);if(detail)group.add(detail);group.traverse(o=>{if(o instanceof THREE.Mesh){if(['shared-02','shared-03'].includes(group.userData.lodAssetId)&&['3','5','7'].includes(String(o.userData.building_id??'')))o.visible=false;// Separate coplanar base roads from the overlapping landscape terrain.
- for(const m of Array.isArray(o.material)?o.material:[o.material])if(m instanceof THREE.MeshStandardMaterial)detailSurface(m);
+ const prepare=(group:THREE.Group)=>{const assetId=String(group.userData.lodAssetId??'');const claimed=['buildings-46','buildings-51','shared-claimed-46-51-landscape'].includes(assetId);if(!claimed)pruneLegacyPatch(group,assetId);if(group.userData.lodAssetId==='buildings-65')removeBakedArms(group);const detail=patchIds.has(assetId.replace('buildings-',''))?undefined:buildingDetails(group.userData.lodAssetId);if(detail)group.add(detail);group.traverse(o=>{if(o instanceof THREE.Mesh){if(['shared-02','shared-03'].includes(group.userData.lodAssetId)&&['3','5','7'].includes(String(o.userData.building_id??'')))o.visible=false;// Separate coplanar base roads from the overlapping landscape terrain.
+ for(const m of Array.isArray(o.material)?o.material:[o.material])if(!claimed&&m instanceof THREE.MeshStandardMaterial)detailSurface(m);
  const road=group.userData.lodAssetId==='shared-00'&&/road|path/i.test(o.name);
  const terrain=group.userData.lodAssetId==='shared-guanghua-landscape'&&o.userData.feature_id==='GROUND';
  if(road||terrain){const adjust=(m:THREE.Material)=>{const c=m.clone();c.polygonOffset=true;c.polygonOffsetFactor=road?-2:2;c.polygonOffsetUnits=road?-4:4;return c;};o.material=Array.isArray(o.material)?o.material.map(adjust):adjust(o.material);}
  if(o.name.replaceAll('_',' ')==='metal sphere sculpture'){const material=(o.material as THREE.MeshStandardMaterial).clone();material.envMap=metalEnvironment.texture.clone();material.envMapIntensity=1.1;o.material=material;}
- o.castShadow=!mobile&&!o.name.includes('Continuous');o.receiveShadow=!mobile;
+ const flatClaimed=claimed&&/道路|绿地|草坪|石板路/.test(o.name);o.castShadow=!mobile&&!flatClaimed&&!o.name.includes('Continuous');o.receiveShadow=!mobile;
  // Campus-wide shadow texels are too coarse for the new flat water/lawn surfaces.
  if(o.userData.photoStudy&&/^(ground|pond[ _]water|planted[ _]island[ _]lawn)$/.test(o.name)){o.castShadow=false;o.receiveShadow=false;}
  }if(/Canop|Trunk|Tree bark/i.test(o.name)||o.userData.campusVegetation===true)o.visible=showTrees;});};
  let lod:CampusLod|undefined;let lodReady=false,lastDetailCheck=0;
- Promise.all([fetch(manifestUrl,{signal:abort.signal}).then(r=>{if(!r.ok)throw Error('模型清单不可用');return r.json() as Promise<LodManifest>;}),fetch('/buildings.json',{signal:abort.signal}).then(r=>{if(!r.ok)throw Error('标签文件不可用');return r.json() as Promise<{buildings:Building[]}>;})]).then(async([manifest,data])=>{
+ Promise.all([fetch(manifestUrl,{signal:abort.signal}).then(r=>{if(!r.ok)throw Error('模型清单不可用');return r.json() as Promise<LodManifest>;}),fetch('/buildings.json',{signal:abort.signal}).then(r=>{if(!r.ok)throw Error('标签文件不可用');return r.json() as Promise<{buildings:Building[]}>;}),fetch('./map-review/labels.json',{signal:abort.signal}).then(r=>{if(!r.ok)throw Error('地图校准标签不可用');return r.json() as Promise<{buildings:Building[]}>;})]).then(async([manifest,data,context])=>{
   if(canceled)return;model=new THREE.Group();scene.add(model);
   lod=new CampusLod(model,new URL(manifestUrl,location.href).href,mobile,prepare,()=>{renderer.shadowMap.needsUpdate=true;needsRender=true;});
+  // Keep the existing detailed neighbours, including the library entrance.
   lod.initialize(manifest);
   if(canceled)return;lodReady=true;renderer.shadowMap.autoUpdate=false;renderer.shadowMap.needsUpdate=true;
   if(new URLSearchParams(location.search).has('walk')){
    const entry=views.find(v=>v.key===stops[0])!;
    camera.position.fromArray(entry.p);controls.target.fromArray(entry.t);controls.update();
    await startWalk();if(canceled)return;visit(stops[0]);}
+  const mapLabels=new Map(context.buildings.filter(b=>!contextIds.includes(b.id)).map(b=>[b.id,{...b,position:patchPose(b.position)}]));
+  data.buildings=data.buildings.filter(b=>b.id!=='A05').map(b=>mapLabels.get(b.id)??b);
   for(const item of data.buildings){
    const button=document.createElement('button');button.className='building-label';button.dataset.buildingId=item.id;button.dataset.category=item.category;button.title=`${item.id} · ${item.name}`;button.setAttribute('aria-label',`${item.id} ${item.name}，点击靠近`);
    const badge=document.createElement('span');badge.className='label-id';badge.textContent=item.id;
    const name=document.createElement('span');name.className='label-name';name.textContent=item.name;button.appendChild(badge);button.appendChild(name);layer.appendChild(button);
-   const point=new THREE.Vector3(...(manifest.assets.find(a=>a.id==='buildings-'+item.id)?.labelPosition??item.position));
+   const point=new THREE.Vector3(...(mapLabels.has(item.id)?item.position:manifest.assets.find(a=>a.id==='buildings-'+item.id)?.labelPosition??item.position));
    button.onclick=()=>{if(walker||walkRequested)endWalk();transition={p:point.clone().add(new THREE.Vector3(-75,95,115)),t:point.clone().add(new THREE.Vector3(0,-8,0))};setStatus(`${item.id} · ${item.name}`);};
    labels.push({data:item,point,button});
   }
   setStatus(`已载入 ${data.buildings.filter(b=>b.category==='building').length} 栋建筑 · 点击标签靠近`);
  }).catch(e=>{if(!canceled){console.error(e);setStatus('校园或标签载入失败，请刷新页面重试');}});
  api.current={visit,lock(){renderer.domElement.focus();renderer.domElement.requestPointerLock?.()?.catch(()=>setWalkMessage('可拖动画面调整视线'));},walk(v){if(v)void startWalk();else endWalk();},move(key,down){if(down)keys.add(key);else keys.delete(key);},view(n){if(walker||walkRequested)endWalk();needsRender=true;camera.fov=views[n].fov??43;camera.updateProjectionMatrix();transition={p:new THREE.Vector3(...views[n].p as [number,number,number]),t:new THREE.Vector3(...views[n].t as [number,number,number])};if(n===0&&camera.aspect<.8)transition.p.sub(transition.t).multiplyScalar(1.7).add(transition.t);},trees(v){needsRender=true;showTrees=v;model?.traverse(o=>{if(/Canop|Trunk|Tree bark/i.test(o.name)||o.userData.campusVegetation===true)o.visible=v;});renderer.shadowMap.needsUpdate=true;},rotate(v){needsRender=true;controls.autoRotate=v;},labels(v){mode=v;needsRender=true;}};
+ const xr=createCampusXR({scene,camera,renderer,host:el,ready:()=>lodReady,obstacles:()=>{const meshes:THREE.Mesh[]=[];model?.traverseVisible(o=>{if(o instanceof THREE.Mesh&&['46','51'].includes(String(o.userData.building_id??'')))meshes.push(o);});return meshes;},onEnter:()=>{transition=undefined;walkRequested=false;walker=undefined;keys.clear();setWalking(false);setWalkLoading(false);controls.enabled=false;controls.autoRotate=false;layer.hidden=true;if(document.pointerLockElement===renderer.domElement)document.exitPointerLock();needsRender=true;},onExit:()=>{controls.enabled=true;layer.hidden=false;controls.target.copy(camera.position).add(new THREE.Vector3(0,0,-10).applyQuaternion(camera.quaternion));controls.update();needsRender=true;},status:setStatus});
+ const xrLodCamera=new THREE.PerspectiveCamera();
+ // Read-only review hook, installed only on explicit QA URLs.
+ const qa=window as unknown as {__claimedReview?:{ready:()=>boolean;view:(key:string)=>void;stats:()=>unknown}};
+ if(new URLSearchParams(location.search).has('claimedReview'))qa.__claimedReview={ready:()=>lodReady,view:key=>api.current?.view(views.findIndex(v=>v.key===key)),stats:()=>{const ids=new Set<string>();model?.traverseVisible(o=>{if(o.userData.building_id)ids.add(String(o.userData.building_id));});return {ids:[...ids],calls:renderer.info.render.calls,triangles:renderer.info.render.triangles,camera:camera.position.toArray(),target:controls.target.toArray()};}};
  const requestedView=new URLSearchParams(location.search).get('view');const initialView=views.findIndex(v=>v.key===requestedView);if(initialView>=0){setActive(initialView);api.current?.view(initialView);}
  const stopTransition=()=>{transition=undefined;};controls.addEventListener('start',stopTransition);
  const resize=()=>{needsRender=true;camera.aspect=el.clientWidth/el.clientHeight;camera.updateProjectionMatrix();renderer.setSize(el.clientWidth,el.clientHeight);};const observer=new ResizeObserver(resize);observer.observe(el);resize();
@@ -147,12 +174,14 @@ export default function CampusScene(){
  const compassRotation=new THREE.Quaternion();const compassVector=new THREE.Vector3();
  const compassMarks=Array.from(compass.current?.querySelectorAll('g[data-direction]')??[]);
  renderer.setAnimationLoop(()=>{
-  const now=performance.now();if(document.hidden || now-lastFrame<1000/(mobile?30:60))return;const dt=Math.min((now-lastFrame)/1000,.05);lastFrame=now;
-  if(walker){const forward=Number(keys.has('KeyW')||keys.has('ArrowUp'))-Number(keys.has('KeyS')||keys.has('ArrowDown')),side=Number(keys.has('KeyD')||keys.has('ArrowRight'))-Number(keys.has('KeyA')||keys.has('ArrowLeft'));const direction=new THREE.Vector3(side,0,-forward).normalize().applyAxisAngle(new THREE.Vector3(0,1,0),yaw);walker.move(direction,dt,keys.has('ShiftLeft')||keys.has('ShiftRight')?4.5:2.5);updateLook();}
+  const now=performance.now();if(document.hidden || (!renderer.xr.isPresenting&&now-lastFrame<1000/(mobile?30:60)))return;const dt=Math.min((now-lastFrame)/1000,.05);lastFrame=now;
+  if(renderer.xr.isPresenting){xr.update(dt);needsRender=true;}
+  else if(walker){const forward=Number(keys.has('KeyW')||keys.has('ArrowUp'))-Number(keys.has('KeyS')||keys.has('ArrowDown')),side=Number(keys.has('KeyD')||keys.has('ArrowRight'))-Number(keys.has('KeyA')||keys.has('ArrowLeft'));const direction=new THREE.Vector3(side,0,-forward).normalize().applyAxisAngle(new THREE.Vector3(0,1,0),yaw);walker.move(direction,dt,keys.has('ShiftLeft')||keys.has('ShiftRight')?4.5:2.5);updateLook();}
   else if(transition){needsRender=true;const alpha=1-Math.exp(-8*dt);camera.position.lerp(transition.p,alpha);controls.target.lerp(transition.t,alpha);camera.lookAt(controls.target);if(camera.position.distanceTo(transition.p)<.03&&controls.target.distanceTo(transition.t)<.03){camera.position.copy(transition.p);controls.target.copy(transition.t);transition=undefined;}}
   else controls.update(dt);
+  updateAreaLighting();
   if(gate.update(walker?camera.position:null,dt)){needsRender=true;renderer.shadowMap.needsUpdate=true;}
-  if(lodReady&&now-lastDetailCheck>250){lastDetailCheck=now;lod?.update(camera);}
+  if(lodReady&&now-lastDetailCheck>250){lastDetailCheck=now;xrLodCamera.position.copy(xr.position());lod?.update(xrLodCamera);}
   if(walker&&destination&&routeHint.current){
     const dx=destination.p[0]-camera.position.x,dz=destination.p[2]-camera.position.z;
     const angle=Math.atan2(dx,-dz)+yaw;
@@ -183,13 +212,14 @@ export default function CampusScene(){
    item.button.style.zIndex=String(Math.max(1,Math.round(2200-distance)));
   }
  });
- return()=>{canceled=true;window.removeEventListener('keydown',keyDown);window.removeEventListener('keyup',keyUp);window.removeEventListener('blur',clearKeys);window.removeEventListener('pointerup',clearKeys);document.removeEventListener('visibilitychange',clearKeys);renderer.domElement.removeEventListener('pointerdown',lookDown);renderer.domElement.removeEventListener('pointermove',lookMove);renderer.domElement.removeEventListener('pointerup',lookUp);abort.abort();api.current=null;observer.disconnect();renderer.setAnimationLoop(null);controls.dispose();lod?.dispose();scene.traverse(o=>{if(o instanceof THREE.Mesh){o.geometry.dispose();for(const m of Array.isArray(o.material)?o.material:[o.material])m.dispose();}});sky.dispose();metalEnvironment.dispose();renderer.dispose();el.removeChild(renderer.domElement);el.removeChild(layer);};
+ return()=>{canceled=true;window.removeEventListener('keydown',keyDown);window.removeEventListener('keyup',keyUp);window.removeEventListener('blur',clearKeys);window.removeEventListener('pointerup',clearKeys);document.removeEventListener('visibilitychange',clearKeys);renderer.domElement.removeEventListener('pointerdown',lookDown);renderer.domElement.removeEventListener('pointermove',lookMove);renderer.domElement.removeEventListener('pointerup',lookUp);abort.abort();api.current=null;observer.disconnect();renderer.setAnimationLoop(null);controls.dispose();xr.dispose();delete qa.__claimedReview;lod?.dispose();scene.traverse(o=>{if(o instanceof THREE.Mesh){o.geometry.dispose();for(const m of Array.isArray(o.material)?o.material:[o.material])m.dispose();}});sky.dispose();metalEnvironment.dispose();renderer.dispose();el.removeChild(renderer.domElement);el.removeChild(layer);};
  },[quality]);
  return <main className={walking?'walking':''}><div className="viewport" ref={mount}/><header><span className="mark">复</span><div><h1>复旦 · 校园空间</h1><p>邯郸校区 · 鸟瞰探索 / 室外步行</p></div><span className="local">自适应 3D</span></header>
  <nav aria-label="视角">{views.map((v,i)=><button key={v.name} className={active===i?'active':''} aria-current={active===i?'location':undefined} onClick={()=>{setActive(i);api.current?.view(i);const url=new URL(location.href);url.searchParams.set('view',v.key!);history.replaceState(null,'',url);}}><span>{String(i+1).padStart(2,'0')}</span>{v.name}</button>)}</nav>
  <aside><button disabled={walkLoading} className={walking?'selected':''} onClick={()=>api.current?.walk(!walking)}>{walkLoading?'准备步行…':walking?'退出步行':'步行漫游'}</button><label className="label-control">画质<select aria-label="画质" value={quality} onChange={e=>{setWalking(false);setWalkLoading(false);setWalkMessage('');setQuality(e.target.value as typeof quality);setActive(0);setStatus('正在载入校园…');}}><option value="auto">自动适配</option><option value="battery">省电</option><option value="detail">高画质</option></select></label><label className="label-control">建筑标签<select aria-label="建筑标签显示" value={labelMode} onChange={e=>{const v=e.target.value as LabelMode;setLabelMode(v);api.current?.labels(v);}}><option value="auto">自动详略</option><option value="full">全部名称</option><option value="off">关闭</option></select></label><button className={trees?'selected':''} onClick={()=>{setTrees(!trees);api.current?.trees(!trees);}}>树木 {trees?'开':'关'}</button><button disabled={walking} className={rotate?'selected':''} onClick={()=>{setRotate(!rotate);api.current?.rotate(!rotate);}}>环绕 {rotate?'开':'关'}</button><button className={reference?'selected':''} onClick={()=>setReference(reference?null:'map')}>地图对照</button></aside>
  {(walking||walkLoading||walkMessage)&&<section className="walk-panel" aria-label="步行控制"><p role="status">{walkMessage}</p>{walking&&<><div className="walk-actions"><select aria-label="步行地点" value={stop??''} onChange={e=>api.current?.visit(e.target.value as Stop)}><option value="" disabled>选择步行地点</option>{stops.map(key=><option key={key} value={key}>{views.find(v=>v.key===key)?.name}</option>)}</select>{stop&&<button onClick={()=>setReference(stop)}>对照实景</button>}<button className="mouse-look" onClick={()=>api.current?.lock()}>鼠标环视</button></div>{stop&&<output className="walk-route" ref={routeHint} aria-live="off"/>}<p>WASD / 方向键行走 · 拖动看向 · Shift 快走 · Esc 退出</p><div className="walk-pad">{[['KeyW','前进','↑'],['KeyA','左移','←'],['KeyS','后退','↓'],['KeyD','右移','→']].map(([key,label,symbol])=><button key={key} aria-label={label} onPointerDown={e=>{e.preventDefault();e.currentTarget.setPointerCapture(e.pointerId);api.current?.move(key,true);}} onPointerUp={()=>api.current?.move(key,false)} onPointerCancel={()=>api.current?.move(key,false)} onLostPointerCapture={()=>api.current?.move(key,false)}>{symbol}</button>)}</div></>}</section>}
  {reference&&<div className="reference"><div className="reference-tabs"><button className={reference==='map'?'selected':''} onClick={()=>setReference('map')}>校园地图</button><button className={reference==='photo'?'selected':''} onClick={()=>setReference('photo')}>原始照片</button><button className={reference==='yifu'?'selected':''} onClick={()=>setReference('yifu')}>逸夫楼实景</button><button className={reference==='science'?'selected':''} onClick={()=>setReference('science')}>科技楼实景</button><button className={reference==='guanghua'?'selected':''} onClick={()=>setReference('guanghua')}>光华楼实景</button><button className={reference==='library'?'selected':''} onClick={()=>setReference('library')}>图书馆实景</button><button className={reference==='gate'?'selected':''} onClick={()=>setReference('gate')}>校门实景</button><button onClick={()=>setReference('physics')}>恒隆物理楼实景</button><button onClick={()=>setReference('chemistry')}>化学楼实景</button><button onClick={()=>setReference('office')}>综合办公楼实景</button><button onClick={()=>setReference(null)} aria-label="关闭参考图片">×</button></div><a href={reference==='office'?'/office-building.jpg':reference==='chemistry'?'/chemistry-building.jpg':reference==='physics'?'/physics-building.jpg':reference==='map'?'/campus-map.png':reference==='yifu'?'/yifu-overall.jpg':reference==='science'?'/yifu-science-building.png':reference==='guanghua'?'/guanghua-building.png':reference==='library'?'/library-entry.jpg':reference==='gate'?'/gate-front.jpg':'/reference.jpg'} target="_blank" rel="noreferrer"><img src={reference==='office'?'/office-building.jpg':reference==='chemistry'?'/chemistry-building.jpg':reference==='physics'?'/physics-building.jpg':reference==='map'?'/campus-map.png':reference==='yifu'?'/yifu-overall.jpg':reference==='science'?'/yifu-science-building.png':reference==='guanghua'?'/guanghua-building.png':reference==='library'?'/library-entry.jpg':reference==='gate'?'/gate-front.jpg':'/reference.jpg'} alt={reference==='office'?'综合办公楼实景':reference==='chemistry'?'化学楼一侧入口':reference==='physics'?'恒隆物理楼实景':reference==='map'?'复旦大学校园地图':reference==='yifu'?'逸夫楼实景照片':reference==='science'?'逸夫科技楼实景照片':reference==='guanghua'?'光华楼实景照片':reference==='library'?'理科图书馆局部立面照片':reference==='gate'?'复旦校门参考照片':'校园沙盘原始参考照片'}/></a>{reference==='yifu'&&<a href="/yifu-entrance.jpg" target="_blank" rel="noreferrer"><img src="/yifu-entrance.jpg" alt="逸夫楼入口雨棚与面砖近景"/></a>}{reference==='library'&&<><a href="/library-street.jpg" target="_blank" rel="noreferrer"><img src="/library-street.jpg" alt="理科图书馆沿街立面"/></a><a href="/library-side.jpg" target="_blank" rel="noreferrer"><img src="/library-side.jpg" alt="理科图书馆侧向细节"/></a></>}{reference==='gate'&&<><a href="/gate-front-wide.jpg" target="_blank" rel="noreferrer"><img src="/gate-front-wide.jpg" alt="校门正面全景"/></a><a href="/gate-rear.jpg" target="_blank" rel="noreferrer"><img src="/gate-rear.jpg" alt="校门背面（校内看向校外）"/></a></>}<p>名称与位置依据所附地图；N / A 为无法辨清原编号的楼栋。点击图片可放大。</p></div>}
+ <FieldPhotos/>
  <div className="label-hint">选择左侧建筑探索 · 点击“步行漫游”进入室外</div>
  <div className="campus-compass" role="img" aria-label="校园方向：正门朝外为正南，方向随视角旋转">
   <svg ref={compass} viewBox="0 0 128 128" aria-hidden="true">
