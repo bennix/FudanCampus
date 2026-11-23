@@ -25,7 +25,7 @@ export class WalkWorld{
  private build(ids:number[]){const tree=new Octree();for(const i of ids){tree.addTriangle(new THREE.Triangle(new THREE.Vector3().fromArray(this.data,i),new THREE.Vector3().fromArray(this.data,i+3),new THREE.Vector3().fromArray(this.data,i+6)));}tree.build();return tree;}
  private nearby(p:THREE.Vector3){const trees=[this.global];for(let x=Math.floor((p.x-1)/24);x<=Math.floor((p.x+1)/24);x++)for(let z=Math.floor((p.z-1)/24);z<=Math.floor((p.z+1)/24);z++){const key=x+','+z;if(!this.cache.has(key))this.cache.set(key,this.build(this.cells.get(key)??[]));trees.push(this.cache.get(key)!);}if(this.cache.size>20){for(const [key,tree] of this.cache)if(!trees.includes(tree)){this.cache.delete(key);break;}}return trees;}
  blocked(x:number,z:number){return blockedInterior(x,z,this.interiors);}
- resolve(capsule:Capsule){let ground=false,wall=false;for(let pass=0;pass<4;pass++){let any=false;for(const tree of this.nearby(capsule.start)){const hit=tree.capsuleIntersect(capsule);if(hit&&hit.depth>1e-6){capsule.translate(hit.normal.clone().multiplyScalar(hit.depth+1e-5));ground ||= hit.normal.y>.5;wall ||= Math.abs(hit.normal.y)<.5;any=true;}}if(!any)break;}return {ground,wall};}
+ resolve(capsule:Capsule){let ground=false,wall=false,ceiling=false;for(let pass=0;pass<4;pass++){let any=false;for(const tree of this.nearby(capsule.start)){const hit=tree.capsuleIntersect(capsule);if(hit&&hit.depth>1e-6){capsule.translate(hit.normal.clone().multiplyScalar(hit.depth+1e-5));ground ||= hit.normal.y>.5;ceiling ||= hit.normal.y<-.5;wall ||= Math.abs(hit.normal.y)<.5;any=true;}}if(!any)break;}return {ground,wall,ceiling};}
  floor(x:number,z:number,from=2.5){const origin=new THREE.Vector3(x,from,z),ray=new THREE.Ray(origin,new THREE.Vector3(0,-1,0));let y=-Infinity;for(const tree of this.nearby(origin)){const hit=tree.rayIntersect(ray);if(hit)y=Math.max(y,hit.position.y);}return y;}
  spawn(preferred:THREE.Vector3){for(let r=0;r<45;r+=1.5)for(let j=0;j<(r===0?1:24);j++){const x=preferred.x+Math.cos(j*Math.PI/12)*r,z=preferred.z+Math.sin(j*Math.PI/12)*r;if(this.blocked(x,z))continue;const floor=this.floor(x,z);if(!Number.isFinite(floor)||floor<-.5||floor>1.8)continue;const c=new Capsule(new THREE.Vector3(x,floor+.31,z),new THREE.Vector3(x,floor+1.41,z),.3);this.resolve(c);if(Math.hypot(c.start.x-x,c.start.z-z)<.05&&!this.blocked(c.start.x,c.start.z))return c;}throw Error('附近没有可安全落脚的位置，请切换到校门或空旷区域');}
 }
@@ -33,8 +33,9 @@ export class Walker{
  readonly body:Capsule;private vertical=0;private grounded=false;private safe:Capsule;
  private world:WalkWorld;
  constructor(world:WalkWorld,start:THREE.Vector3){this.world=world;this.body=world.spawn(start);this.safe=this.body.clone();}
+ jump(){if(!this.grounded)return false;this.vertical=3.5;this.grounded=false;return true;}
  eye(){return this.body.end.clone().add(new THREE.Vector3(0,.27,0));}
- move(direction:THREE.Vector3,dt:number,speed=2.5){dt=Math.min(.05,Math.max(0,dt));const steps=Math.max(1,Math.ceil(speed*dt/.075)),h=dt/steps;
+ move(direction:THREE.Vector3,dt:number,speed=2.5){dt=Math.min(.05,Math.max(0,dt));const steps=Math.max(1,Math.ceil(Math.max(speed,Math.abs(this.vertical)+18*dt)*dt/.075)),h=dt/steps;
   for(let i=0;i<steps;i++){
    const before=this.body.clone();const delta=direction.clone().multiplyScalar(speed*h);this.vertical=Math.max(-8,this.vertical-18*h);delta.y=this.vertical*h;
    // Axis-wise movement slides along sealed exterior boundaries and concave courtyards.
@@ -46,6 +47,7 @@ export class Walker{
    const stepHeight=gateApproach ? .44 : .26;
    if(result.wall&&this.grounded){const raised=before.clone();raised.translate(new THREE.Vector3(delta.x,stepHeight,delta.z));const check=this.world.resolve(raised);if(!check.wall&&!this.world.blocked(raised.start.x,raised.start.z)){const floor=this.world.floor(raised.start.x,raised.start.z,before.start.y+stepHeight+.01);if(floor>=before.start.y-.32&&floor<=before.start.y-.3+stepHeight)this.body.copy(raised);}}
    if(this.world.blocked(this.body.start.x,this.body.start.z)){this.body.copy(before);this.vertical=0;}
+   if(result.ceiling&&this.vertical>0)this.vertical=0;
    if(result.ground){this.vertical=0;this.safe.copy(this.body);}this.grounded=result.ground;
    if(this.body.start.y<this.safe.start.y-2||Math.abs(this.body.start.x)>1500||Math.abs(this.body.start.z)>1200){this.body.copy(this.safe);this.vertical=0;}
   }

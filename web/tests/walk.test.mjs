@@ -35,3 +35,22 @@ test('walk from the default gate viewpoint across the raised road and through th
   assert(w.eye().z < -15,JSON.stringify(w.eye()));
  }
 });
+test('small jump lands, rejects airborne repeats and remains stable across frame rates',()=>{
+ for(const fps of [20,30,60,120]){
+  const w=new Walker(new WalkWorld(new Float32Array(floor),[]),new THREE.Vector3());
+  for(let i=0;i<10;i++)w.move(new THREE.Vector3(),1/fps);
+  const initial=w.eye().y;assert(w.jump());assert.equal(w.jump(),false);let peak=initial;
+  for(let i=0;i<fps;i++){w.move(new THREE.Vector3(1,0,0),1/fps);peak=Math.max(peak,w.eye().y);}
+  assert(peak-initial>.2&&peak-initial<.36);assert(Math.abs(w.eye().y-initial)<.02);assert(w.eye().x>2);assert(w.jump());
+ }
+});
+test('jump collides with low ceilings, walls and sealed interiors',()=>{
+ const world=new WalkWorld(new Float32Array([...floor,...box(0,1.95,0,10,.1,10),...box(1,1,0,.1,2,10)]),[]);
+ // Spawn beneath the canopy rather than letting the outdoor spawn search choose its roof.
+ world.spawn=start=>new WalkWorld(new Float32Array(floor),[]).spawn(start);
+ const w=new Walker(world,new THREE.Vector3());for(let i=0;i<10;i++)w.move(new THREE.Vector3(),1/60);
+ assert(w.jump());for(let i=0;i<90;i++){w.move(new THREE.Vector3(1,0,0),1/60);assert(w.eye().y<1.88);assert(w.eye().x<.66);}assert(Math.abs(w.eye().y-1.67)<.03);
+ const sealed=new WalkWorld(new Float32Array(floor),[{bounds:[1,-3,6,3],rings:[[[1,-3],[6,-3],[6,3],[1,3],[1,-3]]]}]);
+ const other=new Walker(sealed,new THREE.Vector3());for(let i=0;i<10;i++)other.move(new THREE.Vector3(),1/60);
+ for(let i=0;i<120;i++){other.jump();other.move(new THREE.Vector3(1,0,0),1/60);assert(!sealed.blocked(other.eye().x,other.eye().z));}
+});
