@@ -9,7 +9,15 @@ export function disposeGroup(group:THREE.Object3D){
  group.traverse(o=>{if(o instanceof THREE.Mesh){if(o instanceof THREE.InstancedMesh)o.dispose();geometries.add(o.geometry);for(const m of Array.isArray(o.material)?o.material:[o.material]){materials.add(m);for(const v of Object.values(m))if(v instanceof THREE.Texture)textures.add(v);}}});
  geometries.forEach(g=>g.dispose());textures.forEach(t=>t.dispose());materials.forEach(m=>m.dispose());
 }
+export type LodProgress={total:number;loaded:number;active:number;failed:number;complete:boolean};
 export class CampusLod {
+ private progressKey="";
+ private report(){
+  if(this.stopped)return;
+  const total=this.entries.length,loaded=this.entries.filter(e=>e.ready&&e.current===e.target).length,failed=this.entries.filter(e=>e.failures>0&&(!e.ready||e.current!==e.target)).length;
+  const progress={total,loaded,active:this.active,failed,complete:total>0&&loaded===total&&this.active===0};
+  const key=JSON.stringify(progress);if(key!==this.progressKey){this.progressKey=key;this.onProgress(progress);}
+ }
  private loader=new GLTFLoader().setMeshoptDecoder(MeshoptDecoder);
  private stopped=false;
  private active=0;
@@ -18,9 +26,9 @@ export class CampusLod {
   const connection=(globalThis.navigator as Navigator & {connection?:{effectiveType?:string;saveData?:boolean}})?.connection;
   return connection?.saveData||['slow-2g','2g','3g'].includes(connection?.effectiveType??'')||performance.now()<this.slowUntil;
  }
- private entries:{asset:LodAsset;box:THREE.Box3;far:THREE.Group;ready:boolean;detail?:THREE.Group;current:Tier;wanted:Tier;request?:AbortController;retryAt:number;failures:number}[]=[];
+ private entries:{asset:LodAsset;box:THREE.Box3;far:THREE.Group;ready:boolean;detail?:THREE.Group;current:Tier;target:Tier;wanted:Tier;request?:AbortController;retryAt:number;failures:number}[]=[];
  private pending=new Set<AbortController>();
- constructor(private root:THREE.Group,private base:string,private mobile:boolean,private prepare:(g:THREE.Group)=>void,private changed:()=>void){}
+ constructor(private root:THREE.Group,private base:string,private mobile:boolean,private prepare:(g:THREE.Group)=>void,private changed:()=>void,private onProgress:(progress:LodProgress)=>void=()=>{}){}
  private async load(asset:LodAsset,tier:Tier,signal:AbortSignal){
   const file=asset.tiers[tier];const url=new URL(file.url,this.base);url.searchParams.set('v',file.revision);
   const started=performance.now();
@@ -45,8 +53,8 @@ export class CampusLod {
   return g;
  }
  initialize(manifest:LodManifest){
-  this.entries=manifest.assets.map(asset=>{const far=this.placeholder(asset);this.root.add(far);return {asset,box:new THREE.Box3(new THREE.Vector3(...asset.bounds.min),new THREE.Vector3(...asset.bounds.max)),far,ready:false,current:0 as Tier,wanted:0 as Tier,retryAt:0,failures:0};});
-  this.changed();
+  this.entries=manifest.assets.map(asset=>{const far=this.placeholder(asset);this.root.add(far);return {asset,box:new THREE.Box3(new THREE.Vector3(...asset.bounds.min),new THREE.Vector3(...asset.bounds.max)),far,ready:false,current:0 as Tier,target:0 as Tier,wanted:0 as Tier,retryAt:0,failures:0};});
+  this.changed();this.report();
 
  }
 
@@ -56,8 +64,10 @@ export class CampusLod {
   const limited=this.constrained();
   const targets=allocateTiers(items,this.mobile||!!limited);
   for(const e of this.entries){
-   let wanted=e.ready?targets.get(e.asset.id)!:0;
+   let wanted=targets.get(e.asset.id)!;
    if(limited&&wanted>0&&e.asset.tiers[wanted].bytes>1024*1024)wanted=e.asset.tiers[1].bytes<=1024*1024?1:0;
+   e.target=wanted;
+   if(!e.ready)wanted=0;
    if(wanted===2&&e.current===0)wanted=1;
    if(e.wanted!==wanted){e.request?.abort();e.retryAt=0;e.failures=0;}
    e.wanted=wanted;
@@ -76,8 +86,9 @@ export class CampusLod {
     if(tier===0){this.root.remove(e.far);disposeGroup(e.far);e.far=g;e.ready=true;}
     else{e.detail=g;e.far.visible=false;}
     e.current=tier;e.failures=0;this.changed();
-   }).catch(error=>{if(!request.signal.aborted&&!this.stopped){console.warn('LOD detail unavailable; overview retained',e.asset.id,error);e.failures++;e.retryAt=performance.now()+Math.min(60000,5000*2**e.failures);}}).finally(()=>{if(e.request===request)e.request=undefined;this.pending.delete(request);this.active--;});
+   }).catch(error=>{if(!request.signal.aborted&&!this.stopped){console.warn('LOD detail unavailable; overview retained',e.asset.id,error);e.failures++;e.retryAt=performance.now()+Math.min(60000,5000*2**e.failures);}}).finally(()=>{if(e.request===request)e.request=undefined;this.pending.delete(request);this.active--;this.report();});
   }
+  this.report();
  }
  dispose(){this.stopped=true;this.pending.forEach(r=>r.abort());for(const e of this.entries){this.root.remove(e.far);disposeGroup(e.far);if(e.detail){this.root.remove(e.detail);disposeGroup(e.detail);}}this.entries=[];}
 }

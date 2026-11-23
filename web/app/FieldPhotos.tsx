@@ -1,8 +1,12 @@
-import { useState } from 'react';
+import { useEffect, useState } from 'react';
 
 export default function FieldPhotos() {
+ const [visible,setVisible]=useState(true);
+ useEffect(()=>{const close=(e:KeyboardEvent)=>{if(e.key==='Escape'){setBuilding(null);setVisible(false);}};window.addEventListener('keydown',close);return()=>window.removeEventListener('keydown',close);},[]);
  const [building, setBuilding] = useState<'46'|'51'|null>(null);
+ if(!visible)return <button className="field-photos-reopen" onClick={()=>setVisible(true)}>建筑实拍</button>;
  return <section className="field-photos" aria-label="建筑实拍参考">
+  <button className="field-photos-close" aria-label="关闭实拍窗体" onClick={()=>{setBuilding(null);setVisible(false);}}>× 关闭</button>
   <button onClick={()=>setBuilding(building==='46'?null:'46')}>一教 · 实拍 7 张</button>{' '}
   <button onClick={()=>setBuilding(building==='51'?null:'51')}>综合楼 · 实拍 11 张</button>
   {building&&<div style={{maxHeight:'55vh',overflowY:'auto'}}>

@@ -71,3 +71,21 @@ test('slow connection serializes downloads and defers large close-ups',async()=>
  for(let i=0;i<6;i++){lod.update(camera);await tick();}
  assert.equal(calls.length,4);assert(calls.every(([,tier])=>tier<2));lod.dispose();
 });
+
+test('progress waits for all staged detail and resumes on viewpoint changes',async()=>{
+ const updates=[],lod=new CampusLod(new THREE.Group(),'http://localhost/',false,()=>{},()=>{},p=>updates.push(p));
+ lod.load=async()=>group();lod.initialize({assets:[asset]});camera.position.set(0,0,10);
+ for(let i=0;i<3;i++){lod.update(camera);await tick();if(i<2)assert.equal(updates.at(-1).complete,false);}
+ assert.equal(updates.at(-1).complete,true);assert.equal(updates.at(-1).loaded,1);
+ camera.position.set(0,0,1000);lod.update(camera);
+ let resolve;lod.load=()=>new Promise(r=>resolve=r);camera.position.set(0,0,10);lod.update(camera);
+ assert.equal(updates.at(-1).complete,false);assert.equal(updates.at(-1).active,1);
+ resolve(group());await tick();assert.equal(updates.at(-1).complete,false);lod.dispose();
+});
+test('failed resources are reported and never count as complete',async(t)=>{
+ t.mock.method(console,'warn',()=>{});let progress;
+ const lod=new CampusLod(new THREE.Group(),'http://localhost/',false,()=>{},()=>{},p=>progress=p);
+ lod.load=async()=>{throw Error('offline');};lod.initialize({assets:[asset]});camera.position.set(0,0,1000);lod.update(camera);await tick();
+ assert.equal(progress.failed,1);assert.equal(progress.complete,false);assert.equal(progress.loaded,0);
+ lod.entries[0].retryAt=0;lod.load=async()=>group();lod.update(camera);await tick();assert.equal(progress.complete,true);assert.equal(progress.failed,0);lod.dispose();
+});
